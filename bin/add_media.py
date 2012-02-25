@@ -1,12 +1,10 @@
 #!/usr/bin/env python
 
-# THIS IS NOT FINISHED. IT WORKS BUT IS UGLY.
-# (20120225/straup)
-
 """
 Append the URLs for the files in media.csv to individual object JSON files.
 """
 
+import sys
 import csv
 import json
 import utils
@@ -14,18 +12,25 @@ import os.path
 
 if __name__ == '__main__' :
 
+    whoami = os.path.abspath(sys.argv[0])
+    bindir = os.path.dirname(whoami)
+    collection = os.path.dirname(bindir)
 
-    path = '../media.csv'
-    fh = open(path, 'r')
+    objects = os.path.join(collection, 'objects')
 
-    reader = csv.DictReader(fh)
+    media_csv = os.path.join(collection, 'media.csv')
+    media_fh = open(media_csv, 'r')
+
+    reader = csv.DictReader(media_fh)
 
     for row in reader:
-
-        root = "../objects/" + utils.id2path(row['id']) + "/"
+        
         fname = "%s.json" % row['id']
 
-        obj_path = root + fname
+        root = utils.id2path(row['id'])
+        root = os.path.join(objects, root)
+
+        obj_path = os.path.join(root, fname)
 
         if not os.path.exists(obj_path):
             continue

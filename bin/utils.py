@@ -1,3 +1,5 @@
+import os.path
+
 def id2path(id):
 
     tmp = str(id)
@@ -10,4 +12,4 @@ def id2path(id):
     if len(tmp):
         parts.append(tmp)
 
-    return "/".join(parts)
+    return os.path.join(*parts)
