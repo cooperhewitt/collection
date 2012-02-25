@@ -1,12 +1,13 @@
 #!/usr/bin/env python
 
-# THIS IS NOT FINISHED. IT WORKS BUT IS UGLY.
+# I think there might still be some weirdness in the UTF-8 wrangling
 # (20120225/straup)
 
 """
 Export the contents of objects.csv in to individual JSON files.
 """
 
+import sys
 import json
 import csv
 import utils
@@ -43,17 +44,27 @@ class UnicodeDictReader(csv.DictReader):
 
 if __name__ == '__main__':
 
-    path = '../objects.csv'
-    fh = open(path, 'r')
+    whoami = os.path.abspath(sys.argv[0])
+    bindir = os.path.dirname(whoami)
+    collection = os.path.dirname(bindir)
 
-    r = UnicodeDictReader(fh)
+    objects = os.path.join(collection, 'objects')
 
-    for row in r:
+    obj_csv = os.path.join(collection, 'objects.csv')
+    obj_fh = open(obj_csv, 'r')
 
-        root = "../objects/" + utils.id2path(row['id']) + "/"
+    reader = UnicodeDictReader(obj_fh)
+
+    for row in reader:
+
         fname = "%s.json" % row['id']
 
-        out = root + fname
+        root = utils.id2path(row['id'])
+        root = os.path.join(objects, root)
+
+        out = os.path.join(root, fname)
+        print out
+        continue
 
         if not os.path.exists(root):
             os.makedirs(root)
@@ -61,5 +72,4 @@ if __name__ == '__main__':
         out_fh = open(out, 'w')
         json.dump(row, out_fh, indent=2)
 
-        
         print out
