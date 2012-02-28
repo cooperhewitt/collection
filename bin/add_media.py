@@ -45,7 +45,7 @@ if __name__ == '__main__' :
         fname = row['filename']
 
 	if obj_data.get('media_id', False) and obj_data['media_id'] != '':
-            fname = obj_data['media_id'] + ".JPG"
+            fname = obj_data['media_id'] + ".jpg"
 
         obj_data['thumbnail'] = 'http://data.cooperhewitt.org/media/350/' + fname
 
