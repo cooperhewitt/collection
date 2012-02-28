@@ -39,7 +39,15 @@ if __name__ == '__main__' :
         obj_data = json.load(obj_fh)
         obj_fh.close()
 
-        obj_data['thumbnail'] = 'https://d2lp2xklsr2xgg.cloudfront.net/media/350/' + row['filename']
+	# we opted to rename all the files in lowercase using the media_id field
+	# from the objects.csv or the corresponding "id" field from the media.csv
+
+        fname = row['filename']
+
+	if obj_data.get('media_id', False) and obj_data['media_id'] != '':
+            fname = obj_data['media_id'] + ".JPG"
+
+        obj_data['thumbnail'] = 'http://data.cooperhewitt.org/media/350/' + fname
 
         obj_fh = open(obj_path, 'w')
         json.dump(obj_data, obj_fh, indent=2)
