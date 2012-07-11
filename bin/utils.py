@@ -1,4 +1,8 @@
 import os.path
+import pprint
+
+def dumper(data):
+    print pprint.pformat(data)
 
 def id2path(id):
 
