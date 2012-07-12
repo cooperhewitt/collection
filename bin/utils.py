@@ -17,3 +17,24 @@ def id2path(id):
         parts.append(tmp)
 
     return os.path.join(*parts)
+
+def clean_meta_name(name):
+
+    # sudo make me better
+
+    name = name.strip()
+    name = name.replace(" ", "-")
+    name = name.replace("?", "")
+    name = name.replace("&", "")
+    name = name.replace(":", "")
+    name = name.replace("/", "-")
+    name = name.replace(",", "-")
+    name = name.replace("'", "-")
+    name = name.replace("(", "-")
+    name = name.replace(")", "")
+    name = name.replace("`", "")
+    name = name.replace("--", "-")
+    name = name.replace("..", ".")
+    name = name.lower()
+
+    return name
