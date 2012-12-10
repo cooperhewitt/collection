@@ -46,6 +46,33 @@ if __name__ == '__main__':
             data = json.load(open(path, 'r'))
 
             images = data.get('images', [])
+            primary_image = None
+
+            if len(images):
+
+                for img in images:
+
+                    # huh? why...
+
+                    if type(img) != types.DictType:
+                        continue
+
+                    for sz, details in img.items():
+
+                        if sz != 'z':
+                            continue
+
+                        if int(details['is_primary']) != 1:
+                            continue
+
+                        primary_image = details['url']
+                        break
+                    
+                    if primary_image:
+                        break
+
+            data['primary_image'] = primary_image
+
             participants = data.get('participants', [])
             exhibitions = data.get('exhibitions', [])
 
@@ -57,6 +84,7 @@ if __name__ == '__main__':
 
             if not writer_objects:
                 keys = data.keys()
+                keys.append('primary_image')
                 keys.sort()
                 writer_objects = csv.DictWriter(fh_objects, fieldnames=keys)
                 writer_objects.writeheader()
