@@ -144,6 +144,15 @@ title
 tms:id
 ==
 
+type
+==
+
+type.id
+==
+
+type.name
+==
+
 url
 ==
 
