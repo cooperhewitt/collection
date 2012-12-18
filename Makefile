@@ -1,3 +1,5 @@
+all:	csv glossary
+
 csv:
 	bin/generate-csv-exhibitions.py
 	bin/generate-csv-objects.py
