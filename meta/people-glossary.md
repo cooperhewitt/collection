@@ -9,10 +9,25 @@ concordances
 concordances.freebase:id
 ==
 
+concordances.ima:id
+==
+
 concordances.lcnaf:id
 ==
 
 concordances.moma:id
+==
+
+concordances.phm:id
+==
+
+concordances.tms:id
+==
+
+concordances.ulan:id
+==
+
+concordances.vanda:id
 ==
 
 concordances.viaf:id

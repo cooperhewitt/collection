@@ -31,6 +31,24 @@ if __name__ == '__main__':
     writer_people = None
     writer_roles = None
 
+    concordances = []
+
+    for root, dirs, files in os.walk(datadir):
+
+        for f in files:
+
+            path = os.path.join(root, f)
+            logging.info("processing %s" % path)
+    
+            data = json.load(open(path, 'r'))
+
+            if type(data['concordances']) == types.DictType:
+
+                for k, v in data['concordances'].items():
+
+                    if k not in concordances:
+                        concordances.append(k)
+
     for root, dirs, files in os.walk(datadir):
 
         for f in files:
@@ -57,6 +75,11 @@ if __name__ == '__main__':
             if not writer_people:
 
                 keys = data.keys()
+
+                for c in concordances:
+                    if c not in keys:
+                        keys.append(c)
+
                 keys.sort()
 
                 writer_people = csv.DictWriter(fh_people, fieldnames=keys)
