@@ -89,8 +89,12 @@ if __name__ == '__main__':
                 writer_objects = csv.DictWriter(fh_objects, fieldnames=keys)
                 writer_objects.writeheader()
 
-            data = utils.utf8ify_dict(data)
-            writer_objects.writerow(data)
+            try:
+                data = utils.utf8ify_dict(data)
+                writer_objects.writerow(data)
+            except Exception, e:
+                print data
+                raise Exception, e
 
             #
 

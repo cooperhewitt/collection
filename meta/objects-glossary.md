@@ -102,6 +102,9 @@ justification
 markings
 ==
 
+media_id
+==
+
 medium
 ==
 
@@ -151,6 +154,9 @@ type.id
 ==
 
 type.name
+==
+
+type_id
 ==
 
 url
