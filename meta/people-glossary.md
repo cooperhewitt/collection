@@ -15,6 +15,9 @@ concordances.ima:id
 concordances.lcnaf:id
 ==
 
+concordances.ldm:id
+==
+
 concordances.moma:id
 ==
 
@@ -31,6 +34,9 @@ concordances.vanda:id
 ==
 
 concordances.viaf:id
+==
+
+concordances.walker:id
 ==
 
 concordances.wikipedia:id
