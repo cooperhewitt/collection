@@ -3,6 +3,15 @@ _This file was generated programmatically using the `meta/objects-glossary.json`
 accession_number
 ==
 
+colors
+==
+
+colors.closest_css3
+==
+
+colors.color
+==
+
 creditline
 ==
 
@@ -145,6 +154,12 @@ title
 ==
 
 tms:id
+==
+
+tombstone
+==
+
+tombstone.epitaph
 ==
 
 type
