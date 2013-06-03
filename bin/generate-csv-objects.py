@@ -76,9 +76,11 @@ if __name__ == '__main__':
             participants = data.get('participants', [])
             exhibitions = data.get('exhibitions', [])
 
-            del(data['images'])
-            del(data['participants'])
-            del(data['exhibitions'])
+            #
+
+            for prop in ('images', 'colors', 'participants', 'exhibitions'):
+                if data.has_key(prop):
+                    del(data[prop])
 
             #
 
@@ -93,7 +95,8 @@ if __name__ == '__main__':
                 data = utils.utf8ify_dict(data)
                 writer_objects.writerow(data)
             except Exception, e:
-                print data
+                import pprint
+                print pprint.pformat(data)
                 raise Exception, e
 
             #
