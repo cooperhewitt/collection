@@ -1,5 +1,8 @@
 all:	csv glossary
 
+prune:
+	git gc --aggressive --prune
+
 csv:
 	bin/generate-csv-exhibitions.py
 	bin/generate-csv-objects.py
