@@ -9,6 +9,9 @@ concordances
 concordances.freebase:id
 ==
 
+concordances.ideo:id
+==
+
 concordances.ima:id
 ==
 

@@ -72,6 +72,21 @@ images.b.url
 images.b.width
 ==
 
+images.d
+==
+
+images.d.height
+==
+
+images.d.is_primary
+==
+
+images.d.url
+==
+
+images.d.width
+==
+
 images.n
 ==
 
@@ -85,6 +100,21 @@ images.n.url
 ==
 
 images.n.width
+==
+
+images.sq
+==
+
+images.sq.height
+==
+
+images.sq.is_primary
+==
+
+images.sq.url
+==
+
+images.sq.width
 ==
 
 images.z
