@@ -3,6 +3,7 @@
     "tms:id": "194276",
     "accession_number": "1992-124-1",
     "title": "Platter, 1888\u201398",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18638831\/",
     "department_id": "35347497",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1986,
     "year_acquired": "1992",
     "decade": null,
-    "woe:country": "23424975",
+    "woe:country_id": "23424975",
     "medium": "Lustered and glazed earthenware",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "1992: acquired by the Museum (from Mr. Richard Dennis)",
     "dimensions": "H x diam.: 5 x 43 cm (1 15\/16 x 16 15\/16 in.)",
+    "dimensions_raw": {
+        "diameter": [
+            "43.00",
+            "centimeters"
+        ],
+        "height": [
+            "5.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase through bequest of Dona Guimaraes",
     "description": "A dark red plate decorated with a border of cream-colored nude males around the inner plate and outer rim.",
     "justification": null,
-    "type": {
-        "id": "35248793",
-        "name": "platter"
-    },
+    "woe:country": "23424975",
+    "type": "platter",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/15946_db8b09d850eaa16a_b.jpg",
                 "width": 1007,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/15946_db8b09d850eaa16a_n.jpg",
-                "width": 315,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "15946"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/15946_db8b09d850eaa16a_z.jpg",
                 "width": 629,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "15946"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/15946_db8b09d850eaa16a_n.jpg",
+                "width": 315,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "15946"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/15946_db8b09d850eaa16a_d.gif",
+                "width": 315,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "15946"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/15946_db8b09d850eaa16a_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "15946"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/15948_220ca077464b0cde_b.jpg",
                 "width": 998,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/15948_220ca077464b0cde_n.jpg",
-                "width": 312,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "15948"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/15948_220ca077464b0cde_z.jpg",
                 "width": 624,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "15948"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/15948_220ca077464b0cde_n.jpg",
+                "width": 312,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "15948"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/15948_220ca077464b0cde_d.gif",
+                "width": 312,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "15948"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/15948_220ca077464b0cde_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "15948"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18041149",
             "role_id": "35352249",
             "person_name": "Mr. Richard Dennis",
+            "person_date": "",
             "role_name": "Vendor",
+            "role_display_name": "Purchased from",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041149\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352249\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18040917",
             "role_id": "51571025",
             "person_name": "Dona Guimaraes",
+            "person_date": "",
             "role_name": "Funder",
+            "role_display_name": "Purchased with funds from:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18040917\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/51571025\/"
         },
@@ -90,15 +137,19 @@
             "person_id": "18044367",
             "role_id": "35236685",
             "person_name": "Sand's End Pottery",
+            "person_date": "",
             "role_name": "Maker",
+            "role_display_name": "Made by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18044367\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236685\/"
         },
         {
             "person_id": "18044369",
             "role_id": "35236655",
-            "person_name": "William Frend de Morgan",
+            "person_name": "William Frend De Morgan",
+            "person_date": "British, 1839\u20131917",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18044369\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
@@ -108,24 +159,35 @@
     },
     "colors": [
         {
-            "color": "#52302d",
-            "closest_css3": "#2f4f4f"
+            "color": "#4a2e2b",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#d1c4b3",
-            "closest_css3": "#c0c0c0"
+            "color": "#bda394",
+            "closest_crayola": "#deaa88",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         },
         {
-            "color": "#bd9c8e",
-            "closest_css3": "#bc8f8f"
+            "color": "#d1c4b4",
+            "closest_crayola": "#cdc5c2",
+            "closest_css3": "#c0c0c0",
+            "closest_css4": "#c0c0c0"
         },
         {
-            "color": "#9f6c65",
-            "closest_css3": "#808080"
+            "color": "#86544f",
+            "closest_crayola": "#6e5160",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         },
         {
-            "color": "#78272b",
-            "closest_css3": "#8b4513"
+            "color": "#78292c",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#8b4513",
+            "closest_css4": "#8b4513"
         }
-    ]
+    ],
+    "woe:country_name": "United Kingdom"
 }

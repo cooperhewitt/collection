@@ -3,6 +3,7 @@
     "tms:id": "167031",
     "accession_number": "1980-33-11",
     "title": "Textile, ca. 1780",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18512151\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,60 @@
     "year_end": 1790,
     "year_acquired": "1980",
     "decade": null,
-    "woe:country": null,
+    "woe:country_id": null,
     "medium": "Medium: cotton\nTechnique: copperplate printed on plain weave",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "Height of repeat: 38 1\/2inches.",
+    "dimensions_raw": {
+        "height": [
+            "97.79",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase from Textile Department Fund",
     "description": null,
     "justification": null,
-    "type": {
-        "id": "35251739",
-        "name": "textile"
-    },
+    "woe:country": null,
+    "type": "textile",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/77118_6b876d742234c711_b.jpg",
                 "width": 663,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/77118_6b876d742234c711_n.jpg",
-                "width": 207,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "77118"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/77118_6b876d742234c711_z.jpg",
                 "width": 414,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "77118"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/77118_6b876d742234c711_n.jpg",
+                "width": 207,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "77118"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/77118_6b876d742234c711_d.gif",
+                "width": 207,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "77118"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/77118_6b876d742234c711_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "77118"
             }
         },
         {
@@ -53,19 +75,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/77119_d9bc10d2c63130f4_b.jpg",
                 "width": 1024,
                 "height": 663,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/77119_d9bc10d2c63130f4_n.jpg",
-                "width": 320,
-                "height": 207,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "77119"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/77119_d9bc10d2c63130f4_z.jpg",
                 "width": 640,
                 "height": 414,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "77119"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/77119_d9bc10d2c63130f4_n.jpg",
+                "width": 320,
+                "height": 207,
+                "is_primary": "0",
+                "image_id": "77119"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/77119_d9bc10d2c63130f4_d.gif",
+                "width": 320,
+                "height": 207,
+                "is_primary": "0",
+                "image_id": "77119"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/77119_d9bc10d2c63130f4_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "77119"
             }
         }
     ],
@@ -74,7 +113,9 @@
             "person_id": "18045425",
             "role_id": "35236671",
             "person_name": "Oberkampf & Cie.",
+            "person_date": "Jouy-en-Josas, France, 1759 \u2013 1815",
             "role_name": "Producer",
+            "role_display_name": "Produced by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18045425\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236671\/"
         },
@@ -82,7 +123,9 @@
             "person_id": "18049427",
             "role_id": "35352249",
             "person_name": "Elinor Merrell",
+            "person_date": "",
             "role_name": "Vendor",
+            "role_display_name": "Purchased from",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049427\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352249\/"
         },
@@ -90,7 +133,9 @@
             "person_id": "18049437",
             "role_id": "35352247",
             "person_name": "Textile Department Fund",
+            "person_date": "",
             "role_name": "Fund",
+            "role_display_name": "Fund:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049437\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352247\/"
         }

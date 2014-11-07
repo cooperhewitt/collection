@@ -3,6 +3,7 @@
     "tms:id": "11566",
     "accession_number": "1902-1-394",
     "title": "Cope Hood, 15th century",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18130845\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": null,
     "year_acquired": "1902",
     "decade": null,
-    "woe:country": null,
+    "woe:country_id": null,
     "medium": "Medium: silk, metallic threads\nTechnique: supplementary warp in a plain weave foundation (velvet) with metallic supplementary weft",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "ex. coll. Antonio Vives y Escudero",
     "dimensions": "Warp x Weft: 37 x 42.5 cm (14 9\/16 x 16 3\/4 in.)",
+    "dimensions_raw": {
+        "warp": [
+            "37.00",
+            "centimeters"
+        ],
+        "weft": [
+            "42.50",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of John Pierpont Morgan",
     "description": "Pomegranate in gold on a ground of blue velvet. Shape of textile is that of a cope hood.",
     "justification": null,
-    "type": {
-        "id": "35254887",
-        "name": "Cope hood"
-    },
+    "woe:country": null,
+    "type": "Cope hood",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/40592_28c1ee174953c72b_b.jpg",
                 "width": 1024,
                 "height": 909,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/40592_28c1ee174953c72b_n.jpg",
-                "width": 320,
-                "height": 284,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "40592"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/40592_28c1ee174953c72b_z.jpg",
                 "width": 640,
                 "height": 568,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "40592"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/40592_28c1ee174953c72b_n.jpg",
+                "width": 320,
+                "height": 284,
+                "is_primary": "1",
+                "image_id": "40592"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/40592_28c1ee174953c72b_d.gif",
+                "width": 320,
+                "height": 284,
+                "is_primary": "1",
+                "image_id": "40592"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/40592_28c1ee174953c72b_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "40592"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/25279_46efa9d8872887dc_b.jpg",
                 "width": 1024,
                 "height": 898,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/25279_46efa9d8872887dc_n.jpg",
-                "width": 320,
-                "height": 281,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "25279"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/25279_46efa9d8872887dc_z.jpg",
                 "width": 640,
                 "height": 561,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "25279"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/25279_46efa9d8872887dc_n.jpg",
+                "width": 320,
+                "height": 281,
+                "is_primary": "0",
+                "image_id": "25279"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/25279_46efa9d8872887dc_d.gif",
+                "width": 320,
+                "height": 281,
+                "is_primary": "0",
+                "image_id": "25279"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/25279_46efa9d8872887dc_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "25279"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18049445",
             "role_id": "35351535",
             "person_name": "John Pierpont Morgan",
+            "person_date": "American, 1837\u20131913",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049445\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -84,24 +129,34 @@
     },
     "colors": [
         {
-            "color": "#91753d",
-            "closest_css3": "#a0522d"
+            "color": "#92763f",
+            "closest_crayola": "#9c7c38",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         },
         {
-            "color": "#b59a55",
-            "closest_css3": "#bdb76b"
+            "color": "#705931",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         },
         {
-            "color": "#6f5830",
-            "closest_css3": "#556b2f"
+            "color": "#58514a",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         },
         {
-            "color": "#3d2e1f",
-            "closest_css3": "#2f4f4f"
+            "color": "#b29249",
+            "closest_crayola": "#9c7c38",
+            "closest_css3": "#cd853f",
+            "closest_css4": "#cd853f"
         },
         {
-            "color": "#68645c",
-            "closest_css3": "#696969"
+            "color": "#c0b9a4",
+            "closest_crayola": "#cdc5c2",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
         }
     ]
 }

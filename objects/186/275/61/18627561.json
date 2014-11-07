@@ -3,6 +3,7 @@
     "tms:id": "188617",
     "accession_number": "1988-101-999",
     "title": "Drawing, \"Design for Bedroom Suite\", ca. 1934",
+    "title_raw": "Design for Bedroom Suite",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18627561\/",
     "department_id": "35347493",
     "period_id": "35435409",
@@ -13,39 +14,64 @@
     "year_end": 1944,
     "year_acquired": "1988",
     "decade": "1920",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Graphite on tracing paper, ruled border in graphite",
     "markings": null,
     "signed": null,
     "inscribed": "Inscribed in graphite at lower left: E-3 WALNUT BURL & WHITE HOLLY; at lower right: DONALD DESKEY\/630 FIFTH AVENUE\/NEW YORK CITY; [star] ESTEY\/ 20TH CENTURY\/FURNITURE",
     "provenance": "Donald Deskey",
     "dimensions": "40.5 x 52.5 cm (15 15\/16 x 20 11\/16 in.)\nMat:  55.9 x 71.1 cm (22 x 28 in.)",
+    "dimensions_raw": {
+        "height": [
+            "55.90",
+            "centimeters"
+        ],
+        "width": [
+            "71.10",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Donald Deskey",
     "description": "Designs for a twin bed, endtable, vanity with mirror, chair, stool, low dresser with mirror, high dresser, with diagram of two dressers and mirror together at lower center.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424977",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/10981_4b6ebdb52882dee9_b.jpg",
                 "width": 1024,
                 "height": 794,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/10981_4b6ebdb52882dee9_n.jpg",
-                "width": 320,
-                "height": 248,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "10981"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/10981_4b6ebdb52882dee9_z.jpg",
                 "width": 640,
                 "height": 496,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "10981"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/10981_4b6ebdb52882dee9_n.jpg",
+                "width": 320,
+                "height": 248,
+                "is_primary": "1",
+                "image_id": "10981"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/10981_4b6ebdb52882dee9_d.gif",
+                "width": 320,
+                "height": 248,
+                "is_primary": "1",
+                "image_id": "10981"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/10981_4b6ebdb52882dee9_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "10981"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18041973",
             "role_id": "35351535",
             "person_name": "Donald Deskey",
+            "person_date": "American, 1894\u20131989",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041973\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18048255",
             "role_id": "35352245",
             "person_name": "Dr. Gail Davidson",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18048255\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18048283",
             "role_id": "35236657",
             "person_name": "Estey Manufacturing Co.",
+            "person_date": "",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18048283\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         },
@@ -78,7 +110,9 @@
             "person_id": "18047481",
             "role_id": "35352245",
             "person_name": "Eleonore Kissel",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047481\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -86,7 +120,9 @@
             "person_id": "18041973",
             "role_id": "35236703",
             "person_name": "Donald Deskey",
+            "person_date": "American, 1894\u20131989",
             "role_name": "Office of",
+            "role_display_name": "Office of",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041973\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236703\/"
         }
@@ -96,20 +132,23 @@
     },
     "colors": [
         {
-            "color": "#968b83",
-            "closest_css3": "#808080"
+            "color": "#a89b8f",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         },
         {
-            "color": "#ddd3e7",
-            "closest_css3": "#dcdcdc"
+            "color": "#877d76",
+            "closest_crayola": "#757575",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#7a716a",
-            "closest_css3": "#696969"
-        },
-        {
-            "color": "#584f49",
-            "closest_css3": "#556b2f"
+            "color": "#605852",
+            "closest_crayola": "#6e5160",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

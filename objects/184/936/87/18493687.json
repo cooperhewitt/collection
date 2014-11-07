@@ -3,6 +3,7 @@
     "tms:id": "157734",
     "accession_number": "1978-142-2",
     "title": "Cigar Case, ca. 1915",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18493687\/",
     "department_id": "35347497",
     "period_id": null,
@@ -13,39 +14,68 @@
     "year_end": 1925,
     "year_acquired": "1978",
     "decade": "1900",
-    "woe:country": "23424750",
+    "woe:country_id": "23424750",
     "medium": "Leather, gilding, metal",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "1978: acquired by Museum",
     "dimensions": "Overall: 10.5 x 14.2 x 1.4 cm (4 1\/8 x 5 9\/16 x 9\/16 in.)",
-    "creditline": null,
+    "dimensions_raw": {
+        "depth": [
+            "1.40",
+            "centimeters"
+        ],
+        "height": [
+            "10.50",
+            "centimeters"
+        ],
+        "width": [
+            "14.20",
+            "centimeters"
+        ]
+    },
+    "creditline": "Gift of Martha Landman",
     "description": "Rectangular clutch covered in gilt pattern of concentric almond shapes, metal clasp.",
     "justification": null,
-    "type": {
-        "id": "35287205",
-        "name": "cigar case"
-    },
+    "woe:country": "23424750",
+    "type": "cigar case",
     "images": [
         {
             "b": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/54009_2e4d65e9e4d428a2_b.jpg",
-                "width": 983,
+                "url": "http:\/\/images.collection.cooperhewitt.org\/54009_0426a08c6a95f27e_b.jpg",
+                "width": 1024,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/54009_2e4d65e9e4d428a2_n.jpg",
-                "width": 307,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "54009"
             },
             "z": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/54009_2e4d65e9e4d428a2_z.jpg",
-                "width": 614,
+                "url": "http:\/\/images.collection.cooperhewitt.org\/54009_0426a08c6a95f27e_z.jpg",
+                "width": 640,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "54009"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/54009_0426a08c6a95f27e_n.jpg",
+                "width": 320,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "54009"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/54009_0426a08c6a95f27e_d.gif",
+                "width": 320,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "54009"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/54009_0426a08c6a95f27e_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "54009"
             }
         }
     ],
@@ -54,34 +84,57 @@
             "person_id": "18048101",
             "role_id": "35236671",
             "person_name": "Wiener Werkst\u00e4tte",
+            "person_date": "Vienna, Austria, 1903\u20131932",
             "role_name": "Producer",
+            "role_display_name": "Produced by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18048101\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236671\/"
+        },
+        {
+            "person_id": "18060979",
+            "role_id": "35351535",
+            "person_name": "Martha Landman",
+            "person_date": "",
+            "role_name": "Donor",
+            "role_display_name": "Donated by",
+            "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18060979\/",
+            "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
     ],
     "tombstone": {
-        "epitaph": "Cigar Case, ca. 1915. Leather, gilding, metal. 1978-142-2."
+        "epitaph": "Cigar Case, ca. 1915. Leather, gilding, metal. Gift of Martha Landman. 1978-142-2."
     },
     "colors": [
         {
-            "color": "#2c2724",
-            "closest_css3": "#2f4f4f"
+            "color": "#2e221a",
+            "closest_crayola": "#000000",
+            "closest_css3": "#000000",
+            "closest_css4": "#000000"
         },
         {
-            "color": "#ccaf68",
-            "closest_css3": "#bdb76b"
+            "color": "#cfb372",
+            "closest_crayola": "#bab86c",
+            "closest_css3": "#bdb76b",
+            "closest_css4": "#bdb76b"
         },
         {
-            "color": "#a7864c",
-            "closest_css3": "#cd853f"
+            "color": "#634a31",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         },
         {
-            "color": "#60462d",
-            "closest_css3": "#556b2f"
+            "color": "#a3844d",
+            "closest_crayola": "#9c7c38",
+            "closest_css3": "#cd853f",
+            "closest_css4": "#cd853f"
         },
         {
-            "color": "#846940",
-            "closest_css3": "#a0522d"
+            "color": "#836840",
+            "closest_crayola": "#85754e",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         }
-    ]
+    ],
+    "woe:country_name": "Austria"
 }

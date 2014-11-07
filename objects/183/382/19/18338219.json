@@ -3,6 +3,7 @@
     "tms:id": "52913",
     "accession_number": "1932-1-66",
     "title": "Textile, 1910\u201314",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18338219\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1914,
     "year_acquired": "1932",
     "decade": "1910",
-    "woe:country": "23424819",
+    "woe:country_id": "23424819",
     "medium": "Medium: silk\nTechnique: figured and plain compound satin",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "H x W: 51.5 x 54.2 cm (20 1\/4 x 21 5\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "51.50",
+            "centimeters"
+        ],
+        "width": [
+            "54.20",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase from Au Panier Fleuri Fund",
     "description": "Sample of a figured satin with three horizontal repeats of design. Tan satin ground with repeating elliptical shapes in maroon and light brown.",
     "justification": null,
-    "type": {
-        "id": "35251739",
-        "name": "textile"
-    },
+    "woe:country": "23424819",
+    "type": "textile",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/46695_5f5c8539b42a5935_b.jpg",
                 "width": 1024,
                 "height": 988,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/46695_5f5c8539b42a5935_n.jpg",
-                "width": 320,
-                "height": 309,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "46695"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/46695_5f5c8539b42a5935_z.jpg",
                 "width": 640,
                 "height": 618,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "46695"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/46695_5f5c8539b42a5935_n.jpg",
+                "width": 320,
+                "height": 309,
+                "is_primary": "1",
+                "image_id": "46695"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/46695_5f5c8539b42a5935_d.gif",
+                "width": 320,
+                "height": 309,
+                "is_primary": "1",
+                "image_id": "46695"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/46695_5f5c8539b42a5935_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "46695"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/2704_13acf4a8b9113102_b.jpg",
                 "width": 1024,
                 "height": 948,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/2704_13acf4a8b9113102_n.jpg",
-                "width": 320,
-                "height": 296,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "2704"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/2704_13acf4a8b9113102_z.jpg",
                 "width": 640,
                 "height": 593,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "2704"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/2704_13acf4a8b9113102_n.jpg",
+                "width": 320,
+                "height": 296,
+                "is_primary": "0",
+                "image_id": "2704"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/2704_13acf4a8b9113102_d.gif",
+                "width": 320,
+                "height": 296,
+                "is_primary": "0",
+                "image_id": "2704"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/2704_13acf4a8b9113102_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "2704"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18055847",
             "role_id": "35236655",
             "person_name": "Paul Follot",
+            "person_date": "French, 1877\u20131941",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18055847\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18057965",
             "role_id": "35352249",
             "person_name": "Isabelle Goldschmidt",
+            "person_date": "",
             "role_name": "Vendor",
+            "role_display_name": "Purchased from",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18057965\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352249\/"
         }
@@ -92,16 +139,35 @@
     },
     "colors": [
         {
-            "color": "#744242",
-            "closest_css3": "#a0522d"
+            "color": "#9a6e52",
+            "closest_crayola": "#a5694f",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         },
         {
-            "color": "#ceac93",
-            "closest_css3": "#d2b48c"
+            "color": "#d2b097",
+            "closest_crayola": "#deaa88",
+            "closest_css3": "#d2b48c",
+            "closest_css4": "#d2b48c"
         },
         {
-            "color": "#7d5642",
-            "closest_css3": "#a0522d"
+            "color": "#6c3a3c",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#8b4513",
+            "closest_css4": "#8b4513"
+        },
+        {
+            "color": "#7b5241",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
+        },
+        {
+            "color": "#b18c71",
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         }
-    ]
+    ],
+    "woe:country_name": "France"
 }

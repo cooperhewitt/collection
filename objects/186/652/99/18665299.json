@@ -3,6 +3,7 @@
     "tms:id": "208017",
     "accession_number": "1997-173-1-a\/c",
     "title": "Packaging, \"L'eggs Sheer Elegance Pantyhose\", 1970s",
+    "title_raw": "L'eggs Sheer Elegance Pantyhose",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18665299\/",
     "department_id": "35347497",
     "period_id": null,
@@ -13,39 +14,68 @@
     "year_end": 1979,
     "year_acquired": "1997",
     "decade": "1970",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Plastic, paper",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "Overall: 11.5 x 7.7 x 7.7 cm (4 1\/2 x 3 1\/16 x 3 1\/16 in.)",
+    "dimensions_raw": {
+        "depth": [
+            "7.70",
+            "centimeters"
+        ],
+        "height": [
+            "11.50",
+            "centimeters"
+        ],
+        "width": [
+            "7.70",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Laura James",
     "description": null,
     "justification": null,
-    "type": {
-        "id": "35294849",
-        "name": "packaging"
-    },
+    "woe:country": "23424977",
+    "type": "packaging",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/21762_7fa8da778ee92eee_b.jpg",
-                "width": 648,
-                "height": 882,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/21762_7fa8da778ee92eee_n.jpg",
-                "width": 235,
-                "height": 320,
-                "is_primary": "1"
+                "width": null,
+                "height": null,
+                "is_primary": "1",
+                "image_id": "21762"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/21762_7fa8da778ee92eee_z.jpg",
                 "width": 470,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "21762"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/21762_7fa8da778ee92eee_n.jpg",
+                "width": 235,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "21762"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/21762_7fa8da778ee92eee_d.gif",
+                "width": 235,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "21762"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/21762_7fa8da778ee92eee_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "21762"
             }
         }
     ],
@@ -54,7 +84,9 @@
             "person_id": "18055049",
             "role_id": "35236797",
             "person_name": "Lubalin Smith Carnase",
+            "person_date": "1969 \u2013 1975",
             "role_name": "Firm",
+            "role_display_name": "Firm:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18055049\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236797\/"
         },
@@ -62,7 +94,9 @@
             "person_id": "18537801",
             "role_id": "35236667",
             "person_name": "Hanes Corp.",
+            "person_date": "",
             "role_name": "Client",
+            "role_display_name": "Client:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18537801\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236667\/"
         },
@@ -70,7 +104,9 @@
             "person_id": "18537799",
             "role_id": "35236655",
             "person_name": "Roger Ferriter",
+            "person_date": "",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18537799\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -78,7 +114,9 @@
             "person_id": "18537795",
             "role_id": "35236671",
             "person_name": "L'eggs Products, Inc.",
+            "person_date": "",
             "role_name": "Producer",
+            "role_display_name": "Produced by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18537795\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236671\/"
         },
@@ -86,7 +124,9 @@
             "person_id": "18050291",
             "role_id": "35351535",
             "person_name": "Ms. Laura James",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18050291\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -96,24 +136,35 @@
     },
     "colors": [
         {
-            "color": "#222a2b",
-            "closest_css3": "#2f4f4f"
+            "color": "#232c2d",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#404948",
-            "closest_css3": "#2f4f4f"
+            "color": "#615324",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         },
         {
-            "color": "#908868",
-            "closest_css3": "#808080"
+            "color": "#da2306",
+            "closest_crayola": "#ff2b2b",
+            "closest_css3": "#b22222",
+            "closest_css4": "#b22222"
         },
         {
-            "color": "#5f5122",
-            "closest_css3": "#556b2f"
+            "color": "#444c4a",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#c3c4b6",
-            "closest_css3": "#c0c0c0"
+            "color": "#928b6b",
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

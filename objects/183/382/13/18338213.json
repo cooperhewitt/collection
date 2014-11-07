@@ -3,6 +3,7 @@
     "tms:id": "52910",
     "accession_number": "1932-1-63",
     "title": "Embroidery Sample, 1775\u20131805",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18338213\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": "1805",
     "year_acquired": "1932",
     "decade": null,
-    "woe:country": "23424819",
+    "woe:country_id": "23424819",
     "medium": "Medium: silk thread and chenille on a silk ground, paper\nTechnique: embroidered on cut and voided supplementary warp pile in a compound ground (velvet)",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "H x W: 24.7 x 14.1 cm (9 3\/4 x 5 9\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "24.70",
+            "centimeters"
+        ],
+        "width": [
+            "14.10",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase from Au Panier Fleuri Fund",
     "description": "Multicolored embroidery in a floral design on a ground of black velvet with blue and green stripes.",
     "justification": null,
-    "type": {
-        "id": "35287439",
-        "name": "Embroidery sample"
-    },
+    "woe:country": "23424819",
+    "type": "Embroidery sample",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/42319_fb226db4eed59653_b.jpg",
                 "width": 654,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/42319_fb226db4eed59653_n.jpg",
-                "width": 204,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "42319"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/42319_fb226db4eed59653_z.jpg",
                 "width": 409,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "42319"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/42319_fb226db4eed59653_n.jpg",
+                "width": 204,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "42319"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/42319_fb226db4eed59653_d.gif",
+                "width": 204,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "42319"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/42319_fb226db4eed59653_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "42319"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/69622_c861d9f69de7207c_b.jpg",
                 "width": 667,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/69622_c861d9f69de7207c_n.jpg",
-                "width": 208,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "69622"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/69622_c861d9f69de7207c_z.jpg",
                 "width": 417,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "69622"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/69622_c861d9f69de7207c_n.jpg",
+                "width": 208,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "69622"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/69622_c861d9f69de7207c_d.gif",
+                "width": 208,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "69622"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/69622_c861d9f69de7207c_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "69622"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18057965",
             "role_id": "35352249",
             "person_name": "Isabelle Goldschmidt",
+            "person_date": "",
             "role_name": "Vendor",
+            "role_display_name": "Purchased from",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18057965\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352249\/"
         }
@@ -84,24 +129,35 @@
     },
     "colors": [
         {
-            "color": "#e7e1cf",
-            "closest_css3": "#dcdcdc"
+            "color": "#e8e1cd",
+            "closest_crayola": "#efdecd",
+            "closest_css3": "#dcdcdc",
+            "closest_css4": "#dcdcdc"
         },
         {
-            "color": "#2d2c25",
-            "closest_css3": "#2f4f4f"
+            "color": "#ada68e",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
         },
         {
-            "color": "#afa88f",
-            "closest_css3": "#a9a9a9"
+            "color": "#373c2b",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#7c856e",
-            "closest_css3": "#808080"
+            "color": "#5a6249",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         },
         {
-            "color": "#816c4f",
-            "closest_css3": "#696969"
+            "color": "#5a5240",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         }
-    ]
+    ],
+    "woe:country_name": "France"
 }

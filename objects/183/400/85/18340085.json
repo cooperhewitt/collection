@@ -3,6 +3,7 @@
     "tms:id": "53851",
     "accession_number": "1935-23-30",
     "title": "Textile, \"Daffodil\", 1891",
+    "title_raw": "Daffodil",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18340085\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,72 @@
     "year_end": 1891,
     "year_acquired": "1935",
     "decade": null,
-    "woe:country": "23424975",
+    "woe:country_id": "23424975",
     "medium": "Medium: cotton\nTechnique: printed on plain weave",
     "markings": "Cowtan and Tout stamp on border.\nBorder stamped:  REGD MORRIS & COMPANY",
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "Warp x Weft: 68 x 97 cm (26 3\/4 x 38 3\/16 in.)\nWeft (selvedge to selvedge): 96.5 cm (38 in.)\nRepeat (straight) H x W: 36.8 x 22.9 cm (14 1\/2 x 9 in.)",
+    "dimensions_raw": {
+        "height": [
+            "36.80",
+            "centimeters"
+        ],
+        "warp": [
+            "68.00",
+            "centimeters"
+        ],
+        "weft": [
+            "97.00",
+            "centimeters"
+        ],
+        "width": [
+            "22.90",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Cowtan & Tout, Inc.",
     "description": "Morris & Company textile \"Daffodil\" in dark and light green, yellow, blue and brown has rows of curvilinear daffodils and small flowers intersected by undulating vertical striped bands twined with tulips. Both selvages present.",
     "justification": null,
-    "type": {
-        "id": "35251739",
-        "name": "textile"
-    },
+    "woe:country": "23424975",
+    "type": "textile",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/3101_a064c354713ad193_b.jpg",
                 "width": 1024,
                 "height": 733,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/3101_a064c354713ad193_n.jpg",
-                "width": 320,
-                "height": 229,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "3101"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/3101_a064c354713ad193_z.jpg",
                 "width": 640,
                 "height": 458,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "3101"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/3101_a064c354713ad193_n.jpg",
+                "width": 320,
+                "height": 229,
+                "is_primary": "1",
+                "image_id": "3101"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/3101_a064c354713ad193_d.gif",
+                "width": 320,
+                "height": 229,
+                "is_primary": "1",
+                "image_id": "3101"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/3101_a064c354713ad193_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "3101"
             }
         }
     ],
@@ -54,7 +88,9 @@
             "person_id": "18043865",
             "role_id": "35236685",
             "person_name": "Morris & Co.",
+            "person_date": "Merton Abbey, England, 1874\u20131896",
             "role_name": "Maker",
+            "role_display_name": "Made by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18043865\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236685\/"
         },
@@ -62,7 +98,9 @@
             "person_id": "18043867",
             "role_id": "35236655",
             "person_name": "William Morris",
+            "person_date": "English, 1834\u20131896",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18043867\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -70,7 +108,9 @@
             "person_id": "18537605",
             "role_id": "35352245",
             "person_name": "Jean Reed",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18537605\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -78,7 +118,9 @@
             "person_id": "18536879",
             "role_id": "35351535",
             "person_name": "Cowtan & Tout, Inc.",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18536879\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -88,24 +130,35 @@
     },
     "colors": [
         {
-            "color": "#7f7964",
-            "closest_css3": "#696969"
+            "color": "#878472",
+            "closest_crayola": "#757575",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#493e32",
-            "closest_css3": "#2f4f4f"
+            "color": "#675d4f",
+            "closest_crayola": "#6e5160",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#bcbeb1",
-            "closest_css3": "#c0c0c0"
+            "color": "#bcbdb1",
+            "closest_crayola": "#b0b7c6",
+            "closest_css3": "#c0c0c0",
+            "closest_css4": "#c0c0c0"
         },
         {
-            "color": "#9b8d7e",
-            "closest_css3": "#808080"
+            "color": "#474032",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#a67f4b",
-            "closest_css3": "#cd853f"
+            "color": "#8f694f",
+            "closest_crayola": "#85754e",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         }
-    ]
+    ],
+    "woe:country_name": "United Kingdom"
 }

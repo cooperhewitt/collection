@@ -3,6 +3,7 @@
     "tms:id": "22850",
     "accession_number": "1917-4-303-a",
     "title": "Drawing, \"Castle from Salzburg, Austria\", 1868",
+    "title_raw": "Castle from Salzburg, Austria",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18196717\/",
     "department_id": "35347493",
     "period_id": "35417175",
@@ -13,39 +14,55 @@
     "year_end": 1868,
     "year_acquired": "1917",
     "decade": null,
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": null,
     "markings": null,
     "signed": null,
     "inscribed": "Bottom: two squares of yellow. Written with pencil over the right one upon the whitish grounding color: \"oil mix . jades (?) \/ Lem yel\".",
     "provenance": null,
     "dimensions": null,
+    "dimensions_raw": null,
     "creditline": "Gift of Louis P. Church",
     "description": null,
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424977",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/2125_f8eacbd6eb675e84_b.jpg",
                 "width": 1024,
                 "height": 640,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/2125_f8eacbd6eb675e84_n.jpg",
-                "width": 320,
-                "height": 200,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "2125"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/2125_f8eacbd6eb675e84_z.jpg",
                 "width": 640,
                 "height": 400,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "2125"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/2125_f8eacbd6eb675e84_n.jpg",
+                "width": 320,
+                "height": 200,
+                "is_primary": "1",
+                "image_id": "2125"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/2125_f8eacbd6eb675e84_d.gif",
+                "width": 320,
+                "height": 200,
+                "is_primary": "1",
+                "image_id": "2125"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/2125_f8eacbd6eb675e84_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "2125"
             }
         }
     ],
@@ -54,7 +71,9 @@
             "person_id": "18047439",
             "role_id": "35352245",
             "person_name": "Rudolph Berliner",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047439\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -62,7 +81,9 @@
             "person_id": "18054439",
             "role_id": "35352245",
             "person_name": "Richard P. Wunder",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18054439\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -70,7 +91,9 @@
             "person_id": "18041941",
             "role_id": "35236565",
             "person_name": "Frederic Edwin Church",
+            "person_date": "American, 1826\u20131900",
             "role_name": "Artist",
+            "role_display_name": "",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041941\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236565\/"
         },
@@ -78,7 +101,9 @@
             "person_id": "18051625",
             "role_id": "35351535",
             "person_name": "Louis P. Church",
+            "person_date": "American, 1870\u20131943",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18051625\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -88,24 +113,35 @@
     },
     "colors": [
         {
-            "color": "#b49a7a",
-            "closest_css3": "#bc8f8f"
+            "color": "#a78b68",
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         },
         {
-            "color": "#716055",
-            "closest_css3": "#696969"
+            "color": "#614d3a",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         },
         {
-            "color": "#484037",
-            "closest_css3": "#2f4f4f"
+            "color": "#2c252a",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#a19a92",
-            "closest_css3": "#a9a9a9"
+            "color": "#86898f",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#778899",
+            "closest_css4": "#778899"
         },
         {
-            "color": "#8a775f",
-            "closest_css3": "#808080"
+            "color": "#8d6e53",
+            "closest_crayola": "#85754e",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

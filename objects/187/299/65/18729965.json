@@ -3,6 +3,7 @@
     "tms:id": "240986",
     "accession_number": "2008-22-3",
     "title": "Poster, \"HorseProjectSpace Presents: Ritual Tendencies\", 2007",
+    "title_raw": "HorseProjectSpace Presents: Ritual Tendencies",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18729965\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 2007,
     "year_acquired": "2008",
     "decade": "2000",
-    "woe:country": "23424909",
+    "woe:country_id": "23424909",
     "medium": "Offset lithograph on white wove paper",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "Michiel Schuurman; 2008: acquired by Museum",
     "dimensions": "117.8 x 73 cm (46 3\/8 x 28 3\/4 in.)",
+    "dimensions_raw": {
+        "height": [
+            "117.79",
+            "centimeters"
+        ],
+        "width": [
+            "73.03",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Michiel Schuurman",
     "description": "Lettering surrounded by jagged diamond-shaped shards of black and white which seem to emanate for the text. \nHorseMove ProjectSpace Presents Ritual Tendencies by Loren Zaboisi \/ Iris Zugovic and Babara Rink \/ Opening on Saturday the 3th of November",
     "justification": null,
-    "type": {
-        "id": "35238163",
-        "name": "poster"
-    },
+    "woe:country": "23424909",
+    "type": "poster",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/40000_ebe7cec0017582d5_b.jpg",
                 "width": 645,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/40000_ebe7cec0017582d5_n.jpg",
-                "width": 202,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "40000"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/40000_ebe7cec0017582d5_z.jpg",
                 "width": 403,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "40000"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/40000_ebe7cec0017582d5_n.jpg",
+                "width": 202,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "40000"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/40000_ebe7cec0017582d5_d.gif",
+                "width": 202,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "40000"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/40000_ebe7cec0017582d5_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "40000"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/30112_e199d77a44123864_b.jpg",
                 "width": 634,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/30112_e199d77a44123864_n.jpg",
-                "width": 198,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "30112"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/30112_e199d77a44123864_z.jpg",
                 "width": 396,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "30112"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/30112_e199d77a44123864_n.jpg",
+                "width": 198,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "30112"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/30112_e199d77a44123864_d.gif",
+                "width": 198,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "30112"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/30112_e199d77a44123864_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "30112"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18062251",
             "role_id": "35236655",
             "person_name": "Michiel Schuurman",
+            "person_date": "Dutch, born 1974",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18062251\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18062251",
             "role_id": "35351535",
             "person_name": "Michiel Schuurman",
+            "person_date": "Dutch, born 1974",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18062251\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -92,24 +139,35 @@
     },
     "colors": [
         {
-            "color": "#b1b6c6",
-            "closest_css3": "#c0c0c0"
+            "color": "#a5aaba",
+            "closest_crayola": "#b0b7c6",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
         },
         {
-            "color": "#2a2627",
-            "closest_css3": "#2f4f4f"
+            "color": "#cbd2e1",
+            "closest_crayola": "#c5d0e6",
+            "closest_css3": "#d3d3d3",
+            "closest_css4": "#d3d3d3"
         },
         {
-            "color": "#524f56",
-            "closest_css3": "#2f4f4f"
+            "color": "#848692",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#778899",
+            "closest_css4": "#778899"
         },
         {
-            "color": "#6d6c77",
-            "closest_css3": "#696969"
+            "color": "#4d4b51",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#9092a0",
-            "closest_css3": "#778899"
+            "color": "#6a6a73",
+            "closest_crayola": "#757575",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         }
-    ]
+    ],
+    "woe:country_name": "Netherlands"
 }

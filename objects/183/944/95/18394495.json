@@ -3,6 +3,7 @@
     "tms:id": "107404",
     "accession_number": "1953-125-1",
     "title": "Drawing, \"Cascade Mountains\", 1953",
+    "title_raw": "Cascade Mountains",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18394495\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1953,
     "year_acquired": "1953",
     "decade": "1950",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Pen and black ink, brush and wash on paper",
     "markings": null,
     "signed": "Signed in graphite, lower right: Kenneth Callahan",
     "inscribed": null,
     "provenance": null,
     "dimensions": "64 x 96.7 cm (25 3\/16 x 38 1\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "64.00",
+            "centimeters"
+        ],
+        "width": [
+            "96.70",
+            "centimeters"
+        ]
+    },
     "creditline": null,
     "description": "A scene composed of mountain peaks, rendered chiefly in a pattern of line.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424977",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/43352_81c32909b057aa2f_b.jpg",
                 "width": 1024,
                 "height": 708,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/43352_81c32909b057aa2f_n.jpg",
-                "width": 320,
-                "height": 221,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "43352"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/43352_81c32909b057aa2f_z.jpg",
                 "width": 640,
                 "height": 442,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "43352"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/43352_81c32909b057aa2f_n.jpg",
+                "width": 320,
+                "height": 221,
+                "is_primary": "1",
+                "image_id": "43352"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/43352_81c32909b057aa2f_d.gif",
+                "width": 320,
+                "height": 221,
+                "is_primary": "1",
+                "image_id": "43352"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/43352_81c32909b057aa2f_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "43352"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "51676457",
             "role_id": "35352245",
             "person_name": "Karin Zonis",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/51676457\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18050887",
             "role_id": "35236565",
             "person_name": "Kenneth L. Callahan",
+            "person_date": "1907\u2013?",
             "role_name": "Artist",
+            "role_display_name": "",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18050887\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236565\/"
         }
@@ -72,12 +102,23 @@
     },
     "colors": [
         {
-            "color": "#8a8a83",
-            "closest_css3": "#808080"
+            "color": "#9f9f96",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
         },
         {
-            "color": "#6b6a65",
-            "closest_css3": "#696969"
+            "color": "#494945",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
+        },
+        {
+            "color": "#7f7e78",
+            "closest_crayola": "#757575",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

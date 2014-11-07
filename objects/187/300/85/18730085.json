@@ -3,6 +3,7 @@
     "tms:id": "241046",
     "accession_number": "1960-1-44-d",
     "title": "Figure, \"America\", 1769\u201370",
+    "title_raw": "America",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18730085\/",
     "department_id": "35347497",
     "period_id": null,
@@ -13,39 +14,68 @@
     "year_end": 1839,
     "year_acquired": "1960",
     "decade": null,
-    "woe:country": "23424829",
+    "woe:country_id": "23424829",
     "medium": "Porcelain, polychrome and gilt",
     "markings": "Underglaze mark: sceptre",
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "H x W x D: 34.5 x 12.6 x 12.1 cm (13 9\/16 x 4 15\/16 x 4 3\/4 in.)",
+    "dimensions_raw": {
+        "depth": [
+            "12.10",
+            "centimeters"
+        ],
+        "height": [
+            "34.50",
+            "centimeters"
+        ],
+        "width": [
+            "12.60",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of the Estate of James Hazen Hyde",
     "description": "\" America\" standing male figure, wearing feather belt, long cape and headdress, holding sceptre and parrot; attributes: crocodile and cornucopia. Square pedestal.\nUnderglaze mark: sceptre. Forming a set with 1960-1-44a,b,c",
     "justification": null,
-    "type": {
-        "id": "35237189",
-        "name": "Figure"
-    },
+    "woe:country": "23424829",
+    "type": "Figure",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/25835_8db81d52c1ea92aa_b.jpg",
                 "width": 609,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/25835_8db81d52c1ea92aa_n.jpg",
-                "width": 190,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "25835"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/25835_8db81d52c1ea92aa_z.jpg",
                 "width": 380,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "25835"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/25835_8db81d52c1ea92aa_n.jpg",
+                "width": 190,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "25835"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/25835_8db81d52c1ea92aa_d.gif",
+                "width": 190,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "25835"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/25835_8db81d52c1ea92aa_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "25835"
             }
         }
     ],
@@ -54,7 +84,9 @@
             "person_id": "18044683",
             "role_id": "35236685",
             "person_name": "Berlin Porcelain Factory",
+            "person_date": "Berlin, Prussia",
             "role_name": "Maker",
+            "role_display_name": "Made by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18044683\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236685\/"
         },
@@ -62,7 +94,9 @@
             "person_id": "18048035",
             "role_id": "35352245",
             "person_name": "Hedy Backlin-Landman",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18048035\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -70,7 +104,9 @@
             "person_id": "18056029",
             "role_id": "35236765",
             "person_name": "Wilhelm Christian Meyer",
+            "person_date": "1726 \u2013 1786",
             "role_name": "Modeler",
+            "role_display_name": "Modeled by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18056029\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236765\/"
         },
@@ -78,7 +114,9 @@
             "person_id": "18049369",
             "role_id": "35351535",
             "person_name": "Estate of James Hazen Hyde",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049369\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -88,24 +126,35 @@
     },
     "colors": [
         {
-            "color": "#af8950",
-            "closest_css3": "#cd853f"
+            "color": "#9d968a",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         },
         {
-            "color": "#7b6540",
-            "closest_css3": "#556b2f"
+            "color": "#3a2923",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#ebddc4",
-            "closest_css3": "#f5deb3"
+            "color": "#986a41",
+            "closest_crayola": "#a5694f",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         },
         {
-            "color": "#642b27",
-            "closest_css3": "#8b4513"
+            "color": "#dad2bf",
+            "closest_crayola": "#cdc5c2",
+            "closest_css3": "#d3d3d3",
+            "closest_css4": "#d3d3d3"
         },
         {
-            "color": "#332722",
-            "closest_css3": "#2f4f4f"
+            "color": "#a67f3d",
+            "closest_crayola": "#9c7c38",
+            "closest_css3": "#cd853f",
+            "closest_css4": "#cd853f"
         }
-    ]
+    ],
+    "woe:country_name": "Germany"
 }

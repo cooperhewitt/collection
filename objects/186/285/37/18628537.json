@@ -3,6 +3,7 @@
     "tms:id": "189108",
     "accession_number": "1988-4-24",
     "title": "Print, \"Pens\u00e9e du Jardin du Marquis du Pri\u00e9 a Turin (Garden Idea for the Marquis du Pri\u00e9 in Turin), in Nouveaux Livre de Parterres contenant 24 penss\u00e9z diferantes (New Book Containing 24 Different Variations for Garden Beds)\", ca. 1700",
+    "title_raw": "Pens\u00e9e du Jardin du Marquis du Pri\u00e9 a Turin (Garden Idea for the Marquis du Pri\u00e9 in Turin), in Nouveaux Livre de Parterres contenant 24 penss\u00e9z diferantes (New Book Containing 24 Different Variations for Garden Beds)",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18628537\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,55 @@
     "year_end": 1710,
     "year_acquired": "1988",
     "decade": null,
-    "woe:country": "23424909",
+    "woe:country_id": "23424909",
     "medium": "Etching, engraving on white laid paper",
     "markings": null,
     "signed": "Signed in plate, lower left: D. Marot fec:",
     "inscribed": "Inscribed in plate, upper left: Pens\u00e9e du Jardin \/ du Marquis du Pri\u00e9 \/ a Turin du d'Esein \/ du Sr. D. Marot; lower right: avec Privileg:; lower right corner: 6",
     "provenance": "1988: acquired by Museum (from Priscilla Juvelis)",
     "dimensions": null,
+    "dimensions_raw": null,
     "creditline": "Museum purchase from General Acquisitions Endowment Fund",
     "description": "Landscape architecture design for garden with fountains.",
     "justification": null,
-    "type": {
-        "id": "35236873",
-        "name": "Print"
-    },
+    "woe:country": "23424909",
+    "type": "Print",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/45768_8b2daa4c8867afcb_b.jpg",
                 "width": 675,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/45768_8b2daa4c8867afcb_n.jpg",
-                "width": 211,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "45768"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/45768_8b2daa4c8867afcb_z.jpg",
                 "width": 422,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "45768"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/45768_8b2daa4c8867afcb_n.jpg",
+                "width": 211,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "45768"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/45768_8b2daa4c8867afcb_d.gif",
+                "width": 211,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "45768"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/45768_8b2daa4c8867afcb_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "45768"
             }
         }
     ],
@@ -54,7 +71,9 @@
             "person_id": "18042233",
             "role_id": "35236655",
             "person_name": "Daniel Marot",
+            "person_date": "French, 1661\u20131752; active in Netherlands and England",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18042233\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -62,7 +81,9 @@
             "person_id": "18041265",
             "role_id": "35352249",
             "person_name": "Ms. Priscilla Juvelis",
+            "person_date": "",
             "role_name": "Vendor",
+            "role_display_name": "Purchased from",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041265\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352249\/"
         },
@@ -70,7 +91,9 @@
             "person_id": "18048535",
             "role_id": "35352247",
             "person_name": "General Acquisitions Endowment",
+            "person_date": "",
             "role_name": "Fund",
+            "role_display_name": "Fund:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18048535\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352247\/"
         }
@@ -80,16 +103,35 @@
     },
     "colors": [
         {
-            "color": "#726a59",
-            "closest_css3": "#696969"
+            "color": "#cbc2af",
+            "closest_crayola": "#cdc5c2",
+            "closest_css3": "#c0c0c0",
+            "closest_css4": "#c0c0c0"
         },
         {
-            "color": "#b0a490",
-            "closest_css3": "#bc8f8f"
+            "color": "#665e50",
+            "closest_crayola": "#6e5160",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#403a30",
-            "closest_css3": "#2f4f4f"
+            "color": "#857a69",
+            "closest_crayola": "#8a795d",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
+        },
+        {
+            "color": "#a59c89",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
+        },
+        {
+            "color": "#38342c",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         }
-    ]
+    ],
+    "woe:country_name": "Netherlands"
 }

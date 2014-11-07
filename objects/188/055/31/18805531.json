@@ -3,6 +3,7 @@
     "tms:id": "183059",
     "accession_number": "1985-65-2",
     "title": "Napkin, \"Butterfly: Design no. 505\", ca. 1906",
+    "title_raw": "Butterfly: Design no. 505",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18805531\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1916,
     "year_acquired": "1985",
     "decade": null,
-    "woe:country": "23424909",
+    "woe:country_id": "23424909",
     "medium": "Medium: linen. Quality no. 810 (finest the company produced)\nTechnique: damask",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "Warp x Weft: 71 x 70 cm (27 15\/16 x 27 9\/16 in.)",
+    "dimensions_raw": {
+        "warp": [
+            "71.00",
+            "centimeters"
+        ],
+        "weft": [
+            "70.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase from Alice Baldwin Beer Memorial Fund",
     "description": "Field: 4 butterflies form a small square and are repeated for an 11 3\/4 in. square.\nBorders: butterflies. \n\"DV\" in each corner. Openwork (eyelet) monogram in one corner: \"OV\".",
     "justification": null,
-    "type": {
-        "id": "35256421",
-        "name": "Napkin"
-    },
+    "woe:country": "23424909",
+    "type": "Napkin",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/32951_43fdd31d815f0577_b.jpg",
                 "width": 1022,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/32951_43fdd31d815f0577_n.jpg",
-                "width": 319,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "32951"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/32951_43fdd31d815f0577_z.jpg",
                 "width": 639,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "32951"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/32951_43fdd31d815f0577_n.jpg",
+                "width": 319,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "32951"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/32951_43fdd31d815f0577_d.gif",
+                "width": 319,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "32951"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/32951_43fdd31d815f0577_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "32951"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18055713",
             "role_id": "35352249",
             "person_name": "C.A. Burgers",
+            "person_date": "",
             "role_name": "Vendor",
+            "role_display_name": "Purchased from",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18055713\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352249\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18047497",
             "role_id": "35352245",
             "person_name": "Milton Sonday",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047497\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18045687",
             "role_id": "35236657",
             "person_name": "E.F.J. Van Dissel and Son",
+            "person_date": "Eindhoven, The Netherlands, 1880 \u2013 1971",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18045687\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         },
@@ -78,7 +110,9 @@
             "person_id": "18045685",
             "role_id": "35236655",
             "person_name": "Chris Lebeau",
+            "person_date": "Dutch, 1875 - 1945",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18045685\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
@@ -88,8 +122,11 @@
     },
     "colors": [
         {
-            "color": "#464440",
-            "closest_css3": "#2f4f4f"
+            "color": "#ffffff",
+            "closest_crayola": "#ffffff",
+            "closest_css3": "#ffffff",
+            "closest_css4": "#ffffff"
         }
-    ]
+    ],
+    "woe:country_name": "Netherlands"
 }

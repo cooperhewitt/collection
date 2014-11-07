@@ -3,6 +3,7 @@
     "tms:id": "56538",
     "accession_number": "1937-70-3",
     "title": "Drawing, \"Study for the Violet Sargent Bronze Plaque in the Art Institute of Chicago\", 1890",
+    "title_raw": "Study for the Violet Sargent Bronze Plaque in the Art Institute of Chicago",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18345343\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1890,
     "year_acquired": "1937",
     "decade": null,
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Pen and purple ink on cream laid paper",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "From the collection of Homer Saint-Gaudens",
     "dimensions": "43.0 x 11.1 cm (16 15\/16 x 4 3\/8 in. )",
+    "dimensions_raw": {
+        "height": [
+            "43.00",
+            "centimeters"
+        ],
+        "width": [
+            "11.10",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Homer Saint-Gaudens",
     "description": "Young woman, three-quarter-length, seated with head in profile, directed to right; hands in lap.  Enclosed in rectangle with filling of curved lines in upper right corner.  Below in small square, a bust with head in three-quarter view to right.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424977",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/66265_08f298706ca8cb32_b.jpg",
                 "width": 662,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/66265_08f298706ca8cb32_n.jpg",
-                "width": 207,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "66265"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/66265_08f298706ca8cb32_z.jpg",
                 "width": 414,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "66265"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/66265_08f298706ca8cb32_n.jpg",
+                "width": 207,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "66265"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/66265_08f298706ca8cb32_d.gif",
+                "width": 207,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "66265"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/66265_08f298706ca8cb32_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "66265"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/3248_ce32809c6e241550_b.jpg",
                 "width": 650,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/3248_ce32809c6e241550_n.jpg",
-                "width": 203,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "3248"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/3248_ce32809c6e241550_z.jpg",
                 "width": 406,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "3248"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/3248_ce32809c6e241550_n.jpg",
+                "width": 203,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "3248"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/3248_ce32809c6e241550_d.gif",
+                "width": 203,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "3248"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/3248_ce32809c6e241550_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "3248"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18056215",
             "role_id": "35351535",
             "person_name": "Homer Schiff Saint-Gaudens",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18056215\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18050035",
             "role_id": "35236565",
             "person_name": "Augustus Saint-Gaudens",
+            "person_date": "American, 1848 \u2013 1907",
             "role_name": "Artist",
+            "role_display_name": "",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18050035\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236565\/"
         }
@@ -92,8 +139,11 @@
     },
     "colors": [
         {
-            "color": "#cab4a2",
-            "closest_css3": "#d2b48c"
+            "color": "#bea49a",
+            "closest_crayola": "#deaa88",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

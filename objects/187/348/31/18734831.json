@@ -3,6 +3,7 @@
     "tms:id": "243564",
     "accession_number": "2009-42-5",
     "title": "Poster, \"Fort Worth Art Museum, That's Entertainment:  The American Musical Film\", 1976",
+    "title_raw": "Fort Worth Art Museum, That's Entertainment:  The American Musical Film",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18734831\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1976,
     "year_acquired": "2009",
     "decade": "1970",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Off-set lithograph on white wove paper",
     "markings": null,
     "signed": null,
     "inscribed": "Printed in black ink, lower left: Design: Massimo Vignelli",
     "provenance": "Lella and Massimo Vignelli, New York, NY; 2009: acquired by Museum",
     "dimensions": "Sheet: 61 x 91.4 cm (24 x 36 in.)",
+    "dimensions_raw": {
+        "height": [
+            "60.96",
+            "centimeters"
+        ],
+        "width": [
+            "91.44",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Lella and Massimo Vignelli",
     "description": "Black and white poster with a photomontage of Fred Astaire dancing in four different poses. Upper margin, under black border: THE FORT WORTH ART MUSEUM \/ That\u2019s Entertainment: The American Musical Film. Information about series of films.",
     "justification": null,
-    "type": {
-        "id": "35238163",
-        "name": "poster"
-    },
+    "woe:country": "23424977",
+    "type": "poster",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/34425_6965c4ba63ae0339_b.jpg",
                 "width": 1024,
                 "height": 685,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/34425_6965c4ba63ae0339_n.jpg",
-                "width": 320,
-                "height": 214,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "34425"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/34425_6965c4ba63ae0339_z.jpg",
                 "width": 640,
                 "height": 428,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "34425"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/34425_6965c4ba63ae0339_n.jpg",
+                "width": 320,
+                "height": 214,
+                "is_primary": "1",
+                "image_id": "34425"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/34425_6965c4ba63ae0339_d.gif",
+                "width": 320,
+                "height": 214,
+                "is_primary": "1",
+                "image_id": "34425"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/34425_6965c4ba63ae0339_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "34425"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18044029",
             "role_id": "35351535",
             "person_name": "Lella Vignelli",
+            "person_date": "Italian, b. 1934",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18044029\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18042329",
             "role_id": "35236655",
             "person_name": "Massimo Vignelli",
+            "person_date": "Italian, 1931 - 2014",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18042329\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18042329",
             "role_id": "35351535",
             "person_name": "Massimo Vignelli",
+            "person_date": "Italian, 1931 - 2014",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18042329\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -80,12 +112,29 @@
     },
     "colors": [
         {
-            "color": "#4d494c",
-            "closest_css3": "#2f4f4f"
+            "color": "#323033",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#918384",
-            "closest_css3": "#808080"
+            "color": "#585052",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
+        },
+        {
+            "color": "#b0a6a7",
+            "closest_crayola": "#979aaa",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
+        },
+        {
+            "color": "#887d7e",
+            "closest_crayola": "#757575",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

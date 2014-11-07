@@ -3,6 +3,7 @@
     "tms:id": "180278",
     "accession_number": "1982-79-17",
     "title": "Book, \"Book of Carpet Designs\", ca. 1928",
+    "title_raw": "Book of Carpet Designs",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18800231\/",
     "department_id": "35347493",
     "period_id": "35417251",
@@ -13,39 +14,64 @@
     "year_end": 1929,
     "year_acquired": "1982",
     "decade": "1920",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Brush and watercolor, gouache on photostats on wove paper",
     "markings": null,
     "signed": null,
     "inscribed": "In pen and black ink on end paper: This book is the property  \/ of Marion Dorn \/ designer \/ 49 Chiltern Court \/ Baker St. \/ London \/ Copyright of all designs \/ reserved to the \/ designer.",
     "provenance": "Daren Pierce; 1982: acquired by Museum",
     "dimensions": "bound: 20.9 x 14.8 cm (8 1\/4 x 5 13\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "20.90",
+            "centimeters"
+        ],
+        "width": [
+            "14.80",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Daren Pierce",
     "description": "Series of 22 photographs partially colored with gouache and watercolor. Tan cover with embossed initials of EMcK and MD. Book is bound.",
     "justification": null,
-    "type": {
-        "id": "35247441",
-        "name": "book"
-    },
+    "woe:country": "23424977",
+    "type": "book",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/30479_9229b6bae6452986_b.jpg",
                 "width": 709,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/30479_9229b6bae6452986_n.jpg",
-                "width": 222,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "30479"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/30479_9229b6bae6452986_z.jpg",
                 "width": 443,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "30479"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/30479_9229b6bae6452986_n.jpg",
+                "width": 222,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "30479"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/30479_9229b6bae6452986_d.gif",
+                "width": 222,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "30479"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/30479_9229b6bae6452986_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "30479"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18041923",
             "role_id": "35236655",
             "person_name": "Edward McKnight Kauffer",
+            "person_date": "American, active England, 1890\u20131954",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041923\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18046153",
             "role_id": "35236655",
             "person_name": "Marion Dorn Kauffer",
+            "person_date": "American, active in England, 1896\u20131964",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18046153\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
@@ -72,24 +102,35 @@
     },
     "colors": [
         {
-            "color": "#8a7e78",
-            "closest_css3": "#808080"
+            "color": "#7e7472",
+            "closest_crayola": "#757575",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#b4a797",
-            "closest_css3": "#a9a9a9"
+            "color": "#aa9988",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         },
         {
-            "color": "#5a575c",
-            "closest_css3": "#696969"
+            "color": "#59565b",
+            "closest_crayola": "#6e5160",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#ad8555",
-            "closest_css3": "#cd853f"
+            "color": "#a9855c",
+            "closest_crayola": "#a57164",
+            "closest_css3": "#cd853f",
+            "closest_css4": "#cd853f"
         },
         {
-            "color": "#7a86b0",
-            "closest_css3": "#778899"
+            "color": "#7687ba",
+            "closest_crayola": "#6699cc",
+            "closest_css3": "#778899",
+            "closest_css4": "#778899"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

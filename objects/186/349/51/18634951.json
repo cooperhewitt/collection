@@ -3,6 +3,7 @@
     "tms:id": "192322",
     "accession_number": "1990-72-1",
     "title": "Textile, \"Cabbage Rose\", 1987",
+    "title_raw": "Cabbage Rose",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18634951\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,68 @@
     "year_end": 1987,
     "year_acquired": "1990",
     "decade": "1980",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Technique: air brushed",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "Warp x Weft: 365 x 145 cm (11 ft. 11 11\/16 in. x 57 1\/16 in.)\nRepeat H: 76 cm (29 15\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "76.00",
+            "centimeters"
+        ],
+        "warp": [
+            "365.00",
+            "centimeters"
+        ],
+        "weft": [
+            "145.00",
+            "centimeters"
+        ]
+    },
     "creditline": null,
     "description": "Stylized roses.",
     "justification": null,
-    "type": {
-        "id": "35251739",
-        "name": "textile"
-    },
+    "woe:country": "23424977",
+    "type": "textile",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/78586_b5c88941da119ae8_b.jpg",
                 "width": 663,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/78586_b5c88941da119ae8_n.jpg",
-                "width": 207,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "78586"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/78586_b5c88941da119ae8_z.jpg",
                 "width": 414,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "78586"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/78586_b5c88941da119ae8_n.jpg",
+                "width": 207,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "78586"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/78586_b5c88941da119ae8_d.gif",
+                "width": 207,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "78586"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/78586_b5c88941da119ae8_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "78586"
             }
         },
         {
@@ -53,19 +83,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/78587_6b4acf9a2147f9ee_b.jpg",
                 "width": 1024,
                 "height": 663,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/78587_6b4acf9a2147f9ee_n.jpg",
-                "width": 320,
-                "height": 207,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "78587"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/78587_6b4acf9a2147f9ee_z.jpg",
                 "width": 640,
                 "height": 414,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "78587"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/78587_6b4acf9a2147f9ee_n.jpg",
+                "width": 320,
+                "height": 207,
+                "is_primary": "0",
+                "image_id": "78587"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/78587_6b4acf9a2147f9ee_d.gif",
+                "width": 320,
+                "height": 207,
+                "is_primary": "0",
+                "image_id": "78587"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/78587_6b4acf9a2147f9ee_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "78587"
             }
         }
     ],
@@ -74,7 +121,9 @@
             "person_id": "18048019",
             "role_id": "35352245",
             "person_name": "lm",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18048019\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -82,7 +131,9 @@
             "person_id": "18045773",
             "role_id": "35236681",
             "person_name": "Tylergraphic",
+            "person_date": "",
             "role_name": "Company",
+            "role_display_name": "Company:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18045773\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236681\/"
         },
@@ -90,7 +141,9 @@
             "person_id": "18045771",
             "role_id": "35236685",
             "person_name": "Ted Tyler",
+            "person_date": "1953",
             "role_name": "Maker",
+            "role_display_name": "Made by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18045771\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236685\/"
         },
@@ -98,7 +151,9 @@
             "person_id": "18045771",
             "role_id": "35236655",
             "person_name": "Ted Tyler",
+            "person_date": "1953",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18045771\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
@@ -108,5 +163,6 @@
     },
     "colors": [
 
-    ]
+    ],
+    "woe:country_name": "United States"
 }

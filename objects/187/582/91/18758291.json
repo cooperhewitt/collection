@@ -3,6 +3,7 @@
     "tms:id": "255431",
     "accession_number": "2010-21-43",
     "title": "Poster, 1983",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18758291\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1983,
     "year_acquired": "2010",
     "decade": "1980",
-    "woe:country": "23424957",
+    "woe:country_id": "23424957",
     "medium": "Offset lithograph on wove paper",
     "markings": null,
     "signed": null,
     "inscribed": "Printed in black ink, lower margin: J\u00f6rg Hamburger\/Georg Staehelin. Druch: J. C. Muller AG, Zurich",
     "provenance": "Sara and Marc Benda (acquired new and directly from designer, J\u00f6rg Hamburger and Georg Staehelin); 2010: acquired by Museum",
     "dimensions": "128.1 x 89.1 cm (50 7\/16 x 35 1\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "128.11",
+            "centimeters"
+        ],
+        "width": [
+            "89.06",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Sara and Marc Benda",
     "description": "On red ground, a large black letter \u2018D\u2019 with text in white and red: Design-Formgebung fur jedermann. \/ Typen und Prototypen. \/ Ausstellung in Kunstgewerbemuseum \/ Zurich, Museum fur Gestaltung \/ 16. Juni-18. September 1983 [additional information included].",
     "justification": null,
-    "type": {
-        "id": "35238163",
-        "name": "poster"
-    },
+    "woe:country": "23424957",
+    "type": "poster",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/36995_cf2f3c5a042d353f_b.jpg",
                 "width": 730,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/36995_cf2f3c5a042d353f_n.jpg",
-                "width": 228,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "36995"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/36995_cf2f3c5a042d353f_z.jpg",
                 "width": 456,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "36995"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/36995_cf2f3c5a042d353f_n.jpg",
+                "width": 228,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "36995"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/36995_cf2f3c5a042d353f_d.gif",
+                "width": 228,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "36995"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/36995_cf2f3c5a042d353f_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "36995"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18063557",
             "role_id": "35236667",
             "person_name": "Museum f\u00fcr Gestaltung, Z\u00fcrich",
+            "person_date": "",
             "role_name": "Client",
+            "role_display_name": "Client:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18063557\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236667\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18063535",
             "role_id": "35236673",
             "person_name": "J.C. M\u00fcller AG",
+            "person_date": "Swiss, active 1900s - present",
             "role_name": "Printer",
+            "role_display_name": "Printed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18063535\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236673\/"
         },
@@ -70,8 +100,20 @@
             "person_id": "18063533",
             "role_id": "35236655",
             "person_name": "Georg Staehelin",
+            "person_date": "Swiss, b. 1942",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18063533\/",
+            "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
+        },
+        {
+            "person_id": "68738759",
+            "role_id": "35236655",
+            "person_name": "J\u00f6rg Hamburger",
+            "person_date": "Swiss, born 1935",
+            "role_name": "Designer",
+            "role_display_name": "Designed by",
+            "person_url": "http:\/\/collection.cooperhewitt.org\/people\/68738759\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
     ],
@@ -80,20 +122,35 @@
     },
     "colors": [
         {
-            "color": "#d13532",
-            "closest_css3": "#dc143c"
+            "color": "#d03532",
+            "closest_crayola": "#cd4a4c",
+            "closest_css3": "#dc143c",
+            "closest_css4": "#dc143c"
         },
         {
-            "color": "#f5554a",
-            "closest_css3": "#ff6347"
+            "color": "#fa6254",
+            "closest_crayola": "#fd5e53",
+            "closest_css3": "#ff6347",
+            "closest_css4": "#ff6347"
         },
         {
-            "color": "#593f37",
-            "closest_css3": "#556b2f"
+            "color": "#86332d",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#8b4513",
+            "closest_css4": "#8b4513"
         },
         {
-            "color": "#90332e",
-            "closest_css3": "#a52a2a"
+            "color": "#613f36",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
+        },
+        {
+            "color": "#d0aca8",
+            "closest_crayola": "#deaa88",
+            "closest_css3": "#d2b48c",
+            "closest_css4": "#d2b48c"
         }
-    ]
+    ],
+    "woe:country_name": "Switzerland"
 }

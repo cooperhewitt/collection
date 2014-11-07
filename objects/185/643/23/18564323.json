@@ -3,6 +3,7 @@
     "tms:id": "75362",
     "accession_number": "1941-69-52",
     "title": "Sampler, 1798",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18564323\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1798,
     "year_acquired": "1941",
     "decade": null,
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Medium: silk embroidery on linen foundation\nTechnique: embroidered in cross stitch on plain weave foundation",
     "markings": null,
     "signed": null,
     "inscribed": "Ann Thornton Aged nine Years Anno Domini 1798",
     "provenance": "ex. coll. Mrs. Henry E. Coe (Eva Johnston Coe)",
     "dimensions": "H x W: 43 x 34 cm (16 15\/16 x 13 3\/8 in.)",
+    "dimensions_raw": {
+        "height": [
+            "43.00",
+            "centimeters"
+        ],
+        "width": [
+            "34.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Bequest of Mrs. Henry E. Coe",
     "description": "Several bands of alphabets and numerals separated by geometric and floral cross borders, with a verse and inscription: \nGod give me grace i ask no more\nContentment is a constant store \nAnn Thornton Aged nine Years Anno Domini 1798\n\nIn the lower half, a landscape showing trees growing out of mounds with animals, birds, insects, and baskets of flowers. With an angular strawberry vine border.",
     "justification": null,
-    "type": {
-        "id": "35256439",
-        "name": "Sampler"
-    },
+    "woe:country": "23424977",
+    "type": "Sampler",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/45902_8e68cfafe1f5ae8b_b.jpg",
                 "width": 816,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/45902_8e68cfafe1f5ae8b_n.jpg",
-                "width": 255,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "45902"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/45902_8e68cfafe1f5ae8b_z.jpg",
                 "width": 510,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "45902"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/45902_8e68cfafe1f5ae8b_n.jpg",
+                "width": 255,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "45902"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/45902_8e68cfafe1f5ae8b_d.gif",
+                "width": 255,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "45902"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/45902_8e68cfafe1f5ae8b_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "45902"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/27824_ca7cb036dccb674a_b.jpg",
                 "width": 826,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/27824_ca7cb036dccb674a_n.jpg",
-                "width": 258,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "27824"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/27824_ca7cb036dccb674a_z.jpg",
                 "width": 516,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "27824"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/27824_ca7cb036dccb674a_n.jpg",
+                "width": 258,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "27824"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/27824_ca7cb036dccb674a_d.gif",
+                "width": 258,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "27824"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/27824_ca7cb036dccb674a_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "27824"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18061385",
             "role_id": "35236583",
             "person_name": "Ann Thornton, American",
+            "person_date": "",
             "role_name": "Embroiderer",
+            "role_display_name": "Embroidered by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18061385\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236583\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18052567",
             "role_id": "51584809",
             "person_name": "Mrs. Henry E. Coe",
+            "person_date": "",
             "role_name": "Borrower",
+            "role_display_name": "Borrowed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18052567\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/51584809\/"
         }
@@ -92,24 +139,29 @@
     },
     "colors": [
         {
-            "color": "#8a7c47",
-            "closest_css3": "#6b8e23"
+            "color": "#c1a886",
+            "closest_crayola": "#cd9575",
+            "closest_css3": "#d2b48c",
+            "closest_css4": "#d2b48c"
         },
         {
-            "color": "#695535",
-            "closest_css3": "#556b2f"
+            "color": "#a08155",
+            "closest_crayola": "#a57164",
+            "closest_css3": "#cd853f",
+            "closest_css4": "#cd853f"
         },
         {
-            "color": "#8f6d46",
-            "closest_css3": "#a0522d"
+            "color": "#6f5a39",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         },
         {
-            "color": "#6b6a49",
-            "closest_css3": "#696969"
-        },
-        {
-            "color": "#dbd5cc",
-            "closest_css3": "#d3d3d3"
+            "color": "#7e7a5d",
+            "closest_crayola": "#8a795d",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

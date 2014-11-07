@@ -3,6 +3,7 @@
     "tms:id": "75299",
     "accession_number": "1941-69-230",
     "title": "Sampler, 1757",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18564193\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1757,
     "year_acquired": "1941",
     "decade": null,
-    "woe:country": "23424829",
+    "woe:country_id": "23424829",
     "medium": "Medium: silk embroidery on linen foundation\nTechnique: cross, satin, stem and knot stitches on plain weave",
     "markings": null,
     "signed": "Initialed MDF and ISG",
     "inscribed": "Initials MDF, ISG and the date 1757",
     "provenance": "ex. coll. Mrs. Henry E. Coe (Eva Johnston Coe)",
     "dimensions": "H x W: 106 x 29.5 cm (41 3\/4 x 11 5\/8 in.)",
+    "dimensions_raw": {
+        "height": [
+            "106.00",
+            "centimeters"
+        ],
+        "width": [
+            "29.50",
+            "centimeters"
+        ]
+    },
     "creditline": "Bequest of Mrs. Henry E. Coe",
     "description": "Cross borders containing geometric and floral patterns, alphabets, numerals; in panel are two medallions with initials \"MDF\" and \"ISG\" and the date \"1757.\"  Also features Crucifixion, Pascal Lamb, St. George and the Dragon and various animals.",
     "justification": null,
-    "type": {
-        "id": "35256439",
-        "name": "Sampler"
-    },
+    "woe:country": "23424829",
+    "type": "Sampler",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/41105_198f52addfba3ef1_b.jpg",
                 "width": 301,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/41105_198f52addfba3ef1_n.jpg",
-                "width": 94,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "41105"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/41105_198f52addfba3ef1_z.jpg",
                 "width": 188,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "41105"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/41105_198f52addfba3ef1_n.jpg",
+                "width": 94,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "41105"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/41105_198f52addfba3ef1_d.gif",
+                "width": 94,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "41105"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/41105_198f52addfba3ef1_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "41105"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/29167_9867d3e32d7ebdbf_b.jpg",
                 "width": 317,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/29167_9867d3e32d7ebdbf_n.jpg",
-                "width": 99,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "29167"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/29167_9867d3e32d7ebdbf_z.jpg",
                 "width": 198,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "29167"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/29167_9867d3e32d7ebdbf_n.jpg",
+                "width": 99,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "29167"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/29167_9867d3e32d7ebdbf_d.gif",
+                "width": 99,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "29167"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/29167_9867d3e32d7ebdbf_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "29167"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18052567",
             "role_id": "35351537",
             "person_name": "Mrs. Henry E. Coe",
+            "person_date": "",
             "role_name": "Bequestor",
+            "role_display_name": "Bequest of",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18052567\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351537\/"
         }
@@ -84,20 +129,35 @@
     },
     "colors": [
         {
-            "color": "#9b7e54",
-            "closest_css3": "#808080"
+            "color": "#9c8056",
+            "closest_crayola": "#8a795d",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#7b7d67",
-            "closest_css3": "#808080"
+            "color": "#a19873",
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         },
         {
-            "color": "#4f422f",
-            "closest_css3": "#556b2f"
+            "color": "#7d7f68",
+            "closest_crayola": "#8a795d",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#d8cdb2",
-            "closest_css3": "#c0c0c0"
+            "color": "#524632",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
+        },
+        {
+            "color": "#ddd6c7",
+            "closest_crayola": "#dbd7d2",
+            "closest_css3": "#d3d3d3",
+            "closest_css4": "#d3d3d3"
         }
-    ]
+    ],
+    "woe:country_name": "Germany"
 }

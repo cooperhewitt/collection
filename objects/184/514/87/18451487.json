@@ -3,6 +3,7 @@
     "tms:id": "136264",
     "accession_number": "1964-24-66",
     "title": "Hanging, \"Reflections\", 1959\u201360",
+    "title_raw": "Reflections",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18451487\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1960,
     "year_acquired": "1964",
     "decade": "1950",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Medium:  Warp: red = linen, orange and pink = cotton, orange and yellow = silk, Wefts: wool, viscose, silk, cotton\nTechnique: plain weave with discontinuous wefts (tapestry)",
     "markings": null,
     "signed": "signed",
     "inscribed": null,
     "provenance": "Elizabeth Gordon; 1964: acquired by Museum",
     "dimensions": "Warp x Weft: 142 x 75 cm (55 7\/8 x 29 1\/2 in.)",
+    "dimensions_raw": {
+        "warp": [
+            "142.00",
+            "centimeters"
+        ],
+        "weft": [
+            "75.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Elizabeth Gordon",
     "description": "Hanging of linen, wool and rayon in tapestry weave in brilliant shades of red. Abstract allover pattern.",
     "justification": null,
-    "type": {
-        "id": "35257233",
-        "name": "Hanging"
-    },
+    "woe:country": "23424977",
+    "type": "Hanging",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/46040_cf7b7874815fb54e_b.jpg",
                 "width": 643,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/46040_cf7b7874815fb54e_n.jpg",
-                "width": 201,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "46040"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/46040_cf7b7874815fb54e_z.jpg",
                 "width": 402,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "46040"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/46040_cf7b7874815fb54e_n.jpg",
+                "width": 201,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "46040"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/46040_cf7b7874815fb54e_d.gif",
+                "width": 201,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "46040"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/46040_cf7b7874815fb54e_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "46040"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18046125",
             "role_id": "35236655",
             "person_name": "Lenore Tawney",
+            "person_date": "American, 1907\u20132007",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18046125\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18046125",
             "role_id": "35236745",
             "person_name": "Lenore Tawney",
+            "person_date": "American, 1907\u20132007",
             "role_name": "Weaver",
+            "role_display_name": "Woven by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18046125\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236745\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18539351",
             "role_id": "35351535",
             "person_name": "Miss Elizabeth Gordon",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18539351\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -80,24 +112,35 @@
     },
     "colors": [
         {
-            "color": "#ca7242",
-            "closest_css3": "#cd853f"
+            "color": "#bc6543",
+            "closest_crayola": "#b4674d",
+            "closest_css3": "#cd5c5c",
+            "closest_css4": "#cd5c5c"
         },
         {
-            "color": "#a65023",
-            "closest_css3": "#a0522d"
+            "color": "#b06470",
+            "closest_crayola": "#a57164",
+            "closest_css3": "#cd5c5c",
+            "closest_css4": "#cd5c5c"
         },
         {
-            "color": "#b1776f",
-            "closest_css3": "#bc8f8f"
+            "color": "#d78769",
+            "closest_crayola": "#d68a59",
+            "closest_css3": "#e9967a",
+            "closest_css4": "#e9967a"
         },
         {
-            "color": "#8e6260",
-            "closest_css3": "#696969"
+            "color": "#8e603f",
+            "closest_crayola": "#85754e",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         },
         {
-            "color": "#af2544",
-            "closest_css3": "#a52a2a"
+            "color": "#b02a40",
+            "closest_crayola": "#9c2542",
+            "closest_css3": "#a52a2a",
+            "closest_css4": "#a52a2a"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

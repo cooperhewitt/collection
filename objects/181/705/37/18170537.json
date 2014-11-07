@@ -3,6 +3,7 @@
     "tms:id": "18204",
     "accession_number": "1911-28-223",
     "title": "Drawing, \"Design for Staircase, Voorst Castle, The Hague, Netherlands\", 1697\u20131700",
+    "title_raw": "Design for Staircase, Voorst Castle, The Hague, Netherlands",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18170537\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": "1700",
     "year_acquired": "1911",
     "decade": null,
-    "woe:country": "23424909",
+    "woe:country_id": "23424909",
     "medium": "Pen and black ink, brush and gray wash, traces of black chalk on white laid paper",
     "markings": "Marks: double-headed eagle.",
     "signed": "Signed in pen and brown ink, Bottom Register, lower left: L. Moecheran, inv. et fecit 22 oct 1700.",
     "inscribed": null,
     "provenance": "Leon Decloux; 1911: acquired by Museum",
     "dimensions": "59.9 x 34.9 cm (23 9\/16 x 13 3\/4 in.)\nsheet rounded at top\nMat:  55.9 x 71.1 cm (22 x 28 in.)",
+    "dimensions_raw": {
+        "height": [
+            "59.90",
+            "centimeters"
+        ],
+        "width": [
+            "34.90",
+            "centimeters"
+        ]
+    },
     "creditline": "Purchased for the Museum by the Advisory Council",
     "description": "Drawing in three registers. Palace courtyard visible through Corinthean portico. In left niche, Apollo; at center, Abundance and attendants; at right, Diana. Top register, figures amidst clouds. Bottom register, Daphne and Apollo between caryatids.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424909",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/1493_ee643600537ed321_b.jpg",
                 "width": 619,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/1493_ee643600537ed321_n.jpg",
-                "width": 193,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "1493"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/1493_ee643600537ed321_z.jpg",
                 "width": 387,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "1493"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/1493_ee643600537ed321_n.jpg",
+                "width": 193,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "1493"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/1493_ee643600537ed321_d.gif",
+                "width": 193,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "1493"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/1493_ee643600537ed321_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "1493"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18049621",
             "role_id": "35351535",
             "person_name": "Advisory Council",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049621\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18047443",
             "role_id": "35352245",
             "person_name": "Megan L. Smith",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047443\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18042163",
             "role_id": "35236565",
             "person_name": "Isaac de Moucheron",
+            "person_date": "Dutch, 1667\u20131744",
             "role_name": "Artist",
+            "role_display_name": "",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18042163\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236565\/"
         },
@@ -78,7 +110,9 @@
             "person_id": "18042233",
             "role_id": "35236565",
             "person_name": "Daniel Marot",
+            "person_date": "French, 1661\u20131752; active in Netherlands and England",
             "role_name": "Artist",
+            "role_display_name": "",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18042233\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236565\/"
         }
@@ -88,20 +122,29 @@
     },
     "colors": [
         {
-            "color": "#908693",
-            "closest_css3": "#808080"
+            "color": "#bbabb9",
+            "closest_crayola": "#b0b7c6",
+            "closest_css3": "#c0c0c0",
+            "closest_css4": "#c0c0c0"
         },
         {
-            "color": "#5b505b",
-            "closest_css3": "#696969"
+            "color": "#eaddf0",
+            "closest_crayola": "#fddde6",
+            "closest_css3": "#e6e6fa",
+            "closest_css4": "#e6e6fa"
         },
         {
-            "color": "#f1e6f6",
-            "closest_css3": "#e6e6fa"
+            "color": "#837580",
+            "closest_crayola": "#757575",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#776b74",
-            "closest_css3": "#696969"
+            "color": "#5d525d",
+            "closest_crayola": "#6e5160",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         }
-    ]
+    ],
+    "woe:country_name": "Netherlands"
 }

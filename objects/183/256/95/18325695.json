@@ -3,6 +3,7 @@
     "tms:id": "47430",
     "accession_number": "1931-6-72",
     "title": "Portrait Miniature Of A Nun On A Box, ca. 1790",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18325695\/",
     "department_id": "35347497",
     "period_id": null,
@@ -13,39 +14,105 @@
     "year_end": 1800,
     "year_acquired": "1931",
     "decade": null,
-    "woe:country": "23424975",
+    "woe:country_id": "23424975",
     "medium": "Watercolor and gum arabic, cut ivory, wood",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "Sarah Cooper Hewitt; 1931: acquired by Museum",
     "dimensions": "H x W x D: 1.3 x 6.4 x 10.6 cm (1\/2 x 2 1\/2 x 4 3\/16 in.)",
+    "dimensions_raw": {
+        "depth": [
+            "10.64",
+            "centimeters"
+        ],
+        "height": [
+            "1.27",
+            "centimeters"
+        ],
+        "width": [
+            "6.35",
+            "centimeters"
+        ]
+    },
     "creditline": "Bequest of Sarah Cooper Hewitt",
     "description": "Oval box with metal rim and ivory face with watercolor portrait of a nun.",
     "justification": null,
-    "type": {
-        "id": "68248581",
-        "name": "Portrait Miniature of a Nun on a box"
-    },
+    "woe:country": "23424975",
+    "type": "Portrait Miniature of a Nun on a box",
     "images": [
+        {
+            "b": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/91561_98a380c9d48d0383_b.jpg",
+                "width": 748,
+                "height": 1024,
+                "is_primary": "1",
+                "image_id": "91561"
+            },
+            "z": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/91561_98a380c9d48d0383_z.jpg",
+                "width": 468,
+                "height": 640,
+                "is_primary": "1",
+                "image_id": "91561"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/91561_98a380c9d48d0383_n.jpg",
+                "width": 234,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "91561"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/91561_98a380c9d48d0383_d.gif",
+                "width": 234,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "91561"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/91561_98a380c9d48d0383_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "91561"
+            }
+        },
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/29386_2ace908d4916f214_b.jpg",
                 "width": 787,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/29386_2ace908d4916f214_n.jpg",
-                "width": 246,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "29386"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/29386_2ace908d4916f214_z.jpg",
                 "width": 492,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "29386"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/29386_2ace908d4916f214_n.jpg",
+                "width": 246,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "29386"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/29386_2ace908d4916f214_d.gif",
+                "width": 246,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "29386"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/29386_2ace908d4916f214_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "29386"
             }
         }
     ],
@@ -54,7 +121,9 @@
             "person_id": "18061653",
             "role_id": "35236565",
             "person_name": "Richard Cosway",
+            "person_date": "English, 1742 \u2013 1821",
             "role_name": "Artist",
+            "role_display_name": "",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18061653\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236565\/"
         },
@@ -62,7 +131,9 @@
             "person_id": "18049321",
             "role_id": "35351537",
             "person_name": "Sarah Cooper Hewitt",
+            "person_date": "American, 1859\u20131930",
             "role_name": "Bequestor",
+            "role_display_name": "Bequest of",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049321\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351537\/"
         }
@@ -72,24 +143,35 @@
     },
     "colors": [
         {
-            "color": "#e1dac7",
-            "closest_css3": "#d3d3d3"
-        },
-        {
-            "color": "#423a34",
-            "closest_css3": "#2f4f4f"
+            "color": "#cabda2",
+            "closest_crayola": "#e7c697",
+            "closest_css3": "#d2b48c",
+            "closest_css4": "#d2b48c"
         },
         {
             "color": "#655f53",
-            "closest_css3": "#696969"
+            "closest_crayola": "#6e5160",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#9fafab",
-            "closest_css3": "#a9a9a9"
+            "color": "#cd9a63",
+            "closest_crayola": "#cd9575",
+            "closest_css3": "#bdb76b",
+            "closest_css4": "#bdb76b"
         },
         {
-            "color": "#d19c62",
-            "closest_css3": "#e9967a"
+            "color": "#9baeab",
+            "closest_crayola": "#979aaa",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
+        },
+        {
+            "color": "#60462f",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         }
-    ]
+    ],
+    "woe:country_name": "United Kingdom"
 }

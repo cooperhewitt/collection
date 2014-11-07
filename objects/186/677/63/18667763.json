@@ -3,6 +3,7 @@
     "tms:id": "209279",
     "accession_number": "1995-50-152",
     "title": "Textile, \"Coriolanus and Scipio\", ca. 1825",
+    "title_raw": "Coriolanus and Scipio",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18667763\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1835,
     "year_acquired": "1995",
     "decade": null,
-    "woe:country": "23424819",
+    "woe:country_id": "23424819",
     "medium": "Medium: cotton\nTechnique: roller printed on plain weave",
     "markings": "\"Buquet, D & Sculp.\" for Buquet designer and engraver.",
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "113 x 73.5 cm (44 1\/2 x 28 15\/16 in.)\nWarp is the first measurement.",
+    "dimensions_raw": {
+        "height": [
+            "113.00",
+            "centimeters"
+        ],
+        "width": [
+            "73.50",
+            "centimeters"
+        ]
+    },
     "creditline": "Bequest of Elinor Merrell",
     "description": "Two different stories, that of Coriolanus and that of Scipio, printed in red on a background of chickens. There is text in French under each of the scenes.",
     "justification": null,
-    "type": {
-        "id": "35251739",
-        "name": "textile"
-    },
+    "woe:country": "23424819",
+    "type": "textile",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/12267_bab7f970d5637071_b.jpg",
                 "width": 697,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/12267_bab7f970d5637071_n.jpg",
-                "width": 218,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "12267"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/12267_bab7f970d5637071_z.jpg",
                 "width": 436,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "12267"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/12267_bab7f970d5637071_n.jpg",
+                "width": 218,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "12267"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/12267_bab7f970d5637071_d.gif",
+                "width": 218,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "12267"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/12267_bab7f970d5637071_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "12267"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18050043",
             "role_id": "35236743",
             "person_name": "Alexandre Buquet",
+            "person_date": "French, 1802 \u2013 1865",
             "role_name": "Engraver",
+            "role_display_name": "Engraved by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18050043\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236743\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18050043",
             "role_id": "35236655",
             "person_name": "Alexandre Buquet",
+            "person_date": "French, 1802 \u2013 1865",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18050043\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18049427",
             "role_id": "35351537",
             "person_name": "Elinor Merrell",
+            "person_date": "",
             "role_name": "Bequestor",
+            "role_display_name": "Bequest of",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049427\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351537\/"
         }
@@ -80,24 +112,35 @@
     },
     "colors": [
         {
-            "color": "#f69670",
-            "closest_css3": "#e9967a"
+            "color": "#fbad84",
+            "closest_crayola": "#ffa089",
+            "closest_css3": "#ffa07a",
+            "closest_css4": "#ffa07a"
         },
         {
-            "color": "#fdddb4",
-            "closest_css3": "#ffdab9"
+            "color": "#fcdbba",
+            "closest_crayola": "#fdd9b5",
+            "closest_css3": "#ffdab9",
+            "closest_css4": "#ffdab9"
         },
         {
-            "color": "#b77c62",
-            "closest_css3": "#cd5c5c"
+            "color": "#ce8b6e",
+            "closest_crayola": "#cd9575",
+            "closest_css3": "#e9967a",
+            "closest_css4": "#e9967a"
         },
         {
-            "color": "#ae5143",
-            "closest_css3": "#a0522d"
+            "color": "#cb6652",
+            "closest_crayola": "#bc5d58",
+            "closest_css3": "#cd5c5c",
+            "closest_css4": "#cd5c5c"
         },
         {
-            "color": "#d0af92",
-            "closest_css3": "#d2b48c"
+            "color": "#fcf8dc",
+            "closest_crayola": "#fddde6",
+            "closest_css3": "#fff8dc",
+            "closest_css4": "#fff8dc"
         }
-    ]
+    ],
+    "woe:country_name": "France"
 }

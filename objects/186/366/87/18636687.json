@@ -3,6 +3,7 @@
     "tms:id": "193194",
     "accession_number": "1991-58-9",
     "title": "Drawing, ca. 1919",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18636687\/",
     "department_id": "35347493",
     "period_id": "35417251",
@@ -13,39 +14,64 @@
     "year_end": 1924,
     "year_acquired": "1991",
     "decade": "1910",
-    "woe:country": "23424819",
+    "woe:country_id": "23424819",
     "medium": "Brush and watercolor, graphite on tracing paper",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "1991: acquired by Museum (from Yu-Chee Chong Fine Art, London)",
     "dimensions": "20.5 x 33.8 cm (8 1\/16 x 13 5\/16 in.)",
-    "creditline": null,
+    "dimensions_raw": {
+        "height": [
+            "20.50",
+            "centimeters"
+        ],
+        "width": [
+            "33.80",
+            "centimeters"
+        ]
+    },
+    "creditline": "Museum purchase from Smithsonian Institution Collections Acquisition Program Fund",
     "description": "View of a building, cypress trees in background; square garden in front.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424819",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/61591_a455d57713e8a029_b.jpg",
                 "width": 1024,
                 "height": 626,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/61591_a455d57713e8a029_n.jpg",
-                "width": 320,
-                "height": 195,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "61591"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/61591_a455d57713e8a029_z.jpg",
                 "width": 640,
                 "height": 391,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "61591"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/61591_a455d57713e8a029_n.jpg",
+                "width": 320,
+                "height": 195,
+                "is_primary": "1",
+                "image_id": "61591"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/61591_a455d57713e8a029_d.gif",
+                "width": 320,
+                "height": 195,
+                "is_primary": "1",
+                "image_id": "61591"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/61591_a455d57713e8a029_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "61591"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18043123",
             "role_id": "35236655",
             "person_name": "Paul Vera",
+            "person_date": "French, 1882\u20131957; active in Paris",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18043123\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -62,30 +90,57 @@
             "person_id": "18043125",
             "role_id": "35236655",
             "person_name": "Andr\u00e9 Vera",
+            "person_date": "French, 1881\u20131971; active in Paris",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18043125\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
+        },
+        {
+            "person_id": "18061593",
+            "role_id": "35352249",
+            "person_name": "Yu-Chee Chong",
+            "person_date": "",
+            "role_name": "Vendor",
+            "role_display_name": "Purchased from",
+            "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18061593\/",
+            "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352249\/"
         }
     ],
     "tombstone": {
-        "epitaph": "Drawing, ca. 1919. Brush and watercolor, graphite on tracing paper. 1991-58-9."
+        "epitaph": "Drawing, ca. 1919. Brush and watercolor, graphite on tracing paper. Museum purchase from Smithsonian Institution Collections Acquisition Program Fund. 1991-58-9."
     },
     "colors": [
         {
-            "color": "#9a8d6d",
-            "closest_css3": "#808080"
+            "color": "#c4b792",
+            "closest_crayola": "#deaa88",
+            "closest_css3": "#d2b48c",
+            "closest_css4": "#d2b48c"
         },
         {
-            "color": "#beb08a",
-            "closest_css3": "#d2b48c"
+            "color": "#9b8e6e",
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#6b6551",
-            "closest_css3": "#696969"
+            "color": "#7a7057",
+            "closest_crayola": "#85754e",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
             "color": "#473f3a",
-            "closest_css3": "#2f4f4f"
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
+        },
+        {
+            "color": "#715842",
+            "closest_crayola": "#6e5160",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         }
-    ]
+    ],
+    "woe:country_name": "France"
 }

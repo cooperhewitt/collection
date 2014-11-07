@@ -6,7 +6,13 @@ accession_number
 colors
 ==
 
+colors.closest_crayola
+==
+
 colors.closest_css3
+==
+
+colors.closest_css4
 ==
 
 colors.color
@@ -31,6 +37,51 @@ description
 ==
 
 dimensions
+==
+
+dimensions_raw
+==
+
+dimensions_raw.circumference
+==
+
+dimensions_raw.depth
+==
+
+dimensions_raw.diameter
+==
+
+dimensions_raw.digital file
+==
+
+dimensions_raw.height
+==
+
+dimensions_raw.hypoteneuse
+==
+
+dimensions_raw.length
+==
+
+dimensions_raw.other
+==
+
+dimensions_raw.pages
+==
+
+dimensions_raw.unit
+==
+
+dimensions_raw.warp
+==
+
+dimensions_raw.weft
+==
+
+dimensions_raw.weight
+==
+
+dimensions_raw.width
 ==
 
 exhibitions
@@ -63,6 +114,9 @@ images.b
 images.b.height
 ==
 
+images.b.image_id
+==
+
 images.b.is_primary
 ==
 
@@ -76,6 +130,9 @@ images.d
 ==
 
 images.d.height
+==
+
+images.d.image_id
 ==
 
 images.d.is_primary
@@ -93,6 +150,9 @@ images.n
 images.n.height
 ==
 
+images.n.image_id
+==
+
 images.n.is_primary
 ==
 
@@ -108,6 +168,9 @@ images.sq
 images.sq.height
 ==
 
+images.sq.image_id
+==
+
 images.sq.is_primary
 ==
 
@@ -121,6 +184,9 @@ images.z
 ==
 
 images.z.height
+==
+
+images.z.image_id
 ==
 
 images.z.is_primary
@@ -150,6 +216,9 @@ medium
 participants
 ==
 
+participants.person_date
+==
+
 participants.person_id
 ==
 
@@ -157,6 +226,9 @@ participants.person_name
 ==
 
 participants.person_url
+==
+
+participants.role_display_name
 ==
 
 participants.role_id
@@ -181,6 +253,9 @@ style
 ==
 
 title
+==
+
+title_raw
 ==
 
 tms:id
@@ -208,6 +283,12 @@ url
 ==
 
 woe:country
+==
+
+woe:country_id
+==
+
+woe:country_name
 ==
 
 year_acquired

@@ -3,6 +3,7 @@
     "tms:id": "233496",
     "accession_number": "2008-9-4",
     "title": "Calculator, \"Executive\", 1972",
+    "title_raw": "Executive",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18715189\/",
     "department_id": "35347497",
     "period_id": null,
@@ -13,39 +14,68 @@
     "year_end": 1972,
     "year_acquired": "2008",
     "decade": "1970",
-    "woe:country": "23424975",
+    "woe:country_id": "23424975",
     "medium": "Plastic",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "Max Pine and Lois Mander; 2008: acquired by Museum",
     "dimensions": "Overall: 14 L x 5.6 W x 1 D cm (5 1\/2   x 2 3\/16  x 3\/8  in.)",
+    "dimensions_raw": {
+        "depth": [
+            "0.95",
+            "centimeters"
+        ],
+        "length": [
+            "13.97",
+            "centimeters"
+        ],
+        "width": [
+            "5.56",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Max Pine and Lois Mander",
     "description": "Black rectangular calculator with small round buttons in sunken squares, white letters and numbers. Above, red screen and in white: \u201cSinclair Executive.\u201d",
-    "justification": "Text from Acquisition File: \nClive Sinclair launched his first calculator, the Executive, in 1972. The first true &quot;pocket&quot; calculator, it was one third the size of any other electronic calculator on the market at the time because of its innovative use of button cell batteries, allowing an easy fit for a shirt pocket. The Executive, costing half as much as other available electronic pocket calculators, uses a standard calculator chip, the Texas Instruments FLS 1802. This is the earliest example of the model. ",
-    "type": {
-        "id": "35293947",
-        "name": "Calculator"
-    },
+    "justification": "Clive Sinclair launched his first calculator, the Executive, in 1972. The first true \u201cpocket\u201d calculator\u2014the first to easily fit in a shirt pocket\u2014was one-third the size of any other electronic calculator on the market at the time due to its innovative use of button cell batteries. The Executive cost half as much as other available electronic pocket calculators and used a standard calculator chip, the Texas Instruments FLS 1802. \nThe museum actively collects in the area of personal electronic devices. The calculator proposed for acquisition is the earliest example of the Executive model.",
+    "woe:country": "23424975",
+    "type": "Calculator",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/29645_15f9d7efe860f701_b.jpg",
                 "width": 612,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/29645_15f9d7efe860f701_n.jpg",
-                "width": 191,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "29645"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/29645_15f9d7efe860f701_z.jpg",
                 "width": 383,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "29645"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/29645_15f9d7efe860f701_n.jpg",
+                "width": 191,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "29645"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/29645_15f9d7efe860f701_d.gif",
+                "width": 191,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "29645"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/29645_15f9d7efe860f701_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "29645"
             }
         }
     ],
@@ -54,7 +84,9 @@
             "person_id": "18062313",
             "role_id": "35351535",
             "person_name": "Lois Mander",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18062313\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -62,7 +94,9 @@
             "person_id": "18061689",
             "role_id": "35236657",
             "person_name": "Sinclair Radionics Ltd.",
+            "person_date": "",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18061689\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         },
@@ -70,7 +104,9 @@
             "person_id": "18061687",
             "role_id": "35236655",
             "person_name": "Clive Sinclair",
+            "person_date": "born 1940",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18061687\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -78,7 +114,9 @@
             "person_id": "18041469",
             "role_id": "35351535",
             "person_name": "Max Pine",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041469\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -88,12 +126,17 @@
     },
     "colors": [
         {
-            "color": "#4c4a4f",
-            "closest_css3": "#2f4f4f"
+            "color": "#a8584e",
+            "closest_crayola": "#a5694f",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         },
         {
-            "color": "#ad594e",
-            "closest_css3": "#cd5c5c"
+            "color": "#958b8b",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         }
-    ]
+    ],
+    "woe:country_name": "United Kingdom"
 }

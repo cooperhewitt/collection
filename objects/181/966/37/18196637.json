@@ -3,6 +3,7 @@
     "tms:id": "22837",
     "accession_number": "1917-4-296-a",
     "title": "Drawing, \"Floating Iceberg\", 1859",
+    "title_raw": "Floating Iceberg",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18196637\/",
     "department_id": "35347493",
     "period_id": "35417175",
@@ -13,39 +14,68 @@
     "year_end": 1859,
     "year_acquired": "1917",
     "decade": null,
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Brush and oil paint, graphite on paperboard.",
     "markings": null,
     "signed": null,
     "inscribed": "Verso: Written in ink: \"Iceburg \/ $200 \/ by F.E. Church\".",
     "provenance": "Gift of Louis P. Church; Frederic E. Church",
     "dimensions": "18.8 x 37.5 cm (7 3\/8 x 14 3\/4 in.)",
+    "dimensions_raw": {
+        "depth": [
+            "2.54",
+            "centimeters"
+        ],
+        "height": [
+            "39.69",
+            "centimeters"
+        ],
+        "width": [
+            "50.17",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Louis P. Church",
     "description": "Large iceberg at center on dark blue gray sea. Most of the iceberg consists of a compact horizontal mass. The underpainting shows at top and across bottom.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424977",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/1761_404d1b960996487f_b.jpg",
                 "width": 1024,
                 "height": 527,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/1761_404d1b960996487f_n.jpg",
-                "width": 320,
-                "height": 165,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "1761"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/1761_404d1b960996487f_z.jpg",
                 "width": 640,
                 "height": 329,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "1761"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/1761_404d1b960996487f_n.jpg",
+                "width": 320,
+                "height": 165,
+                "is_primary": "1",
+                "image_id": "1761"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/1761_404d1b960996487f_d.gif",
+                "width": 320,
+                "height": 165,
+                "is_primary": "1",
+                "image_id": "1761"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/1761_404d1b960996487f_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "1761"
             }
         }
     ],
@@ -54,7 +84,9 @@
             "person_id": "18539205",
             "role_id": "35352245",
             "person_name": "Floramae McCarron-Cates",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18539205\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -62,7 +94,9 @@
             "person_id": "18054439",
             "role_id": "35352245",
             "person_name": "Richard P. Wunder",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18054439\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -70,7 +104,9 @@
             "person_id": "18047439",
             "role_id": "35352245",
             "person_name": "Rudolph Berliner",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047439\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -78,7 +114,9 @@
             "person_id": "18041941",
             "role_id": "35236565",
             "person_name": "Frederic Edwin Church",
+            "person_date": "American, 1826\u20131900",
             "role_name": "Artist",
+            "role_display_name": "",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041941\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236565\/"
         },
@@ -86,7 +124,9 @@
             "person_id": "18051625",
             "role_id": "35351535",
             "person_name": "Louis P. Church",
+            "person_date": "American, 1870\u20131943",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18051625\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -96,24 +136,29 @@
     },
     "colors": [
         {
-            "color": "#81777d",
-            "closest_css3": "#808080"
+            "color": "#9a8587",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#464d5d",
-            "closest_css3": "#2f4f4f"
+            "color": "#3f4556",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#bdaeb0",
-            "closest_css3": "#a9a9a9"
+            "color": "#c2b8b8",
+            "closest_crayola": "#cdc5c2",
+            "closest_css3": "#c0c0c0",
+            "closest_css4": "#c0c0c0"
         },
         {
-            "color": "#b08b81",
-            "closest_css3": "#bc8f8f"
-        },
-        {
-            "color": "#705c5f",
-            "closest_css3": "#696969"
+            "color": "#816b6b",
+            "closest_crayola": "#757575",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

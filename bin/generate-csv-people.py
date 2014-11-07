@@ -42,7 +42,7 @@ if __name__ == '__main__':
     
             data = json.load(open(path, 'r'))
 
-            if type(data['concordances']) == types.DictType:
+            if type(data.get('concordances', None)) == types.DictType:
 
                 for k, v in data['concordances'].items():
 
@@ -58,17 +58,19 @@ if __name__ == '__main__':
     
             data = json.load(open(path, 'r'))
 
-            if type(data['concordances']) == types.DictType:
+            if type(data.get('concordances', None)) == types.DictType:
 
                 for k, v in data['concordances'].items():
                     data[k] = v
-
-            del(data['concordances'])
+            
+                del(data['concordances'])
 
             #
 
             roles = data.get('roles', [])
-            del(data['roles'])
+
+            if data.get('roles', False):
+                del(data['roles'])
 
             #
 

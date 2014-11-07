@@ -3,6 +3,7 @@
     "tms:id": "132863",
     "accession_number": "1962-50-289",
     "title": "Cap Crown, mid-18th century",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18444755\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": null,
     "year_acquired": "1962",
     "decade": null,
-    "woe:country": "23424757",
+    "woe:country_id": "23424757",
     "medium": "Medium: linen\nTechnique: bobbin lace, Mechlin ground",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "H x W: 23.8 x 22.2 cm (9 3\/8 x 8 3\/4 in.)",
+    "dimensions_raw": {
+        "height": [
+            "23.81",
+            "centimeters"
+        ],
+        "width": [
+            "22.23",
+            "centimeters"
+        ]
+    },
     "creditline": "Bequest of Richard Cranch Greenleaf in memory of his mother, Adeline Emma Greenleaf",
     "description": "Mechlin-style cap crown with a central fountain surrounded by elaborate cartouches and floral sprays. Two separately made pieces sewn together.",
     "justification": null,
-    "type": {
-        "id": "35255969",
-        "name": "Cap crown"
-    },
+    "woe:country": "23424757",
+    "type": "Cap crown",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/41606_21edf60caeb6bf88_b.jpg",
                 "width": 1024,
                 "height": 964,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/41606_21edf60caeb6bf88_n.jpg",
-                "width": 320,
-                "height": 301,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "41606"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/41606_21edf60caeb6bf88_z.jpg",
                 "width": 640,
                 "height": 602,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "41606"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/41606_21edf60caeb6bf88_n.jpg",
+                "width": 320,
+                "height": 301,
+                "is_primary": "1",
+                "image_id": "41606"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/41606_21edf60caeb6bf88_d.gif",
+                "width": 320,
+                "height": 301,
+                "is_primary": "1",
+                "image_id": "41606"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/41606_21edf60caeb6bf88_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "41606"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/32570_4e97d9308beb8d4a_b.jpg",
                 "width": 1024,
                 "height": 972,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/32570_4e97d9308beb8d4a_n.jpg",
-                "width": 320,
-                "height": 304,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "32570"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/32570_4e97d9308beb8d4a_z.jpg",
                 "width": 640,
                 "height": 608,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "32570"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/32570_4e97d9308beb8d4a_n.jpg",
+                "width": 320,
+                "height": 304,
+                "is_primary": "0",
+                "image_id": "32570"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/32570_4e97d9308beb8d4a_d.gif",
+                "width": 320,
+                "height": 304,
+                "is_primary": "0",
+                "image_id": "32570"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/32570_4e97d9308beb8d4a_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "32570"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18049377",
             "role_id": "35351537",
             "person_name": "Richard Cranch Greenleaf",
+            "person_date": "",
             "role_name": "Bequestor",
+            "role_display_name": "Bequest of",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049377\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351537\/"
         }
@@ -84,24 +129,23 @@
     },
     "colors": [
         {
-            "color": "#aaa8a0",
-            "closest_css3": "#a9a9a9"
+            "color": "#8a837a",
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#d7d5c8",
-            "closest_css3": "#d3d3d3"
+            "color": "#6b645c",
+            "closest_crayola": "#6e5160",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#807a71",
-            "closest_css3": "#808080"
-        },
-        {
-            "color": "#443a32",
-            "closest_css3": "#2f4f4f"
-        },
-        {
-            "color": "#635c53",
-            "closest_css3": "#696969"
+            "color": "#48413a",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         }
-    ]
+    ],
+    "woe:country_name": "Belgium"
 }

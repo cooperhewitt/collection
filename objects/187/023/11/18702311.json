@@ -3,6 +3,7 @@
     "tms:id": "226820",
     "accession_number": "2005-27-6",
     "title": "Frieze, 1900\u201320",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18702311\/",
     "department_id": "35347503",
     "period_id": null,
@@ -13,39 +14,60 @@
     "year_end": 1920,
     "year_acquired": "2005",
     "decade": null,
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Machine-printed on paper",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "Overall: 49.5 cm (19 1\/2 in.) width",
+    "dimensions_raw": {
+        "width": [
+            "49.50",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Theodore A. Gantz",
     "description": "Large scale floral swag with red roses suspended from rustic supports. Fine green line across top edge, wider tan band across bottom edge. Printed in red, green and tan on off-white ground.",
-    "justification": null,
-    "type": {
-        "id": "35259269",
-        "name": "Frieze"
-    },
+    "justification": "This is an independent frieze that allows the patterned wall to end below the height of the ceiling. This frieze would have been hung over a patterned sidewall to give the appearance of open space at the top of the wall, with a large scale rose swag spanning the distance.\nPapers such as this greatly increase the diversity of early 20th-century papers in the museum\u2019s collection and broaden the picture of how people were designing their walls. This proposed gift would be an asset to our collection and would benefit researchers and historic home interpretations.",
+    "woe:country": "23424977",
+    "type": "Frieze",
     "images": [
         {
             "b": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/44728_bef2da4fa6a63e61_b.jpg",
+                "url": "http:\/\/images.collection.cooperhewitt.org\/44728_79d80528ce860f44_b.jpg",
                 "width": 1024,
-                "height": 354,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/44728_bef2da4fa6a63e61_n.jpg",
-                "width": 320,
-                "height": 111,
-                "is_primary": "1"
+                "height": 342,
+                "is_primary": "1",
+                "image_id": "44728"
             },
             "z": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/44728_bef2da4fa6a63e61_z.jpg",
+                "url": "http:\/\/images.collection.cooperhewitt.org\/44728_79d80528ce860f44_z.jpg",
                 "width": 640,
-                "height": 222,
-                "is_primary": "1"
+                "height": 214,
+                "is_primary": "1",
+                "image_id": "44728"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/44728_79d80528ce860f44_n.jpg",
+                "width": 320,
+                "height": 107,
+                "is_primary": "1",
+                "image_id": "44728"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/44728_79d80528ce860f44_d.gif",
+                "width": 320,
+                "height": 107,
+                "is_primary": "1",
+                "image_id": "44728"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/44728_79d80528ce860f44_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "44728"
             }
         },
         {
@@ -53,19 +75,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/20665_df91367babb77d2e_b.jpg",
                 "width": 1024,
                 "height": 660,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/20665_df91367babb77d2e_n.jpg",
-                "width": 320,
-                "height": 206,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "20665"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/20665_df91367babb77d2e_z.jpg",
                 "width": 640,
                 "height": 413,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "20665"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/20665_df91367babb77d2e_n.jpg",
+                "width": 320,
+                "height": 206,
+                "is_primary": "0",
+                "image_id": "20665"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/20665_df91367babb77d2e_d.gif",
+                "width": 320,
+                "height": 206,
+                "is_primary": "0",
+                "image_id": "20665"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/20665_df91367babb77d2e_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "20665"
             }
         }
     ],
@@ -74,7 +113,9 @@
             "person_id": "18058079",
             "role_id": "35351535",
             "person_name": "Theodore A. Gantz",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18058079\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -84,24 +125,35 @@
     },
     "colors": [
         {
-            "color": "#e5d8c2",
-            "closest_css3": "#f5deb3"
+            "color": "#e0d7a2",
+            "closest_crayola": "#edd19c",
+            "closest_css3": "#eee8aa",
+            "closest_css4": "#eee8aa"
         },
         {
-            "color": "#e1daa3",
-            "closest_css3": "#eee8aa"
+            "color": "#972a2a",
+            "closest_crayola": "#9c2542",
+            "closest_css3": "#a52a2a",
+            "closest_css4": "#a52a2a"
         },
         {
-            "color": "#a22c2c",
-            "closest_css3": "#a52a2a"
+            "color": "#d85549",
+            "closest_crayola": "#cd4a4c",
+            "closest_css3": "#cd5c5c",
+            "closest_css4": "#cd5c5c"
         },
         {
-            "color": "#da564a",
-            "closest_css3": "#cd5c5c"
+            "color": "#aeb472",
+            "closest_crayola": "#bab86c",
+            "closest_css3": "#bdb76b",
+            "closest_css4": "#bdb76b"
         },
         {
             "color": "#e2917d",
-            "closest_css3": "#e9967a"
+            "closest_crayola": "#dd9475",
+            "closest_css3": "#e9967a",
+            "closest_css4": "#e9967a"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

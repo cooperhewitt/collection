@@ -2,7 +2,8 @@
     "id": "18731945",
     "tms:id": "242073",
     "accession_number": "2009-18-38",
-    "title": "Rhine Wine Glass, \"Bohemian Baroque\", 1868",
+    "title": "Rhine Wine Glass, \"No. 107\", 1868",
+    "title_raw": "Bohemian Baroque",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18731945\/",
     "department_id": "35347497",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1868,
     "year_acquired": "2009",
     "decade": null,
-    "woe:country": "23424750",
+    "woe:country_id": "23424750",
     "medium": "Mouth-blown crystal, facet-cut and polished",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "The Hans Backhausen family, owners of a famous Viennese textile company, ordered and used this set.",
     "dimensions": "H x diam.: 13.1 x 6 cm (5 3\/16 x 2 3\/8 in.)",
+    "dimensions_raw": {
+        "diameter": [
+            "6.00",
+            "centimeters"
+        ],
+        "height": [
+            "13.10",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase through gift of Dale and Doug Anderson, Anonymous Donor, Arthur Liu, and Prairie Pictures, Inc. and from General Acquisitions Endowment Fund",
     "description": "Mouth-blown crystal, elaborately facet-cut and polished",
     "justification": null,
-    "type": {
-        "id": "35305995",
-        "name": "Rhine wine glass"
-    },
+    "woe:country": "23424750",
+    "type": "Rhine wine glass",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/30782_58c5842098697fa5_b.jpg",
                 "width": 513,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/30782_58c5842098697fa5_n.jpg",
-                "width": 160,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "30782"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/30782_58c5842098697fa5_z.jpg",
                 "width": 321,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "30782"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/30782_58c5842098697fa5_n.jpg",
+                "width": 160,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "30782"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/30782_58c5842098697fa5_d.gif",
+                "width": 160,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "30782"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/30782_58c5842098697fa5_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "30782"
             }
         }
     ],
@@ -53,8 +79,10 @@
         {
             "person_id": "18061841",
             "role_id": "35236657",
-            "person_name": "J. & L. Lobmeyr GmbH, Vienna, Austria",
+            "person_name": "J. & L. Lobmeyr GmbH",
+            "person_date": "Vienna, Austria, founded ca. 1935",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18061841\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         },
@@ -62,26 +90,33 @@
             "person_id": "18062617",
             "role_id": "35236655",
             "person_name": "Ludwig Lobmeyr",
+            "person_date": "Austrian, 1829 - 1917",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18062617\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
         {
             "person_id": "18061841",
             "role_id": "51571131",
-            "person_name": "J. & L. Lobmeyr GmbH, Vienna, Austria",
+            "person_name": "J. & L. Lobmeyr GmbH",
+            "person_date": "Vienna, Austria, founded ca. 1935",
             "role_name": "Lender",
+            "role_display_name": "Lent by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18061841\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/51571131\/"
         }
     ],
     "tombstone": {
-        "epitaph": "Rhine Wine Glass, \"Bohemian Baroque\", 1868. Mouth-blown crystal, facet-cut and polished. Museum purchase through gift of Dale and Doug Anderson, Anonymous Donor, Arthur Liu, and Prairie Pictures, Inc. and from General Acquisitions Endowment Fund. 2009-18-38."
+        "epitaph": "Rhine Wine Glass, \"No. 107\", 1868. Mouth-blown crystal, facet-cut and polished. Museum purchase through gift of Dale and Doug Anderson, Anonymous Donor, Arthur Liu, and Prairie Pictures, Inc. and from General Acquisitions Endowment Fund. 2009-18-38."
     },
     "colors": [
         {
             "color": "#2e2f2c",
-            "closest_css3": "#2f4f4f"
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         }
-    ]
+    ],
+    "woe:country_name": "Austria"
 }

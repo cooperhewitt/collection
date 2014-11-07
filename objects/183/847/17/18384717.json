@@ -3,6 +3,7 @@
     "tms:id": "102492",
     "accession_number": "1950-49-1",
     "title": "Textile, 1720\u201325",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18384717\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1745,
     "year_acquired": "1950",
     "decade": null,
-    "woe:country": "23424819",
+    "woe:country_id": "23424819",
     "medium": "Medium: silk, metal foil-wrapped silk-core threads\nTechnique: 7&1 satin with discontinuous supplementary weft patterning (brocade)",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "H x W: 94.9 x 54 cm (37 3\/8 x 21 1\/4 in.)",
+    "dimensions_raw": {
+        "height": [
+            "94.93",
+            "centimeters"
+        ],
+        "width": [
+            "53.98",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase through gift of Eleanor and Sarah Hewitt",
     "description": "'Lace style' woven silk with its design symmetical around a vertical axis. Feathery exotic foliage brocaded in white with green, blue, yellow and gold metallic threads on a deep rose background. Many open areas in the design have small diaper fillings in white.",
     "justification": null,
-    "type": {
-        "id": "35251739",
-        "name": "textile"
-    },
+    "woe:country": "23424819",
+    "type": "textile",
     "images": [
         {
             "b": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/44979_1bfed1ab58c57095_b.jpg",
-                "width": 587,
+                "url": "http:\/\/images.collection.cooperhewitt.org\/44979_a826b32f1e16cf79_b.jpg",
+                "width": 609,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/44979_1bfed1ab58c57095_n.jpg",
-                "width": 183,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "44979"
             },
             "z": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/44979_1bfed1ab58c57095_z.jpg",
-                "width": 367,
+                "url": "http:\/\/images.collection.cooperhewitt.org\/44979_a826b32f1e16cf79_z.jpg",
+                "width": 380,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "44979"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/44979_a826b32f1e16cf79_n.jpg",
+                "width": 190,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "44979"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/44979_a826b32f1e16cf79_d.gif",
+                "width": 190,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "44979"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/44979_a826b32f1e16cf79_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "44979"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/36533_361ed159ca832dd6_b.jpg",
                 "width": 615,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/36533_361ed159ca832dd6_n.jpg",
-                "width": 192,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "36533"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/36533_361ed159ca832dd6_z.jpg",
                 "width": 384,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "36533"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/36533_361ed159ca832dd6_n.jpg",
+                "width": 192,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "36533"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/36533_361ed159ca832dd6_d.gif",
+                "width": 192,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "36533"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/36533_361ed159ca832dd6_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "36533"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18538369",
             "role_id": "35352249",
             "person_name": "Amy Pleadwell",
+            "person_date": "",
             "role_name": "Vendor",
+            "role_display_name": "Purchased from",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18538369\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352249\/"
         }
@@ -84,24 +129,35 @@
     },
     "colors": [
         {
-            "color": "#b2734f",
-            "closest_css3": "#cd853f"
+            "color": "#caa584",
+            "closest_crayola": "#deaa88",
+            "closest_css3": "#d2b48c",
+            "closest_css4": "#d2b48c"
         },
         {
-            "color": "#d7caab",
-            "closest_css3": "#c0c0c0"
+            "color": "#b77a57",
+            "closest_crayola": "#b4674d",
+            "closest_css3": "#cd853f",
+            "closest_css4": "#cd853f"
         },
         {
-            "color": "#c39c76",
-            "closest_css3": "#bc8f8f"
+            "color": "#9f5b3b",
+            "closest_crayola": "#a5694f",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         },
         {
-            "color": "#716a43",
-            "closest_css3": "#556b2f"
+            "color": "#e3dcc6",
+            "closest_crayola": "#efdecd",
+            "closest_css3": "#d3d3d3",
+            "closest_css4": "#d3d3d3"
         },
         {
-            "color": "#928c61",
-            "closest_css3": "#808080"
+            "color": "#947c54",
+            "closest_crayola": "#8a795d",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         }
-    ]
+    ],
+    "woe:country_name": "France"
 }

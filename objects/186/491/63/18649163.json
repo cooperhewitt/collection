@@ -3,6 +3,7 @@
     "tms:id": "199491",
     "accession_number": "1994-66-31-a,b",
     "title": "Covered Vase, ca. 1900",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18649163\/",
     "department_id": "35347497",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1905,
     "year_acquired": "1994",
     "decade": null,
-    "woe:country": "23424909",
+    "woe:country_id": "23424909",
     "medium": "Earthenware",
     "markings": "On underside of vase, written in black ink: artist's monogram \"JM\" in cone-like shape \/ HOLLAND - D \/ UTRECHT \/ 767.K\"; on underside of lid: \"767.K\"",
     "signed": null,
     "inscribed": null,
     "provenance": "Justin G. Schiller; 1994: acquired by Museum",
     "dimensions": "(a,b: overall): 17 x 11 cm (6 11\/16 x 4 5\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "17.00",
+            "centimeters"
+        ],
+        "width": [
+            "11.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Justin G. Schiller",
     "description": "One of a pair; round vase with slightly pointed cover. Decorated with violet and yellow-gold calla lily viewed from above, green vines and leaves surrounding, on brown ground.",
     "justification": null,
-    "type": {
-        "id": "35251039",
-        "name": "covered vase"
-    },
+    "woe:country": "23424909",
+    "type": "covered vase",
     "images": [
         {
             "b": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/47676_8f361c4f6ccc7d1e_b.jpg",
+                "url": "http:\/\/images.collection.cooperhewitt.org\/47676_88bef1b6f9bf0742_b.jpg",
                 "width": 1024,
-                "height": 659,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/47676_8f361c4f6ccc7d1e_n.jpg",
-                "width": 320,
-                "height": 206,
-                "is_primary": "1"
+                "height": 1024,
+                "is_primary": "1",
+                "image_id": "47676"
             },
             "z": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/47676_8f361c4f6ccc7d1e_z.jpg",
+                "url": "http:\/\/images.collection.cooperhewitt.org\/47676_88bef1b6f9bf0742_z.jpg",
                 "width": 640,
-                "height": 412,
-                "is_primary": "1"
+                "height": 640,
+                "is_primary": "1",
+                "image_id": "47676"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/47676_88bef1b6f9bf0742_n.jpg",
+                "width": 320,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "47676"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/47676_88bef1b6f9bf0742_d.gif",
+                "width": 320,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "47676"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/47676_88bef1b6f9bf0742_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "47676"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18041085",
             "role_id": "35351535",
             "person_name": "Mr. Justin G. Schiller",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041085\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18048765",
             "role_id": "35352245",
             "person_name": "Cynthia Trope",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18048765\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18045075",
             "role_id": "35236657",
             "person_name": "Holland Pottery, Utrecht",
+            "person_date": "1893\u20131917",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18045075\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         },
@@ -78,7 +110,9 @@
             "person_id": "18045073",
             "role_id": "35236717",
             "person_name": "Jan Willem Mijnlief",
+            "person_date": "1862 \u2013 1937",
             "role_name": "Decorator",
+            "role_display_name": "Decorated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18045073\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236717\/"
         }
@@ -88,20 +122,35 @@
     },
     "colors": [
         {
-            "color": "#4c493b",
-            "closest_css3": "#2f4f4f"
+            "color": "#363c2a",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#87734e",
-            "closest_css3": "#696969"
+            "color": "#655540",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         },
         {
-            "color": "#676d5e",
-            "closest_css3": "#696969"
+            "color": "#87724e",
+            "closest_crayola": "#85754e",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#a2936f",
-            "closest_css3": "#bc8f8f"
+            "color": "#626354",
+            "closest_crayola": "#6e5160",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
+        },
+        {
+            "color": "#af9f71",
+            "closest_crayola": "#bab86c",
+            "closest_css3": "#bdb76b",
+            "closest_css4": "#bdb76b"
         }
-    ]
+    ],
+    "woe:country_name": "Netherlands"
 }

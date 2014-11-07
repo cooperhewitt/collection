@@ -3,6 +3,7 @@
     "tms:id": "192885",
     "accession_number": "1991-17-17",
     "title": "Drawing, \"\"Flagpole for Pont Neuf,  Paris, July Festival 1838 [Mats plac\u00e9s sur le Pont-Neuf aux F\u00eates de Juillet 1838]\"\", 1838",
+    "title_raw": "\"Flagpole for Pont Neuf,  Paris, July Festival 1838 [Mats plac\u00e9s sur le Pont-Neuf aux F\u00eates de Juillet 1838]\"",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18636075\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1838,
     "year_acquired": "1991",
     "decade": null,
-    "woe:country": "23424819",
+    "woe:country_id": "23424819",
     "medium": "Brush and watercolor, graphite on cream paper, mounted on beige paper",
     "markings": null,
     "signed": null,
     "inscribed": "Inscribed in graphite on mount, by a later hand, lower margin: M\u00e2ts places sur le pont-neuf\/aux fetes de Juillet 1838.",
     "provenance": "Henry Sotheran Limited, London",
     "dimensions": "37.1 x 10.3cm (14 5\/8 x 4 1\/16in.)",
+    "dimensions_raw": {
+        "height": [
+            "44.00",
+            "centimeters"
+        ],
+        "width": [
+            "29.70",
+            "centimeters"
+        ]
+    },
     "creditline": null,
     "description": "Design for a red flagpole with crimson banding, terminating at the bottom with a blue-green bell-shaped base, which rests in turn on a red and white marble polygonal base.  The top of the pole is surmounted by a simple gold cap, from which a blue, white and red banner is suspended.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424819",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/11203_e0106f9d29352fd5_b.jpg",
                 "width": 303,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/11203_e0106f9d29352fd5_n.jpg",
-                "width": 95,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "11203"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/11203_e0106f9d29352fd5_z.jpg",
                 "width": 189,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "11203"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/11203_e0106f9d29352fd5_n.jpg",
+                "width": 95,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "11203"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/11203_e0106f9d29352fd5_d.gif",
+                "width": 95,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "11203"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/11203_e0106f9d29352fd5_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "11203"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "51676457",
             "role_id": "35352245",
             "person_name": "Karin Zonis",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/51676457\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18062145",
             "role_id": "35236711",
             "person_name": "Abel Blouet",
+            "person_date": "",
             "role_name": "Attributed to",
+            "role_display_name": "Attributed to",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18062145\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236711\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18047443",
             "role_id": "35352245",
             "person_name": "Megan L. Smith",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047443\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -78,7 +110,9 @@
             "person_id": "18042299",
             "role_id": "35236711",
             "person_name": "F\u00e9lix-Jacques Duban",
+            "person_date": "1798\u20131870",
             "role_name": "Attributed to",
+            "role_display_name": "Attributed to",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18042299\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236711\/"
         }
@@ -88,16 +122,17 @@
     },
     "colors": [
         {
-            "color": "#b7b3a6",
-            "closest_css3": "#a9a9a9"
+            "color": "#b5aea1",
+            "closest_crayola": "#979aaa",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
         },
         {
-            "color": "#a97f74",
-            "closest_css3": "#bc8f8f"
-        },
-        {
-            "color": "#c4a091",
-            "closest_css3": "#bc8f8f"
+            "color": "#a77f73",
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         }
-    ]
+    ],
+    "woe:country_name": "France"
 }

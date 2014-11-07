@@ -3,6 +3,7 @@
     "tms:id": "44737",
     "accession_number": "1931-44-3-a,b",
     "title": "Textile, late 18th\u2013early 19th century",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18319073\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": null,
     "year_acquired": "1931",
     "decade": null,
-    "woe:country": "23424853",
+    "woe:country_id": "23424853",
     "medium": "Medium: silk\nTechnique: compound cloth, brocaded",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "a) Warp x Weft: 74 x 54.5 cm (29 1\/8 x 21 7\/16 in.)\nb) Warp x Weft: 66.5 x 32.8 cm (26 3\/16 x 12 15\/16 in.)",
+    "dimensions_raw": {
+        "warp": [
+            "66.50",
+            "centimeters"
+        ],
+        "weft": [
+            "32.80",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Mrs. Abram S. Hewitt",
     "description": "Ground striped vertically with extra warp, white satin and white horizontal ribbing. Red satin border stripes on either side. Large floral sprays brocaded in red, green, and brown silks. Component A has both selvages present. Component B has right selvage present.",
     "justification": null,
-    "type": {
-        "id": "35251739",
-        "name": "textile"
-    },
+    "woe:country": "23424853",
+    "type": "textile",
     "images": [
         {
             "b": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/63146_9a19909961642eb2_b.jpg",
-                "width": 761,
+                "url": "http:\/\/images.collection.cooperhewitt.org\/63146_089e48eb679fd711_b.jpg",
+                "width": 1024,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/63146_9a19909961642eb2_n.jpg",
-                "width": 238,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "63146"
             },
             "z": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/63146_9a19909961642eb2_z.jpg",
-                "width": 476,
+                "url": "http:\/\/images.collection.cooperhewitt.org\/63146_089e48eb679fd711_z.jpg",
+                "width": 640,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "63146"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/63146_089e48eb679fd711_n.jpg",
+                "width": 320,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "63146"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/63146_089e48eb679fd711_d.gif",
+                "width": 320,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "63146"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/63146_089e48eb679fd711_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "63146"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/85909_c69a16336ce8b760_b.jpg",
                 "width": 694,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/85909_c69a16336ce8b760_n.jpg",
-                "width": 217,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "85909"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/85909_c69a16336ce8b760_z.jpg",
                 "width": 434,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "85909"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/85909_c69a16336ce8b760_n.jpg",
+                "width": 217,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "85909"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/85909_c69a16336ce8b760_d.gif",
+                "width": 217,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "85909"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/85909_c69a16336ce8b760_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "85909"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18050411",
             "role_id": "35351535",
             "person_name": "Mrs. Abram S. Hewitt",
+            "person_date": "American, 1830\u20131912",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18050411\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -84,24 +129,35 @@
     },
     "colors": [
         {
-            "color": "#e1d3b5",
-            "closest_css3": "#f5deb3"
+            "color": "#baa787",
+            "closest_crayola": "#cd9575",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         },
         {
-            "color": "#c0aa88",
-            "closest_css3": "#d2b48c"
+            "color": "#e0d2b3",
+            "closest_crayola": "#efcdb8",
+            "closest_css3": "#f5deb3",
+            "closest_css4": "#f5deb3"
         },
         {
-            "color": "#5e181f",
-            "closest_css3": "#800000"
+            "color": "#671e24",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#800000",
+            "closest_css4": "#800000"
         },
         {
-            "color": "#a63e4a",
-            "closest_css3": "#a0522d"
+            "color": "#9b3542",
+            "closest_crayola": "#9c2542",
+            "closest_css3": "#a52a2a",
+            "closest_css4": "#a52a2a"
         },
         {
-            "color": "#b9835c",
-            "closest_css3": "#cd853f"
+            "color": "#ac7554",
+            "closest_crayola": "#a5694f",
+            "closest_css3": "#cd5c5c",
+            "closest_css4": "#cd5c5c"
         }
-    ]
+    ],
+    "woe:country_name": "Italy"
 }

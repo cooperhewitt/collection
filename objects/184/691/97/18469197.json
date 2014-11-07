@@ -3,6 +3,7 @@
     "tms:id": "145234",
     "accession_number": "1969-170-3",
     "title": "Textile, 1900\u201369",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18469197\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1969,
     "year_acquired": "1969",
     "decade": null,
-    "woe:country": "23424846",
+    "woe:country_id": "23424846",
     "medium": "Medium: cotton\nTechnique: tied resist patterning in warp (ikat) on plain weave with continuous supplementary warp patterning",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "H x W: 193.7 x 28 cm (76 1\/4 x 11 in.)",
+    "dimensions_raw": {
+        "height": [
+            "193.68",
+            "centimeters"
+        ],
+        "width": [
+            "28.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Clara Waldeck",
     "description": "Long narrow strip of fabric divided into three (warp) stripes, each patterned by ikat in ivory, rust-red, and black with geometric shapes--sections form an all-over diamond pattern. The three stripes are separated from each other by a narrow blue and ivory stripe patterned by a repeat of small hooks.",
     "justification": null,
-    "type": {
-        "id": "35251739",
-        "name": "textile"
-    },
+    "woe:country": "23424846",
+    "type": "textile",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/80832_b0c540abdfe5c8b4_b.jpg",
                 "width": 1024,
                 "height": 175,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/80832_b0c540abdfe5c8b4_n.jpg",
-                "width": 320,
-                "height": 55,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "80832"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/80832_b0c540abdfe5c8b4_z.jpg",
                 "width": 640,
                 "height": 109,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "80832"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/80832_b0c540abdfe5c8b4_n.jpg",
+                "width": 320,
+                "height": 55,
+                "is_primary": "1",
+                "image_id": "80832"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/80832_b0c540abdfe5c8b4_d.gif",
+                "width": 320,
+                "height": 55,
+                "is_primary": "1",
+                "image_id": "80832"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/80832_b0c540abdfe5c8b4_sq.jpg",
+                "width": 300,
+                "height": 175,
+                "is_primary": "1",
+                "image_id": "80832"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/75666_ed170fd5521abaaa_b.jpg",
                 "width": 598,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/75666_ed170fd5521abaaa_n.jpg",
-                "width": 187,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "75666"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/75666_ed170fd5521abaaa_z.jpg",
                 "width": 374,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "75666"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/75666_ed170fd5521abaaa_n.jpg",
+                "width": 187,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "75666"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/75666_ed170fd5521abaaa_d.gif",
+                "width": 187,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "75666"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/75666_ed170fd5521abaaa_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "75666"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18049425",
             "role_id": "35351535",
             "person_name": "Clara Waldeck",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049425\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -84,20 +129,23 @@
     },
     "colors": [
         {
-            "color": "#7a4930",
-            "closest_css3": "#8b4513"
+            "color": "#9a6a42",
+            "closest_crayola": "#a5694f",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         },
         {
-            "color": "#592a1d",
-            "closest_css3": "#8b4513"
+            "color": "#70583d",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         },
         {
-            "color": "#a97b4e",
-            "closest_css3": "#cd853f"
-        },
-        {
-            "color": "#7d6142",
-            "closest_css3": "#a0522d"
+            "color": "#ae8d73",
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         }
-    ]
+    ],
+    "woe:country_name": "Indonesia"
 }

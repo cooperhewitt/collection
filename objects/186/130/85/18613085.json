@@ -3,6 +3,7 @@
     "tms:id": "99860",
     "accession_number": "1949-144-1-a,b",
     "title": "Sidewall And Border, 1787\u20131800",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18613085\/",
     "department_id": "35347503",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": "1800",
     "year_acquired": "1949",
     "decade": null,
-    "woe:country": "23424819",
+    "woe:country_id": "23424819",
     "medium": "Block-printed on handmade paper",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "H x W: 51.5 x 56.5 cm (20 1\/4 x 22 1\/4 in.)",
+    "dimensions_raw": {
+        "height": [
+            "51.50",
+            "centimeters"
+        ],
+        "width": [
+            "56.50",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase through gift of Mrs. Gustav E. Kissel",
     "description": "Red and blue floral paper on a white ground in the style of an \"Indian printed\" with a border attached. Might have been printed from textile block. Border is simulation of lace drapery.",
     "justification": null,
-    "type": {
-        "id": "35270239",
-        "name": "Sidewall and border"
-    },
+    "woe:country": "23424819",
+    "type": "Sidewall and border",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/48808_243b9fdc8b8f6c9b_b.jpg",
                 "width": 1024,
                 "height": 932,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/48808_243b9fdc8b8f6c9b_n.jpg",
-                "width": 320,
-                "height": 291,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "48808"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/48808_243b9fdc8b8f6c9b_z.jpg",
                 "width": 640,
                 "height": 583,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "48808"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/48808_243b9fdc8b8f6c9b_n.jpg",
+                "width": 320,
+                "height": 291,
+                "is_primary": "1",
+                "image_id": "48808"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/48808_243b9fdc8b8f6c9b_d.gif",
+                "width": 320,
+                "height": 291,
+                "is_primary": "1",
+                "image_id": "48808"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/48808_243b9fdc8b8f6c9b_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "48808"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/5167_2b609c22426602cf_b.jpg",
                 "width": 1024,
                 "height": 936,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/5167_2b609c22426602cf_n.jpg",
-                "width": 320,
-                "height": 292,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "5167"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/5167_2b609c22426602cf_z.jpg",
                 "width": 640,
                 "height": 585,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "5167"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/5167_2b609c22426602cf_n.jpg",
+                "width": 320,
+                "height": 292,
+                "is_primary": "0",
+                "image_id": "5167"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/5167_2b609c22426602cf_d.gif",
+                "width": 320,
+                "height": 292,
+                "is_primary": "0",
+                "image_id": "5167"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/5167_2b609c22426602cf_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "5167"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18047829",
             "role_id": "35352245",
             "person_name": "Horace L. Hotchkiss, Jr.",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047829\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18538195",
             "role_id": "35352249",
             "person_name": "Pierre Ber\u00e8s, Inc.",
+            "person_date": "",
             "role_name": "Vendor",
+            "role_display_name": "Purchased from",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18538195\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352249\/"
         }
@@ -92,24 +139,35 @@
     },
     "colors": [
         {
-            "color": "#e7e4d0",
-            "closest_css3": "#dcdcdc"
+            "color": "#e7e2ce",
+            "closest_crayola": "#efdecd",
+            "closest_css3": "#dcdcdc",
+            "closest_css4": "#dcdcdc"
         },
         {
-            "color": "#d8bdaa",
-            "closest_css3": "#d2b48c"
+            "color": "#dab8a2",
+            "closest_crayola": "#e7c697",
+            "closest_css3": "#d2b48c",
+            "closest_css4": "#d2b48c"
         },
         {
-            "color": "#718c97",
-            "closest_css3": "#778899"
+            "color": "#86a2ab",
+            "closest_crayola": "#979aaa",
+            "closest_css3": "#778899",
+            "closest_css4": "#778899"
         },
         {
-            "color": "#bd9674",
-            "closest_css3": "#bc8f8f"
+            "color": "#ce937c",
+            "closest_crayola": "#cd9575",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         },
         {
-            "color": "#c77f65",
-            "closest_css3": "#cd5c5c"
+            "color": "#b6664d",
+            "closest_crayola": "#b4674d",
+            "closest_css3": "#cd5c5c",
+            "closest_css4": "#cd5c5c"
         }
-    ]
+    ],
+    "woe:country_name": "France"
 }

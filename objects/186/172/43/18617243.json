@@ -3,6 +3,7 @@
     "tms:id": "177154",
     "accession_number": "1981-28-95",
     "title": "Sampler, 1810",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18617243\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1810,
     "year_acquired": "1981",
     "decade": null,
-    "woe:country": "23424975",
+    "woe:country_id": "23424975",
     "medium": "Medium: silk embroidery on cotton foundation\nTechnique: embroidered in running, overcasting, stem, and cross stitches on plain weave foundation",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "H x W: 31.1 x 28.5 cm (12 1\/4 x 11 1\/4 in.)",
+    "dimensions_raw": {
+        "height": [
+            "31.12",
+            "centimeters"
+        ],
+        "width": [
+            "28.50",
+            "centimeters"
+        ]
+    },
     "creditline": "Bequest of Gertrude M. Oppenheimer",
     "description": "Darning sampler with four crosses, and four swatches with rose in the center.",
     "justification": null,
-    "type": {
-        "id": "35256439",
-        "name": "Sampler"
-    },
+    "woe:country": "23424975",
+    "type": "Sampler",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/42578_fa387f51862c59fe_b.jpg",
                 "width": 905,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/42578_fa387f51862c59fe_n.jpg",
-                "width": 283,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "42578"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/42578_fa387f51862c59fe_z.jpg",
                 "width": 566,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "42578"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/42578_fa387f51862c59fe_n.jpg",
+                "width": 283,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "42578"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/42578_fa387f51862c59fe_d.gif",
+                "width": 283,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "42578"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/42578_fa387f51862c59fe_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "42578"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/36643_bc66ee8735fb46ba_b.jpg",
                 "width": 887,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/36643_bc66ee8735fb46ba_n.jpg",
-                "width": 277,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "36643"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/36643_bc66ee8735fb46ba_z.jpg",
                 "width": 554,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "36643"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/36643_bc66ee8735fb46ba_n.jpg",
+                "width": 277,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "36643"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/36643_bc66ee8735fb46ba_d.gif",
+                "width": 277,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "36643"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/36643_bc66ee8735fb46ba_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "36643"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18050567",
             "role_id": "35351537",
             "person_name": "Gertrude M. Oppenheimer",
+            "person_date": "",
             "role_name": "Bequestor",
+            "role_display_name": "Bequest of",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18050567\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351537\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18050689",
             "role_id": "35236583",
             "person_name": "Mary Ann Wilson",
+            "person_date": "English",
             "role_name": "Embroiderer",
+            "role_display_name": "Embroidered by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18050689\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236583\/"
         }
@@ -92,24 +139,35 @@
     },
     "colors": [
         {
-            "color": "#d7c290",
-            "closest_css3": "#deb887"
+            "color": "#e6d6aa",
+            "closest_crayola": "#edd19c",
+            "closest_css3": "#f5deb3",
+            "closest_css4": "#f5deb3"
         },
         {
-            "color": "#b99661",
-            "closest_css3": "#bdb76b"
+            "color": "#ceaf75",
+            "closest_crayola": "#bab86c",
+            "closest_css3": "#bdb76b",
+            "closest_css4": "#bdb76b"
         },
         {
-            "color": "#f5ebce",
-            "closest_css3": "#ffebcd"
+            "color": "#8f794e",
+            "closest_crayola": "#85754e",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#604628",
-            "closest_css3": "#556b2f"
+            "color": "#6b5131",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         },
         {
-            "color": "#7a623b",
-            "closest_css3": "#556b2f"
+            "color": "#49422b",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         }
-    ]
+    ],
+    "woe:country_name": "United Kingdom"
 }

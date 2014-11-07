@@ -3,6 +3,7 @@
     "tms:id": "189122",
     "accession_number": "1988-4-37",
     "title": "Print, \"Het Loo Palace, Staircase\", ca. 1700",
+    "title_raw": "Het Loo Palace, Staircase",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18628565\/",
     "department_id": "35347493",
     "period_id": "35417211",
@@ -13,39 +14,64 @@
     "year_end": 1710,
     "year_acquired": "1988",
     "decade": null,
-    "woe:country": "23424909",
+    "woe:country_id": "23424909",
     "medium": "Etching on white laid paper",
     "markings": "Marks: AI, Heawood 3004",
     "signed": null,
     "inscribed": "Inscribed in plate, lower left: L Escallier de La Maison\/ Royalle de Loo\/ invent par D. Marot Architecte\/ de Sa Majest Britanicque; at lower margin: fait avec Previllege des Etats Generaux des Provinces Vrie, et d'Hollande et W.S.",
     "provenance": null,
     "dimensions": "Overall: 34 x 22.8cm (13 3\/8 x 9in.)\nPlatemark\/Repeat (Platemark\/Repeat): 27.7 x 19.5cm (10 7\/8 x 7 11\/16in.)\nMat (Mat): 35.6 x 45.7cm (14 x 18in.)",
+    "dimensions_raw": {
+        "height": [
+            "34.00",
+            "centimeters"
+        ],
+        "width": [
+            "22.80",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase from General Acquisitions Endowment Fund",
     "description": "Design for the interior of a building. In the foreground, a staircase leads up to a balcony with columns and sculptural elements. Three figures are pictured in the center of the balcony. The opens up to the outside and there is a view of the landscape. The ceiling has a large oculus.",
     "justification": null,
-    "type": {
-        "id": "35236873",
-        "name": "Print"
-    },
+    "woe:country": "23424909",
+    "type": "Print",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/29460_8b509d9959963325_b.jpg",
                 "width": 734,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/29460_8b509d9959963325_n.jpg",
-                "width": 229,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "29460"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/29460_8b509d9959963325_z.jpg",
                 "width": 459,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "29460"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/29460_8b509d9959963325_n.jpg",
+                "width": 229,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "29460"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/29460_8b509d9959963325_d.gif",
+                "width": 229,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "29460"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/29460_8b509d9959963325_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "29460"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18041265",
             "role_id": "35352249",
             "person_name": "Ms. Priscilla Juvelis",
+            "person_date": "",
             "role_name": "Vendor",
+            "role_display_name": "Purchased from",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041265\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352249\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18048535",
             "role_id": "35352247",
             "person_name": "General Acquisitions Endowment",
+            "person_date": "",
             "role_name": "Fund",
+            "role_display_name": "Fund:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18048535\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352247\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18047443",
             "role_id": "35352245",
             "person_name": "Megan L. Smith",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047443\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -78,7 +110,9 @@
             "person_id": "18042233",
             "role_id": "35236565",
             "person_name": "Daniel Marot",
+            "person_date": "French, 1661\u20131752; active in Netherlands and England",
             "role_name": "Artist",
+            "role_display_name": "",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18042233\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236565\/"
         }
@@ -88,24 +122,35 @@
     },
     "colors": [
         {
-            "color": "#b6b1a0",
-            "closest_css3": "#a9a9a9"
+            "color": "#c8c7b4",
+            "closest_crayola": "#cdc5c2",
+            "closest_css3": "#c0c0c0",
+            "closest_css4": "#c0c0c0"
         },
         {
-            "color": "#4f4941",
-            "closest_css3": "#2f4f4f"
+            "color": "#423b36",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#dfdccb",
-            "closest_css3": "#d3d3d3"
+            "color": "#9c9887",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         },
         {
-            "color": "#2e2826",
-            "closest_css3": "#2f4f4f"
+            "color": "#5e5a4f",
+            "closest_crayola": "#6e5160",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#736e62",
-            "closest_css3": "#696969"
+            "color": "#7a796a",
+            "closest_crayola": "#757575",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         }
-    ]
+    ],
+    "woe:country_name": "Netherlands"
 }

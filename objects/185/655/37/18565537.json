@@ -3,6 +3,7 @@
     "tms:id": "76060",
     "accession_number": "1942-36-12",
     "title": "Print, \"A plate from the set of twelve projects for engraved silver cups (12 Stick Zvm Ver Zaichnen Stechen ver Fertigt Bernhartzan Goldschmid Gesel Inn Niernberg)\", 1580",
+    "title_raw": "A plate from the set of twelve projects for engraved silver cups (12 Stick Zvm Ver Zaichnen Stechen ver Fertigt Bernhartzan Goldschmid Gesel Inn Niernberg)",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18565537\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1580,
     "year_acquired": "1942",
     "decade": null,
-    "woe:country": "23424829",
+    "woe:country_id": "23424829",
     "medium": "Punch engraving, pen and black ink, graphite on off-white laid paper",
     "markings": null,
     "signed": null,
     "inscribed": "At center above image in margin, in pen and black ink: 117\nAt center below image in margin, in graphite: 5",
     "provenance": "Prince Waldburg-Wolfegg; 1942: acquired by Museum (from P. and D. Colnaghi and Co., Ltd.)",
     "dimensions": "Sheet: 29.5 x 18.5 cm (11 5\/8 x 7 5\/16 in.)\nPlatemark: 19.3 x 13 cm (7 5\/8 x 5 1\/8 in.)",
+    "dimensions_raw": {
+        "height": [
+            "19.30",
+            "centimeters"
+        ],
+        "width": [
+            "13.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase through gift of Mrs. John Innes Kane",
     "description": "Scrollwork frieze above, with ornamental foliage surrounding an urn or flower vase.",
     "justification": null,
-    "type": {
-        "id": "35236873",
-        "name": "Print"
-    },
+    "woe:country": "23424829",
+    "type": "Print",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/21838_ef7a2b83d065ec96_b.jpg",
                 "width": 629,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/21838_ef7a2b83d065ec96_n.jpg",
-                "width": 196,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "21838"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/21838_ef7a2b83d065ec96_z.jpg",
                 "width": 393,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "21838"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/21838_ef7a2b83d065ec96_n.jpg",
+                "width": 196,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "21838"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/21838_ef7a2b83d065ec96_d.gif",
+                "width": 196,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "21838"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/21838_ef7a2b83d065ec96_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "21838"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18056325",
             "role_id": "35236655",
             "person_name": "Bernhard Zan",
+            "person_date": "Germany, active 1575\u20131600",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18056325\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18536707",
             "role_id": "35352249",
             "person_name": "P. and D. Colnaghi and Co., Ltd.",
+            "person_date": "",
             "role_name": "Vendor",
+            "role_display_name": "Purchased from",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18536707\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352249\/"
         }
@@ -72,16 +102,23 @@
     },
     "colors": [
         {
-            "color": "#4e493e",
-            "closest_css3": "#2f4f4f"
+            "color": "#797264",
+            "closest_crayola": "#757575",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#726b5d",
-            "closest_css3": "#696969"
+            "color": "#a49b8a",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         },
         {
-            "color": "#a09787",
-            "closest_css3": "#bc8f8f"
+            "color": "#464138",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         }
-    ]
+    ],
+    "woe:country_name": "Germany"
 }

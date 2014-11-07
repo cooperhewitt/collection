@@ -3,6 +3,7 @@
     "tms:id": "126079",
     "accession_number": "1960-162-1",
     "title": "Textile, 1898",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18431369\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1898,
     "year_acquired": "1960",
     "decade": null,
-    "woe:country": "23424975",
+    "woe:country_id": "23424975",
     "medium": "Medium: cotton\nTechnique: duplex printed by engraved roller on plain weave",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "H x W: 184.8 x 80 cm (72 3\/4 x 31 1\/2 in.)",
+    "dimensions_raw": {
+        "height": [
+            "184.79",
+            "centimeters"
+        ],
+        "width": [
+            "80.01",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Sarah Frantz",
     "description": "Length of heavy, ribbed cotton printed on both sides in a cool palette of greens, blues and white. Highly stylized design of clusters of lotus and poppies, each one rising from the one below on a fan of curving stems. Areas between are filled with small thistles.",
     "justification": null,
-    "type": {
-        "id": "35251739",
-        "name": "textile"
-    },
+    "woe:country": "23424975",
+    "type": "textile",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/45584_ae08a9717b6f16fb_b.jpg",
                 "width": 457,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/45584_ae08a9717b6f16fb_n.jpg",
-                "width": 143,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "45584"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/45584_ae08a9717b6f16fb_z.jpg",
                 "width": 286,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "45584"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/45584_ae08a9717b6f16fb_n.jpg",
+                "width": 143,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "45584"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/45584_ae08a9717b6f16fb_d.gif",
+                "width": 143,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "45584"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/45584_ae08a9717b6f16fb_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "45584"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/24559_f790c3a55b2e098c_b.jpg",
                 "width": 670,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/24559_f790c3a55b2e098c_n.jpg",
-                "width": 209,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "24559"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/24559_f790c3a55b2e098c_z.jpg",
                 "width": 419,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "24559"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/24559_f790c3a55b2e098c_n.jpg",
+                "width": 209,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "24559"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/24559_f790c3a55b2e098c_d.gif",
+                "width": 209,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "24559"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/24559_f790c3a55b2e098c_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "24559"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18045965",
             "role_id": "35236637",
             "person_name": "Harry Napper",
+            "person_date": "English, 1860 - 1940",
             "role_name": "Probably",
+            "role_display_name": "Probably",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18045965\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236637\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18059315",
             "role_id": "35351535",
             "person_name": "Sarah Frantz",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18059315\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -92,20 +139,35 @@
     },
     "colors": [
         {
-            "color": "#94a97d",
-            "closest_css3": "#8fbc8f"
+            "color": "#97aa80",
+            "closest_crayola": "#87a96b",
+            "closest_css3": "#8fbc8f",
+            "closest_css4": "#8fbc8f"
         },
         {
-            "color": "#bec1b1",
-            "closest_css3": "#c0c0c0"
+            "color": "#c3c6b2",
+            "closest_crayola": "#cdc5c2",
+            "closest_css3": "#c0c0c0",
+            "closest_css4": "#c0c0c0"
         },
         {
-            "color": "#efe2c1",
-            "closest_css3": "#f5deb3"
+            "color": "#eee2c0",
+            "closest_crayola": "#eceabe",
+            "closest_css3": "#f5deb3",
+            "closest_css4": "#f5deb3"
         },
         {
-            "color": "#859591",
-            "closest_css3": "#778899"
+            "color": "#99a295",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
+        },
+        {
+            "color": "#718e5f",
+            "closest_crayola": "#8a795d",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         }
-    ]
+    ],
+    "woe:country_name": "United Kingdom"
 }

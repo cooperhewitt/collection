@@ -3,6 +3,7 @@
     "tms:id": "242161",
     "accession_number": "2009-18-126",
     "title": "Concave Tumbler, \"No. 279\", 2007",
+    "title_raw": "No. 279",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18732095\/",
     "department_id": "35347497",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 2007,
     "year_acquired": "2009",
     "decade": "2000",
-    "woe:country": "23424750",
+    "woe:country_id": "23424750",
     "medium": "Mouth-blown crystal, painted",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "2009: acquired by Museum",
     "dimensions": "H x diam.: 10.5 x 7.5 cm (4 1\/8 x 2 15\/16 in.)",
+    "dimensions_raw": {
+        "diameter": [
+            "7.50",
+            "centimeters"
+        ],
+        "height": [
+            "10.50",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase through gift of Dale and Doug Anderson, Anonymous Donor, Arthur Liu, and Prairie Pictures, Inc. and from General Acquisitions Endowment Fund",
     "description": "Mouth-blown concave crystal tumbler with painted butterfly.",
     "justification": null,
-    "type": {
-        "id": "51681073",
-        "name": "Concave tumbler"
-    },
+    "woe:country": "23424750",
+    "type": "Concave tumbler",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/32221_ee03993efd2d2b2c_b.jpg",
                 "width": 1024,
                 "height": 677,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/32221_ee03993efd2d2b2c_n.jpg",
-                "width": 320,
-                "height": 212,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "32221"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/32221_ee03993efd2d2b2c_z.jpg",
                 "width": 640,
                 "height": 423,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "32221"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/32221_ee03993efd2d2b2c_n.jpg",
+                "width": 320,
+                "height": 212,
+                "is_primary": "1",
+                "image_id": "32221"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/32221_ee03993efd2d2b2c_d.gif",
+                "width": 320,
+                "height": 212,
+                "is_primary": "1",
+                "image_id": "32221"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/32221_ee03993efd2d2b2c_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "32221"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/33314_d09a6176fac7b1bd_b.jpg",
                 "width": 1024,
                 "height": 495,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/33314_d09a6176fac7b1bd_n.jpg",
-                "width": 320,
-                "height": 155,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "33314"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/33314_d09a6176fac7b1bd_z.jpg",
                 "width": 640,
                 "height": 309,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "33314"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/33314_d09a6176fac7b1bd_n.jpg",
+                "width": 320,
+                "height": 155,
+                "is_primary": "0",
+                "image_id": "33314"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/33314_d09a6176fac7b1bd_d.gif",
+                "width": 320,
+                "height": 155,
+                "is_primary": "0",
+                "image_id": "33314"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/33314_d09a6176fac7b1bd_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "33314"
             }
         }
     ],
@@ -74,15 +117,19 @@
             "person_id": "18063195",
             "role_id": "35236657",
             "person_name": "Boehmische Manufaktur",
+            "person_date": "",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18063195\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         },
         {
             "person_id": "18061841",
             "role_id": "35236657",
-            "person_name": "J. & L. Lobmeyr GmbH, Vienna, Austria",
+            "person_name": "J. & L. Lobmeyr GmbH",
+            "person_date": "Vienna, Austria, founded ca. 1935",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18061841\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         },
@@ -90,15 +137,19 @@
             "person_id": "18060905",
             "role_id": "35236655",
             "person_name": "Ted Muehling",
+            "person_date": "American, b. 1953",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18060905\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
         {
             "person_id": "18061841",
             "role_id": "51571131",
-            "person_name": "J. & L. Lobmeyr GmbH, Vienna, Austria",
+            "person_name": "J. & L. Lobmeyr GmbH",
+            "person_date": "Vienna, Austria, founded ca. 1935",
             "role_name": "Lender",
+            "role_display_name": "Lent by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18061841\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/51571131\/"
         }
@@ -108,20 +159,29 @@
     },
     "colors": [
         {
-            "color": "#563a33",
-            "closest_css3": "#556b2f"
+            "color": "#583d35",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         },
         {
-            "color": "#9b9082",
-            "closest_css3": "#808080"
+            "color": "#9b9083",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#7a695d",
-            "closest_css3": "#696969"
+            "color": "#7b6a5e",
+            "closest_crayola": "#8a795d",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#bbb4aa",
-            "closest_css3": "#a9a9a9"
+            "color": "#bdb7af",
+            "closest_crayola": "#b0b7c6",
+            "closest_css3": "#c0c0c0",
+            "closest_css4": "#c0c0c0"
         }
-    ]
+    ],
+    "woe:country_name": "Austria"
 }

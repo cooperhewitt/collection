@@ -3,6 +3,7 @@
     "tms:id": "122102",
     "accession_number": "1958-73-11",
     "title": "Textile, mid-20th century",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18423461\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1958,
     "year_acquired": "1958",
     "decade": "1940",
-    "woe:country": "23424829",
+    "woe:country_id": "23424829",
     "medium": "Medium: cotton\nTechnique: roller printed",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "H x W: 62.9 x 120 cm (24 3\/4 x 47 1\/4 in.)",
+    "dimensions_raw": {
+        "height": [
+            "62.87",
+            "centimeters"
+        ],
+        "width": [
+            "120.02",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Paula Habig",
     "description": "Yellow and white vertical stripes with a linear design of fish in black.",
     "justification": null,
-    "type": {
-        "id": "35251739",
-        "name": "textile"
-    },
+    "woe:country": "23424829",
+    "type": "textile",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/43055_11527c2b3079a2fc_b.jpg",
                 "width": 1024,
                 "height": 549,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/43055_11527c2b3079a2fc_n.jpg",
-                "width": 320,
-                "height": 172,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "43055"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/43055_11527c2b3079a2fc_z.jpg",
                 "width": 640,
                 "height": 343,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "43055"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/43055_11527c2b3079a2fc_n.jpg",
+                "width": 320,
+                "height": 172,
+                "is_primary": "1",
+                "image_id": "43055"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/43055_11527c2b3079a2fc_d.gif",
+                "width": 320,
+                "height": 172,
+                "is_primary": "1",
+                "image_id": "43055"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/43055_11527c2b3079a2fc_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "43055"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/73821_34392b5e5e6785f8_b.jpg",
                 "width": 1024,
                 "height": 629,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/73821_34392b5e5e6785f8_n.jpg",
-                "width": 320,
-                "height": 197,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "73821"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/73821_34392b5e5e6785f8_z.jpg",
                 "width": 640,
                 "height": 393,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "73821"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/73821_34392b5e5e6785f8_n.jpg",
+                "width": 320,
+                "height": 197,
+                "is_primary": "0",
+                "image_id": "73821"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/73821_34392b5e5e6785f8_d.gif",
+                "width": 320,
+                "height": 197,
+                "is_primary": "0",
+                "image_id": "73821"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/73821_34392b5e5e6785f8_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "73821"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18046059",
             "role_id": "35236681",
             "person_name": "Heinrich Habig Aktiengesellschaft Stoffdruckerei",
+            "person_date": "1809",
             "role_name": "Company",
+            "role_display_name": "Company:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18046059\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236681\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18059557",
             "role_id": "35351535",
             "person_name": "Paula Habig",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18059557\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -92,24 +139,35 @@
     },
     "colors": [
         {
-            "color": "#f0bf09",
-            "closest_css3": "#ffd700"
+            "color": "#f3c204",
+            "closest_crayola": "#ffae42",
+            "closest_css3": "#ffd700",
+            "closest_css4": "#ffd700"
         },
         {
-            "color": "#d0c7ad",
-            "closest_css3": "#c0c0c0"
+            "color": "#f5e094",
+            "closest_crayola": "#f0e891",
+            "closest_css3": "#f0e68c",
+            "closest_css4": "#f0e68c"
         },
         {
-            "color": "#33312d",
-            "closest_css3": "#2f4f4f"
+            "color": "#bbb4a6",
+            "closest_crayola": "#b0b7c6",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
         },
         {
-            "color": "#766b5f",
-            "closest_css3": "#696969"
+            "color": "#36322c",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#91887f",
-            "closest_css3": "#808080"
+            "color": "#5b5149",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         }
-    ]
+    ],
+    "woe:country_name": "Germany"
 }

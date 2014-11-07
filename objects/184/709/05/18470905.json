@@ -3,6 +3,7 @@
     "tms:id": "146092",
     "accession_number": "1969-40-46",
     "title": "Brooch, ca. 1898",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18470905\/",
     "department_id": "35347497",
     "period_id": null,
@@ -13,39 +14,68 @@
     "year_end": 1908,
     "year_acquired": "1969",
     "decade": null,
-    "woe:country": "23424853",
+    "woe:country_id": "23424853",
     "medium": "Engraved and modeled gold set with sapphires, diamonds, rubies, emeralds",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "1969: acquired by Museum (from R. Esmerian)",
     "dimensions": "H x W x D: 7.2 x 4.5 x 1.3 cm (2 13\/16 x 1 3\/4 x 1\/2 in.)",
+    "dimensions_raw": {
+        "depth": [
+            "1.30",
+            "centimeters"
+        ],
+        "height": [
+            "7.20",
+            "centimeters"
+        ],
+        "width": [
+            "4.50",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase through gift of Anonymous Donor, Annie Schermerhorn Kane, and various donors",
     "description": "Gold brooch with oval carved sapphire cameo of Cybelle or Isis (or the Personification of Italy) seated on throne; framed by four cabochon sapphires, ninety-three Old Mine diamonds, and pendant with sapphire drop weighing approximately 13.5 carats in gold; mounting with three ruby chips and three emerald chips.",
     "justification": null,
-    "type": {
-        "id": "35251201",
-        "name": "brooch"
-    },
+    "woe:country": "23424853",
+    "type": "brooch",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/7746_a99d632a57360977_b.jpg",
                 "width": 694,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/7746_a99d632a57360977_n.jpg",
-                "width": 217,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "7746"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/7746_a99d632a57360977_z.jpg",
                 "width": 433,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "7746"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/7746_a99d632a57360977_n.jpg",
+                "width": 217,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "7746"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/7746_a99d632a57360977_d.gif",
+                "width": 217,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "7746"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/7746_a99d632a57360977_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "7746"
             }
         },
         {
@@ -53,19 +83,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/7745_5f234d53d932b498_b.jpg",
                 "width": 684,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/7745_5f234d53d932b498_n.jpg",
-                "width": 214,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "7745"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/7745_5f234d53d932b498_z.jpg",
                 "width": 428,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "7745"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/7745_5f234d53d932b498_n.jpg",
+                "width": 214,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "7745"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/7745_5f234d53d932b498_d.gif",
+                "width": 214,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "7745"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/7745_5f234d53d932b498_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "7745"
             }
         }
     ],
@@ -74,7 +121,9 @@
             "person_id": "18538957",
             "role_id": "35236685",
             "person_name": "Fortunato Pio Castellani & Sons",
+            "person_date": "(Rome, Italy)",
             "role_name": "Maker",
+            "role_display_name": "Made by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18538957\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236685\/"
         },
@@ -82,7 +131,9 @@
             "person_id": "18056565",
             "role_id": "35352249",
             "person_name": "R. Esmerian",
+            "person_date": "",
             "role_name": "Vendor",
+            "role_display_name": "Purchased from",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18056565\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352249\/"
         }
@@ -92,24 +143,35 @@
     },
     "colors": [
         {
-            "color": "#958992",
-            "closest_css3": "#808080"
+            "color": "#b2aeb9",
+            "closest_crayola": "#b0b7c6",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
         },
         {
-            "color": "#b8aeb7",
-            "closest_css3": "#a9a9a9"
+            "color": "#8b3512",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#8b4513",
+            "closest_css4": "#8b4513"
         },
         {
-            "color": "#d47c28",
-            "closest_css3": "#d2691e"
+            "color": "#675d5f",
+            "closest_crayola": "#6e5160",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#645a5c",
-            "closest_css3": "#696969"
+            "color": "#d47e27",
+            "closest_crayola": "#c46210",
+            "closest_css3": "#d2691e",
+            "closest_css4": "#d2691e"
         },
         {
-            "color": "#652212",
-            "closest_css3": "#800000"
+            "color": "#bb601c",
+            "closest_crayola": "#c46210",
+            "closest_css3": "#d2691e",
+            "closest_css4": "#d2691e"
         }
-    ]
+    ],
+    "woe:country_name": "Italy"
 }

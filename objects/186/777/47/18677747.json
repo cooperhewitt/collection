@@ -3,6 +3,7 @@
     "tms:id": "214339",
     "accession_number": "1969-165-38",
     "title": "Sample, \"Arabesque\", 1954",
+    "title_raw": "Arabesque",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18677747\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1954,
     "year_acquired": "1969",
     "decade": "1950",
-    "woe:country": null,
+    "woe:country_id": null,
     "medium": "Technique: machine woven plain weave with supplementary weft",
     "markings": "Paper label with handwritten, 135*D,  attached to upper left corner.",
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "Warp: 29 cm [11.5\"]\nWeft: 27 cm [10.5\"]",
+    "dimensions_raw": {
+        "warp": [
+            "29.00",
+            "centimeters"
+        ],
+        "weft": [
+            "27.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Alexander H. Girard",
     "description": "White warps and wefts with pink, orange and black supplementary wefts forming a small abstract geometric pattern. Selvedge on left side and cut on other 3 sides.",
     "justification": null,
-    "type": {
-        "id": "35268079",
-        "name": "Sample"
-    },
+    "woe:country": null,
+    "type": "Sample",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/30034_97b4991762174a5b_b.jpg",
                 "width": 892,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/30034_97b4991762174a5b_n.jpg",
-                "width": 279,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "30034"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/30034_97b4991762174a5b_z.jpg",
                 "width": 557,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "30034"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/30034_97b4991762174a5b_n.jpg",
+                "width": 279,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "30034"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/30034_97b4991762174a5b_d.gif",
+                "width": 279,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "30034"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/30034_97b4991762174a5b_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "30034"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18046321",
             "role_id": "35236657",
             "person_name": "Orinoka Mills",
+            "person_date": "USA",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18046321\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18046041",
             "role_id": "35351535",
             "person_name": "Alexander Hayden Girard",
+            "person_date": "American, 1907\u20131993",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18046041\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18046041",
             "role_id": "35236655",
             "person_name": "Alexander Hayden Girard",
+            "person_date": "American, 1907\u20131993",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18046041\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
@@ -80,24 +112,34 @@
     },
     "colors": [
         {
-            "color": "#1e2f32",
-            "closest_css3": "#2f4f4f"
+            "color": "#182629",
+            "closest_crayola": "#000000",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#b26d56",
-            "closest_css3": "#cd5c5c"
+            "color": "#cedede",
+            "closest_crayola": "#c5d0e6",
+            "closest_css3": "#dcdcdc",
+            "closest_css4": "#dcdcdc"
         },
         {
-            "color": "#974b63",
-            "closest_css3": "#a0522d"
+            "color": "#994c65",
+            "closest_crayola": "#8d4e85",
+            "closest_css3": "#cd5c5c",
+            "closest_css4": "#cd5c5c"
         },
         {
-            "color": "#d9f6f7",
-            "closest_css3": "#e0ffff"
+            "color": "#ce7e5e",
+            "closest_crayola": "#d68a59",
+            "closest_css3": "#cd853f",
+            "closest_css4": "#cd853f"
         },
         {
-            "color": "#b1717e",
-            "closest_css3": "#bc8f8f"
+            "color": "#aa654d",
+            "closest_crayola": "#a5694f",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         }
     ]
 }

@@ -3,6 +3,7 @@
     "tms:id": "191723",
     "accession_number": "1990-12-3",
     "title": "Sample Book, \"Carminia\", 1986",
+    "title_raw": "Carminia",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18633753\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,68 @@
     "year_end": 1986,
     "year_acquired": "1990",
     "decade": "1980",
-    "woe:country": "23424957",
+    "woe:country_id": "23424957",
     "medium": "Medium: cotton, viscose\nTechnique: discharge printed on jacquard woven foundation",
     "markings": null,
     "signed": null,
     "inscribed": "Printed on front of book in black, 'CARMINIA\".",
     "provenance": "1990: acquired by Museum",
     "dimensions": "H x W x D (closed book): 45 x 40.5 x 5 cm (17 11\/16 x 15 15\/16 x 1 15\/16 in.)",
+    "dimensions_raw": {
+        "depth": [
+            "5.00",
+            "centimeters"
+        ],
+        "height": [
+            "45.00",
+            "centimeters"
+        ],
+        "width": [
+            "40.50",
+            "centimeters"
+        ]
+    },
     "creditline": null,
     "description": "Book containing 31 pages of samples of fabric in 12 different patterns.",
     "justification": null,
-    "type": {
-        "id": "35247403",
-        "name": "sample book"
-    },
+    "woe:country": "23424957",
+    "type": "sample book",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/78450_c08583c69c8a9dd6_b.jpg",
                 "width": 1024,
                 "height": 648,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/78450_c08583c69c8a9dd6_n.jpg",
-                "width": 320,
-                "height": 203,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "78450"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/78450_c08583c69c8a9dd6_z.jpg",
                 "width": 640,
                 "height": 405,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "78450"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/78450_c08583c69c8a9dd6_n.jpg",
+                "width": 320,
+                "height": 203,
+                "is_primary": "1",
+                "image_id": "78450"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/78450_c08583c69c8a9dd6_d.gif",
+                "width": 320,
+                "height": 203,
+                "is_primary": "1",
+                "image_id": "78450"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/78450_c08583c69c8a9dd6_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "78450"
             }
         }
     ],
@@ -54,7 +84,9 @@
             "person_id": "18046373",
             "role_id": "35236681",
             "person_name": "Zimmer + Rohde",
+            "person_date": "1946",
             "role_name": "Company",
+            "role_display_name": "Company:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18046373\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236681\/"
         },
@@ -62,7 +94,9 @@
             "person_id": "18047459",
             "role_id": "35352245",
             "person_name": "Gillian Moss",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047459\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -70,7 +104,9 @@
             "person_id": "18045701",
             "role_id": "35236655",
             "person_name": "Renate Weisz",
+            "person_date": "German, 1944",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18045701\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
@@ -80,5 +116,6 @@
     },
     "colors": [
 
-    ]
+    ],
+    "woe:country_name": "Switzerland"
 }

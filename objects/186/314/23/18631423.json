@@ -3,6 +3,7 @@
     "tms:id": "190552",
     "accession_number": "1988-62-807",
     "title": "Drawing, \"Juniblume: Pale, Pale Orange\", 1923\u201332",
+    "title_raw": "Juniblume: Pale, Pale Orange",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18631423\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1923,
     "year_acquired": "1988",
     "decade": "1920",
-    "woe:country": "23424750",
+    "woe:country_id": "23424750",
     "medium": "Brush and watercolor, black ink on paper",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "11.7 x 16.4 cm (4 5\/8 x 6 7\/16 in. )",
+    "dimensions_raw": {
+        "height": [
+            "11.70",
+            "centimeters"
+        ],
+        "width": [
+            "16.40",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase from Smithsonian Collections Acquisition and Decorative Arts Association Acquisition Funds",
     "description": "Pattern of wild flowers in yellow, blue, salmon and gray on light beige ground.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424750",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/50645_93d4eb6d8927e916_b.jpg",
                 "width": 1024,
                 "height": 760,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/50645_93d4eb6d8927e916_n.jpg",
-                "width": 320,
-                "height": 237,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "50645"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/50645_93d4eb6d8927e916_z.jpg",
                 "width": 640,
                 "height": 475,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "50645"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/50645_93d4eb6d8927e916_n.jpg",
+                "width": 320,
+                "height": 237,
+                "is_primary": "1",
+                "image_id": "50645"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/50645_93d4eb6d8927e916_d.gif",
+                "width": 320,
+                "height": 237,
+                "is_primary": "1",
+                "image_id": "50645"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/50645_93d4eb6d8927e916_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "50645"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/50643_bcaab94f69a5db58_b.jpg",
                 "width": 1024,
                 "height": 715,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/50643_bcaab94f69a5db58_n.jpg",
-                "width": 320,
-                "height": 223,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "50643"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/50643_bcaab94f69a5db58_z.jpg",
                 "width": 640,
                 "height": 447,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "50643"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/50643_bcaab94f69a5db58_n.jpg",
+                "width": 320,
+                "height": 223,
+                "is_primary": "0",
+                "image_id": "50643"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/50643_bcaab94f69a5db58_d.gif",
+                "width": 320,
+                "height": 223,
+                "is_primary": "0",
+                "image_id": "50643"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/50643_bcaab94f69a5db58_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "50643"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "51676457",
             "role_id": "35352245",
             "person_name": "Karin Zonis",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/51676457\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18536953",
             "role_id": "35236655",
             "person_name": "Felice Rix-Ueno",
+            "person_date": "Austrian, 1893\u20131967",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18536953\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -90,7 +137,9 @@
             "person_id": "18049365",
             "role_id": "35352247",
             "person_name": "Decorative Arts Association Acquisition Fund",
+            "person_date": "founded 1982, closed September 30, 1998",
             "role_name": "Fund",
+            "role_display_name": "Fund:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049365\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352247\/"
         },
@@ -98,7 +147,9 @@
             "person_id": "18538455",
             "role_id": "35352249",
             "person_name": "Wolfgang Ruf",
+            "person_date": "",
             "role_name": "Vendor",
+            "role_display_name": "Purchased from",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18538455\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352249\/"
         }
@@ -108,24 +159,35 @@
     },
     "colors": [
         {
-            "color": "#e0d3b2",
-            "closest_css3": "#f5deb3"
+            "color": "#dfd4b5",
+            "closest_crayola": "#efcdb8",
+            "closest_css3": "#f5deb3",
+            "closest_css4": "#f5deb3"
         },
         {
-            "color": "#4b6d9d",
-            "closest_css3": "#4682b4"
+            "color": "#5777a1",
+            "closest_crayola": "#5d76cb",
+            "closest_css3": "#4682b4",
+            "closest_css4": "#4682b4"
         },
         {
-            "color": "#a79b84",
-            "closest_css3": "#bc8f8f"
+            "color": "#bdc9ab",
+            "closest_crayola": "#cdc5c2",
+            "closest_css3": "#c0c0c0",
+            "closest_css4": "#c0c0c0"
         },
         {
-            "color": "#b6c7a9",
-            "closest_css3": "#c0c0c0"
+            "color": "#daca75",
+            "closest_crayola": "#f8d568",
+            "closest_css3": "#deb887",
+            "closest_css4": "#deb887"
         },
         {
-            "color": "#dbca77",
-            "closest_css3": "#deb887"
+            "color": "#a49984",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         }
-    ]
+    ],
+    "woe:country_name": "Austria"
 }

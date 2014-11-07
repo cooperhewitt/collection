@@ -3,6 +3,7 @@
     "tms:id": "96165",
     "accession_number": "1947-121-2",
     "title": "Drawing, \"Design for Berlin Wool Work\", ca. 1860",
+    "title_raw": "Design for Berlin Wool Work",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18605279\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1870,
     "year_acquired": "1947",
     "decade": null,
-    "woe:country": "23424829",
+    "woe:country_id": "23424829",
     "medium": "Brush and gouache on pre-printed squared paper",
     "markings": null,
     "signed": null,
     "inscribed": "Inscribed in plate, lower center: Berlin bei L. W. Wittieh, Merweill W Fager St. [...] No. 13.",
     "provenance": "Mrs. Abram S. Hewitt",
     "dimensions": "12 x 26.5 cm (4 3\/4 x 10 7\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "12.00",
+            "centimeters"
+        ],
+        "width": [
+            "26.50",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase through gift of Mrs. Abram S. Hewitt",
     "description": "Design for wool-work on squared paper.  Acanthus leaf scroll in yellow, blue, rose.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424829",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/48254_ef49fa9622dc2ae2_b.jpg",
                 "width": 1024,
                 "height": 467,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/48254_ef49fa9622dc2ae2_n.jpg",
-                "width": 320,
-                "height": 146,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "48254"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/48254_ef49fa9622dc2ae2_z.jpg",
                 "width": 640,
                 "height": 292,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "48254"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/48254_ef49fa9622dc2ae2_n.jpg",
+                "width": 320,
+                "height": 146,
+                "is_primary": "1",
+                "image_id": "48254"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/48254_ef49fa9622dc2ae2_d.gif",
+                "width": 320,
+                "height": 146,
+                "is_primary": "1",
+                "image_id": "48254"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/48254_ef49fa9622dc2ae2_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "48254"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18056749",
             "role_id": "35352249",
             "person_name": "Ye Olde Antique and Hobby Shoppe",
+            "person_date": "American",
             "role_name": "Vendor",
+            "role_display_name": "Purchased from",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18056749\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352249\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "51676457",
             "role_id": "35352245",
             "person_name": "Karin Zonis",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/51676457\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18538299",
             "role_id": "35352245",
             "person_name": "Edna B. Donnell",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18538299\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -78,7 +110,9 @@
             "person_id": "18057253",
             "role_id": "35236661",
             "person_name": "L. W. Wittieh",
+            "person_date": "",
             "role_name": "Publisher",
+            "role_display_name": "Published by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18057253\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236661\/"
         },
@@ -86,7 +120,9 @@
             "person_id": "18050411",
             "role_id": "35351535",
             "person_name": "Mrs. Abram S. Hewitt",
+            "person_date": "American, 1830\u20131912",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18050411\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -96,24 +132,35 @@
     },
     "colors": [
         {
-            "color": "#932e32",
-            "closest_css3": "#a52a2a"
+            "color": "#ddac35",
+            "closest_crayola": "#ffae42",
+            "closest_css3": "#daa520",
+            "closest_css4": "#daa520"
         },
         {
-            "color": "#415270",
-            "closest_css3": "#483d8b"
+            "color": "#8d292c",
+            "closest_crayola": "#9c2542",
+            "closest_css3": "#a52a2a",
+            "closest_css4": "#a52a2a"
         },
         {
-            "color": "#eada45",
-            "closest_css3": "#f4a460"
+            "color": "#496ba0",
+            "closest_crayola": "#2e5894",
+            "closest_css3": "#4682b4",
+            "closest_css4": "#4682b4"
         },
         {
-            "color": "#bb6f38",
-            "closest_css3": "#cd853f"
+            "color": "#e9d844",
+            "closest_crayola": "#ffcf48",
+            "closest_css3": "#f4a460",
+            "closest_css4": "#f4a460"
         },
         {
-            "color": "#ddab34",
-            "closest_css3": "#daa520"
+            "color": "#bb7041",
+            "closest_crayola": "#b4674d",
+            "closest_css3": "#cd853f",
+            "closest_css4": "#cd853f"
         }
-    ]
+    ],
+    "woe:country_name": "Germany"
 }

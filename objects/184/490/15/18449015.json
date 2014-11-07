@@ -3,6 +3,7 @@
     "tms:id": "135023",
     "accession_number": "1963-39-86",
     "title": "Poster, \"Post During Lunch Hour, for General Post Office\", 1937",
+    "title_raw": "Post During Lunch Hour, for General Post Office",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18449015\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1937,
     "year_acquired": "1963",
     "decade": "1930",
-    "woe:country": "23424975",
+    "woe:country_id": "23424975",
     "medium": "Offset lithograph on paper, lined",
     "markings": null,
     "signed": "Signed in white ink, lower right: E.McKnight Kauffer, \u201834",
     "inscribed": "Printed in black ink, stamp, lower right: crowned \u201cGPO\u201d [encircled] \/ P. R. D. 155",
     "provenance": "Mrs. E. McKnight Kauffer; 1963: acquired by Museum",
     "dimensions": "76.2 x 50.9 cm (30 in. x 20 1\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "76.20",
+            "centimeters"
+        ],
+        "width": [
+            "50.90",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Mrs. E. McKnight Kauffer",
     "description": "Poster shows an envelope above a plate, fork and knife on a grey ground, and in black text above and on this: POST \/ DURING \/ LUNCH. Below, in red: HOUR, on black background.",
     "justification": null,
-    "type": {
-        "id": "35238163",
-        "name": "poster"
-    },
+    "woe:country": "23424975",
+    "type": "poster",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/64301_efa1af9234a022e9_b.jpg",
                 "width": 683,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/64301_efa1af9234a022e9_n.jpg",
-                "width": 213,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "64301"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/64301_efa1af9234a022e9_z.jpg",
                 "width": 427,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "64301"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/64301_efa1af9234a022e9_n.jpg",
+                "width": 213,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "64301"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/64301_efa1af9234a022e9_d.gif",
+                "width": 213,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "64301"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/64301_efa1af9234a022e9_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "64301"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18041923",
             "role_id": "35236655",
             "person_name": "Edward McKnight Kauffer",
+            "person_date": "American, active England, 1890\u20131954",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041923\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18061849",
             "role_id": "35351535",
             "person_name": "Mrs. Edward McKnight Kauffer",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18061849\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -72,24 +102,35 @@
     },
     "colors": [
         {
-            "color": "#ece6cd",
-            "closest_css3": "#faebd7"
+            "color": "#eee8d2",
+            "closest_crayola": "#efdecd",
+            "closest_css3": "#faebd7",
+            "closest_css4": "#faebd7"
         },
         {
             "color": "#c0baa4",
-            "closest_css3": "#c0c0c0"
+            "closest_crayola": "#cdc5c2",
+            "closest_css3": "#c0c0c0",
+            "closest_css4": "#c0c0c0"
         },
         {
-            "color": "#4b473e",
-            "closest_css3": "#2f4f4f"
+            "color": "#4f4a41",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
             "color": "#d8421b",
-            "closest_css3": "#d2691e"
+            "closest_crayola": "#c46210",
+            "closest_css3": "#d2691e",
+            "closest_css4": "#d2691e"
         },
         {
-            "color": "#918b79",
-            "closest_css3": "#808080"
+            "color": "#907f6c",
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         }
-    ]
+    ],
+    "woe:country_name": "United Kingdom"
 }

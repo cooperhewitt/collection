@@ -3,6 +3,7 @@
     "tms:id": "182229",
     "accession_number": "1985-103-20",
     "title": "Fork, ca. 1550",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18803903\/",
     "department_id": "35347497",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1560,
     "year_acquired": "1985",
     "decade": null,
-    "woe:country": null,
+    "woe:country_id": null,
     "medium": "Steel, gilt-bronze, gold",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "Robert L. Metzenberg",
     "dimensions": "L x W: 22.2 x 2.8 cm (8 3\/4 x 1 1\/8 in.)",
+    "dimensions_raw": {
+        "length": [
+            "22.20",
+            "centimeters"
+        ],
+        "width": [
+            "2.80",
+            "centimeters"
+        ]
+    },
     "creditline": "The Robert L. Metzenberg Collection, gift of Eleanor L. Metzenberg",
     "description": "Two tines, rounded shoulders. Spiral neck; cast gilded bronze handle in the form of female term; lower pedestal with imbricated scale work; demi-figure with arms curved down to sides. Modeled front and back.",
     "justification": null,
-    "type": {
-        "id": "35254209",
-        "name": "fork"
-    },
+    "woe:country": null,
+    "type": "fork",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/18952_6381cb27a38ab9f1_b.jpg",
-                "width": 466,
-                "height": 960,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/18952_6381cb27a38ab9f1_n.jpg",
-                "width": 155,
-                "height": 320,
-                "is_primary": "1"
+                "width": null,
+                "height": null,
+                "is_primary": "1",
+                "image_id": "18952"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/18952_6381cb27a38ab9f1_z.jpg",
                 "width": 311,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "18952"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/18952_6381cb27a38ab9f1_n.jpg",
+                "width": 155,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "18952"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/18952_6381cb27a38ab9f1_d.gif",
+                "width": 155,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "18952"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/18952_6381cb27a38ab9f1_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "18952"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18535985",
             "role_id": "35351535",
             "person_name": "Eleanor L. Metzenberg",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18535985\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18048365",
             "role_id": "35352245",
             "person_name": "S. Wilmering",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18048365\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         }
@@ -72,20 +102,22 @@
     },
     "colors": [
         {
-            "color": "#d3d1bd",
-            "closest_css3": "#d3d3d3"
-        },
-        {
             "color": "#9d9b85",
-            "closest_css3": "#bc8f8f"
+            "closest_crayola": "#95918c",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         },
         {
-            "color": "#4c4328",
-            "closest_css3": "#556b2f"
+            "color": "#4d4329",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         },
         {
-            "color": "#7e775e",
-            "closest_css3": "#696969"
+            "color": "#7f775e",
+            "closest_crayola": "#8a795d",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         }
     ]
 }

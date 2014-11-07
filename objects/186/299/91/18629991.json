@@ -3,6 +3,7 @@
     "tms:id": "189836",
     "accession_number": "1988-62-162",
     "title": "Drawing, \"Bethlehem: Navy, Pink and Blue\"",
+    "title_raw": "Bethlehem: Navy, Pink and Blue",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18629991\/",
     "department_id": "35347493",
     "period_id": "35435467",
@@ -13,39 +14,64 @@
     "year_end": 1950,
     "year_acquired": "1988",
     "decade": null,
-    "woe:country": "23424750",
+    "woe:country_id": "23424750",
     "medium": "Brush and gouache on cream illustration board",
     "markings": "Stamp in red ink, upper left: WIENER \/ WERKE \/ ST\u00c4TTE; inscribed in blue crayon, lower left: 98",
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "7.4 x 21.5 cm (2 15\/16 x 8 7\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "32.50",
+            "centimeters"
+        ],
+        "width": [
+            "46.20",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase from Smithsonian Collections Acquisition and Decorative Arts Association Acquisition Funds",
     "description": "Pattern of scattered objects in blue, pink, light blue, yellow; ewers and cups on shelf-like units, stick figures, outlines, shading and stems in gray, on blue background.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424750",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/27153_6eccee4407c15b78_b.jpg",
                 "width": 1024,
                 "height": 721,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/27153_6eccee4407c15b78_n.jpg",
-                "width": 320,
-                "height": 225,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "27153"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/27153_6eccee4407c15b78_z.jpg",
                 "width": 640,
                 "height": 450,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "27153"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/27153_6eccee4407c15b78_n.jpg",
+                "width": 320,
+                "height": 225,
+                "is_primary": "1",
+                "image_id": "27153"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/27153_6eccee4407c15b78_d.gif",
+                "width": 320,
+                "height": 225,
+                "is_primary": "1",
+                "image_id": "27153"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/27153_6eccee4407c15b78_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "27153"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "51676457",
             "role_id": "35352245",
             "person_name": "Karin Zonis",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/51676457\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18049365",
             "role_id": "35352247",
             "person_name": "Decorative Arts Association Acquisition Fund",
+            "person_date": "founded 1982, closed September 30, 1998",
             "role_name": "Fund",
+            "role_display_name": "Fund:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049365\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352247\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18538455",
             "role_id": "35352249",
             "person_name": "Wolfgang Ruf",
+            "person_date": "",
             "role_name": "Vendor",
+            "role_display_name": "Purchased from",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18538455\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352249\/"
         },
@@ -78,7 +110,9 @@
             "person_id": "18048101",
             "role_id": "35236675",
             "person_name": "Wiener Werkst\u00e4tte",
+            "person_date": "Vienna, Austria, 1903\u20131932",
             "role_name": "For",
+            "role_display_name": "Made for",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18048101\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236675\/"
         },
@@ -86,7 +120,9 @@
             "person_id": "18538931",
             "role_id": "35236655",
             "person_name": "Marie Rosalie Friedman-Otten",
+            "person_date": "",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18538931\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
@@ -96,24 +132,35 @@
     },
     "colors": [
         {
-            "color": "#d4d0c8",
-            "closest_css3": "#d3d3d3"
+            "color": "#5b5850",
+            "closest_crayola": "#6e5160",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#544b3a",
-            "closest_css3": "#556b2f"
+            "color": "#827c69",
+            "closest_crayola": "#8a795d",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#212622",
-            "closest_css3": "#000000"
+            "color": "#d8cb8f",
+            "closest_crayola": "#e7c697",
+            "closest_css3": "#deb887",
+            "closest_css4": "#deb887"
         },
         {
-            "color": "#88806f",
-            "closest_css3": "#808080"
+            "color": "#2b2e2c",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#9e326e",
-            "closest_css3": "#c71585"
+            "color": "#b25640",
+            "closest_crayola": "#b4674d",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         }
-    ]
+    ],
+    "woe:country_name": "Austria"
 }

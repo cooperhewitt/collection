@@ -3,6 +3,7 @@
     "tms:id": "152183",
     "accession_number": "1974-100-5",
     "title": "Sampler, 1814",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18482649\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1814,
     "year_acquired": "1974",
     "decade": null,
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Medium: cotton and silk embroidery on linen foundation\nTechnique: cross, double-cross, eyelet and queen embroidery stitches on foundation of plain weave with paired warps and wefts",
     "markings": null,
     "signed": null,
     "inscribed": "Inscription: \"Mary A. Fox's Sampler Done in the Year 1814.\"",
     "provenance": "Ex. coll. Fraser-Martin. American Art Gallery cat. #383, 1921.",
     "dimensions": "H x W: 33 x 32 cm (13 x 12 5\/8 in. )",
+    "dimensions_raw": {
+        "height": [
+            "33.00",
+            "centimeters"
+        ],
+        "width": [
+            "32.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Anonymous Donor from the Fraser\/Martin Collection",
     "description": "Square sampler worked in green, red, and black on a natural ground. Family record arranged in two columns listing dates of birth from 1722- 1831.  Three alphabets at the top and an inscription at the bottom: \"Mary A. Fox's Sampler Done in the Year 1814.\"",
     "justification": null,
-    "type": {
-        "id": "35256439",
-        "name": "Sampler"
-    },
+    "woe:country": "23424977",
+    "type": "Sampler",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/19336_c44684cca97a8af2_b.jpg",
                 "width": 1024,
                 "height": 1022,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/19336_c44684cca97a8af2_n.jpg",
-                "width": 320,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "19336"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/19336_c44684cca97a8af2_z.jpg",
                 "width": 640,
                 "height": 639,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "19336"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/19336_c44684cca97a8af2_n.jpg",
+                "width": 320,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "19336"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/19336_c44684cca97a8af2_d.gif",
+                "width": 320,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "19336"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/19336_c44684cca97a8af2_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "19336"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18057793",
             "role_id": "35236583",
             "person_name": "Mary A. Fox",
+            "person_date": "",
             "role_name": "Embroiderer",
+            "role_display_name": "Embroidered by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18057793\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236583\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18057791",
             "role_id": "35351535",
             "person_name": "Mrs. Richard S. Koehne",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18057791\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18057789",
             "role_id": "35351535",
             "person_name": "Mrs. John L. Handy Jr.",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18057789\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -78,15 +110,19 @@
             "person_id": "18055367",
             "role_id": "35351535",
             "person_name": "Myra Mathers",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18055367\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
         {
             "person_id": "18049335",
             "role_id": "35351535",
-            "person_name": "Anonymous",
+            "person_name": "Unknown",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049335\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -96,24 +132,35 @@
     },
     "colors": [
         {
-            "color": "#cfb794",
-            "closest_css3": "#d2b48c"
+            "color": "#e0c8a7",
+            "closest_crayola": "#e7c697",
+            "closest_css3": "#f5deb3",
+            "closest_css4": "#f5deb3"
         },
         {
-            "color": "#b0906c",
-            "closest_css3": "#bc8f8f"
+            "color": "#a48968",
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#7f725b",
-            "closest_css3": "#696969"
+            "color": "#80735c",
+            "closest_crayola": "#8a795d",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#5d4f39",
-            "closest_css3": "#556b2f"
+            "color": "#584e3c",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         },
         {
-            "color": "#f2e3ca",
-            "closest_css3": "#ffe4c4"
+            "color": "#906951",
+            "closest_crayola": "#85754e",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

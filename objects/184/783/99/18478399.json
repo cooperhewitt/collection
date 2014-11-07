@@ -3,6 +3,7 @@
     "tms:id": "150009",
     "accession_number": "1972-75-63",
     "title": "Sample, ca. 1948",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18478399\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1953,
     "year_acquired": "1972",
     "decade": "1940",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Medium: cotton, synthetic\nTechnique: plain weave",
     "markings": null,
     "signed": null,
     "inscribed": "#2429 c. 1948 Dorothy Liebes",
     "provenance": "Estate of Dorothy (Liebes) Morin; 1972: acquired by Museum",
-    "dimensions": "Warp x Weft: 19 x 18.5 cm (7 1\/2 x 7 5\/16 in.)",
+    "dimensions": "Warp x Weft (sample): 20.3 \u00d7 20.3 cm (8 \u00d7 8 in.)\nH x W (card): 31.8 \u00d7 27.9 cm (12 1\/2 in. \u00d7 11 in.)",
+    "dimensions_raw": {
+        "warp": [
+            "19.00",
+            "centimeters"
+        ],
+        "weft": [
+            "18.50",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of the Estate of Dorothy (Liebes) Morin",
     "description": "Warp of smooth two-ply yarn alternating with boucle yarn. Weft is repeating pattern, each unit containing two smooth synthetic yarns, one metal braided over a central core, one chenille, one paired narrow boucle yarns, two chenille, two paired boucle yarns and one woven ball fringe.",
     "justification": null,
-    "type": {
-        "id": "35268079",
-        "name": "Sample"
-    },
+    "woe:country": "23424977",
+    "type": "Sample",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/81810_f15515d267be40e9_b.jpg",
                 "width": 895,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/81810_f15515d267be40e9_n.jpg",
-                "width": 280,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "81810"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/81810_f15515d267be40e9_z.jpg",
                 "width": 559,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "81810"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/81810_f15515d267be40e9_n.jpg",
+                "width": 280,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "81810"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/81810_f15515d267be40e9_d.gif",
+                "width": 280,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "81810"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/81810_f15515d267be40e9_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "81810"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/35977_19deded777987308_b.jpg",
                 "width": 1024,
                 "height": 795,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/35977_19deded777987308_n.jpg",
-                "width": 320,
-                "height": 248,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "35977"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/35977_19deded777987308_z.jpg",
                 "width": 640,
                 "height": 497,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "35977"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/35977_19deded777987308_n.jpg",
+                "width": 320,
+                "height": 248,
+                "is_primary": "0",
+                "image_id": "35977"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/35977_19deded777987308_d.gif",
+                "width": 320,
+                "height": 248,
+                "is_primary": "0",
+                "image_id": "35977"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/35977_19deded777987308_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "35977"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18045817",
             "role_id": "35236745",
             "person_name": "Dorothy Wright Liebes",
+            "person_date": "American, 1897\u20131972",
             "role_name": "Weaver",
+            "role_display_name": "Woven by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18045817\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236745\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18045817",
             "role_id": "35236655",
             "person_name": "Dorothy Wright Liebes",
+            "person_date": "American, 1897\u20131972",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18045817\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -90,7 +137,9 @@
             "person_id": "18054731",
             "role_id": "35351535",
             "person_name": "Estate of Dorothy (Liebes) Morin",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18054731\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -100,5 +149,6 @@
     },
     "colors": [
 
-    ]
+    ],
+    "woe:country_name": "United States"
 }

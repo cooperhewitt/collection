@@ -3,6 +3,7 @@
     "tms:id": "99882",
     "accession_number": "1949-149-6-a,b",
     "title": "Cup And Saucer, ca. 1900",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18613129\/",
     "department_id": "35347497",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1905,
     "year_acquired": "1949",
     "decade": null,
-    "woe:country": "23424936",
+    "woe:country_id": "23424936",
     "medium": "Glazed and gilt porcelain",
     "markings": "Stamp in gold on base (a) and (b): winged and crowned crest over a \"T ca\" \/ \"M.C.KY3[Z]HEU[TS]QBA \/ [Cyrillic letters for D. F.]\"",
     "signed": null,
     "inscribed": null,
     "provenance": "1949: acquired by Museum",
     "dimensions": "H x diam. (a,b: overall): 7 x 12.8 cm (2 3\/4 x 5 1\/16 in.)",
+    "dimensions_raw": {
+        "diameter": [
+            "12.80",
+            "centimeters"
+        ],
+        "height": [
+            "7.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Anonymous Donor",
     "description": "An cylindical orange porcelain cup with white interior. The cup has border around the top and a detailed circular pattern in the middle with a flower in the center of the circular forms.",
     "justification": null,
-    "type": {
-        "id": "35248193",
-        "name": "cup and saucer"
-    },
+    "woe:country": "23424936",
+    "type": "cup and saucer",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/5169_42fdbd52ae84ba64_b.jpg",
                 "width": 1024,
                 "height": 662,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/5169_42fdbd52ae84ba64_n.jpg",
-                "width": 320,
-                "height": 207,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "5169"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/5169_42fdbd52ae84ba64_z.jpg",
                 "width": 640,
                 "height": 413,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "5169"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/5169_42fdbd52ae84ba64_n.jpg",
+                "width": 320,
+                "height": 207,
+                "is_primary": "1",
+                "image_id": "5169"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/5169_42fdbd52ae84ba64_d.gif",
+                "width": 320,
+                "height": 207,
+                "is_primary": "1",
+                "image_id": "5169"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/5169_42fdbd52ae84ba64_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "5169"
             }
         }
     ],
@@ -54,9 +80,21 @@
             "person_id": "18063289",
             "role_id": "35236657",
             "person_name": "M.C. Kuznetzova",
+            "person_date": "",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18063289\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
+        },
+        {
+            "person_id": "68739079",
+            "role_id": "35351535",
+            "person_name": "Anonymous",
+            "person_date": "",
+            "role_name": "Donor",
+            "role_display_name": "Donated by",
+            "person_url": "http:\/\/collection.cooperhewitt.org\/people\/68739079\/",
+            "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
     ],
     "tombstone": {
@@ -64,24 +102,35 @@
     },
     "colors": [
         {
-            "color": "#402925",
-            "closest_css3": "#2f4f4f"
+            "color": "#3a2621",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#ee853f",
-            "closest_css3": "#ff7f50"
+            "color": "#f79e53",
+            "closest_crayola": "#ffa343",
+            "closest_css3": "#f4a460",
+            "closest_css4": "#f4a460"
         },
         {
-            "color": "#fcca70",
-            "closest_css3": "#f0e68c"
+            "color": "#e37239",
+            "closest_crayola": "#ff7538",
+            "closest_css3": "#cd853f",
+            "closest_css4": "#cd853f"
         },
         {
-            "color": "#9a221b",
-            "closest_css3": "#a52a2a"
+            "color": "#96241d",
+            "closest_crayola": "#9c2542",
+            "closest_css3": "#a52a2a",
+            "closest_css4": "#a52a2a"
         },
         {
-            "color": "#d15e26",
-            "closest_css3": "#d2691e"
+            "color": "#be4324",
+            "closest_crayola": "#c46210",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         }
-    ]
+    ],
+    "woe:country_name": "Russia"
 }

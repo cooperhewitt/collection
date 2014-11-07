@@ -3,6 +3,7 @@
     "tms:id": "150015",
     "accession_number": "1972-75-69",
     "title": "Sample, ca. 1949",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18478411\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,72 @@
     "year_end": 1954,
     "year_acquired": "1972",
     "decade": "1940",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Medium: synthetic, cotton\nTechnique: plain weave",
     "markings": null,
     "signed": null,
     "inscribed": "#2985 c. 1949 Dorothy Liebes",
     "provenance": "Estate of Dorothy (Liebes) Morin; 1972: acquired by Museum",
     "dimensions": "Warp x Weft (sample): 17 x 18 cm (6 11\/16 x 7 1\/16 in.)\nH x W (card): 31.8 x 27.9 cm (12 1\/2 x 11 in.)",
+    "dimensions_raw": {
+        "height": [
+            "31.75",
+            "centimeters"
+        ],
+        "warp": [
+            "17.00",
+            "centimeters"
+        ],
+        "weft": [
+            "18.00",
+            "centimeters"
+        ],
+        "width": [
+            "27.94",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of the Estate of Dorothy (Liebes) Morin",
     "description": "Plain weave plaid with paired and unpaired warps in shades of blue, gold and metallic gray. Warp is sixteen two-ply blue cotton yarns and eight wrapped metallic yarns alternating across the warp. Weft is a repeating unit of fourteen textured two-ply cotton turquoise yarn, one gray metallic braid, six blue synthetic yarns and one gray metallic braid.",
     "justification": null,
-    "type": {
-        "id": "35268079",
-        "name": "Sample"
-    },
+    "woe:country": "23424977",
+    "type": "Sample",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/35984_28a71918c1ce9a37_b.jpg",
                 "width": 826,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/35984_28a71918c1ce9a37_n.jpg",
-                "width": 258,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "35984"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/35984_28a71918c1ce9a37_z.jpg",
                 "width": 516,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "35984"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/35984_28a71918c1ce9a37_n.jpg",
+                "width": 258,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "35984"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/35984_28a71918c1ce9a37_d.gif",
+                "width": 258,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "35984"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/35984_28a71918c1ce9a37_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "35984"
             }
         }
     ],
@@ -54,7 +88,9 @@
             "person_id": "18045817",
             "role_id": "35236745",
             "person_name": "Dorothy Wright Liebes",
+            "person_date": "American, 1897\u20131972",
             "role_name": "Weaver",
+            "role_display_name": "Woven by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18045817\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236745\/"
         },
@@ -62,7 +98,9 @@
             "person_id": "18045817",
             "role_id": "35236655",
             "person_name": "Dorothy Wright Liebes",
+            "person_date": "American, 1897\u20131972",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18045817\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -70,7 +108,9 @@
             "person_id": "18054731",
             "role_id": "35351535",
             "person_name": "Estate of Dorothy (Liebes) Morin",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18054731\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -80,24 +120,35 @@
     },
     "colors": [
         {
-            "color": "#252d41",
-            "closest_css3": "#2f4f4f"
+            "color": "#1e243e",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#3c4085",
-            "closest_css3": "#483d8b"
+            "color": "#303d6e",
+            "closest_crayola": "#1a4876",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#3d60b7",
-            "closest_css3": "#4682b4"
+            "color": "#36332f",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#36322b",
-            "closest_css3": "#2f4f4f"
+            "color": "#4567c3",
+            "closest_crayola": "#2b6cc4",
+            "closest_css3": "#4169e1",
+            "closest_css4": "#4169e1"
         },
         {
-            "color": "#bfbcc8",
-            "closest_css3": "#c0c0c0"
+            "color": "#babcc9",
+            "closest_crayola": "#b0b7c6",
+            "closest_css3": "#c0c0c0",
+            "closest_css4": "#c0c0c0"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

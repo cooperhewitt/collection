@@ -3,6 +3,7 @@
     "tms:id": "22350",
     "accession_number": "1917-4-1296-a",
     "title": "Drawing, \"Mount Chimborazo, Ecuador\", 1857",
+    "title_raw": "Mount Chimborazo, Ecuador",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18193469\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1857,
     "year_acquired": "1917",
     "decade": null,
-    "woe:country": "23424801",
+    "woe:country_id": "23424801",
     "medium": "Brush and oil paint, traces of graphite on thin paperboard",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "Gift of Louis P. Church; Frederic E. Church",
     "dimensions": "23 x 44.4cm (9 1\/16 x 17 1\/2in.)",
+    "dimensions_raw": {
+        "height": [
+            "23.00",
+            "centimeters"
+        ],
+        "width": [
+            "55.90",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Louis P. Church",
     "description": "Snow-covered peak rises in background behind a range. Cultivated mountain country is shown in foreground, a hacienda in bottom right, a man with red serape at bottom center.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424801",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/2211_68464ff9309ea27d_b.jpg",
                 "width": 1024,
                 "height": 551,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/2211_68464ff9309ea27d_n.jpg",
-                "width": 320,
-                "height": 172,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "2211"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/2211_68464ff9309ea27d_z.jpg",
                 "width": 640,
                 "height": 344,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "2211"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/2211_68464ff9309ea27d_n.jpg",
+                "width": 320,
+                "height": 172,
+                "is_primary": "1",
+                "image_id": "2211"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/2211_68464ff9309ea27d_d.gif",
+                "width": 320,
+                "height": 172,
+                "is_primary": "1",
+                "image_id": "2211"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/2211_68464ff9309ea27d_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "2211"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18054439",
             "role_id": "35352245",
             "person_name": "Richard P. Wunder",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18054439\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18051625",
             "role_id": "35351535",
             "person_name": "Louis P. Church",
+            "person_date": "American, 1870\u20131943",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18051625\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18047461",
             "role_id": "35352245",
             "person_name": "Marilyn Symmes",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047461\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -78,7 +110,9 @@
             "person_id": "18047439",
             "role_id": "35352245",
             "person_name": "Rudolph Berliner",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047439\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -86,7 +120,9 @@
             "person_id": "18041941",
             "role_id": "35236565",
             "person_name": "Frederic Edwin Church",
+            "person_date": "American, 1826\u20131900",
             "role_name": "Artist",
+            "role_display_name": "",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041941\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236565\/"
         }
@@ -96,24 +132,35 @@
     },
     "colors": [
         {
-            "color": "#c6924c",
-            "closest_css3": "#cd853f"
+            "color": "#7d5533",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         },
         {
-            "color": "#5d3a21",
-            "closest_css3": "#8b4513"
+            "color": "#d2a265",
+            "closest_crayola": "#cd9575",
+            "closest_css3": "#bdb76b",
+            "closest_css4": "#bdb76b"
         },
         {
-            "color": "#825420",
-            "closest_css3": "#8b4513"
+            "color": "#4d361e",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         },
         {
-            "color": "#a56b31",
-            "closest_css3": "#a0522d"
+            "color": "#917349",
+            "closest_crayola": "#85754e",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         },
         {
-            "color": "#2b201d",
-            "closest_css3": "#000000"
+            "color": "#2e241e",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         }
-    ]
+    ],
+    "woe:country_name": "Ecuador"
 }

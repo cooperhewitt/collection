@@ -3,6 +3,7 @@
     "tms:id": "151830",
     "accession_number": "1973-56-1-a\/d",
     "title": "Sidewall, \"The Obelisk - VII\", 1904",
+    "title_raw": "The Obelisk - VII",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18481947\/",
     "department_id": "35347503",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1904,
     "year_acquired": "1973",
     "decade": "1900",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Machine-printed on embossed paper",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "Unused length from Hewell House (built c. 1870). This paper was hung in 1904 in the library.",
     "dimensions": "123 x 56 cm (48 7\/16 x 22 1\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "123.00",
+            "centimeters"
+        ],
+        "width": [
+            "56.00",
+            "centimeters"
+        ]
+    },
     "creditline": null,
     "description": "Two shades of thin-bodied brown and green on metallic gold ground over paper embossed to simulate plain woven fabric. Art nouveau design.",
     "justification": null,
-    "type": {
-        "id": "35256475",
-        "name": "Sidewall"
-    },
+    "woe:country": "23424977",
+    "type": "Sidewall",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/40727_e8662df77aa7ab83_b.jpg",
                 "width": 471,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/40727_e8662df77aa7ab83_n.jpg",
-                "width": 147,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "40727"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/40727_e8662df77aa7ab83_z.jpg",
                 "width": 295,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "40727"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/40727_e8662df77aa7ab83_n.jpg",
+                "width": 147,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "40727"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/40727_e8662df77aa7ab83_d.gif",
+                "width": 147,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "40727"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/40727_e8662df77aa7ab83_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "40727"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/24464_d4b62fe97aacbdb8_b.jpg",
                 "width": 591,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/24464_d4b62fe97aacbdb8_n.jpg",
-                "width": 185,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "24464"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/24464_d4b62fe97aacbdb8_z.jpg",
                 "width": 370,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "24464"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/24464_d4b62fe97aacbdb8_n.jpg",
+                "width": 185,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "24464"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/24464_d4b62fe97aacbdb8_d.gif",
+                "width": 185,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "24464"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/24464_d4b62fe97aacbdb8_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "24464"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18043897",
             "role_id": "35236657",
             "person_name": "Robert Graves Co.",
+            "person_date": "",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18043897\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         }
@@ -84,24 +129,35 @@
     },
     "colors": [
         {
-            "color": "#c8a960",
-            "closest_css3": "#bdb76b"
+            "color": "#ae8941",
+            "closest_crayola": "#9c7c38",
+            "closest_css3": "#cd853f",
+            "closest_css4": "#cd853f"
         },
         {
-            "color": "#f4d079",
-            "closest_css3": "#f0e68c"
+            "color": "#f6d483",
+            "closest_crayola": "#fcd975",
+            "closest_css3": "#f0e68c",
+            "closest_css4": "#f0e68c"
         },
         {
-            "color": "#99823c",
-            "closest_css3": "#a0522d"
+            "color": "#755b2f",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         },
         {
-            "color": "#796335",
-            "closest_css3": "#556b2f"
+            "color": "#cdad57",
+            "closest_crayola": "#bab86c",
+            "closest_css3": "#bdb76b",
+            "closest_css4": "#bdb76b"
         },
         {
-            "color": "#584220",
-            "closest_css3": "#556b2f"
+            "color": "#88763e",
+            "closest_crayola": "#85754e",
+            "closest_css3": "#6b8e23",
+            "closest_css4": "#6b8e23"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

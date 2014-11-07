@@ -3,6 +3,7 @@
     "tms:id": "75310",
     "accession_number": "1941-69-240",
     "title": "Sampler, 1822",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18564215\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1822,
     "year_acquired": "1941",
     "decade": null,
-    "woe:country": "23424950",
+    "woe:country_id": "23424950",
     "medium": "Medium: silk embroidery, linen foundation\nTechnique: eyelet, needle lace, cross and running stitches on plain weave",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "ex. coll. Mrs. Henry E. Coe (Eva Johnston Coe)",
     "dimensions": "Warp x Weft: 19 x 27 cm (7 1\/2 x 10 5\/8 in.)",
+    "dimensions_raw": {
+        "warp": [
+            "19.00",
+            "centimeters"
+        ],
+        "weft": [
+            "27.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Bequest of Mrs. Henry E. Coe",
     "description": "Detached motifs including landscapes and floral forms with the letters W.S.Y and a band of eyelets.  Edged with needlepoint lace stitches.",
     "justification": null,
-    "type": {
-        "id": "35256439",
-        "name": "Sampler"
-    },
+    "woe:country": "23424950",
+    "type": "Sampler",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/29175_c568b5bd6fcc6950_b.jpg",
                 "width": 1024,
                 "height": 728,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/29175_c568b5bd6fcc6950_n.jpg",
-                "width": 320,
-                "height": 228,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "29175"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/29175_c568b5bd6fcc6950_z.jpg",
                 "width": 640,
                 "height": 455,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "29175"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/29175_c568b5bd6fcc6950_n.jpg",
+                "width": 320,
+                "height": 228,
+                "is_primary": "1",
+                "image_id": "29175"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/29175_c568b5bd6fcc6950_d.gif",
+                "width": 320,
+                "height": 228,
+                "is_primary": "1",
+                "image_id": "29175"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/29175_c568b5bd6fcc6950_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "29175"
             }
         }
     ],
@@ -54,9 +80,21 @@
             "person_id": "18052567",
             "role_id": "35351537",
             "person_name": "Mrs. Henry E. Coe",
+            "person_date": "",
             "role_name": "Bequestor",
+            "role_display_name": "Bequest of",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18052567\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351537\/"
+        },
+        {
+            "person_id": "68737367",
+            "role_id": "35236583",
+            "person_name": "Tomasa Ferro",
+            "person_date": "",
+            "role_name": "Embroiderer",
+            "role_display_name": "Embroidered by",
+            "person_url": "http:\/\/collection.cooperhewitt.org\/people\/68737367\/",
+            "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236583\/"
         }
     ],
     "tombstone": {
@@ -64,24 +102,35 @@
     },
     "colors": [
         {
-            "color": "#d4bfc3",
-            "closest_css3": "#c0c0c0"
+            "color": "#ddd1d4",
+            "closest_crayola": "#dbd7d2",
+            "closest_css3": "#d3d3d3",
+            "closest_css4": "#d3d3d3"
         },
         {
-            "color": "#c49d74",
-            "closest_css3": "#bdb76b"
+            "color": "#d3b4a9",
+            "closest_crayola": "#cdc5c2",
+            "closest_css3": "#d2b48c",
+            "closest_css4": "#d2b48c"
         },
         {
-            "color": "#a97a51",
-            "closest_css3": "#cd853f"
+            "color": "#b58f5e",
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#cd853f",
+            "closest_css4": "#cd853f"
         },
         {
-            "color": "#c89f9e",
-            "closest_css3": "#bc8f8f"
+            "color": "#b59084",
+            "closest_crayola": "#cd9575",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         },
         {
-            "color": "#8e6551",
-            "closest_css3": "#696969"
+            "color": "#9e6d63",
+            "closest_crayola": "#a57164",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         }
-    ]
+    ],
+    "woe:country_name": "Spain"
 }

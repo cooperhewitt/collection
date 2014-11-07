@@ -3,6 +3,7 @@
     "tms:id": "214362",
     "accession_number": "1969-165-61",
     "title": "Sample, \"One-Way\", 1953",
+    "title_raw": "One-Way",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18677793\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1953,
     "year_acquired": "1969",
     "decade": "1950",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Medium: silk\nTechnique: printed",
     "markings": "Paper label attached to the lower right corner.  HERMAN MILLER FABRICS",
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "Warp x Weft: 29.5 x 31 cm (11 5\/8 x 12 3\/16 in.)",
+    "dimensions_raw": {
+        "warp": [
+            "29.50",
+            "centimeters"
+        ],
+        "weft": [
+            "31.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Alexander H. Girard",
     "description": "Varying size triangles, all facing one direction and randomly placed to form a pattern. Triangles of green outlines, printed on white.",
     "justification": null,
-    "type": {
-        "id": "35268079",
-        "name": "Sample"
-    },
+    "woe:country": "23424977",
+    "type": "Sample",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/7637_0f5ca072a2ad86cc_b.jpg",
                 "width": 1024,
                 "height": 984,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/7637_0f5ca072a2ad86cc_n.jpg",
-                "width": 320,
-                "height": 308,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "7637"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/7637_0f5ca072a2ad86cc_z.jpg",
                 "width": 640,
                 "height": 615,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "7637"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/7637_0f5ca072a2ad86cc_n.jpg",
+                "width": 320,
+                "height": 308,
+                "is_primary": "1",
+                "image_id": "7637"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/7637_0f5ca072a2ad86cc_d.gif",
+                "width": 320,
+                "height": 308,
+                "is_primary": "1",
+                "image_id": "7637"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/7637_0f5ca072a2ad86cc_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "7637"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18046041",
             "role_id": "35351535",
             "person_name": "Alexander Hayden Girard",
+            "person_date": "American, 1907\u20131993",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18046041\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18046041",
             "role_id": "35236655",
             "person_name": "Alexander Hayden Girard",
+            "person_date": "American, 1907\u20131993",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18046041\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
@@ -72,24 +102,35 @@
     },
     "colors": [
         {
-            "color": "#6a6573",
-            "closest_css3": "#696969"
+            "color": "#7b717f",
+            "closest_crayola": "#757575",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#8c8695",
-            "closest_css3": "#778899"
+            "color": "#5f5762",
+            "closest_crayola": "#6e5160",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#43653e",
-            "closest_css3": "#556b2f"
+            "color": "#304b32",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#37483a",
-            "closest_css3": "#2f4f4f"
+            "color": "#4c6943",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         },
         {
-            "color": "#2c232c",
-            "closest_css3": "#2f4f4f"
+            "color": "#2b2829",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

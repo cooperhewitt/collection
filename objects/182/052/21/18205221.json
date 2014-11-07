@@ -3,6 +3,7 @@
     "tms:id": "24151",
     "accession_number": "1918-8-5",
     "title": "Sample, ca. 1918",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18205221\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1928,
     "year_acquired": "1918",
     "decade": "1900",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Medium: silk\nTechnique: printed on plain weave",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "Warp x Weft: 34.4 x 60 cm (13 9\/16 x 23 5\/8 in.)",
+    "dimensions_raw": {
+        "warp": [
+            "34.40",
+            "centimeters"
+        ],
+        "weft": [
+            "60.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of J. L. Duplan",
     "description": "Stylized flowers printed in purple and bright pink on a ground that shades from brown to light brown.",
     "justification": null,
-    "type": {
-        "id": "35268079",
-        "name": "Sample"
-    },
+    "woe:country": "23424977",
+    "type": "Sample",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/62051_7f6cfd7221cd6f00_b.jpg",
                 "width": 646,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/62051_7f6cfd7221cd6f00_n.jpg",
-                "width": 202,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "62051"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/62051_7f6cfd7221cd6f00_z.jpg",
                 "width": 404,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "62051"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/62051_7f6cfd7221cd6f00_n.jpg",
+                "width": 202,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "62051"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/62051_7f6cfd7221cd6f00_d.gif",
+                "width": 202,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "62051"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/62051_7f6cfd7221cd6f00_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "62051"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/1842_01dddeb1110f201c_b.jpg",
                 "width": 698,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/1842_01dddeb1110f201c_n.jpg",
-                "width": 218,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "1842"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/1842_01dddeb1110f201c_z.jpg",
                 "width": 436,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "1842"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/1842_01dddeb1110f201c_n.jpg",
+                "width": 218,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "1842"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/1842_01dddeb1110f201c_d.gif",
+                "width": 218,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "1842"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/1842_01dddeb1110f201c_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "1842"
             }
         }
     ],
@@ -74,9 +117,21 @@
             "person_id": "51677593",
             "role_id": "35236657",
             "person_name": "Duplan Silk Corporation",
+            "person_date": "",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/51677593\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
+        },
+        {
+            "person_id": "68736497",
+            "role_id": "35351535",
+            "person_name": "J. L. Duplan",
+            "person_date": "",
+            "role_name": "Donor",
+            "role_display_name": "Donated by",
+            "person_url": "http:\/\/collection.cooperhewitt.org\/people\/68736497\/",
+            "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
     ],
     "tombstone": {
@@ -84,24 +139,35 @@
     },
     "colors": [
         {
-            "color": "#c9b67e",
-            "closest_css3": "#d2b48c"
+            "color": "#dccdac",
+            "closest_crayola": "#efcdb8",
+            "closest_css3": "#f5deb3",
+            "closest_css4": "#f5deb3"
         },
         {
-            "color": "#e2d3b8",
-            "closest_css3": "#f5deb3"
+            "color": "#ae924c",
+            "closest_crayola": "#9c7c38",
+            "closest_css3": "#cd853f",
+            "closest_css4": "#cd853f"
         },
         {
-            "color": "#937935",
-            "closest_css3": "#a0522d"
+            "color": "#806636",
+            "closest_crayola": "#85754e",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         },
         {
-            "color": "#53458c",
-            "closest_css3": "#483d8b"
+            "color": "#5c4e97",
+            "closest_crayola": "#58427c",
+            "closest_css3": "#483d8b",
+            "closest_css4": "#483d8b"
         },
         {
-            "color": "#ba336d",
-            "closest_css3": "#c71585"
+            "color": "#b9326d",
+            "closest_crayola": "#ca3767",
+            "closest_css3": "#c71585",
+            "closest_css4": "#c71585"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

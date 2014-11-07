@@ -3,6 +3,7 @@
     "tms:id": "199530",
     "accession_number": "1994-67-4",
     "title": "Brooch, ca. 1925",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18649241\/",
     "department_id": "35347497",
     "period_id": null,
@@ -13,39 +14,68 @@
     "year_end": 1935,
     "year_acquired": "1994",
     "decade": "1910",
-    "woe:country": "23424909",
+    "woe:country_id": "23424909",
     "medium": "Silver, coral",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "1994: acquired by Museum (from Galerie Frans Leidelmeijer)",
     "dimensions": "7.8 x 2.3 x 0.8 cm (3 1\/16 x 7\/8 x 5\/16 in.)",
-    "creditline": "Museum purchase from Decorative Arts Association Acquisitions Fund",
+    "dimensions_raw": {
+        "depth": [
+            "0.80",
+            "centimeters"
+        ],
+        "height": [
+            "7.80",
+            "centimeters"
+        ],
+        "width": [
+            "2.30",
+            "centimeters"
+        ]
+    },
+    "creditline": "Museum purchase from Decorative Arts Association Acquisition Fund",
     "description": "Rectangular, horizontal form with out-curved edges; surface chased with dots and abstract decoration reminiscent of curling plant stems with two coral beads depending in holes pierced in form; clasp on back side.",
     "justification": null,
-    "type": {
-        "id": "35251201",
-        "name": "brooch"
-    },
+    "woe:country": "23424909",
+    "type": "brooch",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/12071_fa219f5789472117_b.jpg",
                 "width": 1024,
                 "height": 408,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/12071_fa219f5789472117_n.jpg",
-                "width": 320,
-                "height": 127,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "12071"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/12071_fa219f5789472117_z.jpg",
                 "width": 640,
                 "height": 255,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "12071"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/12071_fa219f5789472117_n.jpg",
+                "width": 320,
+                "height": 127,
+                "is_primary": "1",
+                "image_id": "12071"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/12071_fa219f5789472117_d.gif",
+                "width": 320,
+                "height": 127,
+                "is_primary": "1",
+                "image_id": "12071"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/12071_fa219f5789472117_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "12071"
             }
         }
     ],
@@ -54,7 +84,9 @@
             "person_id": "18041309",
             "role_id": "35352249",
             "person_name": "GALERIE FRANS LEIDELMEIJER",
+            "person_date": "",
             "role_name": "Vendor",
+            "role_display_name": "Purchased from",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041309\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352249\/"
         },
@@ -62,7 +94,9 @@
             "person_id": "18045003",
             "role_id": "35236655",
             "person_name": "Fons Reggers",
+            "person_date": "1886 \u2013 1962",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18045003\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -70,30 +104,45 @@
             "person_id": "18048765",
             "role_id": "35352245",
             "person_name": "Cynthia Trope",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18048765\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
+        },
+        {
+            "person_id": "18049365",
+            "role_id": "35352247",
+            "person_name": "Decorative Arts Association Acquisition Fund",
+            "person_date": "founded 1982, closed September 30, 1998",
+            "role_name": "Fund",
+            "role_display_name": "Fund:",
+            "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049365\/",
+            "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352247\/"
         }
     ],
     "tombstone": {
-        "epitaph": "Brooch, ca. 1925. Silver, coral. Museum purchase from Decorative Arts Association Acquisitions Fund. 1994-67-4."
+        "epitaph": "Brooch, ca. 1925. Silver, coral. Museum purchase from Decorative Arts Association Acquisition Fund. 1994-67-4."
     },
     "colors": [
         {
-            "color": "#b6b0ab",
-            "closest_css3": "#a9a9a9"
+            "color": "#c9bfbb",
+            "closest_crayola": "#cdc5c2",
+            "closest_css3": "#c0c0c0",
+            "closest_css4": "#c0c0c0"
         },
         {
-            "color": "#62605a",
-            "closest_css3": "#696969"
+            "color": "#cb7460",
+            "closest_crayola": "#cc6666",
+            "closest_css3": "#cd5c5c",
+            "closest_css4": "#cd5c5c"
         },
         {
-            "color": "#c8735e",
-            "closest_css3": "#cd5c5c"
-        },
-        {
-            "color": "#8e786e",
-            "closest_css3": "#808080"
+            "color": "#98776b",
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         }
-    ]
+    ],
+    "woe:country_name": "Netherlands"
 }

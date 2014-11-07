@@ -3,6 +3,7 @@
     "tms:id": "196444",
     "accession_number": "1993-115-3",
     "title": "Drawing, \"Proposal for Pershing Squ\", 1986",
+    "title_raw": "Proposal for Pershing Squ",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18643159\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1986,
     "year_acquired": "1993",
     "decade": "1980",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Pen and brown ink, brush and brown wash on beige paper",
     "markings": null,
     "signed": "Signed and dated in pen and brown ink, lower right: SITE J.W. 1986",
     "inscribed": "Inscribed in pen and brown ink, top: Selections of Los Angeles Theme Modules for the Plaza; (from left to right) Desert Plants; Glass Enclosed Terrarium; Archeological Excavation with Partially Buried Equestrian of Pershing; Bench; Classical Fountain; Beachfront Fragments; Adobe Fragments;Tropical Plants; Grape Arbor; Japanese Garden; Partially Buried ConvertiblePlanter; Auto-Archeology; Spanish Archeology; Flower Garden; Palm Grove; lower left: Pershing Square paving modules",
     "provenance": "SITE; 1993: acquired by Museum",
     "dimensions": "22.9 x 58.9 cm (9 x 23 3\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "22.90",
+            "centimeters"
+        ],
+        "width": [
+            "58.90",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase through gift of Lucy Work Hewitt",
     "description": "Ten mini-environments forming patchwork collage of Los Angeles area's topography, ethnic diversity, and plant life.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424977",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/28282_8fc48cd719d650f6_b.jpg",
                 "width": 1024,
                 "height": 366,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/28282_8fc48cd719d650f6_n.jpg",
-                "width": 320,
-                "height": 114,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "28282"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/28282_8fc48cd719d650f6_z.jpg",
                 "width": 640,
                 "height": 228,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "28282"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/28282_8fc48cd719d650f6_n.jpg",
+                "width": 320,
+                "height": 114,
+                "is_primary": "1",
+                "image_id": "28282"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/28282_8fc48cd719d650f6_d.gif",
+                "width": 320,
+                "height": 114,
+                "is_primary": "1",
+                "image_id": "28282"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/28282_8fc48cd719d650f6_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "28282"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18047461",
             "role_id": "35352245",
             "person_name": "Marilyn Symmes",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047461\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18048681",
             "role_id": "35352245",
             "person_name": "ALH",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18048681\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18041455",
             "role_id": "35236703",
             "person_name": "SITE",
+            "person_date": "",
             "role_name": "Office of",
+            "role_display_name": "Office of",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041455\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236703\/"
         },
@@ -78,7 +110,9 @@
             "person_id": "18043301",
             "role_id": "35236663",
             "person_name": "James Wines",
+            "person_date": "American, b. 1932; active New York",
             "role_name": "Architect",
+            "role_display_name": "Architect:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18043301\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236663\/"
         },
@@ -86,7 +120,9 @@
             "person_id": "18043301",
             "role_id": "35236565",
             "person_name": "James Wines",
+            "person_date": "American, b. 1932; active New York",
             "role_name": "Artist",
+            "role_display_name": "",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18043301\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236565\/"
         }
@@ -96,12 +132,17 @@
     },
     "colors": [
         {
-            "color": "#a99075",
-            "closest_css3": "#bc8f8f"
+            "color": "#ad957a",
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         },
         {
-            "color": "#cab79c",
-            "closest_css3": "#d2b48c"
+            "color": "#cbb89e",
+            "closest_crayola": "#e7c697",
+            "closest_css3": "#d2b48c",
+            "closest_css4": "#d2b48c"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

@@ -3,6 +3,7 @@
     "tms:id": "193152",
     "accession_number": "1991-57-1",
     "title": "Textile, \"Chrome City\", 1970",
+    "title_raw": "Chrome City",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18636603\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1970,
     "year_acquired": "1991",
     "decade": "1970",
-    "woe:country": "23424975",
+    "woe:country_id": "23424975",
     "medium": "Medium: cotton\nTechnique: screen printed on plain weave",
     "markings": null,
     "signed": null,
     "inscribed": "CHROME CITY DESIGNED FOR WARNER'S BY SUE PALMER (printed in selvedge)",
     "provenance": "Sue Palmer; 1991: acquired by Museum",
     "dimensions": "H x W: 368.3 x 126.7 cm (12 ft. 1 in. x 49 7\/8 in.)\nRepeat H: 88.9 cm (35 in.)",
+    "dimensions_raw": {
+        "height": [
+            "368.30",
+            "centimeters"
+        ],
+        "width": [
+            "126.68",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Sue Palmer",
     "description": "Length of printed cotton with Art Deco-inspired forms in shades of gray on a black ground.",
     "justification": null,
-    "type": {
-        "id": "35251739",
-        "name": "textile"
-    },
+    "woe:country": "23424975",
+    "type": "textile",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/15485_6559fd9a0cec70f8_b.jpg",
                 "width": 707,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/15485_6559fd9a0cec70f8_n.jpg",
-                "width": 221,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "15485"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/15485_6559fd9a0cec70f8_z.jpg",
                 "width": 442,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "15485"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/15485_6559fd9a0cec70f8_n.jpg",
+                "width": 221,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "15485"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/15485_6559fd9a0cec70f8_d.gif",
+                "width": 221,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "15485"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/15485_6559fd9a0cec70f8_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "15485"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18040947",
             "role_id": "35351535",
             "person_name": "Sue Palmer",
+            "person_date": "British, b. 1947",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18040947\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18047459",
             "role_id": "35352245",
             "person_name": "Gillian Moss",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047459\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18040977",
             "role_id": "35236681",
             "person_name": "Warner Fabrics",
+            "person_date": "",
             "role_name": "Company",
+            "role_display_name": "Company:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18040977\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236681\/"
         },
@@ -78,7 +110,9 @@
             "person_id": "18045929",
             "role_id": "35236673",
             "person_name": "Stead McAlpin & Co.",
+            "person_date": "",
             "role_name": "Printer",
+            "role_display_name": "Printed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18045929\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236673\/"
         },
@@ -86,7 +120,9 @@
             "person_id": "18040947",
             "role_id": "35236655",
             "person_name": "Sue Palmer",
+            "person_date": "British, b. 1947",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18040947\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
@@ -96,12 +132,17 @@
     },
     "colors": [
         {
-            "color": "#26272b",
-            "closest_css3": "#2f4f4f"
+            "color": "#27282b",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#4f5058",
-            "closest_css3": "#2f4f4f"
+            "color": "#4f4f56",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         }
-    ]
+    ],
+    "woe:country_name": "United Kingdom"
 }

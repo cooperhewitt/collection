@@ -3,49 +3,79 @@
     "tms:id": "191707",
     "accession_number": "1990-112-2",
     "title": "Side Chair, \"DCM\", 1946",
+    "title_raw": "DCM",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18633723\/",
     "department_id": "35347497",
     "period_id": null,
-    "media_id": "68249357",
+    "media_id": "68729925",
     "type_id": "35237951",
     "date": "1946",
     "year_start": 1946,
     "year_end": 1946,
     "year_acquired": "1990",
     "decade": "1940",
-    "woe:country": "23424977",
-    "medium": "Molded laminated plywood, bent tubular steel, metal, rubber",
+    "woe:country_id": "23424977",
+    "medium": "Molded laminated plywood, bent tubular steel, metal, molded rubber",
     "markings": "Decal label under seat: \"Manufactured by Evans Products Company, Molded Plywood Division, Herman Miller Furniture Company Sole Distributor, Designed by Charles Eames.\"",
     "signed": null,
     "inscribed": null,
     "provenance": "February 1948: Olive Emslie (from Herman Miller Co.); 1990: acquired by Museum",
     "dimensions": "H x W x D: 74.5 x 49 x 51cm (29 5\/16 x 19 5\/16 x 20 1\/16in.)",
+    "dimensions_raw": {
+        "depth": [
+            "51.00",
+            "centimeters"
+        ],
+        "height": [
+            "74.50",
+            "centimeters"
+        ],
+        "width": [
+            "49.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Olive Emslie",
     "description": "Molded laminated plywood seat and back panels connected by bent tubular steel frame. Rubber gaskets connecting steel to wood. Metal pad feet.",
     "justification": null,
-    "type": {
-        "id": "35237951",
-        "name": "side chair"
-    },
+    "woe:country": "23424977",
+    "type": "side chair",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/44076_704c7591d24935b0_b.jpg",
                 "width": 1024,
                 "height": 754,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/44076_704c7591d24935b0_n.jpg",
-                "width": 320,
-                "height": 236,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "44076"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/44076_704c7591d24935b0_z.jpg",
                 "width": 640,
                 "height": 472,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "44076"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/44076_704c7591d24935b0_n.jpg",
+                "width": 320,
+                "height": 236,
+                "is_primary": "1",
+                "image_id": "44076"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/44076_704c7591d24935b0_d.gif",
+                "width": 320,
+                "height": 236,
+                "is_primary": "1",
+                "image_id": "44076"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/44076_704c7591d24935b0_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "44076"
             }
         },
         {
@@ -53,19 +83,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/11741_c5bcb1a0e61095ce_b.jpg",
                 "width": 726,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/11741_c5bcb1a0e61095ce_n.jpg",
-                "width": 227,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "11741"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/11741_c5bcb1a0e61095ce_z.jpg",
                 "width": 454,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "11741"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/11741_c5bcb1a0e61095ce_n.jpg",
+                "width": 227,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "11741"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/11741_c5bcb1a0e61095ce_d.gif",
+                "width": 227,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "11741"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/11741_c5bcb1a0e61095ce_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "11741"
             }
         }
     ],
@@ -74,7 +121,9 @@
             "person_id": "18050087",
             "role_id": "35236655",
             "person_name": "Ray Eames",
+            "person_date": "American, 1912\u20131988",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18050087\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -82,7 +131,9 @@
             "person_id": "18049013",
             "role_id": "35236675",
             "person_name": "Herman Miller Furniture Company",
+            "person_date": "Zeeland, Michigan, USA, 1923\u20131960",
             "role_name": "For",
+            "role_display_name": "Made for",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049013\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236675\/"
         },
@@ -90,7 +141,9 @@
             "person_id": "18044271",
             "role_id": "35236657",
             "person_name": "Evans Products Company",
+            "person_date": "",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18044271\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         },
@@ -98,30 +151,57 @@
             "person_id": "18044269",
             "role_id": "35236655",
             "person_name": "Charles Eames",
+            "person_date": "(American, 1907\u20131978)",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18044269\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
+        },
+        {
+            "person_id": "68736599",
+            "role_id": "35351535",
+            "person_name": "Olive Emslie",
+            "person_date": "",
+            "role_name": "Donor",
+            "role_display_name": "Donated by",
+            "person_url": "http:\/\/collection.cooperhewitt.org\/people\/68736599\/",
+            "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
     ],
     "tombstone": {
-        "epitaph": "Side Chair, \"DCM\", 1946. Molded laminated plywood, bent tubular steel, metal, rubber. Gift of Olive Emslie. 1990-112-2."
+        "epitaph": "Side Chair, \"DCM\", 1946. Molded laminated plywood, bent tubular steel, metal, molded rubber. Gift of Olive Emslie. 1990-112-2."
     },
     "colors": [
         {
-            "color": "#6b3712",
-            "closest_css3": "#8b4513"
+            "color": "#733c13",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#8b4513",
+            "closest_css4": "#8b4513"
         },
         {
-            "color": "#8f521b",
-            "closest_css3": "#8b4513"
+            "color": "#886649",
+            "closest_crayola": "#85754e",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         },
         {
-            "color": "#99816e",
-            "closest_css3": "#808080"
+            "color": "#482815",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#800000",
+            "closest_css4": "#800000"
         },
         {
-            "color": "#614934",
-            "closest_css3": "#556b2f"
+            "color": "#624934",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
+        },
+        {
+            "color": "#a7805f",
+            "closest_crayola": "#a57164",
+            "closest_css3": "#cd853f",
+            "closest_css4": "#cd853f"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

@@ -3,6 +3,7 @@
     "tms:id": "242145",
     "accession_number": "2009-18-110-a,b",
     "title": "Wine Decanter With Stopper, \"Ambassador\", 1925",
+    "title_raw": "Ambassador",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18732063\/",
     "department_id": "35347497",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1925,
     "year_acquired": "2009",
     "decade": "1920",
-    "woe:country": "23424750",
+    "woe:country_id": "23424750",
     "medium": "Mouth-blown crystal (\"Muslin glass\")",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "2009: acquired by Museum",
     "dimensions": "H x diam.: 38.5 x 12.5 cm (15 3\/16 x 4 15\/16 in.)",
+    "dimensions_raw": {
+        "diameter": [
+            "12.50",
+            "centimeters"
+        ],
+        "height": [
+            "38.50",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase through gift of Dale and Doug Anderson, Anonymous Donor, Arthur Liu, and Prairie Pictures, Inc. and from General Acquisitions Endowment Fund",
     "description": "Thinnest mouth-blown crystal (\"Muslin glass\"). Ambassador decanter with liqueur-glass stopper.",
     "justification": null,
-    "type": {
-        "id": "35305989",
-        "name": "Wine decanter with stopper"
-    },
+    "woe:country": "23424750",
+    "type": "Wine decanter with stopper",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/32089_e100100e8db3e255_b.jpg",
                 "width": 554,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/32089_e100100e8db3e255_n.jpg",
-                "width": 173,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "32089"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/32089_e100100e8db3e255_z.jpg",
                 "width": 346,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "32089"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/32089_e100100e8db3e255_n.jpg",
+                "width": 173,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "32089"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/32089_e100100e8db3e255_d.gif",
+                "width": 173,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "32089"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/32089_e100100e8db3e255_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "32089"
             }
         }
     ],
@@ -54,15 +80,19 @@
             "person_id": "18063191",
             "role_id": "35236657",
             "person_name": "Karlsbader Kristallglasfabriken A.G.",
+            "person_date": "",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18063191\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         },
         {
             "person_id": "18061841",
             "role_id": "35236657",
-            "person_name": "J. & L. Lobmeyr GmbH, Vienna, Austria",
+            "person_name": "J. & L. Lobmeyr GmbH",
+            "person_date": "Vienna, Austria, founded ca. 1935",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18061841\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         },
@@ -70,15 +100,19 @@
             "person_id": "18042537",
             "role_id": "35236655",
             "person_name": "Oswald Haerdtl",
+            "person_date": "Austrian, 1899\u20131959",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18042537\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
         {
             "person_id": "18061841",
             "role_id": "51571131",
-            "person_name": "J. & L. Lobmeyr GmbH, Vienna, Austria",
+            "person_name": "J. & L. Lobmeyr GmbH",
+            "person_date": "Vienna, Austria, founded ca. 1935",
             "role_name": "Lender",
+            "role_display_name": "Lent by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18061841\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/51571131\/"
         }
@@ -88,8 +122,11 @@
     },
     "colors": [
         {
-            "color": "#d0d0cf",
-            "closest_css3": "#d3d3d3"
+            "color": "#a7a7a7",
+            "closest_crayola": "#979aaa",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
         }
-    ]
+    ],
+    "woe:country_name": "Austria"
 }

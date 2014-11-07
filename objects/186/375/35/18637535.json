@@ -3,6 +3,7 @@
     "tms:id": "193620",
     "accession_number": "1991-8-1-a,b",
     "title": "Cup And Saucer, \"American Modern\", 1939\u201359",
+    "title_raw": "American Modern",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18637535\/",
     "department_id": "35347497",
     "period_id": null,
@@ -13,39 +14,68 @@
     "year_end": 1959,
     "year_acquired": "1991",
     "decade": "1930",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Glazed ceramic",
     "markings": "On base of (a): none; (b) impressed: \"Russel \/ Wright [in cursive] \/ MFG. BY STEUBENVILLE\"",
     "signed": null,
     "inscribed": null,
     "provenance": "1991: acquired by Museum",
     "dimensions": "(a,b: overall): 3.5 x 11.3 x 11 cm (1 3\/8 x 4 7\/16 x 4 5\/16 in.)",
+    "dimensions_raw": {
+        "depth": [
+            "11.00",
+            "centimeters"
+        ],
+        "height": [
+            "3.50",
+            "centimeters"
+        ],
+        "width": [
+            "11.30",
+            "centimeters"
+        ]
+    },
     "creditline": null,
     "description": "Bulbous demitasse and saucer. Cup with c-shaped handle, saucer with slightly curved edge and impression for cup.",
     "justification": null,
-    "type": {
-        "id": "35248193",
-        "name": "cup and saucer"
-    },
+    "woe:country": "23424977",
+    "type": "cup and saucer",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/44620_7e6de5150fa69ea0_b.jpg",
                 "width": 1024,
                 "height": 807,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/44620_7e6de5150fa69ea0_n.jpg",
-                "width": 320,
-                "height": 252,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "44620"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/44620_7e6de5150fa69ea0_z.jpg",
                 "width": 640,
                 "height": 505,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "44620"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/44620_7e6de5150fa69ea0_n.jpg",
+                "width": 320,
+                "height": 252,
+                "is_primary": "1",
+                "image_id": "44620"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/44620_7e6de5150fa69ea0_d.gif",
+                "width": 320,
+                "height": 252,
+                "is_primary": "1",
+                "image_id": "44620"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/44620_7e6de5150fa69ea0_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "44620"
             }
         },
         {
@@ -53,19 +83,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/11201_41aca629e3db594e_b.jpg",
                 "width": 1024,
                 "height": 676,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/11201_41aca629e3db594e_n.jpg",
-                "width": 320,
-                "height": 211,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "11201"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/11201_41aca629e3db594e_z.jpg",
                 "width": 640,
                 "height": 423,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "11201"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/11201_41aca629e3db594e_n.jpg",
+                "width": 320,
+                "height": 211,
+                "is_primary": "0",
+                "image_id": "11201"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/11201_41aca629e3db594e_d.gif",
+                "width": 320,
+                "height": 211,
+                "is_primary": "0",
+                "image_id": "11201"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/11201_41aca629e3db594e_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "11201"
             }
         }
     ],
@@ -74,7 +121,9 @@
             "person_id": "18043357",
             "role_id": "35236655",
             "person_name": "Russel Wright",
+            "person_date": "American, 1904\u20131976",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18043357\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
@@ -84,24 +133,29 @@
     },
     "colors": [
         {
-            "color": "#4b6b69",
-            "closest_css3": "#696969"
+            "color": "#667276",
+            "closest_crayola": "#757575",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
+        },
+        {
+            "color": "#334a46",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
             "color": "#7f9a97",
-            "closest_css3": "#778899"
-        },
-        {
-            "color": "#334a47",
-            "closest_css3": "#2f4f4f"
+            "closest_crayola": "#95918c",
+            "closest_css3": "#778899",
+            "closest_css4": "#778899"
         },
         {
             "color": "#92979c",
-            "closest_css3": "#778899"
-        },
-        {
-            "color": "#565d61",
-            "closest_css3": "#696969"
+            "closest_crayola": "#979aaa",
+            "closest_css3": "#778899",
+            "closest_css4": "#778899"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

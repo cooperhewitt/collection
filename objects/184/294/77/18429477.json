@@ -3,6 +3,7 @@
     "tms:id": "125127",
     "accession_number": "1959-99-1",
     "title": "Textile, \"Barley Corn\", 1959",
+    "title_raw": "Barley Corn",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18429477\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1959,
     "year_acquired": "1959",
     "decade": "1950",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Medium: warp: cotton; weft: cotton, acetate tape, mohair, viscose\nTechnique: plain woven",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "Warp x Weft: 65.4 x 127 cm (25 3\/4 x 50 in.)",
+    "dimensions_raw": {
+        "warp": [
+            "65.41",
+            "centimeters"
+        ],
+        "weft": [
+            "127.00",
+            "centimeters"
+        ]
+    },
     "creditline": null,
     "description": "White loosely woven fabric with textured effect given by the difference in tension between groups of picks of different materials.",
     "justification": null,
-    "type": {
-        "id": "35251739",
-        "name": "textile"
-    },
+    "woe:country": "23424977",
+    "type": "textile",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/43777_fd4adb23479603c2_b.jpg",
                 "width": 1024,
                 "height": 547,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/43777_fd4adb23479603c2_n.jpg",
-                "width": 320,
-                "height": 171,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "43777"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/43777_fd4adb23479603c2_z.jpg",
                 "width": 640,
                 "height": 342,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "43777"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/43777_fd4adb23479603c2_n.jpg",
+                "width": 320,
+                "height": 171,
+                "is_primary": "1",
+                "image_id": "43777"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/43777_fd4adb23479603c2_d.gif",
+                "width": 320,
+                "height": 171,
+                "is_primary": "1",
+                "image_id": "43777"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/43777_fd4adb23479603c2_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "43777"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18045519",
             "role_id": "35236671",
             "person_name": "Jack Lenor Larsen Inc. (New York, NY)",
+            "person_date": "",
             "role_name": "Producer",
+            "role_display_name": "Produced by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18045519\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236671\/"
         }
@@ -65,7 +93,10 @@
     "colors": [
         {
             "color": "#ffffff",
-            "closest_css3": "#ffffff"
+            "closest_crayola": "#ffffff",
+            "closest_css3": "#ffffff",
+            "closest_css4": "#ffffff"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

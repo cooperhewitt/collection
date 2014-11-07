@@ -3,6 +3,7 @@
     "tms:id": "193665",
     "accession_number": "1991-89-116",
     "title": "Sidewall, 1930\u201340",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18637625\/",
     "department_id": "35347503",
     "period_id": null,
@@ -13,39 +14,60 @@
     "year_end": 1940,
     "year_acquired": "1991",
     "decade": "1930",
-    "woe:country": "23424775",
+    "woe:country_id": "23424977",
     "medium": "Machine-printed",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "49 cm (19 5\/16 in.)",
+    "dimensions_raw": {
+        "width": [
+            "49.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Suzanne Lipschutz",
     "description": "Cubist design. Red, blue, and yellow Mondrian type squares on a background of light green and marbleized green squares with metallic silver on a cream ground.",
     "justification": null,
-    "type": {
-        "id": "35256475",
-        "name": "Sidewall"
-    },
+    "woe:country": "23424977",
+    "type": "Sidewall",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/41722_4ad87e8510304705_b.jpg",
                 "width": 717,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/41722_4ad87e8510304705_n.jpg",
-                "width": 224,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "41722"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/41722_4ad87e8510304705_z.jpg",
                 "width": 448,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "41722"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/41722_4ad87e8510304705_n.jpg",
+                "width": 224,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "41722"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/41722_4ad87e8510304705_d.gif",
+                "width": 224,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "41722"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/41722_4ad87e8510304705_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "41722"
             }
         },
         {
@@ -53,19 +75,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/11688_84e83be66e22136c_b.jpg",
                 "width": 670,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/11688_84e83be66e22136c_n.jpg",
-                "width": 209,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "11688"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/11688_84e83be66e22136c_z.jpg",
                 "width": 419,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "11688"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/11688_84e83be66e22136c_n.jpg",
+                "width": 209,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "11688"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/11688_84e83be66e22136c_d.gif",
+                "width": 209,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "11688"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/11688_84e83be66e22136c_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "11688"
             }
         }
     ],
@@ -74,7 +113,9 @@
             "person_id": "18538223",
             "role_id": "35352245",
             "person_name": "Molly Holst",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18538223\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -82,7 +123,9 @@
             "person_id": "18537341",
             "role_id": "35351535",
             "person_name": "Suzanne Lipschutz",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18537341\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -90,7 +133,9 @@
             "person_id": "18048481",
             "role_id": "35352245",
             "person_name": "Rose Gottschalk",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18048481\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         }
@@ -100,24 +145,35 @@
     },
     "colors": [
         {
-            "color": "#d0c9bd",
-            "closest_css3": "#c0c0c0"
+            "color": "#98b683",
+            "closest_crayola": "#87a96b",
+            "closest_css3": "#8fbc8f",
+            "closest_css4": "#8fbc8f"
         },
         {
-            "color": "#97b583",
-            "closest_css3": "#8fbc8f"
+            "color": "#cc5f51",
+            "closest_crayola": "#bc5d58",
+            "closest_css3": "#cd5c5c",
+            "closest_css4": "#cd5c5c"
         },
         {
-            "color": "#cc5e50",
-            "closest_css3": "#cd5c5c"
+            "color": "#6392a5",
+            "closest_crayola": "#6699cc",
+            "closest_css3": "#5f9ea0",
+            "closest_css4": "#5f9ea0"
         },
         {
-            "color": "#6291a5",
-            "closest_css3": "#5f9ea0"
+            "color": "#725f57",
+            "closest_crayola": "#6e5160",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#6f5c54",
-            "closest_css3": "#696969"
+            "color": "#949288",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

@@ -3,6 +3,7 @@
     "tms:id": "183150",
     "accession_number": "1985-84-24",
     "title": "Panel, \"Willowbrook\", 1978",
+    "title_raw": "Willowbrook",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18805713\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1978,
     "year_acquired": "1985",
     "decade": "1970",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Technique: plain weave foundation",
     "markings": null,
     "signed": null,
     "inscribed": "\"Willowbrook panel print by Elenhank Designers, Inc. \" on side.",
     "provenance": null,
     "dimensions": "Warp x Weft: 270.5 x 128.5 cm (8 ft. 10 1\/2 in. x 50 9\/16 in.)",
+    "dimensions_raw": {
+        "warp": [
+            "270.50",
+            "centimeters"
+        ],
+        "weft": [
+            "128.50",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Henry C. and Eleanor Kluck",
     "description": "Landscape with vines, water, skyline and reflection in green, blue, pink, mauve and brown.",
     "justification": null,
-    "type": {
-        "id": "35237229",
-        "name": "Panel"
-    },
+    "woe:country": "23424977",
+    "type": "Panel",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/51135_3eb54c52a969ac26_b.jpg",
                 "width": 519,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/51135_3eb54c52a969ac26_n.jpg",
-                "width": 162,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "51135"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/51135_3eb54c52a969ac26_z.jpg",
                 "width": 324,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "51135"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/51135_3eb54c52a969ac26_n.jpg",
+                "width": 162,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "51135"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/51135_3eb54c52a969ac26_d.gif",
+                "width": 162,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "51135"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/51135_3eb54c52a969ac26_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "51135"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18056499",
             "role_id": "35351535",
             "person_name": "Henry C. Kluck",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18056499\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18056501",
             "role_id": "35351535",
             "person_name": "Eleanor Kluck",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18056501\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18045697",
             "role_id": "35236685",
             "person_name": "Elenhank",
+            "person_date": "1948 \u2013 1980",
             "role_name": "Maker",
+            "role_display_name": "Made by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18045697\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236685\/"
         },
@@ -78,7 +110,9 @@
             "person_id": "18045697",
             "role_id": "35236655",
             "person_name": "Elenhank",
+            "person_date": "1948 \u2013 1980",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18045697\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
@@ -88,24 +122,35 @@
     },
     "colors": [
         {
-            "color": "#9d9e52",
-            "closest_css3": "#bdb76b"
+            "color": "#939445",
+            "closest_crayola": "#9c7c38",
+            "closest_css3": "#6b8e23",
+            "closest_css4": "#6b8e23"
         },
         {
-            "color": "#9d6f42",
-            "closest_css3": "#a0522d"
+            "color": "#9d6e41",
+            "closest_crayola": "#9c7c38",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         },
         {
-            "color": "#e0d2b6",
-            "closest_css3": "#f5deb3"
+            "color": "#e6bd97",
+            "closest_crayola": "#e7c697",
+            "closest_css3": "#deb887",
+            "closest_css4": "#deb887"
         },
         {
-            "color": "#caaa8d",
-            "closest_css3": "#d2b48c"
+            "color": "#e7dec9",
+            "closest_crayola": "#efdecd",
+            "closest_css3": "#dcdcdc",
+            "closest_css4": "#dcdcdc"
         },
         {
-            "color": "#bfbc84",
-            "closest_css3": "#d2b48c"
+            "color": "#ccc89a",
+            "closest_crayola": "#e7c697",
+            "closest_css3": "#d2b48c",
+            "closest_css4": "#d2b48c"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

@@ -3,6 +3,7 @@
     "tms:id": "56357",
     "accession_number": "1937-57-5-a,b",
     "title": "Frieze, ca. 1890",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18344987\/",
     "department_id": "35347503",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1900,
     "year_acquired": "1937",
     "decade": null,
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Hand painted in oil pigments on canvas",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "From the the bathroom of donor's father's house, 4 West 54th Street, New York, NY.",
     "dimensions": "95 x 51 cm (37 3\/8 x 20 1\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "95.00",
+            "centimeters"
+        ],
+        "width": [
+            "51.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of John Davison Rockefeller, Jr.",
     "description": "Hand painted. Side view of a nymph enframed in a garlanded rectangle supported by a frieze of cherubs. On either side are columns supporting female busts. Across top a horizontal band of flying swans, masks, across bottom a band of linked rectangles and trefoil arches.",
     "justification": null,
-    "type": {
-        "id": "35259269",
-        "name": "Frieze"
-    },
+    "woe:country": "23424977",
+    "type": "Frieze",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/29881_55e35e2142fdb161_b.jpg",
                 "width": 1024,
                 "height": 752,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/29881_55e35e2142fdb161_n.jpg",
-                "width": 320,
-                "height": 235,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "29881"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/29881_55e35e2142fdb161_z.jpg",
                 "width": 640,
                 "height": 470,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "29881"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/29881_55e35e2142fdb161_n.jpg",
+                "width": 320,
+                "height": 235,
+                "is_primary": "1",
+                "image_id": "29881"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/29881_55e35e2142fdb161_d.gif",
+                "width": 320,
+                "height": 235,
+                "is_primary": "1",
+                "image_id": "29881"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/29881_55e35e2142fdb161_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "29881"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/29882_33757ef36c29a32c_b.jpg",
                 "width": 1024,
                 "height": 873,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/29882_33757ef36c29a32c_n.jpg",
-                "width": 320,
-                "height": 273,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "29882"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/29882_33757ef36c29a32c_z.jpg",
                 "width": 640,
                 "height": 546,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "29882"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/29882_33757ef36c29a32c_n.jpg",
+                "width": 320,
+                "height": 273,
+                "is_primary": "0",
+                "image_id": "29882"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/29882_33757ef36c29a32c_d.gif",
+                "width": 320,
+                "height": 273,
+                "is_primary": "0",
+                "image_id": "29882"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/29882_33757ef36c29a32c_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "29882"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18539553",
             "role_id": "35351535",
             "person_name": "John Davison Rockefeller Jr.",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18539553\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18047853",
             "role_id": "35352245",
             "person_name": "Ann Hysa Dorfsman",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047853\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         }
@@ -92,24 +139,35 @@
     },
     "colors": [
         {
-            "color": "#70622f",
-            "closest_css3": "#556b2f"
+            "color": "#523f27",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         },
         {
-            "color": "#5d4c31",
-            "closest_css3": "#556b2f"
+            "color": "#776431",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         },
         {
-            "color": "#3e340a",
-            "closest_css3": "#556b2f"
+            "color": "#878366",
+            "closest_crayola": "#8a795d",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#3c250a",
-            "closest_css3": "#000000"
+            "color": "#373516",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#8d8769",
-            "closest_css3": "#808080"
+            "color": "#575735",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

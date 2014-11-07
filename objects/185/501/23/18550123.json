@@ -3,6 +3,7 @@
     "tms:id": "67993",
     "accession_number": "1938-88-7054",
     "title": "Drawing, \"Standing Cleric Holding a Book\", 1625\u201375",
+    "title_raw": "Standing Cleric Holding a Book",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18550123\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1700,
     "year_acquired": "1938",
     "decade": null,
-    "woe:country": "23424853",
+    "woe:country_id": "23424853",
     "medium": "Red chalk, pen and black ink  on cream paper, lined",
     "markings": "Watermark on lining paper:  Heawood #1573 (Naples, 1752)",
     "signed": null,
     "inscribed": "Inscribed in pen and black ink, lower left:  Gio. Bernardino Siciliano; in pen and black ink, lower right [by later hand]:  D[ucati] 5",
     "provenance": "Giovanni Piancastelli\nMr. and Mrs. Edward D. Brandegee",
     "dimensions": "26.8 x 17.2 cm (10 9\/16 x 6 3\/4 in. )",
+    "dimensions_raw": {
+        "height": [
+            "17.20",
+            "centimeters"
+        ],
+        "width": [
+            "26.80",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase through gift of various donors and from Eleanor G. Hewitt Fund",
     "description": "A youngish man, wearing clerical robes and skull cap, faces right with a book against his chest.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424853",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/39898_bdf7545ec4debfc7_b.jpg",
                 "width": 727,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/39898_bdf7545ec4debfc7_n.jpg",
-                "width": 227,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "39898"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/39898_bdf7545ec4debfc7_z.jpg",
                 "width": 454,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "39898"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/39898_bdf7545ec4debfc7_n.jpg",
+                "width": 227,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "39898"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/39898_bdf7545ec4debfc7_d.gif",
+                "width": 227,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "39898"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/39898_bdf7545ec4debfc7_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "39898"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/16989_9fc1b96201a671ac_b.jpg",
                 "width": 662,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/16989_9fc1b96201a671ac_n.jpg",
-                "width": 207,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "16989"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/16989_9fc1b96201a671ac_z.jpg",
                 "width": 413,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "16989"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/16989_9fc1b96201a671ac_n.jpg",
+                "width": 207,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "16989"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/16989_9fc1b96201a671ac_d.gif",
+                "width": 207,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "16989"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/16989_9fc1b96201a671ac_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "16989"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18538557",
             "role_id": "35236565",
             "person_name": "Giovanni Bernardino Rodriguez called Siciliano",
+            "person_date": "Sicilian, ca.1600 \u2013 ca.1650",
             "role_name": "Artist",
+            "role_display_name": "",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18538557\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236565\/"
         }
@@ -85,15 +130,16 @@
     "colors": [
         {
             "color": "#d4ad83",
-            "closest_css3": "#d2b48c"
+            "closest_crayola": "#deaa88",
+            "closest_css3": "#d2b48c",
+            "closest_css4": "#d2b48c"
         },
         {
-            "color": "#c38860",
-            "closest_css3": "#cd853f"
-        },
-        {
-            "color": "#a36d4c",
-            "closest_css3": "#a0522d"
+            "color": "#c38962",
+            "closest_crayola": "#d68a59",
+            "closest_css3": "#cd853f",
+            "closest_css4": "#cd853f"
         }
-    ]
+    ],
+    "woe:country_name": "Italy"
 }

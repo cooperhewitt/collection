@@ -3,6 +3,7 @@
     "tms:id": "23491",
     "accession_number": "1917-4-703",
     "title": "Drawing, \"Painting. Unfinished study.  Mount Chimborazo, Ecuador.\", July 1857",
+    "title_raw": "Painting. Unfinished study.  Mount Chimborazo, Ecuador.",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18200869\/",
     "department_id": "35347493",
     "period_id": "35417175",
@@ -13,39 +14,64 @@
     "year_end": null,
     "year_acquired": "1917",
     "decade": null,
-    "woe:country": "23424801",
+    "woe:country_id": "23424801",
     "medium": "Brush and oil, graphite on brown paper ?",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "Given by Louis P. Church",
     "dimensions": "31.6 x 44.2 cm (12 7\/16 x 17 3\/8 in.)",
+    "dimensions_raw": {
+        "height": [
+            "31.60",
+            "centimeters"
+        ],
+        "width": [
+            "44.20",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Louis P. Church",
     "description": "Horizontal view of the mountain with the sky and some parts of the peak in a more finished state, while the remainder is only sketched in on a creamy ground color.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424801",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/16609_3f9e16eb10f99ac1_b.jpg",
                 "width": 1024,
                 "height": 721,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/16609_3f9e16eb10f99ac1_n.jpg",
-                "width": 320,
-                "height": 225,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "16609"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/16609_3f9e16eb10f99ac1_z.jpg",
                 "width": 640,
                 "height": 451,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "16609"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/16609_3f9e16eb10f99ac1_n.jpg",
+                "width": 320,
+                "height": 225,
+                "is_primary": "1",
+                "image_id": "16609"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/16609_3f9e16eb10f99ac1_d.gif",
+                "width": 320,
+                "height": 225,
+                "is_primary": "1",
+                "image_id": "16609"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/16609_3f9e16eb10f99ac1_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "16609"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18041941",
             "role_id": "35236565",
             "person_name": "Frederic Edwin Church",
+            "person_date": "American, 1826\u20131900",
             "role_name": "Artist",
+            "role_display_name": "",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041941\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236565\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18051625",
             "role_id": "35351535",
             "person_name": "Louis P. Church",
+            "person_date": "American, 1870\u20131943",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18051625\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -72,20 +102,35 @@
     },
     "colors": [
         {
-            "color": "#7f7276",
-            "closest_css3": "#808080"
+            "color": "#7c676a",
+            "closest_crayola": "#757575",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#68575c",
-            "closest_css3": "#696969"
+            "color": "#5c4a4d",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#443335",
-            "closest_css3": "#2f4f4f"
+            "color": "#b78c79",
+            "closest_crayola": "#cd9575",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         },
         {
-            "color": "#aa8172",
-            "closest_css3": "#bc8f8f"
+            "color": "#392c2f",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
+        },
+        {
+            "color": "#f5e4ee",
+            "closest_crayola": "#fddde6",
+            "closest_css3": "#faf0e6",
+            "closest_css4": "#faf0e6"
         }
-    ]
+    ],
+    "woe:country_name": "Ecuador"
 }

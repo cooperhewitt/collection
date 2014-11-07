@@ -3,6 +3,7 @@
     "tms:id": "191414",
     "accession_number": "1989-41-47",
     "title": "Plate, \"All Power to the Soviets 1917-1967\", 1967",
+    "title_raw": "All Power to the Soviets 1917-1967",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18633143\/",
     "department_id": "35347497",
     "period_id": null,
@@ -13,39 +14,60 @@
     "year_end": 1967,
     "year_acquired": "1989",
     "decade": "1960",
-    "woe:country": null,
+    "woe:country_id": null,
     "medium": "porcelain, enamel, gilding",
     "markings": "Marks: On underside: Dulevo mark (falcon) stamped in green overglaze",
     "signed": null,
     "inscribed": null,
     "provenance": "The Henry and Ludmilla Shapiro Collection",
     "dimensions": "Diameter: 19 cm (7 1\/2 in.)",
+    "dimensions_raw": {
+        "diameter": [
+            "19.00",
+            "centimeters"
+        ]
+    },
     "creditline": "The Henry and Ludmilla Shapiro Collection; Partial gift and partial purchase through the Decorative Arts Association Acquisition and Smithsonian Collections Acquisition Program Funds",
     "description": "Circular; against a red banner-like background the inscription (in Russian)\"All Power to the Soviets\" and underneath in gilding \"1917-1967\"",
     "justification": null,
-    "type": {
-        "id": "35236833",
-        "name": "plate"
-    },
+    "woe:country": null,
+    "type": "plate",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/11175_15d841e70eb3e675_b.jpg",
                 "width": 1024,
                 "height": 926,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/11175_15d841e70eb3e675_n.jpg",
-                "width": 320,
-                "height": 289,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "11175"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/11175_15d841e70eb3e675_z.jpg",
                 "width": 640,
                 "height": 579,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "11175"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/11175_15d841e70eb3e675_n.jpg",
+                "width": 320,
+                "height": 289,
+                "is_primary": "1",
+                "image_id": "11175"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/11175_15d841e70eb3e675_d.gif",
+                "width": 320,
+                "height": 289,
+                "is_primary": "1",
+                "image_id": "11175"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/11175_15d841e70eb3e675_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "11175"
             }
         }
     ],
@@ -54,7 +76,9 @@
             "person_id": "18047827",
             "role_id": "35352245",
             "person_name": "Deborah S. Shinn",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047827\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -62,7 +86,9 @@
             "person_id": "18045197",
             "role_id": "35236657",
             "person_name": "Dulevo Porcelain Factory",
+            "person_date": "founded 1918",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18045197\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         }
@@ -72,24 +98,34 @@
     },
     "colors": [
         {
-            "color": "#4a0a02",
-            "closest_css3": "#800000"
+            "color": "#48484d",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#846e6b",
-            "closest_css3": "#696969"
+            "color": "#846c69",
+            "closest_crayola": "#8a795d",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
+        },
+        {
+            "color": "#672218",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#800000",
+            "closest_css4": "#800000"
+        },
+        {
+            "color": "#300703",
+            "closest_crayola": "#000000",
+            "closest_css3": "#000000",
+            "closest_css4": "#000000"
         },
         {
             "color": "#97887f",
-            "closest_css3": "#808080"
-        },
-        {
-            "color": "#d3bea3",
-            "closest_css3": "#d2b48c"
-        },
-        {
-            "color": "#f9ebc7",
-            "closest_css3": "#ffebcd"
+            "closest_crayola": "#95918c",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         }
     ]
 }

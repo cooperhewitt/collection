@@ -3,6 +3,7 @@
     "tms:id": "196411",
     "accession_number": "1993-110-1",
     "title": "Hanging, 1875\u20131900",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18643093\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": "1900",
     "year_acquired": "1993",
     "decade": null,
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": null,
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
-    "dimensions": "Warp: 249 cm [98\"]\nWeft: 132 cm [52\"]\nA trimming sewn on three sides and a flap of different material sewn to the top for hanging on a rod.  The left side has a selvedge.",
+    "dimensions": "H x W: 249 \u00d7 132 cm (8 ft. 2 1\/16 in. \u00d7 51 15\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "249.00",
+            "centimeters"
+        ],
+        "width": [
+            "132.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase from Eleanor G. Hewitt Fund",
     "description": "Two shades of green and gold with rows of medalions.  The bottom row of medalians is a male figure with wings holding two horses and the rest of  the medalians consists of a draped female in a boat with sail.",
     "justification": null,
-    "type": {
-        "id": "35257233",
-        "name": "Hanging"
-    },
+    "woe:country": "23424977",
+    "type": "Hanging",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/78931_9d416d01d18dc0cd_b.jpg",
                 "width": 663,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/78931_9d416d01d18dc0cd_n.jpg",
-                "width": 207,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "78931"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/78931_9d416d01d18dc0cd_z.jpg",
                 "width": 414,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "78931"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/78931_9d416d01d18dc0cd_n.jpg",
+                "width": 207,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "78931"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/78931_9d416d01d18dc0cd_d.gif",
+                "width": 207,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "78931"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/78931_9d416d01d18dc0cd_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "78931"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/78932_d65ad0e8352d5e78_b.jpg",
                 "width": 663,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/78932_d65ad0e8352d5e78_n.jpg",
-                "width": 207,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "78932"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/78932_d65ad0e8352d5e78_z.jpg",
                 "width": 414,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "78932"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/78932_d65ad0e8352d5e78_n.jpg",
+                "width": 207,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "78932"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/78932_d65ad0e8352d5e78_d.gif",
+                "width": 207,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "78932"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/78932_d65ad0e8352d5e78_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "78932"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18041447",
             "role_id": "35352249",
             "person_name": "Mr. Bill Turner",
+            "person_date": "",
             "role_name": "Vendor",
+            "role_display_name": "Purchased from",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041447\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352249\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18047457",
             "role_id": "35352245",
             "person_name": "Barbara Duggan",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047457\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -90,15 +137,18 @@
             "person_id": "18045153",
             "role_id": "35236677",
             "person_name": "Walter Crane",
+            "person_date": "1845 \u2013 1915",
             "role_name": "After",
+            "role_display_name": "After",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18045153\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236677\/"
         }
     ],
     "tombstone": {
-        "epitaph": "Hanging, 1875\u20131900. Warp: 249 cm [98&quot;]\nWeft: 132 cm [52&quot;]\nA trimming sewn on three sides and a flap of different material sewn to the top for hanging on a rod.  The left side has a selvedge.. Museum purchase from Eleanor G. Hewitt Fund. 1993-110-1."
+        "epitaph": "Hanging, 1875\u20131900. H x W: 249 \u00d7 132 cm (8 ft. 2 1\/16 in. \u00d7 51 15\/16 in.). Museum purchase from Eleanor G. Hewitt Fund. 1993-110-1."
     },
     "colors": [
 
-    ]
+    ],
+    "woe:country_name": "United States"
 }

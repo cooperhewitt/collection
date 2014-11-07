@@ -3,6 +3,7 @@
     "tms:id": "39958",
     "accession_number": "1924-15-22",
     "title": "Drawing, \"Design for a Wallpaper\", 1815\u201330",
+    "title_raw": "Design for a Wallpaper",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18304751\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1845,
     "year_acquired": "1924",
     "decade": null,
-    "woe:country": "23424819",
+    "woe:country_id": "23424819",
     "medium": "Brush and gouache, graphite on paper",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "Sarah Cooper Hewitt and Eleanor Garnier Hewitt",
     "dimensions": "38.3 x 54.9 cm (15 1\/16 x 21 5\/8 in.)",
+    "dimensions_raw": {
+        "height": [
+            "38.30",
+            "centimeters"
+        ],
+        "width": [
+            "54.90",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Eleanor and Sarah Hewitt",
     "description": "Flower stems in pointed ovoidal scheme with lozenges in which alternate: a leaf rosette with a laurel bough and with a lyre in one row, and in the other, the leaf rosette with the lyre and an arrow in a wreath; lateral purple stripes.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424819",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/45979_c837fa7a13cc6927_b.jpg",
                 "width": 1024,
                 "height": 725,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/45979_c837fa7a13cc6927_n.jpg",
-                "width": 320,
-                "height": 226,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "45979"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/45979_c837fa7a13cc6927_z.jpg",
                 "width": 640,
                 "height": 453,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "45979"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/45979_c837fa7a13cc6927_n.jpg",
+                "width": 320,
+                "height": 226,
+                "is_primary": "1",
+                "image_id": "45979"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/45979_c837fa7a13cc6927_d.gif",
+                "width": 320,
+                "height": 226,
+                "is_primary": "1",
+                "image_id": "45979"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/45979_c837fa7a13cc6927_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "45979"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18049325",
             "role_id": "35351535",
             "person_name": "Eleanor Garnier Hewitt",
+            "person_date": "American, 1864\u20131924",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049325\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18049321",
             "role_id": "35351535",
             "person_name": "Sarah Cooper Hewitt",
+            "person_date": "American, 1859\u20131930",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049321\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "51676457",
             "role_id": "35352245",
             "person_name": "Karin Zonis",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/51676457\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -78,7 +110,9 @@
             "person_id": "18049325",
             "role_id": "35351535",
             "person_name": "Eleanor Garnier Hewitt",
+            "person_date": "American, 1864\u20131924",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049325\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -86,7 +120,9 @@
             "person_id": "18049321",
             "role_id": "35351535",
             "person_name": "Sarah Cooper Hewitt",
+            "person_date": "American, 1859\u20131930",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049321\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -96,20 +132,23 @@
     },
     "colors": [
         {
-            "color": "#3c759e",
-            "closest_css3": "#4682b4"
+            "color": "#3e81ad",
+            "closest_crayola": "#2b6cc4",
+            "closest_css3": "#4682b4",
+            "closest_css4": "#4682b4"
         },
         {
-            "color": "#6f959e",
-            "closest_css3": "#778899"
+            "color": "#649dae",
+            "closest_crayola": "#6699cc",
+            "closest_css3": "#5f9ea0",
+            "closest_css4": "#5f9ea0"
         },
         {
-            "color": "#ece7cb",
-            "closest_css3": "#faebd7"
-        },
-        {
-            "color": "#bccbc4",
-            "closest_css3": "#c0c0c0"
+            "color": "#e3dfc6",
+            "closest_crayola": "#efdecd",
+            "closest_css3": "#dcdcdc",
+            "closest_css4": "#dcdcdc"
         }
-    ]
+    ],
+    "woe:country_name": "France"
 }

@@ -3,6 +3,7 @@
     "tms:id": "71121",
     "accession_number": "1939-56-4",
     "title": "Textile, 1870s",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18556939\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": null,
     "year_acquired": "1939",
     "decade": null,
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Medium: cotton\nTechnique: printed on plain weave",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "H x W: 25.5 x 17 cm (10 1\/16 x 6 11\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "25.50",
+            "centimeters"
+        ],
+        "width": [
+            "17.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of the Fall River Historical Society",
     "description": "White fabric in a printed design showing groups of three intersecting arrows in diagonal lines.",
     "justification": null,
-    "type": {
-        "id": "35251739",
-        "name": "textile"
-    },
+    "woe:country": "23424977",
+    "type": "textile",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/63981_d445c30e1720e7eb_b.jpg",
                 "width": 761,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/63981_d445c30e1720e7eb_n.jpg",
-                "width": 238,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "63981"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/63981_d445c30e1720e7eb_z.jpg",
                 "width": 476,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "63981"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/63981_d445c30e1720e7eb_n.jpg",
+                "width": 238,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "63981"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/63981_d445c30e1720e7eb_d.gif",
+                "width": 238,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "63981"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/63981_d445c30e1720e7eb_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "63981"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/70330_b85350dad4c3b555_b.jpg",
                 "width": 664,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/70330_b85350dad4c3b555_n.jpg",
-                "width": 208,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "70330"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/70330_b85350dad4c3b555_z.jpg",
                 "width": 415,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "70330"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/70330_b85350dad4c3b555_n.jpg",
+                "width": 208,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "70330"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/70330_b85350dad4c3b555_d.gif",
+                "width": 208,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "70330"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/70330_b85350dad4c3b555_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "70330"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18049067",
             "role_id": "35236657",
             "person_name": "American Print Works",
+            "person_date": "",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049067\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18058493",
             "role_id": "35351535",
             "person_name": "Fall River Historical Society",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18058493\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -92,16 +139,23 @@
     },
     "colors": [
         {
-            "color": "#7a6e66",
-            "closest_css3": "#696969"
+            "color": "#8a7e76",
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#aea399",
-            "closest_css3": "#a9a9a9"
+            "color": "#b3a99e",
+            "closest_crayola": "#979aaa",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
         },
         {
-            "color": "#5e534d",
-            "closest_css3": "#696969"
+            "color": "#695e58",
+            "closest_crayola": "#6e5160",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

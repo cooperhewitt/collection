@@ -3,6 +3,7 @@
     "tms:id": "191834",
     "accession_number": "1990-125-1",
     "title": "Vase, \"Rubis\", 1989",
+    "title_raw": "Rubis",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18633975\/",
     "department_id": "35347497",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1989,
     "year_acquired": "1990",
     "decade": "1980",
-    "woe:country": null,
+    "woe:country_id": null,
     "medium": "Glass",
     "markings": "Engraved inside base: \"12\/55 SIPEK.\"",
     "signed": null,
     "inscribed": null,
     "provenance": "1990: acquired by Museum (from Neotu)",
     "dimensions": "H x W: 60 x 21 cm (23 5\/8 x 8 1\/4 in.)",
+    "dimensions_raw": {
+        "height": [
+            "60.00",
+            "centimeters"
+        ],
+        "width": [
+            "21.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase from James Ford Fund",
     "description": "Tall vase of clear blown glass and deep red glass. Base of swirled conical shape, central oval with elongated section, surmounted by curved shouldered \"bubble.\" Joint between two central sections applied with eight horizontal red glass spikes. Shoulder of larger upper section pierced with eight holes covered with red glass bubble. Top of vase plain conical shape with polished rim.",
     "justification": null,
-    "type": {
-        "id": "35237225",
-        "name": "Vase"
-    },
+    "woe:country": null,
+    "type": "Vase",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/15515_941dc39dab2041b4_b.jpg",
                 "width": 445,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/15515_941dc39dab2041b4_n.jpg",
-                "width": 139,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "15515"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/15515_941dc39dab2041b4_z.jpg",
                 "width": 278,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "15515"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/15515_941dc39dab2041b4_n.jpg",
+                "width": 139,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "15515"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/15515_941dc39dab2041b4_d.gif",
+                "width": 139,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "15515"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/15515_941dc39dab2041b4_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "15515"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18048927",
             "role_id": "35352247",
             "person_name": "James Ford Fund",
+            "person_date": "",
             "role_name": "Fund",
+            "role_display_name": "Fund:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18048927\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352247\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18040983",
             "role_id": "35352249",
             "person_name": "NEOTU",
+            "person_date": "",
             "role_name": "Vendor",
+            "role_display_name": "Purchased from",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18040983\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352249\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18044219",
             "role_id": "35236655",
             "person_name": "Borek Sipek (Czech, b. 1949)",
+            "person_date": "",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18044219\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
@@ -80,12 +112,16 @@
     },
     "colors": [
         {
-            "color": "#959bab",
-            "closest_css3": "#a9a9a9"
+            "color": "#9197a7",
+            "closest_crayola": "#979aaa",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
         },
         {
-            "color": "#604b50",
-            "closest_css3": "#696969"
+            "color": "#675c60",
+            "closest_crayola": "#6e5160",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         }
     ]
 }

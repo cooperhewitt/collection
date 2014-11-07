@@ -3,6 +3,7 @@
     "tms:id": "177134",
     "accession_number": "1981-28-77",
     "title": "Sampler, 1803",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18617203\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1803,
     "year_acquired": "1981",
     "decade": null,
-    "woe:country": "23424977",
-    "medium": "Medium: silk embroidery on linen foundation\nTechnique: embroidered in cross stitch on plain weave foundation",
+    "woe:country_id": "23424977",
+    "medium": "Medium: silk embroidery on linen foundation\nTechnique: embroidered in cross stitch on plain weave foundation\nLabel: linen embroidered with silk in cross stitch",
     "markings": null,
     "signed": null,
     "inscribed": "New York African Free School April 5th 1803 Mary Emiston",
     "provenance": "By 1962, Phyllis Gordon (Montreal)\n1962 - 1981, Gertrude M. Oppenheimer\n1981, Cooper-Hewitt Museum",
     "dimensions": "H x W: 28 x 42.5cm (11 x 16 3\/4 in.)",
+    "dimensions_raw": {
+        "height": [
+            "28.00",
+            "centimeters"
+        ],
+        "width": [
+            "42.50",
+            "centimeters"
+        ]
+    },
     "creditline": "Bequest of Gertrude M. Oppenheimer",
     "description": "Within a strawberry vine border, a text:\nIn Christ Jesus there is neither bond nor free that He came to let the oppressed\ngo free and to break every yoke All who fear god and work righteous\nof whatever naion (sic) color or clime shall be accepted of him May God reward \nthe Benefactors and forgive the enemies of Africa's children.  Many\ndaughters have done virtuously but may we remembering our peculiar obligations excel them all.  \nBlest be the grace which moved the feeling heart \nTo plead the cause of man and break his chains\nBlest be the men who taught the heavenly art\nTo banish slav'ry's bonds from freedoms plains\nLet Afric's (sic) daughters feel the grateful ties\nWhich bind then to reward their Patrons care \nBy striving to obtain the noble prize \nOf praise on earth and heav'n's bright crown to wear",
     "justification": null,
-    "type": {
-        "id": "35256439",
-        "name": "Sampler"
-    },
+    "woe:country": "23424977",
+    "type": "Sampler",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/32433_b9ce5326d92b2ea1_b.jpg",
                 "width": 1024,
                 "height": 702,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/32433_b9ce5326d92b2ea1_n.jpg",
-                "width": 320,
-                "height": 219,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "32433"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/32433_b9ce5326d92b2ea1_z.jpg",
                 "width": 640,
                 "height": 439,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "32433"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/32433_b9ce5326d92b2ea1_n.jpg",
+                "width": 320,
+                "height": 219,
+                "is_primary": "1",
+                "image_id": "32433"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/32433_b9ce5326d92b2ea1_d.gif",
+                "width": 320,
+                "height": 219,
+                "is_primary": "1",
+                "image_id": "32433"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/32433_b9ce5326d92b2ea1_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "32433"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18062745",
             "role_id": "35236793",
             "person_name": "New York African Free School",
+            "person_date": "",
             "role_name": "Student at",
+            "role_display_name": "Student at",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18062745\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236793\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18050567",
             "role_id": "35351537",
             "person_name": "Gertrude M. Oppenheimer",
+            "person_date": "",
             "role_name": "Bequestor",
+            "role_display_name": "Bequest of",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18050567\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351537\/"
         },
@@ -70,34 +100,47 @@
             "person_id": "18050647",
             "role_id": "35236583",
             "person_name": "Mary Emiston",
+            "person_date": "American",
             "role_name": "Embroiderer",
+            "role_display_name": "Embroidered by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18050647\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236583\/"
         }
     ],
     "tombstone": {
-        "epitaph": "Sampler, 1803. Medium: silk embroidery on linen foundation\nTechnique: embroidered in cross stitch on plain weave foundation. Bequest of Gertrude M. Oppenheimer. 1981-28-77."
+        "epitaph": "Sampler, 1803. Medium: silk embroidery on linen foundation\nTechnique: embroidered in cross stitch on plain weave foundation\nLabel: linen embroidered with silk in cross stitch. Bequest of Gertrude M. Oppenheimer. 1981-28-77."
     },
     "colors": [
         {
-            "color": "#b6966f",
-            "closest_css3": "#bc8f8f"
+            "color": "#ddd0bf",
+            "closest_crayola": "#efcdb8",
+            "closest_css3": "#d3d3d3",
+            "closest_css4": "#d3d3d3"
         },
         {
-            "color": "#856748",
-            "closest_css3": "#696969"
+            "color": "#8a6c4a",
+            "closest_crayola": "#85754e",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         },
         {
-            "color": "#4f4030",
-            "closest_css3": "#556b2f"
+            "color": "#3a3b30",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#3b3e34",
-            "closest_css3": "#2f4f4f"
+            "color": "#68553d",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         },
         {
-            "color": "#794e39",
-            "closest_css3": "#a0522d"
+            "color": "#bba790",
+            "closest_crayola": "#deaa88",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

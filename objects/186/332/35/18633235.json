@@ -3,6 +3,7 @@
     "tms:id": "191460",
     "accession_number": "1989-41-89-a,b",
     "title": "Sugar Bowl And Lid, \"Leningrad 1935\", 1935",
+    "title_raw": "Leningrad 1935",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18633235\/",
     "department_id": "35347497",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1935,
     "year_acquired": "1989",
     "decade": "1930",
-    "woe:country": null,
+    "woe:country_id": null,
     "medium": "Enameled, gilt and glazed porcelain",
     "markings": "On underside of base: Lomonosov mark for 1937 stamped in orange overglaze; (in Russian:) 'V. Freze \/ \"Leningrad 1935\"' hand-painted in black overglaze; hammer, sickle, cog stamped in green underglaze (faint).",
     "signed": null,
     "inscribed": null,
     "provenance": "The Henry and Ludmilla Shapiro Collection; 1989: acquired by Museum",
     "dimensions": "H x diam.: 8.3 x 9.5 cm (3 1\/4 x 3 3\/4 in.)",
+    "dimensions_raw": {
+        "diameter": [
+            "9.53",
+            "centimeters"
+        ],
+        "height": [
+            "8.26",
+            "centimeters"
+        ]
+    },
     "creditline": "The Henry and Ludmilla Shapiro Collection; Partial gift and partial purchase through the Decorative Arts Association Acquisition and Smithsonian Collections Acquisition Program Funds",
     "description": "Cylindrical, rounded at base and top, disk-shaped lid; painted in polychrome enamel, ribbon border around top of body, emblem on lid. The front depicts a white building [Smolney?] of two storeys with fountains on the left and right; the back is the Pushkin Theatre, formerly Alexandrine Theatre or Alexandrinsky, flanked by trees.",
     "justification": null,
-    "type": {
-        "id": "35288059",
-        "name": "Sugar bowl and lid"
-    },
+    "woe:country": null,
+    "type": "Sugar bowl and lid",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/10604_b3b99fb339bd6194_b.jpg",
                 "width": 1024,
                 "height": 725,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/10604_b3b99fb339bd6194_n.jpg",
-                "width": 320,
-                "height": 227,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "10604"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/10604_b3b99fb339bd6194_z.jpg",
                 "width": 640,
                 "height": 453,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "10604"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/10604_b3b99fb339bd6194_n.jpg",
+                "width": 320,
+                "height": 227,
+                "is_primary": "1",
+                "image_id": "10604"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/10604_b3b99fb339bd6194_d.gif",
+                "width": 320,
+                "height": 227,
+                "is_primary": "1",
+                "image_id": "10604"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/10604_b3b99fb339bd6194_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "10604"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18043295",
             "role_id": "35236655",
             "person_name": "Eva Zeisel",
+            "person_date": "American, b. Hungary, 1906\u20132011",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18043295\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18047827",
             "role_id": "35352245",
             "person_name": "Deborah S. Shinn",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047827\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18045227",
             "role_id": "35236655",
             "person_name": "Varvara Petrovna Freze",
+            "person_date": "Russian, 1883\u20131970",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18045227\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -78,7 +110,9 @@
             "person_id": "18045091",
             "role_id": "35236657",
             "person_name": "Lomonosov Porcelain Factory",
+            "person_date": "Leningrad, USSR, founded 1744 as the Imperial Porcelain Manufactory, St. Petersburg, Russia",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18045091\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         }
@@ -88,24 +122,34 @@
     },
     "colors": [
         {
-            "color": "#4e4c52",
-            "closest_css3": "#2f4f4f"
+            "color": "#4a474f",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#261f27",
-            "closest_css3": "#000000"
+            "color": "#261f26",
+            "closest_crayola": "#000000",
+            "closest_css3": "#000000",
+            "closest_css4": "#000000"
         },
         {
-            "color": "#c5beb7",
-            "closest_css3": "#c0c0c0"
+            "color": "#b9b2a5",
+            "closest_crayola": "#b0b7c6",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
         },
         {
-            "color": "#a29990",
-            "closest_css3": "#bc8f8f"
+            "color": "#948e86",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#ac7754",
-            "closest_css3": "#cd853f"
+            "color": "#ad7956",
+            "closest_crayola": "#a57164",
+            "closest_css3": "#cd853f",
+            "closest_css4": "#cd853f"
         }
     ]
 }

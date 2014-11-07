@@ -3,6 +3,7 @@
     "tms:id": "21927",
     "accession_number": "1917-4-101-a",
     "title": "Drawing, \"Distant Views of the Volcano Cotopaxi, Ecuador\", 1857",
+    "title_raw": "Distant Views of the Volcano Cotopaxi, Ecuador",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18190643\/",
     "department_id": "35347493",
     "period_id": "35417175",
@@ -13,39 +14,64 @@
     "year_end": 1857,
     "year_acquired": "1917",
     "decade": null,
-    "woe:country": "23424801",
+    "woe:country_id": "23424801",
     "medium": "Graphite on buff paper",
     "markings": null,
     "signed": null,
     "inscribed": "Inscribed in graphite,at lower left: 1857\/\/ 1789\/\/ 68",
     "provenance": "Louis P. Church",
     "dimensions": "27.4 x 45.4 cm (10 13\/16 x 17 7\/8 in.)",
+    "dimensions_raw": {
+        "height": [
+            "27.40",
+            "centimeters"
+        ],
+        "width": [
+            "45.40",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Louis P. Church",
     "description": "Horizontal view of hills, with a pond and a few houses at right seen in the foreground, a valley is visible in the central middleground.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424801",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/20292_dd7f260629f74d5b_b.jpg",
                 "width": 1024,
                 "height": 634,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/20292_dd7f260629f74d5b_n.jpg",
-                "width": 320,
-                "height": 198,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "20292"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/20292_dd7f260629f74d5b_z.jpg",
                 "width": 640,
                 "height": 397,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "20292"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/20292_dd7f260629f74d5b_n.jpg",
+                "width": 320,
+                "height": 198,
+                "is_primary": "1",
+                "image_id": "20292"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/20292_dd7f260629f74d5b_d.gif",
+                "width": 320,
+                "height": 198,
+                "is_primary": "1",
+                "image_id": "20292"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/20292_dd7f260629f74d5b_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "20292"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18047439",
             "role_id": "35352245",
             "person_name": "Rudolph Berliner",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047439\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18041941",
             "role_id": "35236565",
             "person_name": "Frederic Edwin Church",
+            "person_date": "American, 1826\u20131900",
             "role_name": "Artist",
+            "role_display_name": "",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041941\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236565\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18051625",
             "role_id": "35351535",
             "person_name": "Louis P. Church",
+            "person_date": "American, 1870\u20131943",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18051625\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -81,7 +113,10 @@
     "colors": [
         {
             "color": "#ffffff",
-            "closest_css3": "#ffffff"
+            "closest_crayola": "#ffffff",
+            "closest_css3": "#ffffff",
+            "closest_css4": "#ffffff"
         }
-    ]
+    ],
+    "woe:country_name": "Ecuador"
 }

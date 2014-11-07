@@ -3,6 +3,7 @@
     "tms:id": "98541",
     "accession_number": "1948-40-66",
     "title": "Drawing, \"Window Alcove\", 1802",
+    "title_raw": "Window Alcove",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18610061\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1802,
     "year_acquired": "1948",
     "decade": null,
-    "woe:country": "23424975",
+    "woe:country_id": "23424975",
     "medium": "Brush and watercolor, pen and black ink, graphite on white wove paper",
     "markings": "Stamps: Cooper Union Museum stamp on verso",
     "signed": null,
     "inscribed": null,
     "provenance": "1948: acquired by Museum (from Mrs. K. Gregory)",
     "dimensions": "13.2 x 16.4 cm (5 3\/16 x 6 7\/16 in.)\nMat:  35.6 x 45.7 cm (14 x 18 in.)",
+    "dimensions_raw": {
+        "height": [
+            "35.60",
+            "centimeters"
+        ],
+        "width": [
+            "45.70",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase through gift of Mrs. John Innes Kane",
     "description": "Design for the Royal Pavilion, Brighton. Design for an alcove with an arched ceiling and a window. Painted lattice-work designs on the walls and on the lunette above the windows.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424975",
+    "type": "Drawing",
     "images": [
         {
             "b": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/61566_616fabb0836c486b_b.jpg",
+                "url": "http:\/\/images.collection.cooperhewitt.org\/61566_ff270096884f5392_b.jpg",
                 "width": 1024,
-                "height": 826,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/61566_616fabb0836c486b_n.jpg",
-                "width": 320,
-                "height": 258,
-                "is_primary": "1"
+                "height": 820,
+                "is_primary": "1",
+                "image_id": "61566"
             },
             "z": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/61566_616fabb0836c486b_z.jpg",
+                "url": "http:\/\/images.collection.cooperhewitt.org\/61566_ff270096884f5392_z.jpg",
                 "width": 640,
-                "height": 516,
-                "is_primary": "1"
+                "height": 513,
+                "is_primary": "1",
+                "image_id": "61566"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/61566_ff270096884f5392_n.jpg",
+                "width": 320,
+                "height": 256,
+                "is_primary": "1",
+                "image_id": "61566"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/61566_ff270096884f5392_d.gif",
+                "width": 320,
+                "height": 256,
+                "is_primary": "1",
+                "image_id": "61566"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/61566_ff270096884f5392_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "61566"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18539479",
             "role_id": "35352249",
             "person_name": "Mrs. K. Gregory",
+            "person_date": "",
             "role_name": "Vendor",
+            "role_display_name": "Purchased from",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18539479\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352249\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18042071",
             "role_id": "35236667",
             "person_name": "George IV, King of England",
+            "person_date": "",
             "role_name": "Client",
+            "role_display_name": "Client:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18042071\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236667\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18047443",
             "role_id": "35352245",
             "person_name": "Megan L. Smith",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047443\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -78,7 +110,9 @@
             "person_id": "18042069",
             "role_id": "35236663",
             "person_name": "Frederick Crace",
+            "person_date": "English, 1779\u20131859",
             "role_name": "Architect",
+            "role_display_name": "Architect:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18042069\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236663\/"
         }
@@ -88,24 +122,35 @@
     },
     "colors": [
         {
-            "color": "#e1dbc6",
-            "closest_css3": "#d3d3d3"
+            "color": "#e3ddcd",
+            "closest_crayola": "#dbd7d2",
+            "closest_css3": "#dcdcdc",
+            "closest_css4": "#dcdcdc"
         },
         {
-            "color": "#a74534",
-            "closest_css3": "#a0522d"
+            "color": "#ccbb8c",
+            "closest_crayola": "#deaa88",
+            "closest_css3": "#d2b48c",
+            "closest_css4": "#d2b48c"
         },
         {
-            "color": "#ccba8a",
-            "closest_css3": "#d2b48c"
+            "color": "#a74231",
+            "closest_crayola": "#9c2542",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         },
         {
-            "color": "#5a4742",
-            "closest_css3": "#556b2f"
+            "color": "#3f3a3c",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#a0aea6",
-            "closest_css3": "#a9a9a9"
+            "color": "#67565e",
+            "closest_crayola": "#6e5160",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         }
-    ]
+    ],
+    "woe:country_name": "United Kingdom"
 }

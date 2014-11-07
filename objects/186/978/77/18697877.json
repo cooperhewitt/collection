@@ -2,7 +2,8 @@
     "id": "18697877",
     "tms:id": "224542",
     "accession_number": "1930-11-1-i",
-    "title": "Sidewall, 1925\u201330",
+    "title": "Sidewall, \"The Water\", 1925\u201330",
+    "title_raw": "The Water",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18697877\/",
     "department_id": "35347503",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1930,
     "year_acquired": "1930",
     "decade": "1920",
-    "woe:country": "23424829",
+    "woe:country_id": "23424750",
     "medium": "Machine-printed on paper",
     "markings": null,
     "signed": null,
     "inscribed": "Printed in selvedge: \"WIENER WERKSTATTE 'DAS WASSER' ENTWURF\".",
     "provenance": null,
     "dimensions": "Overall: 47.5 x 54.5 cm (18 11\/16 x 21 7\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "47.50",
+            "centimeters"
+        ],
+        "width": [
+            "54.50",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Frankl Galleries",
     "description": "Diamond diaper or trellis pattern created with lines getting increasingly wider and closer together, giving the design some depth. Printed in lavender on black ground.",
     "justification": null,
-    "type": {
-        "id": "35256475",
-        "name": "Sidewall"
-    },
+    "woe:country": "23424750",
+    "type": "Sidewall",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/46174_8cf69569cfb54e6b_b.jpg",
                 "width": 1024,
                 "height": 898,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/46174_8cf69569cfb54e6b_n.jpg",
-                "width": 320,
-                "height": 281,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "46174"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/46174_8cf69569cfb54e6b_z.jpg",
                 "width": 640,
                 "height": 561,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "46174"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/46174_8cf69569cfb54e6b_n.jpg",
+                "width": 320,
+                "height": 281,
+                "is_primary": "1",
+                "image_id": "46174"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/46174_8cf69569cfb54e6b_d.gif",
+                "width": 320,
+                "height": 281,
+                "is_primary": "1",
+                "image_id": "46174"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/46174_8cf69569cfb54e6b_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "46174"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/21649_87dc0510859e21ff_b.jpg",
                 "width": 1024,
                 "height": 888,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/21649_87dc0510859e21ff_n.jpg",
-                "width": 320,
-                "height": 278,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "21649"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/21649_87dc0510859e21ff_z.jpg",
                 "width": 640,
                 "height": 555,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "21649"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/21649_87dc0510859e21ff_n.jpg",
+                "width": 320,
+                "height": 278,
+                "is_primary": "0",
+                "image_id": "21649"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/21649_87dc0510859e21ff_d.gif",
+                "width": 320,
+                "height": 278,
+                "is_primary": "0",
+                "image_id": "21649"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/21649_87dc0510859e21ff_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "21649"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18045427",
             "role_id": "35236655",
             "person_name": "Josef Hillerbrand",
+            "person_date": "German, 1892 - 1981",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18045427\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -82,26 +127,55 @@
             "person_id": "18537969",
             "role_id": "35351535",
             "person_name": "Frankl Galleries",
+            "person_date": "New York, New York, USA",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18537969\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
+        },
+        {
+            "person_id": "18048101",
+            "role_id": "35236657",
+            "person_name": "Wiener Werkst\u00e4tte",
+            "person_date": "Vienna, Austria, 1903\u20131932",
+            "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
+            "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18048101\/",
+            "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
+        },
+        {
+            "person_id": "18044265",
+            "role_id": "35236655",
+            "person_name": "Dagobert Peche",
+            "person_date": "Austrian, 1887\u20131923; active Vienna 1911\u20131923",
+            "role_name": "Designer",
+            "role_display_name": "Designed by",
+            "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18044265\/",
+            "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
     ],
     "tombstone": {
-        "epitaph": "Sidewall, 1925\u201330. Machine-printed on paper. Gift of Frankl Galleries. 1930-11-1-i."
+        "epitaph": "Sidewall, \"The Water\", 1925\u201330. Machine-printed on paper. Gift of Frankl Galleries. 1930-11-1-i."
     },
     "colors": [
         {
-            "color": "#9f9089",
-            "closest_css3": "#bc8f8f"
+            "color": "#948880",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#5c5550",
-            "closest_css3": "#696969"
+            "color": "#6d6560",
+            "closest_crayola": "#6e5160",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#7d716a",
-            "closest_css3": "#696969"
+            "color": "#4b4641",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         }
-    ]
+    ],
+    "woe:country_name": "Austria"
 }

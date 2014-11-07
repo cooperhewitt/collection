@@ -102,7 +102,7 @@ if __name__ == '__main__':
             #
 
             if not writer_images:
-                writer_images = csv.DictWriter(fh_images, fieldnames=('object_id', 'size', 'url', 'width', 'height', 'is_primary'))
+                writer_images = csv.DictWriter(fh_images, fieldnames=('object_id', 'size', 'url', 'width', 'height', 'is_primary', 'image_id'))
                 writer_images.writeheader()
 
             for i in images:
@@ -110,7 +110,9 @@ if __name__ == '__main__':
                 if not type(i) == types.DictType:
                     continue
 
+
                 for sz, details in i.items():
+
                     details['size'] = sz
                     details['object_id'] = data['id']
                     writer_images.writerow(details);
@@ -118,7 +120,7 @@ if __name__ == '__main__':
             #
 
             if not writer_participants:
-                writer_participants = csv.DictWriter(fh_participants, fieldnames=('object_id', 'person_id', 'person_name', 'person_url', 'role_id', 'role_name', 'role_url'))
+                writer_participants = csv.DictWriter(fh_participants, fieldnames=('object_id', 'person_id', 'person_name', 'person_url', 'role_id', 'role_name', 'role_url', 'person_date', 'role_display_name'))
                 writer_participants.writeheader()
 
             for details in participants:

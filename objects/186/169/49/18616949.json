@@ -3,6 +3,7 @@
     "tms:id": "177004",
     "accession_number": "1981-28-394",
     "title": "Sampler, 19th century",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18616949\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": null,
     "year_acquired": "1981",
     "decade": null,
-    "woe:country": "23424900",
+    "woe:country_id": "23424900",
     "medium": "Medium: silk embroidery on cotton foundation\nTechnique: embroidered in satin, stem, and knot stitches with cut work with needle-made fillings on plain weave foundation",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "H x W: 66 x 45.7 cm (26 x 18 in.)",
+    "dimensions_raw": {
+        "height": [
+            "66.04",
+            "centimeters"
+        ],
+        "width": [
+            "45.72",
+            "centimeters"
+        ]
+    },
     "creditline": "Bequest of Gertrude M. Oppenheimer",
     "description": "Sampler scattered with flowers and birds embroidered in many colored silks. Central medallion in gold with blue serrated edge and a bow. Several dogs, perhaps poodles, appear amongst the flowers.",
     "justification": null,
-    "type": {
-        "id": "35256439",
-        "name": "Sampler"
-    },
+    "woe:country": "23424900",
+    "type": "Sampler",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/43614_b0ffcf74ba0b0a7f_b.jpg",
                 "width": 1024,
                 "height": 724,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/43614_b0ffcf74ba0b0a7f_n.jpg",
-                "width": 320,
-                "height": 226,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "43614"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/43614_b0ffcf74ba0b0a7f_z.jpg",
                 "width": 640,
                 "height": 453,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "43614"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/43614_b0ffcf74ba0b0a7f_n.jpg",
+                "width": 320,
+                "height": 226,
+                "is_primary": "1",
+                "image_id": "43614"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/43614_b0ffcf74ba0b0a7f_d.gif",
+                "width": 320,
+                "height": 226,
+                "is_primary": "1",
+                "image_id": "43614"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/43614_b0ffcf74ba0b0a7f_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "43614"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/28620_ec3c21c7073dcf09_b.jpg",
                 "width": 726,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/28620_ec3c21c7073dcf09_n.jpg",
-                "width": 227,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "28620"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/28620_ec3c21c7073dcf09_z.jpg",
                 "width": 454,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "28620"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/28620_ec3c21c7073dcf09_n.jpg",
+                "width": 227,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "28620"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/28620_ec3c21c7073dcf09_d.gif",
+                "width": 227,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "28620"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/28620_ec3c21c7073dcf09_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "28620"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18055143",
             "role_id": "35352245",
             "person_name": "Susan J. Brown",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18055143\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18050567",
             "role_id": "35351537",
             "person_name": "Gertrude M. Oppenheimer",
+            "person_date": "",
             "role_name": "Bequestor",
+            "role_display_name": "Bequest of",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18050567\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351537\/"
         }
@@ -92,24 +139,35 @@
     },
     "colors": [
         {
-            "color": "#d9c486",
-            "closest_css3": "#deb887"
+            "color": "#938b67",
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#7e7a5a",
-            "closest_css3": "#696969"
+            "color": "#707a5f",
+            "closest_crayola": "#757575",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#a29f71",
-            "closest_css3": "#bdb76b"
+            "color": "#a0ac89",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#8fbc8f",
+            "closest_css4": "#8fbc8f"
         },
         {
-            "color": "#c1a076",
-            "closest_css3": "#bdb76b"
+            "color": "#c3af82",
+            "closest_crayola": "#bab86c",
+            "closest_css3": "#d2b48c",
+            "closest_css4": "#d2b48c"
         },
         {
-            "color": "#bdc29e",
-            "closest_css3": "#d2b48c"
+            "color": "#4c5c53",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         }
-    ]
+    ],
+    "woe:country_name": "Mexico"
 }

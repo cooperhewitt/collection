@@ -3,6 +3,7 @@
     "tms:id": "75374",
     "accession_number": "1941-69-63",
     "title": "Sampler, 1710",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18564347\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1710,
     "year_acquired": "1941",
     "decade": null,
-    "woe:country": "23424975",
+    "woe:country_id": "23424975",
     "medium": "Medium: silk embroidery on linen\nTechnique: long-armed cross, herringbone, double running, detached looping, buttonhole, and couching stitches on plain weave",
     "markings": null,
     "signed": null,
     "inscribed": "\"This sampler was begun may 14 1709\"\n\"JEAN PORTER SAMPLER WAS FINISHED APRIL THE 6 1710\"",
     "provenance": "ex. coll. Mrs. Henry E. Coe (Eva Johnston Coe)",
     "dimensions": "H x W: 47.6 x 22.5 cm (18 3\/4 x 8 7\/8 in.)",
+    "dimensions_raw": {
+        "height": [
+            "47.63",
+            "centimeters"
+        ],
+        "width": [
+            "22.54",
+            "centimeters"
+        ]
+    },
     "creditline": "Bequest of Mrs. Henry E. Coe",
     "description": "Cross borders showing people, animals, a house, Adam and Eve and a border of identified crowns with two inscriptions.",
     "justification": null,
-    "type": {
-        "id": "35256439",
-        "name": "Sampler"
-    },
+    "woe:country": "23424975",
+    "type": "Sampler",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/47205_f59803ea5c0233f3_b.jpg",
                 "width": 505,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/47205_f59803ea5c0233f3_n.jpg",
-                "width": 158,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "47205"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/47205_f59803ea5c0233f3_z.jpg",
                 "width": 316,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "47205"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/47205_f59803ea5c0233f3_n.jpg",
+                "width": 158,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "47205"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/47205_f59803ea5c0233f3_d.gif",
+                "width": 158,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "47205"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/47205_f59803ea5c0233f3_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "47205"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/29060_124ffdf990a916e8_b.jpg",
                 "width": 572,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/29060_124ffdf990a916e8_n.jpg",
-                "width": 179,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "29060"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/29060_124ffdf990a916e8_z.jpg",
                 "width": 358,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "29060"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/29060_124ffdf990a916e8_n.jpg",
+                "width": 179,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "29060"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/29060_124ffdf990a916e8_d.gif",
+                "width": 179,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "29060"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/29060_124ffdf990a916e8_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "29060"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18052567",
             "role_id": "35351537",
             "person_name": "Mrs. Henry E. Coe",
+            "person_date": "",
             "role_name": "Bequestor",
+            "role_display_name": "Bequest of",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18052567\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351537\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18536381",
             "role_id": "35236583",
             "person_name": "Jean Porter",
+            "person_date": "",
             "role_name": "Embroiderer",
+            "role_display_name": "Embroidered by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18536381\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236583\/"
         }
@@ -92,24 +139,35 @@
     },
     "colors": [
         {
-            "color": "#af937e",
-            "closest_css3": "#bc8f8f"
+            "color": "#b3b09a",
+            "closest_crayola": "#979aaa",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
         },
         {
-            "color": "#888e77",
-            "closest_css3": "#808080"
+            "color": "#ac8274",
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         },
         {
-            "color": "#5f6c5d",
-            "closest_css3": "#696969"
+            "color": "#c2a793",
+            "closest_crayola": "#deaa88",
+            "closest_css3": "#d2b48c",
+            "closest_css4": "#d2b48c"
         },
         {
-            "color": "#8e4f4b",
-            "closest_css3": "#a0522d"
+            "color": "#8e927b",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#8a6e60",
-            "closest_css3": "#696969"
+            "color": "#647161",
+            "closest_crayola": "#757575",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         }
-    ]
+    ],
+    "woe:country_name": "United Kingdom"
 }

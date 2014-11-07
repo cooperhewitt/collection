@@ -3,6 +3,7 @@
     "tms:id": "201829",
     "accession_number": "1996-5-5",
     "title": "Poster, \"\"Man of the Moment,\" Thea\", 1994",
+    "title_raw": "\"Man of the Moment,\" Thea",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18653737\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1994,
     "year_acquired": "1996",
     "decade": "1990",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Offset color lithograph",
     "markings": null,
     "signed": null,
     "inscribed": "Imprinted, lower left margin, vertically: POSTER BY MODERN DOG. PRINTED ON RECYCLED PAPER, OH BOY.",
     "provenance": "Robynne Raye",
     "dimensions": "66 x 50.8 cm (26 x 20 in.)",
+    "dimensions_raw": {
+        "height": [
+            "66.00",
+            "centimeters"
+        ],
+        "width": [
+            "50.80",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Robynne Raye",
     "description": "Poster for theater production by Alan Ayckbourn, August 6-September 4. Text at top and bottom margins includes information regarding performance; and critical review, printed in a variety of colors (i.e., yellow, blue and white) and typefaces. Image at center of television screen on which is seen a man's face in the background and six hands with microphones in the foreground. Along right margin is color proof; interspersed around edges are guidemarks for layout.",
     "justification": null,
-    "type": {
-        "id": "35238163",
-        "name": "poster"
-    },
+    "woe:country": "23424977",
+    "type": "poster",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/13320_2666170d40652dac_b.jpg",
                 "width": 781,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/13320_2666170d40652dac_n.jpg",
-                "width": 244,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "13320"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/13320_2666170d40652dac_z.jpg",
                 "width": 488,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "13320"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/13320_2666170d40652dac_n.jpg",
+                "width": 244,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "13320"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/13320_2666170d40652dac_d.gif",
+                "width": 244,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "13320"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/13320_2666170d40652dac_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "13320"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18043573",
             "role_id": "35351535",
             "person_name": "Robynne Raye",
+            "person_date": "1964",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18043573\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18047453",
             "role_id": "35352245",
             "person_name": "Elizabeth Horwitz Marcus",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047453\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18041831",
             "role_id": "35236681",
             "person_name": "Modern Dog",
+            "person_date": "",
             "role_name": "Company",
+            "role_display_name": "Company:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041831\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236681\/"
         },
@@ -78,7 +110,9 @@
             "person_id": "18048335",
             "role_id": "35352245",
             "person_name": "AU",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18048335\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -86,7 +120,9 @@
             "person_id": "18043587",
             "role_id": "35236655",
             "person_name": "Michael Strassburger",
+            "person_date": "1962",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18043587\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -94,7 +130,9 @@
             "person_id": "18043573",
             "role_id": "35236655",
             "person_name": "Robynne Raye",
+            "person_date": "1964",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18043573\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
@@ -104,24 +142,35 @@
     },
     "colors": [
         {
-            "color": "#f9412b",
-            "closest_css3": "#ff4500"
+            "color": "#f82a25",
+            "closest_crayola": "#ff2b2b",
+            "closest_css3": "#dc143c",
+            "closest_css4": "#dc143c"
         },
         {
-            "color": "#fec915",
-            "closest_css3": "#ffd700"
+            "color": "#fec617",
+            "closest_crayola": "#ffae42",
+            "closest_css3": "#ffd700",
+            "closest_css4": "#ffd700"
         },
         {
-            "color": "#fc7844",
-            "closest_css3": "#ff7f50"
+            "color": "#ef906d",
+            "closest_crayola": "#dd9475",
+            "closest_css3": "#e9967a",
+            "closest_css4": "#e9967a"
         },
         {
-            "color": "#feec67",
-            "closest_css3": "#f0e68c"
+            "color": "#ffee60",
+            "closest_crayola": "#ffff66",
+            "closest_css3": "#f0e68c",
+            "closest_css4": "#f0e68c"
         },
         {
-            "color": "#fefed6",
-            "closest_css3": "#fafad2"
+            "color": "#feffd7",
+            "closest_crayola": "#fddde6",
+            "closest_css3": "#fafad2",
+            "closest_css4": "#fafad2"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

@@ -3,6 +3,7 @@
     "tms:id": "18954",
     "accession_number": "1912-12-220",
     "title": "Drawing, \"Slight Sketch of Beached Dory and Fishermen\", 1881\u201382",
+    "title_raw": "Slight Sketch of Beached Dory and Fishermen",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18174493\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1963,
     "year_acquired": "1912",
     "decade": null,
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Graphite on gray paper",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "Sheet: 13 x 16.3 cm (5 1\/8 x 6 7\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "13.00",
+            "centimeters"
+        ],
+        "width": [
+            "16.30",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Charles Savage Homer, Jr.",
     "description": "Recto:  Horizontal view of the beach with two fishermen's dories, and two men walking through shallow water carrying baskets.\nVerso:  Slight sketch of a beached dory and fishermen",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424977",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/47062_25983d9eb1414f49_b.jpg",
                 "width": 1024,
                 "height": 852,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/47062_25983d9eb1414f49_n.jpg",
-                "width": 320,
-                "height": 266,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "47062"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/47062_25983d9eb1414f49_z.jpg",
                 "width": 640,
                 "height": 533,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "47062"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/47062_25983d9eb1414f49_n.jpg",
+                "width": 320,
+                "height": 266,
+                "is_primary": "1",
+                "image_id": "47062"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/47062_25983d9eb1414f49_d.gif",
+                "width": 320,
+                "height": 266,
+                "is_primary": "1",
+                "image_id": "47062"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/47062_25983d9eb1414f49_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "47062"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18537931",
             "role_id": "35351535",
             "person_name": "Charles Savage Homer, Jr.",
+            "person_date": "American, 1834\u20131917",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18537931\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18047639",
             "role_id": "35352245",
             "person_name": "Adrienne Sturbois",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047639\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18041949",
             "role_id": "35236565",
             "person_name": "Winslow Homer",
+            "person_date": "American, 1836\u20131910",
             "role_name": "Artist",
+            "role_display_name": "",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041949\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236565\/"
         }
@@ -81,11 +113,16 @@
     "colors": [
         {
             "color": "#d9d6c7",
-            "closest_css3": "#d3d3d3"
+            "closest_crayola": "#dbd7d2",
+            "closest_css3": "#d3d3d3",
+            "closest_css4": "#d3d3d3"
         },
         {
             "color": "#6b6356",
-            "closest_css3": "#696969"
+            "closest_crayola": "#6e5160",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

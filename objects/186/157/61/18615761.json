@@ -3,6 +3,7 @@
     "tms:id": "176407",
     "accession_number": "1980-78-19-a\/c",
     "title": "Sample Book, \"Pepper Pot Papers\", 1949\u201350",
+    "title_raw": "Pepper Pot Papers",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18615761\/",
     "department_id": "35347503",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1950,
     "year_acquired": "1980",
     "decade": "1940",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Hand-painted papers",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "H x W: 13 x 8cm (5 1\/8 x 3 1\/8in.)",
+    "dimensions_raw": {
+        "height": [
+            "13.00",
+            "centimeters"
+        ],
+        "width": [
+            "8.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Various Donors",
     "description": "A multitude of color variations featuring \"splattered\" designs, with different colored pigments splattered on many different ground colors. A few repeat patterns are included in the back of the book, including Chinese Tea Chest papers. a) Contains Tea chest papers; b) contains pepper pot papers; c) contains a variety of papers including pepper pot papers and flocks with sparkles.",
     "justification": null,
-    "type": {
-        "id": "35247403",
-        "name": "sample book"
-    },
+    "woe:country": "23424977",
+    "type": "sample book",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/26337_8f3e13b9ce03fded_b.jpg",
                 "width": 1024,
                 "height": 706,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/26337_8f3e13b9ce03fded_n.jpg",
-                "width": 320,
-                "height": 220,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "26337"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/26337_8f3e13b9ce03fded_z.jpg",
                 "width": 640,
                 "height": 441,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "26337"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/26337_8f3e13b9ce03fded_n.jpg",
+                "width": 320,
+                "height": 220,
+                "is_primary": "1",
+                "image_id": "26337"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/26337_8f3e13b9ce03fded_d.gif",
+                "width": 320,
+                "height": 220,
+                "is_primary": "1",
+                "image_id": "26337"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/26337_8f3e13b9ce03fded_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "26337"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18041163",
             "role_id": "35351535",
             "person_name": "Various Donors",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041163\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18046825",
             "role_id": "35236657",
             "person_name": "Laverne International, Ltd.",
+            "person_date": "1942 - 1964",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18046825\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18046825",
             "role_id": "35236655",
             "person_name": "Laverne International, Ltd.",
+            "person_date": "1942 - 1964",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18046825\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
@@ -80,24 +112,35 @@
     },
     "colors": [
         {
-            "color": "#479581",
-            "closest_css3": "#3cb371"
+            "color": "#46907d",
+            "closest_crayola": "#319177",
+            "closest_css3": "#3cb371",
+            "closest_css4": "#3cb371"
         },
         {
-            "color": "#bbb2b0",
-            "closest_css3": "#a9a9a9"
+            "color": "#b9b1af",
+            "closest_crayola": "#b0b7c6",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
         },
         {
-            "color": "#a5a291",
-            "closest_css3": "#a9a9a9"
+            "color": "#f1e4c1",
+            "closest_crayola": "#eceabe",
+            "closest_css3": "#ffe4c4",
+            "closest_css4": "#ffe4c4"
         },
         {
-            "color": "#8c3c3e",
-            "closest_css3": "#a0522d"
+            "color": "#8d3d3e",
+            "closest_crayola": "#9c2542",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         },
         {
-            "color": "#535c47",
-            "closest_css3": "#556b2f"
+            "color": "#535c46",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

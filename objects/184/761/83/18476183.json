@@ -3,6 +3,7 @@
     "tms:id": "148858",
     "accession_number": "1972-38-25",
     "title": "Sidewall, 1902",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18476183\/",
     "department_id": "35347503",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1902,
     "year_acquired": "1972",
     "decade": "1900",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Machine-printed",
     "markings": null,
     "signed": null,
     "inscribed": "Printed along left margin:  M.H. BIRGE & SONS. CO. U.S.A. 4456",
     "provenance": "Easton's Castle, Aberdeen, South Dakota, a house built in 1889 and extensively renovated between 1902 and 1904.  This pattern was probably hung during the renovation.",
     "dimensions": "H x W: 50 x 42 cm (19 11\/16 x 16 9\/16in.)",
+    "dimensions_raw": {
+        "height": [
+            "50.00",
+            "centimeters"
+        ],
+        "width": [
+            "42.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Dr. and Mrs. Samuel J. Holman",
     "description": "Floral and foliate pattern in art nouveau style. Printed in green, red, and tan on a yellow ground,.",
     "justification": null,
-    "type": {
-        "id": "35256475",
-        "name": "Sidewall"
-    },
+    "woe:country": "23424977",
+    "type": "Sidewall",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/7859_0296052cd0d7296f_b.jpg",
                 "width": 1024,
                 "height": 838,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/7859_0296052cd0d7296f_n.jpg",
-                "width": 320,
-                "height": 262,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "7859"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/7859_0296052cd0d7296f_z.jpg",
                 "width": 640,
                 "height": 524,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "7859"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/7859_0296052cd0d7296f_n.jpg",
+                "width": 320,
+                "height": 262,
+                "is_primary": "1",
+                "image_id": "7859"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/7859_0296052cd0d7296f_d.gif",
+                "width": 320,
+                "height": 262,
+                "is_primary": "1",
+                "image_id": "7859"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/7859_0296052cd0d7296f_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "7859"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18048007",
             "role_id": "35352245",
             "person_name": "Catherine Lynn Frangiamore",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18048007\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18047399",
             "role_id": "35352245",
             "person_name": "Gregory Herringshaw",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047399\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18538819",
             "role_id": "35351535",
             "person_name": "Mrs. Samuel J. Holman",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18538819\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -78,7 +110,9 @@
             "person_id": "18538817",
             "role_id": "35351535",
             "person_name": "Dr. Samuel J. Holman",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18538817\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -86,7 +120,9 @@
             "person_id": "18046415",
             "role_id": "35236657",
             "person_name": "M.H. Birge & Sons Co.",
+            "person_date": "1834",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18046415\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         }
@@ -96,24 +132,35 @@
     },
     "colors": [
         {
-            "color": "#c96430",
-            "closest_css3": "#d2691e"
+            "color": "#c24c24",
+            "closest_crayola": "#c46210",
+            "closest_css3": "#d2691e",
+            "closest_css4": "#d2691e"
         },
         {
-            "color": "#b24115",
-            "closest_css3": "#b22222"
+            "color": "#934323",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#8b4513",
+            "closest_css4": "#8b4513"
         },
         {
-            "color": "#b1232b",
-            "closest_css3": "#b22222"
+            "color": "#4e2821",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#864b2c",
-            "closest_css3": "#8b4513"
+            "color": "#aa161f",
+            "closest_crayola": "#9c2542",
+            "closest_css3": "#b22222",
+            "closest_css4": "#b22222"
         },
         {
-            "color": "#5f3e35",
-            "closest_css3": "#556b2f"
+            "color": "#d7743c",
+            "closest_crayola": "#d68a59",
+            "closest_css3": "#cd853f",
+            "closest_css4": "#cd853f"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

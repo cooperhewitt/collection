@@ -3,6 +3,7 @@
     "tms:id": "255504",
     "accession_number": "2010-21-114",
     "title": "Poster, \"Bruno Munari\", 1995",
+    "title_raw": "Bruno Munari",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18758437\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1995,
     "year_acquired": "2010",
     "decade": "1990",
-    "woe:country": "23424957",
+    "woe:country_id": "23424957",
     "medium": "Offset lithograph on wove paper",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "Sara and Marc Benda (acquired new and directly from designer, Lars M\u00fcller); 2010: acquired by Museum",
     "dimensions": "128.2 x 90.8 cm (50 1\/2 x 35 3\/4 in.)",
+    "dimensions_raw": {
+        "height": [
+            "128.20",
+            "centimeters"
+        ],
+        "width": [
+            "90.80",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Sara and Marc Benda",
     "description": "Two red wavy strings around and through gray dots. In turquoise, above: Bruno Munari; Far vedere l\u2019aria \/ Die Luft sichtbar machen. Lower left: Museum fur Gestaltung Zurich \/ Ausstellungsstrasse 60 \/ 8005 Zurich[\u2026].",
     "justification": null,
-    "type": {
-        "id": "35238163",
-        "name": "poster"
-    },
+    "woe:country": "23424957",
+    "type": "poster",
     "images": [
         {
             "b": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/46831_21fe73e21bb7b15b_b.jpg",
-                "width": 734,
+                "url": "http:\/\/images.collection.cooperhewitt.org\/46831_a567eada58fb061a_b.jpg",
+                "width": 723,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/46831_21fe73e21bb7b15b_n.jpg",
-                "width": 229,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "46831"
             },
             "z": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/46831_21fe73e21bb7b15b_z.jpg",
-                "width": 459,
+                "url": "http:\/\/images.collection.cooperhewitt.org\/46831_a567eada58fb061a_z.jpg",
+                "width": 452,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "46831"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/46831_a567eada58fb061a_n.jpg",
+                "width": 226,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "46831"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/46831_a567eada58fb061a_d.gif",
+                "width": 226,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "46831"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/46831_a567eada58fb061a_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "46831"
             }
         }
     ],
@@ -54,9 +80,31 @@
             "person_id": "18063557",
             "role_id": "35236667",
             "person_name": "Museum f\u00fcr Gestaltung, Z\u00fcrich",
+            "person_date": "",
             "role_name": "Client",
+            "role_display_name": "Client:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18063557\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236667\/"
+        },
+        {
+            "person_id": "68738771",
+            "role_id": "35236673",
+            "person_name": "Far Vedere l'Aria",
+            "person_date": "",
+            "role_name": "Printer",
+            "role_display_name": "Printed by",
+            "person_url": "http:\/\/collection.cooperhewitt.org\/people\/68738771\/",
+            "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236673\/"
+        },
+        {
+            "person_id": "68738773",
+            "role_id": "35236655",
+            "person_name": "Lars M\u00fcller",
+            "person_date": "Norwegian, born 1955",
+            "role_name": "Designer",
+            "role_display_name": "Designed by",
+            "person_url": "http:\/\/collection.cooperhewitt.org\/people\/68738773\/",
+            "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
     ],
     "tombstone": {
@@ -64,16 +112,35 @@
     },
     "colors": [
         {
-            "color": "#b93941",
-            "closest_css3": "#a52a2a"
+            "color": "#b73740",
+            "closest_crayola": "#cb4154",
+            "closest_css3": "#a52a2a",
+            "closest_css4": "#a52a2a"
         },
         {
-            "color": "#3aa1b3",
-            "closest_css3": "#20b2aa"
+            "color": "#d59b9e",
+            "closest_crayola": "#d98695",
+            "closest_css3": "#d2b48c",
+            "closest_css4": "#d2b48c"
         },
         {
-            "color": "#c9777b",
-            "closest_css3": "#d87093"
+            "color": "#ca767a",
+            "closest_crayola": "#cc6666",
+            "closest_css3": "#d87093",
+            "closest_css4": "#db7093"
+        },
+        {
+            "color": "#acced6",
+            "closest_crayola": "#9aceeb",
+            "closest_css3": "#b0c4de",
+            "closest_css4": "#b0c4de"
+        },
+        {
+            "color": "#5caebd",
+            "closest_crayola": "#6699cc",
+            "closest_css3": "#5f9ea0",
+            "closest_css4": "#5f9ea0"
         }
-    ]
+    ],
+    "woe:country_name": "Switzerland"
 }

@@ -3,6 +3,7 @@
     "tms:id": "103385",
     "accession_number": "1951-103-50",
     "title": "Textile, late 19th\u2013early 20th century",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18386503\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1925,
     "year_acquired": "1951",
     "decade": null,
-    "woe:country": "23424975",
+    "woe:country_id": "23424975",
     "medium": "Medium: cotton\nTechnique: printed on plain weave",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "H x W: 14.6 x 33 cm (5 3\/4 x 13 in.)",
+    "dimensions_raw": {
+        "height": [
+            "14.61",
+            "centimeters"
+        ],
+        "width": [
+            "33.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Robert W. Friedel",
     "description": "Large curling leaves with twigs bearing small oak-like leaves and small many-petaled flowers. In red, yellow, pale green, pale blue, and white, with black outline, on dark blue ground peppered with black dots. Dotted detail on large leaves. Wide plain unprinted selvedge.",
     "justification": null,
-    "type": {
-        "id": "35251739",
-        "name": "textile"
-    },
+    "woe:country": "23424975",
+    "type": "textile",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/64820_f921f8a58c09db92_b.jpg",
                 "width": 480,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/64820_f921f8a58c09db92_n.jpg",
-                "width": 150,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "64820"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/64820_f921f8a58c09db92_z.jpg",
                 "width": 300,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "64820"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/64820_f921f8a58c09db92_n.jpg",
+                "width": 150,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "64820"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/64820_f921f8a58c09db92_d.gif",
+                "width": 150,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "64820"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/64820_f921f8a58c09db92_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "64820"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/17721_0e4d81913cc9401d_b.jpg",
                 "width": 434,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/17721_0e4d81913cc9401d_n.jpg",
-                "width": 136,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "17721"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/17721_0e4d81913cc9401d_z.jpg",
                 "width": 271,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "17721"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/17721_0e4d81913cc9401d_n.jpg",
+                "width": 136,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "17721"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/17721_0e4d81913cc9401d_d.gif",
+                "width": 136,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "17721"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/17721_0e4d81913cc9401d_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "17721"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18043865",
             "role_id": "35236685",
             "person_name": "Morris & Co.",
+            "person_date": "Merton Abbey, England, 1874\u20131896",
             "role_name": "Maker",
+            "role_display_name": "Made by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18043865\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236685\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18052481",
             "role_id": "35351535",
             "person_name": "Robert W. Friedel",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18052481\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -92,24 +139,35 @@
     },
     "colors": [
         {
-            "color": "#eae2ce",
-            "closest_css3": "#faebd7"
+            "color": "#e5ddc7",
+            "closest_crayola": "#efdecd",
+            "closest_css3": "#dcdcdc",
+            "closest_css4": "#dcdcdc"
         },
         {
-            "color": "#252d3a",
-            "closest_css3": "#2f4f4f"
+            "color": "#313e4d",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#9baea8",
-            "closest_css3": "#a9a9a9"
+            "color": "#a0b4ae",
+            "closest_crayola": "#979aaa",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
         },
         {
-            "color": "#94ab7b",
-            "closest_css3": "#8fbc8f"
+            "color": "#9aae80",
+            "closest_crayola": "#87a96b",
+            "closest_css3": "#8fbc8f",
+            "closest_css4": "#8fbc8f"
         },
         {
-            "color": "#45433c",
-            "closest_css3": "#2f4f4f"
+            "color": "#a74441",
+            "closest_crayola": "#bf4f51",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         }
-    ]
+    ],
+    "woe:country_name": "United Kingdom"
 }

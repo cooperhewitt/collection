@@ -3,6 +3,7 @@
     "tms:id": "132112",
     "accession_number": "1962-191-15",
     "title": "Print, \"Design for a Mantel in the Chinese Taste, plate 36, in One Hundred and Fifty New Designs\", 1756",
+    "title_raw": "Design for a Mantel in the Chinese Taste, plate 36, in One Hundred and Fifty New Designs",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18443259\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1756,
     "year_acquired": "1962",
     "decade": null,
-    "woe:country": "23424975",
+    "woe:country_id": "23424975",
     "medium": "Engraving on paper",
     "markings": null,
     "signed": "Signed in plate, lower left: T Johnson inv del; lower right: B. Clowes sculp.",
     "inscribed": "Inscribed in plate, upper left: 36.; lower center: Publishing according to Act of Parliament 1756",
     "provenance": null,
     "dimensions": "24.9 x 17.6 cm (9 13\/16 x 6 15\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "24.90",
+            "centimeters"
+        ],
+        "width": [
+            "17.60",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase through gift of Agnes Miles Carpenter",
     "description": "Design for a fireplace mantel and irons in the Chinoiserie style. Above, a putti astride a flying bird carrying lightning bolts. Directly below, a painting of a ship in a storm. Birds, tree branches and a marine caryatid below, at either side.",
     "justification": null,
-    "type": {
-        "id": "35236873",
-        "name": "Print"
-    },
+    "woe:country": "23424975",
+    "type": "Print",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/25000_6f15245c7b849ab2_b.jpg",
                 "width": 746,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/25000_6f15245c7b849ab2_n.jpg",
-                "width": 233,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "25000"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/25000_6f15245c7b849ab2_z.jpg",
                 "width": 466,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "25000"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/25000_6f15245c7b849ab2_n.jpg",
+                "width": 233,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "25000"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/25000_6f15245c7b849ab2_d.gif",
+                "width": 233,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "25000"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/25000_6f15245c7b849ab2_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "25000"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "51676457",
             "role_id": "35352245",
             "person_name": "Karin Zonis",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/51676457\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18060133",
             "role_id": "35236655",
             "person_name": "Thomas Johnson",
+            "person_date": "English, 1714\u20131778",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18060133\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -70,9 +100,21 @@
             "person_id": "18536633",
             "role_id": "35352249",
             "person_name": "James J. Kane",
+            "person_date": "",
             "role_name": "Vendor",
+            "role_display_name": "Purchased from",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18536633\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352249\/"
+        },
+        {
+            "person_id": "68737103",
+            "role_id": "35236743",
+            "person_name": "Butler Clowes",
+            "person_date": "English, 1714\u20131778",
+            "role_name": "Engraver",
+            "role_display_name": "Engraved by",
+            "person_url": "http:\/\/collection.cooperhewitt.org\/people\/68737103\/",
+            "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236743\/"
         }
     ],
     "tombstone": {
@@ -80,16 +122,29 @@
     },
     "colors": [
         {
-            "color": "#9e9684",
-            "closest_css3": "#bc8f8f"
+            "color": "#e9e1cf",
+            "closest_crayola": "#efdecd",
+            "closest_css3": "#dcdcdc",
+            "closest_css4": "#dcdcdc"
         },
         {
-            "color": "#706859",
-            "closest_css3": "#696969"
+            "color": "#b0a795",
+            "closest_crayola": "#979aaa",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
         },
         {
-            "color": "#524b3e",
-            "closest_css3": "#556b2f"
+            "color": "#837c6b",
+            "closest_crayola": "#8a795d",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
+        },
+        {
+            "color": "#5c5447",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         }
-    ]
+    ],
+    "woe:country_name": "United Kingdom"
 }

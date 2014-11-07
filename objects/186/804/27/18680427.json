@@ -3,6 +3,7 @@
     "tms:id": "215688",
     "accession_number": "1999-63-1",
     "title": "Vase, \"\"Light Gatherer\"\", 20th century",
+    "title_raw": "\"Light Gatherer\"",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18680427\/",
     "department_id": "35347497",
     "period_id": null,
@@ -13,39 +14,68 @@
     "year_end": 2000,
     "year_acquired": "1999",
     "decade": "1900",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "porcelain",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "H x W x D: 13.9 x 16 x 15cm (5 1\/2 x 6 5\/16 x 5 7\/8in.)",
+    "dimensions_raw": {
+        "depth": [
+            "15.00",
+            "centimeters"
+        ],
+        "height": [
+            "13.90",
+            "centimeters"
+        ],
+        "width": [
+            "16.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Helen W. Drutt English and Rudolf Staffel",
     "description": "Roughly cylindrical form with undulating mouth, the clear-glazed white body constructed of irregular flat and curled slabs roughly joined and overlapping to create a wall and floor of varying thickness and translucence.",
     "justification": null,
-    "type": {
-        "id": "35237225",
-        "name": "Vase"
-    },
+    "woe:country": "23424977",
+    "type": "Vase",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/14196_05a3a04bd06210a5_b.jpg",
                 "width": 994,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/14196_05a3a04bd06210a5_n.jpg",
-                "width": 311,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "14196"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/14196_05a3a04bd06210a5_z.jpg",
                 "width": 621,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "14196"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/14196_05a3a04bd06210a5_n.jpg",
+                "width": 311,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "14196"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/14196_05a3a04bd06210a5_d.gif",
+                "width": 311,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "14196"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/14196_05a3a04bd06210a5_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "14196"
             }
         }
     ],
@@ -54,7 +84,9 @@
             "person_id": "18052091",
             "role_id": "35236685",
             "person_name": "Rudolf Staffel",
+            "person_date": "1911 \u2013 2002",
             "role_name": "Maker",
+            "role_display_name": "Made by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18052091\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236685\/"
         },
@@ -62,7 +94,9 @@
             "person_id": "18052091",
             "role_id": "35351535",
             "person_name": "Rudolf Staffel",
+            "person_date": "1911 \u2013 2002",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18052091\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -70,7 +104,9 @@
             "person_id": "18041065",
             "role_id": "35351535",
             "person_name": "Helen W. Drutt English",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041065\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -80,8 +116,11 @@
     },
     "colors": [
         {
-            "color": "#787971",
-            "closest_css3": "#808080"
+            "color": "#797a71",
+            "closest_crayola": "#757575",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

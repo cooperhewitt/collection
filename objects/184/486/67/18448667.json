@@ -3,6 +3,7 @@
     "tms:id": "134849",
     "accession_number": "1963-39-707",
     "title": "Drawing, \"Study for an Exhibition Poster, Wildenstein and Co.\", ca. 1936",
+    "title_raw": "Study for an Exhibition Poster, Wildenstein and Co.",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18448667\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1941,
     "year_acquired": "1963",
     "decade": "1930",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Brush and gouache, graphite on thin paper",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "Mrs. E. McKnight Kauffer",
     "dimensions": "24.9 x 23.8 cm (9 13\/16 x 9 3\/8 in.)",
+    "dimensions_raw": {
+        "height": [
+            "24.90",
+            "centimeters"
+        ],
+        "width": [
+            "23.80",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Mrs. E. McKnight Kauffer",
     "description": "A shield with a star in one corner and a palette in outline. Upper right, canvas on easel draped with a red cloth. Below, in gray gouache: Wildenstein.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424977",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/54982_75e1cf8b003fea77_b.jpg",
                 "width": 982,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/54982_75e1cf8b003fea77_n.jpg",
-                "width": 307,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "54982"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/54982_75e1cf8b003fea77_z.jpg",
                 "width": 614,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "54982"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/54982_75e1cf8b003fea77_n.jpg",
+                "width": 307,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "54982"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/54982_75e1cf8b003fea77_d.gif",
+                "width": 307,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "54982"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/54982_75e1cf8b003fea77_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "54982"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18041923",
             "role_id": "35236655",
             "person_name": "Edward McKnight Kauffer",
+            "person_date": "American, active England, 1890\u20131954",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041923\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "51676457",
             "role_id": "35352245",
             "person_name": "Karin Zonis",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/51676457\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18061849",
             "role_id": "35351535",
             "person_name": "Mrs. Edward McKnight Kauffer",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18061849\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -80,20 +112,35 @@
     },
     "colors": [
         {
-            "color": "#a6adb7",
-            "closest_css3": "#a9a9a9"
+            "color": "#b5bac1",
+            "closest_crayola": "#b0b7c6",
+            "closest_css3": "#c0c0c0",
+            "closest_css4": "#c0c0c0"
         },
         {
-            "color": "#972129",
-            "closest_css3": "#a52a2a"
+            "color": "#ddd9c9",
+            "closest_crayola": "#dbd7d2",
+            "closest_css3": "#d3d3d3",
+            "closest_css4": "#d3d3d3"
         },
         {
-            "color": "#372d2b",
-            "closest_css3": "#2f4f4f"
+            "color": "#982129",
+            "closest_crayola": "#9c2542",
+            "closest_css3": "#a52a2a",
+            "closest_css4": "#a52a2a"
         },
         {
-            "color": "#f3efd6",
-            "closest_css3": "#faebd7"
+            "color": "#392b29",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
+        },
+        {
+            "color": "#403f3b",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

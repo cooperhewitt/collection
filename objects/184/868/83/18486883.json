@@ -3,6 +3,7 @@
     "tms:id": "154308",
     "accession_number": "1975-11-50",
     "title": "Drawing, \"Bathroom Rug Design: Sea Themes\", 1930\u201335",
+    "title_raw": "Bathroom Rug Design: Sea Themes",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18486883\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1935,
     "year_acquired": "1975",
     "decade": "1930",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Graphite, white crayon, red crayon, blue crayon on tracing paper, ruled circular border in graphite",
     "markings": null,
     "signed": null,
     "inscribed": "Inscribed in graphite throughout: beige\/dark brown\/light Y.R.\/light blue\/darkBrown\/beige\/light Y R.\/beige eye; at lower center: #2; at lower right: 9\" [...] (symbol for round)",
     "provenance": null,
     "dimensions": "36 x 45.1 cm (14 3\/16 x 17 3\/4 in.)\nuneven edges\nMat:  40.6 x 55.9 cm (16 x 22 in.)",
+    "dimensions_raw": {
+        "height": [
+            "36.00",
+            "centimeters"
+        ],
+        "width": [
+            "55.90",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Donald Deskey",
     "description": "Circle drawn lightly in pencil at center of page with light blue circular form in center. Elements of sea life are in the circle.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424977",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/39573_207eeee8dc8e81a3_b.jpg",
                 "width": 1024,
                 "height": 780,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/39573_207eeee8dc8e81a3_n.jpg",
-                "width": 320,
-                "height": 244,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "39573"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/39573_207eeee8dc8e81a3_z.jpg",
                 "width": 640,
                 "height": 487,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "39573"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/39573_207eeee8dc8e81a3_n.jpg",
+                "width": 320,
+                "height": 244,
+                "is_primary": "1",
+                "image_id": "39573"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/39573_207eeee8dc8e81a3_d.gif",
+                "width": 320,
+                "height": 244,
+                "is_primary": "1",
+                "image_id": "39573"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/39573_207eeee8dc8e81a3_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "39573"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18065437",
             "role_id": "35352245",
             "person_name": "Stacey Leonard",
+            "person_date": "American",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18065437\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18041973",
             "role_id": "35351535",
             "person_name": "Donald Deskey",
+            "person_date": "American, 1894\u20131989",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041973\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18047481",
             "role_id": "35352245",
             "person_name": "Eleonore Kissel",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047481\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -78,7 +110,9 @@
             "person_id": "18048255",
             "role_id": "35352245",
             "person_name": "Dr. Gail Davidson",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18048255\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -86,7 +120,9 @@
             "person_id": "18041973",
             "role_id": "35236703",
             "person_name": "Donald Deskey",
+            "person_date": "American, 1894\u20131989",
             "role_name": "Office of",
+            "role_display_name": "Office of",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041973\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236703\/"
         }
@@ -96,12 +132,17 @@
     },
     "colors": [
         {
-            "color": "#9e957d",
-            "closest_css3": "#bc8f8f"
+            "color": "#9d957d",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#686252",
-            "closest_css3": "#696969"
+            "color": "#676152",
+            "closest_crayola": "#6e5160",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

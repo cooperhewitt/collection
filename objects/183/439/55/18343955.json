@@ -3,6 +3,7 @@
     "tms:id": "55824",
     "accession_number": "1937-1-2",
     "title": "Printed Textile, \"Americana Print: April\", 1925",
+    "title_raw": "Americana Print: April",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18343955\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1925,
     "year_acquired": "1937",
     "decade": "1920",
-    "woe:country": "23424977",
-    "medium": "Medium: silk\nTechnique: printed",
+    "woe:country_id": "23424977",
+    "medium": "Medium: silk\nTechnique: printed by engraved roller\nLabel: silk printed by engraved roller",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "H x W: 25 x 114 cm (9 13\/16 x 44 7\/8 in.)",
+    "dimensions_raw": {
+        "height": [
+            "25.00",
+            "centimeters"
+        ],
+        "width": [
+            "114.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Marian Hague",
     "description": "People walking under large umbrellas in the (slanting) rain with rainbows. Umbrellas are lavender, orange, and brown; rainbows are red, blue, and yellow on a white ground.",
     "justification": null,
-    "type": {
-        "id": "35287709",
-        "name": "Printed textile"
-    },
+    "woe:country": "23424977",
+    "type": "Printed textile",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/43110_4248f9e231f6469c_b.jpg",
                 "width": 1024,
                 "height": 271,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/43110_4248f9e231f6469c_n.jpg",
-                "width": 320,
-                "height": 85,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "43110"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/43110_4248f9e231f6469c_z.jpg",
                 "width": 640,
                 "height": 169,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "43110"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/43110_4248f9e231f6469c_n.jpg",
+                "width": 320,
+                "height": 85,
+                "is_primary": "1",
+                "image_id": "43110"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/43110_4248f9e231f6469c_d.gif",
+                "width": 320,
+                "height": 85,
+                "is_primary": "1",
+                "image_id": "43110"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/43110_4248f9e231f6469c_sq.jpg",
+                "width": 300,
+                "height": 271,
+                "is_primary": "1",
+                "image_id": "43110"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/3146_33ebb2a831118265_b.jpg",
                 "width": 1024,
                 "height": 702,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/3146_33ebb2a831118265_n.jpg",
-                "width": 320,
-                "height": 219,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "3146"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/3146_33ebb2a831118265_z.jpg",
                 "width": 640,
                 "height": 439,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "3146"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/3146_33ebb2a831118265_n.jpg",
+                "width": 320,
+                "height": 219,
+                "is_primary": "0",
+                "image_id": "3146"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/3146_33ebb2a831118265_d.gif",
+                "width": 320,
+                "height": 219,
+                "is_primary": "0",
+                "image_id": "3146"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/3146_33ebb2a831118265_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "3146"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18052465",
             "role_id": "35351535",
             "person_name": "Marian Hague",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18052465\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18047459",
             "role_id": "35352245",
             "person_name": "Gillian Moss",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047459\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -90,7 +137,9 @@
             "person_id": "18045851",
             "role_id": "35236681",
             "person_name": "Stehli Silk Corporation",
+            "person_date": "New York, NY",
             "role_name": "Company",
+            "role_display_name": "Company:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18045851\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236681\/"
         },
@@ -98,30 +147,41 @@
             "person_id": "18045849",
             "role_id": "35236655",
             "person_name": "Clayton Knight",
+            "person_date": "American, 1891 - 1969",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18045849\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
     ],
     "tombstone": {
-        "epitaph": "Printed Textile, \"Americana Print: April\", 1925. Medium: silk\nTechnique: printed. Gift of Marian Hague. 1937-1-2."
+        "epitaph": "Printed Textile, \"Americana Print: April\", 1925. Medium: silk\nTechnique: printed by engraved roller\nLabel: silk printed by engraved roller. Gift of Marian Hague. 1937-1-2."
     },
     "colors": [
         {
-            "color": "#b89b5b",
-            "closest_css3": "#bdb76b"
+            "color": "#ae9358",
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#cd853f",
+            "closest_css4": "#cd853f"
         },
         {
-            "color": "#d4c6a0",
-            "closest_css3": "#d2b48c"
+            "color": "#dbcea7",
+            "closest_crayola": "#edd19c",
+            "closest_css3": "#eee8aa",
+            "closest_css4": "#eee8aa"
         },
         {
-            "color": "#7a9a94",
-            "closest_css3": "#778899"
+            "color": "#8caf9f",
+            "closest_crayola": "#979aaa",
+            "closest_css3": "#8fbc8f",
+            "closest_css4": "#8fbc8f"
         },
         {
-            "color": "#c68143",
-            "closest_css3": "#cd853f"
+            "color": "#c2864a",
+            "closest_crayola": "#d68a59",
+            "closest_css3": "#cd853f",
+            "closest_css4": "#cd853f"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

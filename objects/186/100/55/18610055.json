@@ -3,6 +3,7 @@
     "tms:id": "98538",
     "accession_number": "1948-40-63",
     "title": "Drawing, \"Wall Decoration with Oriental Landscape, probably for Conservatory\/Music Room, Royal Pavilion, Brighton\", 1815\u201322",
+    "title_raw": "Wall Decoration with Oriental Landscape, probably for Conservatory\/Music Room, Royal Pavilion, Brighton",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18610055\/",
     "department_id": "35347493",
     "period_id": "35417337",
@@ -13,39 +14,64 @@
     "year_end": 1837,
     "year_acquired": "1948",
     "decade": null,
-    "woe:country": "23424975",
+    "woe:country_id": "23424975",
     "medium": "Brush and watercolor, pen and black ink, graphite on white wove paper",
     "markings": "Stamps: Cooper Union Museum stamp on verso",
     "signed": null,
     "inscribed": null,
     "provenance": "1948: acquired by Museum (from Mrs. K. Gregory)",
     "dimensions": "17.6 x 22.6 cm (6 15\/16 x 8 7\/8 in.)",
+    "dimensions_raw": {
+        "height": [
+            "17.60",
+            "centimeters"
+        ],
+        "width": [
+            "45.70",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase through gift of Mrs. John Innes Kane",
     "description": "Design for a wall panel, the central area occupied by a large painting of a Chinese landscape with processional figures in the foreground. The painting is enclosed in a border of trellis-work, flanked by narrow vertical panels and columns, entwined by serpents.\n\nOriginal album associated with this collection still exists: see 1948-40-1 accessory.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424975",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/5071_5131c986ccc6629d_b.jpg",
                 "width": 1024,
                 "height": 790,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/5071_5131c986ccc6629d_n.jpg",
-                "width": 320,
-                "height": 247,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "5071"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/5071_5131c986ccc6629d_z.jpg",
                 "width": 640,
                 "height": 494,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "5071"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/5071_5131c986ccc6629d_n.jpg",
+                "width": 320,
+                "height": 247,
+                "is_primary": "1",
+                "image_id": "5071"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/5071_5131c986ccc6629d_d.gif",
+                "width": 320,
+                "height": 247,
+                "is_primary": "1",
+                "image_id": "5071"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/5071_5131c986ccc6629d_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "5071"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18047443",
             "role_id": "35352245",
             "person_name": "Megan L. Smith",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047443\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18047625",
             "role_id": "35352245",
             "person_name": "E. Maurice Bloch",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047625\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18539479",
             "role_id": "35352249",
             "person_name": "Mrs. K. Gregory",
+            "person_date": "",
             "role_name": "Vendor",
+            "role_display_name": "Purchased from",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18539479\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352249\/"
         },
@@ -78,7 +110,9 @@
             "person_id": "18042071",
             "role_id": "35236667",
             "person_name": "George IV, King of England",
+            "person_date": "",
             "role_name": "Client",
+            "role_display_name": "Client:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18042071\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236667\/"
         },
@@ -86,7 +120,9 @@
             "person_id": "18042069",
             "role_id": "35236663",
             "person_name": "Frederick Crace",
+            "person_date": "English, 1779\u20131859",
             "role_name": "Architect",
+            "role_display_name": "Architect:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18042069\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236663\/"
         }
@@ -96,24 +132,35 @@
     },
     "colors": [
         {
-            "color": "#dacab8",
-            "closest_css3": "#c0c0c0"
+            "color": "#e1d3c4",
+            "closest_crayola": "#dbd7d2",
+            "closest_css3": "#d3d3d3",
+            "closest_css4": "#d3d3d3"
         },
         {
-            "color": "#bb1f19",
-            "closest_css3": "#b22222"
+            "color": "#bf271f",
+            "closest_crayola": "#9c2542",
+            "closest_css3": "#b22222",
+            "closest_css4": "#b22222"
         },
         {
-            "color": "#a9a594",
-            "closest_css3": "#a9a9a9"
+            "color": "#d1af90",
+            "closest_crayola": "#deaa88",
+            "closest_css3": "#d2b48c",
+            "closest_css4": "#d2b48c"
         },
         {
-            "color": "#adb5b7",
-            "closest_css3": "#a9a9a9"
+            "color": "#c97969",
+            "closest_crayola": "#cc6666",
+            "closest_css3": "#cd5c5c",
+            "closest_css4": "#cd5c5c"
         },
         {
-            "color": "#c7a57c",
-            "closest_css3": "#d2b48c"
+            "color": "#25425a",
+            "closest_crayola": "#1a4876",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         }
-    ]
+    ],
+    "woe:country_name": "United Kingdom"
 }

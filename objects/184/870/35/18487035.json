@@ -3,6 +3,7 @@
     "tms:id": "154384",
     "accession_number": "1975-11-57",
     "title": "Drawing, \"Greeting Card: Vanishing\", 1930s",
+    "title_raw": "Greeting Card: Vanishing",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18487035\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1939,
     "year_acquired": "1975",
     "decade": "1930",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Brush and gray, black gouache, graphite on white wove paper",
     "markings": null,
     "signed": null,
     "inscribed": "Signed in graphite, at lower right: BW [?] Soiled",
     "provenance": "Donald Deskey, New York; 1975: acquired by Museum",
     "dimensions": "(folded): 24.4 x 16.5 cm (9 5\/8 x 6 1\/2 in.)\nMat: 45.7 x 35.6 cm (18 x 14 in.)\nOther (full sheet): 24.4 x 33 cm (9 5\/8 x 13 in.)",
+    "dimensions_raw": {
+        "height": [
+            "24.40",
+            "centimeters"
+        ],
+        "width": [
+            "33.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Donald Deskey",
     "description": "Stylized depictions of leaves drawn within triangular shapes in white, black and grey.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424977",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/39574_e54b97b5569e2451_b.jpg",
                 "width": 690,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/39574_e54b97b5569e2451_n.jpg",
-                "width": 216,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "39574"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/39574_e54b97b5569e2451_z.jpg",
                 "width": 431,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "39574"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/39574_e54b97b5569e2451_n.jpg",
+                "width": 216,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "39574"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/39574_e54b97b5569e2451_d.gif",
+                "width": 216,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "39574"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/39574_e54b97b5569e2451_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "39574"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18065437",
             "role_id": "35352245",
             "person_name": "Stacey Leonard",
+            "person_date": "American",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18065437\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18041973",
             "role_id": "35351535",
             "person_name": "Donald Deskey",
+            "person_date": "American, 1894\u20131989",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041973\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18047481",
             "role_id": "35352245",
             "person_name": "Eleonore Kissel",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047481\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -78,7 +110,9 @@
             "person_id": "18048255",
             "role_id": "35352245",
             "person_name": "Dr. Gail Davidson",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18048255\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -86,7 +120,9 @@
             "person_id": "18041973",
             "role_id": "35236703",
             "person_name": "Donald Deskey",
+            "person_date": "American, 1894\u20131989",
             "role_name": "Office of",
+            "role_display_name": "Office of",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041973\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236703\/"
         }
@@ -96,8 +132,17 @@
     },
     "colors": [
         {
-            "color": "#e4dfc7",
-            "closest_css3": "#dcdcdc"
+            "color": "#e3dec6",
+            "closest_crayola": "#efdecd",
+            "closest_css3": "#dcdcdc",
+            "closest_css4": "#dcdcdc"
+        },
+        {
+            "color": "#6e7074",
+            "closest_crayola": "#757575",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

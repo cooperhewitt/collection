@@ -3,6 +3,7 @@
     "tms:id": "19089",
     "accession_number": "1912-12-84",
     "title": "Drawing, \"Bay at Tynemouth\", 1881",
+    "title_raw": "Bay at Tynemouth",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18175399\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1881,
     "year_acquired": "1912",
     "decade": null,
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Charcoal, white chalk on white paper",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "Charles Savage Homer, Jr.",
     "dimensions": "34 x 55.6 cm (13 3\/8 x 21 7\/8 in.)",
+    "dimensions_raw": {
+        "height": [
+            "34.00",
+            "centimeters"
+        ],
+        "width": [
+            "55.60",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Charles Savage Homer, Jr.",
     "description": "Horizontal view of the bay at Cullercoats with waves breaking on the sand followed by a darker area of rocks, in right foreground, and a jutting point of land, at right background, with suggestions of ruins of Tynemouth Priory outlined against a sky made up of white clouds at right and large dark masses at left.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424977",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/1162_c2713cfa82cc67f9_b.jpg",
                 "width": 1024,
                 "height": 629,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/1162_c2713cfa82cc67f9_n.jpg",
-                "width": 320,
-                "height": 197,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "1162"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/1162_c2713cfa82cc67f9_z.jpg",
                 "width": 640,
                 "height": 393,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "1162"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/1162_c2713cfa82cc67f9_n.jpg",
+                "width": 320,
+                "height": 197,
+                "is_primary": "1",
+                "image_id": "1162"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/1162_c2713cfa82cc67f9_d.gif",
+                "width": 320,
+                "height": 197,
+                "is_primary": "1",
+                "image_id": "1162"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/1162_c2713cfa82cc67f9_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "1162"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18047639",
             "role_id": "35352245",
             "person_name": "Adrienne Sturbois",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047639\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18052379",
             "role_id": "35352245",
             "person_name": "Calvin S.  Hathaway",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18052379\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18047399",
             "role_id": "35352245",
             "person_name": "Gregory Herringshaw",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047399\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -78,7 +110,9 @@
             "person_id": "18537931",
             "role_id": "35351535",
             "person_name": "Charles Savage Homer, Jr.",
+            "person_date": "American, 1834\u20131917",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18537931\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -86,7 +120,9 @@
             "person_id": "18041949",
             "role_id": "35236565",
             "person_name": "Winslow Homer",
+            "person_date": "American, 1836\u20131910",
             "role_name": "Artist",
+            "role_display_name": "",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041949\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236565\/"
         }
@@ -96,16 +132,23 @@
     },
     "colors": [
         {
-            "color": "#baa49c",
-            "closest_css3": "#a9a9a9"
+            "color": "#beaca5",
+            "closest_crayola": "#b0b7c6",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
         },
         {
-            "color": "#83706a",
-            "closest_css3": "#696969"
+            "color": "#9a8680",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#5d4c47",
-            "closest_css3": "#556b2f"
+            "color": "#7e6c66",
+            "closest_crayola": "#757575",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

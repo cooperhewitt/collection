@@ -3,6 +3,7 @@
     "tms:id": "75302",
     "accession_number": "1941-69-233",
     "title": "Sampler, 1814",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18564199\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1814,
     "year_acquired": "1941",
     "decade": null,
-    "woe:country": "23424950",
+    "woe:country_id": "23424950",
     "medium": "Medium: silk embroidery, linen foundation\nTechnique: double running, counted satin, hem, fishbone and cross stitches on plain weave",
     "markings": null,
     "signed": "Estefana del Sol",
     "inscribed": "Translation: Made by Estefana del Sol in the Royal Palace at Aranjuez. Long live Ferdinando VII King of Spain",
     "provenance": "ex. coll. Mrs. Henry E. Coe (Eva Johnston Coe)",
     "dimensions": "Warp x Weft: 39.5 x 40.5 cm (15 9\/16 x 15 15\/16 in.)",
+    "dimensions_raw": {
+        "warp": [
+            "39.50",
+            "centimeters"
+        ],
+        "weft": [
+            "40.50",
+            "centimeters"
+        ]
+    },
     "creditline": "Bequest of Mrs. Henry E. Coe",
     "description": "Viva F D O VII under a crown with medallion and flags.  Surrounded by detached motifs and five borders.  Inscription translation: Made by Estefana del Sol in the Royal Palace at Aranjuez. Long live Ferdinando VII King of Spain",
     "justification": null,
-    "type": {
-        "id": "35256439",
-        "name": "Sampler"
-    },
+    "woe:country": "23424950",
+    "type": "Sampler",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/29169_169279dd37486e5b_b.jpg",
                 "width": 1024,
                 "height": 1001,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/29169_169279dd37486e5b_n.jpg",
-                "width": 320,
-                "height": 313,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "29169"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/29169_169279dd37486e5b_z.jpg",
                 "width": 640,
                 "height": 625,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "29169"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/29169_169279dd37486e5b_n.jpg",
+                "width": 320,
+                "height": 313,
+                "is_primary": "1",
+                "image_id": "29169"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/29169_169279dd37486e5b_d.gif",
+                "width": 320,
+                "height": 313,
+                "is_primary": "1",
+                "image_id": "29169"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/29169_169279dd37486e5b_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "29169"
             }
         }
     ],
@@ -54,9 +80,21 @@
             "person_id": "18052567",
             "role_id": "35351537",
             "person_name": "Mrs. Henry E. Coe",
+            "person_date": "",
             "role_name": "Bequestor",
+            "role_display_name": "Bequest of",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18052567\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351537\/"
+        },
+        {
+            "person_id": "68737371",
+            "role_id": "35236583",
+            "person_name": "Estefana del Sol",
+            "person_date": "",
+            "role_name": "Embroiderer",
+            "role_display_name": "Embroidered by",
+            "person_url": "http:\/\/collection.cooperhewitt.org\/people\/68737371\/",
+            "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236583\/"
         }
     ],
     "tombstone": {
@@ -64,24 +102,35 @@
     },
     "colors": [
         {
-            "color": "#cae5df",
-            "closest_css3": "#dcdcdc"
+            "color": "#c9d4d1",
+            "closest_crayola": "#dbd7d2",
+            "closest_css3": "#d3d3d3",
+            "closest_css4": "#d3d3d3"
         },
         {
-            "color": "#c4ccd2",
-            "closest_css3": "#d3d3d3"
+            "color": "#aba9a2",
+            "closest_crayola": "#979aaa",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
         },
         {
-            "color": "#9a866d",
-            "closest_css3": "#808080"
+            "color": "#9a866f",
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#84624a",
-            "closest_css3": "#696969"
+            "color": "#826650",
+            "closest_crayola": "#85754e",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#cacdbb",
-            "closest_css3": "#c0c0c0"
+            "color": "#52758e",
+            "closest_crayola": "#4a646c",
+            "closest_css3": "#708090",
+            "closest_css4": "#708090"
         }
-    ]
+    ],
+    "woe:country_name": "Spain"
 }

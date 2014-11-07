@@ -3,6 +3,7 @@
     "tms:id": "228475",
     "accession_number": "2006-13-2",
     "title": "Textile, \"Rallo\", 1957",
+    "title_raw": "Rallo",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18705339\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1957,
     "year_acquired": "2006",
     "decade": "1950",
-    "woe:country": "23424982",
+    "woe:country_id": "23424982",
     "medium": "Medium: wool\nTechnique: plain weave with discontinuous wefts (slit tapestry with wrapping, four selvedges)",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "2006: acquired by Museum (from Sheila Hicks)",
     "dimensions": "Warp x Weft: 24 x 13 cm (9 7\/16 x 5 1\/8 in.)",
+    "dimensions_raw": {
+        "warp": [
+            "24.00",
+            "centimeters"
+        ],
+        "weft": [
+            "13.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase from General Acquisitions Endowment Fund",
     "description": "Ochre warp with blue, purple, mauve, and brown wefts. The top is woven solidly across, but ends in five long tabs at the bottom. An area of wrapping occurs near the upper left corner.",
     "justification": null,
-    "type": {
-        "id": "35251739",
-        "name": "textile"
-    },
+    "woe:country": "23424982",
+    "type": "textile",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/35234_ab4ef178da765f8c_b.jpg",
                 "width": 624,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/35234_ab4ef178da765f8c_n.jpg",
-                "width": 195,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "35234"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/35234_ab4ef178da765f8c_z.jpg",
                 "width": 390,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "35234"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/35234_ab4ef178da765f8c_n.jpg",
+                "width": 195,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "35234"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/35234_ab4ef178da765f8c_d.gif",
+                "width": 195,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "35234"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/35234_ab4ef178da765f8c_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "35234"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/25389_70772466614575b5_b.jpg",
                 "width": 620,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/25389_70772466614575b5_n.jpg",
-                "width": 194,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "25389"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/25389_70772466614575b5_z.jpg",
                 "width": 388,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "25389"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/25389_70772466614575b5_n.jpg",
+                "width": 194,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "25389"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/25389_70772466614575b5_d.gif",
+                "width": 194,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "25389"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/25389_70772466614575b5_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "25389"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18048535",
             "role_id": "35352247",
             "person_name": "General Acquisitions Endowment",
+            "person_date": "",
             "role_name": "Fund",
+            "role_display_name": "Fund:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18048535\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352247\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18058887",
             "role_id": "35352249",
             "person_name": "Sheila Hicks",
+            "person_date": "American, b. 1934",
             "role_name": "Vendor",
+            "role_display_name": "Purchased from",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18058887\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352249\/"
         },
@@ -90,7 +137,9 @@
             "person_id": "18058887",
             "role_id": "35236685",
             "person_name": "Sheila Hicks",
+            "person_date": "American, b. 1934",
             "role_name": "Maker",
+            "role_display_name": "Made by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18058887\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236685\/"
         }
@@ -100,24 +149,35 @@
     },
     "colors": [
         {
-            "color": "#242535",
-            "closest_css3": "#2f4f4f"
+            "color": "#1c1d2f",
+            "closest_crayola": "#000000",
+            "closest_css3": "#000000",
+            "closest_css4": "#000000"
         },
         {
-            "color": "#352e2a",
-            "closest_css3": "#2f4f4f"
+            "color": "#3e3123",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#654e30",
-            "closest_css3": "#556b2f"
+            "color": "#634b2d",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         },
         {
-            "color": "#68637d",
-            "closest_css3": "#696969"
+            "color": "#433e50",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#49445a",
-            "closest_css3": "#2f4f4f"
+            "color": "#64607b",
+            "closest_crayola": "#757575",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         }
-    ]
+    ],
+    "woe:country_name": "Venezuela"
 }

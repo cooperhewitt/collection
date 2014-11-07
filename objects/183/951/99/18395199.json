@@ -3,6 +3,7 @@
     "tms:id": "107758",
     "accession_number": "1953-158-3",
     "title": "Scenic - Panel, \"\"Le Jardin d'Armide\" [The Garden of Armida]\", 1854",
+    "title_raw": "\"Le Jardin d'Armide\" [The Garden of Armida]",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18395199\/",
     "department_id": "35347503",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1854,
     "year_acquired": "1953",
     "decade": null,
-    "woe:country": "23424819",
+    "woe:country_id": "23424819",
     "medium": "Block-printed",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "90.5 x 71 cm (35 5\/8 x 27 15\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "90.50",
+            "centimeters"
+        ],
+        "width": [
+            "71.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Arthur V. Stanley",
     "description": "Semi-circular free standing arcade at back surmounted by a trellis roof. Suspended from a gold chain in foreground, a hanging vase filled with very large roses and other flowers. Sepia architectural dado with acanthus enrichment, at bottom. This is one of two pictures that go to make up the scenic.",
     "justification": null,
-    "type": {
-        "id": "35287557",
-        "name": "Scenic - panel"
-    },
+    "woe:country": "23424819",
+    "type": "Scenic - panel",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/27888_f7e93e7fff302acd_b.jpg",
                 "width": 472,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/27888_f7e93e7fff302acd_n.jpg",
-                "width": 147,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "27888"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/27888_f7e93e7fff302acd_z.jpg",
                 "width": 295,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "27888"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/27888_f7e93e7fff302acd_n.jpg",
+                "width": 147,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "27888"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/27888_f7e93e7fff302acd_d.gif",
+                "width": 147,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "27888"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/27888_f7e93e7fff302acd_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "27888"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "51678235",
             "role_id": "35351535",
             "person_name": "Arthur V. Stanley",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/51678235\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18047829",
             "role_id": "35352245",
             "person_name": "Horace L. Hotchkiss, Jr.",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047829\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18046565",
             "role_id": "35236655",
             "person_name": "Edouard Muller",
+            "person_date": "1872",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18046565\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -78,7 +110,9 @@
             "person_id": "18046779",
             "role_id": "35236657",
             "person_name": "Desfoss\u00e9 et Karth",
+            "person_date": "French,  active 1923",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18046779\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         }
@@ -88,24 +122,35 @@
     },
     "colors": [
         {
-            "color": "#4b5e55",
-            "closest_css3": "#2f4f4f"
+            "color": "#4f635b",
+            "closest_crayola": "#4a646c",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#8e8d6b",
-            "closest_css3": "#808080"
+            "color": "#797353",
+            "closest_crayola": "#85754e",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#2d3428",
-            "closest_css3": "#2f4f4f"
+            "color": "#293326",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#75867f",
-            "closest_css3": "#808080"
+            "color": "#aea98b",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         },
         {
-            "color": "#766547",
-            "closest_css3": "#696969"
+            "color": "#604c2e",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         }
-    ]
+    ],
+    "woe:country_name": "France"
 }

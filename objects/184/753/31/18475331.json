@@ -3,6 +3,7 @@
     "tms:id": "148429",
     "accession_number": "1971-62-6",
     "title": "Sidewall, \"Cairo\", 1929",
+    "title_raw": "Cairo",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18475331\/",
     "department_id": "35347503",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1929,
     "year_acquired": "1971",
     "decade": "1920",
-    "woe:country": "23424750",
+    "woe:country_id": "23424750",
     "medium": "Machine-printed on paper",
     "markings": null,
     "signed": null,
     "inscribed": "Printed in margin: \"Wiener Werkstatte\".",
     "provenance": "Harrison Cultra; 1971: acquired by Museum [1]\n\n\n\n\n\n\n\n\n\n\n\n\n\n[1] From the stock of Rose Cummings",
     "dimensions": "92 x 55.5 cm (36 1\/4 x 21 7\/8 in.)",
+    "dimensions_raw": {
+        "height": [
+            "92.00",
+            "centimeters"
+        ],
+        "width": [
+            "55.50",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Harrison Cultra",
     "description": "On blue-gray ground, stylized imitation of drapery with horizontal geometric patterning in black, gray and beige.",
     "justification": null,
-    "type": {
-        "id": "35256475",
-        "name": "Sidewall"
-    },
+    "woe:country": "23424750",
+    "type": "Sidewall",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/41898_7e149bb2587abf85_b.jpg",
                 "width": 624,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/41898_7e149bb2587abf85_n.jpg",
-                "width": 195,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "41898"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/41898_7e149bb2587abf85_z.jpg",
                 "width": 390,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "41898"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/41898_7e149bb2587abf85_n.jpg",
+                "width": 195,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "41898"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/41898_7e149bb2587abf85_d.gif",
+                "width": 195,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "41898"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/41898_7e149bb2587abf85_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "41898"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18052057",
             "role_id": "35236655",
             "person_name": "Maria Strauss Likarz",
+            "person_date": "Austrian, 1893\u20131971",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18052057\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18048101",
             "role_id": "35236685",
             "person_name": "Wiener Werkst\u00e4tte",
+            "person_date": "Vienna, Austria, 1903\u20131932",
             "role_name": "Maker",
+            "role_display_name": "Made by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18048101\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236685\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18536939",
             "role_id": "35351535",
             "person_name": "Harrison Cultra",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18536939\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -78,7 +110,9 @@
             "person_id": "18048007",
             "role_id": "35352245",
             "person_name": "Catherine Lynn Frangiamore",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18048007\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         }
@@ -88,20 +122,23 @@
     },
     "colors": [
         {
-            "color": "#a4b6c0",
-            "closest_css3": "#a9a9a9"
+            "color": "#a0a9ab",
+            "closest_crayola": "#979aaa",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
         },
         {
             "color": "#bbb5a6",
-            "closest_css3": "#a9a9a9"
+            "closest_crayola": "#b0b7c6",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
         },
         {
-            "color": "#4a5057",
-            "closest_css3": "#2f4f4f"
-        },
-        {
-            "color": "#64727c",
-            "closest_css3": "#696969"
+            "color": "#788e9b",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#778899",
+            "closest_css4": "#778899"
         }
-    ]
+    ],
+    "woe:country_name": "Austria"
 }

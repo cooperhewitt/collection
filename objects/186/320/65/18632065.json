@@ -3,6 +3,7 @@
     "tms:id": "190875",
     "accession_number": "1988-92-5",
     "title": "Textile, \"Manhattan\", 1985",
+    "title_raw": "Manhattan",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18632065\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,68 @@
     "year_end": 1985,
     "year_acquired": "1988",
     "decade": "1980",
-    "woe:country": "23424829",
+    "woe:country_id": "23424829",
     "medium": "Medium: cotton\nTechnique: screen printed",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "Warp x Weft: 274.5 x 135 cm (9 ft. 1\/16 in. x 53 1\/8 in.)\nRepeat H: 92 cm (36 1\/4 in.)",
+    "dimensions_raw": {
+        "height": [
+            "92.00",
+            "centimeters"
+        ],
+        "warp": [
+            "274.50",
+            "centimeters"
+        ],
+        "weft": [
+            "135.00",
+            "centimeters"
+        ]
+    },
     "creditline": null,
     "description": "Abstract pattern of geometric shapes on a textured grey ground.",
     "justification": null,
-    "type": {
-        "id": "35251739",
-        "name": "textile"
-    },
+    "woe:country": "23424829",
+    "type": "textile",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/78306_95d9d1520b091654_b.jpg",
                 "width": 671,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/78306_95d9d1520b091654_n.jpg",
-                "width": 210,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "78306"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/78306_95d9d1520b091654_z.jpg",
                 "width": 420,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "78306"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/78306_95d9d1520b091654_n.jpg",
+                "width": 210,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "78306"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/78306_95d9d1520b091654_d.gif",
+                "width": 210,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "78306"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/78306_95d9d1520b091654_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "78306"
             }
         }
     ],
@@ -54,7 +84,9 @@
             "person_id": "18048019",
             "role_id": "35352245",
             "person_name": "lm",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18048019\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -62,7 +94,9 @@
             "person_id": "18045467",
             "role_id": "35236685",
             "person_name": "Taunus Textildruck Zimmer",
+            "person_date": "Oberusel, Germany, est. 1899",
             "role_name": "Maker",
+            "role_display_name": "Made by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18045467\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236685\/"
         },
@@ -70,7 +104,9 @@
             "person_id": "18045459",
             "role_id": "35236655",
             "person_name": "Karl Vogelsang",
+            "person_date": "(German, 1932 - 2006)",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18045459\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -78,7 +114,9 @@
             "person_id": "18045585",
             "role_id": "35236681",
             "person_name": "Vereinigte Werkstatten AG",
+            "person_date": "",
             "role_name": "Company",
+            "role_display_name": "Company:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18045585\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236681\/"
         }
@@ -88,5 +126,6 @@
     },
     "colors": [
 
-    ]
+    ],
+    "woe:country_name": "Germany"
 }

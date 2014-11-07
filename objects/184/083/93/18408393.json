@@ -3,6 +3,7 @@
     "tms:id": "114387",
     "accession_number": "1956-188-1-a,b",
     "title": "Dish, 1900\u201310",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18408393\/",
     "department_id": "35347497",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1910,
     "year_acquired": "1956",
     "decade": null,
-    "woe:country": "23424977",
+    "woe:country_id": "23424936",
     "medium": "Porcelain, overglaze decoration",
     "markings": "Imperial eagle on green shield, legen in cyrilica \"St. Petersburg, Bratiev Kornilovich\".  Below: \"Made in Russia by Kornilow Bros.\"",
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "H x diam.: 0.9 x 17.7 cm (3\/8 x 6 15\/16 in.)",
+    "dimensions_raw": {
+        "diameter": [
+            "17.70",
+            "centimeters"
+        ],
+        "height": [
+            "0.90",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Anonymous Donor",
     "description": "Dessert plate with straight, flat marly decorated with seven red and seven blue hexagonal cartouches with animals.  Between the cartouches green trees, above red stars and below, yellow trees and a red line with dents.",
     "justification": null,
-    "type": {
-        "id": "35248735",
-        "name": "dish"
-    },
+    "woe:country": "23424936",
+    "type": "dish",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/5900_136db47d6c82359f_b.jpg",
                 "width": 1024,
                 "height": 1004,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/5900_136db47d6c82359f_n.jpg",
-                "width": 320,
-                "height": 314,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "5900"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/5900_136db47d6c82359f_z.jpg",
                 "width": 640,
                 "height": 628,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "5900"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/5900_136db47d6c82359f_n.jpg",
+                "width": 320,
+                "height": 314,
+                "is_primary": "1",
+                "image_id": "5900"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/5900_136db47d6c82359f_d.gif",
+                "width": 320,
+                "height": 314,
+                "is_primary": "1",
+                "image_id": "5900"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/5900_136db47d6c82359f_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "5900"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18048035",
             "role_id": "35352245",
             "person_name": "Hedy Backlin-Landman",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18048035\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18052955",
             "role_id": "35236749",
             "person_name": "Tiffany and Co., New York",
+            "person_date": "Corona, New York, USA",
             "role_name": "Retailer",
+            "role_display_name": "Retailed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18052955\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236749\/"
         },
@@ -70,9 +100,21 @@
             "person_id": "18055929",
             "role_id": "35236657",
             "person_name": "Kornilow Bros.",
+            "person_date": "Russian, ?-1917",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18055929\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
+        },
+        {
+            "person_id": "68739079",
+            "role_id": "35351535",
+            "person_name": "Anonymous",
+            "person_date": "",
+            "role_name": "Donor",
+            "role_display_name": "Donated by",
+            "person_url": "http:\/\/collection.cooperhewitt.org\/people\/68739079\/",
+            "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
     ],
     "tombstone": {
@@ -80,24 +122,35 @@
     },
     "colors": [
         {
-            "color": "#bfcbca",
-            "closest_css3": "#c0c0c0"
+            "color": "#b5bfbe",
+            "closest_crayola": "#b0b7c6",
+            "closest_css3": "#c0c0c0",
+            "closest_css4": "#c0c0c0"
         },
         {
-            "color": "#252c26",
-            "closest_css3": "#2f4f4f"
+            "color": "#a5241c",
+            "closest_crayola": "#9c2542",
+            "closest_css3": "#b22222",
+            "closest_css4": "#b22222"
         },
         {
-            "color": "#981f19",
-            "closest_css3": "#a52a2a"
+            "color": "#b7b392",
+            "closest_crayola": "#bab86c",
+            "closest_css3": "#d2b48c",
+            "closest_css4": "#d2b48c"
         },
         {
-            "color": "#311405",
-            "closest_css3": "#000000"
+            "color": "#28180c",
+            "closest_crayola": "#000000",
+            "closest_css3": "#000000",
+            "closest_css4": "#000000"
         },
         {
-            "color": "#0b0a64",
-            "closest_css3": "#191970"
+            "color": "#100d81",
+            "closest_crayola": "#1a4876",
+            "closest_css3": "#000080",
+            "closest_css4": "#000080"
         }
-    ]
+    ],
+    "woe:country_name": "Russia"
 }

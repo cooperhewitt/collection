@@ -3,6 +3,7 @@
     "tms:id": "213679",
     "accession_number": "1998-75-94-a,b",
     "title": "Sidewall, ca. 1860",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18676461\/",
     "department_id": "35347503",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1870,
     "year_acquired": "1998",
     "decade": null,
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Machine-printed",
     "markings": null,
     "signed": null,
     "inscribed": "Printed in selvedge: \"953\".",
     "provenance": null,
     "dimensions": "a) Overall: 99 x 49.5 cm (39 x 19 1\/2 in.)\nb) Overall: 79 x 49.5 cm (31 1\/8 x 19 1\/2 in.)",
+    "dimensions_raw": {
+        "height": [
+            "79.00",
+            "centimeters"
+        ],
+        "width": [
+            "49.50",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of The Museum at The Fashion Institute of Technology",
     "description": "Small-scale diaper or honeycomb pattern with inset of petite purple flower. Printed in selvedge: \"953\".",
     "justification": null,
-    "type": {
-        "id": "35256475",
-        "name": "Sidewall"
-    },
+    "woe:country": "23424977",
+    "type": "Sidewall",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/42902_5b216b90bbb2e708_b.jpg",
                 "width": 521,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/42902_5b216b90bbb2e708_n.jpg",
-                "width": 163,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "42902"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/42902_5b216b90bbb2e708_z.jpg",
                 "width": 326,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "42902"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/42902_5b216b90bbb2e708_n.jpg",
+                "width": 163,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "42902"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/42902_5b216b90bbb2e708_d.gif",
+                "width": 163,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "42902"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/42902_5b216b90bbb2e708_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "42902"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/14955_f22a89fef6859e80_b.jpg",
                 "width": 689,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/14955_f22a89fef6859e80_n.jpg",
-                "width": 215,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "14955"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/14955_f22a89fef6859e80_z.jpg",
                 "width": 431,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "14955"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/14955_f22a89fef6859e80_n.jpg",
+                "width": 215,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "14955"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/14955_f22a89fef6859e80_d.gif",
+                "width": 215,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "14955"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/14955_f22a89fef6859e80_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "14955"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18041743",
             "role_id": "35351535",
             "person_name": "The Museum at The Fashion Institute of Technology",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041743\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -84,24 +129,35 @@
     },
     "colors": [
         {
-            "color": "#8e7a56",
-            "closest_css3": "#808080"
+            "color": "#d3c794",
+            "closest_crayola": "#e7c697",
+            "closest_css3": "#d2b48c",
+            "closest_css4": "#d2b48c"
         },
         {
-            "color": "#3f5b53",
-            "closest_css3": "#2f4f4f"
+            "color": "#9b8761",
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#d8cd9a",
-            "closest_css3": "#deb887"
+            "color": "#856d50",
+            "closest_crayola": "#85754e",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#473d3d",
-            "closest_css3": "#2f4f4f"
+            "color": "#3e5750",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#714b5b",
-            "closest_css3": "#696969"
+            "color": "#615645",
+            "closest_crayola": "#6e5160",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

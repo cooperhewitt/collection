@@ -3,6 +3,7 @@
     "tms:id": "101955",
     "accession_number": "1950-121-3-a,b",
     "title": "Cap Streamers, 18th century",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18383645\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": null,
     "year_acquired": "1950",
     "decade": null,
-    "woe:country": null,
+    "woe:country_id": null,
     "medium": "Medium: linen\nTechnique: bobbin lace, Mechlin ground",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "H x W: 56 x 9.6 cm (22 1\/16 x 3 3\/4 in.)",
+    "dimensions_raw": {
+        "height": [
+            "56.00",
+            "centimeters"
+        ],
+        "width": [
+            "9.60",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Richard C. Greenleaf Esq. in memory of his mother, Adeline Emma Greenleaf",
     "description": "Mechlin-style bobbin lace lappets. Elaborate floral designs symmetrically arranged in a series of enframents of foliage. Deeply scalloped border at end.",
     "justification": null,
-    "type": {
-        "id": "35287503",
-        "name": "Cap streamers"
-    },
+    "woe:country": null,
+    "type": "Cap streamers",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/41951_579616d290ff4219_b.jpg",
                 "width": 400,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/41951_579616d290ff4219_n.jpg",
-                "width": 125,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "41951"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/41951_579616d290ff4219_z.jpg",
                 "width": 250,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "41951"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/41951_579616d290ff4219_n.jpg",
+                "width": 125,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "41951"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/41951_579616d290ff4219_d.gif",
+                "width": 125,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "41951"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/41951_579616d290ff4219_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "41951"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/86398_3ea6c2c9e6df9b75_b.jpg",
                 "width": 442,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/86398_3ea6c2c9e6df9b75_n.jpg",
-                "width": 138,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "86398"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/86398_3ea6c2c9e6df9b75_z.jpg",
                 "width": 277,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "86398"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/86398_3ea6c2c9e6df9b75_n.jpg",
+                "width": 138,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "86398"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/86398_3ea6c2c9e6df9b75_d.gif",
+                "width": 138,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "86398"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/86398_3ea6c2c9e6df9b75_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "86398"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18049377",
             "role_id": "35351535",
             "person_name": "Richard Cranch Greenleaf",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049377\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -84,24 +129,28 @@
     },
     "colors": [
         {
-            "color": "#d2cdc2",
-            "closest_css3": "#d3d3d3"
+            "color": "#cdc7b6",
+            "closest_crayola": "#cdc5c2",
+            "closest_css3": "#c0c0c0",
+            "closest_css4": "#c0c0c0"
         },
         {
-            "color": "#ada59a",
-            "closest_css3": "#a9a9a9"
+            "color": "#9c958b",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         },
         {
-            "color": "#8e857a",
-            "closest_css3": "#808080"
+            "color": "#7c746a",
+            "closest_crayola": "#757575",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#6e655c",
-            "closest_css3": "#696969"
-        },
-        {
-            "color": "#2c2723",
-            "closest_css3": "#2f4f4f"
+            "color": "#46403b",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         }
     ]
 }

@@ -3,6 +3,7 @@
     "tms:id": "159593",
     "accession_number": "1978-6-2-a\/d",
     "title": "Kettle On Stand, \"Chrysanthemum\", 1891\u20131902",
+    "title_raw": "Chrysanthemum",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18497397\/",
     "department_id": "35347497",
     "period_id": null,
@@ -13,39 +14,68 @@
     "year_end": 1902,
     "year_acquired": "1978",
     "decade": null,
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Silver, ivory",
     "markings": "\"TIFFANY & CO\/ 5730 MAKERS ? \/ STERLING SILVER\/925\/ T\" (Dates 1891-1902)",
     "signed": null,
     "inscribed": "Engraved on body at back end of handle, with foliate monogram \"RMA\" (for Roswell A. Miller)",
     "provenance": "Mrs. Roswell Miller; 1978: acquired by Museum",
     "dimensions": "H x W x D: 34.8 x 21.6 x 26.2 cm (13 11\/16 x 8 1\/2 x 10 5\/16 in.)",
+    "dimensions_raw": {
+        "depth": [
+            "26.20",
+            "centimeters"
+        ],
+        "height": [
+            "34.80",
+            "centimeters"
+        ],
+        "width": [
+            "21.60",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Mrs. Roswell Miller",
     "description": "Kettle of squat globular form with reeding, wavy rim, squared curved handle with ivory insulators, spout with chrysanthemums and foliage; domed and reeded lid with flower bud knop. Stand with vertical elements heavily decorated with chrysanthemums and leaves, on square base with burner and four foliate feet.",
     "justification": null,
-    "type": {
-        "id": "35248629",
-        "name": "kettle on stand"
-    },
+    "woe:country": "23424977",
+    "type": "kettle on stand",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/38295_7e90585e430b5fd7_b.jpg",
                 "width": 791,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/38295_7e90585e430b5fd7_n.jpg",
-                "width": 247,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "38295"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/38295_7e90585e430b5fd7_z.jpg",
                 "width": 494,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "38295"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/38295_7e90585e430b5fd7_n.jpg",
+                "width": 247,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "38295"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/38295_7e90585e430b5fd7_d.gif",
+                "width": 247,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "38295"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/38295_7e90585e430b5fd7_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "38295"
             }
         },
         {
@@ -53,19 +83,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/8325_b478d3bbe3b8ff9b_b.jpg",
                 "width": 827,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/8325_b478d3bbe3b8ff9b_n.jpg",
-                "width": 259,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "8325"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/8325_b478d3bbe3b8ff9b_z.jpg",
                 "width": 517,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "8325"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/8325_b478d3bbe3b8ff9b_n.jpg",
+                "width": 259,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "8325"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/8325_b478d3bbe3b8ff9b_d.gif",
+                "width": 259,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "8325"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/8325_b478d3bbe3b8ff9b_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "8325"
             }
         }
     ],
@@ -74,7 +121,9 @@
             "person_id": "18055551",
             "role_id": "35351535",
             "person_name": "Mr. Roswell Miller",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18055551\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -82,7 +131,9 @@
             "person_id": "18052955",
             "role_id": "35236657",
             "person_name": "Tiffany and Co., New York",
+            "person_date": "Corona, New York, USA",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18052955\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         }
@@ -92,16 +143,17 @@
     },
     "colors": [
         {
-            "color": "#948c86",
-            "closest_css3": "#808080"
+            "color": "#7e7670",
+            "closest_crayola": "#757575",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#6d655f",
-            "closest_css3": "#696969"
-        },
-        {
-            "color": "#454140",
-            "closest_css3": "#2f4f4f"
+            "color": "#615954",
+            "closest_crayola": "#6e5160",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

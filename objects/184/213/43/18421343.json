@@ -3,6 +3,7 @@
     "tms:id": "120913",
     "accession_number": "1958-140-13",
     "title": "Textile, 19th\u201320th century",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18421343\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1958,
     "year_acquired": "1958",
     "decade": null,
-    "woe:country": "23424846",
+    "woe:country_id": "23424846",
     "medium": "Medium: cotton\nTechnique: wax resist dyeing (batik) on plain weave",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "H x W: 67 x 24.5 cm (26 3\/8 x 9 5\/8 in.)",
+    "dimensions_raw": {
+        "height": [
+            "67.00",
+            "centimeters"
+        ],
+        "width": [
+            "24.50",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Mrs. Henry J. Bernheim",
     "description": "Long piece of black cotton batik-printed with two repeats of blue-bordered square enclosing rows of triangles, stylized floral, and other traditional batik motifs. In reserved white, tan, brown, and blue.",
     "justification": null,
-    "type": {
-        "id": "35251739",
-        "name": "textile"
-    },
+    "woe:country": "23424846",
+    "type": "textile",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/86616_43942d9355b9c72d_b.jpg",
                 "width": 1024,
                 "height": 710,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/86616_43942d9355b9c72d_n.jpg",
-                "width": 320,
-                "height": 222,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "86616"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/86616_43942d9355b9c72d_z.jpg",
                 "width": 640,
                 "height": 444,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "86616"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/86616_43942d9355b9c72d_n.jpg",
+                "width": 320,
+                "height": 222,
+                "is_primary": "1",
+                "image_id": "86616"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/86616_43942d9355b9c72d_d.gif",
+                "width": 320,
+                "height": 222,
+                "is_primary": "1",
+                "image_id": "86616"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/86616_43942d9355b9c72d_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "86616"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/86615_43942d9355b9c72d_b.jpg",
                 "width": 1024,
                 "height": 710,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/86615_43942d9355b9c72d_n.jpg",
-                "width": 320,
-                "height": 222,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "86615"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/86615_43942d9355b9c72d_z.jpg",
                 "width": 640,
                 "height": 444,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "86615"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/86615_43942d9355b9c72d_n.jpg",
+                "width": 320,
+                "height": 222,
+                "is_primary": "0",
+                "image_id": "86615"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/86615_43942d9355b9c72d_d.gif",
+                "width": 320,
+                "height": 222,
+                "is_primary": "0",
+                "image_id": "86615"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/86615_43942d9355b9c72d_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "86615"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18052629",
             "role_id": "35351535",
             "person_name": "Mrs. Henry J. Bernheim",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18052629\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -84,24 +129,35 @@
     },
     "colors": [
         {
-            "color": "#362a27",
-            "closest_css3": "#2f4f4f"
+            "color": "#e3dac8",
+            "closest_crayola": "#dbd7d2",
+            "closest_css3": "#d3d3d3",
+            "closest_css4": "#d3d3d3"
         },
         {
-            "color": "#643121",
-            "closest_css3": "#8b4513"
+            "color": "#382c29",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#e3d9cb",
-            "closest_css3": "#dcdcdc"
+            "color": "#6a3625",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#8b4513",
+            "closest_css4": "#8b4513"
         },
         {
-            "color": "#bca589",
-            "closest_css3": "#bc8f8f"
+            "color": "#93614a",
+            "closest_crayola": "#a5694f",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         },
         {
-            "color": "#846857",
-            "closest_css3": "#696969"
+            "color": "#c0aa8d",
+            "closest_crayola": "#deaa88",
+            "closest_css3": "#d2b48c",
+            "closest_css4": "#d2b48c"
         }
-    ]
+    ],
+    "woe:country_name": "Indonesia"
 }

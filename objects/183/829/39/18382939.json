@@ -3,6 +3,7 @@
     "tms:id": "101593",
     "accession_number": "1949-78-1",
     "title": "Ornament - Panel, 1856\u201357",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18382939\/",
     "department_id": "35347503",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1913,
     "year_acquired": "1949",
     "decade": null,
-    "woe:country": "23424819",
+    "woe:country_id": "23424819",
     "medium": "Block-printed on paper",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "102.5 x 49 cm (40 3\/8 x 19 5\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "102.50",
+            "centimeters"
+        ],
+        "width": [
+            "49.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Dr. Gertrude Bilhuber in memory of her father Ernst Bilhuber",
     "description": "Wallpaper panel showing full length view of George Washington in cutaway coat with epaulettes and a sword. At his feet are a conventionalized cannon and three cannon balls. All supported by shallow circular base. Imitation of statuary. Of the series \"America's Heroes\" [Les Grands Hommes] which also includes Franklin, Lafayette and Jefferson. Printed on light wood grain background.",
     "justification": null,
-    "type": {
-        "id": "35284951",
-        "name": "Ornament - panel"
-    },
+    "woe:country": "23424819",
+    "type": "Ornament - panel",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/40772_76c2c654db8fb870_b.jpg",
                 "width": 484,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/40772_76c2c654db8fb870_n.jpg",
-                "width": 151,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "40772"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/40772_76c2c654db8fb870_z.jpg",
                 "width": 303,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "40772"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/40772_76c2c654db8fb870_n.jpg",
+                "width": 151,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "40772"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/40772_76c2c654db8fb870_d.gif",
+                "width": 151,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "40772"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/40772_76c2c654db8fb870_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "40772"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/30340_453d634f96c66f83_b.jpg",
                 "width": 518,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/30340_453d634f96c66f83_n.jpg",
-                "width": 162,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "30340"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/30340_453d634f96c66f83_z.jpg",
                 "width": 324,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "30340"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/30340_453d634f96c66f83_n.jpg",
+                "width": 162,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "30340"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/30340_453d634f96c66f83_d.gif",
+                "width": 162,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "30340"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/30340_453d634f96c66f83_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "30340"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18047829",
             "role_id": "35352245",
             "person_name": "Horace L. Hotchkiss, Jr.",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047829\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18046567",
             "role_id": "35236657",
             "person_name": "Jules Desfoss\u00e9",
+            "person_date": "",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18046567\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         }
@@ -92,20 +139,23 @@
     },
     "colors": [
         {
-            "color": "#b78b4f",
-            "closest_css3": "#cd853f"
+            "color": "#a07442",
+            "closest_crayola": "#9c7c38",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         },
         {
-            "color": "#97693f",
-            "closest_css3": "#a0522d"
+            "color": "#cda863",
+            "closest_crayola": "#cd9575",
+            "closest_css3": "#bdb76b",
+            "closest_css4": "#bdb76b"
         },
         {
             "color": "#7a5137",
-            "closest_css3": "#a0522d"
-        },
-        {
-            "color": "#cfad68",
-            "closest_css3": "#bdb76b"
+            "closest_crayola": "#714b23",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         }
-    ]
+    ],
+    "woe:country_name": "France"
 }

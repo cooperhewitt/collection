@@ -3,6 +3,7 @@
     "tms:id": "239823",
     "accession_number": "2008-31-7",
     "title": "Sampler, ca. 1800",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18727645\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1810,
     "year_acquired": "2008",
     "decade": null,
-    "woe:country": "23424975",
+    "woe:country_id": "23424975",
     "medium": "Medium: silk embroidery on wool foundation\nTechnique: cross-stitch embroidery on plain weave",
     "markings": null,
     "signed": null,
     "inscribed": "Ann Silver Her Sampler",
     "provenance": "Ex. coll. Fraser-Martin. Gift from Mrs. Edith P. Morgan, Arden Studios, Feb. 1926",
     "dimensions": "Frame H x W: 47 x 36.2 cm (18 1\/2 x 14 1\/4 in.)",
+    "dimensions_raw": {
+        "height": [
+            "46.99",
+            "centimeters"
+        ],
+        "width": [
+            "36.20",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Myra M. and William H. Mathers",
     "description": "Dainty rows of soldiers and ladies holding fans, a large bird perched on a stump, and barnyard fowl, embroidered in colored silks on a white ground.",
     "justification": null,
-    "type": {
-        "id": "35256439",
-        "name": "Sampler"
-    },
+    "woe:country": "23424975",
+    "type": "Sampler",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/29814_82d7a754c16d196b_b.jpg",
                 "width": 809,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/29814_82d7a754c16d196b_n.jpg",
-                "width": 253,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "29814"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/29814_82d7a754c16d196b_z.jpg",
                 "width": 505,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "29814"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/29814_82d7a754c16d196b_n.jpg",
+                "width": 253,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "29814"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/29814_82d7a754c16d196b_d.gif",
+                "width": 253,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "29814"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/29814_82d7a754c16d196b_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "29814"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18062665",
             "role_id": "51571159",
             "person_name": "Ursula M. Nehrt",
+            "person_date": "",
             "role_name": "Agent",
+            "role_display_name": "Agent:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18062665\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/51571159\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18062663",
             "role_id": "51571159",
             "person_name": "William M. Mathers",
+            "person_date": "",
             "role_name": "Agent",
+            "role_display_name": "Agent:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18062663\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/51571159\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18055367",
             "role_id": "35351535",
             "person_name": "Myra Mathers",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18055367\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -78,7 +110,9 @@
             "person_id": "18062073",
             "role_id": "35236583",
             "person_name": "Ann Silver",
+            "person_date": "",
             "role_name": "Embroiderer",
+            "role_display_name": "Embroidered by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18062073\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236583\/"
         },
@@ -86,7 +120,9 @@
             "person_id": "18055365",
             "role_id": "35351535",
             "person_name": "William H. Mathers",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18055365\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -96,24 +132,35 @@
     },
     "colors": [
         {
-            "color": "#c4beac",
-            "closest_css3": "#c0c0c0"
+            "color": "#bab19b",
+            "closest_crayola": "#deaa88",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
         },
         {
-            "color": "#af7d3b",
-            "closest_css3": "#cd853f"
+            "color": "#ac7934",
+            "closest_crayola": "#9c7c38",
+            "closest_css3": "#cd853f",
+            "closest_css4": "#cd853f"
         },
         {
-            "color": "#a19881",
-            "closest_css3": "#bc8f8f"
+            "color": "#834e1a",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#8b4513",
+            "closest_css4": "#8b4513"
         },
         {
-            "color": "#8c5618",
-            "closest_css3": "#8b4513"
+            "color": "#7b765c",
+            "closest_crayola": "#8a795d",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#797359",
-            "closest_css3": "#696969"
+            "color": "#e4ddcb",
+            "closest_crayola": "#efdecd",
+            "closest_css3": "#dcdcdc",
+            "closest_css4": "#dcdcdc"
         }
-    ]
+    ],
+    "woe:country_name": "United Kingdom"
 }

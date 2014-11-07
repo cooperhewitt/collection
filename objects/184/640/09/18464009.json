@@ -3,6 +3,7 @@
     "tms:id": "142610",
     "accession_number": "1968-135-104",
     "title": "Textile, \"Les Monuments du Midi\", ca. 1810",
+    "title_raw": "Les Monuments du Midi",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18464009\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,68 @@
     "year_end": 1820,
     "year_acquired": "1968",
     "decade": null,
-    "woe:country": "23424819",
+    "woe:country_id": "23424819",
     "medium": "Technique: printed by engraved roller on plain weave",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "warp: 79.5 cm (31 1\/4 in.), weft (right selvedge only) 96 cm (37 3\/4 in.)\nPattern: Height of repeat: 20 3\/4 in.",
+    "dimensions_raw": {
+        "height": [
+            "20.75",
+            "centimeters"
+        ],
+        "warp": [
+            "79.50",
+            "centimeters"
+        ],
+        "weft": [
+            "96.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Harvey Smith",
     "description": "Four country scenes on a grid background.",
     "justification": null,
-    "type": {
-        "id": "35251739",
-        "name": "textile"
-    },
+    "woe:country": "23424819",
+    "type": "textile",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/75392_4c725c4ee311adc8_b.jpg",
                 "width": 1024,
                 "height": 663,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/75392_4c725c4ee311adc8_n.jpg",
-                "width": 320,
-                "height": 207,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "75392"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/75392_4c725c4ee311adc8_z.jpg",
                 "width": 640,
                 "height": 414,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "75392"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/75392_4c725c4ee311adc8_n.jpg",
+                "width": 320,
+                "height": 207,
+                "is_primary": "1",
+                "image_id": "75392"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/75392_4c725c4ee311adc8_d.gif",
+                "width": 320,
+                "height": 207,
+                "is_primary": "1",
+                "image_id": "75392"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/75392_4c725c4ee311adc8_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "75392"
             }
         }
     ],
@@ -54,7 +84,9 @@
             "person_id": "18049985",
             "role_id": "35351535",
             "person_name": "Harvey Smith",
+            "person_date": "1906\u20131994",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049985\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -62,7 +94,9 @@
             "person_id": "18047459",
             "role_id": "35352245",
             "person_name": "Gillian Moss",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047459\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -70,7 +104,9 @@
             "person_id": "18045425",
             "role_id": "35236681",
             "person_name": "Oberkampf & Cie.",
+            "person_date": "Jouy-en-Josas, France, 1759 \u2013 1815",
             "role_name": "Company",
+            "role_display_name": "Company:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18045425\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236681\/"
         }
@@ -80,24 +116,35 @@
     },
     "colors": [
         {
-            "color": "#e88e8f",
-            "closest_css3": "#f08080"
+            "color": "#d88e95",
+            "closest_crayola": "#d98695",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         },
         {
-            "color": "#bb6d6f",
-            "closest_css3": "#cd5c5c"
+            "color": "#bb6c6e",
+            "closest_crayola": "#cc6666",
+            "closest_css3": "#cd5c5c",
+            "closest_css4": "#cd5c5c"
         },
         {
-            "color": "#e7b5a9",
-            "closest_css3": "#ffb6c1"
+            "color": "#e7bdb8",
+            "closest_crayola": "#efcdb8",
+            "closest_css3": "#ffb6c1",
+            "closest_css4": "#ffb6c1"
         },
         {
-            "color": "#a93535",
-            "closest_css3": "#a52a2a"
+            "color": "#ab3738",
+            "closest_crayola": "#9c2542",
+            "closest_css3": "#a52a2a",
+            "closest_css4": "#a52a2a"
         },
         {
-            "color": "#d8e2d6",
-            "closest_css3": "#dcdcdc"
+            "color": "#c5bbb4",
+            "closest_crayola": "#cdc5c2",
+            "closest_css3": "#c0c0c0",
+            "closest_css4": "#c0c0c0"
         }
-    ]
+    ],
+    "woe:country_name": "France"
 }

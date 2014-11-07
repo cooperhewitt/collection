@@ -3,6 +3,7 @@
     "tms:id": "127612",
     "accession_number": "1960-77-1",
     "title": "Drawing, \"Design for a Steeple\", 1508",
+    "title_raw": "Design for a Steeple",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18434385\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1508,
     "year_acquired": "1960",
     "decade": null,
-    "woe:country": "23424829",
+    "woe:country_id": "23424829",
     "medium": "Pen and gray, brown ink, brush and gray, brown wash on paper",
     "markings": null,
     "signed": null,
     "inscribed": "Inscribed in black ink, lower margin: symbol; 1508; 20.",
     "provenance": "1960: acquired by Museum",
     "dimensions": "135.6 x 27 cm (53 3\/8 x 10 5\/8 in.)",
+    "dimensions_raw": {
+        "height": [
+            "135.60",
+            "centimeters"
+        ],
+        "width": [
+            "27.00",
+            "centimeters"
+        ]
+    },
     "creditline": null,
     "description": "Design for a steeple. At base, a balustrade with designs in metalwork. Three windows built into stonework of the structure. Steeple topped by large spire with protrusions.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424829",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/28130_810c9bf9f80fe836_b.jpg",
                 "width": 231,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/28130_810c9bf9f80fe836_n.jpg",
-                "width": 72,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "28130"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/28130_810c9bf9f80fe836_z.jpg",
                 "width": 145,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "28130"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/28130_810c9bf9f80fe836_n.jpg",
+                "width": 72,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "28130"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/28130_810c9bf9f80fe836_d.gif",
+                "width": 72,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "28130"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/28130_810c9bf9f80fe836_sq.jpg",
+                "width": 231,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "28130"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "51678797",
             "role_id": "35352249",
             "person_name": "Emil Hirsch",
+            "person_date": "",
             "role_name": "Vendor",
+            "role_display_name": "Purchased from",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/51678797\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352249\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "51676457",
             "role_id": "35352245",
             "person_name": "Karin Zonis",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/51676457\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18047481",
             "role_id": "35352245",
             "person_name": "Eleonore Kissel",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047481\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         }
@@ -80,8 +112,11 @@
     },
     "colors": [
         {
-            "color": "#343838",
-            "closest_css3": "#2f4f4f"
+            "color": "#393e3d",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         }
-    ]
+    ],
+    "woe:country_name": "Germany"
 }

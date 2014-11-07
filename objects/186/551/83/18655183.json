@@ -3,6 +3,7 @@
     "tms:id": "202561",
     "accession_number": "1997-3-2",
     "title": "Brooch, \"The Middle Passage - African Holocaust\", 1993\u201396",
+    "title_raw": "The Middle Passage - African Holocaust",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18655183\/",
     "department_id": "35347497",
     "period_id": null,
@@ -13,39 +14,68 @@
     "year_end": 1996,
     "year_acquired": "1997",
     "decade": "1990",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Silver",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "1997: acquired by Museum (from Phyllis Bowdwin)",
     "dimensions": "Overall: 10.1 x 5.5 x 1 cm (4 x 2 3\/16 x 3\/8 in.)",
+    "dimensions_raw": {
+        "depth": [
+            "1.00",
+            "centimeters"
+        ],
+        "height": [
+            "10.10",
+            "centimeters"
+        ],
+        "width": [
+            "5.50",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase from Monet Jewelry Fund",
     "description": "Modeled after diagram of a slave trade ship seen from above, showing the lower deck densely packed with a cargo of slaves; five heads of African slaves in profile hang from the lower edge.",
     "justification": null,
-    "type": {
-        "id": "35251201",
-        "name": "brooch"
-    },
+    "woe:country": "23424977",
+    "type": "brooch",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/12845_fe62bbb7ce7f9969_b.jpg",
                 "width": 1024,
                 "height": 681,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/12845_fe62bbb7ce7f9969_n.jpg",
-                "width": 320,
-                "height": 213,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "12845"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/12845_fe62bbb7ce7f9969_z.jpg",
                 "width": 640,
                 "height": 426,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "12845"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/12845_fe62bbb7ce7f9969_n.jpg",
+                "width": 320,
+                "height": 213,
+                "is_primary": "1",
+                "image_id": "12845"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/12845_fe62bbb7ce7f9969_d.gif",
+                "width": 320,
+                "height": 213,
+                "is_primary": "1",
+                "image_id": "12845"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/12845_fe62bbb7ce7f9969_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "12845"
             }
         },
         {
@@ -53,19 +83,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/12844_232cb4ea701a3000_b.jpg",
                 "width": 1024,
                 "height": 681,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/12844_232cb4ea701a3000_n.jpg",
-                "width": 320,
-                "height": 213,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "12844"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/12844_232cb4ea701a3000_z.jpg",
                 "width": 640,
                 "height": 426,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "12844"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/12844_232cb4ea701a3000_n.jpg",
+                "width": 320,
+                "height": 213,
+                "is_primary": "0",
+                "image_id": "12844"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/12844_232cb4ea701a3000_d.gif",
+                "width": 320,
+                "height": 213,
+                "is_primary": "0",
+                "image_id": "12844"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/12844_232cb4ea701a3000_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "12844"
             }
         }
     ],
@@ -74,7 +121,9 @@
             "person_id": "18051603",
             "role_id": "35352249",
             "person_name": "Phyllis Bowdwin",
+            "person_date": "American, b. 1941",
             "role_name": "Vendor",
+            "role_display_name": "Purchased from",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18051603\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352249\/"
         },
@@ -82,7 +131,9 @@
             "person_id": "18537311",
             "role_id": "35236657",
             "person_name": "Who Deserves It More Than You?",
+            "person_date": "",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18537311\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         },
@@ -90,7 +141,9 @@
             "person_id": "18048657",
             "role_id": "35352247",
             "person_name": "Monet Jewelry Fund",
+            "person_date": "",
             "role_name": "Fund",
+            "role_display_name": "Fund:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18048657\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352247\/"
         },
@@ -98,7 +151,9 @@
             "person_id": "18051603",
             "role_id": "35236655",
             "person_name": "Phyllis Bowdwin",
+            "person_date": "American, b. 1941",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18051603\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
@@ -108,24 +163,35 @@
     },
     "colors": [
         {
-            "color": "#d2deec",
-            "closest_css3": "#dcdcdc"
+            "color": "#cdd8e8",
+            "closest_crayola": "#c5d0e6",
+            "closest_css3": "#dcdcdc",
+            "closest_css4": "#dcdcdc"
         },
         {
-            "color": "#1c010a",
-            "closest_css3": "#000000"
+            "color": "#362431",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#97a0af",
-            "closest_css3": "#a9a9a9"
+            "color": "#999daa",
+            "closest_crayola": "#979aaa",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
         },
         {
-            "color": "#595d6a",
-            "closest_css3": "#696969"
+            "color": "#64626e",
+            "closest_crayola": "#6e5160",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#352838",
-            "closest_css3": "#2f4f4f"
+            "color": "#57444e",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

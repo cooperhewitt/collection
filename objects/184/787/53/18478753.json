@@ -3,6 +3,7 @@
     "tms:id": "150209",
     "accession_number": "1972-88-355",
     "title": "Drawing, \"Schematic, control knobs, for Polaroid\", June 7, 1965",
+    "title_raw": "Schematic, control knobs, for Polaroid",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18478753\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1965,
     "year_acquired": "1972",
     "decade": "1960",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Marking pen on tracing paper",
     "markings": "Stamped in black ink, lower right: DISPLAY FILE.",
     "signed": "Signed in black marker, lower right: te (?) 6-7-65.",
     "inscribed": "Inscribed in black marker, upper right: SHUTTER BUTTON; right center: FOCUS \/ MECH. \/ INTERLOCK SPRINGS; left center: DETENT \/ SPRING; lower center: INTERLOCK \/ SECTION; lower left: SCHEMATIC, CONTROL KNOBS; lower right: PC 13-S-10. Inscribed in blue marker, center right: FOCUS KNOB; inscribed in orange marker, upper right: PHOTOMETER KNOB; inscribed in yellow marker, upper right: SHIELD.",
     "provenance": "Henry Dreyfuss; 1972: acquired by Museum",
     "dimensions": "30.1 x 22.7 cm (11 7\/8 x 8 15\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "30.10",
+            "centimeters"
+        ],
+        "width": [
+            "22.70",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Henry Dreyfuss",
     "description": "Colored drawing of schematics of control knobs for Polaroid camera.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424977",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/39281_761f541e58923c9d_b.jpg",
                 "width": 776,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/39281_761f541e58923c9d_n.jpg",
-                "width": 243,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "39281"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/39281_761f541e58923c9d_z.jpg",
                 "width": 485,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "39281"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/39281_761f541e58923c9d_n.jpg",
+                "width": 243,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "39281"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/39281_761f541e58923c9d_d.gif",
+                "width": 243,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "39281"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/39281_761f541e58923c9d_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "39281"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18041029",
             "role_id": "35236565",
             "person_name": "Henry Dreyfuss Associates",
+            "person_date": "founded 1929",
             "role_name": "Artist",
+            "role_display_name": "",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041029\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236565\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18050419",
             "role_id": "35236667",
             "person_name": "Polaroid Corporation",
+            "person_date": "Cambridge, Massachusetts, USA",
             "role_name": "Client",
+            "role_display_name": "Client:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18050419\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236667\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18065427",
             "role_id": "35352245",
             "person_name": "Stephanie Keating",
+            "person_date": "American",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18065427\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -78,7 +110,9 @@
             "person_id": "18041501",
             "role_id": "35351535",
             "person_name": "Henry Dreyfuss",
+            "person_date": "American, 1904\u20131972",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041501\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -89,23 +123,34 @@
     "colors": [
         {
             "color": "#e96f45",
-            "closest_css3": "#ff6347"
-        },
-        {
-            "color": "#8a8177",
-            "closest_css3": "#808080"
+            "closest_crayola": "#ff6e4a",
+            "closest_css3": "#ff6347",
+            "closest_css4": "#ff6347"
         },
         {
             "color": "#b1a895",
-            "closest_css3": "#a9a9a9"
+            "closest_crayola": "#979aaa",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
         },
         {
-            "color": "#6e686b",
-            "closest_css3": "#696969"
+            "color": "#8c8278",
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#414069",
-            "closest_css3": "#483d8b"
+            "color": "#6e676b",
+            "closest_crayola": "#757575",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
+        },
+        {
+            "color": "#414068",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

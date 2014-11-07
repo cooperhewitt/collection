@@ -3,6 +3,7 @@
     "tms:id": "127614",
     "accession_number": "1960-79-1-a",
     "title": "Textile, ca. 1760",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18434389\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1770,
     "year_acquired": "1960",
     "decade": null,
-    "woe:country": "23424819",
+    "woe:country_id": "23424819",
     "medium": "Medium: linen warp, cotton weft\nTechnique: block printed on plain weave",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "H x W: 70 x 27 cm (27 9\/16 x 10 5\/8 in.)",
+    "dimensions_raw": {
+        "height": [
+            "70.00",
+            "centimeters"
+        ],
+        "width": [
+            "27.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Harold M. Bailey",
     "description": "Handblocked textile in an incomplete floral pattern in madder colors of red and brown of floral sprays. Elaborate picotage background in red, and in sepia, a picotage design of windmill and flowers.",
     "justification": null,
-    "type": {
-        "id": "35251739",
-        "name": "textile"
-    },
+    "woe:country": "23424819",
+    "type": "textile",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/74034_2abe2e50e7e0261d_b.jpg",
                 "width": 1024,
                 "height": 449,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/74034_2abe2e50e7e0261d_n.jpg",
-                "width": 320,
-                "height": 140,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "74034"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/74034_2abe2e50e7e0261d_z.jpg",
                 "width": 640,
                 "height": 281,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "74034"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/74034_2abe2e50e7e0261d_n.jpg",
+                "width": 320,
+                "height": 140,
+                "is_primary": "1",
+                "image_id": "74034"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/74034_2abe2e50e7e0261d_d.gif",
+                "width": 320,
+                "height": 140,
+                "is_primary": "1",
+                "image_id": "74034"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/74034_2abe2e50e7e0261d_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "74034"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/74035_6a8d08bc46832f38_b.jpg",
                 "width": 1024,
                 "height": 665,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/74035_6a8d08bc46832f38_n.jpg",
-                "width": 320,
-                "height": 208,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "74035"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/74035_6a8d08bc46832f38_z.jpg",
                 "width": 640,
                 "height": 415,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "74035"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/74035_6a8d08bc46832f38_n.jpg",
+                "width": 320,
+                "height": 208,
+                "is_primary": "0",
+                "image_id": "74035"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/74035_6a8d08bc46832f38_d.gif",
+                "width": 320,
+                "height": 208,
+                "is_primary": "0",
+                "image_id": "74035"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/74035_6a8d08bc46832f38_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "74035"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18051481",
             "role_id": "35351535",
             "person_name": "Harold M. Bailey",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18051481\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -84,24 +129,35 @@
     },
     "colors": [
         {
-            "color": "#c6a5a7",
-            "closest_css3": "#a9a9a9"
+            "color": "#e2b4b8",
+            "closest_crayola": "#efcdb8",
+            "closest_css3": "#ffb6c1",
+            "closest_css4": "#ffb6c1"
         },
         {
-            "color": "#efd7d6",
-            "closest_css3": "#dcdcdc"
+            "color": "#d8cfcd",
+            "closest_crayola": "#dbd7d2",
+            "closest_css3": "#d3d3d3",
+            "closest_css4": "#d3d3d3"
         },
         {
-            "color": "#8e363a",
-            "closest_css3": "#a52a2a"
+            "color": "#7a282d",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#8b4513",
+            "closest_css4": "#8b4513"
         },
         {
-            "color": "#bb585e",
-            "closest_css3": "#cd5c5c"
+            "color": "#aa494e",
+            "closest_crayola": "#bf4f51",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         },
         {
-            "color": "#50414d",
-            "closest_css3": "#2f4f4f"
+            "color": "#3e2e3c",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         }
-    ]
+    ],
+    "woe:country_name": "France"
 }

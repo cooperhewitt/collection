@@ -3,6 +3,7 @@
     "tms:id": "48983",
     "accession_number": "1931-73-274",
     "title": "Drawing, \"Erminia and Vafrino Tending the Wounded Tancred after the Battle of Argento [Tancr\u00e8de secouru par Herminie et Vafrin apr\u00e8s le combat d'Argante]\", 1720\u201330",
+    "title_raw": "Erminia and Vafrino Tending the Wounded Tancred after the Battle of Argento [Tancr\u00e8de secouru par Herminie et Vafrin apr\u00e8s le combat d'Argante]",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18329595\/",
     "department_id": "35347493",
     "period_id": "35417101",
@@ -13,39 +14,64 @@
     "year_end": 1750,
     "year_acquired": "1931",
     "decade": null,
-    "woe:country": "23424853",
+    "woe:country_id": "23424853",
     "medium": "Red chalk on off-white laid paper",
     "markings": "Verso: Stamp of J. Peoli [Lugt 2020]\nVerso: Stamp of Cooper Union Museum for the Arts of Decoration [Lugt 457c]",
     "signed": null,
     "inscribed": "Verso in graphite: numerical annotations\nVerso in ink along edge of sheet: the initals J.F.R.",
     "provenance": "Collection of J. Peoli",
     "dimensions": "7 3\/16 x 7 1\/8 in. (18.2 x 18.1 cm)",
+    "dimensions_raw": {
+        "height": [
+            "18.20",
+            "centimeters"
+        ],
+        "width": [
+            "18.10",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Eleanor and Sarah Hewitt",
     "description": "A wounded soldier lying on the ground is assisted by a man wearing a turban (left) and a woman (right). The group is situated in a landscape, under a tree.  At right a horse is shown and in the foreground at left, lies a discarded shield.   A circular border is suggested implying that this composition was envisioned as a tondo.  See Curatorial Notes field.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424853",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/18791_f2f7c9393419544d_b.jpg",
                 "width": 953,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/18791_f2f7c9393419544d_n.jpg",
-                "width": 298,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "18791"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/18791_f2f7c9393419544d_z.jpg",
                 "width": 596,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "18791"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/18791_f2f7c9393419544d_n.jpg",
+                "width": 298,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "18791"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/18791_f2f7c9393419544d_d.gif",
+                "width": 298,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "18791"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/18791_f2f7c9393419544d_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "18791"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18049325",
             "role_id": "35351535",
             "person_name": "Eleanor Garnier Hewitt",
+            "person_date": "American, 1864\u20131924",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049325\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18049321",
             "role_id": "35351535",
             "person_name": "Sarah Cooper Hewitt",
+            "person_date": "American, 1859\u20131930",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049321\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18046645",
             "role_id": "35236711",
             "person_name": "Jean-Francois de Troy",
+            "person_date": "1679 \u2013 1752",
             "role_name": "Attributed to",
+            "role_display_name": "Attributed to",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18046645\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236711\/"
         },
@@ -78,7 +110,9 @@
             "person_id": "18057037",
             "role_id": "35236677",
             "person_name": "Pier Francesco Mola",
+            "person_date": "Italian, 1612\u20131666",
             "role_name": "After",
+            "role_display_name": "After",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18057037\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236677\/"
         }
@@ -88,16 +122,35 @@
     },
     "colors": [
         {
-            "color": "#f2d5b0",
-            "closest_css3": "#f5deb3"
+            "color": "#f9e8cf",
+            "closest_crayola": "#efdecd",
+            "closest_css3": "#ffebcd",
+            "closest_css4": "#ffebcd"
         },
         {
-            "color": "#cd9d70",
-            "closest_css3": "#e9967a"
+            "color": "#e4bf8f",
+            "closest_crayola": "#e7c697",
+            "closest_css3": "#deb887",
+            "closest_css4": "#deb887"
         },
         {
-            "color": "#976139",
-            "closest_css3": "#a0522d"
+            "color": "#ce9665",
+            "closest_crayola": "#cd9575",
+            "closest_css3": "#e9967a",
+            "closest_css4": "#e9967a"
+        },
+        {
+            "color": "#a2744c",
+            "closest_crayola": "#a5694f",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
+        },
+        {
+            "color": "#80502e",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#8b4513",
+            "closest_css4": "#8b4513"
         }
-    ]
+    ],
+    "woe:country_name": "Italy"
 }

@@ -3,6 +3,7 @@
     "tms:id": "156131",
     "accession_number": "1976-23-6",
     "title": "Photograph, \"Half Dome, 4967 feet, Yosemite\", 1861\u201366",
+    "title_raw": "Half Dome, 4967 feet, Yosemite",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18490507\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1927,
     "year_acquired": "1976",
     "decade": null,
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Albumen silver print",
     "markings": null,
     "signed": "Lower right corner: C. E. Watkins",
     "inscribed": null,
     "provenance": "1976: acquired by Museum",
     "dimensions": "60 x 75.6 cm (23 5\/8 x 29 3\/4 in.)",
+    "dimensions_raw": {
+        "height": [
+            "60.01",
+            "centimeters"
+        ],
+        "width": [
+            "75.57",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Unknown Donor",
     "description": "Landscape featuring wooded area, river, and mountains in the background.",
     "justification": null,
-    "type": {
-        "id": "35247381",
-        "name": "photograph"
-    },
+    "woe:country": "23424977",
+    "type": "photograph",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/19616_827a60daad833d3d_b.jpg",
                 "width": 1024,
                 "height": 757,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/19616_827a60daad833d3d_n.jpg",
-                "width": 320,
-                "height": 237,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "19616"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/19616_827a60daad833d3d_z.jpg",
                 "width": 640,
                 "height": 473,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "19616"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/19616_827a60daad833d3d_n.jpg",
+                "width": 320,
+                "height": 237,
+                "is_primary": "1",
+                "image_id": "19616"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/19616_827a60daad833d3d_d.gif",
+                "width": 320,
+                "height": 237,
+                "is_primary": "1",
+                "image_id": "19616"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/19616_827a60daad833d3d_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "19616"
             }
         }
     ],
@@ -53,8 +79,10 @@
         {
             "person_id": "18057545",
             "role_id": "35352257",
-            "person_name": "Cooper-Hewitt, National Design Museum: Picture Library",
+            "person_name": "Cooper Hewitt, Smithsonian Design Museum: Picture Library",
+            "person_date": "",
             "role_name": "Transferor",
+            "role_display_name": "Transferred from",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18057545\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352257\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18535861",
             "role_id": "35236631",
             "person_name": "Carleton E. Watkins",
+            "person_date": "American, 1829 \u2013 1916",
             "role_name": "Photographer",
+            "role_display_name": "Photographed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18535861\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236631\/"
         }
@@ -72,20 +102,35 @@
     },
     "colors": [
         {
-            "color": "#3e3228",
-            "closest_css3": "#2f4f4f"
+            "color": "#dbc8ac",
+            "closest_crayola": "#efcdb8",
+            "closest_css3": "#c0c0c0",
+            "closest_css4": "#c0c0c0"
         },
         {
-            "color": "#615447",
-            "closest_css3": "#556b2f"
+            "color": "#2a1e18",
+            "closest_crayola": "#000000",
+            "closest_css3": "#000000",
+            "closest_css4": "#000000"
         },
         {
-            "color": "#a08e7a",
-            "closest_css3": "#bc8f8f"
+            "color": "#4a3d33",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#7f6f5f",
-            "closest_css3": "#696969"
+            "color": "#6a5a4d",
+            "closest_crayola": "#6e5160",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
+        },
+        {
+            "color": "#9b8a76",
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

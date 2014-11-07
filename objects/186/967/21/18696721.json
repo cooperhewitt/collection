@@ -3,6 +3,7 @@
     "tms:id": "223954",
     "accession_number": "1958-98-47",
     "title": "Bonbonniere Cover, \"Ambassador\", 1926",
+    "title_raw": "Ambassador",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18696721\/",
     "department_id": "35347497",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1926,
     "year_acquired": "1958",
     "decade": "1920",
-    "woe:country": "23424750",
+    "woe:country_id": "23424750",
     "medium": "Mouth-blown crystal (\"Muslin glass\")",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "H x diam.: 10.8 x 12.8 cm (4 1\/4 x 5 1\/16 in.)",
+    "dimensions_raw": {
+        "diameter": [
+            "12.80",
+            "centimeters"
+        ],
+        "height": [
+            "10.80",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase through gift of Georgiana L. McClellan",
     "description": "Thin-walled, clear glass; dome-shaped cover with spherical knop on stem; rim retracted.",
     "justification": null,
-    "type": {
-        "id": "35300433",
-        "name": "Bonbonniere cover"
-    },
+    "woe:country": "23424750",
+    "type": "Bonbonniere cover",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/31498_84ba3075edea17c8_b.jpg",
                 "width": 928,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/31498_84ba3075edea17c8_n.jpg",
-                "width": 290,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "31498"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/31498_84ba3075edea17c8_z.jpg",
                 "width": 580,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "31498"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/31498_84ba3075edea17c8_n.jpg",
+                "width": 290,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "31498"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/31498_84ba3075edea17c8_d.gif",
+                "width": 290,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "31498"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/31498_84ba3075edea17c8_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "31498"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18050055",
             "role_id": "51571025",
             "person_name": "Georgiana L. McClellan",
+            "person_date": "",
             "role_name": "Funder",
+            "role_display_name": "Purchased with funds from:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18050055\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/51571025\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18042537",
             "role_id": "35236655",
             "person_name": "Oswald Haerdtl",
+            "person_date": "Austrian, 1899\u20131959",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18042537\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18055985",
             "role_id": "35352249",
             "person_name": "Estate of Agnes M. Carpenter",
+            "person_date": "",
             "role_name": "Vendor",
+            "role_display_name": "Purchased from",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18055985\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352249\/"
         },
@@ -78,7 +110,9 @@
             "person_id": "18045401",
             "role_id": "35236657",
             "person_name": "J. and L. Lobmeyr",
+            "person_date": "",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18045401\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         }
@@ -88,8 +122,17 @@
     },
     "colors": [
         {
-            "color": "#8b897c",
-            "closest_css3": "#808080"
+            "color": "#cfd0c5",
+            "closest_crayola": "#cdc5c2",
+            "closest_css3": "#d3d3d3",
+            "closest_css4": "#d3d3d3"
+        },
+        {
+            "color": "#716f62",
+            "closest_crayola": "#757575",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         }
-    ]
+    ],
+    "woe:country_name": "Austria"
 }

@@ -3,6 +3,7 @@
     "tms:id": "195086",
     "accession_number": "1992-51-84",
     "title": "Drawing, \"Shell Design (3 of 5)\", ca. 1930",
+    "title_raw": "Shell Design (3 of 5)",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18640443\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,59 +14,101 @@
     "year_end": 1940,
     "year_acquired": "1992",
     "decade": "1920",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Brush and gouache, graphite on paper, lined",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "Donald Cameron; 1992: acquired by Museum",
     "dimensions": "Sheet: 11.2 x 11 cm (4 7\/16 x 4 5\/16 in.)\nImage: 11.1 x 11.4 cm (4 3\/8 x 4 1\/2 in.)",
-    "creditline": "Gift of Mr. Donald Cameron",
+    "dimensions_raw": {
+        "height": [
+            "11.11",
+            "centimeters"
+        ],
+        "width": [
+            "11.43",
+            "centimeters"
+        ]
+    },
+    "creditline": "Gift of Donald Cameron",
     "description": "On bluish-pink background, 4 shell design in red and white.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424977",
+    "type": "Drawing",
     "images": [
         {
             "b": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/81296_17374fba124ea02a_b.jpg",
+                "url": "http:\/\/images.collection.cooperhewitt.org\/81296_10a392c76572600c_b.jpg",
                 "width": 1024,
-                "height": 1013,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/81296_17374fba124ea02a_n.jpg",
-                "width": 320,
-                "height": 317,
-                "is_primary": "1"
+                "height": 1020,
+                "is_primary": "1",
+                "image_id": "81296"
             },
             "z": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/81296_17374fba124ea02a_z.jpg",
+                "url": "http:\/\/images.collection.cooperhewitt.org\/81296_10a392c76572600c_z.jpg",
                 "width": 640,
-                "height": 633,
-                "is_primary": "1"
+                "height": 638,
+                "is_primary": "1",
+                "image_id": "81296"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/81296_10a392c76572600c_n.jpg",
+                "width": 320,
+                "height": 319,
+                "is_primary": "1",
+                "image_id": "81296"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/81296_10a392c76572600c_d.gif",
+                "width": 320,
+                "height": 319,
+                "is_primary": "1",
+                "image_id": "81296"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/81296_10a392c76572600c_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "81296"
             }
         },
         {
             "b": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/81294_b9ebbafea0b530ad_b.jpg",
+                "url": "http:\/\/images.collection.cooperhewitt.org\/81294_46cbe074e1e348d2_b.jpg",
                 "width": 803,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/81294_b9ebbafea0b530ad_n.jpg",
-                "width": 251,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "81294"
             },
             "z": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/81294_b9ebbafea0b530ad_z.jpg",
+                "url": "http:\/\/images.collection.cooperhewitt.org\/81294_46cbe074e1e348d2_z.jpg",
                 "width": 502,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "81294"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/81294_46cbe074e1e348d2_n.jpg",
+                "width": 251,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "81294"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/81294_46cbe074e1e348d2_d.gif",
+                "width": 251,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "81294"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/81294_46cbe074e1e348d2_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "81294"
             }
         }
     ],
@@ -74,15 +117,28 @@
             "person_id": "18049811",
             "role_id": "35236655",
             "person_name": "Tommi Parzinger",
+            "person_date": "American, born Germany, 1903 - 1981",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049811\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
+        },
+        {
+            "person_id": "18041077",
+            "role_id": "35351535",
+            "person_name": "Donald Cameron",
+            "person_date": "",
+            "role_name": "Donor",
+            "role_display_name": "Donated by",
+            "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041077\/",
+            "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
     ],
     "tombstone": {
-        "epitaph": "Drawing, \"Shell Design (3 of 5)\", ca. 1930. Brush and gouache, graphite on paper, lined. Gift of Mr. Donald Cameron. 1992-51-84."
+        "epitaph": "Drawing, \"Shell Design (3 of 5)\", ca. 1930. Brush and gouache, graphite on paper, lined. Gift of Donald Cameron. 1992-51-84."
     },
     "colors": [
 
-    ]
+    ],
+    "woe:country_name": "United States"
 }

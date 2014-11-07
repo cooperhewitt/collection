@@ -3,6 +3,7 @@
     "tms:id": "98579",
     "accession_number": "1948-40-99",
     "title": "Print, \"Tradecard, Frederick Crace and Son, London\", 1838\u201340",
+    "title_raw": "Tradecard, Frederick Crace and Son, London",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18610149\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1878,
     "year_acquired": "1948",
     "decade": null,
-    "woe:country": "23424975",
+    "woe:country_id": "23424975",
     "medium": "Engraving, black ink on white cardboard",
     "markings": null,
     "signed": null,
     "inscribed": "Inscribed on plate, center: the inscription: Fredk Crace and Son,\/ Decorators and Upholders\/ To Her Majesty.\/ 14 Wigmore Street, Cavendish Square...",
     "provenance": null,
     "dimensions": "H x W: 6 x 9 cm (2 3\/8 x 3 9\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "6.00",
+            "centimeters"
+        ],
+        "width": [
+            "9.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase through gift of Mrs. John Innes Kane",
     "description": "Horizontal rectangle. Divided into two registers, upper register: royal coat of arms; lower register: text.",
     "justification": null,
-    "type": {
-        "id": "35236873",
-        "name": "Print"
-    },
+    "woe:country": "23424975",
+    "type": "Print",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/39931_9995c282ce4be5e3_b.jpg",
                 "width": 1024,
                 "height": 691,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/39931_9995c282ce4be5e3_n.jpg",
-                "width": 320,
-                "height": 216,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "39931"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/39931_9995c282ce4be5e3_z.jpg",
                 "width": 640,
                 "height": 432,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "39931"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/39931_9995c282ce4be5e3_n.jpg",
+                "width": 320,
+                "height": 216,
+                "is_primary": "1",
+                "image_id": "39931"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/39931_9995c282ce4be5e3_d.gif",
+                "width": 320,
+                "height": 216,
+                "is_primary": "1",
+                "image_id": "39931"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/39931_9995c282ce4be5e3_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "39931"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18042069",
             "role_id": "35236657",
             "person_name": "Frederick Crace",
+            "person_date": "English, 1779\u20131859",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18042069\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18539479",
             "role_id": "35352249",
             "person_name": "Mrs. K. Gregory",
+            "person_date": "",
             "role_name": "Vendor",
+            "role_display_name": "Purchased from",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18539479\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352249\/"
         }
@@ -72,20 +102,29 @@
     },
     "colors": [
         {
-            "color": "#afa797",
-            "closest_css3": "#a9a9a9"
+            "color": "#cec8b9",
+            "closest_crayola": "#cdc5c2",
+            "closest_css3": "#c0c0c0",
+            "closest_css4": "#c0c0c0"
         },
         {
-            "color": "#6d6658",
-            "closest_css3": "#696969"
+            "color": "#a9a292",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
         },
         {
-            "color": "#45413b",
-            "closest_css3": "#2f4f4f"
+            "color": "#49463e",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#8a8272",
-            "closest_css3": "#808080"
+            "color": "#6e685c",
+            "closest_crayola": "#6e5160",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         }
-    ]
+    ],
+    "woe:country_name": "United Kingdom"
 }

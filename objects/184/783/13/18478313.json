@@ -3,6 +3,7 @@
     "tms:id": "149966",
     "accession_number": "1972-75-24",
     "title": "Sample, ca. 1942",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18478313\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1947,
     "year_acquired": "1972",
     "decade": "1930",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Medium: cotton, synthetic\nTechnique: 2\/2 twill woven",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "Estate of Dorothy (Liebes) Morin; 1972: acquired by Museum",
     "dimensions": "H x W (sample): 16.5 x 22.9 cm (6 1\/2 in. x 9 in.)\nH x W (card): 27.9 x 31.8 cm (11 x 12 1\/2 in.)",
+    "dimensions_raw": {
+        "height": [
+            "16.51",
+            "centimeters"
+        ],
+        "width": [
+            "22.86",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of the Estate of Dorothy (Liebes) Morin",
     "description": "Woven sample mounted to a cardboard card with notations by the designer. Balanced plaid in bright colors. Warp has stripes of green, two shades of yellow, two shades of orange, three shades of blue, and pink boucle. Weft has bands of nine different yarns, glossy, chenille, boucle and paired. Selvedge on left side.",
     "justification": null,
-    "type": {
-        "id": "35268079",
-        "name": "Sample"
-    },
+    "woe:country": "23424977",
+    "type": "Sample",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/35896_85bb86bbd1759fbb_b.jpg",
                 "width": 1024,
                 "height": 690,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/35896_85bb86bbd1759fbb_n.jpg",
-                "width": 320,
-                "height": 216,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "35896"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/35896_85bb86bbd1759fbb_z.jpg",
                 "width": 640,
                 "height": 431,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "35896"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/35896_85bb86bbd1759fbb_n.jpg",
+                "width": 320,
+                "height": 216,
+                "is_primary": "1",
+                "image_id": "35896"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/35896_85bb86bbd1759fbb_d.gif",
+                "width": 320,
+                "height": 216,
+                "is_primary": "1",
+                "image_id": "35896"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/35896_85bb86bbd1759fbb_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "35896"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18045817",
             "role_id": "35236745",
             "person_name": "Dorothy Wright Liebes",
+            "person_date": "American, 1897\u20131972",
             "role_name": "Weaver",
+            "role_display_name": "Woven by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18045817\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236745\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18045817",
             "role_id": "35236655",
             "person_name": "Dorothy Wright Liebes",
+            "person_date": "American, 1897\u20131972",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18045817\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18054731",
             "role_id": "35351535",
             "person_name": "Estate of Dorothy (Liebes) Morin",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18054731\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -80,24 +112,35 @@
     },
     "colors": [
         {
-            "color": "#723123",
-            "closest_css3": "#8b4513"
+            "color": "#95271c",
+            "closest_crayola": "#9c2542",
+            "closest_css3": "#a52a2a",
+            "closest_css4": "#a52a2a"
         },
         {
-            "color": "#9c403b",
-            "closest_css3": "#a0522d"
+            "color": "#b75343",
+            "closest_crayola": "#bf4f51",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         },
         {
-            "color": "#b08432",
-            "closest_css3": "#cd853f"
+            "color": "#7d6e38",
+            "closest_crayola": "#85754e",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         },
         {
-            "color": "#7c6d36",
-            "closest_css3": "#556b2f"
+            "color": "#5c1a11",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#800000",
+            "closest_css4": "#800000"
         },
         {
-            "color": "#395968",
-            "closest_css3": "#2f4f4f"
+            "color": "#436377",
+            "closest_crayola": "#4a646c",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

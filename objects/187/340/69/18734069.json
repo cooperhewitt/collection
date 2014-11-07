@@ -3,6 +3,7 @@
     "tms:id": "243182",
     "accession_number": "1993-31-165-8",
     "title": "Book Cover, \"Bookjacket by Alvin Lustig for \"Flowers of Evil\" by Charles Baudelaire, New Directions Books,\", 1947",
+    "title_raw": "Bookjacket by Alvin Lustig for \"Flowers of Evil\" by Charles Baudelaire, New Directions Books,",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18734069\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1947,
     "year_acquired": "1993",
     "decade": "1940",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Lithography in tan and purple ink on off-white wove paper",
     "markings": null,
     "signed": "Signed in printed black ink, upper right: lustig.",
     "inscribed": "Printed vertically in white ink, spine: FLOWERS OF EVIL; printed vertically in purple ink, spine : BAUDELAIRE. Printed horizontally in purple ink, spine lower margin within white square: NC 17.\n\nPrinted in purple ink, front cover upper center left: flowers; lower center: baudelaire. Printed in white ink, front cover center right: of evil.",
     "provenance": null,
     "dimensions": "H x W: 17.9 x 16.3 cm (7 1\/16 x 6 7\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "17.90",
+            "centimeters"
+        ],
+        "width": [
+            "16.30",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Tamar Cohen and Dave Slatoff",
     "description": "Bookjacket design. Design on orange ground. Cover depicts three amoeba shapes with thin, wavy lines radiating from them. Shape on upper left features white amoeba shape with black radiating lines and orange spots in center. At center right, purple amoeba shape with white radiating lines. At bottom center, white amoeba shape with black radiating lines and orange spots in center.",
     "justification": null,
-    "type": {
-        "id": "35249845",
-        "name": "book cover"
-    },
+    "woe:country": "23424977",
+    "type": "book cover",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/39845_359d7b16b0739328_b.jpg",
                 "width": 933,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/39845_359d7b16b0739328_n.jpg",
-                "width": 291,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "39845"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/39845_359d7b16b0739328_z.jpg",
                 "width": 583,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "39845"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/39845_359d7b16b0739328_n.jpg",
+                "width": 291,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "39845"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/39845_359d7b16b0739328_d.gif",
+                "width": 291,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "39845"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/39845_359d7b16b0739328_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "39845"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18043331",
             "role_id": "35236655",
             "person_name": "Alvin Lustig",
+            "person_date": "American, 1915\u20131955",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18043331\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18051943",
             "role_id": "35351535",
             "person_name": "Private collection",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18051943\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18536655",
             "role_id": "35351535",
             "person_name": "Dave Slatoff",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18536655\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -80,24 +112,35 @@
     },
     "colors": [
         {
-            "color": "#ede0bd",
-            "closest_css3": "#f5deb3"
+            "color": "#ede4c8",
+            "closest_crayola": "#efdecd",
+            "closest_css3": "#ffe4c4",
+            "closest_css4": "#ffe4c4"
         },
         {
-            "color": "#451931",
-            "closest_css3": "#2f4f4f"
+            "color": "#6d2d15",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#8b4513",
+            "closest_css4": "#8b4513"
         },
         {
-            "color": "#642617",
-            "closest_css3": "#8b4513"
+            "color": "#914c1e",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#8b4513",
+            "closest_css4": "#8b4513"
         },
         {
-            "color": "#90491a",
-            "closest_css3": "#8b4513"
+            "color": "#d7a769",
+            "closest_crayola": "#dd9475",
+            "closest_css3": "#e9967a",
+            "closest_css4": "#e9967a"
         },
         {
-            "color": "#cd9e65",
-            "closest_css3": "#bdb76b"
+            "color": "#391330",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

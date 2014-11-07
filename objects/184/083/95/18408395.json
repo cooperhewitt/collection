@@ -3,6 +3,7 @@
     "tms:id": "114388",
     "accession_number": "1956-188-2-a,b",
     "title": "Demitasse Cup And Saucer, 1900\u201310",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18408395\/",
     "department_id": "35347497",
     "period_id": null,
@@ -13,39 +14,72 @@
     "year_end": 1910,
     "year_acquired": "1956",
     "decade": null,
-    "woe:country": "23424936",
+    "woe:country_id": "23424936",
     "medium": "Gilt and glazed porcelain",
     "markings": "On underside: (a) cup: \"Made in Russia by Kornilow Bros.\"; (b) saucer: Imperial eagle on green shield, legen in cyrilica \"St. Petersburg, Bratiev Kornilovich\".",
     "signed": null,
     "inscribed": null,
     "provenance": "1956: acquired by Museum from Anonymous donor",
     "dimensions": "H x W x D (a): 3.6 x 8 x 6.7 cm (1 7\/16 x 3 1\/8 x 2 5\/8 in.)\nH x diam. (b): 0.5 x 81.1 cm (3\/16 x 31 15\/16 in.)",
+    "dimensions_raw": {
+        "depth": [
+            "6.70",
+            "centimeters"
+        ],
+        "diameter": [
+            "81.10",
+            "centimeters"
+        ],
+        "height": [
+            "0.50",
+            "centimeters"
+        ],
+        "width": [
+            "8.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Anonymous Donor",
     "description": "Decorations of red and blue hexagonal cartouches with animals; between the cartouches green trees, above red stars and below, yellow trees and a red line with dents on cup with straight flaring side and curved saucer.  Angular handle on cup.",
     "justification": null,
-    "type": {
-        "id": "35290703",
-        "name": "Demitasse cup and saucer"
-    },
+    "woe:country": "23424936",
+    "type": "Demitasse cup and saucer",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/48026_075f28ade8983d87_b.jpg",
                 "width": 1024,
                 "height": 765,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/48026_075f28ade8983d87_n.jpg",
-                "width": 320,
-                "height": 239,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "48026"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/48026_075f28ade8983d87_z.jpg",
                 "width": 640,
                 "height": 478,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "48026"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/48026_075f28ade8983d87_n.jpg",
+                "width": 320,
+                "height": 239,
+                "is_primary": "1",
+                "image_id": "48026"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/48026_075f28ade8983d87_d.gif",
+                "width": 320,
+                "height": 239,
+                "is_primary": "1",
+                "image_id": "48026"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/48026_075f28ade8983d87_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "48026"
             }
         }
     ],
@@ -54,7 +88,9 @@
             "person_id": "18048035",
             "role_id": "35352245",
             "person_name": "Hedy Backlin-Landman",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18048035\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -62,7 +98,9 @@
             "person_id": "18052955",
             "role_id": "35236749",
             "person_name": "Tiffany and Co., New York",
+            "person_date": "Corona, New York, USA",
             "role_name": "Retailer",
+            "role_display_name": "Retailed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18052955\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236749\/"
         },
@@ -70,9 +108,21 @@
             "person_id": "18055929",
             "role_id": "35236657",
             "person_name": "Kornilow Bros.",
+            "person_date": "Russian, ?-1917",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18055929\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
+        },
+        {
+            "person_id": "68739079",
+            "role_id": "35351535",
+            "person_name": "Anonymous",
+            "person_date": "",
+            "role_name": "Donor",
+            "role_display_name": "Donated by",
+            "person_url": "http:\/\/collection.cooperhewitt.org\/people\/68739079\/",
+            "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
     ],
     "tombstone": {
@@ -80,20 +130,23 @@
     },
     "colors": [
         {
-            "color": "#6a3e32",
-            "closest_css3": "#8b4513"
+            "color": "#6a3e33",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#8b4513",
+            "closest_css4": "#8b4513"
         },
         {
-            "color": "#393a4c",
-            "closest_css3": "#2f4f4f"
+            "color": "#3a3b4d",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#7a6b5f",
-            "closest_css3": "#696969"
-        },
-        {
-            "color": "#b8aa97",
-            "closest_css3": "#a9a9a9"
+            "color": "#b7a790",
+            "closest_crayola": "#cd9575",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         }
-    ]
+    ],
+    "woe:country_name": "Russia"
 }

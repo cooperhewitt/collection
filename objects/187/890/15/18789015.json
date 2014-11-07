@@ -3,6 +3,7 @@
     "tms:id": "270819",
     "accession_number": "2011-21-1",
     "title": "Textile, \"Stones\", introduced 1969",
+    "title_raw": "Stones",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18789015\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1969,
     "year_acquired": "2011",
     "decade": "1960",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Medium: cotton\nTechnique: screen printed on supplementary pile (velvet)",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "H x W: 132.1 x 125.7 cm (52 x 49 1\/2 in.)",
+    "dimensions_raw": {
+        "height": [
+            "132.08",
+            "centimeters"
+        ],
+        "width": [
+            "125.73",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Cindia Cameron",
     "description": "Tangent irregular rounded forms, in red on a bright pink ground.",
-    "justification": null,
-    "type": {
-        "id": "35251739",
-        "name": "textile"
-    },
+    "justification": "This textile is from the Bauer Print Collection, by German designer Wolf Bauer for Knoll Textiles International. The collection was developed as part of a new push for prints under the guidance of Barbara Rodes, the head of textiles in Europe and later head of textiles for all of Knoll, after Florence Knoll retired in 1965. \nBauer\u2019s large-scale designs in hot colors printed on velvet marked a departure for Knoll from the textural, hand-woven look with which it had become associated. The Bauer Print Collection was celebrated in the design press and Industrial Design magazine included it in its Best Designs of 1969 issue. The collection won the New York Industrial Award for Design Excellence in 1970; that same year, Bauer\u2019s textile designs were the subject of a solo exhibition at the Design Center Stuttgart.\nBauer studied textile design under Leo Wollner at the Staatliche Akademie der Bildenden K\u00fcnste in Stuttgart and served as his assistant from 1963 to 1965. Both men were prominent textile designers in Europe, creating work for the top firms such as Tanus Textildruck, Heal Fabrics, Weverij de Ploeg and, most importantly, Pausa AG, a printer known for its technical skill and innovative approach.\nStones would be the second Bauer textile from this series to be accessioned into the museum\u2019s collection.",
+    "woe:country": "23424977",
+    "type": "textile",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/39470_c5aab54757a79a56_b.jpg",
                 "width": 952,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/39470_c5aab54757a79a56_n.jpg",
-                "width": 298,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "39470"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/39470_c5aab54757a79a56_z.jpg",
                 "width": 595,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "39470"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/39470_c5aab54757a79a56_n.jpg",
+                "width": 298,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "39470"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/39470_c5aab54757a79a56_d.gif",
+                "width": 298,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "39470"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/39470_c5aab54757a79a56_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "39470"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18045629",
             "role_id": "35236673",
             "person_name": "Pausa AG",
+            "person_date": "M\u00f6ssingen, Germany, founded 1911",
             "role_name": "Printer",
+            "role_display_name": "Printed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18045629\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236673\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18041409",
             "role_id": "35236671",
             "person_name": "Knoll Textiles",
+            "person_date": "East Greenville, Pennsylvania, USA, founded 1947",
             "role_name": "Producer",
+            "role_display_name": "Produced by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041409\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236671\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18064229",
             "role_id": "35236655",
             "person_name": "Wolf Bauer",
+            "person_date": "German, 1938 - 1990",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18064229\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -78,7 +110,9 @@
             "person_id": "18064509",
             "role_id": "35351535",
             "person_name": "Cindia Cameron",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18064509\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -88,16 +122,23 @@
     },
     "colors": [
         {
-            "color": "#e41f45",
-            "closest_css3": "#dc143c"
+            "color": "#e73347",
+            "closest_crayola": "#ee204d",
+            "closest_css3": "#dc143c",
+            "closest_css4": "#dc143c"
         },
         {
-            "color": "#edddce",
-            "closest_css3": "#faebd7"
+            "color": "#de7c67",
+            "closest_crayola": "#ea7e5d",
+            "closest_css3": "#fa8072",
+            "closest_css4": "#fa8072"
         },
         {
-            "color": "#df8b73",
-            "closest_css3": "#e9967a"
+            "color": "#edd6c6",
+            "closest_crayola": "#efdecd",
+            "closest_css3": "#f5deb3",
+            "closest_css4": "#f5deb3"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

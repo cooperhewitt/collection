@@ -3,6 +3,7 @@
     "tms:id": "122230",
     "accession_number": "1958-88-15",
     "title": "Textile, \"Krone\", 1910\u201317",
+    "title_raw": "Krone",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18423713\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1917,
     "year_acquired": "1958",
     "decade": "1910",
-    "woe:country": "23424750",
+    "woe:country_id": "23424750",
     "medium": "Medium: silk\nTechnique: printed on plain weave",
     "markings": null,
     "signed": null,
     "inscribed": "Printed on right edge: \"WIENER WERKSTATTE\"",
     "provenance": null,
     "dimensions": "H x W: 54.9 x 93.3 cm (21 5\/8 x 36 3\/4 in.)\nRepeat H: 32.4 cm (12 3\/4 in.)",
+    "dimensions_raw": {
+        "height": [
+            "54.93",
+            "centimeters"
+        ],
+        "width": [
+            "93.35",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Teresa Kilham",
     "description": "Printed silk with vertical ombre stripes shading from deep burnt orange to yellow. Over the yellow areas, two columns of whimsical floral design alternate.",
     "justification": null,
-    "type": {
-        "id": "35251739",
-        "name": "textile"
-    },
+    "woe:country": "23424750",
+    "type": "textile",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/42560_40aed39b0c7dc668_b.jpg",
                 "width": 1024,
                 "height": 610,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/42560_40aed39b0c7dc668_n.jpg",
-                "width": 320,
-                "height": 191,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "42560"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/42560_40aed39b0c7dc668_z.jpg",
                 "width": 640,
                 "height": 381,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "42560"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/42560_40aed39b0c7dc668_n.jpg",
+                "width": 320,
+                "height": 191,
+                "is_primary": "1",
+                "image_id": "42560"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/42560_40aed39b0c7dc668_d.gif",
+                "width": 320,
+                "height": 191,
+                "is_primary": "1",
+                "image_id": "42560"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/42560_40aed39b0c7dc668_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "42560"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18047497",
             "role_id": "35352245",
             "person_name": "Milton Sonday",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047497\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18539137",
             "role_id": "35352245",
             "person_name": "Sheila Franz",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18539137\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18046827",
             "role_id": "35351535",
             "person_name": "Teresa Kilham",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18046827\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -78,7 +110,9 @@
             "person_id": "18048101",
             "role_id": "35236657",
             "person_name": "Wiener Werkst\u00e4tte",
+            "person_date": "Vienna, Austria, 1903\u20131932",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18048101\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         },
@@ -86,7 +120,9 @@
             "person_id": "18044265",
             "role_id": "35236655",
             "person_name": "Dagobert Peche",
+            "person_date": "Austrian, 1887\u20131923; active Vienna 1911\u20131923",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18044265\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
@@ -96,24 +132,35 @@
     },
     "colors": [
         {
-            "color": "#dc7e2c",
-            "closest_css3": "#cd853f"
+            "color": "#dc7f2b",
+            "closest_crayola": "#ff7538",
+            "closest_css3": "#cd853f",
+            "closest_css4": "#cd853f"
         },
         {
-            "color": "#e5b256",
-            "closest_css3": "#f4a460"
+            "color": "#e5a246",
+            "closest_crayola": "#ffa343",
+            "closest_css3": "#f4a460",
+            "closest_css4": "#f4a460"
         },
         {
-            "color": "#f3dd8e",
-            "closest_css3": "#f0e68c"
+            "color": "#c4a860",
+            "closest_crayola": "#bab86c",
+            "closest_css3": "#bdb76b",
+            "closest_css4": "#bdb76b"
         },
         {
-            "color": "#a53e17",
-            "closest_css3": "#8b4513"
+            "color": "#aa3f16",
+            "closest_crayola": "#c46210",
+            "closest_css3": "#a52a2a",
+            "closest_css4": "#a52a2a"
         },
         {
-            "color": "#c2591e",
-            "closest_css3": "#d2691e"
+            "color": "#f4e194",
+            "closest_crayola": "#f0e891",
+            "closest_css3": "#f0e68c",
+            "closest_css4": "#f0e68c"
         }
-    ]
+    ],
+    "woe:country_name": "Austria"
 }

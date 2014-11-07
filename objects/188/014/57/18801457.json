@@ -3,6 +3,7 @@
     "tms:id": "180895",
     "accession_number": "1984-111-75",
     "title": "Textile, ca. 1950",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18801457\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1960,
     "year_acquired": "1984",
     "decade": "1940",
-    "woe:country": "23424977",
-    "medium": "Medium: cotton\nTechnique: screen printed on plain weave",
+    "woe:country_id": "23424977",
+    "medium": "Medium: cotton\nTechnique: screen printed on plain weave\nLabel: screen printed cotton",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "1984: acquired by Museum",
     "dimensions": "H x W: 302.3 x 137.2 cm (119 x 54 in.)",
+    "dimensions_raw": {
+        "height": [
+            "302.26",
+            "centimeters"
+        ],
+        "width": [
+            "137.16",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Marianne Strengell",
     "description": "Commercially woven fabric with horizontal stripes of pinks and purples, overprinted with a grid of zig-zag black lines.",
     "justification": null,
-    "type": {
-        "id": "35251739",
-        "name": "textile"
-    },
+    "woe:country": "23424977",
+    "type": "textile",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/43126_64e0eca6823df1c6_b.jpg",
                 "width": 575,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/43126_64e0eca6823df1c6_n.jpg",
-                "width": 180,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "43126"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/43126_64e0eca6823df1c6_z.jpg",
                 "width": 360,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "43126"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/43126_64e0eca6823df1c6_n.jpg",
+                "width": 180,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "43126"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/43126_64e0eca6823df1c6_d.gif",
+                "width": 180,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "43126"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/43126_64e0eca6823df1c6_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "43126"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18041443",
             "role_id": "35236673",
             "person_name": "Marianne Strengell",
+            "person_date": "Finnish, active USA, 1909\u20131998",
             "role_name": "Printer",
+            "role_display_name": "Printed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041443\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236673\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18041443",
             "role_id": "35236655",
             "person_name": "Marianne Strengell",
+            "person_date": "Finnish, active USA, 1909\u20131998",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041443\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18041443",
             "role_id": "35351535",
             "person_name": "Marianne Strengell",
+            "person_date": "Finnish, active USA, 1909\u20131998",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041443\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -78,34 +110,47 @@
             "person_id": "18041809",
             "role_id": "35236673",
             "person_name": "Cranbrook Academy of Art",
+            "person_date": "",
             "role_name": "Printer",
+            "role_display_name": "Printed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041809\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236673\/"
         }
     ],
     "tombstone": {
-        "epitaph": "Textile, ca. 1950. Medium: cotton\nTechnique: screen printed on plain weave. Gift of Marianne Strengell. 1984-111-75."
+        "epitaph": "Textile, ca. 1950. Medium: cotton\nTechnique: screen printed on plain weave\nLabel: screen printed cotton. Gift of Marianne Strengell. 1984-111-75."
     },
     "colors": [
         {
-            "color": "#875770",
-            "closest_css3": "#696969"
+            "color": "#653c72",
+            "closest_crayola": "#58427c",
+            "closest_css3": "#483d8b",
+            "closest_css4": "#483d8b"
         },
         {
-            "color": "#623b6c",
-            "closest_css3": "#483d8b"
+            "color": "#a84166",
+            "closest_crayola": "#bf4f51",
+            "closest_css3": "#cd5c5c",
+            "closest_css4": "#cd5c5c"
         },
         {
-            "color": "#947385",
-            "closest_css3": "#808080"
+            "color": "#947586",
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#2d2329",
-            "closest_css3": "#2f4f4f"
+            "color": "#735563",
+            "closest_crayola": "#6e5160",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#6e3045",
-            "closest_css3": "#8b4513"
+            "color": "#723147",
+            "closest_crayola": "#6e5160",
+            "closest_css3": "#a52a2a",
+            "closest_css4": "#a52a2a"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

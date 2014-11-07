@@ -3,6 +3,7 @@
     "tms:id": "20682",
     "accession_number": "1915-17-1",
     "title": "Painting, \"\"Fishermen at Sundown\"\", 1869",
+    "title_raw": "\"Fishermen at Sundown\"",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18185713\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,68 @@
     "year_end": 1869,
     "year_acquired": "1915",
     "decade": null,
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Brush and oil paint on wood panel",
     "markings": "(see curatorial remarks)",
     "signed": "Signed in oil, at lower right corner: Homer",
     "inscribed": "Verso: Inscribed in graphite: LOBSTER\/COVE\/MANCHESTER\/MASS\/1869.",
     "provenance": "Charles Savage Homer, Jr.",
     "dimensions": "31.3 x 54cm (12 5\/16 x 21 1\/4in.)",
+    "dimensions_raw": {
+        "depth": [
+            "7.62",
+            "centimeters"
+        ],
+        "height": [
+            "45.72",
+            "centimeters"
+        ],
+        "width": [
+            "69.85",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Charles Savage Homer, Jr.",
     "description": "A view of a rocky cove, with a pale-blue sky and pinkish-cream clouds reflected in the water.  Among foreground rocks, two small fishermen dressed in caps and blue coats are visible, one holding a rod and the other a net.",
     "justification": null,
-    "type": {
-        "id": "35248229",
-        "name": "painting"
-    },
+    "woe:country": "23424977",
+    "type": "painting",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/1603_422ec1e19ac1e146_b.jpg",
                 "width": 1024,
                 "height": 581,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/1603_422ec1e19ac1e146_n.jpg",
-                "width": 320,
-                "height": 182,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "1603"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/1603_422ec1e19ac1e146_z.jpg",
                 "width": 640,
                 "height": 363,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "1603"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/1603_422ec1e19ac1e146_n.jpg",
+                "width": 320,
+                "height": 182,
+                "is_primary": "1",
+                "image_id": "1603"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/1603_422ec1e19ac1e146_d.gif",
+                "width": 320,
+                "height": 182,
+                "is_primary": "1",
+                "image_id": "1603"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/1603_422ec1e19ac1e146_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "1603"
             }
         }
     ],
@@ -54,7 +84,9 @@
             "person_id": "18537931",
             "role_id": "35351535",
             "person_name": "Charles Savage Homer, Jr.",
+            "person_date": "American, 1834\u20131917",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18537931\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -62,7 +94,9 @@
             "person_id": "18041949",
             "role_id": "35236565",
             "person_name": "Winslow Homer",
+            "person_date": "American, 1836\u20131910",
             "role_name": "Artist",
+            "role_display_name": "",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041949\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236565\/"
         }
@@ -72,20 +106,35 @@
     },
     "colors": [
         {
-            "color": "#d5c686",
-            "closest_css3": "#deb887"
+            "color": "#4e4736",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         },
         {
-            "color": "#6c5b38",
-            "closest_css3": "#556b2f"
+            "color": "#c4c494",
+            "closest_crayola": "#c5e384",
+            "closest_css3": "#d2b48c",
+            "closest_css4": "#d2b48c"
         },
         {
-            "color": "#b29b5b",
-            "closest_css3": "#bdb76b"
+            "color": "#68603e",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         },
         {
-            "color": "#8b8051",
-            "closest_css3": "#696969"
+            "color": "#a09159",
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#bdb76b",
+            "closest_css4": "#bdb76b"
+        },
+        {
+            "color": "#e7cc7a",
+            "closest_crayola": "#fcd975",
+            "closest_css3": "#deb887",
+            "closest_css4": "#deb887"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

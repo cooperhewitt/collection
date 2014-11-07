@@ -3,6 +3,7 @@
     "tms:id": "150260",
     "accession_number": "1972-88-406",
     "title": "Drawing, \"Rough sketch (bar\/lounge?), for Uris Hotels\", January 18, 1951",
+    "title_raw": "Rough sketch (bar\/lounge?), for Uris Hotels",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18478855\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1951,
     "year_acquired": "1972",
     "decade": "1950",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Crayon and graphite on off-white tracing paper",
     "markings": null,
     "signed": "Signed in graphite, right: 1-18-51 \/ JE.",
     "inscribed": null,
     "provenance": null,
     "dimensions": "35.1 x 45.5 cm (13 13\/16 x 17 15\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "35.10",
+            "centimeters"
+        ],
+        "width": [
+            "45.50",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Henry Dreyfuss",
     "description": "Colored sketch of a bar\/lounge with figures to give sense of scale.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424977",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/39220_4ed34c11f4e59c09_b.jpg",
                 "width": 1024,
                 "height": 784,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/39220_4ed34c11f4e59c09_n.jpg",
-                "width": 320,
-                "height": 245,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "39220"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/39220_4ed34c11f4e59c09_z.jpg",
                 "width": 640,
                 "height": 490,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "39220"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/39220_4ed34c11f4e59c09_n.jpg",
+                "width": 320,
+                "height": 245,
+                "is_primary": "1",
+                "image_id": "39220"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/39220_4ed34c11f4e59c09_d.gif",
+                "width": 320,
+                "height": 245,
+                "is_primary": "1",
+                "image_id": "39220"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/39220_4ed34c11f4e59c09_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "39220"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18065427",
             "role_id": "35352245",
             "person_name": "Stephanie Keating",
+            "person_date": "American",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18065427\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18041029",
             "role_id": "35236655",
             "person_name": "Henry Dreyfuss Associates",
+            "person_date": "founded 1929",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041029\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18041501",
             "role_id": "35351535",
             "person_name": "Henry Dreyfuss",
+            "person_date": "American, 1904\u20131972",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041501\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -80,12 +112,17 @@
     },
     "colors": [
         {
-            "color": "#a79c77",
-            "closest_css3": "#bc8f8f"
+            "color": "#aa9f78",
+            "closest_crayola": "#bab86c",
+            "closest_css3": "#bdb76b",
+            "closest_css4": "#bdb76b"
         },
         {
-            "color": "#81795f",
-            "closest_css3": "#696969"
+            "color": "#837a60",
+            "closest_crayola": "#8a795d",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

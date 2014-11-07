@@ -3,6 +3,7 @@
     "tms:id": "44238",
     "accession_number": "1931-1-9",
     "title": "Textile, 1910\u201314",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18317829\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1914,
     "year_acquired": "1931",
     "decade": "1910",
-    "woe:country": "23424819",
+    "woe:country_id": "23424819",
     "medium": "Medium: silk\nTechnique: compound satin",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "Warp x Weft: 101 x 67.9 cm (39 3\/4 x 26 3\/4 in.)",
+    "dimensions_raw": {
+        "warp": [
+            "100.97",
+            "centimeters"
+        ],
+        "weft": [
+            "67.95",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Anonymous Donor",
     "description": "Light blue satin ground with damask sub-pattern of leaf blades. Dominant pattern is vertical columns of royal blue leaves with clusters of yellow and orange blossoms.",
     "justification": null,
-    "type": {
-        "id": "35251739",
-        "name": "textile"
-    },
+    "woe:country": "23424819",
+    "type": "textile",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/2623_b75dd276d1ffcbda_b.jpg",
                 "width": 673,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/2623_b75dd276d1ffcbda_n.jpg",
-                "width": 210,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "2623"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/2623_b75dd276d1ffcbda_z.jpg",
                 "width": 421,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "2623"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/2623_b75dd276d1ffcbda_n.jpg",
+                "width": 210,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "2623"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/2623_b75dd276d1ffcbda_d.gif",
+                "width": 210,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "2623"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/2623_b75dd276d1ffcbda_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "2623"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18538245",
             "role_id": "35236655",
             "person_name": "Charles Plumet",
+            "person_date": "1861 - 1925",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18538245\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18537605",
             "role_id": "35352245",
             "person_name": "Jean Reed",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18537605\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -70,15 +100,19 @@
             "person_id": "18538093",
             "role_id": "35236671",
             "person_name": "Tassinari & Chatel",
+            "person_date": "Paris and Lyons, France, founded 1680",
             "role_name": "Producer",
+            "role_display_name": "Produced by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18538093\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236671\/"
         },
         {
             "person_id": "18049335",
             "role_id": "35351535",
-            "person_name": "Anonymous",
+            "person_name": "Unknown",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049335\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -88,24 +122,35 @@
     },
     "colors": [
         {
-            "color": "#9691b6",
-            "closest_css3": "#a9a9a9"
+            "color": "#817bae",
+            "closest_crayola": "#926eae",
+            "closest_css3": "#778899",
+            "closest_css4": "#778899"
         },
         {
-            "color": "#a2bdc4",
-            "closest_css3": "#b0c4de"
+            "color": "#89a19d",
+            "closest_crayola": "#979aaa",
+            "closest_css3": "#8fbc8f",
+            "closest_css4": "#8fbc8f"
         },
         {
-            "color": "#7e8677",
-            "closest_css3": "#808080"
+            "color": "#7f877d",
+            "closest_crayola": "#757575",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#7674a7",
-            "closest_css3": "#778899"
+            "color": "#a6c2c8",
+            "closest_crayola": "#b0b7c6",
+            "closest_css3": "#b0c4de",
+            "closest_css4": "#b0c4de"
         },
         {
-            "color": "#cba775",
-            "closest_css3": "#bdb76b"
+            "color": "#97778a",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         }
-    ]
+    ],
+    "woe:country_name": "France"
 }

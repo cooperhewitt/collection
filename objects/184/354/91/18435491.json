@@ -3,6 +3,7 @@
     "tms:id": "128166",
     "accession_number": "1960-91-1",
     "title": "Sidewall, \"Baroque Stripe\", 1959\u201360",
+    "title_raw": "Baroque Stripe",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18435491\/",
     "department_id": "35347503",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1960,
     "year_acquired": "1960",
     "decade": "1950",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Screen-printed on paper",
     "markings": null,
     "signed": null,
     "inscribed": "Printed in pink, right selvedge: \"RANDOM MATCH\"; left selvedge: \"TRIM \u201cBAROQUE STRIPE\u201d A LARSEN DESIGN FOR KARL MANN ASSOICATES A CUSTOM HANDPRINT MADE IN U.S.A. SCREEN 1-2\".",
     "provenance": "Karl Mann Associates; 1960: acquired by Museum",
     "dimensions": "175.5 x 76.5 cm (69 1\/8 x 30 1\/8 in.)",
+    "dimensions_raw": {
+        "height": [
+            "175.50",
+            "centimeters"
+        ],
+        "width": [
+            "76.50",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Karl Mann Associates",
     "description": "Biomorphic bands in fire red outlined in fuchsia on a light pink ground.",
     "justification": null,
-    "type": {
-        "id": "35256475",
-        "name": "Sidewall"
-    },
+    "woe:country": "23424977",
+    "type": "Sidewall",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/40708_f270077ef89a64b4_b.jpg",
                 "width": 448,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/40708_f270077ef89a64b4_n.jpg",
-                "width": 140,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "40708"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/40708_f270077ef89a64b4_z.jpg",
                 "width": 280,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "40708"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/40708_f270077ef89a64b4_n.jpg",
+                "width": 140,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "40708"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/40708_f270077ef89a64b4_d.gif",
+                "width": 140,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "40708"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/40708_f270077ef89a64b4_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "40708"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18046359",
             "role_id": "35351535",
             "person_name": "Karl Mann Associates",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18046359\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18047399",
             "role_id": "35352245",
             "person_name": "Gregory Herringshaw",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047399\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18048087",
             "role_id": "35352245",
             "person_name": "cv",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18048087\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -78,7 +110,9 @@
             "person_id": "18046359",
             "role_id": "35236657",
             "person_name": "Karl Mann Associates",
+            "person_date": "",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18046359\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         },
@@ -86,7 +120,9 @@
             "person_id": "18040903",
             "role_id": "35236655",
             "person_name": "Jack Lenor Larsen",
+            "person_date": "American, b. 1927",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18040903\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
@@ -96,20 +132,35 @@
     },
     "colors": [
         {
-            "color": "#d98f6c",
-            "closest_css3": "#e9967a"
+            "color": "#db926e",
+            "closest_crayola": "#dd9475",
+            "closest_css3": "#e9967a",
+            "closest_css4": "#e9967a"
         },
         {
-            "color": "#d54916",
-            "closest_css3": "#d2691e"
+            "color": "#db5221",
+            "closest_crayola": "#c46210",
+            "closest_css3": "#d2691e",
+            "closest_css4": "#d2691e"
         },
         {
-            "color": "#d16579",
-            "closest_css3": "#d87093"
+            "color": "#d26578",
+            "closest_crayola": "#de5d83",
+            "closest_css3": "#d87093",
+            "closest_css4": "#cd5c5c"
         },
         {
-            "color": "#dbb39e",
-            "closest_css3": "#d2b48c"
+            "color": "#d67c71",
+            "closest_crayola": "#dd9475",
+            "closest_css3": "#f08080",
+            "closest_css4": "#f08080"
+        },
+        {
+            "color": "#d2b0a1",
+            "closest_crayola": "#deaa88",
+            "closest_css3": "#d2b48c",
+            "closest_css4": "#d2b48c"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

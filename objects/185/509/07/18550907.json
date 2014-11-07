@@ -3,6 +3,7 @@
     "tms:id": "68300",
     "accession_number": "1938-88-7330",
     "title": "Drawing, \"The Holy Family\", ca. 1730\u20131800",
+    "title_raw": "The Holy Family",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18550907\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": null,
     "year_acquired": "1938",
     "decade": null,
-    "woe:country": "23424853",
+    "woe:country_id": "23424853",
     "medium": "Pen and black ink, black and white chalk on oatmeal colored paper.",
     "markings": null,
     "signed": null,
     "inscribed": "Inscribed in pen and black ink, lower left: Mar. no Rossi inv to",
     "provenance": "Giovanni Piancastelli",
     "dimensions": "24.1 x 19.9 cm (9 1\/2 x 7 13\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "24.10",
+            "centimeters"
+        ],
+        "width": [
+            "19.90",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase through gift of various donors and from Eleanor G. Hewitt Fund",
     "description": "Drawing of the Holy Family, at center is Christ as a baby standing while the Virgin Mary is seated to the right supporting him.  Behind them at center left is Joseph standing.  Christ is reaching down to grab an object from the small Sheppard (?).  To the right a man looks over and to the center left a woman seated looks on.  An angel flies above all at upper right corner.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424853",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/39899_7a4df2f9f5539e99_b.jpg",
                 "width": 769,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/39899_7a4df2f9f5539e99_n.jpg",
-                "width": 240,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "39899"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/39899_7a4df2f9f5539e99_z.jpg",
                 "width": 481,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "39899"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/39899_7a4df2f9f5539e99_n.jpg",
+                "width": 240,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "39899"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/39899_7a4df2f9f5539e99_d.gif",
+                "width": 240,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "39899"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/39899_7a4df2f9f5539e99_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "39899"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/16987_66245fbbb17e8c3d_b.jpg",
                 "width": 718,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/16987_66245fbbb17e8c3d_n.jpg",
-                "width": 224,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "16987"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/16987_66245fbbb17e8c3d_z.jpg",
                 "width": 449,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "16987"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/16987_66245fbbb17e8c3d_n.jpg",
+                "width": 224,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "16987"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/16987_66245fbbb17e8c3d_d.gif",
+                "width": 224,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "16987"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/16987_66245fbbb17e8c3d_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "16987"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18064709",
             "role_id": "35236565",
             "person_name": "Mariano Rossi",
+            "person_date": "Italian, 1731\u20131807",
             "role_name": "Artist",
+            "role_display_name": "",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18064709\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236565\/"
         }
@@ -84,12 +129,17 @@
     },
     "colors": [
         {
-            "color": "#b09e87",
-            "closest_css3": "#bc8f8f"
+            "color": "#918372",
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#8d806f",
-            "closest_css3": "#808080"
+            "color": "#eee4cd",
+            "closest_crayola": "#efdecd",
+            "closest_css3": "#faebd7",
+            "closest_css4": "#faebd7"
         }
-    ]
+    ],
+    "woe:country_name": "Italy"
 }

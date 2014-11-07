@@ -3,6 +3,7 @@
     "tms:id": "193178",
     "accession_number": "1991-58-30",
     "title": "Drawing, \"Design for Garden featuring Octagonal Fountain with Sculpture, flanked by Hemispherical Trellisses\", 1912\u201314",
+    "title_raw": "Design for Garden featuring Octagonal Fountain with Sculpture, flanked by Hemispherical Trellisses",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18636655\/",
     "department_id": "35347493",
     "period_id": "35417251",
@@ -13,39 +14,64 @@
     "year_end": 1914,
     "year_acquired": "1991",
     "decade": "1910",
-    "woe:country": "23424819",
+    "woe:country_id": "23424819",
     "medium": "Pen and black ink, brush and white gouache, black crayon, graphite on cream tracing paper",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "Yu-Chee Chong Fine Art, London",
     "dimensions": "19.7 x 25.4 cm (7 3\/4 x 10 in.)",
-    "creditline": null,
+    "dimensions_raw": {
+        "height": [
+            "19.70",
+            "centimeters"
+        ],
+        "width": [
+            "25.40",
+            "centimeters"
+        ]
+    },
+    "creditline": "Museum purchase from Smithsonian Institution Collections Acquisition Program Fund",
     "description": "A round basin with standing female nude in middle surrounded by an octagonal low wall with benches at the four short sides. Four tall symmetrically-placed spruce trees appear outside the short ends of the wall. In the foreground, in the lower left and right corner, are hemispherical trellises with fountains in the form of columns inside. The fountain is surrounded on three sides by a wall with tall trees growing outside.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424819",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/42643_d8e70d576ed5b236_b.jpg",
                 "width": 1024,
                 "height": 793,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/42643_d8e70d576ed5b236_n.jpg",
-                "width": 320,
-                "height": 248,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "42643"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/42643_d8e70d576ed5b236_z.jpg",
                 "width": 640,
                 "height": 496,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "42643"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/42643_d8e70d576ed5b236_n.jpg",
+                "width": 320,
+                "height": 248,
+                "is_primary": "1",
+                "image_id": "42643"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/42643_d8e70d576ed5b236_d.gif",
+                "width": 320,
+                "height": 248,
+                "is_primary": "1",
+                "image_id": "42643"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/42643_d8e70d576ed5b236_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "42643"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "51676457",
             "role_id": "35352245",
             "person_name": "Karin Zonis",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/51676457\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18043123",
             "role_id": "35236669",
             "person_name": "Paul Vera",
+            "person_date": "French, 1882\u20131957; active in Paris",
             "role_name": "Draftsman",
+            "role_display_name": "Drafted by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18043123\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236669\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18043125",
             "role_id": "35236669",
             "person_name": "Andr\u00e9 Vera",
+            "person_date": "French, 1881\u20131971; active in Paris",
             "role_name": "Draftsman",
+            "role_display_name": "Drafted by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18043125\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236669\/"
         },
@@ -78,7 +110,9 @@
             "person_id": "18043123",
             "role_id": "35236655",
             "person_name": "Paul Vera",
+            "person_date": "French, 1882\u20131957; active in Paris",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18043123\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -86,30 +120,57 @@
             "person_id": "18043125",
             "role_id": "35236655",
             "person_name": "Andr\u00e9 Vera",
+            "person_date": "French, 1881\u20131971; active in Paris",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18043125\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
+        },
+        {
+            "person_id": "18061593",
+            "role_id": "35352249",
+            "person_name": "Yu-Chee Chong",
+            "person_date": "",
+            "role_name": "Vendor",
+            "role_display_name": "Purchased from",
+            "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18061593\/",
+            "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352249\/"
         }
     ],
     "tombstone": {
-        "epitaph": "Drawing, \"Design for Garden featuring Octagonal Fountain with Sculpture, flanked by Hemispherical Trellisses\", 1912\u201314. Pen and black ink, brush and white gouache, black crayon, graphite on cream tracing paper. 1991-58-30."
+        "epitaph": "Drawing, \"Design for Garden featuring Octagonal Fountain with Sculpture, flanked by Hemispherical Trellisses\", 1912\u201314. Pen and black ink, brush and white gouache, black crayon, graphite on cream tracing paper. Museum purchase from Smithsonian Institution Collections Acquisition Program Fund. 1991-58-30."
     },
     "colors": [
         {
-            "color": "#3a3833",
-            "closest_css3": "#2f4f4f"
+            "color": "#c4bb9b",
+            "closest_crayola": "#deaa88",
+            "closest_css3": "#d2b48c",
+            "closest_css4": "#d2b48c"
         },
         {
-            "color": "#7a7360",
-            "closest_css3": "#696969"
+            "color": "#2f2e2b",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#a59b7e",
-            "closest_css3": "#bc8f8f"
+            "color": "#726c5b",
+            "closest_crayola": "#85754e",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#5b5a56",
-            "closest_css3": "#696969"
+            "color": "#4e4d49",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
+        },
+        {
+            "color": "#938a72",
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         }
-    ]
+    ],
+    "woe:country_name": "France"
 }

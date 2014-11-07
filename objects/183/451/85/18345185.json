@@ -3,6 +3,7 @@
     "tms:id": "56456",
     "accession_number": "1937-63-3",
     "title": "Sample, ca. 1805",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18345185\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1815,
     "year_acquired": "1937",
     "decade": null,
-    "woe:country": "23424819",
+    "woe:country_id": "23424819",
     "medium": "Medium: silk, metallic thread\nTechnique: fancy satin brocaded with gold",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "H x W: 91.5 x 67.5 cm (36 x 26 9\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "91.50",
+            "centimeters"
+        ],
+        "width": [
+            "67.50",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Herman A. Elsberg on the Fortieth Anniversary of the Museum",
     "description": "Bright blue satin with ground figures of stiffly symmetrical acanthus leaves. Wreaths, rosettes, and acanthus leaves brocaded in plain and fris\u00e9 gold thread.",
     "justification": null,
-    "type": {
-        "id": "35268079",
-        "name": "Sample"
-    },
+    "woe:country": "23424819",
+    "type": "Sample",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/46697_0e5214edde41207c_b.jpg",
                 "width": 1024,
                 "height": 987,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/46697_0e5214edde41207c_n.jpg",
-                "width": 320,
-                "height": 308,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "46697"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/46697_0e5214edde41207c_z.jpg",
                 "width": 640,
                 "height": 617,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "46697"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/46697_0e5214edde41207c_n.jpg",
+                "width": 320,
+                "height": 308,
+                "is_primary": "1",
+                "image_id": "46697"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/46697_0e5214edde41207c_d.gif",
+                "width": 320,
+                "height": 308,
+                "is_primary": "1",
+                "image_id": "46697"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/46697_0e5214edde41207c_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "46697"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/33868_82037ce4ef604c94_b.jpg",
                 "width": 980,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/33868_82037ce4ef604c94_n.jpg",
-                "width": 306,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "33868"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/33868_82037ce4ef604c94_z.jpg",
                 "width": 613,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "33868"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/33868_82037ce4ef604c94_n.jpg",
+                "width": 306,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "33868"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/33868_82037ce4ef604c94_d.gif",
+                "width": 306,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "33868"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/33868_82037ce4ef604c94_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "33868"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18538333",
             "role_id": "35236657",
             "person_name": "S\u00e9guin et Cie",
+            "person_date": "",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18538333\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18042417",
             "role_id": "35351535",
             "person_name": "Herman A. Elsberg",
+            "person_date": "American, 1869\u20131938",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18042417\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -92,24 +139,35 @@
     },
     "colors": [
         {
-            "color": "#113451",
-            "closest_css3": "#2f4f4f"
+            "color": "#183751",
+            "closest_crayola": "#1a4876",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#9e7d36",
-            "closest_css3": "#a0522d"
+            "color": "#8f7031",
+            "closest_crayola": "#9c7c38",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         },
         {
-            "color": "#c5a34f",
-            "closest_css3": "#cd853f"
+            "color": "#c2a04e",
+            "closest_crayola": "#d68a59",
+            "closest_css3": "#cd853f",
+            "closest_css4": "#cd853f"
         },
         {
-            "color": "#e8cb71",
-            "closest_css3": "#deb887"
+            "color": "#eac969",
+            "closest_crayola": "#f8d568",
+            "closest_css3": "#deb887",
+            "closest_css4": "#deb887"
         },
         {
-            "color": "#705a2d",
-            "closest_css3": "#556b2f"
+            "color": "#596152",
+            "closest_crayola": "#6e5160",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         }
-    ]
+    ],
+    "woe:country_name": "France"
 }

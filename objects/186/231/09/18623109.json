@@ -3,6 +3,7 @@
     "tms:id": "186391",
     "accession_number": "1987-85-4-a",
     "title": "Textile, \"\"L'abreuvoir' (The Well)\", ca. 1792",
+    "title_raw": "\"L'abreuvoir' (The Well)",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18623109\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,68 @@
     "year_end": 1802,
     "year_acquired": "1987",
     "decade": null,
-    "woe:country": "23424819",
+    "woe:country_id": "23424819",
     "medium": "Medium:\nTechnique: Plain weave foundation.  Printed (with a mordant for red) by engraved plate.",
     "markings": null,
     "signed": null,
     "inscribed": "An example of this fabric with the chef de piece is in the Musee Lambinet in Versailles, France.",
     "provenance": null,
     "dimensions": "Warp: 212.5 (83 3\/4in.). Weft(s-s): 96.5cm (38in.)\nPattern: Height of repeat and printing plate: 103cm (40 1\/2in.)                     Designed so that motifs are complete when lengths sewn together as a       half-drop.",
+    "dimensions_raw": {
+        "height": [
+            "103.00",
+            "centimeters"
+        ],
+        "warp": [
+            "212.50",
+            "centimeters"
+        ],
+        "weft": [
+            "96.50",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of the Estate of Josephine Howell",
     "description": "Several scenes, most involving water or drinking. Included are: village well with animals drinking, drinking outside a tavern and drinking as an accompaniement to dancing. In red on white.",
     "justification": null,
-    "type": {
-        "id": "35251739",
-        "name": "textile"
-    },
+    "woe:country": "23424819",
+    "type": "textile",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/78178_6507c5ab6cd45187_b.jpg",
                 "width": 663,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/78178_6507c5ab6cd45187_n.jpg",
-                "width": 207,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "78178"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/78178_6507c5ab6cd45187_z.jpg",
                 "width": 414,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "78178"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/78178_6507c5ab6cd45187_n.jpg",
+                "width": 207,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "78178"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/78178_6507c5ab6cd45187_d.gif",
+                "width": 207,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "78178"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/78178_6507c5ab6cd45187_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "78178"
             }
         }
     ],
@@ -54,7 +84,9 @@
             "person_id": "18047459",
             "role_id": "35352245",
             "person_name": "Gillian Moss",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047459\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -62,7 +94,9 @@
             "person_id": "18045425",
             "role_id": "35236681",
             "person_name": "Oberkampf & Cie.",
+            "person_date": "Jouy-en-Josas, France, 1759 \u2013 1815",
             "role_name": "Company",
+            "role_display_name": "Company:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18045425\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236681\/"
         },
@@ -70,7 +104,9 @@
             "person_id": "18045567",
             "role_id": "35236655",
             "person_name": "Jean-Baptiste Hu\u00ebt",
+            "person_date": "1745 \u2013 1811",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18045567\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
@@ -80,5 +116,6 @@
     },
     "colors": [
 
-    ]
+    ],
+    "woe:country_name": "France"
 }

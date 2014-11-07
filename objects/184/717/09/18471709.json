@@ -3,6 +3,7 @@
     "tms:id": "146515",
     "accession_number": "1970-14-1-b",
     "title": "Dress, 1969",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18471709\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1969,
     "year_acquired": "1970",
     "decade": "1960",
-    "woe:country": "23424808",
+    "woe:country_id": "23424808",
     "medium": "Medium: cotton\nTechnique: plain weave with complementary weft floats",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "Warp x Weft: 234 x 160 cm (7 ft. 8 1\/8 in. x 5 ft. 3 in.)",
+    "dimensions_raw": {
+        "warp": [
+            "234.00",
+            "centimeters"
+        ],
+        "weft": [
+            "160.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Mrs Calvin W. Stillman",
     "description": "Two panels of sheer white cotton seamed together with a 6 3\/4 inch border at both end. Bands and borders are a geometric pattern of triangles, diamonds and chevrons in blue, green, gold and red.",
     "justification": null,
-    "type": {
-        "id": "35266835",
-        "name": "dress"
-    },
+    "woe:country": "23424808",
+    "type": "dress",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/24641_9f0aa3b6504d8239_b.jpg",
                 "width": 1024,
                 "height": 683,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/24641_9f0aa3b6504d8239_n.jpg",
-                "width": 320,
-                "height": 213,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "24641"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/24641_9f0aa3b6504d8239_z.jpg",
                 "width": 640,
                 "height": 427,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "24641"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/24641_9f0aa3b6504d8239_n.jpg",
+                "width": 320,
+                "height": 213,
+                "is_primary": "1",
+                "image_id": "24641"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/24641_9f0aa3b6504d8239_d.gif",
+                "width": 320,
+                "height": 213,
+                "is_primary": "1",
+                "image_id": "24641"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/24641_9f0aa3b6504d8239_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "24641"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/75766_70872b8e2a485a9f_b.jpg",
                 "width": 1024,
                 "height": 606,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/75766_70872b8e2a485a9f_n.jpg",
-                "width": 320,
-                "height": 189,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "75766"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/75766_70872b8e2a485a9f_z.jpg",
                 "width": 640,
                 "height": 379,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "75766"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/75766_70872b8e2a485a9f_n.jpg",
+                "width": 320,
+                "height": 189,
+                "is_primary": "0",
+                "image_id": "75766"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/75766_70872b8e2a485a9f_d.gif",
+                "width": 320,
+                "height": 189,
+                "is_primary": "0",
+                "image_id": "75766"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/75766_70872b8e2a485a9f_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "75766"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18047497",
             "role_id": "35352245",
             "person_name": "Milton Sonday",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047497\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18055449",
             "role_id": "35351535",
             "person_name": "Mrs. Calvin W. Stillman",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18055449\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -92,24 +139,35 @@
     },
     "colors": [
         {
-            "color": "#323a38",
-            "closest_css3": "#2f4f4f"
+            "color": "#474f47",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#8c867d",
-            "closest_css3": "#808080"
+            "color": "#1a2527",
+            "closest_crayola": "#000000",
+            "closest_css3": "#000000",
+            "closest_css4": "#000000"
         },
         {
-            "color": "#60635b",
-            "closest_css3": "#696969"
+            "color": "#636b66",
+            "closest_crayola": "#757575",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#562b28",
-            "closest_css3": "#8b4513"
+            "color": "#877f75",
+            "closest_crayola": "#757575",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#84574d",
-            "closest_css3": "#a0522d"
+            "color": "#572d29",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#8b4513",
+            "closest_css4": "#8b4513"
         }
-    ]
+    ],
+    "woe:country_name": "Ethiopia"
 }

@@ -3,6 +3,7 @@
     "tms:id": "67415",
     "accession_number": "1938-88-6547",
     "title": "Drawing, \"Design for Susanna and the Elders\", 1660\u20131710",
+    "title_raw": "Design for Susanna and the Elders",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18548697\/",
     "department_id": "35347493",
     "period_id": "35417089",
@@ -13,39 +14,64 @@
     "year_end": "1710",
     "year_acquired": "1938",
     "decade": null,
-    "woe:country": "23424853",
+    "woe:country_id": "23424853",
     "medium": "Pen and brown ink, brush and gray wash, red and black chalk on cream laid paper, lined",
     "markings": null,
     "signed": null,
     "inscribed": "verso in graphite, center: Luca Giordano?; in graphite, right: 95; in graphite, lower left: [symbol for check mark]; in graphite, lower right: 1938.88.6547",
     "provenance": "Giovanni Piancastelli; Mme. Mary Brandegee",
     "dimensions": "20 x 22.7 cm ( 7 7\/8 x 8 15\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "20.00",
+            "centimeters"
+        ],
+        "width": [
+            "22.70",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase through gift of various donors and from Eleanor G. Hewitt Fund",
     "description": "At right, two men are climbing into a large round tub, presumably to spy on Susanna bathing.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424853",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/35119_24cd15e558336865_b.jpg",
                 "width": 1024,
                 "height": 947,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/35119_24cd15e558336865_n.jpg",
-                "width": 320,
-                "height": 296,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "35119"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/35119_24cd15e558336865_z.jpg",
                 "width": 640,
                 "height": 592,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "35119"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/35119_24cd15e558336865_n.jpg",
+                "width": 320,
+                "height": 296,
+                "is_primary": "1",
+                "image_id": "35119"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/35119_24cd15e558336865_d.gif",
+                "width": 320,
+                "height": 296,
+                "is_primary": "1",
+                "image_id": "35119"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/35119_24cd15e558336865_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "35119"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/16945_74570de675ff62be_b.jpg",
                 "width": 1024,
                 "height": 849,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/16945_74570de675ff62be_n.jpg",
-                "width": 320,
-                "height": 265,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "16945"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/16945_74570de675ff62be_z.jpg",
                 "width": 640,
                 "height": 531,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "16945"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/16945_74570de675ff62be_n.jpg",
+                "width": 320,
+                "height": 265,
+                "is_primary": "0",
+                "image_id": "16945"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/16945_74570de675ff62be_d.gif",
+                "width": 320,
+                "height": 265,
+                "is_primary": "0",
+                "image_id": "16945"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/16945_74570de675ff62be_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "16945"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18055751",
             "role_id": "35352245",
             "person_name": "Amanda Sarroff",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18055751\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18050387",
             "role_id": "35236711",
             "person_name": "Luca Giordano",
+            "person_date": "1634 - 1705",
             "role_name": "Attributed to",
+            "role_display_name": "Attributed to",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18050387\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236711\/"
         }
@@ -92,12 +139,17 @@
     },
     "colors": [
         {
-            "color": "#af9981",
-            "closest_css3": "#bc8f8f"
+            "color": "#b6a188",
+            "closest_crayola": "#cd9575",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         },
         {
-            "color": "#947a66",
-            "closest_css3": "#808080"
+            "color": "#987f6b",
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         }
-    ]
+    ],
+    "woe:country_name": "Italy"
 }

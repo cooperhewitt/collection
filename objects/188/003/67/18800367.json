@@ -3,6 +3,7 @@
     "tms:id": "180346",
     "accession_number": "1983-15-1",
     "title": "Hanging, \"Encounter\", 1964",
+    "title_raw": "Encounter",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18800367\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1964,
     "year_acquired": "1983",
     "decade": "1960",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Medium: linen\nTechnique: plain weave with supplementary wefts",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "1983: acquired by Museum",
     "dimensions": "Warp x Weft: 134 x 75.5 cm (52 3\/4 x 29 3\/4 in.)",
+    "dimensions_raw": {
+        "warp": [
+            "134.00",
+            "centimeters"
+        ],
+        "weft": [
+            "75.50",
+            "centimeters"
+        ]
+    },
     "creditline": null,
     "description": "Very fine plain weave fabric with heavy supplementary wefts which are either continuous or discontinuous. Small squares of discontinuous supplementary wefts create dense areas in a checked arrangement with the sheer plain weave foundation forming a large circle above two rectangles. Two natural tones of heavy linen for supplementary wefts.",
     "justification": null,
-    "type": {
-        "id": "35257233",
-        "name": "Hanging"
-    },
+    "woe:country": "23424977",
+    "type": "Hanging",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/77394_8bf2b4615dbdabda_b.jpg",
                 "width": 646,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/77394_8bf2b4615dbdabda_n.jpg",
-                "width": 202,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "77394"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/77394_8bf2b4615dbdabda_z.jpg",
                 "width": 404,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "77394"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/77394_8bf2b4615dbdabda_n.jpg",
+                "width": 202,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "77394"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/77394_8bf2b4615dbdabda_d.gif",
+                "width": 202,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "77394"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/77394_8bf2b4615dbdabda_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "77394"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18055169",
             "role_id": "35236745",
             "person_name": "Sirpa Yarmolinsky",
+            "person_date": "b. Finland, 1940",
             "role_name": "Weaver",
+            "role_display_name": "Woven by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18055169\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236745\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18055169",
             "role_id": "35236655",
             "person_name": "Sirpa Yarmolinsky",
+            "person_date": "b. Finland, 1940",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18055169\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18048383",
             "role_id": "35351535",
             "person_name": "Lucy Commoner",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18048383\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -80,5 +112,6 @@
     },
     "colors": [
 
-    ]
+    ],
+    "woe:country_name": "United States"
 }

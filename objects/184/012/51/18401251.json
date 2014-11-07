@@ -3,6 +3,7 @@
     "tms:id": "110804",
     "accession_number": "1954-51-5",
     "title": "Sidewall, 1953",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18401251\/",
     "department_id": "35347503",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1953,
     "year_acquired": "1954",
     "decade": "1950",
-    "woe:country": "23424975",
+    "woe:country_id": "23424975",
     "medium": "Block-printed",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "76.5 x 56 cm (30 1\/8 x 22 1\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "76.50",
+            "centimeters"
+        ],
+        "width": [
+            "56.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of A. Sanderson and Sons",
     "description": "Medallions of animals taken from heraldry alternating with plants and trees taken from the same source. These are outlined and embellished in red line. Gold vine tendrils connect the motifs and partially enframe them. Gold birds and insects scattered at random. Printed on green ground.",
     "justification": null,
-    "type": {
-        "id": "35256475",
-        "name": "Sidewall"
-    },
+    "woe:country": "23424975",
+    "type": "Sidewall",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/85005_05d50e2c7ce6b82b_b.jpg",
                 "width": 756,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/85005_05d50e2c7ce6b82b_n.jpg",
-                "width": 236,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "85005"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/85005_05d50e2c7ce6b82b_z.jpg",
                 "width": 472,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "85005"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/85005_05d50e2c7ce6b82b_n.jpg",
+                "width": 236,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "85005"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/85005_05d50e2c7ce6b82b_d.gif",
+                "width": 236,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "85005"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/85005_05d50e2c7ce6b82b_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "85005"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/5406_6e563b921ee91106_b.jpg",
                 "width": 758,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/5406_6e563b921ee91106_n.jpg",
-                "width": 237,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "5406"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/5406_6e563b921ee91106_z.jpg",
                 "width": 474,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "5406"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/5406_6e563b921ee91106_n.jpg",
+                "width": 237,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "5406"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/5406_6e563b921ee91106_d.gif",
+                "width": 237,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "5406"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/5406_6e563b921ee91106_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "5406"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18046365",
             "role_id": "35351535",
             "person_name": "Arthur Sanderson & Sons, Ltd.",
+            "person_date": "London, founded 1860",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18046365\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18047829",
             "role_id": "35352245",
             "person_name": "Horace L. Hotchkiss, Jr.",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047829\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -90,7 +137,9 @@
             "person_id": "18046365",
             "role_id": "35236657",
             "person_name": "Arthur Sanderson & Sons, Ltd.",
+            "person_date": "London, founded 1860",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18046365\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         }
@@ -100,5 +149,6 @@
     },
     "colors": [
 
-    ]
+    ],
+    "woe:country_name": "United Kingdom"
 }

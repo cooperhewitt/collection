@@ -2,7 +2,8 @@
     "id": "18498733",
     "tms:id": "160267",
     "accession_number": "1979-89-14",
-    "title": "Printed Textile, 1977",
+    "title": "Printed Textile, \"Ukset\", 1977",
+    "title_raw": "Ukset",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18498733\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1977,
     "year_acquired": "1979",
     "decade": "1970",
-    "woe:country": "23424812",
+    "woe:country_id": "23424812",
     "medium": "Medium: cotton\nTechnique: screen printed on plain weave",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "H x W x D: 300 x 139 cm (118 1\/8 x 54 3\/4 in.)\nRepeat H: 176.2 cm (69 3\/8 in.)",
+    "dimensions_raw": {
+        "height": [
+            "176.21",
+            "centimeters"
+        ],
+        "width": [
+            "139.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Marimekko, Inc.",
     "description": "Panels of narrow stripes and narrow bands.  Printed in 7 colors.",
     "justification": null,
-    "type": {
-        "id": "35287709",
-        "name": "Printed textile"
-    },
+    "woe:country": "23424812",
+    "type": "Printed textile",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/49195_14fc5e510df6b301_b.jpg",
                 "width": 604,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/49195_14fc5e510df6b301_n.jpg",
-                "width": 189,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "49195"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/49195_14fc5e510df6b301_z.jpg",
                 "width": 378,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "49195"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/49195_14fc5e510df6b301_n.jpg",
+                "width": 189,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "49195"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/49195_14fc5e510df6b301_d.gif",
+                "width": 189,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "49195"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/49195_14fc5e510df6b301_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "49195"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/31418_18bae65103dd4f21_b.jpg",
                 "width": 648,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/31418_18bae65103dd4f21_n.jpg",
-                "width": 202,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "31418"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/31418_18bae65103dd4f21_z.jpg",
                 "width": 405,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "31418"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/31418_18bae65103dd4f21_n.jpg",
+                "width": 202,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "31418"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/31418_18bae65103dd4f21_d.gif",
+                "width": 202,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "31418"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/31418_18bae65103dd4f21_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "31418"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18045663",
             "role_id": "35236657",
             "person_name": "Marimekko Oy",
+            "person_date": "Helsinki, Finland, founded 1951",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18045663\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18048723",
             "role_id": "35351535",
             "person_name": "Marimekko, Inc.",
+            "person_date": "1951 \u2013 1979",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18048723\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -90,34 +137,47 @@
             "person_id": "18046027",
             "role_id": "35236655",
             "person_name": "Katsuji Wakisaka",
+            "person_date": "Japanese, b. 1944",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18046027\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
     ],
     "tombstone": {
-        "epitaph": "Printed Textile, 1977. Medium: cotton\nTechnique: screen printed on plain weave. Gift of Marimekko, Inc.. 1979-89-14."
+        "epitaph": "Printed Textile, \"Ukset\", 1977. Medium: cotton\nTechnique: screen printed on plain weave. Gift of Marimekko, Inc.. 1979-89-14."
     },
     "colors": [
         {
-            "color": "#413924",
-            "closest_css3": "#2f4f4f"
+            "color": "#731f1d",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#800000",
+            "closest_css4": "#800000"
         },
         {
-            "color": "#974a30",
-            "closest_css3": "#a0522d"
+            "color": "#9a4b31",
+            "closest_crayola": "#9c2542",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         },
         {
-            "color": "#751c1c",
-            "closest_css3": "#800000"
+            "color": "#463d27",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         },
         {
-            "color": "#404d4d",
-            "closest_css3": "#2f4f4f"
+            "color": "#434b4a",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#3e2d25",
-            "closest_css3": "#2f4f4f"
+            "color": "#47322a",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         }
-    ]
+    ],
+    "woe:country_name": "Finland"
 }

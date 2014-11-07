@@ -2,7 +2,8 @@
     "id": "18636989",
     "tms:id": "193346",
     "accession_number": "1991-59-66",
-    "title": "Stool, 1957",
+    "title": "Stool, \"Pedestal\", 1957",
+    "title_raw": "Pedestal",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18636989\/",
     "department_id": "35347497",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1957,
     "year_acquired": "1991",
     "decade": "1950",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Lacquered cast aluminum, woven wool upholstery",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "Mel Byars; 1991: acquired by Museum",
     "dimensions": "H x diam.: 42 x 38 cm (16 9\/16 x 14 15\/16 in.)",
+    "dimensions_raw": {
+        "diameter": [
+            "38.00",
+            "centimeters"
+        ],
+        "height": [
+            "42.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Mel Byars",
     "description": "Circular seat covered in green wool upholstery on white stem-like base spreading to broad circular foot.",
     "justification": null,
-    "type": {
-        "id": "35238045",
-        "name": "stool"
-    },
+    "woe:country": "23424977",
+    "type": "stool",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/41691_297e78b0e40c21c5_b.jpg",
                 "width": 968,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/41691_297e78b0e40c21c5_n.jpg",
-                "width": 303,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "41691"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/41691_297e78b0e40c21c5_z.jpg",
                 "width": 605,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "41691"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/41691_297e78b0e40c21c5_n.jpg",
+                "width": 303,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "41691"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/41691_297e78b0e40c21c5_d.gif",
+                "width": 303,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "41691"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/41691_297e78b0e40c21c5_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "41691"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/11596_1d2c589ae01dfece_b.jpg",
                 "width": 789,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/11596_1d2c589ae01dfece_n.jpg",
-                "width": 247,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "11596"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/11596_1d2c589ae01dfece_z.jpg",
                 "width": 493,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "11596"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/11596_1d2c589ae01dfece_n.jpg",
+                "width": 247,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "11596"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/11596_1d2c589ae01dfece_d.gif",
+                "width": 247,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "11596"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/11596_1d2c589ae01dfece_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "11596"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18041409",
             "role_id": "35236657",
             "person_name": "Knoll Textiles",
+            "person_date": "East Greenville, Pennsylvania, USA, founded 1947",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041409\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18040939",
             "role_id": "35351535",
             "person_name": "Mel Byars",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18040939\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -90,18 +137,23 @@
             "person_id": "18053281",
             "role_id": "35236655",
             "person_name": "Eero Saarinen",
+            "person_date": "American, born Finland, 1910 - 1961",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18053281\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
     ],
     "tombstone": {
-        "epitaph": "Stool, 1957. Lacquered cast aluminum, woven wool upholstery. Gift of Mel Byars. 1991-59-66."
+        "epitaph": "Stool, \"Pedestal\", 1957. Lacquered cast aluminum, woven wool upholstery. Gift of Mel Byars. 1991-59-66."
     },
     "colors": [
         {
-            "color": "#a4a29f",
-            "closest_css3": "#a9a9a9"
+            "color": "#ffffff",
+            "closest_crayola": "#ffffff",
+            "closest_css3": "#ffffff",
+            "closest_css4": "#ffffff"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

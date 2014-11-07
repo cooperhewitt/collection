@@ -3,6 +3,7 @@
     "tms:id": "190918",
     "accession_number": "1989-1-2",
     "title": "Drawing, \"Architectural Interior\", ca. 1936",
+    "title_raw": "Architectural Interior",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18632151\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1941,
     "year_acquired": "1989",
     "decade": "1930",
-    "woe:country": "23424819",
+    "woe:country_id": "23424819",
     "medium": "Brush and watercolor, graphite on white paper",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "1989: acquired by Museum",
     "dimensions": "H x W: 61.1 x 51.9 cm (24 1\/16 x 20 7\/16 in.)\nMat: 71.2 x 56 cm (28 1\/16 x 22 1\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "61.10",
+            "centimeters"
+        ],
+        "width": [
+            "51.90",
+            "centimeters"
+        ]
+    },
     "creditline": null,
     "description": "Interior scene, corner of a room with two white chairs and oval round table over white rug.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424819",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/61673_ccba9ac086963059_b.jpg",
                 "width": 858,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/61673_ccba9ac086963059_n.jpg",
-                "width": 268,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "61673"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/61673_ccba9ac086963059_z.jpg",
                 "width": 536,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "61673"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/61673_ccba9ac086963059_n.jpg",
+                "width": 268,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "61673"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/61673_ccba9ac086963059_d.gif",
+                "width": 268,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "61673"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/61673_ccba9ac086963059_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "61673"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18049479",
             "role_id": "35236655",
             "person_name": "Andre-Leon Arbus",
+            "person_date": "French, 1903\u20131969",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049479\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
@@ -65,19 +93,28 @@
     "colors": [
         {
             "color": "#c6d1ba",
-            "closest_css3": "#c0c0c0"
+            "closest_crayola": "#cdc5c2",
+            "closest_css3": "#c0c0c0",
+            "closest_css4": "#c0c0c0"
         },
         {
-            "color": "#f2ecd6",
-            "closest_css3": "#faebd7"
+            "color": "#f3ecd6",
+            "closest_crayola": "#efdecd",
+            "closest_css3": "#faebd7",
+            "closest_css4": "#faebd7"
         },
         {
             "color": "#5b4d42",
-            "closest_css3": "#556b2f"
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         },
         {
             "color": "#7a695a",
-            "closest_css3": "#696969"
+            "closest_crayola": "#85754e",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         }
-    ]
+    ],
+    "woe:country_name": "France"
 }

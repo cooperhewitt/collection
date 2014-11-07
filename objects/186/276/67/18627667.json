@@ -3,6 +3,7 @@
     "tms:id": "188670",
     "accession_number": "1988-102-57",
     "title": "Print, \"Stage Design: Garden Scene with Fountain from \"Architetture e Prospettive dedicate alla Maest\u00e0 di Carlo Sesto\"\", 1740\u201344",
+    "title_raw": "Stage Design: Garden Scene with Fountain from \"Architetture e Prospettive dedicate alla Maest\u00e0 di Carlo Sesto\"",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18627667\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1784,
     "year_acquired": "1988",
     "decade": null,
-    "woe:country": "23424829",
+    "woe:country_id": "23424829",
     "medium": "Etching with engraving on white laid paper",
     "markings": null,
     "signed": "Signed in plate, lower right: J. A. Pfeffel S. C. M. Chaleogr. sarct. direx. A. V.",
     "inscribed": "Inscribed in plate, upper right: P.V.; lower left: 8\/ Joseph Galli Bibiena Sac. Coes. M. Archit. Theatr. Primarius Inv. et del.",
     "provenance": "Roger Selchow",
     "dimensions": "42.3 x 64.7 cm (16 5\/8 x 25 1\/2 in.)",
+    "dimensions_raw": {
+        "height": [
+            "34.20",
+            "centimeters"
+        ],
+        "width": [
+            "51.20",
+            "centimeters"
+        ]
+    },
     "creditline": null,
     "description": "Stage design with a fountain surmounted by figure of Neptune as centerpiece.  On left and right are ornamented colonnades with statues, trees, and urns.  Beyond colonnade in background is elaborate villa\/palace.  Male (left) and female (right) figures occupy the foreground in front of the fountain.",
     "justification": null,
-    "type": {
-        "id": "35236873",
-        "name": "Print"
-    },
+    "woe:country": "23424829",
+    "type": "Print",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/10590_1468983788294cde_b.jpg",
                 "width": 1024,
                 "height": 692,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/10590_1468983788294cde_n.jpg",
-                "width": 320,
-                "height": 216,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "10590"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/10590_1468983788294cde_z.jpg",
                 "width": 640,
                 "height": 432,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "10590"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/10590_1468983788294cde_n.jpg",
+                "width": 320,
+                "height": 216,
+                "is_primary": "1",
+                "image_id": "10590"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/10590_1468983788294cde_d.gif",
+                "width": 320,
+                "height": 216,
+                "is_primary": "1",
+                "image_id": "10590"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/10590_1468983788294cde_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "10590"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "51676457",
             "role_id": "35352245",
             "person_name": "Karin Zonis",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/51676457\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18057835",
             "role_id": "35351535",
             "person_name": "Roger Selchow",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18057835\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18047443",
             "role_id": "35352245",
             "person_name": "Megan L. Smith",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047443\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -78,7 +110,9 @@
             "person_id": "18042033",
             "role_id": "35236677",
             "person_name": "Giuseppe Galli Bibiena",
+            "person_date": "Italian, 1696\u20131756",
             "role_name": "After",
+            "role_display_name": "After",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18042033\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236677\/"
         },
@@ -86,7 +120,9 @@
             "person_id": "18042031",
             "role_id": "35236653",
             "person_name": "Johann Andr\u00e9as Pfeffel",
+            "person_date": "German, 1674\u20131748",
             "role_name": "Print Maker",
+            "role_display_name": "Print Maker:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18042031\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236653\/"
         }
@@ -96,16 +132,23 @@
     },
     "colors": [
         {
-            "color": "#d5cacc",
-            "closest_css3": "#d3d3d3"
+            "color": "#b1a7a7",
+            "closest_crayola": "#979aaa",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
         },
         {
-            "color": "#948f8c",
-            "closest_css3": "#808080"
+            "color": "#817875",
+            "closest_crayola": "#757575",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#726f6c",
-            "closest_css3": "#696969"
+            "color": "#605d5b",
+            "closest_crayola": "#6e5160",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         }
-    ]
+    ],
+    "woe:country_name": "Germany"
 }

@@ -3,6 +3,7 @@
     "tms:id": "24041",
     "accession_number": "1918-20-9",
     "title": "Painting, \"\"Mountain Wagon\"\", ca. 1869",
+    "title_raw": "\"Mountain Wagon\"",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18204509\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1879,
     "year_acquired": "1918",
     "decade": null,
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Brush and oil paint on mahogany panel",
     "markings": null,
     "signed": "Signed and dated in brush and ? oil, lower right: WINSLOW HOMER \/ -186 ... - [9?]",
     "inscribed": null,
     "provenance": "Gift of Mrs. Charles Savage Homer, Jr.",
     "dimensions": "29.8 x 40.2 cm (11 3\/4 in. x 15 13\/16)",
+    "dimensions_raw": {
+        "height": [
+            "29.80",
+            "centimeters"
+        ],
+        "width": [
+            "40.20",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Mrs. Charles Savage Homer, Jr.",
     "description": "Recto:  Horizontal view of a three-bench wagon carrying seven passengers along a ridge in foreground, overlooking distant mountains and sky with clouds in the background.\nVerso:  Mountain landscape with house in middle distance.",
     "justification": null,
-    "type": {
-        "id": "35248229",
-        "name": "painting"
-    },
+    "woe:country": "23424977",
+    "type": "painting",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/1846_ffb455e6c25eebf2_b.jpg",
                 "width": 1024,
                 "height": 752,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/1846_ffb455e6c25eebf2_n.jpg",
-                "width": 320,
-                "height": 235,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "1846"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/1846_ffb455e6c25eebf2_z.jpg",
                 "width": 640,
                 "height": 470,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "1846"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/1846_ffb455e6c25eebf2_n.jpg",
+                "width": 320,
+                "height": 235,
+                "is_primary": "1",
+                "image_id": "1846"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/1846_ffb455e6c25eebf2_d.gif",
+                "width": 320,
+                "height": 235,
+                "is_primary": "1",
+                "image_id": "1846"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/1846_ffb455e6c25eebf2_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "1846"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/1847_2777bf62a8e07f39_b.jpg",
                 "width": 1024,
                 "height": 826,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/1847_2777bf62a8e07f39_n.jpg",
-                "width": 320,
-                "height": 258,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "1847"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/1847_2777bf62a8e07f39_z.jpg",
                 "width": 640,
                 "height": 516,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "1847"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/1847_2777bf62a8e07f39_n.jpg",
+                "width": 320,
+                "height": 258,
+                "is_primary": "0",
+                "image_id": "1847"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/1847_2777bf62a8e07f39_d.gif",
+                "width": 320,
+                "height": 258,
+                "is_primary": "0",
+                "image_id": "1847"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/1847_2777bf62a8e07f39_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "1847"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18057135",
             "role_id": "35351535",
             "person_name": "Mrs. Charles Savage Homer Jr.",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18057135\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18041949",
             "role_id": "35236565",
             "person_name": "Winslow Homer",
+            "person_date": "American, 1836\u20131910",
             "role_name": "Artist",
+            "role_display_name": "",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041949\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236565\/"
         }
@@ -92,24 +139,35 @@
     },
     "colors": [
         {
-            "color": "#321e21",
-            "closest_css3": "#000000"
+            "color": "#331f22",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#cdb89b",
-            "closest_css3": "#d2b48c"
+            "color": "#c0ab90",
+            "closest_crayola": "#deaa88",
+            "closest_css3": "#d2b48c",
+            "closest_css4": "#d2b48c"
         },
         {
-            "color": "#998063",
-            "closest_css3": "#808080"
+            "color": "#f1dabd",
+            "closest_crayola": "#efcdb8",
+            "closest_css3": "#f5deb3",
+            "closest_css4": "#f5deb3"
         },
         {
-            "color": "#f6e2c5",
-            "closest_css3": "#ffe4c4"
+            "color": "#917960",
+            "closest_crayola": "#8a795d",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#6c503d",
-            "closest_css3": "#556b2f"
+            "color": "#7a5a42",
+            "closest_crayola": "#85754e",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

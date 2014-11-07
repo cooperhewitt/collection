@@ -3,6 +3,7 @@
     "tms:id": "176868",
     "accession_number": "1981-28-271",
     "title": "Sampler, 1716",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18616677\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1716,
     "year_acquired": "1981",
     "decade": null,
-    "woe:country": "23424829",
+    "woe:country_id": "23424829",
     "medium": "Medium: silk and metal-wrapped silk embroidery on wool foundation\nTechnique: embroidered in cross, back, four-sided, two-sided cross, rococo, half cross, and knot stitches on plain weave foundation",
     "markings": null,
     "signed": null,
     "inscribed": "ICEA",
     "provenance": null,
     "dimensions": "H x W: 62.2 x 33 cm (24 1\/2 x 13 in.)",
+    "dimensions_raw": {
+        "height": [
+            "62.23",
+            "centimeters"
+        ],
+        "width": [
+            "33.02",
+            "centimeters"
+        ]
+    },
     "creditline": "Bequest of Gertrude M. Oppenheimer",
     "description": "Religious scenes: Adam and Eve, Abraham with Isaac, and Woman of Samaria at the well; domestic objects and floral patterns.",
     "justification": null,
-    "type": {
-        "id": "35256439",
-        "name": "Sampler"
-    },
+    "woe:country": "23424829",
+    "type": "Sampler",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/41201_188b7cedae13fff4_b.jpg",
                 "width": 551,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/41201_188b7cedae13fff4_n.jpg",
-                "width": 172,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "41201"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/41201_188b7cedae13fff4_z.jpg",
                 "width": 345,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "41201"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/41201_188b7cedae13fff4_n.jpg",
+                "width": 172,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "41201"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/41201_188b7cedae13fff4_d.gif",
+                "width": 172,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "41201"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/41201_188b7cedae13fff4_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "41201"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/37039_520c12856b4b10e1_b.jpg",
                 "width": 589,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/37039_520c12856b4b10e1_n.jpg",
-                "width": 184,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "37039"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/37039_520c12856b4b10e1_z.jpg",
                 "width": 368,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "37039"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/37039_520c12856b4b10e1_n.jpg",
+                "width": 184,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "37039"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/37039_520c12856b4b10e1_d.gif",
+                "width": 184,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "37039"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/37039_520c12856b4b10e1_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "37039"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18050567",
             "role_id": "35351537",
             "person_name": "Gertrude M. Oppenheimer",
+            "person_date": "",
             "role_name": "Bequestor",
+            "role_display_name": "Bequest of",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18050567\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351537\/"
         }
@@ -84,20 +129,23 @@
     },
     "colors": [
         {
-            "color": "#b19360",
-            "closest_css3": "#bdb76b"
+            "color": "#aa986b",
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#bdb76b",
+            "closest_css4": "#bdb76b"
         },
         {
-            "color": "#8f8b67",
-            "closest_css3": "#808080"
+            "color": "#817050",
+            "closest_crayola": "#85754e",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#7d6c4d",
-            "closest_css3": "#696969"
-        },
-        {
-            "color": "#6f4f3d",
-            "closest_css3": "#556b2f"
+            "color": "#755642",
+            "closest_crayola": "#6e5160",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         }
-    ]
+    ],
+    "woe:country_name": "Germany"
 }

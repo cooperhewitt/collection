@@ -3,6 +3,7 @@
     "tms:id": "44451",
     "accession_number": "1931-4-28",
     "title": "Textile, early 20th century",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18318365\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1925,
     "year_acquired": "1931",
     "decade": "1900",
-    "woe:country": "23424856",
+    "woe:country_id": "23424856",
     "medium": "Medium: silk and gilded paper\nTechnique: compound satin with supplementary weft patterning",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "H x W: 241 x 70.2 cm (94 7\/8 x 27 5\/8 in.)",
+    "dimensions_raw": {
+        "height": [
+            "240.98",
+            "centimeters"
+        ],
+        "width": [
+            "70.17",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Eleanor and Sarah Hewitt, from the textile collection of Mrs. Abram Stevens Hewitt",
     "description": "Panel of cream-colored satin brocaded with colored silks and gilt paper in a design of fans, floral sprays, butterflies and streamers. Fans have landscape details with flowering branches of cherry blossom and a variety of birds.",
     "justification": null,
-    "type": {
-        "id": "35251739",
-        "name": "textile"
-    },
+    "woe:country": "23424856",
+    "type": "textile",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/45384_3cfd359fd4ca39be_b.jpg",
                 "width": 317,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/45384_3cfd359fd4ca39be_n.jpg",
-                "width": 99,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "45384"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/45384_3cfd359fd4ca39be_z.jpg",
                 "width": 198,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "45384"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/45384_3cfd359fd4ca39be_n.jpg",
+                "width": 99,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "45384"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/45384_3cfd359fd4ca39be_d.gif",
+                "width": 99,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "45384"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/45384_3cfd359fd4ca39be_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "45384"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/2967_0b2a394a77736729_b.jpg",
                 "width": 582,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/2967_0b2a394a77736729_n.jpg",
-                "width": 182,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "2967"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/2967_0b2a394a77736729_z.jpg",
                 "width": 364,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "2967"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/2967_0b2a394a77736729_n.jpg",
+                "width": 182,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "2967"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/2967_0b2a394a77736729_d.gif",
+                "width": 182,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "2967"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/2967_0b2a394a77736729_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "2967"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18049321",
             "role_id": "35351535",
             "person_name": "Sarah Cooper Hewitt",
+            "person_date": "American, 1859\u20131930",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049321\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18049325",
             "role_id": "35351535",
             "person_name": "Eleanor Garnier Hewitt",
+            "person_date": "American, 1864\u20131924",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049325\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -92,20 +139,29 @@
     },
     "colors": [
         {
-            "color": "#ac9b8b",
-            "closest_css3": "#bc8f8f"
+            "color": "#e0d7ba",
+            "closest_crayola": "#efcdb8",
+            "closest_css3": "#f5deb3",
+            "closest_css4": "#f5deb3"
         },
         {
-            "color": "#806d6b",
-            "closest_css3": "#696969"
+            "color": "#b8aa87",
+            "closest_crayola": "#bab86c",
+            "closest_css3": "#d2b48c",
+            "closest_css4": "#d2b48c"
         },
         {
-            "color": "#c7a571",
-            "closest_css3": "#bdb76b"
+            "color": "#a29385",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         },
         {
-            "color": "#f5edd2",
-            "closest_css3": "#faebd7"
+            "color": "#88776e",
+            "closest_crayola": "#8a795d",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         }
-    ]
+    ],
+    "woe:country_name": "Japan"
 }

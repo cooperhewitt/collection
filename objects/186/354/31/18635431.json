@@ -3,6 +3,7 @@
     "tms:id": "192563",
     "accession_number": "1991-107-1-a,b",
     "title": "Teapot And Lid, \"SYP\" \"Simple Yet Perfect\", ca. 1900",
+    "title_raw": "SYP\" \"Simple Yet Perfect",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18635431\/",
     "department_id": "35347497",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1910,
     "year_acquired": "1991",
     "decade": null,
-    "woe:country": "23424975",
+    "woe:country_id": "23424975",
     "medium": "Porcelain",
     "markings": "On base of (a): in blue: a garland that crosses the entire base: \"TRADE MARK; OAKLANDS. \/ WEDGWOOD\"; inside garland, impressed: \"PATENT \/ S.Y.P. \/ WEDGWOOD\"; above in blue: \"1\"; a star, a ring with a line; below, impressed: \"V\"; \"I\"; \"S\";\nOn side of (b): \"THE PATENT \/ TRADE S.Y.P. MARK \/ TEAPOT \/ STRAND ON THE GREEN, CHISWICK, LONDON.\" \"r\" \"r\"",
     "signed": null,
     "inscribed": null,
     "provenance": "1991: acquired by Museum",
     "dimensions": "18.7 x 21 cm (7 3\/8 x 8 1\/4 in.)",
+    "dimensions_raw": {
+        "height": [
+            "18.70",
+            "centimeters"
+        ],
+        "width": [
+            "21.00",
+            "centimeters"
+        ]
+    },
     "creditline": null,
     "description": "A white porcelain teapot and lid that appears to be an egg shape.  The teapot's handle is on the top half and on the other side is the teapot's lid. Below the handle are two small white feet off the side. The lid is a wedge shape about 1\/6th of the circular form that can be removed. Inside the pot, there is a top chamber with a straining system and the bottom chamber. The outside of the teapot is decorated with a blue patter of flowers and hanging leaves.",
     "justification": null,
-    "type": {
-        "id": "35293525",
-        "name": "Teapot and lid"
-    },
+    "woe:country": "23424975",
+    "type": "Teapot and lid",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/15700_792fe81d32af7372_b.jpg",
                 "width": 1024,
                 "height": 950,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/15700_792fe81d32af7372_n.jpg",
-                "width": 320,
-                "height": 297,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "15700"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/15700_792fe81d32af7372_z.jpg",
                 "width": 640,
                 "height": 593,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "15700"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/15700_792fe81d32af7372_n.jpg",
+                "width": 320,
+                "height": 297,
+                "is_primary": "1",
+                "image_id": "15700"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/15700_792fe81d32af7372_d.gif",
+                "width": 320,
+                "height": 297,
+                "is_primary": "1",
+                "image_id": "15700"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/15700_792fe81d32af7372_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "15700"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/15701_061d96f529659b74_b.jpg",
                 "width": 1024,
                 "height": 840,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/15701_061d96f529659b74_n.jpg",
-                "width": 320,
-                "height": 263,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "15701"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/15701_061d96f529659b74_z.jpg",
                 "width": 640,
                 "height": 525,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "15701"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/15701_061d96f529659b74_n.jpg",
+                "width": 320,
+                "height": 263,
+                "is_primary": "0",
+                "image_id": "15701"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/15701_061d96f529659b74_d.gif",
+                "width": 320,
+                "height": 263,
+                "is_primary": "0",
+                "image_id": "15701"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/15701_061d96f529659b74_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "15701"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18043969",
             "role_id": "35236657",
             "person_name": "Wedgwood",
+            "person_date": "founded 1759",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18043969\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         }
@@ -84,24 +129,35 @@
     },
     "colors": [
         {
-            "color": "#525061",
-            "closest_css3": "#696969"
+            "color": "#3d3f4c",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#313541",
-            "closest_css3": "#2f4f4f"
+            "color": "#9f939e",
+            "closest_crayola": "#979aaa",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
         },
         {
-            "color": "#bfb6c4",
-            "closest_css3": "#c0c0c0"
+            "color": "#7d7278",
+            "closest_crayola": "#757575",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#7c717a",
-            "closest_css3": "#808080"
+            "color": "#3d4671",
+            "closest_crayola": "#58427c",
+            "closest_css3": "#483d8b",
+            "closest_css4": "#483d8b"
         },
         {
             "color": "#737399",
-            "closest_css3": "#708090"
+            "closest_crayola": "#757575",
+            "closest_css3": "#708090",
+            "closest_css4": "#708090"
         }
-    ]
+    ],
+    "woe:country_name": "United Kingdom"
 }

@@ -3,6 +3,7 @@
     "tms:id": "122428",
     "accession_number": "1958-98-1",
     "title": "Candlestick, \"Ambassador\", 1924\u201325",
+    "title_raw": "Ambassador",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18424107\/",
     "department_id": "35347497",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1925,
     "year_acquired": "1958",
     "decade": "1920",
-    "woe:country": "23424750",
+    "woe:country_id": "23424750",
     "medium": "Mouth-blown crystal (\"Muslin glass\")",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "1958: acquired by Museum (from Estate of Agnes M. Carpenter, New York, NY)",
     "dimensions": "H x diam.: 11.2 x 16.6 cm (4 7\/16 x 6 9\/16 in.)",
+    "dimensions_raw": {
+        "diameter": [
+            "16.60",
+            "centimeters"
+        ],
+        "height": [
+            "11.20",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase through gift of Georgiana L. McClellan",
     "description": "Thin-walled, clear glass; tubular nozzle, flaring at lip and curving into low dome-shaped base.",
     "justification": null,
-    "type": {
-        "id": "35237609",
-        "name": "candlestick"
-    },
+    "woe:country": "23424750",
+    "type": "candlestick",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/31488_af378f3c5d66d6be_b.jpg",
                 "width": 1023,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/31488_af378f3c5d66d6be_n.jpg",
-                "width": 320,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "31488"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/31488_af378f3c5d66d6be_z.jpg",
                 "width": 640,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "31488"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/31488_af378f3c5d66d6be_n.jpg",
+                "width": 320,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "31488"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/31488_af378f3c5d66d6be_d.gif",
+                "width": 320,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "31488"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/31488_af378f3c5d66d6be_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "31488"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/5642_c37384bcf4b1303e_b.jpg",
                 "width": 909,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/5642_c37384bcf4b1303e_n.jpg",
-                "width": 284,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "5642"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/5642_c37384bcf4b1303e_z.jpg",
                 "width": 568,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "5642"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/5642_c37384bcf4b1303e_n.jpg",
+                "width": 284,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "5642"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/5642_c37384bcf4b1303e_d.gif",
+                "width": 284,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "5642"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/5642_c37384bcf4b1303e_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "5642"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18050055",
             "role_id": "51571025",
             "person_name": "Georgiana L. McClellan",
+            "person_date": "",
             "role_name": "Funder",
+            "role_display_name": "Purchased with funds from:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18050055\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/51571025\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18063191",
             "role_id": "35236657",
             "person_name": "Karlsbader Kristallglasfabriken A.G.",
+            "person_date": "",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18063191\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         },
@@ -90,7 +137,9 @@
             "person_id": "18048035",
             "role_id": "35352245",
             "person_name": "Hedy Backlin-Landman",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18048035\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -98,7 +147,9 @@
             "person_id": "18042537",
             "role_id": "35236655",
             "person_name": "Oswald Haerdtl",
+            "person_date": "Austrian, 1899\u20131959",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18042537\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -106,7 +157,9 @@
             "person_id": "18045401",
             "role_id": "35236657",
             "person_name": "J. and L. Lobmeyr",
+            "person_date": "",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18045401\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         },
@@ -114,7 +167,9 @@
             "person_id": "18055985",
             "role_id": "35352249",
             "person_name": "Estate of Agnes M. Carpenter",
+            "person_date": "",
             "role_name": "Vendor",
+            "role_display_name": "Purchased from",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18055985\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352249\/"
         }
@@ -124,8 +179,11 @@
     },
     "colors": [
         {
-            "color": "#807f75",
-            "closest_css3": "#808080"
+            "color": "#828177",
+            "closest_crayola": "#757575",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         }
-    ]
+    ],
+    "woe:country_name": "Austria"
 }

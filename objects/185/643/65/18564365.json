@@ -3,6 +3,7 @@
     "tms:id": "75383",
     "accession_number": "1941-69-70",
     "title": "Family Register Sampler, 1830",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18564365\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1830,
     "year_acquired": "1941",
     "decade": null,
-    "woe:country": "23424977",
-    "medium": "Medium: silk embroidery on linen foundation\nTechnique: embroidered in cross, satin and stem stitches on plain weave foundation",
+    "woe:country_id": "23424977",
+    "medium": "Medium: silk embroidery on linen foundation\nTechnique: embroidered in cross, satin and stem stitches on plain weave foundation\nLabel: linen embroidered in silk",
     "markings": null,
     "signed": null,
     "inscribed": "Wrought by Dorcas A. K. Men. 1830. aged 11",
     "provenance": "By 1941, Mrs. Henry E. Coe (Eva Johnston Coe)\n1941, Museum for the Arts of Decoration of the Cooper Union",
     "dimensions": "H x W: 49 x 47 cm (19 5\/16 x 18 1\/2 in.)",
+    "dimensions_raw": {
+        "height": [
+            "49.00",
+            "centimeters"
+        ],
+        "width": [
+            "47.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Bequest of Mrs. Henry E. Coe",
     "description": "An arched framework with an incomplete family register. The top of the arch reads Keep Sacred the Memory Of.  The field within the arch is divided in three registers: the top, titled Ancestors, gives the birth and marriage dates of David Kelly and Amy Comstock; the middle register includes a tree with the names and dates of their children; and the lower register has a verse within a leafy border:\n\nReligion\nBeyond the narrow vale of time\nWhere bright celestial ages roll\nTo scenes eternal scenes sublime\nShe points the way and leads the soul\n\nFollowed by the inscription. A border of roses in an octagon framework terminating with rose sprays at upper corners gives the effect of a trellis.",
     "justification": null,
-    "type": {
-        "id": "35289001",
-        "name": "Family register sampler"
-    },
+    "woe:country": "23424977",
+    "type": "Family register sampler",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/32412_d24c70557d647cf1_b.jpg",
                 "width": 947,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/32412_d24c70557d647cf1_n.jpg",
-                "width": 296,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "32412"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/32412_d24c70557d647cf1_z.jpg",
                 "width": 592,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "32412"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/32412_d24c70557d647cf1_n.jpg",
+                "width": 296,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "32412"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/32412_d24c70557d647cf1_d.gif",
+                "width": 296,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "32412"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/32412_d24c70557d647cf1_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "32412"
             }
         }
     ],
@@ -54,34 +80,57 @@
             "person_id": "18052567",
             "role_id": "35351537",
             "person_name": "Mrs. Henry E. Coe",
+            "person_date": "",
             "role_name": "Bequestor",
+            "role_display_name": "Bequest of",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18052567\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351537\/"
+        },
+        {
+            "person_id": "68737517",
+            "role_id": "35236583",
+            "person_name": "Dorcas A. Kelly, American",
+            "person_date": "American, 1818 - 1881",
+            "role_name": "Embroiderer",
+            "role_display_name": "Embroidered by",
+            "person_url": "http:\/\/collection.cooperhewitt.org\/people\/68737517\/",
+            "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236583\/"
         }
     ],
     "tombstone": {
-        "epitaph": "Family Register Sampler, 1830. Medium: silk embroidery on linen foundation\nTechnique: embroidered in cross, satin and stem stitches on plain weave foundation. Bequest of Mrs. Henry E. Coe. 1941-69-70."
+        "epitaph": "Family Register Sampler, 1830. Medium: silk embroidery on linen foundation\nTechnique: embroidered in cross, satin and stem stitches on plain weave foundation\nLabel: linen embroidered in silk. Bequest of Mrs. Henry E. Coe. 1941-69-70."
     },
     "colors": [
         {
-            "color": "#c2a981",
-            "closest_css3": "#d2b48c"
+            "color": "#b99e76",
+            "closest_crayola": "#cd9575",
+            "closest_css3": "#bdb76b",
+            "closest_css4": "#bdb76b"
         },
         {
-            "color": "#dccfbd",
-            "closest_css3": "#d3d3d3"
+            "color": "#ded3c1",
+            "closest_crayola": "#dbd7d2",
+            "closest_css3": "#d3d3d3",
+            "closest_css4": "#d3d3d3"
         },
         {
-            "color": "#92734f",
-            "closest_css3": "#a0522d"
+            "color": "#8e7656",
+            "closest_crayola": "#8a795d",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#70573b",
-            "closest_css3": "#556b2f"
+            "color": "#5c4c38",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         },
         {
-            "color": "#767f69",
-            "closest_css3": "#808080"
+            "color": "#98987c",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

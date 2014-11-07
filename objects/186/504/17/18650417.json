@@ -3,6 +3,7 @@
     "tms:id": "200136",
     "accession_number": "1995-163-3",
     "title": "Sidewall, \"Fries Oder Stirb\", 1992",
+    "title_raw": "Fries Oder Stirb",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18650417\/",
     "department_id": "35347503",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1992,
     "year_acquired": "1995",
     "decade": "1990",
-    "woe:country": "23424829",
+    "woe:country_id": "23424829",
     "medium": "Screen printed",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "1005 x 53.5 cm (395 11\/16 x 21 1\/16 in. )",
+    "dimensions_raw": {
+        "height": [
+            "1005.00",
+            "centimeters"
+        ],
+        "width": [
+            "53.50",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Gebr. Rasch GmbH & Co.",
     "description": "Gray faux finish, with the appearance of random wide brush strokes.",
     "justification": null,
-    "type": {
-        "id": "35256475",
-        "name": "Sidewall"
-    },
+    "woe:country": "23424829",
+    "type": "Sidewall",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/42739_a2b8f7fd950c7de4_b.jpg",
                 "width": 386,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/42739_a2b8f7fd950c7de4_n.jpg",
-                "width": 121,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "42739"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/42739_a2b8f7fd950c7de4_z.jpg",
                 "width": 241,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "42739"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/42739_a2b8f7fd950c7de4_n.jpg",
+                "width": 121,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "42739"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/42739_a2b8f7fd950c7de4_d.gif",
+                "width": 121,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "42739"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/42739_a2b8f7fd950c7de4_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "42739"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18046473",
             "role_id": "35236657",
             "person_name": "Rasch & Company",
+            "person_date": "1896",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18046473\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18047283",
             "role_id": "35236655",
             "person_name": "Berghof\/Landes\/Rang",
+            "person_date": "1981",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047283\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18049019",
             "role_id": "35236657",
             "person_name": "Gebr. Rasch GmbH & Co.",
+            "person_date": "",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049019\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         }
@@ -80,8 +112,11 @@
     },
     "colors": [
         {
-            "color": "#f3e2ca",
-            "closest_css3": "#ffe4c4"
+            "color": "#f3dab5",
+            "closest_crayola": "#fdd9b5",
+            "closest_css3": "#f5deb3",
+            "closest_css4": "#f5deb3"
         }
-    ]
+    ],
+    "woe:country_name": "Germany"
 }

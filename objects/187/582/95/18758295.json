@@ -3,6 +3,7 @@
     "tms:id": "255433",
     "accession_number": "2010-21-45",
     "title": "Poster, \"Esth\u00e9tique Industrielle en France\", 1963",
+    "title_raw": "Esth\u00e9tique Industrielle en France",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18758295\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1963,
     "year_acquired": "2010",
     "decade": "1960",
-    "woe:country": "23424957",
+    "woe:country_id": "23424957",
     "medium": "Offset lithograph on wove paper",
     "markings": null,
     "signed": null,
     "inscribed": "Printed in black ink, left edge: carl b. graf zurich swb\/vsg druck: j. c. muller",
     "provenance": "Sara and Marc Benda (acquired new and directly from designer, Carl Bernhard Graf); 2010: acquired by Museum",
     "dimensions": "127.8 x 89.8 cm (50 5\/16 x 35 3\/8 in.)",
+    "dimensions_raw": {
+        "height": [
+            "127.79",
+            "centimeters"
+        ],
+        "width": [
+            "89.80",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Sara and Marc Benda",
     "description": "Poster shows two C\u2019s one inside the other, red and blue; inside, black text: esth\u00e9tique industrielle \/ en \/ france; lower margin: kunstgewerbemuseum \/ zurich \/ ausstellung 2 marz bis 21. April 1963 \/ offen: Montag 14-18 uhr \/ dienstag bis Freitag 10-12 und 14-18 uhr \/ samstag und sonntag 10-12 und 14-17 uhr \/ dienstag und donnerstag auch 20-22 uhr \/ eintritt frei.",
     "justification": null,
-    "type": {
-        "id": "35238163",
-        "name": "poster"
-    },
+    "woe:country": "23424957",
+    "type": "poster",
     "images": [
         {
             "b": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/45549_8a0b230b97ef2183_b.jpg",
-                "width": 722,
+                "url": "http:\/\/images.collection.cooperhewitt.org\/45549_7ce010678919ae20_b.jpg",
+                "width": 715,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/45549_8a0b230b97ef2183_n.jpg",
-                "width": 226,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "45549"
             },
             "z": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/45549_8a0b230b97ef2183_z.jpg",
-                "width": 451,
+                "url": "http:\/\/images.collection.cooperhewitt.org\/45549_7ce010678919ae20_z.jpg",
+                "width": 447,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "45549"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/45549_7ce010678919ae20_n.jpg",
+                "width": 223,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "45549"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/45549_7ce010678919ae20_d.gif",
+                "width": 223,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "45549"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/45549_7ce010678919ae20_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "45549"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18063603",
             "role_id": "35236667",
             "person_name": "Kunstgewerbemuseum, Zurich",
+            "person_date": "Swiss",
             "role_name": "Client",
+            "role_display_name": "Client:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18063603\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236667\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18063535",
             "role_id": "35236673",
             "person_name": "J.C. M\u00fcller AG",
+            "person_date": "Swiss, active 1900s - present",
             "role_name": "Printer",
+            "role_display_name": "Printed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18063535\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236673\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18063541",
             "role_id": "35236655",
             "person_name": "Carl Bernhard Graf",
+            "person_date": "Swiss, 1926 - 1968",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18063541\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
@@ -80,20 +112,35 @@
     },
     "colors": [
         {
-            "color": "#2b77c1",
-            "closest_css3": "#4682b4"
+            "color": "#2072bb",
+            "closest_crayola": "#2b6cc4",
+            "closest_css3": "#4682b4",
+            "closest_css4": "#4682b4"
         },
         {
-            "color": "#d8342d",
-            "closest_css3": "#dc143c"
+            "color": "#d9342d",
+            "closest_crayola": "#ff2b2b",
+            "closest_css3": "#dc143c",
+            "closest_css4": "#dc143c"
         },
         {
-            "color": "#514c4a",
-            "closest_css3": "#2f4f4f"
+            "color": "#2c4969",
+            "closest_crayola": "#1a4876",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#33567b",
-            "closest_css3": "#483d8b"
+            "color": "#82889b",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#778899",
+            "closest_css4": "#778899"
+        },
+        {
+            "color": "#6f4947",
+            "closest_crayola": "#6e5160",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         }
-    ]
+    ],
+    "woe:country_name": "Switzerland"
 }

@@ -3,6 +3,7 @@
     "tms:id": "150769",
     "accession_number": "1973-15-103",
     "title": "Drawing, \"Tumbler with Protruding Fins, Capstan Glass Co.\", April 14, 1932",
+    "title_raw": "Tumbler with Protruding Fins, Capstan Glass Co.",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18479873\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1932,
     "year_acquired": "1973",
     "decade": "1930",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Graphite on cream tracing paper",
     "markings": "Stamped in black ink, lower margin: HENRY DREYFUSS . 580 FIFTH AVENUE . NEW YORK . BRYANT 8[...]",
     "signed": null,
     "inscribed": "Inscribed in red crayon, lower right: 3 [encircled]",
     "provenance": "Henry Dreyfuss",
     "dimensions": "27.8 x 20.7 cm (10 15\/16 x 8 1\/8 in.)",
+    "dimensions_raw": {
+        "height": [
+            "27.80",
+            "centimeters"
+        ],
+        "width": [
+            "20.70",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of University of California, Los Angeles",
     "description": "A glass with protruding fins.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424977",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/39241_ddcf7405f0294829_b.jpg",
                 "width": 748,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/39241_ddcf7405f0294829_n.jpg",
-                "width": 234,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "39241"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/39241_ddcf7405f0294829_z.jpg",
                 "width": 467,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "39241"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/39241_ddcf7405f0294829_n.jpg",
+                "width": 234,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "39241"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/39241_ddcf7405f0294829_d.gif",
+                "width": 234,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "39241"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/39241_ddcf7405f0294829_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "39241"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "51676457",
             "role_id": "35352245",
             "person_name": "Karin Zonis",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/51676457\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18041029",
             "role_id": "35236655",
             "person_name": "Henry Dreyfuss Associates",
+            "person_date": "founded 1929",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041029\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18041357",
             "role_id": "35351535",
             "person_name": "University Research Library, University of California, Los Angeles",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041357\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -80,8 +112,11 @@
     },
     "colors": [
         {
-            "color": "#bdb391",
-            "closest_css3": "#d2b48c"
+            "color": "#bdb291",
+            "closest_crayola": "#deaa88",
+            "closest_css3": "#d2b48c",
+            "closest_css4": "#d2b48c"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

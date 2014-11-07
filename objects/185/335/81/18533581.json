@@ -3,6 +3,7 @@
     "tms:id": "178864",
     "accession_number": "1982-23-1267",
     "title": "Matchsafe",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18533581\/",
     "department_id": "35347497",
     "period_id": null,
@@ -13,39 +14,60 @@
     "year_end": null,
     "year_acquired": "1982",
     "decade": null,
-    "woe:country": null,
+    "woe:country_id": null,
     "medium": null,
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "Overall: 3.6 cm (1 7\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "3.60",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Stephen W. Brener and Carol B. Brener",
     "description": "A silver colored matchsafe in the form of an ankle boot.",
     "justification": null,
-    "type": {
-        "id": "35287419",
-        "name": "Matchsafe"
-    },
+    "woe:country": null,
+    "type": "Matchsafe",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/20771_b828209c9f70664c_b.jpg",
                 "width": 1024,
                 "height": 735,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/20771_b828209c9f70664c_n.jpg",
-                "width": 320,
-                "height": 230,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "20771"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/20771_b828209c9f70664c_z.jpg",
                 "width": 640,
                 "height": 460,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "20771"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/20771_b828209c9f70664c_n.jpg",
+                "width": 320,
+                "height": 230,
+                "is_primary": "1",
+                "image_id": "20771"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/20771_b828209c9f70664c_d.gif",
+                "width": 320,
+                "height": 230,
+                "is_primary": "1",
+                "image_id": "20771"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/20771_b828209c9f70664c_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "20771"
             }
         },
         {
@@ -53,19 +75,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/20772_9fd8dafb57fc0a99_b.jpg",
                 "width": 1024,
                 "height": 701,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/20772_9fd8dafb57fc0a99_n.jpg",
-                "width": 320,
-                "height": 219,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "20772"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/20772_9fd8dafb57fc0a99_z.jpg",
                 "width": 640,
                 "height": 438,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "20772"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/20772_9fd8dafb57fc0a99_n.jpg",
+                "width": 320,
+                "height": 219,
+                "is_primary": "0",
+                "image_id": "20772"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/20772_9fd8dafb57fc0a99_d.gif",
+                "width": 320,
+                "height": 219,
+                "is_primary": "0",
+                "image_id": "20772"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/20772_9fd8dafb57fc0a99_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "20772"
             }
         }
     ],
@@ -74,7 +113,9 @@
             "person_id": "18539175",
             "role_id": "35351535",
             "person_name": "Carol B. Brener",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18539175\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -82,7 +123,9 @@
             "person_id": "18539171",
             "role_id": "35351535",
             "person_name": "Stephen W. Brener",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18539171\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -92,12 +135,22 @@
     },
     "colors": [
         {
-            "color": "#8f8a82",
-            "closest_css3": "#808080"
+            "color": "#a8a29b",
+            "closest_crayola": "#979aaa",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
         },
         {
-            "color": "#605951",
-            "closest_css3": "#696969"
+            "color": "#7f796f",
+            "closest_crayola": "#757575",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
+        },
+        {
+            "color": "#625b52",
+            "closest_crayola": "#6e5160",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         }
     ]
 }

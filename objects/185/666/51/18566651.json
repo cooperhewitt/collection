@@ -3,6 +3,7 @@
     "tms:id": "76618",
     "accession_number": "1942-50-5",
     "title": "Drawing, \"The Artist's Wife Sophie\", 1853",
+    "title_raw": "The Artist's Wife Sophie",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18566651\/",
     "department_id": "35347493",
     "period_id": "35417269",
@@ -13,39 +14,64 @@
     "year_end": 1853,
     "year_acquired": "1942",
     "decade": null,
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Black crayon, black chalk, white chalk on off white wove paper",
     "markings": null,
     "signed": null,
     "inscribed": "Signed with initials in graphite at lower right: D H",
     "provenance": "Erskine Hewitt",
     "dimensions": "44.5 x 32.5 cm (17 1\/2 x 12 13\/16 in.)\nMat:  40.6 x 55.9 cm (16 x 22 in.)",
+    "dimensions_raw": {
+        "height": [
+            "40.60",
+            "centimeters"
+        ],
+        "width": [
+            "55.90",
+            "centimeters"
+        ]
+    },
     "creditline": "Bequest of Erskine Hewitt",
     "description": "Frontal bust portrait of Sophie Huntington.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424977",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/34081_8f044e675783b029_b.jpg",
-                "width": 810,
-                "height": 1000,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/34081_8f044e675783b029_n.jpg",
-                "width": 259,
-                "height": 320,
-                "is_primary": "1"
+                "width": null,
+                "height": null,
+                "is_primary": "1",
+                "image_id": "34081"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/34081_8f044e675783b029_z.jpg",
                 "width": 518,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "34081"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/34081_8f044e675783b029_n.jpg",
+                "width": 259,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "34081"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/34081_8f044e675783b029_d.gif",
+                "width": 259,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "34081"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/34081_8f044e675783b029_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "34081"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18050021",
             "role_id": "35351537",
             "person_name": "Erskine Hewitt",
+            "person_date": "American, 1871\u20131938",
             "role_name": "Bequestor",
+            "role_display_name": "Bequest of",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18050021\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351537\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18047481",
             "role_id": "35352245",
             "person_name": "Eleonore Kissel",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047481\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18042209",
             "role_id": "35236679",
             "person_name": "Sophie Huntington",
+            "person_date": "",
             "role_name": "Sitter",
+            "role_display_name": "Sitter:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18042209\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236679\/"
         },
@@ -78,7 +110,9 @@
             "person_id": "18041943",
             "role_id": "35236565",
             "person_name": "Daniel Huntington",
+            "person_date": "1816\u20131906",
             "role_name": "Artist",
+            "role_display_name": "",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041943\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236565\/"
         }
@@ -89,7 +123,10 @@
     "colors": [
         {
             "color": "#ccc7c3",
-            "closest_css3": "#c0c0c0"
+            "closest_crayola": "#cdc5c2",
+            "closest_css3": "#c0c0c0",
+            "closest_css4": "#c0c0c0"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

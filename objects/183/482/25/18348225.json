@@ -3,6 +3,7 @@
     "tms:id": "57901",
     "accession_number": "1938-57-1287-a\/e",
     "title": "Textile, 19th century",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18348225\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": null,
     "year_acquired": "1938",
     "decade": null,
-    "woe:country": null,
+    "woe:country_id": null,
     "medium": "Medium: silk, plain compound satin, chin\u00e9\nTechnique: tied resist patterning in warp (ikat) on plain weave",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "H x W: 248 x 175.5 cm (8 ft. 1 5\/8 in. x 5 ft. 9 1\/8 in.)",
+    "dimensions_raw": {
+        "height": [
+            "248.00",
+            "centimeters"
+        ],
+        "width": [
+            "175.50",
+            "centimeters"
+        ]
+    },
     "creditline": "Bequest of Erskine Hewitt",
     "description": "Chin\u00e9 vertical stripes in red and white zigzag pattern alternating with green and two half-inch yellow stripes in fancy satin weave.",
     "justification": null,
-    "type": {
-        "id": "35251739",
-        "name": "textile"
-    },
+    "woe:country": null,
+    "type": "textile",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/43891_826875c97de017f8_b.jpg",
                 "width": 300,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/43891_826875c97de017f8_n.jpg",
-                "width": 94,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "43891"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/43891_826875c97de017f8_z.jpg",
                 "width": 188,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "43891"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/43891_826875c97de017f8_n.jpg",
+                "width": 94,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "43891"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/43891_826875c97de017f8_d.gif",
+                "width": 94,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "43891"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/43891_826875c97de017f8_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "43891"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/3333_28c06d224ae4e19e_b.jpg",
                 "width": 647,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/3333_28c06d224ae4e19e_n.jpg",
-                "width": 202,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "3333"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/3333_28c06d224ae4e19e_z.jpg",
                 "width": 404,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "3333"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/3333_28c06d224ae4e19e_n.jpg",
+                "width": 202,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "3333"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/3333_28c06d224ae4e19e_d.gif",
+                "width": 202,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "3333"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/3333_28c06d224ae4e19e_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "3333"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18050021",
             "role_id": "35351537",
             "person_name": "Erskine Hewitt",
+            "person_date": "American, 1871\u20131938",
             "role_name": "Bequestor",
+            "role_display_name": "Bequest of",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18050021\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351537\/"
         }
@@ -84,24 +129,34 @@
     },
     "colors": [
         {
-            "color": "#772326",
-            "closest_css3": "#8b4513"
+            "color": "#8d2d32",
+            "closest_crayola": "#9c2542",
+            "closest_css3": "#a52a2a",
+            "closest_css4": "#a52a2a"
         },
         {
-            "color": "#dbcda6",
-            "closest_css3": "#eee8aa"
+            "color": "#ceb48b",
+            "closest_crayola": "#deaa88",
+            "closest_css3": "#d2b48c",
+            "closest_css4": "#d2b48c"
         },
         {
-            "color": "#c5a96d",
-            "closest_css3": "#bdb76b"
+            "color": "#e9dbb9",
+            "closest_crayola": "#efcdb8",
+            "closest_css3": "#f5deb3",
+            "closest_css4": "#f5deb3"
         },
         {
-            "color": "#5f6d48",
-            "closest_css3": "#556b2f"
+            "color": "#64724c",
+            "closest_crayola": "#85754e",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#8b9b6e",
-            "closest_css3": "#808080"
+            "color": "#8b9c6e",
+            "closest_crayola": "#87a96b",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         }
     ]
 }

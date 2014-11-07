@@ -3,6 +3,7 @@
     "tms:id": "242089",
     "accession_number": "2009-18-54",
     "title": "Water Glass, \"Twisted Stem\", 1895",
+    "title_raw": "Twisted Stem",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18731977\/",
     "department_id": "35347497",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1895,
     "year_acquired": "2009",
     "decade": null,
-    "woe:country": "23424750",
+    "woe:country_id": "23424750",
     "medium": "Mouth-blown crystal",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "2009: acquired by Museum",
     "dimensions": "H x diam.: 12.9 x 6.7 cm (5 1\/16 x 2 5\/8 in.)",
+    "dimensions_raw": {
+        "diameter": [
+            "6.70",
+            "centimeters"
+        ],
+        "height": [
+            "12.90",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase through gift of Dale and Doug Anderson, Anonymous Donor, Arthur Liu, and Prairie Pictures, Inc. and from General Acquisitions Endowment Fund",
     "description": "Mouth-blown crystal water glass, with a twisted stem and a structured cup with gold rims.",
     "justification": null,
-    "type": {
-        "id": "35291075",
-        "name": "Water glass"
-    },
+    "woe:country": "23424750",
+    "type": "Water glass",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/33289_4d900c854374f9e3_b.jpg",
                 "width": 1024,
                 "height": 549,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/33289_4d900c854374f9e3_n.jpg",
-                "width": 320,
-                "height": 172,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "33289"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/33289_4d900c854374f9e3_z.jpg",
                 "width": 640,
                 "height": 343,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "33289"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/33289_4d900c854374f9e3_n.jpg",
+                "width": 320,
+                "height": 172,
+                "is_primary": "1",
+                "image_id": "33289"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/33289_4d900c854374f9e3_d.gif",
+                "width": 320,
+                "height": 172,
+                "is_primary": "1",
+                "image_id": "33289"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/33289_4d900c854374f9e3_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "33289"
             }
         }
     ],
@@ -53,8 +79,10 @@
         {
             "person_id": "18061841",
             "role_id": "35236657",
-            "person_name": "J. & L. Lobmeyr GmbH, Vienna, Austria",
+            "person_name": "J. & L. Lobmeyr GmbH",
+            "person_date": "Vienna, Austria, founded ca. 1935",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18061841\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         },
@@ -62,15 +90,19 @@
             "person_id": "18062617",
             "role_id": "35236655",
             "person_name": "Ludwig Lobmeyr",
+            "person_date": "Austrian, 1829 - 1917",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18062617\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
         {
             "person_id": "18061841",
             "role_id": "51571131",
-            "person_name": "J. & L. Lobmeyr GmbH, Vienna, Austria",
+            "person_name": "J. & L. Lobmeyr GmbH",
+            "person_date": "Vienna, Austria, founded ca. 1935",
             "role_name": "Lender",
+            "role_display_name": "Lent by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18061841\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/51571131\/"
         }
@@ -80,8 +112,11 @@
     },
     "colors": [
         {
-            "color": "#958575",
-            "closest_css3": "#808080"
+            "color": "#9a8b7b",
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         }
-    ]
+    ],
+    "woe:country_name": "Austria"
 }

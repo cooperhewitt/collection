@@ -3,6 +3,7 @@
     "tms:id": "190773",
     "accession_number": "1988-67-1",
     "title": "Fruit Bowl, \"Sugar\", 1987",
+    "title_raw": "Sugar",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18631865\/",
     "department_id": "35347497",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1987,
     "year_acquired": "1988",
     "decade": "1970",
-    "woe:country": "23424853",
+    "woe:country_id": "23424853",
     "medium": "Porcelain",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "1988: acquired by the Museum (from Hiltrud Jordan)",
     "dimensions": "H x diam.: 8.5 x 31 cm (3 3\/8 x 12 3\/16 in.)",
+    "dimensions_raw": {
+        "diameter": [
+            "31.00",
+            "centimeters"
+        ],
+        "height": [
+            "8.50",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase from Sir Arthur Bryan Fund",
     "description": "Disc-shaped dish with twelve rounded protrusions.",
     "justification": null,
-    "type": {
-        "id": "35251423",
-        "name": "fruit bowl"
-    },
+    "woe:country": "23424853",
+    "type": "fruit bowl",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/47463_c22018ce14a2dfc7_b.jpg",
                 "width": 1024,
                 "height": 683,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/47463_c22018ce14a2dfc7_n.jpg",
-                "width": 320,
-                "height": 213,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "47463"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/47463_c22018ce14a2dfc7_z.jpg",
                 "width": 640,
                 "height": 427,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "47463"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/47463_c22018ce14a2dfc7_n.jpg",
+                "width": 320,
+                "height": 213,
+                "is_primary": "1",
+                "image_id": "47463"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/47463_c22018ce14a2dfc7_d.gif",
+                "width": 320,
+                "height": 213,
+                "is_primary": "1",
+                "image_id": "47463"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/47463_c22018ce14a2dfc7_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "47463"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18057579",
             "role_id": "35352247",
             "person_name": "Sir Arthur Bryan Fund",
+            "person_date": "",
             "role_name": "Fund",
+            "role_display_name": "Fund:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18057579\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352247\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "51676837",
             "role_id": "35352249",
             "person_name": "Hiltrud Jordan",
+            "person_date": "",
             "role_name": "Vendor",
+            "role_display_name": "Purchased from",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/51676837\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352249\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18053827",
             "role_id": "35236671",
             "person_name": "Alessio Sarri",
+            "person_date": "Italian,",
             "role_name": "Producer",
+            "role_display_name": "Produced by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18053827\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236671\/"
         },
@@ -78,7 +110,9 @@
             "person_id": "18044261",
             "role_id": "35236655",
             "person_name": "Ettore Sottsass, Jr.",
+            "person_date": "Italian, 1917\u20132007",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18044261\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
@@ -89,7 +123,10 @@
     "colors": [
         {
             "color": "#ffffff",
-            "closest_css3": "#ffffff"
+            "closest_crayola": "#ffffff",
+            "closest_css3": "#ffffff",
+            "closest_css4": "#ffffff"
         }
-    ]
+    ],
+    "woe:country_name": "Italy"
 }

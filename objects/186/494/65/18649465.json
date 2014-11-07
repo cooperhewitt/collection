@@ -3,6 +3,7 @@
     "tms:id": "199643",
     "accession_number": "1994-80-33",
     "title": "Chef De Piece, 1786",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18649465\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1786,
     "year_acquired": "1994",
     "decade": null,
-    "woe:country": "23424819",
+    "woe:country_id": "23424819",
     "medium": "Medium: cotton\nTechnique: block printed on plain weave",
     "markings": null,
     "signed": null,
     "inscribed": "Partial stamp. \" DE.S.BELLIARD FRERES.DAIX.GRAND TEINT 1786 \" within oval cartouche.",
     "provenance": "Formerly in the collection of Elinor Merrell.",
     "dimensions": "Warp: 16 cm (6 1\/4 in.). Weft: 74.5 cm (29 1\/4 in.). Both selvedges present.\nPattern: Not present.",
+    "dimensions_raw": {
+        "warp": [
+            "16.00",
+            "centimeters"
+        ],
+        "weft": [
+            "74.50",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Cora Ginsburg",
     "description": "Intersecting curving vines and exotic flowers in red or black. Appears to be an alternation of a floral stripe and a vine stripe.",
     "justification": null,
-    "type": {
-        "id": "35295179",
-        "name": "Chef de piece"
-    },
+    "woe:country": "23424819",
+    "type": "Chef de piece",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/12113_a2d2ba55a8097c73_b.jpg",
                 "width": 1024,
                 "height": 367,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/12113_a2d2ba55a8097c73_n.jpg",
-                "width": 320,
-                "height": 115,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "12113"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/12113_a2d2ba55a8097c73_z.jpg",
                 "width": 640,
                 "height": 229,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "12113"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/12113_a2d2ba55a8097c73_n.jpg",
+                "width": 320,
+                "height": 115,
+                "is_primary": "1",
+                "image_id": "12113"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/12113_a2d2ba55a8097c73_d.gif",
+                "width": 320,
+                "height": 115,
+                "is_primary": "1",
+                "image_id": "12113"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/12113_a2d2ba55a8097c73_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "12113"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/79074_d1b4603f1b8e1f19_b.jpg",
                 "width": 1024,
                 "height": 407,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/79074_d1b4603f1b8e1f19_n.jpg",
-                "width": 320,
-                "height": 127,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "79074"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/79074_d1b4603f1b8e1f19_z.jpg",
                 "width": 640,
                 "height": 254,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "79074"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/79074_d1b4603f1b8e1f19_n.jpg",
+                "width": 320,
+                "height": 127,
+                "is_primary": "0",
+                "image_id": "79074"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/79074_d1b4603f1b8e1f19_d.gif",
+                "width": 320,
+                "height": 127,
+                "is_primary": "0",
+                "image_id": "79074"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/79074_d1b4603f1b8e1f19_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "79074"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18041197",
             "role_id": "35351535",
             "person_name": "Cora Ginsburg",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041197\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18046261",
             "role_id": "35236681",
             "person_name": "Belliard Freres",
+            "person_date": "1783",
             "role_name": "Company",
+            "role_display_name": "Company:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18046261\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236681\/"
         }
@@ -92,24 +139,29 @@
     },
     "colors": [
         {
-            "color": "#d6c0b3",
-            "closest_css3": "#c0c0c0"
+            "color": "#79413f",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         },
         {
-            "color": "#77403e",
-            "closest_css3": "#8b4513"
+            "color": "#a57f74",
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         },
         {
-            "color": "#c99a8b",
-            "closest_css3": "#bc8f8f"
+            "color": "#a5645e",
+            "closest_crayola": "#a57164",
+            "closest_css3": "#cd5c5c",
+            "closest_css4": "#cd5c5c"
         },
         {
-            "color": "#9a5c57",
-            "closest_css3": "#a0522d"
-        },
-        {
-            "color": "#fce5c9",
-            "closest_css3": "#ffe4c4"
+            "color": "#f9d9bf",
+            "closest_crayola": "#fdd9b5",
+            "closest_css3": "#ffdab9",
+            "closest_css4": "#ffdab9"
         }
-    ]
+    ],
+    "woe:country_name": "France"
 }

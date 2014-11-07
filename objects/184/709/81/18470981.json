@@ -3,6 +3,7 @@
     "tms:id": "146130",
     "accession_number": "1969-50-22",
     "title": "Textile, 1100\u20131500",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18470981\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": "1500",
     "year_acquired": "1969",
     "decade": null,
-    "woe:country": "23424919",
+    "woe:country_id": "23424919",
     "medium": "Medium: cotton\nTechnique: double cloth, both cloths slightly warp-faced plain weave. 1 to 1 relationship in both warp and weft. Note: selvage on one side intact.",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "H x W: 22.5 x 14 cm (8 7\/8 x 5 1\/2 in.)",
+    "dimensions_raw": {
+        "height": [
+            "22.50",
+            "centimeters"
+        ],
+        "width": [
+            "14.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Alan L. Wolfe",
     "description": "Geometrical standing human figure with headdress holding a staff in one hand and fan-shaped object in the other. Colors are dark brown and tan-brown. Wave scroll border on one side.",
     "justification": null,
-    "type": {
-        "id": "35251739",
-        "name": "textile"
-    },
+    "woe:country": "23424919",
+    "type": "textile",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/66347_3483cf4a3c232f77_b.jpg",
                 "width": 675,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/66347_3483cf4a3c232f77_n.jpg",
-                "width": 211,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "66347"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/66347_3483cf4a3c232f77_z.jpg",
                 "width": 422,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "66347"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/66347_3483cf4a3c232f77_n.jpg",
+                "width": 211,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "66347"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/66347_3483cf4a3c232f77_d.gif",
+                "width": 211,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "66347"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/66347_3483cf4a3c232f77_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "66347"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/75713_4a6c524c1734dbf9_b.jpg",
                 "width": 663,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/75713_4a6c524c1734dbf9_n.jpg",
-                "width": 207,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "75713"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/75713_4a6c524c1734dbf9_z.jpg",
                 "width": 414,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "75713"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/75713_4a6c524c1734dbf9_n.jpg",
+                "width": 207,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "75713"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/75713_4a6c524c1734dbf9_d.gif",
+                "width": 207,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "75713"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/75713_4a6c524c1734dbf9_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "75713"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18052601",
             "role_id": "35351535",
             "person_name": "Alan L. Wolfe",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18052601\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -84,20 +129,29 @@
     },
     "colors": [
         {
-            "color": "#41291b",
-            "closest_css3": "#2f4f4f"
+            "color": "#342317",
+            "closest_crayola": "#000000",
+            "closest_css3": "#000000",
+            "closest_css4": "#000000"
         },
         {
-            "color": "#69452b",
-            "closest_css3": "#8b4513"
+            "color": "#7d5a3c",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         },
         {
-            "color": "#886546",
-            "closest_css3": "#a0522d"
+            "color": "#a38a76",
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         },
         {
-            "color": "#af9a8a",
-            "closest_css3": "#bc8f8f"
+            "color": "#cfc5bf",
+            "closest_crayola": "#cdc5c2",
+            "closest_css3": "#c0c0c0",
+            "closest_css4": "#c0c0c0"
         }
-    ]
+    ],
+    "woe:country_name": "Peru"
 }

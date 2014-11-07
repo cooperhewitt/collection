@@ -3,6 +3,7 @@
     "tms:id": "185058",
     "accession_number": "1986-123-1",
     "title": "Vase, ca. 1881",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18620491\/",
     "department_id": "35347497",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1891,
     "year_acquired": "1986",
     "decade": null,
-    "woe:country": "23424819",
+    "woe:country_id": "23424819",
     "medium": "Glass, enamel, gold",
     "markings": "Signed underside of base, in red enamel: \"E Galle a Nancy,\" in script.",
     "signed": null,
     "inscribed": null,
     "provenance": "1885-86: George W. Lane, Norwich, Connecticut; 1948-86: Francis Gilman Jane Maisch; 1986: acquired by Museum",
     "dimensions": "H x W: 29.5 x 11.5 cm (11 5\/8 x 4 1\/2 in.)\nH x W (lip): 8.6 x 6.8 cm (3 3\/8 x 2 11\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "29.50",
+            "centimeters"
+        ],
+        "width": [
+            "11.50",
+            "centimeters"
+        ]
+    },
     "creditline": null,
     "description": "Tall cylindrical vase of greenish-brown transparent glass. Flat base, with swelling lower section, curved inward to semi-round collar of applied glass. Above collar rises elongated cylinder, slightly flattened and with pronounced curve. Rounded lip, with cut reveal. Lower body section enameled with stylized flowers in black, blue, and gold, surrounding lozenge-shaped reserve panel with enameled and gilded depiction of Persian warrior on horse, against azure blue ground. Upper portion of body with diagonally placed band of enameled decoration extending from base collar to lip; painted with blue letters against black stripes: \"Rien Sans Amour,\" in pseudo- Kufic script.",
     "justification": null,
-    "type": {
-        "id": "35237225",
-        "name": "Vase"
-    },
+    "woe:country": "23424819",
+    "type": "Vase",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/45716_5e4653d6dd98bb08_b.jpg",
                 "width": 591,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/45716_5e4653d6dd98bb08_n.jpg",
-                "width": 185,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "45716"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/45716_5e4653d6dd98bb08_z.jpg",
                 "width": 369,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "45716"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/45716_5e4653d6dd98bb08_n.jpg",
+                "width": 185,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "45716"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/45716_5e4653d6dd98bb08_d.gif",
+                "width": 185,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "45716"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/45716_5e4653d6dd98bb08_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "45716"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/45717_dcd1d0fcec9d9827_b.jpg",
                 "width": 579,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/45717_dcd1d0fcec9d9827_n.jpg",
-                "width": 181,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "45717"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/45717_dcd1d0fcec9d9827_z.jpg",
                 "width": 362,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "45717"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/45717_dcd1d0fcec9d9827_n.jpg",
+                "width": 181,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "45717"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/45717_dcd1d0fcec9d9827_d.gif",
+                "width": 181,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "45717"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/45717_dcd1d0fcec9d9827_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "45717"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18042001",
             "role_id": "35236565",
             "person_name": "Emile Gall\u00e9",
+            "person_date": "French, 1846\u20131904",
             "role_name": "Artist",
+            "role_display_name": "",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18042001\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236565\/"
         }
@@ -85,23 +130,34 @@
     "colors": [
         {
             "color": "#cab26b",
-            "closest_css3": "#bdb76b"
+            "closest_crayola": "#bab86c",
+            "closest_css3": "#bdb76b",
+            "closest_css4": "#bdb76b"
         },
         {
-            "color": "#856f46",
-            "closest_css3": "#696969"
+            "color": "#9c824f",
+            "closest_crayola": "#9c7c38",
+            "closest_css3": "#cd853f",
+            "closest_css4": "#cd853f"
         },
         {
-            "color": "#524b42",
-            "closest_css3": "#556b2f"
+            "color": "#66625a",
+            "closest_crayola": "#6e5160",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#736c5f",
-            "closest_css3": "#696969"
+            "color": "#756343",
+            "closest_crayola": "#85754e",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         },
         {
-            "color": "#a48c55",
-            "closest_css3": "#cd853f"
+            "color": "#3a3633",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         }
-    ]
+    ],
+    "woe:country_name": "France"
 }

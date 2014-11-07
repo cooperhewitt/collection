@@ -3,6 +3,7 @@
     "tms:id": "180871",
     "accession_number": "1984-111-53",
     "title": "Sample, 1966",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18801409\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1966,
     "year_acquired": "1984",
     "decade": "1960",
-    "woe:country": "23424858",
+    "woe:country_id": "23424858",
     "medium": "Medium: cotton, Saran, bast fiber\nTechnique: 8 shots plain weave alternating with 4 shots 2&2 twill woven",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "1984: acquired by Museum",
     "dimensions": "Warp x Weft: 34 x 41 cm (13 3\/8 x 16 1\/8 in.)",
+    "dimensions_raw": {
+        "warp": [
+            "34.00",
+            "centimeters"
+        ],
+        "weft": [
+            "41.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Marianne Strengell",
     "description": "Hand woven in natural and white with textures.",
     "justification": null,
-    "type": {
-        "id": "35268079",
-        "name": "Sample"
-    },
+    "woe:country": "23424858",
+    "type": "Sample",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/47948_8fa76d9bf06c52cf_b.jpg",
                 "width": 997,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/47948_8fa76d9bf06c52cf_n.jpg",
-                "width": 312,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "47948"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/47948_8fa76d9bf06c52cf_z.jpg",
                 "width": 623,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "47948"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/47948_8fa76d9bf06c52cf_n.jpg",
+                "width": 312,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "47948"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/47948_8fa76d9bf06c52cf_d.gif",
+                "width": 312,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "47948"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/47948_8fa76d9bf06c52cf_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "47948"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/77542_46d61fb0e681badb_b.jpg",
                 "width": 932,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/77542_46d61fb0e681badb_n.jpg",
-                "width": 291,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "77542"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/77542_46d61fb0e681badb_z.jpg",
                 "width": 583,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "77542"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/77542_46d61fb0e681badb_n.jpg",
+                "width": 291,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "77542"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/77542_46d61fb0e681badb_d.gif",
+                "width": 291,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "77542"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/77542_46d61fb0e681badb_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "77542"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18041443",
             "role_id": "35236685",
             "person_name": "Marianne Strengell",
+            "person_date": "Finnish, active USA, 1909\u20131998",
             "role_name": "Maker",
+            "role_display_name": "Made by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041443\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236685\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18041443",
             "role_id": "35236655",
             "person_name": "Marianne Strengell",
+            "person_date": "Finnish, active USA, 1909\u20131998",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041443\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -90,7 +137,9 @@
             "person_id": "18041443",
             "role_id": "35351535",
             "person_name": "Marianne Strengell",
+            "person_date": "Finnish, active USA, 1909\u20131998",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041443\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -100,12 +149,17 @@
     },
     "colors": [
         {
-            "color": "#c1ae89",
-            "closest_css3": "#d2b48c"
+            "color": "#c1ae8a",
+            "closest_crayola": "#deaa88",
+            "closest_css3": "#d2b48c",
+            "closest_css4": "#d2b48c"
         },
         {
-            "color": "#a28964",
-            "closest_css3": "#808080"
+            "color": "#a68d68",
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         }
-    ]
+    ],
+    "woe:country_name": "Jamaica"
 }

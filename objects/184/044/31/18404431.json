@@ -3,6 +3,7 @@
     "tms:id": "112400",
     "accession_number": "1955-38-37-a",
     "title": "Drawing, \"study of hands holding flute\", ca. 1890",
+    "title_raw": "study of hands holding flute",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18404431\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1900,
     "year_acquired": "1955",
     "decade": null,
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Pencil, blue crayon, on light yellow paper; watermark",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "Gift of the American Academy of Arts and Letters",
     "dimensions": "15 x 13.6 cm (5 7\/8 x 5 3\/8 in.)",
+    "dimensions_raw": {
+        "height": [
+            "15.00",
+            "centimeters"
+        ],
+        "width": [
+            "13.60",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of the American Academy of Arts and Letters",
     "description": "Study of two hands holding a flute.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424977",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/22525_fc77311979c0ac05_b.jpg",
                 "width": 1024,
                 "height": 968,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/22525_fc77311979c0ac05_n.jpg",
-                "width": 320,
-                "height": 302,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "22525"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/22525_fc77311979c0ac05_z.jpg",
                 "width": 640,
                 "height": 605,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "22525"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/22525_fc77311979c0ac05_n.jpg",
+                "width": 320,
+                "height": 302,
+                "is_primary": "1",
+                "image_id": "22525"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/22525_fc77311979c0ac05_d.gif",
+                "width": 320,
+                "height": 302,
+                "is_primary": "1",
+                "image_id": "22525"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/22525_fc77311979c0ac05_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "22525"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18047665",
             "role_id": "35351535",
             "person_name": "The American Academy of Arts & Letters",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047665\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18043135",
             "role_id": "35236565",
             "person_name": "Elihu Vedder",
+            "person_date": "American, 1836 \u2013 1923",
             "role_name": "Artist",
+            "role_display_name": "",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18043135\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236565\/"
         }
@@ -72,8 +102,11 @@
     },
     "colors": [
         {
-            "color": "#766d55",
-            "closest_css3": "#696969"
+            "color": "#766d54",
+            "closest_crayola": "#85754e",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

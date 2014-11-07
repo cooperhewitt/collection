@@ -3,6 +3,7 @@
     "tms:id": "61429",
     "accession_number": "1938-88-120",
     "title": "Drawing, \"Competition Design for La Fenice, Venice: Transverse Section\", 1788",
+    "title_raw": "Competition Design for La Fenice, Venice: Transverse Section",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18356005\/",
     "department_id": "35347493",
     "period_id": "35417089",
@@ -13,39 +14,64 @@
     "year_end": 1788,
     "year_acquired": "1938",
     "decade": null,
-    "woe:country": "23424853",
+    "woe:country_id": "23424853",
     "medium": "Pen and black ink, brush and gray wash, watercolor, graphite on cream paper",
     "markings": null,
     "signed": null,
     "inscribed": "In pen and black ink on rose colored lower margin, center: \"SPACCATO P TRAVERSO.\"; in lower right corner: \"T.^VII\"",
     "provenance": "Giovanni Piancastelli; Mr. and Mrs. Edward D. Brandegee, Brookline, MA; 1938: acquired by Museum",
     "dimensions": "34 x 44.9 cm (13 3\/8 x 17 11\/16 in. )",
+    "dimensions_raw": {
+        "height": [
+            "71.10",
+            "centimeters"
+        ],
+        "width": [
+            "91.40",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase through gift of various donors and from Eleanor G. Hewitt Fund",
     "description": "Drawing in shades of rose and gray of transverse section of a theater showing a large central section with a pitched roof flanked by bays with lower roof.   View of five tiers of boxes topped by a shallow dome, the proscenium with curtain, and a large dark semicircular shape seen through the roofing timbers.  The rose pink indicates structural supports.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424853",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/3484_1e2942ed0aa2403f_b.jpg",
                 "width": 1024,
                 "height": 783,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/3484_1e2942ed0aa2403f_n.jpg",
-                "width": 320,
-                "height": 245,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "3484"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/3484_1e2942ed0aa2403f_z.jpg",
                 "width": 640,
                 "height": 489,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "3484"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/3484_1e2942ed0aa2403f_n.jpg",
+                "width": 320,
+                "height": 245,
+                "is_primary": "1",
+                "image_id": "3484"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/3484_1e2942ed0aa2403f_d.gif",
+                "width": 320,
+                "height": 245,
+                "is_primary": "1",
+                "image_id": "3484"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/3484_1e2942ed0aa2403f_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "3484"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18539277",
             "role_id": "35352245",
             "person_name": "Dr. Hans Huth",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18539277\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18049797",
             "role_id": "35352249",
             "person_name": "Mrs. Edward D. Brandegee",
+            "person_date": "American, 1871\u20131956",
             "role_name": "Vendor",
+            "role_display_name": "Purchased from",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049797\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352249\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18049715",
             "role_id": "35236733",
             "person_name": "D. Danieletti",
+            "person_date": "Italian",
             "role_name": "Co-Designer",
+            "role_display_name": "Co-Designer:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049715\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236733\/"
         },
@@ -78,7 +110,9 @@
             "person_id": "18049713",
             "role_id": "35236663",
             "person_name": "D. Cerato",
+            "person_date": "Italian",
             "role_name": "Architect",
+            "role_display_name": "Architect:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049713\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236663\/"
         }
@@ -88,20 +122,35 @@
     },
     "colors": [
         {
-            "color": "#413d2c",
-            "closest_css3": "#2f4f4f"
+            "color": "#29261c",
+            "closest_crayola": "#000000",
+            "closest_css3": "#000000",
+            "closest_css4": "#000000"
         },
         {
-            "color": "#d6afa1",
-            "closest_css3": "#d2b48c"
+            "color": "#d4ad9f",
+            "closest_crayola": "#deaa88",
+            "closest_css3": "#d2b48c",
+            "closest_css4": "#d2b48c"
         },
         {
-            "color": "#79654f",
-            "closest_css3": "#696969"
+            "color": "#5c4b37",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         },
         {
-            "color": "#a28f7b",
-            "closest_css3": "#bc8f8f"
+            "color": "#7b6a55",
+            "closest_crayola": "#85754e",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
+        },
+        {
+            "color": "#a89986",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         }
-    ]
+    ],
+    "woe:country_name": "Italy"
 }

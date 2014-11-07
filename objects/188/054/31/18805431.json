@@ -3,6 +3,7 @@
     "tms:id": "183006",
     "accession_number": "1985-54-21",
     "title": "Spoon, \"Ciga\", 1979",
+    "title_raw": "Ciga",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18805431\/",
     "department_id": "35347497",
     "period_id": null,
@@ -13,39 +14,68 @@
     "year_end": 1979,
     "year_acquired": "1985",
     "decade": "1970",
-    "woe:country": "23424853",
+    "woe:country_id": "23424977",
     "medium": "silverplate",
     "markings": "On reverse of handle: CALEGARO-ITALY VIGNELLI DESIGNS",
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "cm: L: 22.6 x W: 5.5 x D: 2.3",
+    "dimensions_raw": {
+        "depth": [
+            "2.30",
+            "centimeters"
+        ],
+        "length": [
+            "22.60",
+            "centimeters"
+        ],
+        "width": [
+            "5.50",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Lella and Massimo Vignelli",
     "description": "Rounded-square bowl and flat, long rounded-rectangular handle with raised-rounded border.",
     "justification": null,
-    "type": {
-        "id": "35249775",
-        "name": "spoon"
-    },
+    "woe:country": "23424977",
+    "type": "spoon",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/31660_030884c10511c64e_b.jpg",
-                "width": 133,
-                "height": 192,
-                "is_primary": "1"
+                "width": null,
+                "height": null,
+                "is_primary": "0",
+                "image_id": "31660"
+            },
+            "z": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/31660_030884c10511c64e_z.jpg",
+                "width": null,
+                "height": null,
+                "is_primary": "0",
+                "image_id": "31660"
             },
             "n": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/31660_030884c10511c64e_n.jpg",
                 "width": 133,
                 "height": 192,
-                "is_primary": "1"
+                "is_primary": "0",
+                "image_id": "31660"
             },
-            "z": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/31660_030884c10511c64e_z.jpg",
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/31660_030884c10511c64e_d.gif",
                 "width": 133,
                 "height": 192,
-                "is_primary": "1"
+                "is_primary": "0",
+                "image_id": "31660"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/31660_030884c10511c64e_sq.jpg",
+                "width": 133,
+                "height": 192,
+                "is_primary": "0",
+                "image_id": "31660"
             }
         }
     ],
@@ -54,7 +84,9 @@
             "person_id": "18044029",
             "role_id": "35236655",
             "person_name": "Lella Vignelli",
+            "person_date": "Italian, b. 1934",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18044029\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -62,15 +94,29 @@
             "person_id": "18042329",
             "role_id": "35236655",
             "person_name": "Massimo Vignelli",
+            "person_date": "Italian, 1931 - 2014",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18042329\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
+        },
+        {
+            "person_id": "68738419",
+            "role_id": "35236657",
+            "person_name": "Calegaro Argenteria",
+            "person_date": "Italian",
+            "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
+            "person_url": "http:\/\/collection.cooperhewitt.org\/people\/68738419\/",
+            "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         },
         {
             "person_id": "18042329",
             "role_id": "35351535",
             "person_name": "Massimo Vignelli",
+            "person_date": "Italian, 1931 - 2014",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18042329\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -78,7 +124,9 @@
             "person_id": "18044029",
             "role_id": "35351535",
             "person_name": "Lella Vignelli",
+            "person_date": "Italian, b. 1934",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18044029\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -86,7 +134,9 @@
             "person_id": "18044737",
             "role_id": "35236801",
             "person_name": "David Law",
+            "person_date": "American, b. 1937",
             "role_name": "Design Team member",
+            "role_display_name": "Design Team Member:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18044737\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236801\/"
         }
@@ -95,25 +145,7 @@
         "epitaph": "Spoon, \"Ciga\", 1979. silverplate. Gift of Lella and Massimo Vignelli. 1985-54-21."
     },
     "colors": [
-        {
-            "color": "#7f8992",
-            "closest_css3": "#778899"
-        },
-        {
-            "color": "#35322e",
-            "closest_css3": "#2f4f4f"
-        },
-        {
-            "color": "#d6f1fd",
-            "closest_css3": "#e0ffff"
-        },
-        {
-            "color": "#5f5c53",
-            "closest_css3": "#696969"
-        },
-        {
-            "color": "#31424e",
-            "closest_css3": "#2f4f4f"
-        }
-    ]
+
+    ],
+    "woe:country_name": "United States"
 }

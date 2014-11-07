@@ -3,6 +3,7 @@
     "tms:id": "198543",
     "accession_number": "1994-102-1",
     "title": "Textile, early 20th century",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18647277\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1925,
     "year_acquired": "1994",
     "decade": "1900",
-    "woe:country": "23424975",
+    "woe:country_id": "23424975",
     "medium": "Technique: gauze weave with supplementary wefts",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "Warp x Weft: 1023.6 x 348 cm (33 ft. 7 in. x 11 ft. 5 in.)",
+    "dimensions_raw": {
+        "warp": [
+            "1023.62",
+            "centimeters"
+        ],
+        "weft": [
+            "347.98",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase from Sarah Cooper-Hewitt Fund",
     "description": "Color-way with widely spaced geometric motifs in pink and green on  off-white; pink and blue on pink; green on off-white; green on orange; yellow and brown on off-white;  and blue on blue.",
     "justification": null,
-    "type": {
-        "id": "35251739",
-        "name": "textile"
-    },
+    "woe:country": "23424975",
+    "type": "textile",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/78992_6d2f2410a86d0501_b.jpg",
                 "width": 663,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/78992_6d2f2410a86d0501_n.jpg",
-                "width": 207,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "78992"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/78992_6d2f2410a86d0501_z.jpg",
                 "width": 414,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "78992"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/78992_6d2f2410a86d0501_n.jpg",
+                "width": 207,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "78992"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/78992_6d2f2410a86d0501_d.gif",
+                "width": 207,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "78992"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/78992_6d2f2410a86d0501_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "78992"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/78993_ed75018baa8f9d03_b.jpg",
                 "width": 663,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/78993_ed75018baa8f9d03_n.jpg",
-                "width": 207,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "78993"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/78993_ed75018baa8f9d03_z.jpg",
                 "width": 414,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "78993"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/78993_ed75018baa8f9d03_n.jpg",
+                "width": 207,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "78993"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/78993_ed75018baa8f9d03_d.gif",
+                "width": 207,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "78993"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/78993_ed75018baa8f9d03_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "78993"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18045955",
             "role_id": "35236671",
             "person_name": "Alexander Morton & Co.",
+            "person_date": "1870 - 1906",
             "role_name": "Producer",
+            "role_display_name": "Produced by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18045955\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236671\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18047457",
             "role_id": "35352245",
             "person_name": "Barbara Duggan",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047457\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -90,7 +137,9 @@
             "person_id": "18041595",
             "role_id": "35352249",
             "person_name": "PAUL REEVES",
+            "person_date": "",
             "role_name": "Vendor",
+            "role_display_name": "Purchased from",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041595\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352249\/"
         },
@@ -98,7 +147,9 @@
             "person_id": "18045955",
             "role_id": "35236685",
             "person_name": "Alexander Morton & Co.",
+            "person_date": "1870 - 1906",
             "role_name": "Maker",
+            "role_display_name": "Made by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18045955\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236685\/"
         }
@@ -108,5 +159,6 @@
     },
     "colors": [
 
-    ]
+    ],
+    "woe:country_name": "United Kingdom"
 }

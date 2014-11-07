@@ -3,6 +3,7 @@
     "tms:id": "22756",
     "accession_number": "1917-4-247",
     "title": "Drawing, \"Waterfalls Near The Hacienda, Chillo, Ecuador\", June 26, 1857",
+    "title_raw": "Waterfalls Near The Hacienda, Chillo, Ecuador",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18196109\/",
     "department_id": "35347493",
     "period_id": "35417175",
@@ -13,39 +14,64 @@
     "year_end": null,
     "year_acquired": "1917",
     "decade": null,
-    "woe:country": "23424801",
+    "woe:country_id": "23424801",
     "medium": "Graphite, brush and white gouache on tan paper",
     "markings": "Recto:  Stamped in ink, at lower left: Lugt 457c\nVerso:  Stamped in ink, at center: Lugt 457d",
     "signed": null,
     "inscribed": "Inscribed in graphite, at lower right: 2 - Trees dotted with yellowish white flowers; and again, at bottom right:  Waterfall near The Hacienda Chillo June 26th 57 \/-Aguirre-",
     "provenance": null,
     "dimensions": "Sheet: 35.1 x 54.7 cm (13 13\/16 x 21 9\/16 in.)\nMat (Mat): 55.9 x 71.1 cm (22 x 28 in.)",
+    "dimensions_raw": {
+        "height": [
+            "55.90",
+            "centimeters"
+        ],
+        "width": [
+            "71.10",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Louis P. Church",
     "description": "Horizontal view with trees and bushes filling the foreground while a large waterfall gushes at right, a second narrower falls cascades into forest growth at left, and forested mountains fill the distance.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424801",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/20296_8c01328f3169a55b_b.jpg",
                 "width": 1024,
                 "height": 674,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/20296_8c01328f3169a55b_n.jpg",
-                "width": 320,
-                "height": 211,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "20296"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/20296_8c01328f3169a55b_z.jpg",
                 "width": 640,
                 "height": 421,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "20296"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/20296_8c01328f3169a55b_n.jpg",
+                "width": 320,
+                "height": 211,
+                "is_primary": "1",
+                "image_id": "20296"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/20296_8c01328f3169a55b_d.gif",
+                "width": 320,
+                "height": 211,
+                "is_primary": "1",
+                "image_id": "20296"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/20296_8c01328f3169a55b_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "20296"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18061203",
             "role_id": "35352245",
             "person_name": "Lillian Hill Clagett",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18061203\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18051625",
             "role_id": "35351535",
             "person_name": "Louis P. Church",
+            "person_date": "American, 1870\u20131943",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18051625\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18047439",
             "role_id": "35352245",
             "person_name": "Rudolph Berliner",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047439\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -78,7 +110,9 @@
             "person_id": "18041941",
             "role_id": "35236565",
             "person_name": "Frederic Edwin Church",
+            "person_date": "American, 1826\u20131900",
             "role_name": "Artist",
+            "role_display_name": "",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041941\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236565\/"
         }
@@ -88,12 +122,17 @@
     },
     "colors": [
         {
-            "color": "#968168",
-            "closest_css3": "#808080"
+            "color": "#988269",
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#e6dbc7",
-            "closest_css3": "#dcdcdc"
+            "color": "#e7dcc8",
+            "closest_crayola": "#efdecd",
+            "closest_css3": "#dcdcdc",
+            "closest_css4": "#dcdcdc"
         }
-    ]
+    ],
+    "woe:country_name": "Ecuador"
 }

@@ -3,6 +3,7 @@
     "tms:id": "153218",
     "accession_number": "1974-82-34",
     "title": "Drawing, \"Design for a plate\"",
+    "title_raw": "Design for a plate",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18484705\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": null,
     "year_acquired": "1974",
     "decade": null,
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Brush and gouache, black ink, graphite on white wove paper",
     "markings": null,
     "signed": "Signed in black ink: Simon Lissim.",
     "inscribed": null,
     "provenance": "Simon Lissim; 1974: acquired by Museum",
     "dimensions": "H x W: 32.8 x 23.3 cm (12 15\/16 x 9 3\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "32.80",
+            "centimeters"
+        ],
+        "width": [
+            "23.30",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Simon Lissim",
     "description": "Design for quarter of a plate decorated with circles and points in black and gold; the rest of the plate is in graphite and undecorated.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424977",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/59585_874648114800a55f_b.jpg",
                 "width": 726,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/59585_874648114800a55f_n.jpg",
-                "width": 227,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "59585"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/59585_874648114800a55f_z.jpg",
                 "width": 454,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "59585"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/59585_874648114800a55f_n.jpg",
+                "width": 227,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "59585"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/59585_874648114800a55f_d.gif",
+                "width": 227,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "59585"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/59585_874648114800a55f_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "59585"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18043845",
             "role_id": "35236655",
             "person_name": "Simon Lissim",
+            "person_date": "American, b. Kiev, Russia, 1900\u20131981",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18043845\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18043845",
             "role_id": "35351535",
             "person_name": "Simon Lissim",
+            "person_date": "American, b. Kiev, Russia, 1900\u20131981",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18043845\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -72,20 +102,29 @@
     },
     "colors": [
         {
-            "color": "#89724b",
-            "closest_css3": "#696969"
+            "color": "#856a40",
+            "closest_crayola": "#85754e",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
+        },
+        {
+            "color": "#c0b190",
+            "closest_crayola": "#deaa88",
+            "closest_css3": "#d2b48c",
+            "closest_css4": "#d2b48c"
         },
         {
             "color": "#5b4c36",
-            "closest_css3": "#556b2f"
+            "closest_crayola": "#714b23",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         },
         {
-            "color": "#ab9976",
-            "closest_css3": "#bc8f8f"
-        },
-        {
-            "color": "#363029",
-            "closest_css3": "#2f4f4f"
+            "color": "#393229",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

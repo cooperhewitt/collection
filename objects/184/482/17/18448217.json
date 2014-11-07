@@ -2,7 +2,8 @@
     "id": "18448217",
     "tms:id": "134624",
     "accession_number": "1963-39-511",
-    "title": "Drawing, \"Poster Design:  Spring in the Country\", 1935",
+    "title": "Drawing, \"Spring in the Country, London Underground\", 1935",
+    "title_raw": "Poster Design:  Spring in the Country",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18448217\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1935,
     "year_acquired": "1963",
     "decade": "1930",
-    "woe:country": "23424975",
+    "woe:country_id": "23424975",
     "medium": "Brush and gouache, black ink  collaged illustration, graphite on heavy cream paper",
     "markings": "Verso, stamp in purple, center:  DESIGNED BY\/21 NOV. 1935\/E MCK KAUFFER",
     "signed": null,
     "inscribed": "Inscribed in graphite, lower left quadrant:  ?Block to correct\/dimensions; verso, in graphite, lower center, upside down:  BACK [encircled].",
     "provenance": "Mrs. E. McKnight Kauffer",
     "dimensions": "37.8 x 23.8 cm (14 7\/8 x 9 3\/8 in. ), irregular",
+    "dimensions_raw": {
+        "height": [
+            "37.80",
+            "centimeters"
+        ],
+        "width": [
+            "23.80",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Mrs. E. McKnight Kauffer",
     "description": "In the upper half of sheet, a two-toned green oak leaf silhouetted against a larger green leaf which is superimposed on a larger black leaf.  These are floating in a pale blue sky with wispy white clouds.  In the lower half of sheet, flush to right margin, a collaged illustration of a tree-lined country road.  In upper right corner, in large black capital letters, SPRING.  At center left, in small black capital letters, IN THE COUNTRY.  At lower center, horizontal graphite lines indicate space for text.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424975",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/50750_f6a3699fd941eb65_b.jpg",
                 "width": 654,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/50750_f6a3699fd941eb65_n.jpg",
-                "width": 204,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "50750"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/50750_f6a3699fd941eb65_z.jpg",
                 "width": 409,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "50750"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/50750_f6a3699fd941eb65_n.jpg",
+                "width": 204,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "50750"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/50750_f6a3699fd941eb65_d.gif",
+                "width": 204,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "50750"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/50750_f6a3699fd941eb65_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "50750"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/6667_66206d8a6618d604_b.jpg",
                 "width": 654,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/6667_66206d8a6618d604_n.jpg",
-                "width": 204,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "6667"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/6667_66206d8a6618d604_z.jpg",
                 "width": 409,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "6667"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/6667_66206d8a6618d604_n.jpg",
+                "width": 204,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "6667"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/6667_66206d8a6618d604_d.gif",
+                "width": 204,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "6667"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/6667_66206d8a6618d604_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "6667"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18061849",
             "role_id": "35351535",
             "person_name": "Mrs. Edward McKnight Kauffer",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18061849\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18539239",
             "role_id": "35236667",
             "person_name": "London Underground",
+            "person_date": "",
             "role_name": "Client",
+            "role_display_name": "Client:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18539239\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236667\/"
         },
@@ -90,34 +137,47 @@
             "person_id": "18041923",
             "role_id": "35236655",
             "person_name": "Edward McKnight Kauffer",
+            "person_date": "American, active England, 1890\u20131954",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041923\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
     ],
     "tombstone": {
-        "epitaph": "Drawing, \"Poster Design:  Spring in the Country\", 1935. Brush and gouache, black ink  collaged illustration, graphite on heavy cream paper. Gift of Mrs. E. McKnight Kauffer. 1963-39-511."
+        "epitaph": "Drawing, \"Spring in the Country, London Underground\", 1935. Brush and gouache, black ink  collaged illustration, graphite on heavy cream paper. Gift of Mrs. E. McKnight Kauffer. 1963-39-511."
     },
     "colors": [
         {
-            "color": "#f4eed6",
-            "closest_css3": "#faebd7"
+            "color": "#9bbcce",
+            "closest_crayola": "#a2add0",
+            "closest_css3": "#b0c4de",
+            "closest_css4": "#b0c4de"
         },
         {
-            "color": "#a0bed0",
-            "closest_css3": "#b0c4de"
+            "color": "#cbd5d7",
+            "closest_crayola": "#dbd7d2",
+            "closest_css3": "#d3d3d3",
+            "closest_css4": "#d3d3d3"
         },
         {
-            "color": "#838b5d",
-            "closest_css3": "#808080"
+            "color": "#7c8659",
+            "closest_crayola": "#8a795d",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#c2db9e",
-            "closest_css3": "#c0c0c0"
+            "color": "#d7d39b",
+            "closest_crayola": "#e7c697",
+            "closest_css3": "#deb887",
+            "closest_css4": "#deb887"
         },
         {
-            "color": "#c1d1c6",
-            "closest_css3": "#c0c0c0"
+            "color": "#707871",
+            "closest_crayola": "#757575",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         }
-    ]
+    ],
+    "woe:country_name": "United Kingdom"
 }

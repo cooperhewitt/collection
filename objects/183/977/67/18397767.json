@@ -3,6 +3,7 @@
     "tms:id": "109049",
     "accession_number": "1953-26-6",
     "title": "Drawing, \"Design for a detached residence of Indiana limestone\", ca. 1920",
+    "title_raw": "Design for a detached residence of Indiana limestone",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18397767\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1925,
     "year_acquired": "1953",
     "decade": "1910",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Pen and ink on paper",
     "markings": null,
     "signed": null,
     "inscribed": "Inscribed in black ink, lower right: DESIGN FOR A \/ DETACHED RESIDENCE \/ OF INDIANA LIMESTONE",
     "provenance": "Christian Francis Rosborg: 1953: acquired by Museum",
     "dimensions": "75.6 x 56.6 cm (29 3\/4 x 22 5\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "75.60",
+            "centimeters"
+        ],
+        "width": [
+            "56.60",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of the Estate of Christian Francis Rosborg",
     "description": "At left, a cross section, east elevation, second floor plan, front elevation, fire place. At right, plan of first floor, with layout of grounds. Inscribed near lower right: \u201cSubmitted by,\u201d followed by lighted candle.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424977",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/61639_4582321ee9262990_b.jpg",
                 "width": 771,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/61639_4582321ee9262990_n.jpg",
-                "width": 241,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "61639"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/61639_4582321ee9262990_z.jpg",
                 "width": 482,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "61639"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/61639_4582321ee9262990_n.jpg",
+                "width": 241,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "61639"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/61639_4582321ee9262990_d.gif",
+                "width": 241,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "61639"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/61639_4582321ee9262990_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "61639"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18042173",
             "role_id": "35236663",
             "person_name": "Christian Francis Rosborg",
+            "person_date": "1881 \u2013 1953",
             "role_name": "Architect",
+            "role_display_name": "Architect:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18042173\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236663\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18056861",
             "role_id": "35351535",
             "person_name": "Estate of Christian Francis Rosborg",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18056861\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -72,12 +102,17 @@
     },
     "colors": [
         {
-            "color": "#ada18b",
-            "closest_css3": "#bc8f8f"
+            "color": "#a49b87",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         },
         {
-            "color": "#595349",
-            "closest_css3": "#556b2f"
+            "color": "#696358",
+            "closest_crayola": "#6e5160",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

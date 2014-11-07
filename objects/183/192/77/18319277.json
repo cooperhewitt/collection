@@ -3,6 +3,7 @@
     "tms:id": "44819",
     "accession_number": "1931-45-3",
     "title": "Firescreen, \"Le Couronnement d'Esther\", ca. 1825",
+    "title_raw": "Le Couronnement d'Esther",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18319277\/",
     "department_id": "35347503",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1835,
     "year_acquired": "1931",
     "decade": null,
-    "woe:country": "23424819",
+    "woe:country_id": "23424819",
     "medium": "Block-printed on handmade paper",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
-    "dimensions": "H x W: 110 x 79.5 cm (43 5\/16 x 31 5\/16 in.)",
+    "dimensions": "H x W x D: 79.5 \u00d7 110 cm (31 5\/16 \u00d7 43 5\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "110.00",
+            "centimeters"
+        ],
+        "width": [
+            "79.50",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Eleanor and Sarah Hewitt",
     "description": "Horizontal rectangle, printed in brilliant colors on two joined sheets of paper. A coronation scene is taking place in a beautiful outdoor architectural setting.",
     "justification": null,
-    "type": {
-        "id": "35251061",
-        "name": "firescreen"
-    },
+    "woe:country": "23424819",
+    "type": "firescreen",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/40523_eb3f042d0071c1c0_b.jpg",
                 "width": 1024,
                 "height": 746,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/40523_eb3f042d0071c1c0_n.jpg",
-                "width": 320,
-                "height": 233,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "40523"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/40523_eb3f042d0071c1c0_z.jpg",
                 "width": 640,
                 "height": 466,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "40523"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/40523_eb3f042d0071c1c0_n.jpg",
+                "width": 320,
+                "height": 233,
+                "is_primary": "1",
+                "image_id": "40523"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/40523_eb3f042d0071c1c0_d.gif",
+                "width": 320,
+                "height": 233,
+                "is_primary": "1",
+                "image_id": "40523"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/40523_eb3f042d0071c1c0_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "40523"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/2994_198880caf9d27ced_b.jpg",
                 "width": 1024,
                 "height": 752,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/2994_198880caf9d27ced_n.jpg",
-                "width": 320,
-                "height": 235,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "2994"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/2994_198880caf9d27ced_z.jpg",
                 "width": 640,
                 "height": 470,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "2994"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/2994_198880caf9d27ced_n.jpg",
+                "width": 320,
+                "height": 235,
+                "is_primary": "0",
+                "image_id": "2994"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/2994_198880caf9d27ced_d.gif",
+                "width": 320,
+                "height": 235,
+                "is_primary": "0",
+                "image_id": "2994"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/2994_198880caf9d27ced_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "2994"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18052379",
             "role_id": "35352245",
             "person_name": "Calvin S.  Hathaway",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18052379\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18049321",
             "role_id": "35351535",
             "person_name": "Sarah Cooper Hewitt",
+            "person_date": "American, 1859\u20131930",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049321\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -90,7 +137,9 @@
             "person_id": "18049325",
             "role_id": "35351535",
             "person_name": "Eleanor Garnier Hewitt",
+            "person_date": "American, 1864\u20131924",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049325\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -98,7 +147,9 @@
             "person_id": "18046645",
             "role_id": "35236677",
             "person_name": "Jean-Francois de Troy",
+            "person_date": "1679 \u2013 1752",
             "role_name": "After",
+            "role_display_name": "After",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18046645\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236677\/"
         }
@@ -108,24 +159,35 @@
     },
     "colors": [
         {
-            "color": "#c5c3b9",
-            "closest_css3": "#c0c0c0"
+            "color": "#824f37",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         },
         {
-            "color": "#b18a69",
-            "closest_css3": "#bc8f8f"
+            "color": "#8e887c",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#804b34",
-            "closest_css3": "#a0522d"
+            "color": "#caad7e",
+            "closest_crayola": "#deaa88",
+            "closest_css3": "#d2b48c",
+            "closest_css4": "#d2b48c"
         },
         {
-            "color": "#9e998b",
-            "closest_css3": "#bc8f8f"
+            "color": "#af8862",
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#cd853f",
+            "closest_css4": "#cd853f"
         },
         {
-            "color": "#7e7c74",
-            "closest_css3": "#808080"
+            "color": "#aa6d35",
+            "closest_crayola": "#9c7c38",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         }
-    ]
+    ],
+    "woe:country_name": "France"
 }

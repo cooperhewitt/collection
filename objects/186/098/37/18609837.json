@@ -3,6 +3,7 @@
     "tms:id": "98449",
     "accession_number": "1948-40-17",
     "title": "Drawing, \"Design for Curtains on the East Wall of the Music Room, Royal Pavilion, Brighton\", ca. 1817",
+    "title_raw": "Design for Curtains on the East Wall of the Music Room, Royal Pavilion, Brighton",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18609837\/",
     "department_id": "35347493",
     "period_id": "35417337",
@@ -13,39 +14,64 @@
     "year_end": 1827,
     "year_acquired": "1948",
     "decade": null,
-    "woe:country": "23424975",
+    "woe:country_id": "23424975",
     "medium": "Brush and watercolor, graphite on white wove paper",
     "markings": "Wove paper, no watermark visible, looks like Whatman (kb)",
     "signed": null,
     "inscribed": "Upper right in graphite: Music Room",
     "provenance": "Katherine Gregory, New York",
     "dimensions": "31.3 x 48.7 cm (12 5\/16 x 19 3\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "31.30",
+            "centimeters"
+        ],
+        "width": [
+            "48.70",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase through gift of Mrs. John Innes Kane",
     "description": "Elevation of the east wall, showing a design for the decoration of the five windows which comprise this wall. Festooned drapery is upheld by a cornice made up mainly of winged dragons. Fluted curtains are hung in front of the piers between the windows.\n\nOriginal album associated with this collection still exists.  See 1948-40-1 accessory.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424975",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/4300_94acd01ad4e26e4a_b.jpg",
                 "width": 1024,
                 "height": 644,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/4300_94acd01ad4e26e4a_n.jpg",
-                "width": 320,
-                "height": 201,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "4300"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/4300_94acd01ad4e26e4a_z.jpg",
                 "width": 640,
                 "height": 403,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "4300"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/4300_94acd01ad4e26e4a_n.jpg",
+                "width": 320,
+                "height": 201,
+                "is_primary": "1",
+                "image_id": "4300"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/4300_94acd01ad4e26e4a_d.gif",
+                "width": 320,
+                "height": 201,
+                "is_primary": "1",
+                "image_id": "4300"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/4300_94acd01ad4e26e4a_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "4300"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18539479",
             "role_id": "35352249",
             "person_name": "Mrs. K. Gregory",
+            "person_date": "",
             "role_name": "Vendor",
+            "role_display_name": "Purchased from",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18539479\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352249\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18047625",
             "role_id": "35352245",
             "person_name": "E. Maurice Bloch",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047625\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18042069",
             "role_id": "35236565",
             "person_name": "Frederick Crace",
+            "person_date": "English, 1779\u20131859",
             "role_name": "Artist",
+            "role_display_name": "",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18042069\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236565\/"
         }
@@ -80,24 +112,29 @@
     },
     "colors": [
         {
-            "color": "#fffbd7",
-            "closest_css3": "#fff8dc"
+            "color": "#d7ab9a",
+            "closest_crayola": "#deaa88",
+            "closest_css3": "#d2b48c",
+            "closest_css4": "#d2b48c"
         },
         {
-            "color": "#fcd2bb",
-            "closest_css3": "#ffdab9"
+            "color": "#dcc39d",
+            "closest_crayola": "#e7c697",
+            "closest_css3": "#deb887",
+            "closest_css4": "#deb887"
         },
         {
-            "color": "#e9ab9f",
-            "closest_css3": "#deb887"
+            "color": "#fcd2b9",
+            "closest_crayola": "#fdd9b5",
+            "closest_css3": "#ffdab9",
+            "closest_css4": "#ffdab9"
         },
         {
-            "color": "#ae917c",
-            "closest_css3": "#bc8f8f"
-        },
-        {
-            "color": "#f7c088",
-            "closest_css3": "#deb887"
+            "color": "#996f58",
+            "closest_crayola": "#a5694f",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         }
-    ]
+    ],
+    "woe:country_name": "United Kingdom"
 }

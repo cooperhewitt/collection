@@ -3,6 +3,7 @@
     "tms:id": "185180",
     "accession_number": "1986-35-1",
     "title": "Textile, \"Mira Broadway\", 1960\u201386",
+    "title_raw": "Mira Broadway",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18620733\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1986,
     "year_acquired": "1986",
     "decade": "1960",
-    "woe:country": "23424829",
+    "woe:country_id": "23424829",
     "medium": "Medium: cotton\nTechnique: discharge print on cotton velours (screen printed)",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "1986: acquired by Museum",
     "dimensions": "Warp x Weft: 115 x 137 cm (45 1\/4 x 53 15\/16 in.)",
+    "dimensions_raw": {
+        "warp": [
+            "115.00",
+            "centimeters"
+        ],
+        "weft": [
+            "137.00",
+            "centimeters"
+        ]
+    },
     "creditline": null,
     "description": "Painterly design in grey and blue with slashes of bright pink. 5 colorways attached.",
     "justification": null,
-    "type": {
-        "id": "35251739",
-        "name": "textile"
-    },
+    "woe:country": "23424829",
+    "type": "textile",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/77701_e5f44897c0c6ae8c_b.jpg",
                 "width": 1024,
                 "height": 713,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/77701_e5f44897c0c6ae8c_n.jpg",
-                "width": 320,
-                "height": 223,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "77701"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/77701_e5f44897c0c6ae8c_z.jpg",
                 "width": 640,
                 "height": 446,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "77701"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/77701_e5f44897c0c6ae8c_n.jpg",
+                "width": 320,
+                "height": 223,
+                "is_primary": "1",
+                "image_id": "77701"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/77701_e5f44897c0c6ae8c_d.gif",
+                "width": 320,
+                "height": 223,
+                "is_primary": "1",
+                "image_id": "77701"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/77701_e5f44897c0c6ae8c_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "77701"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18048019",
             "role_id": "35352245",
             "person_name": "lm",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18048019\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18045467",
             "role_id": "35236685",
             "person_name": "Taunus Textildruck Zimmer",
+            "person_date": "Oberusel, Germany, est. 1899",
             "role_name": "Maker",
+            "role_display_name": "Made by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18045467\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236685\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18045473",
             "role_id": "35236681",
             "person_name": "Mira-X International Furnishings, Inc.",
+            "person_date": "",
             "role_name": "Company",
+            "role_display_name": "Company:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18045473\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236681\/"
         },
@@ -78,7 +110,9 @@
             "person_id": "18045527",
             "role_id": "35236655",
             "person_name": "Elisabeth Strassle",
+            "person_date": "",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18045527\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
@@ -88,5 +122,6 @@
     },
     "colors": [
 
-    ]
+    ],
+    "woe:country_name": "Germany"
 }

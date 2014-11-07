@@ -3,6 +3,7 @@
     "tms:id": "56539",
     "accession_number": "1937-70-4",
     "title": "Drawing, \"Studies for the Violet Sargent Bronze Plaque in the Art Institute of Chicago\", 1890",
+    "title_raw": "Studies for the Violet Sargent Bronze Plaque in the Art Institute of Chicago",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18345345\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1890,
     "year_acquired": "1937",
     "decade": null,
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Graphite on cream laid paper",
     "markings": "Watermarked \"Royal Irish Linen, Marcus Ward & Co.\"",
     "signed": null,
     "inscribed": null,
     "provenance": "From the collection of Homer Saint-Gaudens",
     "dimensions": "25.7 x 20 cm (10 1\/8 x 7 7\/8 in.)",
+    "dimensions_raw": {
+        "height": [
+            "25.70",
+            "centimeters"
+        ],
+        "width": [
+            "20.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Homer Saint-Gaudens",
     "description": "Two figures: at left a seated woman, head in profile facing right, leaning on right arm with left hand on knee; at right, in rectangular frame, a woman in a long gown standing facing the observer.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424977",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/3249_8eb2f26d7c3396c7_b.jpg",
                 "width": 794,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/3249_8eb2f26d7c3396c7_n.jpg",
-                "width": 248,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "3249"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/3249_8eb2f26d7c3396c7_z.jpg",
                 "width": 496,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "3249"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/3249_8eb2f26d7c3396c7_n.jpg",
+                "width": 248,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "3249"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/3249_8eb2f26d7c3396c7_d.gif",
+                "width": 248,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "3249"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/3249_8eb2f26d7c3396c7_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "3249"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18056215",
             "role_id": "35351535",
             "person_name": "Homer Schiff Saint-Gaudens",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18056215\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18050035",
             "role_id": "35236565",
             "person_name": "Augustus Saint-Gaudens",
+            "person_date": "American, 1848 \u2013 1907",
             "role_name": "Artist",
+            "role_display_name": "",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18050035\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236565\/"
         }
@@ -72,16 +102,11 @@
     },
     "colors": [
         {
-            "color": "#9f877a",
-            "closest_css3": "#808080"
-        },
-        {
-            "color": "#896c5e",
-            "closest_css3": "#696969"
-        },
-        {
-            "color": "#e0cec2",
-            "closest_css3": "#d3d3d3"
+            "color": "#977b6d",
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

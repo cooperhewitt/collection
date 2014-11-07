@@ -3,6 +3,7 @@
     "tms:id": "119218",
     "accession_number": "1957-180-75",
     "title": "Textile, last half 18th century",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18417975\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": null,
     "year_acquired": "1957",
     "decade": null,
-    "woe:country": null,
+    "woe:country_id": null,
     "medium": "Medium: silk\nTechnique: stem and long-short satin stitch embroidery on brocade-patterened taby weave",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "H x W: 27 x 20.5 cm (10 5\/8 x 8 1\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "27.00",
+            "centimeters"
+        ],
+        "width": [
+            "20.50",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of the estate of Mrs. Lathrop Colgate Harper",
     "description": "White silk tabby, brocade-patterned, embroidered in colored silks, large scale serpentine floral design. Stem and long-short satin stitch.",
     "justification": null,
-    "type": {
-        "id": "35251739",
-        "name": "textile"
-    },
+    "woe:country": null,
+    "type": "textile",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/73598_ec0da5292904e9cf_b.jpg",
                 "width": 691,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/73598_ec0da5292904e9cf_n.jpg",
-                "width": 216,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "73598"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/73598_ec0da5292904e9cf_z.jpg",
                 "width": 432,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "73598"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/73598_ec0da5292904e9cf_n.jpg",
+                "width": 216,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "73598"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/73598_ec0da5292904e9cf_d.gif",
+                "width": 216,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "73598"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/73598_ec0da5292904e9cf_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "73598"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/73599_3c9bcec47e5da2a7_b.jpg",
                 "width": 671,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/73599_3c9bcec47e5da2a7_n.jpg",
-                "width": 210,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "73599"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/73599_3c9bcec47e5da2a7_z.jpg",
                 "width": 420,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "73599"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/73599_3c9bcec47e5da2a7_n.jpg",
+                "width": 210,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "73599"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/73599_3c9bcec47e5da2a7_d.gif",
+                "width": 210,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "73599"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/73599_3c9bcec47e5da2a7_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "73599"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18049995",
             "role_id": "35351535",
             "person_name": "Estate of Mrs. Lathrop Colgate Harper",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049995\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -84,24 +129,34 @@
     },
     "colors": [
         {
-            "color": "#e1d0cb",
-            "closest_css3": "#d3d3d3"
+            "color": "#e4d8ca",
+            "closest_crayola": "#dbd7d2",
+            "closest_css3": "#d3d3d3",
+            "closest_css4": "#d3d3d3"
         },
         {
-            "color": "#bd927a",
-            "closest_css3": "#bc8f8f"
+            "color": "#b2866d",
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         },
         {
-            "color": "#2b2f2a",
-            "closest_css3": "#2f4f4f"
+            "color": "#91624c",
+            "closest_crayola": "#a5694f",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         },
         {
-            "color": "#5a584a",
-            "closest_css3": "#556b2f"
+            "color": "#30312a",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#7b6855",
-            "closest_css3": "#696969"
+            "color": "#d1b2a3",
+            "closest_crayola": "#deaa88",
+            "closest_css3": "#d2b48c",
+            "closest_css4": "#d2b48c"
         }
     ]
 }

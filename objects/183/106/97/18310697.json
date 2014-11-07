@@ -3,6 +3,7 @@
     "tms:id": "41383",
     "accession_number": "1925-2-60",
     "title": "Embroidery",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18310697\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,55 @@
     "year_end": null,
     "year_acquired": "1925",
     "decade": null,
-    "woe:country": null,
+    "woe:country_id": null,
     "medium": "Technique: counted stitch embroidery",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": null,
+    "dimensions_raw": null,
     "creditline": "Gift of Eleanor and Sarah Hewitt",
     "description": "Counted stitches",
     "justification": null,
-    "type": {
-        "id": "35267359",
-        "name": "Embroidery"
-    },
+    "woe:country": null,
+    "type": "Embroidery",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/69144_f14a7a36fbe71d04_b.jpg",
                 "width": 1024,
                 "height": 663,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/69144_f14a7a36fbe71d04_n.jpg",
-                "width": 320,
-                "height": 207,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "69144"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/69144_f14a7a36fbe71d04_z.jpg",
                 "width": 640,
                 "height": 414,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "69144"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/69144_f14a7a36fbe71d04_n.jpg",
+                "width": 320,
+                "height": 207,
+                "is_primary": "1",
+                "image_id": "69144"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/69144_f14a7a36fbe71d04_d.gif",
+                "width": 320,
+                "height": 207,
+                "is_primary": "1",
+                "image_id": "69144"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/69144_f14a7a36fbe71d04_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "69144"
             }
         },
         {
@@ -53,19 +70,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/69145_7b79409ce0363014_b.jpg",
                 "width": 1024,
                 "height": 663,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/69145_7b79409ce0363014_n.jpg",
-                "width": 320,
-                "height": 207,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "69145"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/69145_7b79409ce0363014_z.jpg",
                 "width": 640,
                 "height": 414,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "69145"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/69145_7b79409ce0363014_n.jpg",
+                "width": 320,
+                "height": 207,
+                "is_primary": "0",
+                "image_id": "69145"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/69145_7b79409ce0363014_d.gif",
+                "width": 320,
+                "height": 207,
+                "is_primary": "0",
+                "image_id": "69145"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/69145_7b79409ce0363014_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "69145"
             }
         }
     ],
@@ -74,7 +108,9 @@
             "person_id": "18049325",
             "role_id": "35351535",
             "person_name": "Eleanor Garnier Hewitt",
+            "person_date": "American, 1864\u20131924",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049325\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -82,7 +118,9 @@
             "person_id": "18049321",
             "role_id": "35351535",
             "person_name": "Sarah Cooper Hewitt",
+            "person_date": "American, 1859\u20131930",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049321\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -92,24 +130,34 @@
     },
     "colors": [
         {
-            "color": "#b7c7d0",
-            "closest_css3": "#b0c4de"
+            "color": "#c3cfd3",
+            "closest_crayola": "#c5d0e6",
+            "closest_css3": "#d3d3d3",
+            "closest_css4": "#d3d3d3"
         },
         {
-            "color": "#918980",
-            "closest_css3": "#808080"
+            "color": "#a19996",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
         },
         {
-            "color": "#423427",
-            "closest_css3": "#2f4f4f"
+            "color": "#3a3935",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#776c4b",
-            "closest_css3": "#696969"
+            "color": "#7b7250",
+            "closest_crayola": "#85754e",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#70776f",
-            "closest_css3": "#696969"
+            "color": "#604539",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         }
     ]
 }

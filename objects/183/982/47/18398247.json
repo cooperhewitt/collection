@@ -3,6 +3,7 @@
     "tms:id": "109296",
     "accession_number": "1953-5-2",
     "title": "Print, \"The Open Table for the Three Uppermost Classes of Men of Lower Austria\", 1705",
+    "title_raw": "The Open Table for the Three Uppermost Classes of Men of Lower Austria",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18398247\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1705,
     "year_acquired": "1953",
     "decade": null,
-    "woe:country": "23424909",
+    "woe:country_id": "23424909",
     "medium": "Engraving with etching on wove paper",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "1953: acquired by Museum (from Argosy Book Stores)",
     "dimensions": "53.3 x 38.5 cm (21 x 15 3\/16 in. )",
+    "dimensions_raw": {
+        "height": [
+            "53.30",
+            "centimeters"
+        ],
+        "width": [
+            "38.50",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase through gift of Samuel C. Harriman",
     "description": "A bird's-eye view into a high ceilinged room with honeycomb windows on the left and an ornately ornamental ceiling.  A table, set with all manner of dishes and food, extends the length of the room.  The be-wigged banquet guests surround the table while servants carrying food occupy most of the remaining floor space.  Escutcheon on rear wall reads:  \"Freij Taffel\/der N.O. Dreij\/Obern Hn [\"n' superscripted] St\u00e4endten\".",
     "justification": null,
-    "type": {
-        "id": "35236873",
-        "name": "Print"
-    },
+    "woe:country": "23424909",
+    "type": "Print",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/4945_10248d77f650f188_b.jpg",
                 "width": 737,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/4945_10248d77f650f188_n.jpg",
-                "width": 230,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "4945"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/4945_10248d77f650f188_z.jpg",
                 "width": 461,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "4945"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/4945_10248d77f650f188_n.jpg",
+                "width": 230,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "4945"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/4945_10248d77f650f188_d.gif",
+                "width": 230,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "4945"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/4945_10248d77f650f188_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "4945"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18056833",
             "role_id": "35352249",
             "person_name": "Argosy Book Stores",
+            "person_date": "",
             "role_name": "Vendor",
+            "role_display_name": "Purchased from",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18056833\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352249\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18049653",
             "role_id": "35236677",
             "person_name": "Johann Cyriak Hackhofer",
+            "person_date": "German, 1675\u20131731",
             "role_name": "After",
+            "role_display_name": "After",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049653\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236677\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18042031",
             "role_id": "35236743",
             "person_name": "Johann Andr\u00e9as Pfeffel",
+            "person_date": "German, 1674\u20131748",
             "role_name": "Engraver",
+            "role_display_name": "Engraved by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18042031\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236743\/"
         },
@@ -78,7 +110,9 @@
             "person_id": "18049651",
             "role_id": "35236743",
             "person_name": "Christian Engelbrecht",
+            "person_date": "German, 1672\u20131753",
             "role_name": "Engraver",
+            "role_display_name": "Engraved by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049651\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236743\/"
         }
@@ -88,20 +122,23 @@
     },
     "colors": [
         {
-            "color": "#84766f",
-            "closest_css3": "#808080"
+            "color": "#80736a",
+            "closest_crayola": "#757575",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#635650",
-            "closest_css3": "#696969"
+            "color": "#4d413d",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#a89893",
-            "closest_css3": "#bc8f8f"
-        },
-        {
-            "color": "#372b28",
-            "closest_css3": "#2f4f4f"
+            "color": "#ab9f9b",
+            "closest_crayola": "#979aaa",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
         }
-    ]
+    ],
+    "woe:country_name": "Netherlands"
 }

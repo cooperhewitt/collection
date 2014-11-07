@@ -3,6 +3,7 @@
     "tms:id": "21700",
     "accession_number": "1917-14-4",
     "title": "Painting, \"The Yellow Jacket\", 1879",
+    "title_raw": "The Yellow Jacket",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18189307\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1879,
     "year_acquired": "1917",
     "decade": null,
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Brush and oil paint on canvas",
     "markings": "see curatorial remarks",
     "signed": "Signed and dated in brush and black oil paint, lower left: Homer\/1879",
     "inscribed": null,
     "provenance": "Gift of Charles Savage Homer, Jr.",
     "dimensions": "Frame: 75.6 x 60 cm (29 3\/4 x 23 5\/8 in.)",
+    "dimensions_raw": {
+        "height": [
+            "75.57",
+            "centimeters"
+        ],
+        "width": [
+            "60.01",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Charles Savage Homer, Jr.",
     "description": "Vertical view of a young woman,  dressed in blue skirt, yellow jacket, white jabot and black hat, standing under a branch of an apple tree in bloom and smelling a cluster of blossoms. Beyond, to left, another tree in blossom; woods in distance.",
     "justification": null,
-    "type": {
-        "id": "35248229",
-        "name": "painting"
-    },
+    "woe:country": "23424977",
+    "type": "painting",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/2219_44d7542b12b46214_b.jpg",
                 "width": 711,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/2219_44d7542b12b46214_n.jpg",
-                "width": 222,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "2219"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/2219_44d7542b12b46214_z.jpg",
                 "width": 445,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "2219"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/2219_44d7542b12b46214_n.jpg",
+                "width": 222,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "2219"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/2219_44d7542b12b46214_d.gif",
+                "width": 222,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "2219"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/2219_44d7542b12b46214_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "2219"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18537931",
             "role_id": "35351535",
             "person_name": "Charles Savage Homer, Jr.",
+            "person_date": "American, 1834\u20131917",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18537931\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18041949",
             "role_id": "35236565",
             "person_name": "Winslow Homer",
+            "person_date": "American, 1836\u20131910",
             "role_name": "Artist",
+            "role_display_name": "",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041949\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236565\/"
         }
@@ -72,24 +102,35 @@
     },
     "colors": [
         {
-            "color": "#695e26",
-            "closest_css3": "#556b2f"
+            "color": "#695d25",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         },
         {
-            "color": "#84a8ab",
-            "closest_css3": "#8fbc8f"
+            "color": "#84a7ac",
+            "closest_crayola": "#979aaa",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
         },
         {
-            "color": "#20331f",
-            "closest_css3": "#2f4f4f"
+            "color": "#838943",
+            "closest_crayola": "#85754e",
+            "closest_css3": "#6b8e23",
+            "closest_css4": "#6b8e23"
         },
         {
-            "color": "#747838",
-            "closest_css3": "#6b8e23"
+            "color": "#454d20",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         },
         {
             "color": "#180314",
-            "closest_css3": "#000000"
+            "closest_crayola": "#000000",
+            "closest_css3": "#000000",
+            "closest_css4": "#000000"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

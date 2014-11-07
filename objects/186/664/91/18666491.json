@@ -3,6 +3,7 @@
     "tms:id": "208625",
     "accession_number": "1995-50-99",
     "title": "Textile, \"Le retour de l'IIe d'Elba\", ca. 1825",
+    "title_raw": "Le retour de l'IIe d'Elba",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18666491\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1835,
     "year_acquired": "1995",
     "decade": null,
-    "woe:country": null,
+    "woe:country_id": null,
     "medium": "Medium: cotton \nTechnique: printed by engraved plate on plain weave",
     "markings": null,
     "signed": null,
     "inscribed": "On  column; \"Cholet scu.\"",
     "provenance": null,
     "dimensions": "Warp: 64 cm (25 1\/4 in.). Weft: (3 pieces joined) 138.5 cm (54 1\/2 in.)",
+    "dimensions_raw": {
+        "warp": [
+            "64.00",
+            "centimeters"
+        ],
+        "weft": [
+            "138.50",
+            "centimeters"
+        ]
+    },
     "creditline": "Bequest of Elinor Merrell",
     "description": "Three pieces seamed correctly showing a partial repeat. Napoleon waving to his troops in a wintry landscape. In purple on white.",
     "justification": null,
-    "type": {
-        "id": "35251739",
-        "name": "textile"
-    },
+    "woe:country": null,
+    "type": "textile",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/12712_817a0857434784d2_b.jpg",
                 "width": 1024,
                 "height": 631,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/12712_817a0857434784d2_n.jpg",
-                "width": 320,
-                "height": 197,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "12712"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/12712_817a0857434784d2_z.jpg",
                 "width": 640,
                 "height": 395,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "12712"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/12712_817a0857434784d2_n.jpg",
+                "width": 320,
+                "height": 197,
+                "is_primary": "1",
+                "image_id": "12712"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/12712_817a0857434784d2_d.gif",
+                "width": 320,
+                "height": 197,
+                "is_primary": "1",
+                "image_id": "12712"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/12712_817a0857434784d2_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "12712"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/79422_9e2510009dad3bdc_b.jpg",
                 "width": 1024,
                 "height": 618,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/79422_9e2510009dad3bdc_n.jpg",
-                "width": 320,
-                "height": 193,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "79422"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/79422_9e2510009dad3bdc_z.jpg",
                 "width": 640,
                 "height": 386,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "79422"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/79422_9e2510009dad3bdc_n.jpg",
+                "width": 320,
+                "height": 193,
+                "is_primary": "0",
+                "image_id": "79422"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/79422_9e2510009dad3bdc_d.gif",
+                "width": 320,
+                "height": 193,
+                "is_primary": "0",
+                "image_id": "79422"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/79422_9e2510009dad3bdc_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "79422"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18049427",
             "role_id": "35351537",
             "person_name": "Elinor Merrell",
+            "person_date": "",
             "role_name": "Bequestor",
+            "role_display_name": "Bequest of",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049427\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351537\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18049795",
             "role_id": "35236685",
             "person_name": "Ferdinand Favre Petitpierre & Cie",
+            "person_date": "",
             "role_name": "Maker",
+            "role_display_name": "Made by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049795\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236685\/"
         }
@@ -92,20 +139,22 @@
     },
     "colors": [
         {
-            "color": "#f5cfcd",
-            "closest_css3": "#ffc0cb"
+            "color": "#e7c6ca",
+            "closest_crayola": "#efcdb8",
+            "closest_css3": "#d8bfd8",
+            "closest_css4": "#d8bfd8"
         },
         {
-            "color": "#b89999",
-            "closest_css3": "#bc8f8f"
+            "color": "#b29593",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         },
         {
-            "color": "#967c78",
-            "closest_css3": "#808080"
-        },
-        {
-            "color": "#80625e",
-            "closest_css3": "#696969"
+            "color": "#81635f",
+            "closest_crayola": "#8a795d",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         }
     ]
 }

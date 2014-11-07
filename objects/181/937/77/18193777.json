@@ -3,6 +3,7 @@
     "tms:id": "22399",
     "accession_number": "1917-4-1332-a",
     "title": "Drawing, \"Erupting Volcano (Cotopaxi), South America, September 1853\", 1853",
+    "title_raw": "Erupting Volcano (Cotopaxi), South America, September 1853",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18193777\/",
     "department_id": "35347493",
     "period_id": "35417175",
@@ -13,39 +14,64 @@
     "year_end": 1853,
     "year_acquired": "1917",
     "decade": null,
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Brush and oil paint on paper",
     "markings": null,
     "signed": null,
     "inscribed": "Lower right in paint film: S [underlined] [E (?)]",
     "provenance": "Gift of Louis P. Church; Frederic E. Church",
     "dimensions": "H x W x D: 24.3 x 41cm (9 9\/16 x 16 1\/8in.)\nH x W x D (2nd support): 40.6 x 55.9 cm (16 x 22 in.)",
+    "dimensions_raw": {
+        "height": [
+            "40.60",
+            "centimeters"
+        ],
+        "width": [
+            "55.90",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Louis P. Church",
     "description": "An erupting volcano is seen at center, with the cone covered with gray lava and the summit aglow. A stream meanders in the left foreground.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424977",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/2214_fa2c4eca8a129728_b.jpg",
                 "width": 1024,
                 "height": 611,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/2214_fa2c4eca8a129728_n.jpg",
-                "width": 320,
-                "height": 191,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "2214"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/2214_fa2c4eca8a129728_z.jpg",
                 "width": 640,
                 "height": 382,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "2214"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/2214_fa2c4eca8a129728_n.jpg",
+                "width": 320,
+                "height": 191,
+                "is_primary": "1",
+                "image_id": "2214"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/2214_fa2c4eca8a129728_d.gif",
+                "width": 320,
+                "height": 191,
+                "is_primary": "1",
+                "image_id": "2214"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/2214_fa2c4eca8a129728_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "2214"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18041941",
             "role_id": "35236565",
             "person_name": "Frederic Edwin Church",
+            "person_date": "American, 1826\u20131900",
             "role_name": "Artist",
+            "role_display_name": "",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041941\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236565\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18051625",
             "role_id": "35351535",
             "person_name": "Louis P. Church",
+            "person_date": "American, 1870\u20131943",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18051625\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -72,24 +102,35 @@
     },
     "colors": [
         {
-            "color": "#675546",
-            "closest_css3": "#556b2f"
+            "color": "#5a4839",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         },
         {
-            "color": "#2c3033",
-            "closest_css3": "#2f4f4f"
+            "color": "#303439",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#deb58f",
-            "closest_css3": "#deb887"
+            "color": "#d3ab82",
+            "closest_crayola": "#deaa88",
+            "closest_css3": "#d2b48c",
+            "closest_css4": "#d2b48c"
         },
         {
-            "color": "#2c211d",
-            "closest_css3": "#000000"
+            "color": "#2c201c",
+            "closest_crayola": "#000000",
+            "closest_css3": "#000000",
+            "closest_css4": "#000000"
         },
         {
-            "color": "#ad8e70",
-            "closest_css3": "#bc8f8f"
+            "color": "#6b625b",
+            "closest_crayola": "#6e5160",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

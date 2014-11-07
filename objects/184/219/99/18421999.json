@@ -3,6 +3,7 @@
     "tms:id": "121241",
     "accession_number": "1958-142-72",
     "title": "Sample, 1930\u201358",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18421999\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1958,
     "year_acquired": "1958",
     "decade": "1930",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": null,
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "1958: acquired by Museum",
     "dimensions": "H x W: 26.7 x 39.8 cm (10 1\/2 x 15 11\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "26.70",
+            "centimeters"
+        ],
+        "width": [
+            "39.80",
+            "centimeters"
+        ]
+    },
     "creditline": null,
     "description": "Yellow sample with speckles of white. Upper right, white label with blue ink: HELEN KROLL KRAMER.",
     "justification": null,
-    "type": {
-        "id": "35268079",
-        "name": "Sample"
-    },
+    "woe:country": "23424977",
+    "type": "Sample",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/81761_394fd033fac3b5be_b.jpg",
                 "width": 1024,
                 "height": 698,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/81761_394fd033fac3b5be_n.jpg",
-                "width": 320,
-                "height": 218,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "81761"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/81761_394fd033fac3b5be_z.jpg",
                 "width": 640,
                 "height": 437,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "81761"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/81761_394fd033fac3b5be_n.jpg",
+                "width": 320,
+                "height": 218,
+                "is_primary": "1",
+                "image_id": "81761"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/81761_394fd033fac3b5be_d.gif",
+                "width": 320,
+                "height": 218,
+                "is_primary": "1",
+                "image_id": "81761"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/81761_394fd033fac3b5be_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "81761"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18535597",
             "role_id": "35236655",
             "person_name": "Helen Kroll Kramer",
+            "person_date": "American, 1907\u20131977",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18535597\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18535597",
             "role_id": "35236745",
             "person_name": "Helen Kroll Kramer",
+            "person_date": "American, 1907\u20131977",
             "role_name": "Weaver",
+            "role_display_name": "Woven by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18535597\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236745\/"
         }
@@ -72,12 +102,17 @@
     },
     "colors": [
         {
-            "color": "#9b7638",
-            "closest_css3": "#a0522d"
+            "color": "#d2c299",
+            "closest_crayola": "#e7c697",
+            "closest_css3": "#d2b48c",
+            "closest_css4": "#d2b48c"
         },
         {
-            "color": "#d8ccab",
-            "closest_css3": "#c0c0c0"
+            "color": "#987131",
+            "closest_crayola": "#9c7c38",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

@@ -3,6 +3,7 @@
     "tms:id": "120213",
     "accession_number": "1957-61-3-a",
     "title": "Drawing, \"Ground Plan of a Proposed Mausoleum\", ca. 1920",
+    "title_raw": "Ground Plan of a Proposed Mausoleum",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18419951\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1925,
     "year_acquired": "1957",
     "decade": "1910",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Brush and watercolor, graphite on heavy board",
     "markings": null,
     "signed": "Signed in graphite, lower right: R. H. Robertson \/ R. Burnside Potter [bracket] Architects \/ 100 Fifth Ave. \/ N.Y. City.",
     "inscribed": "Inscribed in graphite, lower left: Scale 1\/8 of an inch = one Foot.",
     "provenance": "Susan Dwight Bliss",
     "dimensions": "56.7 x 50.9 cm (22 5\/16 x 20 1\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "56.70",
+            "centimeters"
+        ],
+        "width": [
+            "50.90",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Anonymous Donor",
     "description": "A columned arcade encloses an oval court. Along the long sides is a monumental entrance, and opposite a funerary chapel.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424977",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/49010_8694d96f4b8fea8e_b.jpg",
                 "width": 925,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/49010_8694d96f4b8fea8e_n.jpg",
-                "width": 289,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "49010"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/49010_8694d96f4b8fea8e_z.jpg",
                 "width": 578,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "49010"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/49010_8694d96f4b8fea8e_n.jpg",
+                "width": 289,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "49010"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/49010_8694d96f4b8fea8e_d.gif",
+                "width": 289,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "49010"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/49010_8694d96f4b8fea8e_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "49010"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "51676457",
             "role_id": "35352245",
             "person_name": "Karin Zonis",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/51676457\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -62,9 +90,21 @@
             "person_id": "35474789",
             "role_id": "35236663",
             "person_name": "R. H. Robertson and R. Burnside Potter, Architects",
+            "person_date": "American",
             "role_name": "Architect",
+            "role_display_name": "Architect:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/35474789\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236663\/"
+        },
+        {
+            "person_id": "68739079",
+            "role_id": "35351535",
+            "person_name": "Anonymous",
+            "person_date": "",
+            "role_name": "Donor",
+            "role_display_name": "Donated by",
+            "person_url": "http:\/\/collection.cooperhewitt.org\/people\/68739079\/",
+            "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
     ],
     "tombstone": {
@@ -72,12 +112,17 @@
     },
     "colors": [
         {
-            "color": "#ae9b77",
-            "closest_css3": "#bc8f8f"
+            "color": "#af9b78",
+            "closest_crayola": "#cd9575",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         },
         {
-            "color": "#8c7859",
-            "closest_css3": "#696969"
+            "color": "#8c795a",
+            "closest_crayola": "#8a795d",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

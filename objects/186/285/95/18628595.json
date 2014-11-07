@@ -3,6 +3,7 @@
     "tms:id": "189137",
     "accession_number": "1988-4-50",
     "title": "Print, \"Plate in Nouvelles Chemin\u00e9e faittes en plusieur en droits (New Designs for Fireplaces)\", ca. 1700",
+    "title_raw": "Plate in Nouvelles Chemin\u00e9e faittes en plusieur en droits (New Designs for Fireplaces)",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18628595\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1710,
     "year_acquired": "1988",
     "decade": null,
-    "woe:country": "23424909",
+    "woe:country_id": "23424909",
     "medium": "Etching and engraving on white laid paper",
     "markings": null,
     "signed": "Signed in plate, lower right: invent\u00e9 et grav\u00e9e \/ D. Marot",
     "inscribed": "Inscribed in plate, lower left: auec Preuillege des Etats generaux des Province Vnie",
     "provenance": null,
     "dimensions": "Sheet: 35 x 23.5 cm (13 3\/4 x 9 1\/4 in.)\nPlatemark: 25.8 x 20.8 cm (10 3\/16 x 8 3\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "25.80",
+            "centimeters"
+        ],
+        "width": [
+            "20.80",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase from General Acquisitions Endowment Fund",
     "description": "The fireplace is decorated with an escutcheon flanked by two figures. A roundel framed by garlands and a mask over the mantelpiece. Above, a vase filled with flowers between two sphinxes, and a crowned roundel with cornucopia. Left, a panel depicting a landscape with trees and figures. Scale below.",
     "justification": null,
-    "type": {
-        "id": "35236873",
-        "name": "Print"
-    },
+    "woe:country": "23424909",
+    "type": "Print",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/45796_3e3f455b20ad292a_b.jpg",
                 "width": 686,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/45796_3e3f455b20ad292a_n.jpg",
-                "width": 214,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "45796"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/45796_3e3f455b20ad292a_z.jpg",
                 "width": 429,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "45796"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/45796_3e3f455b20ad292a_n.jpg",
+                "width": 214,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "45796"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/45796_3e3f455b20ad292a_d.gif",
+                "width": 214,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "45796"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/45796_3e3f455b20ad292a_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "45796"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "51676457",
             "role_id": "35352245",
             "person_name": "Karin Zonis",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/51676457\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18042233",
             "role_id": "35236655",
             "person_name": "Daniel Marot",
+            "person_date": "French, 1661\u20131752; active in Netherlands and England",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18042233\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18041265",
             "role_id": "35352249",
             "person_name": "Ms. Priscilla Juvelis",
+            "person_date": "",
             "role_name": "Vendor",
+            "role_display_name": "Purchased from",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041265\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352249\/"
         },
@@ -78,7 +110,9 @@
             "person_id": "18048535",
             "role_id": "35352247",
             "person_name": "General Acquisitions Endowment",
+            "person_date": "",
             "role_name": "Fund",
+            "role_display_name": "Fund:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18048535\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352247\/"
         }
@@ -88,20 +122,23 @@
     },
     "colors": [
         {
-            "color": "#736a5a",
-            "closest_css3": "#696969"
+            "color": "#ada290",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         },
         {
-            "color": "#36312a",
-            "closest_css3": "#2f4f4f"
+            "color": "#4a443a",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#c5bba8",
-            "closest_css3": "#c0c0c0"
-        },
-        {
-            "color": "#9a8d7a",
-            "closest_css3": "#808080"
+            "color": "#756d5d",
+            "closest_crayola": "#85754e",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         }
-    ]
+    ],
+    "woe:country_name": "Netherlands"
 }

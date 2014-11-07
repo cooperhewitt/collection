@@ -3,6 +3,7 @@
     "tms:id": "28842",
     "accession_number": "1921-6-272-1",
     "title": "Print, \"Design for a Coach\", ca. 1760",
+    "title_raw": "Design for a Coach",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18235825\/",
     "department_id": "35347493",
     "period_id": "35417101",
@@ -13,39 +14,64 @@
     "year_end": 1770,
     "year_acquired": "1921",
     "decade": null,
-    "woe:country": "23424819",
+    "woe:country_id": "23424819",
     "medium": "Engraving on paper",
     "markings": null,
     "signed": "Signed in plate, lower left: J.F. Chopard Inv.",
     "inscribed": "Inscribed in plate, upper center: Vis a vis; upper right: 1; lower center: Echelle de 5 Pied [with scale] \/ \u00e0 Paris chez N. J. B. de Poilly rue S. Jacques \u00e0 L'Esperance",
     "provenance": "Jean L\u00e9on Decloux",
     "dimensions": "Sheet: 44.8 x 29 cm (17 5\/8 x 11 7\/16 in.)\nPlatemark: 41 x 23.6 cm (16 1\/8 x 9 5\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "44.80",
+            "centimeters"
+        ],
+        "width": [
+            "29.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Purchased for the Museum by the Advisory Council",
     "description": "Carriage decorated in Rococo motif. Left, wheel with words: Jante; Lisoire; Fouchette. Right, words: Lisoire; Mouton.",
     "justification": null,
-    "type": {
-        "id": "35236873",
-        "name": "Print"
-    },
+    "woe:country": "23424819",
+    "type": "Print",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/24968_2062cfa5a5f11738_b.jpg",
                 "width": 1024,
                 "height": 611,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/24968_2062cfa5a5f11738_n.jpg",
-                "width": 320,
-                "height": 191,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "24968"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/24968_2062cfa5a5f11738_z.jpg",
                 "width": 640,
                 "height": 382,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "24968"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/24968_2062cfa5a5f11738_n.jpg",
+                "width": 320,
+                "height": 191,
+                "is_primary": "1",
+                "image_id": "24968"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/24968_2062cfa5a5f11738_d.gif",
+                "width": 320,
+                "height": 191,
+                "is_primary": "1",
+                "image_id": "24968"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/24968_2062cfa5a5f11738_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "24968"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "51676457",
             "role_id": "35352245",
             "person_name": "Karin Zonis",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/51676457\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18049621",
             "role_id": "35351535",
             "person_name": "Advisory Council",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049621\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18060153",
             "role_id": "35236661",
             "person_name": "Poilly Family",
+            "person_date": "French",
             "role_name": "Publisher",
+            "role_display_name": "Published by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18060153\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236661\/"
         },
@@ -78,7 +110,9 @@
             "person_id": "18060155",
             "role_id": "35236743",
             "person_name": "J.F. Chopard",
+            "person_date": "French",
             "role_name": "Engraver",
+            "role_display_name": "Engraved by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18060155\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236743\/"
         },
@@ -86,7 +120,9 @@
             "person_id": "18060155",
             "role_id": "35236655",
             "person_name": "J.F. Chopard",
+            "person_date": "French",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18060155\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
@@ -96,16 +132,23 @@
     },
     "colors": [
         {
-            "color": "#cec9be",
-            "closest_css3": "#c0c0c0"
+            "color": "#d7d2c7",
+            "closest_crayola": "#dbd7d2",
+            "closest_css3": "#d3d3d3",
+            "closest_css4": "#d3d3d3"
         },
         {
-            "color": "#8e897e",
-            "closest_css3": "#808080"
+            "color": "#aea99e",
+            "closest_crayola": "#979aaa",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
         },
         {
-            "color": "#6d695f",
-            "closest_css3": "#696969"
+            "color": "#767267",
+            "closest_crayola": "#757575",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         }
-    ]
+    ],
+    "woe:country_name": "France"
 }

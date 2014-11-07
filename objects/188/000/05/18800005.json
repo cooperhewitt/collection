@@ -3,6 +3,7 @@
     "tms:id": "180165",
     "accession_number": "1982-50-1",
     "title": "Drawing, \"Textile Design \"Japonisme\", ca. 1874\u201380",
+    "title_raw": "Textile Design \"Japonisme",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18800005\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": null,
     "year_acquired": "1982",
     "decade": null,
-    "woe:country": "23424975",
+    "woe:country_id": "23424975",
     "medium": "Brush and watercolor, gouache, graphite on paper",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "Warner & Sons, Ltd., London; Benjamin Warner [Warner & Ramon]; Stuart Durant; Kelmscott Gallery, Chicago.",
     "dimensions": "62 x 69.9cm (24 7\/16 x 27 1\/2in.)",
+    "dimensions_raw": {
+        "height": [
+            "71.10",
+            "centimeters"
+        ],
+        "width": [
+            "91.40",
+            "centimeters"
+        ]
+    },
     "creditline": null,
     "description": "Design of cherry blossoms and magnolias in reds and golds.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424975",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/9675_4e9cd3d571262102_b.jpg",
                 "width": 1024,
                 "height": 911,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/9675_4e9cd3d571262102_n.jpg",
-                "width": 320,
-                "height": 285,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "9675"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/9675_4e9cd3d571262102_z.jpg",
                 "width": 640,
                 "height": 570,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "9675"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/9675_4e9cd3d571262102_n.jpg",
+                "width": 320,
+                "height": 285,
+                "is_primary": "1",
+                "image_id": "9675"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/9675_4e9cd3d571262102_d.gif",
+                "width": 320,
+                "height": 285,
+                "is_primary": "1",
+                "image_id": "9675"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/9675_4e9cd3d571262102_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "9675"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "51676457",
             "role_id": "35352245",
             "person_name": "Karin Zonis",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/51676457\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18047453",
             "role_id": "35352245",
             "person_name": "Elizabeth Horwitz Marcus",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047453\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18047461",
             "role_id": "35352245",
             "person_name": "Marilyn Symmes",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047461\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -78,7 +110,9 @@
             "person_id": "18043471",
             "role_id": "35236655",
             "person_name": "Edward William Godwin",
+            "person_date": "1833\u20131886",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18043471\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -86,7 +120,9 @@
             "person_id": "18041629",
             "role_id": "35352249",
             "person_name": "Kelmscott Gallery",
+            "person_date": "",
             "role_name": "Vendor",
+            "role_display_name": "Purchased from",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041629\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352249\/"
         }
@@ -96,24 +132,35 @@
     },
     "colors": [
         {
-            "color": "#c69e73",
-            "closest_css3": "#bdb76b"
+            "color": "#b49166",
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#bdb76b",
+            "closest_css4": "#bdb76b"
         },
         {
-            "color": "#421b0c",
-            "closest_css3": "#800000"
+            "color": "#502111",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#800000",
+            "closest_css4": "#800000"
         },
         {
-            "color": "#8c6a42",
-            "closest_css3": "#a0522d"
+            "color": "#895e3b",
+            "closest_crayola": "#85754e",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         },
         {
-            "color": "#5e402a",
-            "closest_css3": "#556b2f"
+            "color": "#e5ba8b",
+            "closest_crayola": "#e7c697",
+            "closest_css3": "#deb887",
+            "closest_css4": "#deb887"
         },
         {
-            "color": "#edc597",
-            "closest_css3": "#deb887"
+            "color": "#5f452b",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         }
-    ]
+    ],
+    "woe:country_name": "United Kingdom"
 }

@@ -3,6 +3,7 @@
     "tms:id": "185204",
     "accession_number": "1986-4-1",
     "title": "Cabinet, \"Carlton\", 1981",
+    "title_raw": "Carlton",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18620781\/",
     "department_id": "35347497",
     "period_id": null,
@@ -13,39 +14,68 @@
     "year_end": 1981,
     "year_acquired": "1986",
     "decade": "1980",
-    "woe:country": "23424853",
+    "woe:country_id": "23424853",
     "medium": "Wood, plastic laminate, metal",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "1986: acquired by Museum (from Grace Designs)",
     "dimensions": "196 x 32.5 x 186.5 cm (6 ft. 5 3\/16 in. x 12 13\/16 in. x 6 ft. 1 7\/16 in.)",
+    "dimensions_raw": {
+        "depth": [
+            "186.50",
+            "centimeters"
+        ],
+        "height": [
+            "196.00",
+            "centimeters"
+        ],
+        "width": [
+            "32.50",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase from General Acquisition Endowment",
     "description": "Colorful symmetrical, geometric sideboard, made up of three levels\/shelving units of various sizes and central grounded 2-drawer sideboard on a stand. Each level has various diagonal units for storage that radiate from the central sideboard; all topped with a stick figure-like element with a grey square for a head.",
     "justification": null,
-    "type": {
-        "id": "35237995",
-        "name": "cabinet"
-    },
+    "woe:country": "23424853",
+    "type": "cabinet",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/49341_e80862327dbaa624_b.jpg",
                 "width": 992,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/49341_e80862327dbaa624_n.jpg",
-                "width": 310,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "49341"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/49341_e80862327dbaa624_z.jpg",
                 "width": 620,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "49341"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/49341_e80862327dbaa624_n.jpg",
+                "width": 310,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "49341"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/49341_e80862327dbaa624_d.gif",
+                "width": 310,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "49341"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/49341_e80862327dbaa624_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "49341"
             }
         }
     ],
@@ -54,7 +84,9 @@
             "person_id": "18048535",
             "role_id": "35352247",
             "person_name": "General Acquisitions Endowment",
+            "person_date": "",
             "role_name": "Fund",
+            "role_display_name": "Fund:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18048535\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352247\/"
         },
@@ -62,7 +94,9 @@
             "person_id": "18045081",
             "role_id": "35352249",
             "person_name": "Grace Designs",
+            "person_date": "",
             "role_name": "Vendor",
+            "role_display_name": "Purchased from",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18045081\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352249\/"
         },
@@ -70,7 +104,9 @@
             "person_id": "18045809",
             "role_id": "35236657",
             "person_name": "Memphis",
+            "person_date": "founded 1981",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18045809\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         },
@@ -78,7 +114,9 @@
             "person_id": "18045081",
             "role_id": "35236659",
             "person_name": "Grace Designs",
+            "person_date": "",
             "role_name": "Distributor",
+            "role_display_name": "Distributed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18045081\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236659\/"
         },
@@ -86,7 +124,9 @@
             "person_id": "18044261",
             "role_id": "35236655",
             "person_name": "Ettore Sottsass, Jr.",
+            "person_date": "Italian, 1917\u20132007",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18044261\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
@@ -96,24 +136,35 @@
     },
     "colors": [
         {
-            "color": "#710b0d",
-            "closest_css3": "#800000"
+            "color": "#91877f",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#685f54",
-            "closest_css3": "#696969"
+            "color": "#730c0f",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#800000",
+            "closest_css4": "#800000"
         },
         {
-            "color": "#dad1ac",
-            "closest_css3": "#eee8aa"
+            "color": "#584e45",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         },
         {
-            "color": "#7e9370",
-            "closest_css3": "#808080"
+            "color": "#dbd1ac",
+            "closest_crayola": "#efcdb8",
+            "closest_css3": "#f5deb3",
+            "closest_css4": "#f5deb3"
         },
         {
-            "color": "#13233f",
-            "closest_css3": "#191970"
+            "color": "#7e9371",
+            "closest_crayola": "#87a96b",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         }
-    ]
+    ],
+    "woe:country_name": "Italy"
 }

@@ -3,6 +3,7 @@
     "tms:id": "75591",
     "accession_number": "1941-9-1",
     "title": "Print, \"Castle Geyser, Upper Geyser Basin, Yellowstone National Park\", 1874",
+    "title_raw": "Castle Geyser, Upper Geyser Basin, Yellowstone National Park",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18564781\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1874,
     "year_acquired": "1941",
     "decade": null,
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Chromolithograph on white wove paper",
     "markings": null,
     "signed": "Signed with Moran's cipher at lower left.",
     "inscribed": "Printed: at lower left with title; at bottom center with copyright date: and at lower right: Prang's \/ American Chromos \/ Boston.",
     "provenance": null,
     "dimensions": "Sheet: 24.5 x 35.3 cm (9 5\/8 x 13 7\/8 in.)\nFrame: 39.7 x 50.2 cm (15 5\/8 x 19 3\/4 in.)",
+    "dimensions_raw": {
+        "height": [
+            "39.69",
+            "centimeters"
+        ],
+        "width": [
+            "50.17",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase through gift of Louis R. Ehrich",
     "description": "Horizontal view of a geyser, with tiny figures at its base, spewing water beneath a cloudy sky in the middleground, while visible in the left foreground is a basin and in the left distance a line of green trees.",
     "justification": null,
-    "type": {
-        "id": "35236873",
-        "name": "Print"
-    },
+    "woe:country": "23424977",
+    "type": "Print",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/6295_d1e2aabfbef8e56f_b.jpg",
                 "width": 1024,
                 "height": 713,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/6295_d1e2aabfbef8e56f_n.jpg",
-                "width": 320,
-                "height": 223,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "6295"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/6295_d1e2aabfbef8e56f_z.jpg",
                 "width": 640,
                 "height": 446,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "6295"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/6295_d1e2aabfbef8e56f_n.jpg",
+                "width": 320,
+                "height": 223,
+                "is_primary": "1",
+                "image_id": "6295"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/6295_d1e2aabfbef8e56f_d.gif",
+                "width": 320,
+                "height": 223,
+                "is_primary": "1",
+                "image_id": "6295"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/6295_d1e2aabfbef8e56f_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "6295"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18057471",
             "role_id": "35352249",
             "person_name": "The Old Print Shop, Inc.",
+            "person_date": "",
             "role_name": "Vendor",
+            "role_display_name": "Purchased from",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18057471\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352249\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18057469",
             "role_id": "35236661",
             "person_name": "L. Prang and Company, Boston",
+            "person_date": "",
             "role_name": "Publisher",
+            "role_display_name": "Published by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18057469\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236661\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18042237",
             "role_id": "35236677",
             "person_name": "Thomas Moran",
+            "person_date": "American, b. Britain, 1837\u20131926",
             "role_name": "After",
+            "role_display_name": "After",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18042237\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236677\/"
         }
@@ -80,24 +112,35 @@
     },
     "colors": [
         {
-            "color": "#bdb5af",
-            "closest_css3": "#c0c0c0"
+            "color": "#b7afa6",
+            "closest_crayola": "#b0b7c6",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
         },
         {
-            "color": "#8d8284",
-            "closest_css3": "#808080"
+            "color": "#989097",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#778899",
+            "closest_css4": "#778899"
         },
         {
-            "color": "#af6e44",
-            "closest_css3": "#cd853f"
+            "color": "#d2c39f",
+            "closest_crayola": "#e7c697",
+            "closest_css3": "#d2b48c",
+            "closest_css4": "#d2b48c"
         },
         {
-            "color": "#6e6e7d",
-            "closest_css3": "#696969"
+            "color": "#504f59",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#196091",
-            "closest_css3": "#008080"
+            "color": "#a3663f",
+            "closest_crayola": "#a5694f",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

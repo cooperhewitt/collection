@@ -3,6 +3,7 @@
     "tms:id": "152355",
     "accession_number": "1974-34-2",
     "title": "Textile, \"China Fret\", ca. 1972",
+    "title_raw": "China Fret",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18482987\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,72 @@
     "year_end": 1977,
     "year_acquired": "1974",
     "decade": "1960",
-    "woe:country": null,
+    "woe:country_id": null,
     "medium": "Technique: double faced plain weave",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "Warp x Weft: 69.2 x 139 cm (27 1\/4 x 54 3\/4 in.)\nRepeat H x W: 54 x 19 cm (21 1\/4 x 7 1\/2 in.)",
+    "dimensions_raw": {
+        "height": [
+            "54.00",
+            "centimeters"
+        ],
+        "warp": [
+            "69.22",
+            "centimeters"
+        ],
+        "weft": [
+            "139.00",
+            "centimeters"
+        ],
+        "width": [
+            "19.00",
+            "centimeters"
+        ]
+    },
     "creditline": null,
     "description": "A geometric fret pattern in shades of tan, ivory, and brown.",
     "justification": null,
-    "type": {
-        "id": "35251739",
-        "name": "textile"
-    },
+    "woe:country": null,
+    "type": "textile",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/46544_4da93c79cc724e13_b.jpg",
                 "width": 1024,
                 "height": 524,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/46544_4da93c79cc724e13_n.jpg",
-                "width": 320,
-                "height": 164,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "46544"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/46544_4da93c79cc724e13_z.jpg",
                 "width": 640,
                 "height": 328,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "46544"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/46544_4da93c79cc724e13_n.jpg",
+                "width": 320,
+                "height": 164,
+                "is_primary": "1",
+                "image_id": "46544"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/46544_4da93c79cc724e13_d.gif",
+                "width": 320,
+                "height": 164,
+                "is_primary": "1",
+                "image_id": "46544"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/46544_4da93c79cc724e13_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "46544"
             }
         },
         {
@@ -53,19 +87,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/76453_121f462373651f6e_b.jpg",
                 "width": 1024,
                 "height": 558,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/76453_121f462373651f6e_n.jpg",
-                "width": 320,
-                "height": 174,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "76453"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/76453_121f462373651f6e_z.jpg",
                 "width": 640,
                 "height": 349,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "76453"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/76453_121f462373651f6e_n.jpg",
+                "width": 320,
+                "height": 174,
+                "is_primary": "0",
+                "image_id": "76453"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/76453_121f462373651f6e_d.gif",
+                "width": 320,
+                "height": 174,
+                "is_primary": "0",
+                "image_id": "76453"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/76453_121f462373651f6e_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "76453"
             }
         }
     ],
@@ -74,7 +125,9 @@
             "person_id": "35518585",
             "role_id": "35236657",
             "person_name": "Lanerie Agnona",
+            "person_date": "Italian",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/35518585\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         }
@@ -84,12 +137,10 @@
     },
     "colors": [
         {
-            "color": "#c0ad91",
-            "closest_css3": "#d2b48c"
-        },
-        {
-            "color": "#a68c6c",
-            "closest_css3": "#bc8f8f"
+            "color": "#ae977a",
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         }
     ]
 }

@@ -3,6 +3,7 @@
     "tms:id": "98237",
     "accession_number": "1948-26-15",
     "title": "Textile, \"Loop Stripe\", 1947",
+    "title_raw": "Loop Stripe",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18609313\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1947,
     "year_acquired": "1948",
     "decade": "1940",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Medium: 94% cotton, 6% wool\nTechnique: twill and pile woven",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "1948: acquired by Museum",
     "dimensions": "Warp x Weft: 72.2 x 53.4 cm (28 7\/16 x 21 in.)",
+    "dimensions_raw": {
+        "warp": [
+            "72.20",
+            "centimeters"
+        ],
+        "weft": [
+            "53.40",
+            "centimeters"
+        ]
+    },
     "creditline": null,
     "description": "Deep coral textile with broad vertical stripes of two contrasting textures used alternately. One is formed of deep close set warp loops of heavy multi-plied cotton; the other is in a novelty warp twill with S-plied cotton warps. Wefts are S-spun and have a thin piece of undyed wool twisted around each.",
     "justification": null,
-    "type": {
-        "id": "35251739",
-        "name": "textile"
-    },
+    "woe:country": "23424977",
+    "type": "textile",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/16005_2d09a4b53a732ad0_b.jpg",
                 "width": 1024,
                 "height": 703,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/16005_2d09a4b53a732ad0_n.jpg",
-                "width": 320,
-                "height": 220,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "16005"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/16005_2d09a4b53a732ad0_z.jpg",
                 "width": 640,
                 "height": 439,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "16005"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/16005_2d09a4b53a732ad0_n.jpg",
+                "width": 320,
+                "height": 220,
+                "is_primary": "1",
+                "image_id": "16005"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/16005_2d09a4b53a732ad0_d.gif",
+                "width": 320,
+                "height": 220,
+                "is_primary": "1",
+                "image_id": "16005"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/16005_2d09a4b53a732ad0_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "16005"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18063885",
             "role_id": "35236657",
             "person_name": "Goodall Worsted Company",
+            "person_date": "American",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18063885\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18045817",
             "role_id": "35236655",
             "person_name": "Dorothy Wright Liebes",
+            "person_date": "American, 1897\u20131972",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18045817\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
@@ -72,8 +102,11 @@
     },
     "colors": [
         {
-            "color": "#40171e",
-            "closest_css3": "#800000"
+            "color": "#41171e",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#800000",
+            "closest_css4": "#800000"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

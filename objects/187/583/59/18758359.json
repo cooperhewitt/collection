@@ -3,6 +3,7 @@
     "tms:id": "255465",
     "accession_number": "2010-21-76",
     "title": "Poster, \"The Battleship Potemkin\", ca. 1966",
+    "title_raw": "The Battleship Potemkin",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18758359\/",
     "department_id": "35347493",
     "period_id": "35459619",
@@ -13,39 +14,64 @@
     "year_end": 1967,
     "year_acquired": "2010",
     "decade": "1960",
-    "woe:country": null,
+    "woe:country_id": null,
     "medium": "Screenprint on wove paper",
     "markings": "printed in grey ink, bottom left corner of poster, inscribed in circle:\nFSK \/ Freigegeben\nprinted in grey ink, aligned with left margin of poster: SIEBDRUCK WITTIG FRANKFURT M",
     "signed": "printed in gray ink, aligned with left margin of poster in lower left corner: HILLMANN",
     "inscribed": null,
     "provenance": "Acquired from dealers, galleries and auction houses by Marc Benda.  Remained with Benda until 2010, when gifted to CHNDM.",
     "dimensions": "83.8 x 59.3 cm (33 x 23 3\/8 in.)",
+    "dimensions_raw": {
+        "height": [
+            "83.80",
+            "centimeters"
+        ],
+        "width": [
+            "59.30",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Sara and Marc Benda",
     "description": "On black background at top, a white rectangle intersected by two parallel intrusions, one further than the other. Inscription at bottom, in white: \"Neue Walter Kirchner zeigt S.M. Eisensteins\/ grossen Film uber die Meuterei der russischen Flotte\/ Kamera: Eduard Tisse  Pradikat: Besonders wertvoll\", followed by \"Panzerkreuzer\" in white, and \"POTEMKIN\" in grey.",
     "justification": null,
-    "type": {
-        "id": "35238163",
-        "name": "poster"
-    },
+    "woe:country": null,
+    "type": "poster",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/37000_c5aef072df92c9eb_b.jpg",
                 "width": 728,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/37000_c5aef072df92c9eb_n.jpg",
-                "width": 228,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "37000"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/37000_c5aef072df92c9eb_z.jpg",
                 "width": 455,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "37000"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/37000_c5aef072df92c9eb_n.jpg",
+                "width": 228,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "37000"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/37000_c5aef072df92c9eb_d.gif",
+                "width": 228,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "37000"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/37000_c5aef072df92c9eb_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "37000"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18063617",
             "role_id": "35236673",
             "person_name": "Druckerei Wittig",
+            "person_date": "German, founded 1919",
             "role_name": "Printer",
+            "role_display_name": "Printed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18063617\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236673\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18063573",
             "role_id": "35236667",
             "person_name": "Neue Filmkunst",
+            "person_date": "German, founded 1953",
             "role_name": "Client",
+            "role_display_name": "Client:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18063573\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236667\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18063509",
             "role_id": "35236655",
             "person_name": "Hans Hillmann",
+            "person_date": "German, 1925 - 2014",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18063509\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
@@ -80,12 +112,16 @@
     },
     "colors": [
         {
-            "color": "#2c2a29",
-            "closest_css3": "#2f4f4f"
+            "color": "#302e2c",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#75706e",
-            "closest_css3": "#696969"
+            "color": "#55504c",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         }
     ]
 }

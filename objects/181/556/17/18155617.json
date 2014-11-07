@@ -3,6 +3,7 @@
     "tms:id": "15652",
     "accession_number": "1907-5-22",
     "title": "Border, 1825\u201335",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18155617\/",
     "department_id": "35347503",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1860,
     "year_acquired": "1907",
     "decade": null,
-    "woe:country": "23424975",
+    "woe:country_id": "23424975",
     "medium": "Block-printed",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "111 x 29 cm (43 11\/16 x 11 7\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "111.00",
+            "centimeters"
+        ],
+        "width": [
+            "29.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Cowtan and Sons, Ltd.",
     "description": "Arabesque of flowers and foliage, with wheat, in yellow, green, blue, violet, red and red orange, on a pale yellow field, Vertical rectangle.",
     "justification": null,
-    "type": {
-        "id": "35237285",
-        "name": "Border"
-    },
+    "woe:country": "23424975",
+    "type": "Border",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/41075_b19a600be6a78b35_b.jpg",
                 "width": 282,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/41075_b19a600be6a78b35_n.jpg",
-                "width": 88,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "41075"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/41075_b19a600be6a78b35_z.jpg",
                 "width": 177,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "41075"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/41075_b19a600be6a78b35_n.jpg",
+                "width": 88,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "41075"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/41075_b19a600be6a78b35_d.gif",
+                "width": 88,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "41075"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/41075_b19a600be6a78b35_sq.jpg",
+                "width": 282,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "41075"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/1097_81f884f356962670_b.jpg",
                 "width": 301,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/1097_81f884f356962670_n.jpg",
-                "width": 94,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "1097"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/1097_81f884f356962670_z.jpg",
                 "width": 188,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "1097"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/1097_81f884f356962670_n.jpg",
+                "width": 94,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "1097"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/1097_81f884f356962670_d.gif",
+                "width": 94,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "1097"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/1097_81f884f356962670_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "1097"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18052379",
             "role_id": "35352245",
             "person_name": "Calvin S.  Hathaway",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18052379\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18053335",
             "role_id": "35351535",
             "person_name": "Cowtan and Sons, London",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18053335\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -92,24 +139,35 @@
     },
     "colors": [
         {
-            "color": "#c5b17f",
-            "closest_css3": "#d2b48c"
+            "color": "#a78852",
+            "closest_crayola": "#a57164",
+            "closest_css3": "#cd853f",
+            "closest_css4": "#cd853f"
         },
         {
-            "color": "#a18656",
-            "closest_css3": "#cd853f"
+            "color": "#755939",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         },
         {
-            "color": "#745838",
-            "closest_css3": "#556b2f"
+            "color": "#7d8c51",
+            "closest_crayola": "#85754e",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#7a8c50",
-            "closest_css3": "#696969"
+            "color": "#696539",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         },
         {
-            "color": "#686338",
-            "closest_css3": "#556b2f"
+            "color": "#e5dbc0",
+            "closest_crayola": "#eceabe",
+            "closest_css3": "#f5deb3",
+            "closest_css4": "#f5deb3"
         }
-    ]
+    ],
+    "woe:country_name": "United Kingdom"
 }

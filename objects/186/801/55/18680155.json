@@ -3,6 +3,7 @@
     "tms:id": "215552",
     "accession_number": "1969-165-1042",
     "title": "Sample, \"Rainbow\"",
+    "title_raw": "Rainbow",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18680155\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": null,
     "year_acquired": "1969",
     "decade": null,
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Medium: viscose rayon (80%) and mohair (20%)\nTechnique: plain weave with doubled warps and wefts",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "Warp x Weft: 31.1 x 30.5 cm (12 1\/4 x 12 in.)",
+    "dimensions_raw": {
+        "warp": [
+            "31.12",
+            "centimeters"
+        ],
+        "weft": [
+            "30.48",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Alexander H. Girard",
     "description": "Plain weave with doubled warps and wefts in grey. Weave structure adds a subtle surface texture. Number 276.",
     "justification": null,
-    "type": {
-        "id": "35268079",
-        "name": "Sample"
-    },
+    "woe:country": "23424977",
+    "type": "Sample",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/17944_cce5d908bf3dd38b_b.jpg",
                 "width": 1024,
                 "height": 1012,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/17944_cce5d908bf3dd38b_n.jpg",
-                "width": 320,
-                "height": 316,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "17944"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/17944_cce5d908bf3dd38b_z.jpg",
                 "width": 640,
                 "height": 632,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "17944"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/17944_cce5d908bf3dd38b_n.jpg",
+                "width": 320,
+                "height": 316,
+                "is_primary": "1",
+                "image_id": "17944"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/17944_cce5d908bf3dd38b_d.gif",
+                "width": 320,
+                "height": 316,
+                "is_primary": "1",
+                "image_id": "17944"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/17944_cce5d908bf3dd38b_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "17944"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18046041",
             "role_id": "35351535",
             "person_name": "Alexander Hayden Girard",
+            "person_date": "American, 1907\u20131993",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18046041\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18046041",
             "role_id": "35236655",
             "person_name": "Alexander Hayden Girard",
+            "person_date": "American, 1907\u20131993",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18046041\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
@@ -72,12 +102,23 @@
     },
     "colors": [
         {
-            "color": "#45423c",
-            "closest_css3": "#2f4f4f"
+            "color": "#75736d",
+            "closest_crayola": "#757575",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#cab7a0",
-            "closest_css3": "#d2b48c"
+            "color": "#595650",
+            "closest_crayola": "#6e5160",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
+        },
+        {
+            "color": "#c6b49d",
+            "closest_crayola": "#deaa88",
+            "closest_css3": "#d2b48c",
+            "closest_css4": "#d2b48c"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

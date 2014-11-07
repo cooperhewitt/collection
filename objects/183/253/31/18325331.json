@@ -3,6 +3,7 @@
     "tms:id": "47284",
     "accession_number": "1931-6-137",
     "title": "Fan, 1850\u20131900",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18325331\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": "1900",
     "year_acquired": "1931",
     "decade": null,
-    "woe:country": "23424819",
+    "woe:country_id": "23424819",
     "medium": "Medium: lace, steel cut beads, spangles (mount); ebony (sticks)",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "H x W (open, without tassel): 38.1 x 67.9 cm (15 x 26 3\/4 in.)\nH x W (tassel): 19.1 x 1.9 cm (7 1\/2 x 3\/4 in.)",
+    "dimensions_raw": {
+        "height": [
+            "38.10",
+            "centimeters"
+        ],
+        "width": [
+            "67.95",
+            "centimeters"
+        ]
+    },
     "creditline": "Bequest of Sarah Cooper Hewitt",
     "description": "Mount is black lace with black gauze insets embroidered with steel cut beads and spangles. Sticks are carved and ornamented with steel (?) piqu\u00e9. Black cord and tassel.",
     "justification": null,
-    "type": {
-        "id": "35252007",
-        "name": "fan"
-    },
+    "woe:country": "23424819",
+    "type": "fan",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/87834_95d5d5c2c22193e3_b.jpg",
                 "width": 1024,
                 "height": 632,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/87834_95d5d5c2c22193e3_n.jpg",
-                "width": 320,
-                "height": 198,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "87834"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/87834_95d5d5c2c22193e3_z.jpg",
                 "width": 640,
                 "height": 395,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "87834"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/87834_95d5d5c2c22193e3_n.jpg",
+                "width": 320,
+                "height": 198,
+                "is_primary": "1",
+                "image_id": "87834"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/87834_95d5d5c2c22193e3_d.gif",
+                "width": 320,
+                "height": 198,
+                "is_primary": "1",
+                "image_id": "87834"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/87834_95d5d5c2c22193e3_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "87834"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/69495_b76c2ea8a7a6011c_b.jpg",
                 "width": 1024,
                 "height": 656,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/69495_b76c2ea8a7a6011c_n.jpg",
-                "width": 320,
-                "height": 205,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "69495"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/69495_b76c2ea8a7a6011c_z.jpg",
                 "width": 640,
                 "height": 410,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "69495"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/69495_b76c2ea8a7a6011c_n.jpg",
+                "width": 320,
+                "height": 205,
+                "is_primary": "0",
+                "image_id": "69495"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/69495_b76c2ea8a7a6011c_d.gif",
+                "width": 320,
+                "height": 205,
+                "is_primary": "0",
+                "image_id": "69495"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/69495_b76c2ea8a7a6011c_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "69495"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18049321",
             "role_id": "35351537",
             "person_name": "Sarah Cooper Hewitt",
+            "person_date": "American, 1859\u20131930",
             "role_name": "Bequestor",
+            "role_display_name": "Bequest of",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049321\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351537\/"
         }
@@ -84,12 +129,23 @@
     },
     "colors": [
         {
-            "color": "#6a6661",
-            "closest_css3": "#696969"
+            "color": "#595651",
+            "closest_crayola": "#6e5160",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#8d8a85",
-            "closest_css3": "#808080"
+            "color": "#89847f",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
+        },
+        {
+            "color": "#b9b5af",
+            "closest_crayola": "#b0b7c6",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
         }
-    ]
+    ],
+    "woe:country_name": "France"
 }

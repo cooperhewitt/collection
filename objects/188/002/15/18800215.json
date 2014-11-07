@@ -3,6 +3,7 @@
     "tms:id": "180270",
     "accession_number": "1982-79-1",
     "title": "Handkerchief, \"I Like Ike\", ca. 1952",
+    "title_raw": "I Like Ike",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18800215\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1957,
     "year_acquired": "1982",
     "decade": "1940",
-    "woe:country": "23424977",
-    "medium": "Medium: cotton\nTechnique: printed on plain weave",
+    "woe:country_id": "23424977",
+    "medium": "Medium: cotton\nTechnique: screen printed on plain weave\nLabel: screen printed cotton",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "H x W: 31.1 x 33 cm (12 1\/4 x 13 in.)",
+    "dimensions_raw": {
+        "height": [
+            "31.12",
+            "centimeters"
+        ],
+        "width": [
+            "33.02",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Daren Pierce",
     "description": "Red elephant wearing a black top hat, on a white shield with blue stars, with the slogan I Like Ike below. Blue field with a border of red and white stripes.",
     "justification": null,
-    "type": {
-        "id": "35264069",
-        "name": "Handkerchief"
-    },
+    "woe:country": "23424977",
+    "type": "Handkerchief",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/60107_52c8578516d8d65d_b.jpg",
                 "width": 1024,
                 "height": 967,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/60107_52c8578516d8d65d_n.jpg",
-                "width": 320,
-                "height": 302,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "60107"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/60107_52c8578516d8d65d_z.jpg",
                 "width": 640,
                 "height": 604,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "60107"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/60107_52c8578516d8d65d_n.jpg",
+                "width": 320,
+                "height": 302,
+                "is_primary": "1",
+                "image_id": "60107"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/60107_52c8578516d8d65d_d.gif",
+                "width": 320,
+                "height": 302,
+                "is_primary": "1",
+                "image_id": "60107"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/60107_52c8578516d8d65d_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "60107"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/24834_1a94cf1ab94a6350_b.jpg",
                 "width": 1024,
                 "height": 953,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/24834_1a94cf1ab94a6350_n.jpg",
-                "width": 320,
-                "height": 298,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "24834"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/24834_1a94cf1ab94a6350_z.jpg",
                 "width": 640,
                 "height": 596,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "24834"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/24834_1a94cf1ab94a6350_n.jpg",
+                "width": 320,
+                "height": 298,
+                "is_primary": "0",
+                "image_id": "24834"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/24834_1a94cf1ab94a6350_d.gif",
+                "width": 320,
+                "height": 298,
+                "is_primary": "0",
+                "image_id": "24834"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/24834_1a94cf1ab94a6350_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "24834"
             }
         }
     ],
@@ -74,34 +117,47 @@
             "person_id": "18064311",
             "role_id": "35236655",
             "person_name": "Tammis Keefe",
+            "person_date": "American, 1913 - 1960",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18064311\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
     ],
     "tombstone": {
-        "epitaph": "Handkerchief, \"I Like Ike\", ca. 1952. Medium: cotton\nTechnique: printed on plain weave. Gift of Daren Pierce. 1982-79-1."
+        "epitaph": "Handkerchief, \"I Like Ike\", ca. 1952. Medium: cotton\nTechnique: screen printed on plain weave\nLabel: screen printed cotton. Gift of Daren Pierce. 1982-79-1."
     },
     "colors": [
         {
-            "color": "#a92325",
-            "closest_css3": "#a52a2a"
+            "color": "#a61f24",
+            "closest_crayola": "#9c2542",
+            "closest_css3": "#b22222",
+            "closest_css4": "#b22222"
         },
         {
-            "color": "#e6d8b6",
-            "closest_css3": "#f5deb3"
+            "color": "#e9dab7",
+            "closest_crayola": "#efcdb8",
+            "closest_css3": "#f5deb3",
+            "closest_css4": "#f5deb3"
         },
         {
-            "color": "#2e4780",
-            "closest_css3": "#483d8b"
+            "color": "#2c4279",
+            "closest_crayola": "#1a4876",
+            "closest_css3": "#483d8b",
+            "closest_css4": "#483d8b"
         },
         {
-            "color": "#be4d3a",
-            "closest_css3": "#a0522d"
+            "color": "#be503e",
+            "closest_crayola": "#bf4f51",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         },
         {
-            "color": "#d8af93",
-            "closest_css3": "#d2b48c"
+            "color": "#d5a186",
+            "closest_crayola": "#deaa88",
+            "closest_css3": "#d2b48c",
+            "closest_css4": "#d2b48c"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

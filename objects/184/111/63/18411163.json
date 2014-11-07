@@ -3,6 +3,7 @@
     "tms:id": "115801",
     "accession_number": "1956-84-2",
     "title": "Runner, 1928",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18411163\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1928,
     "year_acquired": "1956",
     "decade": "1920",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Medium: Pongee silk warp, silk weft\nTechnique: plain weave with discontinuous wefts (tapestry)",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "1956: acquired by Museum",
     "dimensions": "H x W: 82 x 33 cm (32 5\/16 x 13 in.)",
+    "dimensions_raw": {
+        "height": [
+            "82.00",
+            "centimeters"
+        ],
+        "width": [
+            "33.00",
+            "centimeters"
+        ]
+    },
     "creditline": null,
     "description": "Runner with highly stylized classical landscape suggested at each end in geometrical inlays of pale green, deep blue, pinkish gray heavy silk flosses. Ground of mauve wefts on pinkish tan warps.",
     "justification": null,
-    "type": {
-        "id": "35290627",
-        "name": "Runner"
-    },
+    "woe:country": "23424977",
+    "type": "Runner",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/46025_eaa064246ca5a121_b.jpg",
                 "width": 413,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/46025_eaa064246ca5a121_n.jpg",
-                "width": 129,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "46025"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/46025_eaa064246ca5a121_z.jpg",
                 "width": 258,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "46025"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/46025_eaa064246ca5a121_n.jpg",
+                "width": 129,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "46025"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/46025_eaa064246ca5a121_d.gif",
+                "width": 129,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "46025"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/46025_eaa064246ca5a121_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "46025"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/18520_596603f892313aa2_b.jpg",
                 "width": 427,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/18520_596603f892313aa2_n.jpg",
-                "width": 133,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "18520"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/18520_596603f892313aa2_z.jpg",
                 "width": 267,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "18520"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/18520_596603f892313aa2_n.jpg",
+                "width": 133,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "18520"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/18520_596603f892313aa2_d.gif",
+                "width": 133,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "18520"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/18520_596603f892313aa2_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "18520"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18046231",
             "role_id": "35236655",
             "person_name": "Edith Huntington Snow",
+            "person_date": "American, 1876\u20131960",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18046231\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18046231",
             "role_id": "35236745",
             "person_name": "Edith Huntington Snow",
+            "person_date": "American, 1876\u20131960",
             "role_name": "Weaver",
+            "role_display_name": "Woven by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18046231\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236745\/"
         }
@@ -92,20 +139,35 @@
     },
     "colors": [
         {
-            "color": "#827876",
-            "closest_css3": "#808080"
+            "color": "#827571",
+            "closest_crayola": "#757575",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#b8b3a2",
-            "closest_css3": "#a9a9a9"
+            "color": "#a19c8e",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         },
         {
-            "color": "#e2d6cc",
-            "closest_css3": "#d3d3d3"
+            "color": "#a98c75",
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         },
         {
-            "color": "#4d5b63",
-            "closest_css3": "#696969"
+            "color": "#e0cebc",
+            "closest_crayola": "#efcdb8",
+            "closest_css3": "#d3d3d3",
+            "closest_css4": "#d3d3d3"
+        },
+        {
+            "color": "#516068",
+            "closest_crayola": "#4a646c",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

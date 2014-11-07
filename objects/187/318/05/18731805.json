@@ -3,6 +3,7 @@
     "tms:id": "242000",
     "accession_number": "2009-20-22",
     "title": "Poster, \"Festival Polskiej 1967\", 1967",
+    "title_raw": "Festival Polskiej 1967",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18731805\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1967,
     "year_acquired": "2009",
     "decade": "1960",
-    "woe:country": null,
+    "woe:country_id": null,
     "medium": "Photo-offset lithograph on paper",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "Marc Benda",
     "dimensions": "84.2 x 59 cm (33 1\/8 x 23 1\/4 in.)",
+    "dimensions_raw": {
+        "height": [
+            "84.20",
+            "centimeters"
+        ],
+        "width": [
+            "59.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Sara and Marc Benda",
     "description": "Black poster with man's yelling face in red bars at right. Text in right to left of face, in bottom left quadrant reads: \"FESTIWAL\/ POLSKIEJ\/ POEZJI\/ WSPOLCZESNEJ\/ im. WLADYSLAWA\/ BRONIEWSKIEGO\/ PLOCK 10-11 LUTY\/ 1967\" in red.",
     "justification": null,
-    "type": {
-        "id": "35238163",
-        "name": "poster"
-    },
+    "woe:country": null,
+    "type": "poster",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/35445_a74c018c6886d303_b.jpg",
                 "width": 724,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/35445_a74c018c6886d303_n.jpg",
-                "width": 226,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "35445"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/35445_a74c018c6886d303_z.jpg",
                 "width": 452,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "35445"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/35445_a74c018c6886d303_n.jpg",
+                "width": 226,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "35445"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/35445_a74c018c6886d303_d.gif",
+                "width": 226,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "35445"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/35445_a74c018c6886d303_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "35445"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18063205",
             "role_id": "35351535",
             "person_name": "Sara Benda",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18063205\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18062817",
             "role_id": "35236655",
             "person_name": "Wojciech Zamecznik",
+            "person_date": "Polish, 1923 - 1967",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18062817\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18062523",
             "role_id": "35351535",
             "person_name": "Marc Benda",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18062523\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -81,11 +113,15 @@
     "colors": [
         {
             "color": "#98000d",
-            "closest_css3": "#8b0000"
+            "closest_crayola": "#9c2542",
+            "closest_css3": "#8b0000",
+            "closest_css4": "#8b0000"
         },
         {
-            "color": "#560209",
-            "closest_css3": "#800000"
+            "color": "#5d0108",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#800000",
+            "closest_css4": "#800000"
         }
     ]
 }

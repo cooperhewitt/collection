@@ -3,6 +3,7 @@
     "tms:id": "159601",
     "accession_number": "1978-62-1",
     "title": "Drawing, \"The Carnegie Mansion as a Summer Villa\", 1977",
+    "title_raw": "The Carnegie Mansion as a Summer Villa",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18497413\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1977,
     "year_acquired": "1978",
     "decade": "1970",
-    "woe:country": null,
+    "woe:country_id": null,
     "medium": "Brush and watercolor and gouache, pen and black ink, graphite over photomechanical reproduction on white wove paper",
     "markings": null,
     "signed": "Lower right in image, pen and black ink: Mark Hampton",
     "inscribed": "Printed in imagelower right: 7\/31\/07 \/ E\/W \/ South Elevation \/ 1\/4 inch \/ 29.",
     "provenance": null,
     "dimensions": "Sheet: 40 x 63.5 cm (15 3\/4 x 25 in.)\nMat: 55.5 x 78.2 cm (21 7\/8 x 30 13\/16 in.) (custom)",
+    "dimensions_raw": {
+        "height": [
+            "40.00",
+            "centimeters"
+        ],
+        "width": [
+            "63.50",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Mark Hampton",
     "description": "The south facade of the Carnegie Mansion is embellished in color, transforming the building into a summer villa. Additions to the original photomechanical elevation include wrought iron railings and a stripped awning at right just off the area occupied by the conservatory and picture gallery. Large white clouds billow up into a blue sky behind the mansion. Small figures enliven the scene: at left, lovers seem to dance under the tree; above them a figure on a balcony eavesdrops. Others appear in the windows or stand waiting at the door.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": null,
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/28173_8866e89a5a80ffbf_b.jpg",
                 "width": 1024,
                 "height": 663,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/28173_8866e89a5a80ffbf_n.jpg",
-                "width": 320,
-                "height": 207,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "28173"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/28173_8866e89a5a80ffbf_z.jpg",
                 "width": 640,
                 "height": 414,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "28173"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/28173_8866e89a5a80ffbf_n.jpg",
+                "width": 320,
+                "height": 207,
+                "is_primary": "1",
+                "image_id": "28173"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/28173_8866e89a5a80ffbf_d.gif",
+                "width": 320,
+                "height": 207,
+                "is_primary": "1",
+                "image_id": "28173"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/28173_8866e89a5a80ffbf_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "28173"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18059583",
             "role_id": "35236655",
             "person_name": "Mark Iredell Hampton Jr.",
+            "person_date": "1940 \u2013 1998",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18059583\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18059583",
             "role_id": "35351535",
             "person_name": "Mark Iredell Hampton Jr.",
+            "person_date": "1940 \u2013 1998",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18059583\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -72,24 +102,34 @@
     },
     "colors": [
         {
-            "color": "#d0e3e7",
-            "closest_css3": "#dcdcdc"
+            "color": "#c7dfe4",
+            "closest_crayola": "#c5d0e6",
+            "closest_css3": "#dcdcdc",
+            "closest_css4": "#dcdcdc"
         },
         {
-            "color": "#e7e6cf",
-            "closest_css3": "#dcdcdc"
+            "color": "#c7d9a0",
+            "closest_crayola": "#c5e384",
+            "closest_css3": "#c0c0c0",
+            "closest_css4": "#c0c0c0"
         },
         {
-            "color": "#c8daa2",
-            "closest_css3": "#c0c0c0"
+            "color": "#e7e7cf",
+            "closest_crayola": "#efdecd",
+            "closest_css3": "#dcdcdc",
+            "closest_css4": "#dcdcdc"
         },
         {
-            "color": "#808870",
-            "closest_css3": "#808080"
+            "color": "#a4a199",
+            "closest_crayola": "#979aaa",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
         },
         {
-            "color": "#d0a08c",
-            "closest_css3": "#d2b48c"
+            "color": "#687963",
+            "closest_crayola": "#757575",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         }
     ]
 }

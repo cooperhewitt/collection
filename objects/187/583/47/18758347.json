@@ -3,6 +3,7 @@
     "tms:id": "255459",
     "accession_number": "2010-21-70",
     "title": "Poster, \"Elektra\", 1991",
+    "title_raw": "Elektra",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18758347\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1991,
     "year_acquired": "2010",
     "decade": "1990",
-    "woe:country": "23424957",
+    "woe:country_id": "23424957",
     "medium": "Offset lithograph on wove paper",
     "markings": null,
     "signed": null,
     "inscribed": "Printed in black ink, lower right: GESTALTUNG GEISSBUHLER \/ SIEBDRUCK SPILLMANN",
     "provenance": "Sara and Marc Benda (acquired new and directly from designer, Karl Domenic Geissb\u00fchler); 2010: acquired by Museum",
     "dimensions": "Sheet: 128 x 90.5 cm (50 3\/8 x 35 5\/8 in.)",
+    "dimensions_raw": {
+        "height": [
+            "128.00",
+            "centimeters"
+        ],
+        "width": [
+            "90.50",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Sara and Marc Benda",
     "description": "A black and white photomontage of a classically-garbed woman on a ground of stones; as though spray painted onto the stones, in red: ELEKTRA. At center, in black ink: RICHARD STRAUSS \/ HUGO VON HOFMANNSTHAL. Right column: AB 2. FEBRUAR 1991 \/ RALF WEIKERT \/ RUTH BERGHAUS \/ HANS DIETER SCHAAL \/ MARIE-LOUISE STRANDT \/ KARI KAMPER \/ CHOR UND ORCHESTER \/ DER OPER ZURICH \/ UNTERSTUTZT \/ VON DER GESELLSCHAFT \/ ZUR FORDERUNG DER ZURCHER OPER. Lower margin: OPERNHAUS ZURICH.",
     "justification": null,
-    "type": {
-        "id": "35238163",
-        "name": "poster"
-    },
+    "woe:country": "23424957",
+    "type": "poster",
     "images": [
         {
             "b": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/46809_8f7ec7c76c35f3c1_b.jpg",
-                "width": 734,
+                "url": "http:\/\/images.collection.cooperhewitt.org\/46809_a5b1aae08dbe01f9_b.jpg",
+                "width": 722,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/46809_8f7ec7c76c35f3c1_n.jpg",
-                "width": 229,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "46809"
             },
             "z": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/46809_8f7ec7c76c35f3c1_z.jpg",
-                "width": 459,
+                "url": "http:\/\/images.collection.cooperhewitt.org\/46809_a5b1aae08dbe01f9_z.jpg",
+                "width": 451,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "46809"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/46809_a5b1aae08dbe01f9_n.jpg",
+                "width": 226,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "46809"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/46809_a5b1aae08dbe01f9_d.gif",
+                "width": 226,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "46809"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/46809_a5b1aae08dbe01f9_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "46809"
             }
         }
     ],
@@ -54,9 +80,31 @@
             "person_id": "18063591",
             "role_id": "35236655",
             "person_name": "Karl Domenic Geissb\u00fchler",
+            "person_date": "Swiss, b. 1932",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18063591\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
+        },
+        {
+            "person_id": "68738781",
+            "role_id": "35236667",
+            "person_name": "Opernhaus, Z\u00fcrich",
+            "person_date": "",
+            "role_name": "Client",
+            "role_display_name": "Client:",
+            "person_url": "http:\/\/collection.cooperhewitt.org\/people\/68738781\/",
+            "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236667\/"
+        },
+        {
+            "person_id": "68738757",
+            "role_id": "35236673",
+            "person_name": "Bea Spillman Siebdruck",
+            "person_date": "Swiss",
+            "role_name": "Printer",
+            "role_display_name": "Printed by",
+            "person_url": "http:\/\/collection.cooperhewitt.org\/people\/68738757\/",
+            "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236673\/"
         }
     ],
     "tombstone": {
@@ -64,20 +112,17 @@
     },
     "colors": [
         {
-            "color": "#756e73",
-            "closest_css3": "#696969"
-        },
-        {
-            "color": "#9b9297",
-            "closest_css3": "#a9a9a9"
-        },
-        {
             "color": "#d63330",
-            "closest_css3": "#dc143c"
+            "closest_crayola": "#cd4a4c",
+            "closest_css3": "#dc143c",
+            "closest_css4": "#dc143c"
         },
         {
-            "color": "#8d433b",
-            "closest_css3": "#a0522d"
+            "color": "#9b423a",
+            "closest_crayola": "#9c2542",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         }
-    ]
+    ],
+    "woe:country_name": "Switzerland"
 }

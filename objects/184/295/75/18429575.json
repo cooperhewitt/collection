@@ -3,6 +3,7 @@
     "tms:id": "125178",
     "accession_number": "1960-1-40",
     "title": "Figure, \"Africa\", 19th or 20th century",
+    "title_raw": "Africa",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18429575\/",
     "department_id": "35347497",
     "period_id": null,
@@ -13,39 +14,68 @@
     "year_end": 2000,
     "year_acquired": "1960",
     "decade": null,
-    "woe:country": "23424829",
+    "woe:country_id": "23424829",
     "medium": "Gilt, painted and glazed porcelain",
     "markings": "none",
     "signed": null,
     "inscribed": null,
     "provenance": "Estate of James Hazen Hyde; 1960: acquired by Museum",
     "dimensions": "H x W x L: 15.9 x 5.7 x 8.5 cm (6 1\/4 x 2 1\/4 x 3 3\/8 in.)",
+    "dimensions_raw": {
+        "height": [
+            "15.90",
+            "centimeters"
+        ],
+        "length": [
+            "8.50",
+            "centimeters"
+        ],
+        "width": [
+            "5.70",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of the Estate of James Hazen Hyde",
     "description": "Standing black figure, wearing feather skirt and headdress, an elephant skin over right arm.  Based on an 18th century model.",
     "justification": null,
-    "type": {
-        "id": "35237189",
-        "name": "Figure"
-    },
+    "woe:country": "23424829",
+    "type": "Figure",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/47802_6bbd5929637867e7_b.jpg",
                 "width": 639,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/47802_6bbd5929637867e7_n.jpg",
-                "width": 200,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "47802"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/47802_6bbd5929637867e7_z.jpg",
                 "width": 399,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "47802"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/47802_6bbd5929637867e7_n.jpg",
+                "width": 200,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "47802"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/47802_6bbd5929637867e7_d.gif",
+                "width": 200,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "47802"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/47802_6bbd5929637867e7_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "47802"
             }
         }
     ],
@@ -54,7 +84,9 @@
             "person_id": "18044673",
             "role_id": "35236765",
             "person_name": "Johann Joachim K\u00e4ndler",
+            "person_date": "German, 1706\u20131775",
             "role_name": "Modeler",
+            "role_display_name": "Modeled by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18044673\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236765\/"
         },
@@ -62,7 +94,9 @@
             "person_id": "18049369",
             "role_id": "35351535",
             "person_name": "Estate of James Hazen Hyde",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049369\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -72,12 +106,23 @@
     },
     "colors": [
         {
-            "color": "#d7cfc1",
-            "closest_css3": "#d3d3d3"
+            "color": "#d7d0c3",
+            "closest_crayola": "#cdc5c2",
+            "closest_css3": "#d3d3d3",
+            "closest_css4": "#d3d3d3"
+        },
+        {
+            "color": "#b4a395",
+            "closest_crayola": "#979aaa",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         },
         {
             "color": "#9b8181",
-            "closest_css3": "#808080"
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         }
-    ]
+    ],
+    "woe:country_name": "Germany"
 }

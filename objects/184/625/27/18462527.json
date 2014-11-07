@@ -3,6 +3,7 @@
     "tms:id": "141868",
     "accession_number": "1968-111-153",
     "title": "Border, 1900\u201325",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18462527\/",
     "department_id": "35347503",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1925,
     "year_acquired": "1968",
     "decade": null,
-    "woe:country": "23424819",
+    "woe:country_id": "23424819",
     "medium": "Block-printed",
     "markings": null,
     "signed": null,
     "inscribed": "located: corridor 3, L1",
     "provenance": null,
     "dimensions": "52 x 33 cm (20 1\/2 x 13 in.)",
+    "dimensions_raw": {
+        "height": [
+            "52.00",
+            "centimeters"
+        ],
+        "width": [
+            "33.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Harvey Smith",
     "description": "Above edge lines of brown and gray, brown trellis work or fence with big leaves in front, flowering bushes with pink blossoms behind.",
     "justification": null,
-    "type": {
-        "id": "35237285",
-        "name": "Border"
-    },
+    "woe:country": "23424819",
+    "type": "Border",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/60371_e7a71a611ae8f06e_b.jpg",
                 "width": 1024,
                 "height": 656,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/60371_e7a71a611ae8f06e_n.jpg",
-                "width": 320,
-                "height": 205,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "60371"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/60371_e7a71a611ae8f06e_z.jpg",
                 "width": 640,
                 "height": 410,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "60371"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/60371_e7a71a611ae8f06e_n.jpg",
+                "width": 320,
+                "height": 205,
+                "is_primary": "1",
+                "image_id": "60371"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/60371_e7a71a611ae8f06e_d.gif",
+                "width": 320,
+                "height": 205,
+                "is_primary": "1",
+                "image_id": "60371"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/60371_e7a71a611ae8f06e_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "60371"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/6876_bbefe16dfe9fd45b_b.jpg",
                 "width": 1024,
                 "height": 640,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/6876_bbefe16dfe9fd45b_n.jpg",
-                "width": 320,
-                "height": 200,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "6876"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/6876_bbefe16dfe9fd45b_z.jpg",
                 "width": 640,
                 "height": 400,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "6876"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/6876_bbefe16dfe9fd45b_n.jpg",
+                "width": 320,
+                "height": 200,
+                "is_primary": "0",
+                "image_id": "6876"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/6876_bbefe16dfe9fd45b_d.gif",
+                "width": 320,
+                "height": 200,
+                "is_primary": "0",
+                "image_id": "6876"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/6876_bbefe16dfe9fd45b_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "6876"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18049985",
             "role_id": "35351535",
             "person_name": "Harvey Smith",
+            "person_date": "1906\u20131994",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049985\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18048007",
             "role_id": "35352245",
             "person_name": "Catherine Lynn Frangiamore",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18048007\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         }
@@ -93,23 +140,34 @@
     "colors": [
         {
             "color": "#dbd4c3",
-            "closest_css3": "#d3d3d3"
+            "closest_crayola": "#dbd7d2",
+            "closest_css3": "#d3d3d3",
+            "closest_css4": "#d3d3d3"
         },
         {
             "color": "#a8a499",
-            "closest_css3": "#a9a9a9"
+            "closest_crayola": "#979aaa",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
         },
         {
-            "color": "#a18161",
-            "closest_css3": "#808080"
+            "color": "#b4bc7f",
+            "closest_crayola": "#bab86c",
+            "closest_css3": "#bdb76b",
+            "closest_css4": "#bdb76b"
         },
         {
-            "color": "#adb892",
-            "closest_css3": "#a9a9a9"
+            "color": "#9b7e60",
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#819166",
-            "closest_css3": "#808080"
+            "color": "#66705c",
+            "closest_crayola": "#757575",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         }
-    ]
+    ],
+    "woe:country_name": "France"
 }

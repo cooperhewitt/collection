@@ -3,6 +3,7 @@
     "tms:id": "120191",
     "accession_number": "1957-61-1",
     "title": "Drawing, \"Rendering for Bliss Family Mausoleum\", 1901",
+    "title_raw": "Rendering for Bliss Family Mausoleum",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18419907\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1901,
     "year_acquired": "1957",
     "decade": "1900",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Brush and watercolor, graphite on heavy drawing board",
     "markings": null,
     "signed": "Signed in brown ink, lower right margin: Hughson Hawley",
     "inscribed": "Inscribed in brown ink, over the door: MDCCCCI; above pediment: B",
     "provenance": null,
     "dimensions": "62.8 x 73.4 cm (24 3\/4 x 28 7\/8 in.)",
+    "dimensions_raw": {
+        "height": [
+            "62.80",
+            "centimeters"
+        ],
+        "width": [
+            "73.40",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Anonymous Donor",
     "description": "An octagonal domed mausoleum in the Renaissance style, stands on a terrace, approached by a wide flight of steps flanked by potted trees.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424977",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/43422_004d0b0acb35c600_b.jpg",
                 "width": 1024,
                 "height": 875,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/43422_004d0b0acb35c600_n.jpg",
-                "width": 320,
-                "height": 273,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "43422"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/43422_004d0b0acb35c600_z.jpg",
                 "width": 640,
                 "height": 547,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "43422"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/43422_004d0b0acb35c600_n.jpg",
+                "width": 320,
+                "height": 273,
+                "is_primary": "1",
+                "image_id": "43422"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/43422_004d0b0acb35c600_d.gif",
+                "width": 320,
+                "height": 273,
+                "is_primary": "1",
+                "image_id": "43422"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/43422_004d0b0acb35c600_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "43422"
             }
         }
     ],
@@ -53,8 +79,10 @@
         {
             "person_id": "18049335",
             "role_id": "35351535",
-            "person_name": "Anonymous",
+            "person_name": "Unknown",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049335\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "51676457",
             "role_id": "35352245",
             "person_name": "Karin Zonis",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/51676457\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -70,9 +100,21 @@
             "person_id": "18065321",
             "role_id": "35236565",
             "person_name": "Hughson Hawley",
+            "person_date": "American, 1850\u20131936",
             "role_name": "Artist",
+            "role_display_name": "",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18065321\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236565\/"
+        },
+        {
+            "person_id": "68739079",
+            "role_id": "35351535",
+            "person_name": "Anonymous",
+            "person_date": "",
+            "role_name": "Donor",
+            "role_display_name": "Donated by",
+            "person_url": "http:\/\/collection.cooperhewitt.org\/people\/68739079\/",
+            "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
     ],
     "tombstone": {
@@ -80,24 +122,35 @@
     },
     "colors": [
         {
-            "color": "#c8c8a7",
-            "closest_css3": "#c0c0c0"
+            "color": "#aea96d",
+            "closest_crayola": "#bab86c",
+            "closest_css3": "#bdb76b",
+            "closest_css4": "#bdb76b"
         },
         {
-            "color": "#8a9264",
-            "closest_css3": "#808080"
+            "color": "#87aaa9",
+            "closest_crayola": "#979aaa",
+            "closest_css3": "#8fbc8f",
+            "closest_css4": "#8fbc8f"
         },
         {
-            "color": "#ba9f78",
-            "closest_css3": "#bdb76b"
+            "color": "#b49a73",
+            "closest_crayola": "#cd9575",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         },
         {
-            "color": "#86a8a5",
-            "closest_css3": "#8fbc8f"
+            "color": "#b2c0b4",
+            "closest_crayola": "#b0b7c6",
+            "closest_css3": "#c0c0c0",
+            "closest_css4": "#c0c0c0"
         },
         {
-            "color": "#907151",
-            "closest_css3": "#696969"
+            "color": "#64704f",
+            "closest_crayola": "#85754e",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

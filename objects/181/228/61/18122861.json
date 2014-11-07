@@ -3,6 +3,7 @@
     "tms:id": "10077",
     "accession_number": "1901-39-335",
     "title": "Drawing, \"Four heads of women\", 1750\u201386",
+    "title_raw": "Four heads of women",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18122861\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,101 @@
     "year_end": 1836,
     "year_acquired": "1901",
     "decade": null,
-    "woe:country": "23424853",
+    "woe:country_id": "23424853",
     "medium": "Pen and ink on paper",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "Giovanni Piancastelli; 1901: acquired by Museum",
     "dimensions": "27.3 x 20 cm (10 3\/4 x 7 7\/8 in.)",
+    "dimensions_raw": {
+        "height": [
+            "27.30",
+            "centimeters"
+        ],
+        "width": [
+            "20.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase through gift of various donors",
     "description": "Landscape with multiple trees. Background has a town with multiple buildings.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424853",
+    "type": "Drawing",
     "images": [
+        {
+            "b": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/91482_3eb7c4bbca7dadc2_b.jpg",
+                "width": 752,
+                "height": 1024,
+                "is_primary": "1",
+                "image_id": "91482"
+            },
+            "z": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/91482_3eb7c4bbca7dadc2_z.jpg",
+                "width": 470,
+                "height": 640,
+                "is_primary": "1",
+                "image_id": "91482"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/91482_3eb7c4bbca7dadc2_n.jpg",
+                "width": 235,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "91482"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/91482_3eb7c4bbca7dadc2_d.gif",
+                "width": 235,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "91482"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/91482_3eb7c4bbca7dadc2_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "91482"
+            }
+        },
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/282_88805ab6c2eaf033_b.jpg",
                 "width": 741,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/282_88805ab6c2eaf033_n.jpg",
-                "width": 232,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "282"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/282_88805ab6c2eaf033_z.jpg",
                 "width": 463,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "282"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/282_88805ab6c2eaf033_n.jpg",
+                "width": 232,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "282"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/282_88805ab6c2eaf033_d.gif",
+                "width": 232,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "282"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/282_88805ab6c2eaf033_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "282"
             }
         }
     ],
@@ -54,7 +117,9 @@
             "person_id": "18042631",
             "role_id": "35236565",
             "person_name": "Carlo Marchionni",
+            "person_date": "Italian, 1702\u20131786; active 1728\u20131778",
             "role_name": "Artist",
+            "role_display_name": "",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18042631\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236565\/"
         },
@@ -62,7 +127,9 @@
             "person_id": "18041163",
             "role_id": "35351535",
             "person_name": "Various Donors",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041163\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -72,20 +139,29 @@
     },
     "colors": [
         {
-            "color": "#c5a985",
-            "closest_css3": "#d2b48c"
+            "color": "#b59b7a",
+            "closest_crayola": "#cd9575",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         },
         {
-            "color": "#534235",
-            "closest_css3": "#556b2f"
+            "color": "#8f765c",
+            "closest_crayola": "#8a795d",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#a58869",
-            "closest_css3": "#808080"
+            "color": "#705944",
+            "closest_crayola": "#6e5160",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         },
         {
-            "color": "#785d45",
-            "closest_css3": "#696969"
+            "color": "#3f352d",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         }
-    ]
+    ],
+    "woe:country_name": "Italy"
 }

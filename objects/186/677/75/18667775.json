@@ -3,6 +3,7 @@
     "tms:id": "209285",
     "accession_number": "1995-50-158",
     "title": "Textile, \"Telemachus\", ca. 1815",
+    "title_raw": "Telemachus",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18667775\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1825,
     "year_acquired": "1995",
     "decade": null,
-    "woe:country": "23424819",
+    "woe:country_id": "23424819",
     "medium": "Medium: cotton\nTechnique: printed by engraved roller on plain weave",
     "markings": null,
     "signed": null,
     "inscribed": "On a rock at the left; F.Pieters",
     "provenance": null,
     "dimensions": "Warp x Weft: 268 x 80 cm (8 ft. 9 1\/2 in. x 31 1\/2 in.); piece is selvedge to selvedge",
+    "dimensions_raw": {
+        "warp": [
+            "268.00",
+            "centimeters"
+        ],
+        "weft": [
+            "80.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Bequest of Elinor Merrell",
     "description": "Alternation of two scenes; one a shipwreck, the other an elderly man leading a younger man away from a woman in purple which has faded to brown.",
     "justification": null,
-    "type": {
-        "id": "35251739",
-        "name": "textile"
-    },
+    "woe:country": "23424819",
+    "type": "textile",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/12726_7e2df359558f1b7f_b.jpg",
                 "width": 684,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/12726_7e2df359558f1b7f_n.jpg",
-                "width": 214,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "12726"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/12726_7e2df359558f1b7f_z.jpg",
                 "width": 428,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "12726"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/12726_7e2df359558f1b7f_n.jpg",
+                "width": 214,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "12726"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/12726_7e2df359558f1b7f_d.gif",
+                "width": 214,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "12726"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/12726_7e2df359558f1b7f_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "12726"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18046057",
             "role_id": "35236743",
             "person_name": "F. Pieters",
+            "person_date": "",
             "role_name": "Engraver",
+            "role_display_name": "Engraved by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18046057\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236743\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18049427",
             "role_id": "35351537",
             "person_name": "Elinor Merrell",
+            "person_date": "",
             "role_name": "Bequestor",
+            "role_display_name": "Bequest of",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049427\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351537\/"
         }
@@ -72,24 +102,35 @@
     },
     "colors": [
         {
-            "color": "#c78e74",
-            "closest_css3": "#bc8f8f"
+            "color": "#d69e81",
+            "closest_crayola": "#deaa88",
+            "closest_css3": "#e9967a",
+            "closest_css4": "#e9967a"
         },
         {
-            "color": "#eeb392",
-            "closest_css3": "#deb887"
+            "color": "#b37b64",
+            "closest_crayola": "#a57164",
+            "closest_css3": "#cd5c5c",
+            "closest_css4": "#cd5c5c"
         },
         {
-            "color": "#ac7671",
-            "closest_css3": "#bc8f8f"
+            "color": "#fde0c5",
+            "closest_crayola": "#efdecd",
+            "closest_css3": "#ffe4c4",
+            "closest_css4": "#ffe4c4"
         },
         {
-            "color": "#875e5f",
-            "closest_css3": "#696969"
+            "color": "#91564e",
+            "closest_crayola": "#a5694f",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         },
         {
-            "color": "#59443e",
-            "closest_css3": "#556b2f"
+            "color": "#6a534f",
+            "closest_crayola": "#6e5160",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         }
-    ]
+    ],
+    "woe:country_name": "France"
 }

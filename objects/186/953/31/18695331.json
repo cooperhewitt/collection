@@ -3,6 +3,7 @@
     "tms:id": "223232",
     "accession_number": "2002-11-14",
     "title": "Poster, \"SOS Children's Village, Kinderdorf\", ca. 1996",
+    "title_raw": "SOS Children's Village, Kinderdorf",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18695331\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 2002,
     "year_acquired": "2002",
     "decade": "1980",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Offset lithograph on white paper",
     "markings": null,
     "signed": "Signed [imprinted] in golden-gray ink, lower left: Paul Rand",
     "inscribed": "Imprinted in black, vertically, upper left corner: Paul Rand, USA, 1996 \/ Montage: Pieter Breughel, The Children's Games \/ Kunsthistorisches Museum, Vienna",
     "provenance": "Marion S. Rand",
     "dimensions": "83.8 x 59.1 cm (33 x 23 1\/4 in. )",
+    "dimensions_raw": {
+        "height": [
+            "83.80",
+            "centimeters"
+        ],
+        "width": [
+            "59.10",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Marion S. Rand",
     "description": "White ground, upper 3\/4 of poster, upside down silhouette of a child with arms outstretched.  Left 2\/3, inside silhouette, part of a painting by Peter Breughel, \"The Children's Games\" (1560), depicting many children in different colors (primarily brown) holding sticks and jumping over other children.  Right side of silhouette, solid black.  Title, imprinted three times in red, blue, and green, diagonal slanting down towards right: SOS Kinderdorf\u00ae SOS Children's Village\u00ae.",
     "justification": null,
-    "type": {
-        "id": "35238163",
-        "name": "poster"
-    },
+    "woe:country": "23424977",
+    "type": "poster",
     "images": [
         {
             "b": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/49897_67e41e99ebbf7c3e_b.jpg",
-                "width": 727,
+                "url": "http:\/\/images.collection.cooperhewitt.org\/49897_b4797f5b96a32d23_b.jpg",
+                "width": 722,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/49897_67e41e99ebbf7c3e_n.jpg",
-                "width": 227,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "49897"
             },
             "z": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/49897_67e41e99ebbf7c3e_z.jpg",
-                "width": 454,
+                "url": "http:\/\/images.collection.cooperhewitt.org\/49897_b4797f5b96a32d23_z.jpg",
+                "width": 451,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "49897"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/49897_b4797f5b96a32d23_n.jpg",
+                "width": 226,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "49897"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/49897_b4797f5b96a32d23_d.gif",
+                "width": 226,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "49897"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/49897_b4797f5b96a32d23_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "49897"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "51676457",
             "role_id": "35352245",
             "person_name": "Karin Zonis",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/51676457\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18538789",
             "role_id": "35351535",
             "person_name": "Marion S. Rand",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18538789\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18042341",
             "role_id": "35236655",
             "person_name": "Paul Rand",
+            "person_date": "American, 1914\u20131996",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18042341\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
@@ -80,24 +112,35 @@
     },
     "colors": [
         {
-            "color": "#45373c",
-            "closest_css3": "#2f4f4f"
+            "color": "#865f52",
+            "closest_crayola": "#85754e",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#886052",
-            "closest_css3": "#696969"
+            "color": "#c59374",
+            "closest_crayola": "#cd9575",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         },
         {
-            "color": "#c79676",
-            "closest_css3": "#bc8f8f"
+            "color": "#46383d",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#d8bea4",
-            "closest_css3": "#d2b48c"
+            "color": "#d5bfaa",
+            "closest_crayola": "#cdc5c2",
+            "closest_css3": "#c0c0c0",
+            "closest_css4": "#c0c0c0"
         },
         {
-            "color": "#7d6e6c",
-            "closest_css3": "#696969"
+            "color": "#ac9a88",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

@@ -3,6 +3,7 @@
     "tms:id": "191621",
     "accession_number": "1989-88-1-a\/d",
     "title": "Textile, \"Fortuna\", 1988",
+    "title_raw": "Fortuna",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18633555\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1988,
     "year_acquired": "1989",
     "decade": "1980",
-    "woe:country": "23424819",
+    "woe:country_id": "23424819",
     "medium": "Medium: cotton\nTechnique: screen printed with discharge on plain weave",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "H x W (a): 386.1 x 139.7 cm (152 x 55 in.)\nH x W (b): 203.2 x 139.7 cm (80 x 55 in.)\nH x W (c): 200.7 x 139.7 cm (79 x 55 in.)\nH x W (d): 200.7 x 139.7 cm (79 x 55 in.)",
+    "dimensions_raw": {
+        "height": [
+            "203.20",
+            "centimeters"
+        ],
+        "width": [
+            "139.70",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Heberlein Textildruck",
     "description": "Length of printed cotton with large chevrons formed of small vertical rectangles in subtle shades of purple, orange and yellow.",
     "justification": null,
-    "type": {
-        "id": "35251739",
-        "name": "textile"
-    },
+    "woe:country": "23424819",
+    "type": "textile",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/36045_90d4c9cdc393bce8_b.jpg",
                 "width": 1024,
                 "height": 766,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/36045_90d4c9cdc393bce8_n.jpg",
-                "width": 320,
-                "height": 239,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "36045"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/36045_90d4c9cdc393bce8_z.jpg",
                 "width": 640,
                 "height": 479,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "36045"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/36045_90d4c9cdc393bce8_n.jpg",
+                "width": 320,
+                "height": 239,
+                "is_primary": "1",
+                "image_id": "36045"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/36045_90d4c9cdc393bce8_d.gif",
+                "width": 320,
+                "height": 239,
+                "is_primary": "1",
+                "image_id": "36045"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/36045_90d4c9cdc393bce8_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "36045"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18041409",
             "role_id": "35236671",
             "person_name": "Knoll Textiles",
+            "person_date": "East Greenville, Pennsylvania, USA, founded 1947",
             "role_name": "Producer",
+            "role_display_name": "Produced by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041409\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236671\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18045589",
             "role_id": "35351535",
             "person_name": "Heberlein Textildruck AG",
+            "person_date": "Swiss, 1835 - 2005",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18045589\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18048019",
             "role_id": "35352245",
             "person_name": "lm",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18048019\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -78,7 +110,9 @@
             "person_id": "18045589",
             "role_id": "35236673",
             "person_name": "Heberlein Textildruck AG",
+            "person_date": "Swiss, 1835 - 2005",
             "role_name": "Printer",
+            "role_display_name": "Printed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18045589\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236673\/"
         },
@@ -86,7 +120,9 @@
             "person_id": "18045459",
             "role_id": "35236655",
             "person_name": "Karl Vogelsang",
+            "person_date": "(German, 1932 - 2006)",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18045459\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
@@ -96,24 +132,35 @@
     },
     "colors": [
         {
-            "color": "#322932",
-            "closest_css3": "#2f4f4f"
+            "color": "#423845",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#cfa785",
-            "closest_css3": "#d2b48c"
+            "color": "#958e80",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#aaa088",
-            "closest_css3": "#bc8f8f"
+            "color": "#ce9270",
+            "closest_crayola": "#cd9575",
+            "closest_css3": "#e9967a",
+            "closest_css4": "#e9967a"
         },
         {
-            "color": "#5f433d",
-            "closest_css3": "#556b2f"
+            "color": "#765449",
+            "closest_crayola": "#6e5160",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#c68260",
-            "closest_css3": "#cd853f"
+            "color": "#63545f",
+            "closest_crayola": "#6e5160",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         }
-    ]
+    ],
+    "woe:country_name": "France"
 }

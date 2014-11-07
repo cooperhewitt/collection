@@ -3,6 +3,7 @@
     "tms:id": "53840",
     "accession_number": "1935-23-20",
     "title": "Textile, \"Windrush\", ca. 1934",
+    "title_raw": "Windrush",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18340063\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1939,
     "year_acquired": "1935",
     "decade": "1920",
-    "woe:country": "23424975",
+    "woe:country_id": "23424975",
     "medium": "Medium: cotton\nTechnique: printed on plain weave",
     "markings": null,
     "signed": null,
     "inscribed": "Rec'd Morris & Company",
     "provenance": null,
     "dimensions": "H x W: 99 x 69.5 cm (39 x 27 3\/8 in.)",
+    "dimensions_raw": {
+        "height": [
+            "99.00",
+            "centimeters"
+        ],
+        "width": [
+            "69.50",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Cowtan & Tout, Inc.",
     "description": "Interlacing stems with alternating conventionalized pomegranate and lotus blossoms, printed in red on a pink ground.",
     "justification": null,
-    "type": {
-        "id": "35251739",
-        "name": "textile"
-    },
+    "woe:country": "23424975",
+    "type": "textile",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/46224_12d3c9e6f9eb5196_b.jpg",
                 "width": 1024,
                 "height": 731,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/46224_12d3c9e6f9eb5196_n.jpg",
-                "width": 320,
-                "height": 228,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "46224"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/46224_12d3c9e6f9eb5196_z.jpg",
                 "width": 640,
                 "height": 457,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "46224"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/46224_12d3c9e6f9eb5196_n.jpg",
+                "width": 320,
+                "height": 228,
+                "is_primary": "1",
+                "image_id": "46224"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/46224_12d3c9e6f9eb5196_d.gif",
+                "width": 320,
+                "height": 228,
+                "is_primary": "1",
+                "image_id": "46224"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/46224_12d3c9e6f9eb5196_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "46224"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/2722_85b7470c821dc65d_b.jpg",
                 "width": 1024,
                 "height": 720,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/2722_85b7470c821dc65d_n.jpg",
-                "width": 320,
-                "height": 225,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "2722"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/2722_85b7470c821dc65d_z.jpg",
                 "width": 640,
                 "height": 450,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "2722"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/2722_85b7470c821dc65d_n.jpg",
+                "width": 320,
+                "height": 225,
+                "is_primary": "0",
+                "image_id": "2722"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/2722_85b7470c821dc65d_d.gif",
+                "width": 320,
+                "height": 225,
+                "is_primary": "0",
+                "image_id": "2722"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/2722_85b7470c821dc65d_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "2722"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18043865",
             "role_id": "35236685",
             "person_name": "Morris & Co.",
+            "person_date": "Merton Abbey, England, 1874\u20131896",
             "role_name": "Maker",
+            "role_display_name": "Made by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18043865\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236685\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18536879",
             "role_id": "35351535",
             "person_name": "Cowtan & Tout, Inc.",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18536879\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -92,12 +139,29 @@
     },
     "colors": [
         {
-            "color": "#ac5e4b",
-            "closest_css3": "#a0522d"
+            "color": "#953d34",
+            "closest_crayola": "#9c2542",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
+        },
+        {
+            "color": "#6c2122",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#8b4513",
+            "closest_css4": "#8b4513"
+        },
+        {
+            "color": "#b66c58",
+            "closest_crayola": "#b4674d",
+            "closest_css3": "#cd5c5c",
+            "closest_css4": "#cd5c5c"
         },
         {
             "color": "#dfcdb2",
-            "closest_css3": "#f5deb3"
+            "closest_crayola": "#efcdb8",
+            "closest_css3": "#f5deb3",
+            "closest_css4": "#f5deb3"
         }
-    ]
+    ],
+    "woe:country_name": "United Kingdom"
 }

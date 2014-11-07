@@ -3,6 +3,7 @@
     "tms:id": "222941",
     "accession_number": "2001-29-13",
     "title": "Book Cover, \"Under Western Eyes by Joseph Conrad\", 1950",
+    "title_raw": "Under Western Eyes by Joseph Conrad",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18694773\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1950,
     "year_acquired": "2001",
     "decade": "1950",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Offset lithograph on thin glossy paper",
     "markings": null,
     "signed": "Signature printed, lower right: lustig.",
     "inscribed": "Printed vertically in white ink, center: under western eyes. Printed horizontally in black ink, center: JOSEPH CONRAD.",
     "provenance": "Susan Lustig Peck; 2001: acquired by Museum",
     "dimensions": "18.4 x 13.0 cm (7 1\/4 x 5 1\/8 in. )",
+    "dimensions_raw": {
+        "height": [
+            "18.40",
+            "centimeters"
+        ],
+        "width": [
+            "13.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Susan Lustig Peck",
     "description": "Black and rust pentagons with two cream triangles. Title of book printed vertically down center.",
     "justification": null,
-    "type": {
-        "id": "35249845",
-        "name": "book cover"
-    },
+    "woe:country": "23424977",
+    "type": "book cover",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/39690_42e2180c724268d0_b.jpg",
                 "width": 726,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/39690_42e2180c724268d0_n.jpg",
-                "width": 227,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "39690"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/39690_42e2180c724268d0_z.jpg",
                 "width": 454,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "39690"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/39690_42e2180c724268d0_n.jpg",
+                "width": 227,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "39690"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/39690_42e2180c724268d0_d.gif",
+                "width": 227,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "39690"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/39690_42e2180c724268d0_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "39690"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "51676847",
             "role_id": "35236661",
             "person_name": "New Directions Books",
+            "person_date": "",
             "role_name": "Publisher",
+            "role_display_name": "Published by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/51676847\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236661\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18538541",
             "role_id": "35351535",
             "person_name": "Susan Lustig Peck",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18538541\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18043331",
             "role_id": "35236655",
             "person_name": "Alvin Lustig",
+            "person_date": "American, 1915\u20131955",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18043331\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
@@ -80,20 +112,29 @@
     },
     "colors": [
         {
-            "color": "#de4d18",
-            "closest_css3": "#d2691e"
+            "color": "#e35828",
+            "closest_crayola": "#c46210",
+            "closest_css3": "#d2691e",
+            "closest_css4": "#d2691e"
         },
         {
-            "color": "#f0e6cc",
-            "closest_css3": "#faebd7"
+            "color": "#eee5bf",
+            "closest_crayola": "#eceabe",
+            "closest_css3": "#f5deb3",
+            "closest_css4": "#f5deb3"
         },
         {
-            "color": "#2a2825",
-            "closest_css3": "#2f4f4f"
+            "color": "#d5b092",
+            "closest_crayola": "#deaa88",
+            "closest_css3": "#d2b48c",
+            "closest_css4": "#d2b48c"
         },
         {
-            "color": "#cd784c",
-            "closest_css3": "#cd853f"
+            "color": "#b8471f",
+            "closest_crayola": "#c46210",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

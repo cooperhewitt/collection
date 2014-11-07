@@ -3,6 +3,7 @@
     "tms:id": "255440",
     "accession_number": "2010-21-51",
     "title": "Poster, \"Zum Erstaunen Bin Ich Da\/jGoethe der Naturforscher\", late 20th century",
+    "title_raw": "Zum Erstaunen Bin Ich Da\/jGoethe der Naturforscher",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18758309\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 2000,
     "year_acquired": "2010",
     "decade": "1970",
-    "woe:country": "23424957",
+    "woe:country_id": "23424957",
     "medium": "Offset lithograph on wove paper",
     "markings": null,
     "signed": null,
     "inscribed": "Printed in black ink, upper left: GESTALTUNG: MATHIS FUSSLER ZURICH, SIEBDRUCK SPILLMANN",
     "provenance": "Sara and Marc Benda (acquired new and directly from designer, Mathis F\u00fcssler); 2010: acquired by Museum",
     "dimensions": "128.1 x 89.7 cm (50 7\/16 x 35 5\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "128.11",
+            "centimeters"
+        ],
+        "width": [
+            "89.69",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Sara and Marc Benda",
     "description": "Poster depicts a large gray eye with black text above: ZUM ERSTAUNEN \/ BIN ICH DA; center left: GOETHE \/ DER NATURFORSCHER; center right: 17. JUNI BIS 29. AUGUST \/ STRAUHOF, AUGUSTINERGASSE 9, 8001 ZURICH \/ DI\/MI\/FR 12-18 UHR, DO 12-21 UHR, SA\/SO 11-18 UHR, MO GESCHLOSSEN. Lower section features white text on black ground: STRAUHOF ZURICH \/ LITERATUR AUSSTELLUNGEN.",
     "justification": null,
-    "type": {
-        "id": "35238163",
-        "name": "poster"
-    },
+    "woe:country": "23424957",
+    "type": "poster",
     "images": [
         {
             "b": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/45552_5b468a745cec7cc1_b.jpg",
-                "width": 716,
+                "url": "http:\/\/images.collection.cooperhewitt.org\/45552_d3b6249832a08026_b.jpg",
+                "width": 714,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/45552_5b468a745cec7cc1_n.jpg",
-                "width": 224,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "45552"
             },
             "z": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/45552_5b468a745cec7cc1_z.jpg",
-                "width": 448,
+                "url": "http:\/\/images.collection.cooperhewitt.org\/45552_d3b6249832a08026_z.jpg",
+                "width": 446,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "45552"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/45552_d3b6249832a08026_n.jpg",
+                "width": 223,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "45552"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/45552_d3b6249832a08026_d.gif",
+                "width": 223,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "45552"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/45552_d3b6249832a08026_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "45552"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18063609",
             "role_id": "35236667",
             "person_name": "Museum Strauhof, Zurich",
+            "person_date": "Swiss",
             "role_name": "Client",
+            "role_display_name": "Client:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18063609\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236667\/"
         },
@@ -62,9 +90,21 @@
             "person_id": "18063547",
             "role_id": "35236655",
             "person_name": "Mathis F\u00fcssler",
+            "person_date": "Swiss, b. 1971",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18063547\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
+        },
+        {
+            "person_id": "68738757",
+            "role_id": "35236673",
+            "person_name": "Bea Spillman Siebdruck",
+            "person_date": "Swiss",
+            "role_name": "Printer",
+            "role_display_name": "Printed by",
+            "person_url": "http:\/\/collection.cooperhewitt.org\/people\/68738757\/",
+            "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236673\/"
         }
     ],
     "tombstone": {
@@ -72,8 +112,11 @@
     },
     "colors": [
         {
-            "color": "#ffffff",
-            "closest_css3": "#ffffff"
+            "color": "#babbbc",
+            "closest_crayola": "#b0b7c6",
+            "closest_css3": "#c0c0c0",
+            "closest_css4": "#c0c0c0"
         }
-    ]
+    ],
+    "woe:country_name": "Switzerland"
 }

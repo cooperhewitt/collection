@@ -3,6 +3,7 @@
     "tms:id": "190849",
     "accession_number": "1988-88-6",
     "title": "Textile, \"Pongo\", 1982",
+    "title_raw": "Pongo",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18632015\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,72 @@
     "year_end": 1982,
     "year_acquired": "1988",
     "decade": "1980",
-    "woe:country": "23424829",
+    "woe:country_id": "23424829",
     "medium": "Technique: screen printed on plain weave",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "Warp x Weft: 311 x 129.5 cm (10 ft. 2 7\/16 in. x 51 in.)\nRepeat H x W: 59.5 x 63 cm (23 7\/16 x 24 13\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "59.50",
+            "centimeters"
+        ],
+        "warp": [
+            "311.00",
+            "centimeters"
+        ],
+        "weft": [
+            "129.50",
+            "centimeters"
+        ],
+        "width": [
+            "63.00",
+            "centimeters"
+        ]
+    },
     "creditline": null,
     "description": "Squares and lines randomly placed on a white ground.",
     "justification": null,
-    "type": {
-        "id": "35251739",
-        "name": "textile"
-    },
+    "woe:country": "23424829",
+    "type": "textile",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/78278_ac16ab9e4cb040a7_b.jpg",
                 "width": 1024,
                 "height": 663,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/78278_ac16ab9e4cb040a7_n.jpg",
-                "width": 320,
-                "height": 207,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "78278"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/78278_ac16ab9e4cb040a7_z.jpg",
                 "width": 640,
                 "height": 414,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "78278"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/78278_ac16ab9e4cb040a7_n.jpg",
+                "width": 320,
+                "height": 207,
+                "is_primary": "1",
+                "image_id": "78278"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/78278_ac16ab9e4cb040a7_d.gif",
+                "width": 320,
+                "height": 207,
+                "is_primary": "1",
+                "image_id": "78278"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/78278_ac16ab9e4cb040a7_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "78278"
             }
         }
     ],
@@ -54,7 +88,9 @@
             "person_id": "18048019",
             "role_id": "35352245",
             "person_name": "lm",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18048019\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -62,7 +98,9 @@
             "person_id": "18045577",
             "role_id": "35236681",
             "person_name": "Stuttgarter Gardinenfabrik GmbH",
+            "person_date": "1934",
             "role_name": "Company",
+            "role_display_name": "Company:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18045577\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236681\/"
         },
@@ -70,7 +108,9 @@
             "person_id": "18045583",
             "role_id": "35236655",
             "person_name": "Verena Kiefer",
+            "person_date": "b. 1953",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18045583\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
@@ -80,5 +120,6 @@
     },
     "colors": [
 
-    ]
+    ],
+    "woe:country_name": "Germany"
 }

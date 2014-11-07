@@ -3,6 +3,7 @@
     "tms:id": "223928",
     "accession_number": "1958-98-21-a,b",
     "title": "Bonbonniere And Cover, \"Ambassador\", 1926",
+    "title_raw": "Ambassador",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18696669\/",
     "department_id": "35347497",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1926,
     "year_acquired": "1958",
     "decade": "1920",
-    "woe:country": "23424750",
+    "woe:country_id": "23424750",
     "medium": "Mold-blown muslin glass",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "1958: acquired by Museum (from Estate of Agnes M. Carpenter)",
     "dimensions": "H x W: 22.6 x 12.5 cm (8 7\/8 x 4 15\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "22.60",
+            "centimeters"
+        ],
+        "width": [
+            "12.50",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase through gift of Georgiana L. McClellan",
     "description": "Thin-walled, clear glass; (a) hemispherical bowl supported by thin stem on flat, circular foot; (b) domed cover with spherical knop on stem; rim of cover retracted, to fit snuggly in bowl.",
     "justification": null,
-    "type": {
-        "id": "35291067",
-        "name": "Bonbonniere and cover"
-    },
+    "woe:country": "23424750",
+    "type": "Bonbonniere and cover",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/61980_70353cb82b1b6f1e_b.jpg",
                 "width": 753,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/61980_70353cb82b1b6f1e_n.jpg",
-                "width": 235,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "61980"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/61980_70353cb82b1b6f1e_z.jpg",
                 "width": 470,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "61980"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/61980_70353cb82b1b6f1e_n.jpg",
+                "width": 235,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "61980"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/61980_70353cb82b1b6f1e_d.gif",
+                "width": 235,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "61980"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/61980_70353cb82b1b6f1e_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "61980"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/31491_15ee1e316be99aa1_b.jpg",
                 "width": 576,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/31491_15ee1e316be99aa1_n.jpg",
-                "width": 180,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "31491"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/31491_15ee1e316be99aa1_z.jpg",
                 "width": 360,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "31491"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/31491_15ee1e316be99aa1_n.jpg",
+                "width": 180,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "31491"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/31491_15ee1e316be99aa1_d.gif",
+                "width": 180,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "31491"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/31491_15ee1e316be99aa1_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "31491"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18050055",
             "role_id": "51571025",
             "person_name": "Georgiana L. McClellan",
+            "person_date": "",
             "role_name": "Funder",
+            "role_display_name": "Purchased with funds from:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18050055\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/51571025\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18042537",
             "role_id": "35236655",
             "person_name": "Oswald Haerdtl",
+            "person_date": "Austrian, 1899\u20131959",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18042537\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -90,7 +137,9 @@
             "person_id": "18055985",
             "role_id": "35352249",
             "person_name": "Estate of Agnes M. Carpenter",
+            "person_date": "",
             "role_name": "Vendor",
+            "role_display_name": "Purchased from",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18055985\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352249\/"
         },
@@ -98,7 +147,9 @@
             "person_id": "18045401",
             "role_id": "35236657",
             "person_name": "J. and L. Lobmeyr",
+            "person_date": "",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18045401\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         }
@@ -108,8 +159,11 @@
     },
     "colors": [
         {
-            "color": "#9b9a99",
-            "closest_css3": "#a9a9a9"
+            "color": "#ffffff",
+            "closest_crayola": "#ffffff",
+            "closest_css3": "#ffffff",
+            "closest_css4": "#ffffff"
         }
-    ]
+    ],
+    "woe:country_name": "Austria"
 }

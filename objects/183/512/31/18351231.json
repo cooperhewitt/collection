@@ -3,6 +3,7 @@
     "tms:id": "59140",
     "accession_number": "1938-57-891",
     "title": "Painting, \"Portrait of Sarah Amelia Cooper\", 1893",
+    "title_raw": "Portrait of Sarah Amelia Cooper",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18351231\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1893,
     "year_acquired": "1938",
     "decade": null,
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Oil on canvas",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "Erskine Hewitt; 1938: acquired by Museum",
     "dimensions": "(framed): 92 x 63 cm (36 1\/4 x 24 13\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "92.00",
+            "centimeters"
+        ],
+        "width": [
+            "63.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Bequest of Erskine Hewitt",
     "description": "Portrait bust of a woman in a white bonnet, wearing a pink fur-lined robe with white ruffles, in oval trompe l\u2019oeil frame.",
     "justification": null,
-    "type": {
-        "id": "35248229",
-        "name": "painting"
-    },
+    "woe:country": "23424977",
+    "type": "painting",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/63067_6d95773d04fa55ae_b.jpg",
                 "width": 701,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/63067_6d95773d04fa55ae_n.jpg",
-                "width": 219,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "63067"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/63067_6d95773d04fa55ae_z.jpg",
                 "width": 438,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "63067"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/63067_6d95773d04fa55ae_n.jpg",
+                "width": 219,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "63067"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/63067_6d95773d04fa55ae_d.gif",
+                "width": 219,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "63067"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/63067_6d95773d04fa55ae_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "63067"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18062107",
             "role_id": "35236761",
             "person_name": "B. C. Porter",
+            "person_date": "American",
             "role_name": "Painter",
+            "role_display_name": "Painted by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18062107\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236761\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18050021",
             "role_id": "35351537",
             "person_name": "Erskine Hewitt",
+            "person_date": "American, 1871\u20131938",
             "role_name": "Bequestor",
+            "role_display_name": "Bequest of",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18050021\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351537\/"
         }
@@ -72,24 +102,35 @@
     },
     "colors": [
         {
-            "color": "#4e482c",
-            "closest_css3": "#556b2f"
+            "color": "#524b2e",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         },
         {
-            "color": "#6b502c",
-            "closest_css3": "#556b2f"
+            "color": "#363226",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#323025",
-            "closest_css3": "#2f4f4f"
+            "color": "#74542f",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         },
         {
             "color": "#94733b",
-            "closest_css3": "#a0522d"
+            "closest_crayola": "#9c7c38",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         },
         {
-            "color": "#c8a45a",
-            "closest_css3": "#bdb76b"
+            "color": "#503924",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

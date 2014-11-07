@@ -3,6 +3,7 @@
     "tms:id": "176319",
     "accession_number": "1980-70-1",
     "title": "Scenic - Panel, \"Garden Court\", 1979",
+    "title_raw": "Garden Court",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18615585\/",
     "department_id": "35347503",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1979,
     "year_acquired": "1980",
     "decade": "1970",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Screen-printed, rag paper",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "244 x 183 cm (96 1\/16 x 72 1\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "244.00",
+            "centimeters"
+        ],
+        "width": [
+            "183.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of John Elmo",
     "description": "Design of architectural interior of a garden court (like the Frick). The courtyard contains a fountain with cement frogs, ionic columns, flowers and plants, hanging lanterns and a glass atrium.",
     "justification": null,
-    "type": {
-        "id": "35287557",
-        "name": "Scenic - panel"
-    },
+    "woe:country": "23424977",
+    "type": "Scenic - panel",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/44777_226915be5699b888_b.jpg",
                 "width": 758,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/44777_226915be5699b888_n.jpg",
-                "width": 237,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "44777"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/44777_226915be5699b888_z.jpg",
                 "width": 474,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "44777"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/44777_226915be5699b888_n.jpg",
+                "width": 237,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "44777"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/44777_226915be5699b888_d.gif",
+                "width": 237,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "44777"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/44777_226915be5699b888_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "44777"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "35351017",
             "role_id": "35236565",
             "person_name": "Richard Haas",
+            "person_date": "American, b. 1936",
             "role_name": "Artist",
+            "role_display_name": "",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/35351017\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236565\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18047399",
             "role_id": "35352245",
             "person_name": "Gregory Herringshaw",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047399\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18047853",
             "role_id": "35352245",
             "person_name": "Ann Hysa Dorfsman",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047853\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -78,7 +110,9 @@
             "person_id": "18046399",
             "role_id": "35236671",
             "person_name": "Chromacomp Inc.",
+            "person_date": "",
             "role_name": "Producer",
+            "role_display_name": "Produced by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18046399\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236671\/"
         },
@@ -86,7 +120,9 @@
             "person_id": "18046397",
             "role_id": "35236661",
             "person_name": "Summa Artworks, Ltd.",
+            "person_date": "",
             "role_name": "Publisher",
+            "role_display_name": "Published by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18046397\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236661\/"
         }
@@ -96,12 +132,23 @@
     },
     "colors": [
         {
-            "color": "#cebb99",
-            "closest_css3": "#d2b48c"
+            "color": "#cfcbc4",
+            "closest_crayola": "#cdc5c2",
+            "closest_css3": "#d3d3d3",
+            "closest_css4": "#d3d3d3"
         },
         {
-            "color": "#758872",
-            "closest_css3": "#808080"
+            "color": "#baab92",
+            "closest_crayola": "#deaa88",
+            "closest_css3": "#d2b48c",
+            "closest_css4": "#d2b48c"
+        },
+        {
+            "color": "#768a72",
+            "closest_crayola": "#757575",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

@@ -3,6 +3,7 @@
     "tms:id": "112554",
     "accession_number": "1955-61-2",
     "title": "Sample, \"Fantasy\", 1950\u201355",
+    "title_raw": "Fantasy",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18404739\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1955,
     "year_acquired": "1955",
     "decade": "1950",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Medium: Warp: acetate, cotton, viscose, metallic, jute; weft: cotton, mohair, viscose\nTechnique: plain weave",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "Warp x Weft: 66 x 64.1 cm (26 x 25 1\/4 in.)",
+    "dimensions_raw": {
+        "warp": [
+            "66.00",
+            "centimeters"
+        ],
+        "weft": [
+            "64.14",
+            "centimeters"
+        ]
+    },
     "creditline": null,
     "description": "A suble horizontal stripe created by using wefts in various shades and textures of gold and small amounts of black.",
     "justification": null,
-    "type": {
-        "id": "35268079",
-        "name": "Sample"
-    },
+    "woe:country": "23424977",
+    "type": "Sample",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/43773_c4091f912a0abfc2_b.jpg",
                 "width": 1024,
                 "height": 1004,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/43773_c4091f912a0abfc2_n.jpg",
-                "width": 320,
-                "height": 314,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "43773"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/43773_c4091f912a0abfc2_z.jpg",
                 "width": 640,
                 "height": 628,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "43773"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/43773_c4091f912a0abfc2_n.jpg",
+                "width": 320,
+                "height": 314,
+                "is_primary": "1",
+                "image_id": "43773"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/43773_c4091f912a0abfc2_d.gif",
+                "width": 320,
+                "height": 314,
+                "is_primary": "1",
+                "image_id": "43773"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/43773_c4091f912a0abfc2_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "43773"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/18319_4a6f5999674fee34_b.jpg",
                 "width": 1024,
                 "height": 677,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/18319_4a6f5999674fee34_n.jpg",
-                "width": 320,
-                "height": 211,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "18319"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/18319_4a6f5999674fee34_z.jpg",
                 "width": 640,
                 "height": 423,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "18319"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/18319_4a6f5999674fee34_n.jpg",
+                "width": 320,
+                "height": 211,
+                "is_primary": "0",
+                "image_id": "18319"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/18319_4a6f5999674fee34_d.gif",
+                "width": 320,
+                "height": 211,
+                "is_primary": "0",
+                "image_id": "18319"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/18319_4a6f5999674fee34_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "18319"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18040903",
             "role_id": "35236655",
             "person_name": "Jack Lenor Larsen",
+            "person_date": "American, b. 1927",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18040903\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18045519",
             "role_id": "35236671",
             "person_name": "Jack Lenor Larsen Inc. (New York, NY)",
+            "person_date": "",
             "role_name": "Producer",
+            "role_display_name": "Produced by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18045519\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236671\/"
         }
@@ -92,24 +139,35 @@
     },
     "colors": [
         {
-            "color": "#c69937",
-            "closest_css3": "#cd853f"
+            "color": "#a47e3a",
+            "closest_crayola": "#9c7c38",
+            "closest_css3": "#cd853f",
+            "closest_css4": "#cd853f"
         },
         {
-            "color": "#a67b2b",
-            "closest_css3": "#b8860b"
+            "color": "#cba54d",
+            "closest_crayola": "#d68a59",
+            "closest_css3": "#cd853f",
+            "closest_css4": "#cd853f"
         },
         {
-            "color": "#7c673b",
-            "closest_css3": "#556b2f"
+            "color": "#785d2d",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         },
         {
-            "color": "#624a25",
-            "closest_css3": "#556b2f"
+            "color": "#56472a",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         },
         {
-            "color": "#d5ba75",
-            "closest_css3": "#deb887"
+            "color": "#312b1e",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

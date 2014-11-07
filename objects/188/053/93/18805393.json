@@ -3,6 +3,7 @@
     "tms:id": "182987",
     "accession_number": "1985-52-1",
     "title": "Textile, \"Apollo\", ca. 1915",
+    "title_raw": "Apollo",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18805393\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,101 @@
     "year_end": 1925,
     "year_acquired": "1985",
     "decade": "1900",
-    "woe:country": "23424750",
+    "woe:country_id": "23424750",
     "medium": "Medium: linen\nTechnique:  block printed on plain weave",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "H x W: 101 x 67.3 cm (39 3\/4 x 26 1\/2 in.)\nRepeat: 24.4 x 7.9 cm (9 5\/8 x 3 1\/8 in.)",
+    "dimensions_raw": {
+        "height": [
+            "100.97",
+            "centimeters"
+        ],
+        "width": [
+            "67.31",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase through General Acquisitions Endowment Fund",
     "description": "Printed linen with a dense pattern of black leaves and orange bell-shaped flowers on a white ground.",
     "justification": null,
-    "type": {
-        "id": "35251739",
-        "name": "textile"
-    },
+    "woe:country": "23424750",
+    "type": "textile",
     "images": [
+        {
+            "b": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/89766_61c6af7102af8777_b.jpg",
+                "width": 658,
+                "height": 1024,
+                "is_primary": "1",
+                "image_id": "89766"
+            },
+            "z": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/89766_61c6af7102af8777_z.jpg",
+                "width": 411,
+                "height": 640,
+                "is_primary": "1",
+                "image_id": "89766"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/89766_61c6af7102af8777_n.jpg",
+                "width": 206,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "89766"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/89766_61c6af7102af8777_d.gif",
+                "width": 206,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "89766"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/89766_61c6af7102af8777_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "89766"
+            }
+        },
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/10281_c900277b23a7f053_b.jpg",
                 "width": 655,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/10281_c900277b23a7f053_n.jpg",
-                "width": 205,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "10281"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/10281_c900277b23a7f053_z.jpg",
                 "width": 409,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "10281"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/10281_c900277b23a7f053_n.jpg",
+                "width": 205,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "10281"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/10281_c900277b23a7f053_d.gif",
+                "width": 205,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "10281"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/10281_c900277b23a7f053_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "10281"
             }
         }
     ],
@@ -54,7 +117,9 @@
             "person_id": "18046353",
             "role_id": "35236655",
             "person_name": "Josef Hoffmann",
+            "person_date": "Austrian, b. Moravia, present-day Czech Republic, 1891\u20131955",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18046353\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -62,7 +127,9 @@
             "person_id": "18539229",
             "role_id": "35352249",
             "person_name": "Galerie Ruf",
+            "person_date": "",
             "role_name": "Vendor",
+            "role_display_name": "Purchased from",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18539229\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352249\/"
         },
@@ -70,7 +137,9 @@
             "person_id": "18048535",
             "role_id": "35352247",
             "person_name": "General Acquisitions Endowment",
+            "person_date": "",
             "role_name": "Fund",
+            "role_display_name": "Fund:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18048535\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352247\/"
         },
@@ -78,7 +147,9 @@
             "person_id": "18047497",
             "role_id": "35352245",
             "person_name": "Milton Sonday",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047497\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         }
@@ -88,5 +159,6 @@
     },
     "colors": [
 
-    ]
+    ],
+    "woe:country_name": "Austria"
 }

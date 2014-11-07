@@ -3,6 +3,7 @@
     "tms:id": "200732",
     "accession_number": "1995-50-68",
     "title": "Fragment, \"\"L'Escarpolette\" (The swing)\", 1783\u201389",
+    "title_raw": "\"L'Escarpolette\" (The swing)",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18651581\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1872,
     "year_acquired": "1995",
     "decade": null,
-    "woe:country": "23424819",
+    "woe:country_id": "23424819",
     "medium": "Medium: cotton \nTechnique: printed by engraved plate on plain weave foundation",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "Warp x Weft: 72 x 90 cm (28 3\/8 x 35 7\/16 in.)",
+    "dimensions_raw": {
+        "warp": [
+            "72.00",
+            "centimeters"
+        ],
+        "weft": [
+            "90.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Bequest of Elinor Merrell",
     "description": "Pastoral figures and trophies with birds and animals. Central scene is a woman on a swing framed by two female herms. The swing is pulled by a string held by a young man. In red on white.",
     "justification": null,
-    "type": {
-        "id": "35254623",
-        "name": "Fragment"
-    },
+    "woe:country": "23424819",
+    "type": "Fragment",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/79402_9faa1ae5153de784_b.jpg",
                 "width": 1024,
                 "height": 699,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/79402_9faa1ae5153de784_n.jpg",
-                "width": 320,
-                "height": 218,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "79402"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/79402_9faa1ae5153de784_z.jpg",
                 "width": 640,
                 "height": 437,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "79402"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/79402_9faa1ae5153de784_n.jpg",
+                "width": 320,
+                "height": 218,
+                "is_primary": "1",
+                "image_id": "79402"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/79402_9faa1ae5153de784_d.gif",
+                "width": 320,
+                "height": 218,
+                "is_primary": "1",
+                "image_id": "79402"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/79402_9faa1ae5153de784_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "79402"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18049427",
             "role_id": "35351537",
             "person_name": "Elinor Merrell",
+            "person_date": "",
             "role_name": "Bequestor",
+            "role_display_name": "Bequest of",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049427\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351537\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18045425",
             "role_id": "35236681",
             "person_name": "Oberkampf & Cie.",
+            "person_date": "Jouy-en-Josas, France, 1759 \u2013 1815",
             "role_name": "Company",
+            "role_display_name": "Company:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18045425\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236681\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18045567",
             "role_id": "35236655",
             "person_name": "Jean-Baptiste Hu\u00ebt",
+            "person_date": "1745 \u2013 1811",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18045567\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
@@ -80,5 +112,6 @@
     },
     "colors": [
 
-    ]
+    ],
+    "woe:country_name": "France"
 }

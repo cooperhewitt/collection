@@ -2,7 +2,8 @@
     "id": "18439653",
     "tms:id": "130296",
     "accession_number": "1961-5-19",
-    "title": "Drawing, \"Beach scene (Saint Tropez?)\", ca. 1938",
+    "title": "Drawing, \"Beach Scene (Saint Tropez?)\", ca. 1938",
+    "title_raw": "Beach scene (Saint Tropez?)",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18439653\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1943,
     "year_acquired": "1961",
     "decade": "1930",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Graphite, brush and watercolor on paper",
     "markings": null,
     "signed": "Signed in blue-gray ink, lower left: Leon Dabo; in blue ink, verso: artist's stamp.",
     "inscribed": null,
     "provenance": "Mrs. Leon Dabo",
     "dimensions": "25.2 x 35.4 cm (9 15\/16 x 13 15\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "25.20",
+            "centimeters"
+        ],
+        "width": [
+            "35.40",
+            "centimeters"
+        ]
+    },
     "creditline": null,
     "description": "View across beach with various colored dunes. Sailing ships in distance.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424977",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/42457_42de3d0134a6ca13_b.jpg",
                 "width": 1024,
                 "height": 729,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/42457_42de3d0134a6ca13_n.jpg",
-                "width": 320,
-                "height": 228,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "42457"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/42457_42de3d0134a6ca13_z.jpg",
                 "width": 640,
                 "height": 456,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "42457"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/42457_42de3d0134a6ca13_n.jpg",
+                "width": 320,
+                "height": 228,
+                "is_primary": "1",
+                "image_id": "42457"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/42457_42de3d0134a6ca13_d.gif",
+                "width": 320,
+                "height": 228,
+                "is_primary": "1",
+                "image_id": "42457"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/42457_42de3d0134a6ca13_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "42457"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "51676457",
             "role_id": "35352245",
             "person_name": "Karin Zonis",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/51676457\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18053077",
             "role_id": "35351535",
             "person_name": "Mrs. Leon Dabo",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18053077\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -70,18 +100,23 @@
             "person_id": "18053079",
             "role_id": "35236565",
             "person_name": "Leon Dabo",
+            "person_date": "1868\u20131960",
             "role_name": "Artist",
+            "role_display_name": "",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18053079\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236565\/"
         }
     ],
     "tombstone": {
-        "epitaph": "Drawing, \"Beach scene (Saint Tropez?)\", ca. 1938. Graphite, brush and watercolor on paper. 1961-5-19."
+        "epitaph": "Drawing, \"Beach Scene (Saint Tropez?)\", ca. 1938. Graphite, brush and watercolor on paper. 1961-5-19."
     },
     "colors": [
         {
-            "color": "#aeaba5",
-            "closest_css3": "#a9a9a9"
+            "color": "#eee3cd",
+            "closest_crayola": "#efdecd",
+            "closest_css3": "#faebd7",
+            "closest_css4": "#faebd7"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

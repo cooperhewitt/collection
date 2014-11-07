@@ -3,6 +3,7 @@
     "tms:id": "10881",
     "accession_number": "1901-39-712",
     "title": "Drawing, \"Project for the Port of Ajaccio, Corsica\", late 18th\u2013early 19th century",
+    "title_raw": "Project for the Port of Ajaccio, Corsica",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18128037\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": null,
     "year_acquired": "1901",
     "decade": null,
-    "woe:country": "23424853",
+    "woe:country_id": "23424853",
     "medium": "Pen and brown ink, brush and brown wash on blued-white laid paper",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "Piancastelli; Mrs. Edward D. Brandegee; 1901: acquired by Museum",
     "dimensions": "Image: 23.4 x 34.9 cm (9 3\/16 x 13 3\/4 in.)\nMat: 35.6 x 46 cm (14 in. x 18 1\/8 in.)",
+    "dimensions_raw": {
+        "height": [
+            "35.60",
+            "centimeters"
+        ],
+        "width": [
+            "46.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase through gift of various donors",
     "description": "Landscape with large column at center, and boats on water near shore; buildings in the background.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424853",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/82633_be2618d29e8012a0_b.jpg",
                 "width": 1024,
                 "height": 682,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/82633_be2618d29e8012a0_n.jpg",
-                "width": 320,
-                "height": 213,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "82633"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/82633_be2618d29e8012a0_z.jpg",
                 "width": 640,
                 "height": 426,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "82633"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/82633_be2618d29e8012a0_n.jpg",
+                "width": 320,
+                "height": 213,
+                "is_primary": "1",
+                "image_id": "82633"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/82633_be2618d29e8012a0_d.gif",
+                "width": 320,
+                "height": 213,
+                "is_primary": "1",
+                "image_id": "82633"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/82633_be2618d29e8012a0_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "82633"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/770_14363d05bfba6eea_b.jpg",
                 "width": 1024,
                 "height": 687,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/770_14363d05bfba6eea_n.jpg",
-                "width": 320,
-                "height": 215,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "770"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/770_14363d05bfba6eea_z.jpg",
                 "width": 640,
                 "height": 429,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "770"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/770_14363d05bfba6eea_n.jpg",
+                "width": 320,
+                "height": 215,
+                "is_primary": "0",
+                "image_id": "770"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/770_14363d05bfba6eea_d.gif",
+                "width": 320,
+                "height": 215,
+                "is_primary": "0",
+                "image_id": "770"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/770_14363d05bfba6eea_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "770"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18041999",
             "role_id": "35236663",
             "person_name": "Giuseppe Barberi",
+            "person_date": "Italian, 1746\u20131809",
             "role_name": "Architect",
+            "role_display_name": "Architect:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041999\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236663\/"
         }
@@ -84,16 +129,23 @@
     },
     "colors": [
         {
-            "color": "#baa485",
-            "closest_css3": "#bc8f8f"
+            "color": "#b9a487",
+            "closest_crayola": "#cd9575",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         },
         {
-            "color": "#957b5e",
-            "closest_css3": "#808080"
+            "color": "#7c6650",
+            "closest_crayola": "#85754e",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#755e4a",
-            "closest_css3": "#696969"
+            "color": "#9c8468",
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         }
-    ]
+    ],
+    "woe:country_name": "Italy"
 }

@@ -3,6 +3,7 @@
     "tms:id": "74893",
     "accession_number": "1941-37-1",
     "title": "Textile, \"The Sun Chariot\", ca. 1760",
+    "title_raw": "The Sun Chariot",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18563381\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1770,
     "year_acquired": "1941",
     "decade": null,
-    "woe:country": "23424819",
+    "woe:country_id": "23424819",
     "medium": "Medium: silk\nTechnique: compound weave with discontinuous supplementary weft (brocading)",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "Warp x Weft: 94 x 33.5 cm (37 x 13 3\/16 in.)",
+    "dimensions_raw": {
+        "warp": [
+            "94.00",
+            "centimeters"
+        ],
+        "weft": [
+            "33.50",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase through gift of Mrs. John Innes Kane",
     "description": "A small two-wheeled chariot filled with flowers, drawn by a white horse across clouds and the bursting rays of the sun. A white scroll trails behind the chariot, serving as a base for a tent and a cluster of flowers. Brocaded in white, blue, green, pink, and brown on a turquoise ground. This unit is repeated in offset horizontal rows, alternating direction.",
     "justification": null,
-    "type": {
-        "id": "35251739",
-        "name": "textile"
-    },
+    "woe:country": "23424819",
+    "type": "textile",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/4013_9b76692480f3667f_b.jpg",
                 "width": 1024,
                 "height": 793,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/4013_9b76692480f3667f_n.jpg",
-                "width": 320,
-                "height": 248,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "4013"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/4013_9b76692480f3667f_z.jpg",
                 "width": 640,
                 "height": 496,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "4013"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/4013_9b76692480f3667f_n.jpg",
+                "width": 320,
+                "height": 248,
+                "is_primary": "1",
+                "image_id": "4013"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/4013_9b76692480f3667f_d.gif",
+                "width": 320,
+                "height": 248,
+                "is_primary": "1",
+                "image_id": "4013"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/4013_9b76692480f3667f_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "4013"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/70576_b8d3971cd2db3e8b_b.jpg",
                 "width": 1024,
                 "height": 663,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/70576_b8d3971cd2db3e8b_n.jpg",
-                "width": 320,
-                "height": 207,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "70576"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/70576_b8d3971cd2db3e8b_z.jpg",
                 "width": 640,
                 "height": 414,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "70576"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/70576_b8d3971cd2db3e8b_n.jpg",
+                "width": 320,
+                "height": 207,
+                "is_primary": "0",
+                "image_id": "70576"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/70576_b8d3971cd2db3e8b_d.gif",
+                "width": 320,
+                "height": 207,
+                "is_primary": "0",
+                "image_id": "70576"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/70576_b8d3971cd2db3e8b_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "70576"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18052467",
             "role_id": "35352249",
             "person_name": "Estate of Herman A. Elsberg",
+            "person_date": "",
             "role_name": "Vendor",
+            "role_display_name": "Purchased from",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18052467\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352249\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18538087",
             "role_id": "35352245",
             "person_name": "Alvena V. Seckar",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18538087\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         }
@@ -92,20 +139,35 @@
     },
     "colors": [
         {
-            "color": "#d8b39f",
-            "closest_css3": "#d2b48c"
+            "color": "#d2a996",
+            "closest_crayola": "#deaa88",
+            "closest_css3": "#d2b48c",
+            "closest_css4": "#d2b48c"
         },
         {
-            "color": "#905e45",
-            "closest_css3": "#a0522d"
+            "color": "#975944",
+            "closest_crayola": "#a5694f",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         },
         {
-            "color": "#262a29",
-            "closest_css3": "#2f4f4f"
+            "color": "#2a2d2a",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#6c3c31",
-            "closest_css3": "#8b4513"
+            "color": "#cb9062",
+            "closest_crayola": "#d68a59",
+            "closest_css3": "#cd853f",
+            "closest_css4": "#cd853f"
+        },
+        {
+            "color": "#563933",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         }
-    ]
+    ],
+    "woe:country_name": "France"
 }

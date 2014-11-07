@@ -3,6 +3,7 @@
     "tms:id": "220226",
     "accession_number": "2000-62-2",
     "title": "Sidewall, \"Acorn\", 2000",
+    "title_raw": "Acorn",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18689421\/",
     "department_id": "35347503",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 2000,
     "year_acquired": "2000",
     "decade": "2000",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Digitally printed",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "195.6 x 78.7 cm (77 x 31 in. )",
+    "dimensions_raw": {
+        "height": [
+            "195.60",
+            "centimeters"
+        ],
+        "width": [
+            "78.70",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Francesco Simeti",
     "description": "Images of toxic waste removal cut and pasted from newspaper, printed in traditional-style print room paper.",
     "justification": null,
-    "type": {
-        "id": "35256475",
-        "name": "Sidewall"
-    },
+    "woe:country": "23424977",
+    "type": "Sidewall",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/41733_1ff21125592185e8_b.jpg",
                 "width": 591,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/41733_1ff21125592185e8_n.jpg",
-                "width": 185,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "41733"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/41733_1ff21125592185e8_z.jpg",
                 "width": 369,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "41733"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/41733_1ff21125592185e8_n.jpg",
+                "width": 185,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "41733"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/41733_1ff21125592185e8_d.gif",
+                "width": 185,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "41733"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/41733_1ff21125592185e8_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "41733"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18054053",
             "role_id": "35236655",
             "person_name": "Francesco Simeti",
+            "person_date": "b. 1968, Italy",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18054053\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18054053",
             "role_id": "35351535",
             "person_name": "Francesco Simeti",
+            "person_date": "b. 1968, Italy",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18054053\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -72,16 +102,29 @@
     },
     "colors": [
         {
-            "color": "#9da193",
-            "closest_css3": "#a9a9a9"
+            "color": "#a4a295",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
         },
         {
-            "color": "#474542",
-            "closest_css3": "#2f4f4f"
+            "color": "#747467",
+            "closest_crayola": "#757575",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#716f60",
-            "closest_css3": "#696969"
+            "color": "#4a4944",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
+        },
+        {
+            "color": "#9db2ab",
+            "closest_crayola": "#979aaa",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

@@ -3,6 +3,7 @@
     "tms:id": "75293",
     "accession_number": "1941-69-225",
     "title": "Sampler, 1816",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18564181\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1816,
     "year_acquired": "1941",
     "decade": null,
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Medium: silk embroidery on linen foundation\nTechnique: embroidered in cross, tent and satin stitches on plain weave foundation",
     "markings": null,
     "signed": null,
     "inscribed": "Eliza Steelman's work Greenwich School 1816",
     "provenance": "By 1941, Mrs. Henry E. Coe (Eva Johnston Coe)\n1941, Museum for the Arts of Decoration of the Cooper Union",
     "dimensions": "H x W: 53.3 x 54.5 cm (21 x 21 7\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "53.30",
+            "centimeters"
+        ],
+        "width": [
+            "54.50",
+            "centimeters"
+        ]
+    },
     "creditline": "Bequest of Mrs. Henry E. Coe",
     "description": "Scene showing a house flanked by two trees, a garden with a fence, a dog, birds and butterflies. Surrounded by a rose border and inscription.",
     "justification": null,
-    "type": {
-        "id": "35256439",
-        "name": "Sampler"
-    },
+    "woe:country": "23424977",
+    "type": "Sampler",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/36052_40757a62e46776ff_b.jpg",
                 "width": 1024,
                 "height": 974,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/36052_40757a62e46776ff_n.jpg",
-                "width": 320,
-                "height": 304,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "36052"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/36052_40757a62e46776ff_z.jpg",
                 "width": 640,
                 "height": 609,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "36052"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/36052_40757a62e46776ff_n.jpg",
+                "width": 320,
+                "height": 304,
+                "is_primary": "1",
+                "image_id": "36052"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/36052_40757a62e46776ff_d.gif",
+                "width": 320,
+                "height": 304,
+                "is_primary": "1",
+                "image_id": "36052"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/36052_40757a62e46776ff_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "36052"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/27849_f9321dac733b17db_b.jpg",
                 "width": 1024,
                 "height": 952,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/27849_f9321dac733b17db_n.jpg",
-                "width": 320,
-                "height": 298,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "27849"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/27849_f9321dac733b17db_z.jpg",
                 "width": 640,
                 "height": 595,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "27849"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/27849_f9321dac733b17db_n.jpg",
+                "width": 320,
+                "height": 298,
+                "is_primary": "0",
+                "image_id": "27849"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/27849_f9321dac733b17db_d.gif",
+                "width": 320,
+                "height": 298,
+                "is_primary": "0",
+                "image_id": "27849"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/27849_f9321dac733b17db_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "27849"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18062681",
             "role_id": "35236793",
             "person_name": "Greenwich School",
+            "person_date": "",
             "role_name": "Student at",
+            "role_display_name": "Student at",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18062681\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236793\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18061397",
             "role_id": "35236583",
             "person_name": "Eliza Steelman, American",
+            "person_date": "",
             "role_name": "Embroiderer",
+            "role_display_name": "Embroidered by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18061397\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236583\/"
         },
@@ -90,7 +137,9 @@
             "person_id": "18052567",
             "role_id": "35351537",
             "person_name": "Mrs. Henry E. Coe",
+            "person_date": "",
             "role_name": "Bequestor",
+            "role_display_name": "Bequest of",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18052567\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351537\/"
         }
@@ -100,24 +149,35 @@
     },
     "colors": [
         {
-            "color": "#c1975f",
-            "closest_css3": "#bdb76b"
+            "color": "#a0794d",
+            "closest_crayola": "#a5694f",
+            "closest_css3": "#cd853f",
+            "closest_css4": "#cd853f"
         },
         {
-            "color": "#e5d3b5",
-            "closest_css3": "#f5deb3"
+            "color": "#82603a",
+            "closest_crayola": "#85754e",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         },
         {
-            "color": "#9a7a4e",
-            "closest_css3": "#a0522d"
+            "color": "#6b6c56",
+            "closest_crayola": "#85754e",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#7a522d",
-            "closest_css3": "#8b4513"
+            "color": "#8d8b6f",
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#47301a",
-            "closest_css3": "#556b2f"
+            "color": "#e2cca9",
+            "closest_crayola": "#edd19c",
+            "closest_css3": "#f5deb3",
+            "closest_css4": "#f5deb3"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

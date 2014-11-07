@@ -3,6 +3,7 @@
     "tms:id": "111137",
     "accession_number": "1955-100-1",
     "title": "Cushion Cover, 1800\u20131815",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18401917\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": "1815",
     "year_acquired": "1955",
     "decade": null,
-    "woe:country": "23424975",
+    "woe:country_id": "23424975",
     "medium": "Medium: cotton\nTechnique: supplementary warp pile (velvet), printed",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "H x W: 45.1 x 39 cm (17 3\/4 x 15 3\/8 in.)",
+    "dimensions_raw": {
+        "height": [
+            "45.09",
+            "centimeters"
+        ],
+        "width": [
+            "39.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Mrs. Montgomery Hare",
     "description": "Cushion cover of printed cotton velvet showing a woman in Directoire dress and bonnet, leaning on a parasol. In shades of rosy reds and tans on a blue-green ground, with narrow scrolling acanthus border.",
     "justification": null,
-    "type": {
-        "id": "35251291",
-        "name": "cushion cover"
-    },
+    "woe:country": "23424975",
+    "type": "cushion cover",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/46704_16cf0c738985cb51_b.jpg",
                 "width": 862,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/46704_16cf0c738985cb51_n.jpg",
-                "width": 269,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "46704"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/46704_16cf0c738985cb51_z.jpg",
                 "width": 539,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "46704"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/46704_16cf0c738985cb51_n.jpg",
+                "width": 269,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "46704"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/46704_16cf0c738985cb51_d.gif",
+                "width": 269,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "46704"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/46704_16cf0c738985cb51_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "46704"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/18335_cc7b5756aa97d17e_b.jpg",
                 "width": 892,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/18335_cc7b5756aa97d17e_n.jpg",
-                "width": 279,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "18335"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/18335_cc7b5756aa97d17e_z.jpg",
                 "width": 558,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "18335"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/18335_cc7b5756aa97d17e_n.jpg",
+                "width": 279,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "18335"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/18335_cc7b5756aa97d17e_d.gif",
+                "width": 279,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "18335"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/18335_cc7b5756aa97d17e_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "18335"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18052551",
             "role_id": "35351535",
             "person_name": "Mrs. Montgomery Hare",
+            "person_date": "American, b. 1873",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18052551\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -85,23 +130,34 @@
     "colors": [
         {
             "color": "#71522f",
-            "closest_css3": "#556b2f"
+            "closest_crayola": "#714b23",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         },
         {
             "color": "#8f6e40",
-            "closest_css3": "#a0522d"
+            "closest_crayola": "#85754e",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         },
         {
             "color": "#485b55",
-            "closest_css3": "#2f4f4f"
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#693624",
-            "closest_css3": "#8b4513"
+            "color": "#6a3625",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#8b4513",
+            "closest_css4": "#8b4513"
         },
         {
-            "color": "#cfccc4",
-            "closest_css3": "#d3d3d3"
+            "color": "#635f47",
+            "closest_crayola": "#6e5160",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         }
-    ]
+    ],
+    "woe:country_name": "United Kingdom"
 }

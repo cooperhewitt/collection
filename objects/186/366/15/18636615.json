@@ -3,6 +3,7 @@
     "tms:id": "193158",
     "accession_number": "1991-58-12",
     "title": "Drawing, \"Le Jardin de L'Aviator (Ground Plan for an Aviator's Garden)\", ca. 1914",
+    "title_raw": "Le Jardin de L'Aviator (Ground Plan for an Aviator's Garden)",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18636615\/",
     "department_id": "35347493",
     "period_id": "35417251",
@@ -13,39 +14,64 @@
     "year_end": 1919,
     "year_acquired": "1991",
     "decade": "1900",
-    "woe:country": "23424819",
+    "woe:country_id": "23424819",
     "medium": "Black crayon, charcoal [partially erased], graphite, brush and black ink on cream tracing paper",
     "markings": null,
     "signed": null,
     "inscribed": "Inscribed in charcoal, upper margin: chemin particulier; upper left margin: Hangar - - Garage; lower margin: CHAMP\/D'Aviation",
     "provenance": "Yu-Chee Chong Fine Art, London",
     "dimensions": "52.9 x 42.1 cm (20 13\/16 x 16 9\/16 in. )",
-    "creditline": null,
+    "dimensions_raw": {
+        "height": [
+            "52.90",
+            "centimeters"
+        ],
+        "width": [
+            "42.10",
+            "centimeters"
+        ]
+    },
+    "creditline": "Museum purchase from Smithsonian Institution Collections Acquisition Program Fund",
     "description": "Ground plan of a formal garden designed with large center section flanked with narrower borders. Area of house is designated by the black square at top right surrounded by smaller garden plots. Along left side, designated areas for tennis court and airplane hangar. A road is suggested across top of sheet.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424819",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/42633_063a29672a34607f_b.jpg",
                 "width": 822,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/42633_063a29672a34607f_n.jpg",
-                "width": 257,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "42633"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/42633_063a29672a34607f_z.jpg",
                 "width": 513,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "42633"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/42633_063a29672a34607f_n.jpg",
+                "width": 257,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "42633"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/42633_063a29672a34607f_d.gif",
+                "width": 257,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "42633"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/42633_063a29672a34607f_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "42633"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "51676457",
             "role_id": "35352245",
             "person_name": "Karin Zonis",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/51676457\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18043123",
             "role_id": "35236669",
             "person_name": "Paul Vera",
+            "person_date": "French, 1882\u20131957; active in Paris",
             "role_name": "Draftsman",
+            "role_display_name": "Drafted by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18043123\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236669\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18043125",
             "role_id": "35236669",
             "person_name": "Andr\u00e9 Vera",
+            "person_date": "French, 1881\u20131971; active in Paris",
             "role_name": "Draftsman",
+            "role_display_name": "Drafted by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18043125\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236669\/"
         },
@@ -78,7 +110,9 @@
             "person_id": "18043123",
             "role_id": "35236655",
             "person_name": "Paul Vera",
+            "person_date": "French, 1882\u20131957; active in Paris",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18043123\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -86,30 +120,51 @@
             "person_id": "18043125",
             "role_id": "35236655",
             "person_name": "Andr\u00e9 Vera",
+            "person_date": "French, 1881\u20131971; active in Paris",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18043125\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
+        },
+        {
+            "person_id": "18061593",
+            "role_id": "35352249",
+            "person_name": "Yu-Chee Chong",
+            "person_date": "",
+            "role_name": "Vendor",
+            "role_display_name": "Purchased from",
+            "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18061593\/",
+            "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352249\/"
         }
     ],
     "tombstone": {
-        "epitaph": "Drawing, \"Le Jardin de L'Aviator (Ground Plan for an Aviator's Garden)\", ca. 1914. Black crayon, charcoal [partially erased], graphite, brush and black ink on cream tracing paper. 1991-58-12."
+        "epitaph": "Drawing, \"Le Jardin de L'Aviator (Ground Plan for an Aviator's Garden)\", ca. 1914. Black crayon, charcoal [partially erased], graphite, brush and black ink on cream tracing paper. Museum purchase from Smithsonian Institution Collections Acquisition Program Fund. 1991-58-12."
     },
     "colors": [
         {
-            "color": "#c8bc97",
-            "closest_css3": "#d2b48c"
+            "color": "#cbc09b",
+            "closest_crayola": "#e7c697",
+            "closest_css3": "#d2b48c",
+            "closest_css4": "#d2b48c"
         },
         {
-            "color": "#9c8f6f",
-            "closest_css3": "#808080"
+            "color": "#a79978",
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         },
         {
-            "color": "#736850",
-            "closest_css3": "#696969"
+            "color": "#796e55",
+            "closest_crayola": "#85754e",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#4a4539",
-            "closest_css3": "#2f4f4f"
+            "color": "#4d473b",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         }
-    ]
+    ],
+    "woe:country_name": "France"
 }

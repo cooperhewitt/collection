@@ -3,6 +3,7 @@
     "tms:id": "75410",
     "accession_number": "1941-69-95",
     "title": "Sampler, 1697",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18564419\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1697,
     "year_acquired": "1941",
     "decade": null,
-    "woe:country": "23424975",
+    "woe:country_id": "23424975",
     "medium": "Medium: silk and linen embroidery, linen foundation \nTechniques: satin, stem, eyelet, cross, montenegrin cross, chain, roumanian, double running, and detached looping stitches on plain weave",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "ex. coll. Mrs. Henry E. Coe (Eva Johnston Coe)",
     "dimensions": "H x W: 62.2 x 22.2 cm (24 1\/2 x 8 3\/4 in.)",
+    "dimensions_raw": {
+        "height": [
+            "62.23",
+            "centimeters"
+        ],
+        "width": [
+            "22.23",
+            "centimeters"
+        ]
+    },
     "creditline": "Bequest of Mrs. Henry E. Coe",
     "description": null,
     "justification": null,
-    "type": {
-        "id": "35256439",
-        "name": "Sampler"
-    },
+    "woe:country": "23424975",
+    "type": "Sampler",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/47212_d7761a5102aab883_b.jpg",
                 "width": 379,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/47212_d7761a5102aab883_n.jpg",
-                "width": 118,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "47212"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/47212_d7761a5102aab883_z.jpg",
                 "width": 237,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "47212"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/47212_d7761a5102aab883_n.jpg",
+                "width": 118,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "47212"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/47212_d7761a5102aab883_d.gif",
+                "width": 118,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "47212"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/47212_d7761a5102aab883_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "47212"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/29081_73d41ce93a97be98_b.jpg",
                 "width": 387,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/29081_73d41ce93a97be98_n.jpg",
-                "width": 121,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "29081"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/29081_73d41ce93a97be98_z.jpg",
                 "width": 242,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "29081"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/29081_73d41ce93a97be98_n.jpg",
+                "width": 121,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "29081"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/29081_73d41ce93a97be98_d.gif",
+                "width": 121,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "29081"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/29081_73d41ce93a97be98_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "29081"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18052567",
             "role_id": "35351537",
             "person_name": "Mrs. Henry E. Coe",
+            "person_date": "",
             "role_name": "Bequestor",
+            "role_display_name": "Bequest of",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18052567\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351537\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18536453",
             "role_id": "35236583",
             "person_name": "Abigail Freeman",
+            "person_date": "",
             "role_name": "Embroiderer",
+            "role_display_name": "Embroidered by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18536453\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236583\/"
         }
@@ -92,16 +139,17 @@
     },
     "colors": [
         {
-            "color": "#99936f",
-            "closest_css3": "#808080"
+            "color": "#918c64",
+            "closest_crayola": "#8a795d",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#62644a",
-            "closest_css3": "#556b2f"
-        },
-        {
-            "color": "#9a7f55",
-            "closest_css3": "#808080"
+            "color": "#67694d",
+            "closest_crayola": "#6e5160",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         }
-    ]
+    ],
+    "woe:country_name": "United Kingdom"
 }

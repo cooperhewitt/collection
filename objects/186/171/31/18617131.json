@@ -3,6 +3,7 @@
     "tms:id": "177098",
     "accession_number": "1981-28-476",
     "title": "Textile, ca. 700 BC",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18617131\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": null,
     "year_acquired": "1981",
     "decade": null,
-    "woe:country": "23424919",
+    "woe:country_id": "23424919",
     "medium": "Medium: cotton, wool brocading\nTechnique: plain weave with discontinuous supplementary weft (brocade)",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "Donor purchased from John Wise in 1949 for $25",
     "dimensions": "Warp x Weft: 40.6 x 47 cm (16 in. x 18 1\/2 in.)",
+    "dimensions_raw": {
+        "warp": [
+            "40.64",
+            "centimeters"
+        ],
+        "weft": [
+            "47.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Bequest of Gertrude M. Oppenheimer",
     "description": "Bands of animal, bird, and reptile figures in green and red wool brocading on undyed cotton ground.",
     "justification": null,
-    "type": {
-        "id": "35251739",
-        "name": "textile"
-    },
+    "woe:country": "23424919",
+    "type": "textile",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/26413_e9af7179f4b3106f_b.jpg",
                 "width": 1024,
                 "height": 878,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/26413_e9af7179f4b3106f_n.jpg",
-                "width": 320,
-                "height": 274,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "26413"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/26413_e9af7179f4b3106f_z.jpg",
                 "width": 640,
                 "height": 549,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "26413"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/26413_e9af7179f4b3106f_n.jpg",
+                "width": 320,
+                "height": 274,
+                "is_primary": "1",
+                "image_id": "26413"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/26413_e9af7179f4b3106f_d.gif",
+                "width": 320,
+                "height": 274,
+                "is_primary": "1",
+                "image_id": "26413"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/26413_e9af7179f4b3106f_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "26413"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/77278_e8bccbdbe0e8c24f_b.jpg",
                 "width": 1024,
                 "height": 693,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/77278_e8bccbdbe0e8c24f_n.jpg",
-                "width": 320,
-                "height": 217,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "77278"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/77278_e8bccbdbe0e8c24f_z.jpg",
                 "width": 640,
                 "height": 433,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "77278"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/77278_e8bccbdbe0e8c24f_n.jpg",
+                "width": 320,
+                "height": 217,
+                "is_primary": "0",
+                "image_id": "77278"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/77278_e8bccbdbe0e8c24f_d.gif",
+                "width": 320,
+                "height": 217,
+                "is_primary": "0",
+                "image_id": "77278"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/77278_e8bccbdbe0e8c24f_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "77278"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18055143",
             "role_id": "35352245",
             "person_name": "Susan J. Brown",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18055143\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18050567",
             "role_id": "35351537",
             "person_name": "Gertrude M. Oppenheimer",
+            "person_date": "",
             "role_name": "Bequestor",
+            "role_display_name": "Bequest of",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18050567\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351537\/"
         }
@@ -92,24 +139,35 @@
     },
     "colors": [
         {
-            "color": "#817051",
-            "closest_css3": "#696969"
+            "color": "#816f51",
+            "closest_crayola": "#85754e",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#66553d",
-            "closest_css3": "#556b2f"
+            "color": "#65543c",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         },
         {
-            "color": "#403118",
-            "closest_css3": "#2f4f4f"
+            "color": "#353224",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#d3cfba",
-            "closest_css3": "#c0c0c0"
+            "color": "#d1cdb7",
+            "closest_crayola": "#cdc5c2",
+            "closest_css3": "#c0c0c0",
+            "closest_css4": "#c0c0c0"
         },
         {
-            "color": "#341b0f",
-            "closest_css3": "#000000"
+            "color": "#3c2314",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#000000",
+            "closest_css4": "#000000"
         }
-    ]
+    ],
+    "woe:country_name": "Peru"
 }

@@ -3,6 +3,7 @@
     "tms:id": "193190",
     "accession_number": "1991-58-5",
     "title": "Drawing, \"Garden Trellis and Bench\", ca. 1912",
+    "title_raw": "Garden Trellis and Bench",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18636679\/",
     "department_id": "35347493",
     "period_id": "35417251",
@@ -13,39 +14,64 @@
     "year_end": 1917,
     "year_acquired": "1991",
     "decade": "1900",
-    "woe:country": "23424819",
+    "woe:country_id": "23424819",
     "medium": "Pen and black ink on tracing paper",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "1991: acquired by Museum (from Yu-Chee Chong Fine Art, London)",
     "dimensions": "7.7 x 7.6 cm (3 1\/16 x 3 in.)",
-    "creditline": null,
+    "dimensions_raw": {
+        "height": [
+            "7.70",
+            "centimeters"
+        ],
+        "width": [
+            "7.60",
+            "centimeters"
+        ]
+    },
+    "creditline": "Museum purchase from Smithsonian Institution Collections Acquisition Program Fund",
     "description": "View of a garden trellis with bench.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424819",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/61587_ca5511fc30cdd9b4_b.jpg",
                 "width": 1014,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/61587_ca5511fc30cdd9b4_n.jpg",
-                "width": 317,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "61587"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/61587_ca5511fc30cdd9b4_z.jpg",
                 "width": 634,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "61587"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/61587_ca5511fc30cdd9b4_n.jpg",
+                "width": 317,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "61587"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/61587_ca5511fc30cdd9b4_d.gif",
+                "width": 317,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "61587"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/61587_ca5511fc30cdd9b4_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "61587"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18043123",
             "role_id": "35236655",
             "person_name": "Paul Vera",
+            "person_date": "French, 1882\u20131957; active in Paris",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18043123\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -62,30 +90,51 @@
             "person_id": "18043125",
             "role_id": "35236655",
             "person_name": "Andr\u00e9 Vera",
+            "person_date": "French, 1881\u20131971; active in Paris",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18043125\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
+        },
+        {
+            "person_id": "18061593",
+            "role_id": "35352249",
+            "person_name": "Yu-Chee Chong",
+            "person_date": "",
+            "role_name": "Vendor",
+            "role_display_name": "Purchased from",
+            "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18061593\/",
+            "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352249\/"
         }
     ],
     "tombstone": {
-        "epitaph": "Drawing, \"Garden Trellis and Bench\", ca. 1912. Pen and black ink on tracing paper. 1991-58-5."
+        "epitaph": "Drawing, \"Garden Trellis and Bench\", ca. 1912. Pen and black ink on tracing paper. Museum purchase from Smithsonian Institution Collections Acquisition Program Fund. 1991-58-5."
     },
     "colors": [
         {
-            "color": "#282822",
-            "closest_css3": "#2f4f4f"
+            "color": "#2e2b22",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#5b543e",
-            "closest_css3": "#556b2f"
+            "color": "#978f75",
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#a2997e",
-            "closest_css3": "#bc8f8f"
+            "color": "#7b745d",
+            "closest_crayola": "#8a795d",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#7b735a",
-            "closest_css3": "#696969"
+            "color": "#524c3a",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         }
-    ]
+    ],
+    "woe:country_name": "France"
 }

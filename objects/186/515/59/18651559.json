@@ -3,6 +3,7 @@
     "tms:id": "200721",
     "accession_number": "1995-50-58-a,b",
     "title": "Fragments, \"\"Oiseaux et ecureuils\" (Birds and squirrels)\", ca. 1806",
+    "title_raw": "\"Oiseaux et ecureuils\" (Birds and squirrels)",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18651559\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,33 +14,64 @@
     "year_end": 1816,
     "year_acquired": "1995",
     "decade": null,
-    "woe:country": "23424819",
+    "woe:country_id": "23424819",
     "medium": "Medium: cotton\nTechnique: printed by engraved plate, plain weave foundation",
     "markings": "Partial stamp at top of A: \"MANUFACTURE DE OBERKAMPF A JOUY\" with a box outline.",
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "A: Warp: 98cm (38 1\/2in.). Weft: 63.5cm (25in.) Both edges cut but plate edge shows on the right side. \nB. Warp: 115.5cm (45 1\/2in.). Weft: 92cm (36 1\/4in.) Both edges cut.\nPattern: Height of repeat: 52cm (20 1\/2in.)\nDesigned for lengths to be sewn together as a straight repeat.",
+    "dimensions_raw": {
+        "warp": [
+            "98.00",
+            "centimeters"
+        ],
+        "weft": [
+            "63.50",
+            "centimeters"
+        ]
+    },
     "creditline": "Bequest of Elinor Merrell",
     "description": "Horizontal arrangement of putti holding fruiting branches of grapes and apples with squirrels and parrots. Sphinx topped by nesting bird feeding its young and vases of flowers on background of a rigid arrangement of leaves. Printed in brown on white and designed for lengths to be sewn together as a straight repeat.",
     "justification": null,
-    "type": {
-        "id": "35254679",
-        "name": "Fragments"
-    },
+    "woe:country": "23424819",
+    "type": "Fragments",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/87543_d55f6920703d2d0a_b.jpg",
                 "width": 699,
                 "height": 1024,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "87543"
+            },
+            "z": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/87543_d55f6920703d2d0a_z.jpg",
+                "width": 437,
+                "height": 640,
+                "is_primary": "1",
+                "image_id": "87543"
             },
             "n": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/87543_d55f6920703d2d0a_n.jpg",
                 "width": 218,
                 "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "87543"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/87543_d55f6920703d2d0a_d.gif",
+                "width": 218,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "87543"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/87543_d55f6920703d2d0a_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "87543"
             }
         }
     ],
@@ -48,7 +80,9 @@
             "person_id": "18049427",
             "role_id": "35351537",
             "person_name": "Elinor Merrell",
+            "person_date": "",
             "role_name": "Bequestor",
+            "role_display_name": "Bequest of",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049427\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351537\/"
         },
@@ -56,7 +90,9 @@
             "person_id": "18047459",
             "role_id": "35352245",
             "person_name": "Gillian Moss",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047459\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -64,7 +100,9 @@
             "person_id": "18045425",
             "role_id": "35236681",
             "person_name": "Oberkampf & Cie.",
+            "person_date": "Jouy-en-Josas, France, 1759 \u2013 1815",
             "role_name": "Company",
+            "role_display_name": "Company:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18045425\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236681\/"
         },
@@ -72,7 +110,9 @@
             "person_id": "18045567",
             "role_id": "35236655",
             "person_name": "Jean-Baptiste Hu\u00ebt",
+            "person_date": "1745 \u2013 1811",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18045567\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
@@ -82,5 +122,6 @@
     },
     "colors": [
 
-    ]
+    ],
+    "woe:country_name": "France"
 }

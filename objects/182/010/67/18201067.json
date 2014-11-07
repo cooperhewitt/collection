@@ -3,6 +3,7 @@
     "tms:id": "23520",
     "accession_number": "1917-4-721-b",
     "title": "Drawing, \"The Niagara Falls\", September or October 1856",
+    "title_raw": "The Niagara Falls",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18201067\/",
     "department_id": "35347493",
     "period_id": "35417175",
@@ -13,39 +14,64 @@
     "year_end": null,
     "year_acquired": "1917",
     "decade": null,
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Graphite, brush and white gouace on paper.",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "Gift of Louis P. Church",
     "dimensions": "Sheet: 27.3 x 45.1 cm (10 3\/4 x 17 3\/4 in.)",
+    "dimensions_raw": {
+        "height": [
+            "27.30",
+            "centimeters"
+        ],
+        "width": [
+            "45.10",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Louis P. Church",
     "description": "Horizontal view showing full width of Niagara Falls; a double rainbow is indicated.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424977",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/19910_93ccdba89da99b52_b.jpg",
                 "width": 1024,
                 "height": 336,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/19910_93ccdba89da99b52_n.jpg",
-                "width": 320,
-                "height": 105,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "19910"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/19910_93ccdba89da99b52_z.jpg",
                 "width": 640,
                 "height": 210,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "19910"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/19910_93ccdba89da99b52_n.jpg",
+                "width": 320,
+                "height": 105,
+                "is_primary": "1",
+                "image_id": "19910"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/19910_93ccdba89da99b52_d.gif",
+                "width": 320,
+                "height": 105,
+                "is_primary": "1",
+                "image_id": "19910"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/19910_93ccdba89da99b52_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "19910"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18041941",
             "role_id": "35236565",
             "person_name": "Frederic Edwin Church",
+            "person_date": "American, 1826\u20131900",
             "role_name": "Artist",
+            "role_display_name": "",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041941\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236565\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18051625",
             "role_id": "35351535",
             "person_name": "Louis P. Church",
+            "person_date": "American, 1870\u20131943",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18051625\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -72,8 +102,11 @@
     },
     "colors": [
         {
-            "color": "#c2b597",
-            "closest_css3": "#d2b48c"
+            "color": "#c3b699",
+            "closest_crayola": "#deaa88",
+            "closest_css3": "#d2b48c",
+            "closest_css4": "#d2b48c"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

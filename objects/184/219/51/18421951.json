@@ -3,6 +3,7 @@
     "tms:id": "121217",
     "accession_number": "1958-142-50",
     "title": "Sample, 1930\u201358",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18421951\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1958,
     "year_acquired": "1958",
     "decade": "1930",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Medium: wool, silk\nTechnique: twill woven",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "1958: acquired by Museum",
     "dimensions": "H x W: 17 x 21.5 cm (6 11\/16 x 8 7\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "17.00",
+            "centimeters"
+        ],
+        "width": [
+            "21.50",
+            "centimeters"
+        ]
+    },
     "creditline": null,
     "description": "Black with white.",
     "justification": null,
-    "type": {
-        "id": "35268079",
-        "name": "Sample"
-    },
+    "woe:country": "23424977",
+    "type": "Sample",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/82549_b241dddb31fa9b37_b.jpg",
                 "width": 1024,
                 "height": 865,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/82549_b241dddb31fa9b37_n.jpg",
-                "width": 320,
-                "height": 270,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "82549"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/82549_b241dddb31fa9b37_z.jpg",
                 "width": 640,
                 "height": 541,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "82549"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/82549_b241dddb31fa9b37_n.jpg",
+                "width": 320,
+                "height": 270,
+                "is_primary": "1",
+                "image_id": "82549"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/82549_b241dddb31fa9b37_d.gif",
+                "width": 320,
+                "height": 270,
+                "is_primary": "1",
+                "image_id": "82549"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/82549_b241dddb31fa9b37_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "82549"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18535597",
             "role_id": "35236655",
             "person_name": "Helen Kroll Kramer",
+            "person_date": "American, 1907\u20131977",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18535597\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18535597",
             "role_id": "35236745",
             "person_name": "Helen Kroll Kramer",
+            "person_date": "American, 1907\u20131977",
             "role_name": "Weaver",
+            "role_display_name": "Woven by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18535597\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236745\/"
         }
@@ -72,16 +102,17 @@
     },
     "colors": [
         {
-            "color": "#55544d",
-            "closest_css3": "#556b2f"
+            "color": "#403b2b",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#999585",
-            "closest_css3": "#808080"
-        },
-        {
-            "color": "#7c7a71",
-            "closest_css3": "#808080"
+            "color": "#575751",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

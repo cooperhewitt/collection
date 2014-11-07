@@ -3,6 +3,7 @@
     "tms:id": "75245",
     "accession_number": "1941-69-181",
     "title": "Sampler, 19th century",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18564083\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": null,
     "year_acquired": "1941",
     "decade": null,
-    "woe:country": "23424853",
+    "woe:country_id": "23424853",
     "medium": "Medium: silk embroidery on linen foundation\nTechnique: cross stitch on plain weave",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "ex. coll. Mrs. Henry E. Coe (Eva Johnston Coe)",
     "dimensions": "H x W: 28 x 36 cm (11 x 14 3\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "28.00",
+            "centimeters"
+        ],
+        "width": [
+            "36.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Bequest of Mrs. Henry E. Coe",
     "description": "Alphabets, floral cross border, and designs of birds, animals, people, a church and flowers.",
     "justification": null,
-    "type": {
-        "id": "35256439",
-        "name": "Sampler"
-    },
+    "woe:country": "23424853",
+    "type": "Sampler",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/41173_45d6b06aa48d9cf3_b.jpg",
                 "width": 1024,
                 "height": 830,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/41173_45d6b06aa48d9cf3_n.jpg",
-                "width": 320,
-                "height": 259,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "41173"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/41173_45d6b06aa48d9cf3_z.jpg",
                 "width": 640,
                 "height": 519,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "41173"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/41173_45d6b06aa48d9cf3_n.jpg",
+                "width": 320,
+                "height": 259,
+                "is_primary": "1",
+                "image_id": "41173"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/41173_45d6b06aa48d9cf3_d.gif",
+                "width": 320,
+                "height": 259,
+                "is_primary": "1",
+                "image_id": "41173"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/41173_45d6b06aa48d9cf3_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "41173"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/29133_c67a7724d27889f7_b.jpg",
                 "width": 1024,
                 "height": 812,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/29133_c67a7724d27889f7_n.jpg",
-                "width": 320,
-                "height": 254,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "29133"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/29133_c67a7724d27889f7_z.jpg",
                 "width": 640,
                 "height": 508,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "29133"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/29133_c67a7724d27889f7_n.jpg",
+                "width": 320,
+                "height": 254,
+                "is_primary": "0",
+                "image_id": "29133"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/29133_c67a7724d27889f7_d.gif",
+                "width": 320,
+                "height": 254,
+                "is_primary": "0",
+                "image_id": "29133"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/29133_c67a7724d27889f7_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "29133"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18052567",
             "role_id": "35351537",
             "person_name": "Mrs. Henry E. Coe",
+            "person_date": "",
             "role_name": "Bequestor",
+            "role_display_name": "Bequest of",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18052567\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351537\/"
         }
@@ -84,20 +129,23 @@
     },
     "colors": [
         {
-            "color": "#877b45",
-            "closest_css3": "#6b8e23"
+            "color": "#b19158",
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#cd853f",
+            "closest_css4": "#cd853f"
         },
         {
-            "color": "#68684b",
-            "closest_css3": "#696969"
+            "color": "#746c45",
+            "closest_crayola": "#85754e",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#4d4e43",
-            "closest_css3": "#2f4f4f"
-        },
-        {
-            "color": "#e1d8c3",
-            "closest_css3": "#d3d3d3"
+            "color": "#5e695a",
+            "closest_crayola": "#4a646c",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         }
-    ]
+    ],
+    "woe:country_name": "Italy"
 }

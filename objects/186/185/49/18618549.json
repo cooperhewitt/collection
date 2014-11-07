@@ -3,6 +3,7 @@
     "tms:id": "181656",
     "accession_number": "1984-84-45",
     "title": "Vase, ca. 1912\u201315",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18618549\/",
     "department_id": "35347497",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1925,
     "year_acquired": "1984",
     "decade": "1900",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Glazed stoneware",
     "markings": "Incised on bottom, underglaze: vertical \"FULPER\", with imprinted vertical \"FULPER\" in cartouche over it. Traces of paper label.",
     "signed": null,
     "inscribed": null,
     "provenance": "Marcia and William Goodman (Jordan-Volpe Gallery, New York); 1984: acquired by Museum",
     "dimensions": "H x Diam: 30.2 x 23.7 cm (11 7\/8 x 9 5\/16 in.)",
+    "dimensions_raw": {
+        "diameter": [
+            "23.70",
+            "centimeters"
+        ],
+        "height": [
+            "30.20",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Marcia and William Goodman",
     "description": "Large cream & ochre drip glaze vase. Buff stoneware body, cast. Ovoid body with slightly incurving rim; flat foot. Cream and pale blue-gray striations in a drip glaze effect with olive green colors at rim, covering upper two thirds of body. Bottom third is Fulper's \"mustard\" matte glaze. Crystalline effects in glaze near rim. Drip effects on interior of body, from rim. Bottom glazed with mustard matte.",
     "justification": null,
-    "type": {
-        "id": "35237225",
-        "name": "Vase"
-    },
+    "woe:country": "23424977",
+    "type": "Vase",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/10318_c12e9bc35ac167bc_b.jpg",
                 "width": 810,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/10318_c12e9bc35ac167bc_n.jpg",
-                "width": 253,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "10318"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/10318_c12e9bc35ac167bc_z.jpg",
                 "width": 506,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "10318"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/10318_c12e9bc35ac167bc_n.jpg",
+                "width": 253,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "10318"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/10318_c12e9bc35ac167bc_d.gif",
+                "width": 253,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "10318"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/10318_c12e9bc35ac167bc_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "10318"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18538807",
             "role_id": "35352245",
             "person_name": "Vance Koehler",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18538807\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18538741",
             "role_id": "35351535",
             "person_name": "William Goodman",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18538741\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18538739",
             "role_id": "35351535",
             "person_name": "Marcia Goodman",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18538739\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -78,7 +110,9 @@
             "person_id": "18043785",
             "role_id": "35236657",
             "person_name": "Fulper Pottery Company",
+            "person_date": "founded 1805",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18043785\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         }
@@ -88,24 +122,35 @@
     },
     "colors": [
         {
-            "color": "#9e5123",
-            "closest_css3": "#a0522d"
+            "color": "#a25423",
+            "closest_crayola": "#c46210",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         },
         {
-            "color": "#773812",
-            "closest_css3": "#8b4513"
+            "color": "#6f320e",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#8b4513",
+            "closest_css4": "#8b4513"
         },
         {
-            "color": "#ac6c1e",
-            "closest_css3": "#a0522d"
+            "color": "#c59460",
+            "closest_crayola": "#d68a59",
+            "closest_css3": "#cd853f",
+            "closest_css4": "#cd853f"
         },
         {
-            "color": "#d3ab81",
-            "closest_css3": "#d2b48c"
+            "color": "#957643",
+            "closest_crayola": "#9c7c38",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         },
         {
-            "color": "#d6d1b6",
-            "closest_css3": "#d3d3d3"
+            "color": "#d6d1b8",
+            "closest_crayola": "#cdc5c2",
+            "closest_css3": "#d3d3d3",
+            "closest_css4": "#d3d3d3"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

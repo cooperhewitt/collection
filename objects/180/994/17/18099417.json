@@ -3,6 +3,7 @@
     "tms:id": "6155",
     "accession_number": "1896-3-89",
     "title": "Print, \"Ecce Homo; engraving by Cornelis Cort, after a drawing by Etienne DuPerac (1525-1601).\", 1572",
+    "title_raw": "Ecce Homo; engraving by Cornelis Cort, after a drawing by Etienne DuPerac (1525-1601).",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18099417\/",
     "department_id": "35347493",
     "period_id": "35417073",
@@ -13,39 +14,64 @@
     "year_end": 1572,
     "year_acquired": "1896",
     "decade": null,
-    "woe:country": "23424909",
+    "woe:country_id": "23424909",
     "medium": "Engraving on paper",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "30.6 x 21 cm (12 1\/16 x 8 1\/4 in.)",
+    "dimensions_raw": {
+        "height": [
+            "30.60",
+            "centimeters"
+        ],
+        "width": [
+            "21.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Bequest of George Campbell Cooper",
     "description": "On a podium stands Christ between four men. In foreground, spectators; at left, the cross held by a man. The city gate and two houses in background. Inscribed, right (on podium): \"Corn. Co. F. 1572.\"",
     "justification": null,
-    "type": {
-        "id": "35236873",
-        "name": "Print"
-    },
+    "woe:country": "23424909",
+    "type": "Print",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/30840_d40676136bcbcc13_b.jpg",
                 "width": 763,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/30840_d40676136bcbcc13_n.jpg",
-                "width": 238,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "30840"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/30840_d40676136bcbcc13_z.jpg",
                 "width": 477,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "30840"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/30840_d40676136bcbcc13_n.jpg",
+                "width": 238,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "30840"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/30840_d40676136bcbcc13_d.gif",
+                "width": 238,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "30840"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/30840_d40676136bcbcc13_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "30840"
             }
         }
     ],
@@ -54,9 +80,21 @@
             "person_id": "18049767",
             "role_id": "35351537",
             "person_name": "George Campbell Cooper",
+            "person_date": "",
             "role_name": "Bequestor",
+            "role_display_name": "Bequest of",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049767\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351537\/"
+        },
+        {
+            "person_id": "68738975",
+            "role_id": "35236657",
+            "person_name": "Cornelis Cort",
+            "person_date": "Dutch, 1533 - 1578",
+            "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
+            "person_url": "http:\/\/collection.cooperhewitt.org\/people\/68738975\/",
+            "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         }
     ],
     "tombstone": {
@@ -64,16 +102,17 @@
     },
     "colors": [
         {
-            "color": "#53544b",
-            "closest_css3": "#556b2f"
+            "color": "#3c3d41",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#948e81",
-            "closest_css3": "#808080"
-        },
-        {
-            "color": "#504c51",
-            "closest_css3": "#2f4f4f"
+            "color": "#57574d",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         }
-    ]
+    ],
+    "woe:country_name": "Netherlands"
 }

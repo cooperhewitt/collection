@@ -3,6 +3,7 @@
     "tms:id": "214662",
     "accession_number": "1999-53-6",
     "title": "Glass, \"Hall of Science\", ca. 1964",
+    "title_raw": "Hall of Science",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18678393\/",
     "department_id": "35347497",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1969,
     "year_acquired": "1999",
     "decade": "1950",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Glass, enamel decoration",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "17h x 7 diameter cm (6 11\/16 x 2 3\/4 in. )",
+    "dimensions_raw": {
+        "diameter": [
+            "7.00",
+            "centimeters"
+        ],
+        "height": [
+            "17.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Max Pine",
     "description": "Tall, slightly tapering cylindrical form of clear \"frosted\" glass with dark blue and orange enamel decoration showing the Hall of Science, \"1964\/1965\/NEW YORK\/WORLD'S FAIR,\" and Unisphere logo; orange panel with brief paragraph about the Hall on reverse.",
     "justification": null,
-    "type": {
-        "id": "35249055",
-        "name": "glass"
-    },
+    "woe:country": "23424977",
+    "type": "glass",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/14084_0c66787c5e7abd25_b.jpg",
                 "width": 558,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/14084_0c66787c5e7abd25_n.jpg",
-                "width": 175,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "14084"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/14084_0c66787c5e7abd25_z.jpg",
                 "width": 349,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "14084"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/14084_0c66787c5e7abd25_n.jpg",
+                "width": 175,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "14084"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/14084_0c66787c5e7abd25_d.gif",
+                "width": 175,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "14084"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/14084_0c66787c5e7abd25_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "14084"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/14083_953a9fa2028a7fa0_b.jpg",
                 "width": 579,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/14083_953a9fa2028a7fa0_n.jpg",
-                "width": 181,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "14083"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/14083_953a9fa2028a7fa0_z.jpg",
                 "width": 362,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "14083"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/14083_953a9fa2028a7fa0_n.jpg",
+                "width": 181,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "14083"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/14083_953a9fa2028a7fa0_d.gif",
+                "width": 181,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "14083"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/14083_953a9fa2028a7fa0_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "14083"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18041469",
             "role_id": "35351535",
             "person_name": "Max Pine",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041469\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -84,24 +129,35 @@
     },
     "colors": [
         {
-            "color": "#d12a02",
-            "closest_css3": "#b22222"
+            "color": "#d92e03",
+            "closest_crayola": "#ff2b2b",
+            "closest_css3": "#ff4500",
+            "closest_css4": "#ff4500"
         },
         {
-            "color": "#e95105",
-            "closest_css3": "#ff4500"
+            "color": "#d1b8bb",
+            "closest_crayola": "#cdc5c2",
+            "closest_css3": "#c0c0c0",
+            "closest_css4": "#c0c0c0"
         },
         {
-            "color": "#d0b3be",
-            "closest_css3": "#c0c0c0"
+            "color": "#de989f",
+            "closest_crayola": "#ef98aa",
+            "closest_css3": "#d2b48c",
+            "closest_css4": "#d2b48c"
         },
         {
-            "color": "#0d2701",
-            "closest_css3": "#000000"
+            "color": "#0f2a06",
+            "closest_crayola": "#000000",
+            "closest_css3": "#000000",
+            "closest_css4": "#000000"
         },
         {
-            "color": "#de94a4",
-            "closest_css3": "#d87093"
+            "color": "#927456",
+            "closest_crayola": "#8a795d",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

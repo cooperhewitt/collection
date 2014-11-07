@@ -3,6 +3,7 @@
     "tms:id": "194497",
     "accession_number": "1992-144-31",
     "title": "Poster, \"Shiseido Beauty Cake\", 1971",
+    "title_raw": "Shiseido Beauty Cake",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18639267\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1971,
     "year_acquired": "1992",
     "decade": "1970",
-    "woe:country": "23424856",
+    "woe:country_id": "23424856",
     "medium": "Photo offset lithograph on white wove paper",
     "markings": null,
     "signed": null,
     "inscribed": "Imprinted in black (sideways) lower left margin:  1990 Reproduction by Toppan Printing Co., Ltd.  Art Director:  Shin Matswunaga, Katsumi Yamada  Designer:  Shin Matsunaga  Photographer:  Yojiro Adachi.",
     "provenance": "Shin Matsunaga; 1991: acquired by Museum",
     "dimensions": "102.9 x 72.7 cm (40 1\/2 x 28 5\/8 in. )",
+    "dimensions_raw": {
+        "height": [
+            "102.90",
+            "centimeters"
+        ],
+        "width": [
+            "72.70",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Shin Matsunaga",
     "description": "On a white ground, tiny images of sunbathers, in different positions and placed close together to resemble a crowded beach. Lower center, a compact whose lid is decorated with six concentric circles of melon, bright orange, and mint green surrounding a royal blue sun at center.  In lower right quadrant, a white arrow in perspective superimposed on bathers and pointing to the compact.  Inside the arrow, a series of Japanese characters in black.",
     "justification": null,
-    "type": {
-        "id": "35238163",
-        "name": "poster"
-    },
+    "woe:country": "23424856",
+    "type": "poster",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/17861_32e2b12dd9e9779b_b.jpg",
                 "width": 730,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/17861_32e2b12dd9e9779b_n.jpg",
-                "width": 228,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "17861"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/17861_32e2b12dd9e9779b_z.jpg",
                 "width": 456,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "17861"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/17861_32e2b12dd9e9779b_n.jpg",
+                "width": 228,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "17861"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/17861_32e2b12dd9e9779b_d.gif",
+                "width": 228,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "17861"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/17861_32e2b12dd9e9779b_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "17861"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "68264013",
             "role_id": "35236631",
             "person_name": "Yojiro Adachi",
+            "person_date": "",
             "role_name": "Photographer",
+            "role_display_name": "Photographed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/68264013\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236631\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18041215",
             "role_id": "35351535",
             "person_name": "Shin Matsunaga",
+            "person_date": "b. 1940",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041215\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "51676457",
             "role_id": "35352245",
             "person_name": "Karin Zonis",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/51676457\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -78,7 +110,9 @@
             "person_id": "18041215",
             "role_id": "35351535",
             "person_name": "Shin Matsunaga",
+            "person_date": "b. 1940",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041215\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -86,7 +120,9 @@
             "person_id": "18048255",
             "role_id": "35352245",
             "person_name": "Dr. Gail Davidson",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18048255\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -94,7 +130,9 @@
             "person_id": "18054523",
             "role_id": "35236667",
             "person_name": "Shiseido Corporation",
+            "person_date": "",
             "role_name": "Client",
+            "role_display_name": "Client:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18054523\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236667\/"
         },
@@ -102,9 +140,21 @@
             "person_id": "18048545",
             "role_id": "35236655",
             "person_name": "Shin Matsunaga Design Inc.",
+            "person_date": "b.  1940",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18048545\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
+        },
+        {
+            "person_id": "68739531",
+            "role_id": "35236673",
+            "person_name": "Toppan Printing Co. Ltd.",
+            "person_date": "Japanese, founded 1900",
+            "role_name": "Printer",
+            "role_display_name": "Printed by",
+            "person_url": "http:\/\/collection.cooperhewitt.org\/people\/68739531\/",
+            "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236673\/"
         }
     ],
     "tombstone": {
@@ -112,24 +162,35 @@
     },
     "colors": [
         {
-            "color": "#8e5140",
-            "closest_css3": "#a0522d"
+            "color": "#9d614e",
+            "closest_crayola": "#a5694f",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         },
         {
-            "color": "#aba2ab",
-            "closest_css3": "#a9a9a9"
+            "color": "#94898a",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#503b37",
-            "closest_css3": "#2f4f4f"
+            "color": "#593f3a",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         },
         {
-            "color": "#a47e6a",
-            "closest_css3": "#808080"
+            "color": "#c38c65",
+            "closest_crayola": "#cd9575",
+            "closest_css3": "#cd853f",
+            "closest_css4": "#cd853f"
         },
         {
-            "color": "#cd9f67",
-            "closest_css3": "#bdb76b"
+            "color": "#793f32",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#8b4513",
+            "closest_css4": "#8b4513"
         }
-    ]
+    ],
+    "woe:country_name": "Japan"
 }

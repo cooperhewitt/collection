@@ -3,6 +3,7 @@
     "tms:id": "61443",
     "accession_number": "1938-88-1212",
     "title": "Drawing, \"Elevation of a church\", 18th century",
+    "title_raw": "Elevation of a church",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18356033\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": null,
     "year_acquired": "1938",
     "decade": null,
-    "woe:country": "23424853",
+    "woe:country_id": "23424853",
     "medium": "Pen and brown ink, brush and brown wash, red ink on off-whtie laid paper, lined",
     "markings": "Verso: Cooper Union Museum for the Arts of Decoration (Lugt#457d)",
     "signed": null,
     "inscribed": null,
     "provenance": "Giovanni Piancastelli, Rome; Mr. and Mrs. Edward D. Brandegee, Brookline, MA; 1938: acquired by Museum",
     "dimensions": "Image: 19.9 x 27.2 cm (7 13\/16 x 10 11\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "19.90",
+            "centimeters"
+        ],
+        "width": [
+            "27.20",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase through gift of various donors and from Eleanor G. Hewitt Fund",
     "description": "A large two-storey colonnaded building, or palace, with dome; towers on both sides; on ground floor there are statues in niches.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424853",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/18877_6053b9718edff65f_b.jpg",
                 "width": 1024,
                 "height": 749,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/18877_6053b9718edff65f_n.jpg",
-                "width": 320,
-                "height": 234,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "18877"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/18877_6053b9718edff65f_z.jpg",
                 "width": 640,
                 "height": 468,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "18877"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/18877_6053b9718edff65f_n.jpg",
+                "width": 320,
+                "height": 234,
+                "is_primary": "1",
+                "image_id": "18877"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/18877_6053b9718edff65f_d.gif",
+                "width": 320,
+                "height": 234,
+                "is_primary": "1",
+                "image_id": "18877"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/18877_6053b9718edff65f_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "18877"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18049797",
             "role_id": "35352249",
             "person_name": "Mrs. Edward D. Brandegee",
+            "person_date": "American, 1871\u20131956",
             "role_name": "Vendor",
+            "role_display_name": "Purchased from",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049797\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352249\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18047469",
             "role_id": "35352245",
             "person_name": "Phyllis Dearborn Massar",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047469\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18047439",
             "role_id": "35352245",
             "person_name": "Rudolph Berliner",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047439\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -78,7 +110,9 @@
             "person_id": "18047443",
             "role_id": "35352245",
             "person_name": "Megan L. Smith",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047443\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -86,7 +120,9 @@
             "person_id": "18041999",
             "role_id": "35236663",
             "person_name": "Giuseppe Barberi",
+            "person_date": "Italian, 1746\u20131809",
             "role_name": "Architect",
+            "role_display_name": "Architect:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041999\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236663\/"
         }
@@ -96,24 +132,35 @@
     },
     "colors": [
         {
-            "color": "#d6e6fd",
-            "closest_css3": "#e6e6fa"
+            "color": "#c4d1ec",
+            "closest_crayola": "#c5d0e6",
+            "closest_css3": "#add8e6",
+            "closest_css4": "#add8e6"
         },
         {
-            "color": "#553b1d",
-            "closest_css3": "#556b2f"
+            "color": "#593f20",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         },
         {
-            "color": "#86714f",
-            "closest_css3": "#696969"
+            "color": "#7c6649",
+            "closest_crayola": "#85754e",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#a2938a",
-            "closest_css3": "#bc8f8f"
+            "color": "#3b210c",
+            "closest_crayola": "#000000",
+            "closest_css3": "#000000",
+            "closest_css4": "#000000"
         },
         {
-            "color": "#321606",
-            "closest_css3": "#000000"
+            "color": "#9e8e7f",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         }
-    ]
+    ],
+    "woe:country_name": "Italy"
 }

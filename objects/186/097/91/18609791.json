@@ -3,6 +3,7 @@
     "tms:id": "98430",
     "accession_number": "1948-40-152",
     "title": "Drawing, \"Paneled Wall\", 1815\u201322",
+    "title_raw": "Paneled Wall",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18609791\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1837,
     "year_acquired": "1948",
     "decade": null,
-    "woe:country": "23424975",
+    "woe:country_id": "23424975",
     "medium": "Pen and black ink, brush and tan and blue wash on wove paper.",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "H x W: 14.5 x 18.9 cm (5 11\/16 x 7 7\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "14.50",
+            "centimeters"
+        ],
+        "width": [
+            "18.90",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase through gift of Mrs. John Innes Kane",
     "description": "Paneled wall with marble base.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424975",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/39916_d868e87fb870dd82_b.jpg",
                 "width": 1024,
                 "height": 796,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/39916_d868e87fb870dd82_n.jpg",
-                "width": 320,
-                "height": 249,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "39916"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/39916_d868e87fb870dd82_z.jpg",
                 "width": 640,
                 "height": 497,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "39916"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/39916_d868e87fb870dd82_n.jpg",
+                "width": 320,
+                "height": 249,
+                "is_primary": "1",
+                "image_id": "39916"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/39916_d868e87fb870dd82_d.gif",
+                "width": 320,
+                "height": 249,
+                "is_primary": "1",
+                "image_id": "39916"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/39916_d868e87fb870dd82_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "39916"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18042069",
             "role_id": "35236655",
             "person_name": "Frederick Crace",
+            "person_date": "English, 1779\u20131859",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18042069\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18539479",
             "role_id": "35352249",
             "person_name": "Mrs. K. Gregory",
+            "person_date": "",
             "role_name": "Vendor",
+            "role_display_name": "Purchased from",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18539479\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352249\/"
         }
@@ -72,8 +102,11 @@
     },
     "colors": [
         {
-            "color": "#b6a385",
-            "closest_css3": "#bc8f8f"
+            "color": "#bcac8e",
+            "closest_crayola": "#deaa88",
+            "closest_css3": "#d2b48c",
+            "closest_css4": "#d2b48c"
         }
-    ]
+    ],
+    "woe:country_name": "United Kingdom"
 }

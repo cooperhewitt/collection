@@ -3,6 +3,7 @@
     "tms:id": "181659",
     "accession_number": "1984-84-48",
     "title": "Vase, 1894\u20131911",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18618555\/",
     "department_id": "35347497",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1911,
     "year_acquired": "1984",
     "decade": null,
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Glazed earthenware",
     "markings": "Impressed on bottom, underglaze: \"M\" under whale jawbone.",
     "signed": null,
     "inscribed": null,
     "provenance": "Robert W. Blasberg; Marcia and William Goodman (Jordan-Volpe Gallery, New York); 1984: acquired by Museum",
     "dimensions": "H x Diam: 9.2 x 7.6 cm (3 3\/4 x 3 in.)",
+    "dimensions_raw": {
+        "diameter": [
+            "7.60",
+            "centimeters"
+        ],
+        "height": [
+            "9.20",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Marcia and William Goodman",
     "description": "Vase in the form of an apple. Light-colored clay body, molded. Spherical body with small raised neck and outward curving lip; molded flat foot. Covered with light apple green, ochre and russet flambe high glaze with slight milky iridescence around shoulder. Bottom and interior glazed. Fine crazing.",
     "justification": null,
-    "type": {
-        "id": "35237225",
-        "name": "Vase"
-    },
+    "woe:country": "23424977",
+    "type": "Vase",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/9817_3a992d541033f329_b.jpg",
                 "width": 767,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/9817_3a992d541033f329_n.jpg",
-                "width": 240,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "9817"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/9817_3a992d541033f329_z.jpg",
                 "width": 480,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "9817"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/9817_3a992d541033f329_n.jpg",
+                "width": 240,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "9817"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/9817_3a992d541033f329_d.gif",
+                "width": 240,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "9817"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/9817_3a992d541033f329_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "9817"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18538807",
             "role_id": "35352245",
             "person_name": "Vance Koehler",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18538807\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18538741",
             "role_id": "35351535",
             "person_name": "William Goodman",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18538741\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18538739",
             "role_id": "35351535",
             "person_name": "Marcia Goodman",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18538739\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -78,7 +110,9 @@
             "person_id": "18537373",
             "role_id": "35236657",
             "person_name": "Middle Lane Pottery",
+            "person_date": "American",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18537373\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         },
@@ -86,7 +120,9 @@
             "person_id": "18043731",
             "role_id": "35236657",
             "person_name": "Brouwer Pottery",
+            "person_date": "American, founded 1903",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18043731\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         },
@@ -94,7 +130,9 @@
             "person_id": "18537371",
             "role_id": "35236565",
             "person_name": "Theophilus Anthony Brouwer Jr.",
+            "person_date": "American, d. 1932",
             "role_name": "Artist",
+            "role_display_name": "",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18537371\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236565\/"
         }
@@ -104,24 +142,35 @@
     },
     "colors": [
         {
-            "color": "#d29e65",
-            "closest_css3": "#e9967a"
+            "color": "#d4a067",
+            "closest_crayola": "#cd9575",
+            "closest_css3": "#e9967a",
+            "closest_css4": "#e9967a"
         },
         {
-            "color": "#47280d",
-            "closest_css3": "#800000"
+            "color": "#48280c",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#800000",
+            "closest_css4": "#800000"
         },
         {
-            "color": "#976239",
-            "closest_css3": "#a0522d"
+            "color": "#885830",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         },
         {
-            "color": "#724e17",
-            "closest_css3": "#8b4513"
+            "color": "#a47449",
+            "closest_crayola": "#a5694f",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         },
         {
-            "color": "#713417",
-            "closest_css3": "#8b4513"
+            "color": "#a38f50",
+            "closest_crayola": "#9c7c38",
+            "closest_css3": "#cd853f",
+            "closest_css4": "#cd853f"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

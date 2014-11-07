@@ -3,6 +3,7 @@
     "tms:id": "176834",
     "accession_number": "1981-28-240",
     "title": "Sampler, 1796",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18616609\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1796,
     "year_acquired": "1981",
     "decade": null,
-    "woe:country": "23424829",
+    "woe:country_id": "23424829",
     "medium": "Medium: silk embroidery on linen foundation\nTechnique: embroidered in cross stitch on plain weave foundation",
     "markings": null,
     "signed": null,
     "inscribed": "A.R.M.",
     "provenance": null,
     "dimensions": "H x W: 43.2 x 45.1 cm (17 x 17 3\/4 in.)",
+    "dimensions_raw": {
+        "height": [
+            "43.18",
+            "centimeters"
+        ],
+        "width": [
+            "45.09",
+            "centimeters"
+        ]
+    },
     "creditline": "Bequest of Gertrude M. Oppenheimer",
     "description": "Isolated motifs with Jerusalem in the center.  Coat of arms of Hamburg.  Spinning monkey and Martin Luther.  10\/cm warp and weft count.",
     "justification": null,
-    "type": {
-        "id": "35256439",
-        "name": "Sampler"
-    },
+    "woe:country": "23424829",
+    "type": "Sampler",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/42361_3c3a05d5c3369299_b.jpg",
                 "width": 1024,
                 "height": 998,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/42361_3c3a05d5c3369299_n.jpg",
-                "width": 320,
-                "height": 312,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "42361"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/42361_3c3a05d5c3369299_z.jpg",
                 "width": 640,
                 "height": 624,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "42361"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/42361_3c3a05d5c3369299_n.jpg",
+                "width": 320,
+                "height": 312,
+                "is_primary": "1",
+                "image_id": "42361"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/42361_3c3a05d5c3369299_d.gif",
+                "width": 320,
+                "height": 312,
+                "is_primary": "1",
+                "image_id": "42361"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/42361_3c3a05d5c3369299_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "42361"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/37006_f075acca5c127143_b.jpg",
                 "width": 1024,
                 "height": 962,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/37006_f075acca5c127143_n.jpg",
-                "width": 320,
-                "height": 301,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "37006"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/37006_f075acca5c127143_z.jpg",
                 "width": 640,
                 "height": 601,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "37006"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/37006_f075acca5c127143_n.jpg",
+                "width": 320,
+                "height": 301,
+                "is_primary": "0",
+                "image_id": "37006"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/37006_f075acca5c127143_d.gif",
+                "width": 320,
+                "height": 301,
+                "is_primary": "0",
+                "image_id": "37006"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/37006_f075acca5c127143_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "37006"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18050567",
             "role_id": "35351537",
             "person_name": "Gertrude M. Oppenheimer",
+            "person_date": "",
             "role_name": "Bequestor",
+            "role_display_name": "Bequest of",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18050567\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351537\/"
         }
@@ -85,23 +130,34 @@
     "colors": [
         {
             "color": "#daccab",
-            "closest_css3": "#f5deb3"
+            "closest_crayola": "#e7c697",
+            "closest_css3": "#f5deb3",
+            "closest_css4": "#f5deb3"
         },
         {
-            "color": "#ac8e64",
-            "closest_css3": "#bdb76b"
+            "color": "#ac8c5b",
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#cd853f",
+            "closest_css4": "#cd853f"
         },
         {
-            "color": "#807951",
-            "closest_css3": "#696969"
+            "color": "#908f74",
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#685c3e",
-            "closest_css3": "#556b2f"
+            "color": "#6d7050",
+            "closest_crayola": "#85754e",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#afa88a",
-            "closest_css3": "#bc8f8f"
+            "color": "#4e3c2d",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         }
-    ]
+    ],
+    "woe:country_name": "Germany"
 }

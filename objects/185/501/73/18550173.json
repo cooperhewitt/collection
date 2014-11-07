@@ -3,6 +3,7 @@
     "tms:id": "68017",
     "accession_number": "1938-88-7076",
     "title": "Drawing, \"The Adoration of the Shepherds\", ca. 1730",
+    "title_raw": "The Adoration of the Shepherds",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18550173\/",
     "department_id": "35347493",
     "period_id": "35417081",
@@ -13,39 +14,64 @@
     "year_end": 1740,
     "year_acquired": "1938",
     "decade": null,
-    "woe:country": "23424853",
+    "woe:country_id": "23424853",
     "medium": "Red chalk on cream laid paper",
     "markings": "Mary Brandegee: Lugt 1860c.",
     "signed": "Lower margin in graphite: Bernardo (crossed out) de Dominici \/ 2 g - a 120 (price drawn over with ink).",
     "inscribed": null,
     "provenance": "Giovanni Piancastelli",
     "dimensions": "26.8 x 19.2 cm (10 9\/16 x 7 9\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "26.80",
+            "centimeters"
+        ],
+        "width": [
+            "19.20",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase through gift of various donors and from Eleanor G. Hewitt Fund",
     "description": "In a rustic shelter, Mary is semi-reclining on a bed of straw, watching over the infant Christ in a cradle, surrounded by marvelling shepherds.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424853",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/35135_263abaad9f111717_b.jpg",
                 "width": 589,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/35135_263abaad9f111717_n.jpg",
-                "width": 184,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "35135"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/35135_263abaad9f111717_z.jpg",
                 "width": 368,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "35135"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/35135_263abaad9f111717_n.jpg",
+                "width": 184,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "35135"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/35135_263abaad9f111717_d.gif",
+                "width": 184,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "35135"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/35135_263abaad9f111717_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "35135"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/16970_cc18c3d445f86fb7_b.jpg",
                 "width": 646,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/16970_cc18c3d445f86fb7_n.jpg",
-                "width": 202,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "16970"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/16970_cc18c3d445f86fb7_z.jpg",
                 "width": 404,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "16970"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/16970_cc18c3d445f86fb7_n.jpg",
+                "width": 202,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "16970"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/16970_cc18c3d445f86fb7_d.gif",
+                "width": 202,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "16970"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/16970_cc18c3d445f86fb7_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "16970"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18055751",
             "role_id": "35352245",
             "person_name": "Amanda Sarroff",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18055751\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18055879",
             "role_id": "35236565",
             "person_name": "Antonio di Dominici",
+            "person_date": "ca. 1730\u2013after 1800",
             "role_name": "Artist",
+            "role_display_name": "",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18055879\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236565\/"
         }
@@ -92,16 +139,17 @@
     },
     "colors": [
         {
-            "color": "#ddbca1",
-            "closest_css3": "#d2b48c"
+            "color": "#c89577",
+            "closest_crayola": "#cd9575",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         },
         {
-            "color": "#c99576",
-            "closest_css3": "#bc8f8f"
-        },
-        {
-            "color": "#b27457",
-            "closest_css3": "#cd5c5c"
+            "color": "#a2644a",
+            "closest_crayola": "#a5694f",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         }
-    ]
+    ],
+    "woe:country_name": "Italy"
 }

@@ -3,6 +3,7 @@
     "tms:id": "203230",
     "accession_number": "1996-74-208",
     "title": "Book Cover, \"The American Way of Birth\"",
+    "title_raw": "The American Way of Birth",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18656367\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": null,
     "year_acquired": "1996",
     "decade": null,
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Offset lithography on paper",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "Steve Heller",
     "dimensions": "23.5 x 15.7 cm (9 1\/4 x 6 3\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "23.50",
+            "centimeters"
+        ],
+        "width": [
+            "15.70",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Steven Heller",
     "description": "Front cover, blue-toned close-up of a photographic image of a pouting baby's face with white collar visible. Upper right corner, in white on blue square: THE AMERICAN \/ WAY OF \/ BIRTH; center, in black on yellow: JESSICA MITFORD; lower left corner, in yellow and white on pink square: AUTHOR OF \/ THE \/ AMERICAN \/ WAY OF \/ DEATH.",
     "justification": null,
-    "type": {
-        "id": "35249845",
-        "name": "book cover"
-    },
+    "woe:country": "23424977",
+    "type": "book cover",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/12799_a6faa839a2f35fd0_b.jpg",
                 "width": 717,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/12799_a6faa839a2f35fd0_n.jpg",
-                "width": 224,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "12799"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/12799_a6faa839a2f35fd0_z.jpg",
                 "width": 448,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "12799"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/12799_a6faa839a2f35fd0_n.jpg",
+                "width": 224,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "12799"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/12799_a6faa839a2f35fd0_d.gif",
+                "width": 224,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "12799"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/12799_a6faa839a2f35fd0_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "12799"
             }
         }
     ],
@@ -54,15 +80,19 @@
             "person_id": "51676813",
             "role_id": "35236689",
             "person_name": "Jessica Mitford",
+            "person_date": "",
             "role_name": "Author",
+            "role_display_name": "Written by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/51676813\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236689\/"
         },
         {
             "person_id": "18041397",
             "role_id": "35351535",
-            "person_name": "Mr. Steve Heller",
+            "person_name": "Steven Heller",
+            "person_date": "American, b. 1950",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041397\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18043695",
             "role_id": "35236655",
             "person_name": "Neil Stuart",
+            "person_date": "",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18043695\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
@@ -80,24 +112,35 @@
     },
     "colors": [
         {
-            "color": "#4158ad",
-            "closest_css3": "#4682b4"
+            "color": "#3d57aa",
+            "closest_crayola": "#324ab2",
+            "closest_css3": "#483d8b",
+            "closest_css4": "#483d8b"
+        },
+        {
+            "color": "#6374ac",
+            "closest_crayola": "#7366bd",
+            "closest_css3": "#708090",
+            "closest_css4": "#708090"
         },
         {
             "color": "#102b9c",
-            "closest_css3": "#191970"
+            "closest_crayola": "#1a4876",
+            "closest_css3": "#191970",
+            "closest_css4": "#191970"
         },
         {
-            "color": "#6475ac",
-            "closest_css3": "#708090"
+            "color": "#b5b9c2",
+            "closest_crayola": "#b0b7c6",
+            "closest_css3": "#c0c0c0",
+            "closest_css4": "#c0c0c0"
         },
         {
-            "color": "#bcc1cd",
-            "closest_css3": "#c0c0c0"
-        },
-        {
-            "color": "#c99919",
-            "closest_css3": "#daa520"
+            "color": "#c89819",
+            "closest_crayola": "#c46210",
+            "closest_css3": "#daa520",
+            "closest_css4": "#daa520"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

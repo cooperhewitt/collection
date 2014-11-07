@@ -3,6 +3,7 @@
     "tms:id": "101993",
     "accession_number": "1950-121-63",
     "title": "Panel, 1775\u20131800",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18383719\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": "1800",
     "year_acquired": "1950",
     "decade": null,
-    "woe:country": "23424819",
+    "woe:country_id": "23424819",
     "medium": "Medium: silk on silk, metallic thread\nTechnique: embroidered on twill weave",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "H x W: 103.3 x 38 cm (40 11\/16 x 14 15\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "103.30",
+            "centimeters"
+        ],
+        "width": [
+            "38.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Richard C. Greenleaf Esq. in memory of his mother, Adeline Emma Greenleaf",
     "description": "Long, narrow shaped panel, probably from a skirt, that is narrower at the top and curved at the bottom. Cream-white twill weave with brocading in a small floral design. Embroidered in multicolored silks, metallic threads and paillettes. Narrow borders and festoons of flowers extend across the panel, each caught with a ribbon and tassels in metallic thread.",
     "justification": null,
-    "type": {
-        "id": "35237229",
-        "name": "Panel"
-    },
+    "woe:country": "23424819",
+    "type": "Panel",
     "images": [
         {
             "b": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/48756_4f7b9a42d9b66f68_b.jpg",
-                "width": 411,
+                "url": "http:\/\/images.collection.cooperhewitt.org\/48756_d2f4c5425aa67a64_b.jpg",
+                "width": 459,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/48756_4f7b9a42d9b66f68_n.jpg",
-                "width": 129,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "48756"
             },
             "z": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/48756_4f7b9a42d9b66f68_z.jpg",
-                "width": 257,
+                "url": "http:\/\/images.collection.cooperhewitt.org\/48756_d2f4c5425aa67a64_z.jpg",
+                "width": 287,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "48756"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/48756_d2f4c5425aa67a64_n.jpg",
+                "width": 143,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "48756"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/48756_d2f4c5425aa67a64_d.gif",
+                "width": 143,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "48756"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/48756_d2f4c5425aa67a64_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "48756"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/28445_1e31f45287ef28fe_b.jpg",
                 "width": 530,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/28445_1e31f45287ef28fe_n.jpg",
-                "width": 166,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "28445"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/28445_1e31f45287ef28fe_z.jpg",
                 "width": 332,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "28445"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/28445_1e31f45287ef28fe_n.jpg",
+                "width": 166,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "28445"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/28445_1e31f45287ef28fe_d.gif",
+                "width": 166,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "28445"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/28445_1e31f45287ef28fe_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "28445"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18049377",
             "role_id": "35351535",
             "person_name": "Richard Cranch Greenleaf",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049377\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -84,24 +129,35 @@
     },
     "colors": [
         {
-            "color": "#d0c19c",
-            "closest_css3": "#d2b48c"
+            "color": "#d2c49e",
+            "closest_crayola": "#e7c697",
+            "closest_css3": "#d2b48c",
+            "closest_css4": "#d2b48c"
         },
         {
-            "color": "#96916b",
-            "closest_css3": "#808080"
+            "color": "#95906d",
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#72654d",
-            "closest_css3": "#696969"
+            "color": "#686049",
+            "closest_crayola": "#6e5160",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#554a3b",
-            "closest_css3": "#556b2f"
+            "color": "#ba9e72",
+            "closest_crayola": "#cd9575",
+            "closest_css3": "#bdb76b",
+            "closest_css4": "#bdb76b"
         },
         {
-            "color": "#825240",
-            "closest_css3": "#a0522d"
+            "color": "#835542",
+            "closest_crayola": "#85754e",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         }
-    ]
+    ],
+    "woe:country_name": "France"
 }

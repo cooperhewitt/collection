@@ -3,6 +3,7 @@
     "tms:id": "58359",
     "accession_number": "1938-57-231",
     "title": "Drawing, \"Mountainous Landscape\", 1720\u201340",
+    "title_raw": "Mountainous Landscape",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18349377\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1760,
     "year_acquired": "1938",
     "decade": null,
-    "woe:country": "23424853",
+    "woe:country_id": "23424853",
     "medium": "Brush and gouache colors on paper",
     "markings": "Collector's stamp in black ink, lower right: R. Portalis (Lugt 2232); watermark: D + C BLAW",
     "signed": null,
     "inscribed": null,
     "provenance": "Erskine Hewitt",
     "dimensions": "18.3 x 27.5 cm (7 3\/16 x 10 13\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "18.30",
+            "centimeters"
+        ],
+        "width": [
+            "27.50",
+            "centimeters"
+        ]
+    },
     "creditline": "Bequest of Erskine Hewitt",
     "description": "Three figures are depicted near a small body of water in the foreground. Behind, a cottage and a double-arched stone bridge. Mountains in the distance.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424853",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/21816_0bebe25851a59681_b.jpg",
                 "width": 1024,
                 "height": 693,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/21816_0bebe25851a59681_n.jpg",
-                "width": 320,
-                "height": 217,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "21816"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/21816_0bebe25851a59681_z.jpg",
                 "width": 640,
                 "height": 433,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "21816"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/21816_0bebe25851a59681_n.jpg",
+                "width": 320,
+                "height": 217,
+                "is_primary": "1",
+                "image_id": "21816"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/21816_0bebe25851a59681_d.gif",
+                "width": 320,
+                "height": 217,
+                "is_primary": "1",
+                "image_id": "21816"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/21816_0bebe25851a59681_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "21816"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/22673_7e6b793bc9c94d19_b.jpg",
                 "width": 1024,
                 "height": 898,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/22673_7e6b793bc9c94d19_n.jpg",
-                "width": 320,
-                "height": 281,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "22673"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/22673_7e6b793bc9c94d19_z.jpg",
                 "width": 640,
                 "height": 561,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "22673"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/22673_7e6b793bc9c94d19_n.jpg",
+                "width": 320,
+                "height": 281,
+                "is_primary": "0",
+                "image_id": "22673"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/22673_7e6b793bc9c94d19_d.gif",
+                "width": 320,
+                "height": 281,
+                "is_primary": "0",
+                "image_id": "22673"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/22673_7e6b793bc9c94d19_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "22673"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "51676457",
             "role_id": "35352245",
             "person_name": "Karin Zonis",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/51676457\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18050021",
             "role_id": "35351537",
             "person_name": "Erskine Hewitt",
+            "person_date": "American, 1871\u20131938",
             "role_name": "Bequestor",
+            "role_display_name": "Bequest of",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18050021\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351537\/"
         }
@@ -93,23 +140,34 @@
     "colors": [
         {
             "color": "#9ba8a0",
-            "closest_css3": "#a9a9a9"
+            "closest_crayola": "#979aaa",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
         },
         {
-            "color": "#3f3f3a",
-            "closest_css3": "#2f4f4f"
+            "color": "#5a5144",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         },
         {
-            "color": "#b4a88c",
-            "closest_css3": "#bc8f8f"
+            "color": "#a79b81",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
+        },
+        {
+            "color": "#36332f",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
             "color": "#786e5c",
-            "closest_css3": "#696969"
-        },
-        {
-            "color": "#5f6660",
-            "closest_css3": "#696969"
+            "closest_crayola": "#85754e",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         }
-    ]
+    ],
+    "woe:country_name": "Italy"
 }

@@ -3,6 +3,7 @@
     "tms:id": "134322",
     "accession_number": "1963-39-28",
     "title": "Poster, \"Twickenham by Tram - for the London Underground\", 1924",
+    "title_raw": "Twickenham by Tram - for the London Underground",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18447613\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1924,
     "year_acquired": "1963",
     "decade": "1920",
-    "woe:country": "23424975",
+    "woe:country_id": "23424975",
     "medium": "Offset lithograph on paper, lined",
     "markings": null,
     "signed": "Signature printed in brown ink: E. McKnight Kauffer. 24",
     "inscribed": "Printed, lower left: No. 586 1000 5-24; lower center: Sanders Phillips and Co., Ltd., THE BAYNARD PRESS, Chryssell Road, S.W.9.",
     "provenance": "Mrs. E. McKnight Kauffer; 1963: acquired by Museum",
     "dimensions": "72 x 44.3 cm (28 3\/8 x 17 7\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "72.00",
+            "centimeters"
+        ],
+        "width": [
+            "44.30",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Mrs. E. McKnight Kauffer",
     "description": "Drawing of a landscape. Two sailboats and house and landscape in background. All reflecting on body of water. Text below, in brown and gray: TWICKENHAM \/ BY TRAM.",
     "justification": null,
-    "type": {
-        "id": "35238163",
-        "name": "poster"
-    },
+    "woe:country": "23424975",
+    "type": "poster",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/64291_c3a5763ae1d360ff_b.jpg",
                 "width": 638,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/64291_c3a5763ae1d360ff_n.jpg",
-                "width": 199,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "64291"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/64291_c3a5763ae1d360ff_z.jpg",
                 "width": 399,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "64291"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/64291_c3a5763ae1d360ff_n.jpg",
+                "width": 199,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "64291"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/64291_c3a5763ae1d360ff_d.gif",
+                "width": 199,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "64291"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/64291_c3a5763ae1d360ff_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "64291"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18061849",
             "role_id": "35351535",
             "person_name": "Mrs. Edward McKnight Kauffer",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18061849\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18041923",
             "role_id": "35236655",
             "person_name": "Edward McKnight Kauffer",
+            "person_date": "American, active England, 1890\u20131954",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041923\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
@@ -72,24 +102,35 @@
     },
     "colors": [
         {
-            "color": "#c2bb76",
-            "closest_css3": "#bdb76b"
+            "color": "#bab36f",
+            "closest_crayola": "#bab86c",
+            "closest_css3": "#bdb76b",
+            "closest_css4": "#bdb76b"
         },
         {
             "color": "#e7debf",
-            "closest_css3": "#f5deb3"
+            "closest_crayola": "#eceabe",
+            "closest_css3": "#f5deb3",
+            "closest_css4": "#f5deb3"
         },
         {
             "color": "#2f4636",
-            "closest_css3": "#2f4f4f"
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#899068",
-            "closest_css3": "#808080"
+            "color": "#8b926a",
+            "closest_crayola": "#87a96b",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
             "color": "#885337",
-            "closest_css3": "#a0522d"
+            "closest_crayola": "#714b23",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         }
-    ]
+    ],
+    "woe:country_name": "United Kingdom"
 }

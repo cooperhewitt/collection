@@ -3,6 +3,7 @@
     "tms:id": "230736",
     "accession_number": "2006-31-1",
     "title": "Textile, \"Droit Gauche\", 2003",
+    "title_raw": "Droit Gauche",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18709761\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 2003,
     "year_acquired": "2006",
     "decade": "2000",
-    "woe:country": "23424819",
+    "woe:country_id": "23424819",
     "medium": "Medium: linen, razor clam shell\nTechnique: plain weave with discontinuous wefts (slit tapestry) with eccentric weft",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "2006: acquired by Museum from Anonymous donor",
     "dimensions": "Warp x Weft: 23 x 15 cm (9 1\/16 x 5 7\/8 in.)",
+    "dimensions_raw": {
+        "warp": [
+            "23.00",
+            "centimeters"
+        ],
+        "weft": [
+            "15.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Anonymous Donor",
     "description": "White slit tapestry with a razor clam shell inserted, and a trianglular form of eccentric weft.",
     "justification": null,
-    "type": {
-        "id": "35251739",
-        "name": "textile"
-    },
+    "woe:country": "23424819",
+    "type": "textile",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/35245_63c9109ba49f6bad_b.jpg",
                 "width": 655,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/35245_63c9109ba49f6bad_n.jpg",
-                "width": 205,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "35245"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/35245_63c9109ba49f6bad_z.jpg",
                 "width": 409,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "35245"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/35245_63c9109ba49f6bad_n.jpg",
+                "width": 205,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "35245"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/35245_63c9109ba49f6bad_d.gif",
+                "width": 205,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "35245"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/35245_63c9109ba49f6bad_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "35245"
             }
         }
     ],
@@ -53,8 +79,10 @@
         {
             "person_id": "18049335",
             "role_id": "35351535",
-            "person_name": "Anonymous",
+            "person_name": "Unknown",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049335\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -62,9 +90,21 @@
             "person_id": "18058887",
             "role_id": "35236655",
             "person_name": "Sheila Hicks",
+            "person_date": "American, b. 1934",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18058887\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
+        },
+        {
+            "person_id": "68739079",
+            "role_id": "35351535",
+            "person_name": "Anonymous",
+            "person_date": "",
+            "role_name": "Donor",
+            "role_display_name": "Donated by",
+            "person_url": "http:\/\/collection.cooperhewitt.org\/people\/68739079\/",
+            "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
     ],
     "tombstone": {
@@ -72,8 +112,17 @@
     },
     "colors": [
         {
-            "color": "#a89475",
-            "closest_css3": "#bc8f8f"
+            "color": "#aa9679",
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
+        },
+        {
+            "color": "#937a54",
+            "closest_crayola": "#8a795d",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         }
-    ]
+    ],
+    "woe:country_name": "France"
 }

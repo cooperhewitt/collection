@@ -3,6 +3,7 @@
     "tms:id": "149993",
     "accession_number": "1972-75-49",
     "title": "Sample, 1947\u201348",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18478367\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1948,
     "year_acquired": "1972",
     "decade": "1940",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Medium: synthetic, cotton (?)\nTechnique: 2\/2 twill plain woven",
     "markings": null,
     "signed": null,
     "inscribed": "Liebes # 2595",
     "provenance": "Estate of Dorothy (Liebes) Morin; 1972: acquired by Museum",
     "dimensions": "Warp x Weft: 20 x 18.5 cm (7 7\/8 x 7 5\/16 in.)",
+    "dimensions_raw": {
+        "warp": [
+            "20.00",
+            "centimeters"
+        ],
+        "weft": [
+            "18.50",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of the Estate of Dorothy (Liebes) Morin",
     "description": "Sample of hound\u2019s-tooth plaid with a warp of pink and red two-ply yarn and a weft of green two-ply yarns, light blue boucle, pink two-ply yarns and flat pink metallic yarns.",
     "justification": null,
-    "type": {
-        "id": "35268079",
-        "name": "Sample"
-    },
+    "woe:country": "23424977",
+    "type": "Sample",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/81797_278e51ff6d8eaf91_b.jpg",
                 "width": 902,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/81797_278e51ff6d8eaf91_n.jpg",
-                "width": 282,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "81797"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/81797_278e51ff6d8eaf91_z.jpg",
                 "width": 564,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "81797"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/81797_278e51ff6d8eaf91_n.jpg",
+                "width": 282,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "81797"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/81797_278e51ff6d8eaf91_d.gif",
+                "width": 282,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "81797"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/81797_278e51ff6d8eaf91_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "81797"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/35934_193bd33f239dd933_b.jpg",
                 "width": 1024,
                 "height": 687,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/35934_193bd33f239dd933_n.jpg",
-                "width": 320,
-                "height": 215,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "35934"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/35934_193bd33f239dd933_z.jpg",
                 "width": 640,
                 "height": 430,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "35934"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/35934_193bd33f239dd933_n.jpg",
+                "width": 320,
+                "height": 215,
+                "is_primary": "0",
+                "image_id": "35934"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/35934_193bd33f239dd933_d.gif",
+                "width": 320,
+                "height": 215,
+                "is_primary": "0",
+                "image_id": "35934"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/35934_193bd33f239dd933_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "35934"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18045817",
             "role_id": "35236745",
             "person_name": "Dorothy Wright Liebes",
+            "person_date": "American, 1897\u20131972",
             "role_name": "Weaver",
+            "role_display_name": "Woven by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18045817\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236745\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18045817",
             "role_id": "35236655",
             "person_name": "Dorothy Wright Liebes",
+            "person_date": "American, 1897\u20131972",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18045817\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -90,7 +137,9 @@
             "person_id": "18054731",
             "role_id": "35351535",
             "person_name": "Estate of Dorothy (Liebes) Morin",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18054731\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -100,5 +149,6 @@
     },
     "colors": [
 
-    ]
+    ],
+    "woe:country_name": "United States"
 }

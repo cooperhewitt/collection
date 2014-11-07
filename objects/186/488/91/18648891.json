@@ -3,6 +3,7 @@
     "tms:id": "199355",
     "accession_number": "1994-55-1-a,b",
     "title": "Cup And Saucer, \"Metropolis\", ca. 1936",
+    "title_raw": "Metropolis",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18648891\/",
     "department_id": "35347497",
     "period_id": null,
@@ -13,39 +14,68 @@
     "year_end": 1941,
     "year_acquired": "1994",
     "decade": "1930",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Earthenware",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "Belle Kogan; 1994: acquired by Museum",
     "dimensions": "H x W (a, b: overall): 5.6 x 7.8 cm (2 3\/16 x 3 1\/16 in.)",
+    "dimensions_raw": {
+        "diameter": [
+            "5.80",
+            "centimeters"
+        ],
+        "height": [
+            "5.60",
+            "centimeters"
+        ],
+        "width": [
+            "7.80",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Belle Kogan",
     "description": "A white cup and saucer depicting an abstract outdoor scene. Image is on both inside and outside of cup. The saucer has brown stripes around the rim.",
     "justification": null,
-    "type": {
-        "id": "35248193",
-        "name": "cup and saucer"
-    },
+    "woe:country": "23424977",
+    "type": "cup and saucer",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/16047_82c2e7b52348b921_b.jpg",
                 "width": 1024,
                 "height": 858,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/16047_82c2e7b52348b921_n.jpg",
-                "width": 320,
-                "height": 268,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "16047"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/16047_82c2e7b52348b921_z.jpg",
                 "width": 640,
                 "height": 536,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "16047"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/16047_82c2e7b52348b921_n.jpg",
+                "width": 320,
+                "height": 268,
+                "is_primary": "1",
+                "image_id": "16047"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/16047_82c2e7b52348b921_d.gif",
+                "width": 320,
+                "height": 268,
+                "is_primary": "1",
+                "image_id": "16047"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/16047_82c2e7b52348b921_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "16047"
             }
         },
         {
@@ -53,19 +83,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/12510_aaaa19e500b6be21_b.jpg",
                 "width": 1024,
                 "height": 862,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/12510_aaaa19e500b6be21_n.jpg",
-                "width": 320,
-                "height": 269,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "12510"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/12510_aaaa19e500b6be21_z.jpg",
                 "width": 640,
                 "height": 539,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "12510"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/12510_aaaa19e500b6be21_n.jpg",
+                "width": 320,
+                "height": 269,
+                "is_primary": "0",
+                "image_id": "12510"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/12510_aaaa19e500b6be21_d.gif",
+                "width": 320,
+                "height": 269,
+                "is_primary": "0",
+                "image_id": "12510"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/12510_aaaa19e500b6be21_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "12510"
             }
         }
     ],
@@ -74,7 +121,9 @@
             "person_id": "18041543",
             "role_id": "35351535",
             "person_name": "Belle Kogan",
+            "person_date": "American, 1902\u20132000",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041543\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -82,7 +131,9 @@
             "person_id": "18041543",
             "role_id": "35236655",
             "person_name": "Belle Kogan",
+            "person_date": "American, 1902\u20132000",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041543\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
@@ -92,24 +143,35 @@
     },
     "colors": [
         {
-            "color": "#aba7a0",
-            "closest_css3": "#a9a9a9"
-        },
-        {
             "color": "#758087",
-            "closest_css3": "#708090"
+            "closest_crayola": "#757575",
+            "closest_css3": "#708090",
+            "closest_css4": "#708090"
         },
         {
-            "color": "#535b62",
-            "closest_css3": "#696969"
+            "color": "#5d656d",
+            "closest_crayola": "#4a646c",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
+        },
+        {
+            "color": "#b6a894",
+            "closest_crayola": "#979aaa",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
         },
         {
             "color": "#909da6",
-            "closest_css3": "#a9a9a9"
+            "closest_crayola": "#979aaa",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
         },
         {
-            "color": "#5c3635",
-            "closest_css3": "#556b2f"
+            "color": "#5d3837",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

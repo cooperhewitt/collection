@@ -3,6 +3,7 @@
     "tms:id": "44016",
     "accession_number": "1930-22-59",
     "title": "Fragment, ca. 1884",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18317273\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1894,
     "year_acquired": "1930",
     "decade": null,
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Medium: cotton\nTechnique: machine made lace",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "H x W: 9 x 4 cm (3 9\/16 x 1 9\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "9.00",
+            "centimeters"
+        ],
+        "width": [
+            "4.00",
+            "centimeters"
+        ]
+    },
     "creditline": null,
     "description": "Valencienne-type with embroidered details.",
     "justification": null,
-    "type": {
-        "id": "35254623",
-        "name": "Fragment"
-    },
+    "woe:country": "23424977",
+    "type": "Fragment",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/69284_76a76b53b46f6f22_b.jpg",
                 "width": 1024,
                 "height": 491,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/69284_76a76b53b46f6f22_n.jpg",
-                "width": 320,
-                "height": 153,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "69284"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/69284_76a76b53b46f6f22_z.jpg",
                 "width": 640,
                 "height": 307,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "69284"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/69284_76a76b53b46f6f22_n.jpg",
+                "width": 320,
+                "height": 153,
+                "is_primary": "1",
+                "image_id": "69284"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/69284_76a76b53b46f6f22_d.gif",
+                "width": 320,
+                "height": 153,
+                "is_primary": "1",
+                "image_id": "69284"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/69284_76a76b53b46f6f22_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "69284"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18063461",
             "role_id": "35236657",
             "person_name": "A .G. Jennings & Sons",
+            "person_date": "American",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18063461\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         }
@@ -64,12 +92,17 @@
     },
     "colors": [
         {
-            "color": "#3c4248",
-            "closest_css3": "#2f4f4f"
+            "color": "#394147",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#26242b",
-            "closest_css3": "#2f4f4f"
+            "color": "#cdd4d9",
+            "closest_crayola": "#c5d0e6",
+            "closest_css3": "#d3d3d3",
+            "closest_css4": "#d3d3d3"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

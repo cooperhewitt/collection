@@ -3,6 +3,7 @@
     "tms:id": "180215",
     "accession_number": "1982-57-5",
     "title": "Glass",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18800105\/",
     "department_id": "35347497",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": null,
     "year_acquired": "1982",
     "decade": null,
-    "woe:country": null,
+    "woe:country_id": null,
     "medium": "glass",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "H x diam.: 7.3 x 4.8 cm (2 7\/8 x 1 7\/8 in.)",
+    "dimensions_raw": {
+        "diameter": [
+            "4.80",
+            "centimeters"
+        ],
+        "height": [
+            "7.30",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Iittala Glassworks",
     "description": "Stemless shot glass. Manufacturer's sticker, red with \"i\" Made in Finland",
     "justification": null,
-    "type": {
-        "id": "35249055",
-        "name": "glass"
-    },
+    "woe:country": null,
+    "type": "glass",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/40176_8886674d8fac5891_b.jpg",
-                "width": 461,
-                "height": 432,
-                "is_primary": "1"
+                "width": null,
+                "height": null,
+                "is_primary": "1",
+                "image_id": "40176"
+            },
+            "z": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/40176_8886674d8fac5891_z.jpg",
+                "width": null,
+                "height": null,
+                "is_primary": "1",
+                "image_id": "40176"
             },
             "n": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/40176_8886674d8fac5891_n.jpg",
                 "width": 320,
                 "height": 300,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "40176"
             },
-            "z": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/40176_8886674d8fac5891_z.jpg",
-                "width": 461,
-                "height": 432,
-                "is_primary": "1"
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/40176_8886674d8fac5891_d.gif",
+                "width": 320,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "40176"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/40176_8886674d8fac5891_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "40176"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18044545",
             "role_id": "35351535",
             "person_name": "Iittala Glassworks",
+            "person_date": "founded 1881",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18044545\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18054773",
             "role_id": "35236655",
             "person_name": "Goran Hongell",
+            "person_date": "1902\u20131973",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18054773\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
@@ -71,9 +101,6 @@
         "epitaph": "Glass. glass. Gift of Iittala Glassworks. 1982-57-5."
     },
     "colors": [
-        {
-            "color": "#777777",
-            "closest_css3": "#808080"
-        }
+
     ]
 }

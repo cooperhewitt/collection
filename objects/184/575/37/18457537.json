@@ -3,6 +3,7 @@
     "tms:id": "139337",
     "accession_number": "1967-48-8-a,b",
     "title": "Circular Snuff Box, \"Circular snuff box\", 1779",
+    "title_raw": "Circular snuff box",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18457537\/",
     "department_id": "35347497",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1779,
     "year_acquired": "1967",
     "decade": null,
-    "woe:country": "23424819",
+    "woe:country_id": "23424819",
     "medium": "Gold, opalescent glass, metallic foil",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "Anonymous Donor",
     "dimensions": "H x diam.: 2.5 x 7 cm (1 x 2 3\/4 in.)",
+    "dimensions_raw": {
+        "diameter": [
+            "7.00",
+            "centimeters"
+        ],
+        "height": [
+            "2.50",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Anonymous Donor",
     "description": "Circular, with detachable cover; gold, the cover, sides and base decorated with silhouette landscapes of trees and birds painted in puce color on silver foil under enamel; matte gold borders studded with small silver bosses; lined with silver foil stamped to simulate engine-turning, under amber-colored horn.",
     "justification": null,
-    "type": {
-        "id": "35291845",
-        "name": "Circular snuff box"
-    },
+    "woe:country": "23424819",
+    "type": "Circular snuff box",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/29580_5a615a98fd6fad30_b.jpg",
                 "width": 1024,
                 "height": 898,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/29580_5a615a98fd6fad30_n.jpg",
-                "width": 320,
-                "height": 281,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "29580"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/29580_5a615a98fd6fad30_z.jpg",
                 "width": 640,
                 "height": 561,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "29580"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/29580_5a615a98fd6fad30_n.jpg",
+                "width": 320,
+                "height": 281,
+                "is_primary": "1",
+                "image_id": "29580"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/29580_5a615a98fd6fad30_d.gif",
+                "width": 320,
+                "height": 281,
+                "is_primary": "1",
+                "image_id": "29580"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/29580_5a615a98fd6fad30_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "29580"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/29512_7da25b136a1e0b5a_b.jpg",
                 "width": 1024,
                 "height": 988,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/29512_7da25b136a1e0b5a_n.jpg",
-                "width": 320,
-                "height": 309,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "29512"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/29512_7da25b136a1e0b5a_z.jpg",
                 "width": 640,
                 "height": 618,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "29512"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/29512_7da25b136a1e0b5a_n.jpg",
+                "width": 320,
+                "height": 309,
+                "is_primary": "0",
+                "image_id": "29512"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/29512_7da25b136a1e0b5a_d.gif",
+                "width": 320,
+                "height": 309,
+                "is_primary": "0",
+                "image_id": "29512"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/29512_7da25b136a1e0b5a_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "29512"
             }
         }
     ],
@@ -74,9 +117,21 @@
             "person_id": "18060983",
             "role_id": "35236685",
             "person_name": "Claude Pierre Pottier",
+            "person_date": "",
             "role_name": "Maker",
+            "role_display_name": "Made by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18060983\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236685\/"
+        },
+        {
+            "person_id": "68739079",
+            "role_id": "35351535",
+            "person_name": "Anonymous",
+            "person_date": "",
+            "role_name": "Donor",
+            "role_display_name": "Donated by",
+            "person_url": "http:\/\/collection.cooperhewitt.org\/people\/68739079\/",
+            "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
     ],
     "tombstone": {
@@ -84,24 +139,35 @@
     },
     "colors": [
         {
-            "color": "#a6bacf",
-            "closest_css3": "#b0c4de"
+            "color": "#9db0c6",
+            "closest_crayola": "#a2add0",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
         },
         {
-            "color": "#755d3f",
-            "closest_css3": "#556b2f"
+            "color": "#7a6242",
+            "closest_crayola": "#85754e",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         },
         {
-            "color": "#967a52",
-            "closest_css3": "#808080"
+            "color": "#ae946e",
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         },
         {
-            "color": "#b7986c",
-            "closest_css3": "#bdb76b"
+            "color": "#413424",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#3c2e1f",
-            "closest_css3": "#2f4f4f"
+            "color": "#c9b8a3",
+            "closest_crayola": "#cdc5c2",
+            "closest_css3": "#d2b48c",
+            "closest_css4": "#d2b48c"
         }
-    ]
+    ],
+    "woe:country_name": "France"
 }

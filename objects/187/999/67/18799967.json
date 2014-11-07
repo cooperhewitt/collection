@@ -3,6 +3,7 @@
     "tms:id": "180145",
     "accession_number": "1982-41-1-a,b",
     "title": "Teapot And Lid, ca. 1925",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18799967\/",
     "department_id": "35347497",
     "period_id": null,
@@ -13,39 +14,68 @@
     "year_end": 1925,
     "year_acquired": "1982",
     "decade": "1920",
-    "woe:country": "23424796",
+    "woe:country_id": "23424796",
     "medium": "Silver, ebony",
     "markings": "On base: \"Dessin \/ R [interlaced with] i\" surrounded by 14 dots; \"George \/ Jensen\" in oval shape surrounded by oval of punched dots. Stamped: \"DENMARK\" on left and \"STERLING\" on right; \"45 \/ C\".",
     "signed": null,
     "inscribed": null,
     "provenance": "Dr. Marilyn Karmason Spritz and Norton Spritz, M.D.; 1982: acquired by Museum",
     "dimensions": "Overall: 17.6 x 21.8 x 16 cm (6 15\/16 x 8 9\/16 x 6 5\/16 in.)",
+    "dimensions_raw": {
+        "depth": [
+            "16.00",
+            "centimeters"
+        ],
+        "height": [
+            "17.60",
+            "centimeters"
+        ],
+        "width": [
+            "21.80",
+            "centimeters"
+        ]
+    },
     "creditline": null,
     "description": "Silver bulbous teapot; lower section with vertical ribs, looped ebony handle. Plain spout and scalloped lid, finial with lower section ribbed and scalloped.",
     "justification": null,
-    "type": {
-        "id": "35293525",
-        "name": "Teapot and lid"
-    },
+    "woe:country": "23424796",
+    "type": "Teapot and lid",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/45945_3ac7a9c8aee04a2f_b.jpg",
                 "width": 1024,
                 "height": 894,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/45945_3ac7a9c8aee04a2f_n.jpg",
-                "width": 320,
-                "height": 279,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "45945"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/45945_3ac7a9c8aee04a2f_z.jpg",
                 "width": 640,
                 "height": 559,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "45945"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/45945_3ac7a9c8aee04a2f_n.jpg",
+                "width": 320,
+                "height": 279,
+                "is_primary": "1",
+                "image_id": "45945"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/45945_3ac7a9c8aee04a2f_d.gif",
+                "width": 320,
+                "height": 279,
+                "is_primary": "1",
+                "image_id": "45945"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/45945_3ac7a9c8aee04a2f_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "45945"
             }
         },
         {
@@ -53,19 +83,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/45944_72edebf9c5f3d711_b.jpg",
                 "width": 1024,
                 "height": 539,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/45944_72edebf9c5f3d711_n.jpg",
-                "width": 320,
-                "height": 169,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "45944"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/45944_72edebf9c5f3d711_z.jpg",
                 "width": 640,
                 "height": 337,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "45944"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/45944_72edebf9c5f3d711_n.jpg",
+                "width": 320,
+                "height": 169,
+                "is_primary": "0",
+                "image_id": "45944"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/45944_72edebf9c5f3d711_d.gif",
+                "width": 320,
+                "height": 169,
+                "is_primary": "0",
+                "image_id": "45944"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/45944_72edebf9c5f3d711_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "45944"
             }
         }
     ],
@@ -74,7 +121,9 @@
             "person_id": "18043787",
             "role_id": "35236657",
             "person_name": "Georg Jensen S\u00f8lvsmedie",
+            "person_date": "founded 1904",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18043787\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         },
@@ -82,7 +131,9 @@
             "person_id": "18053973",
             "role_id": "35236655",
             "person_name": "Johan Rohde",
+            "person_date": "Danish, 1866 \u2013 1935",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18053973\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
@@ -93,11 +144,16 @@
     "colors": [
         {
             "color": "#747067",
-            "closest_css3": "#696969"
+            "closest_crayola": "#757575",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#36342e",
-            "closest_css3": "#2f4f4f"
+            "color": "#4c483f",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         }
-    ]
+    ],
+    "woe:country_name": "Denmark"
 }

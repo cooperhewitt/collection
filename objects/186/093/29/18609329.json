@@ -3,6 +3,7 @@
     "tms:id": "98243",
     "accession_number": "1948-26-20",
     "title": "Sample, 1945",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18609329\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1945,
     "year_acquired": "1948",
     "decade": "1940",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Medium: mohair, silk\nTechnique: plain weave",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "1948: acquired by Museum",
     "dimensions": "Warp x Weft: 44.8 x 45.3 cm (17 5\/8 x 17 13\/16 in.)",
+    "dimensions_raw": {
+        "warp": [
+            "44.80",
+            "centimeters"
+        ],
+        "weft": [
+            "45.30",
+            "centimeters"
+        ]
+    },
     "creditline": null,
     "description": "Design that alternates tightly and loosely woven stripes in white creating a plaid effect.",
     "justification": null,
-    "type": {
-        "id": "35268079",
-        "name": "Sample"
-    },
+    "woe:country": "23424977",
+    "type": "Sample",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/16012_a9aea432fdacc9fb_b.jpg",
                 "width": 1024,
                 "height": 707,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/16012_a9aea432fdacc9fb_n.jpg",
-                "width": 320,
-                "height": 221,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "16012"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/16012_a9aea432fdacc9fb_z.jpg",
                 "width": 640,
                 "height": 442,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "16012"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/16012_a9aea432fdacc9fb_n.jpg",
+                "width": 320,
+                "height": 221,
+                "is_primary": "1",
+                "image_id": "16012"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/16012_a9aea432fdacc9fb_d.gif",
+                "width": 320,
+                "height": 221,
+                "is_primary": "1",
+                "image_id": "16012"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/16012_a9aea432fdacc9fb_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "16012"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18063885",
             "role_id": "35236657",
             "person_name": "Goodall Worsted Company",
+            "person_date": "American",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18063885\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18045817",
             "role_id": "35236655",
             "person_name": "Dorothy Wright Liebes",
+            "person_date": "American, 1897\u20131972",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18045817\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
@@ -72,20 +102,23 @@
     },
     "colors": [
         {
-            "color": "#686a80",
-            "closest_css3": "#696969"
+            "color": "#8b94b8",
+            "closest_crayola": "#979aaa",
+            "closest_css3": "#778899",
+            "closest_css4": "#778899"
         },
         {
-            "color": "#8084a8",
-            "closest_css3": "#778899"
+            "color": "#615f74",
+            "closest_crayola": "#4a646c",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#423e4e",
-            "closest_css3": "#2f4f4f"
-        },
-        {
-            "color": "#a2a9ce",
-            "closest_css3": "#b0c4de"
+            "color": "#454252",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

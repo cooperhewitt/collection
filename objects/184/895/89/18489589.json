@@ -3,6 +3,7 @@
     "tms:id": "155668",
     "accession_number": "1976-100-51",
     "title": "Sampler, early 19th century",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18489589\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": null,
     "year_acquired": "1976",
     "decade": null,
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Medium: silk embroidery on linen foundation\nTechnique: embroidered in counted cross stitches on plain weave fountation",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "Ex. coll. Fraser-Martin. Donor's Notes: \"From Easton, PA. Gift of Sylvester Fraser.\"",
     "dimensions": "H x W: 6.4 x 116.8 cm (2 1\/2 x 46 in.)",
+    "dimensions_raw": {
+        "height": [
+            "6.35",
+            "centimeters"
+        ],
+        "width": [
+            "116.84",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Anonymous Donor from the Fraser\/Martin Collection",
     "description": "An unusually wide rectangular sampler, with alphabets in which each letter is repeated several times.",
     "justification": null,
-    "type": {
-        "id": "35256439",
-        "name": "Sampler"
-    },
+    "woe:country": "23424977",
+    "type": "Sampler",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/36395_695508b2bcff6bc7_b.jpg",
                 "width": 1024,
                 "height": 89,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/36395_695508b2bcff6bc7_n.jpg",
-                "width": 320,
-                "height": 28,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "36395"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/36395_695508b2bcff6bc7_z.jpg",
                 "width": 640,
                 "height": 56,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "36395"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/36395_695508b2bcff6bc7_n.jpg",
+                "width": 320,
+                "height": 28,
+                "is_primary": "1",
+                "image_id": "36395"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/36395_695508b2bcff6bc7_d.gif",
+                "width": 320,
+                "height": 28,
+                "is_primary": "1",
+                "image_id": "36395"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/36395_695508b2bcff6bc7_sq.jpg",
+                "width": 300,
+                "height": 89,
+                "is_primary": "1",
+                "image_id": "36395"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/27881_fcc5adb01c59fb90_b.jpg",
                 "width": 1024,
                 "height": 83,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/27881_fcc5adb01c59fb90_n.jpg",
-                "width": 320,
-                "height": 26,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "27881"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/27881_fcc5adb01c59fb90_z.jpg",
                 "width": 640,
                 "height": 52,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "27881"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/27881_fcc5adb01c59fb90_n.jpg",
+                "width": 320,
+                "height": 26,
+                "is_primary": "0",
+                "image_id": "27881"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/27881_fcc5adb01c59fb90_d.gif",
+                "width": 320,
+                "height": 26,
+                "is_primary": "0",
+                "image_id": "27881"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/27881_fcc5adb01c59fb90_sq.jpg",
+                "width": 300,
+                "height": 83,
+                "is_primary": "0",
+                "image_id": "27881"
             }
         }
     ],
@@ -73,8 +116,10 @@
         {
             "person_id": "18049335",
             "role_id": "35351535",
-            "person_name": "Anonymous",
+            "person_name": "Unknown",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049335\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -84,16 +129,23 @@
     },
     "colors": [
         {
-            "color": "#986a41",
-            "closest_css3": "#a0522d"
+            "color": "#956c42",
+            "closest_crayola": "#9c7c38",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         },
         {
-            "color": "#6e583d",
-            "closest_css3": "#556b2f"
+            "color": "#726244",
+            "closest_crayola": "#85754e",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         },
         {
-            "color": "#c5b293",
-            "closest_css3": "#d2b48c"
+            "color": "#c8b79e",
+            "closest_crayola": "#deaa88",
+            "closest_css3": "#d2b48c",
+            "closest_css4": "#d2b48c"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

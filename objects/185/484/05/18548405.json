@@ -3,6 +3,7 @@
     "tms:id": "67294",
     "accession_number": "1938-88-6438",
     "title": "Drawing, \"Virgin and child in glory\", ca. 1600\u20131700",
+    "title_raw": "Virgin and child in glory",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18548405\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": null,
     "year_acquired": "1938",
     "decade": null,
-    "woe:country": "23424853",
+    "woe:country_id": "23424853",
     "medium": "Pen and brown ink, gray wash, squared in brown ink, laid down",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "Giovanni Piancastelli",
     "dimensions": "25.5 x 17 cm (10 1\/16 x 6 11\/16 in.)\nMount: 30.5 x 21 cm",
+    "dimensions_raw": {
+        "height": [
+            "25.50",
+            "centimeters"
+        ],
+        "width": [
+            "17.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase through gift of various donors and from Eleanor G. Hewitt Fund",
     "description": "Upper left, Virgin and child surrounded by putti reach out to bless donor kneeling at lower right.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424853",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/39965_71f600300207f88f_b.jpg",
                 "width": 721,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/39965_71f600300207f88f_n.jpg",
-                "width": 225,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "39965"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/39965_71f600300207f88f_z.jpg",
                 "width": 451,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "39965"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/39965_71f600300207f88f_n.jpg",
+                "width": 225,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "39965"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/39965_71f600300207f88f_d.gif",
+                "width": 225,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "39965"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/39965_71f600300207f88f_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "39965"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/16958_32f8f080c34b7c96_b.jpg",
                 "width": 707,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/16958_32f8f080c34b7c96_n.jpg",
-                "width": 221,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "16958"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/16958_32f8f080c34b7c96_z.jpg",
                 "width": 442,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "16958"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/16958_32f8f080c34b7c96_n.jpg",
+                "width": 221,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "16958"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/16958_32f8f080c34b7c96_d.gif",
+                "width": 221,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "16958"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/16958_32f8f080c34b7c96_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "16958"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18047443",
             "role_id": "35352245",
             "person_name": "Megan L. Smith",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047443\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18043183",
             "role_id": "35236565",
             "person_name": "Paolo de Mattheis",
+            "person_date": "1662 \u2013 1728",
             "role_name": "Artist",
+            "role_display_name": "",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18043183\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236565\/"
         }
@@ -92,16 +139,29 @@
     },
     "colors": [
         {
-            "color": "#cfb586",
-            "closest_css3": "#d2b48c"
+            "color": "#d0b88c",
+            "closest_crayola": "#deaa88",
+            "closest_css3": "#d2b48c",
+            "closest_css4": "#d2b48c"
         },
         {
-            "color": "#8f7d62",
-            "closest_css3": "#808080"
+            "color": "#aa9675",
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         },
         {
-            "color": "#69543e",
-            "closest_css3": "#556b2f"
+            "color": "#6d563f",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
+        },
+        {
+            "color": "#8b795d",
+            "closest_crayola": "#8a795d",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         }
-    ]
+    ],
+    "woe:country_name": "Italy"
 }

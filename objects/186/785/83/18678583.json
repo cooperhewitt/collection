@@ -3,6 +3,7 @@
     "tms:id": "214758",
     "accession_number": "1969-165-630",
     "title": "Sample, \"Miller Stripe\"",
+    "title_raw": "Miller Stripe",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18678583\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": null,
     "year_acquired": "1969",
     "decade": null,
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Medium: cotton (46%), wool (33%), and nylon (21%)\nTechnique: warp-faced twill weave",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "Warp x Weft: 29.8 x 30.5 cm (11 3\/4 x 12 in.)",
+    "dimensions_raw": {
+        "warp": [
+            "29.85",
+            "centimeters"
+        ],
+        "weft": [
+            "30.48",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Alexander H. Girard",
     "description": "Warp-faced twill weave in wide vertical stripes of orange alternating with narrow stripes of green, white and orange. Number 1261.",
     "justification": null,
-    "type": {
-        "id": "35268079",
-        "name": "Sample"
-    },
+    "woe:country": "23424977",
+    "type": "Sample",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/16207_5a8643cf624061ff_b.jpg",
                 "width": 1024,
                 "height": 679,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/16207_5a8643cf624061ff_n.jpg",
-                "width": 320,
-                "height": 212,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "16207"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/16207_5a8643cf624061ff_z.jpg",
                 "width": 640,
                 "height": 425,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "16207"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/16207_5a8643cf624061ff_n.jpg",
+                "width": 320,
+                "height": 212,
+                "is_primary": "1",
+                "image_id": "16207"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/16207_5a8643cf624061ff_d.gif",
+                "width": 320,
+                "height": 212,
+                "is_primary": "1",
+                "image_id": "16207"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/16207_5a8643cf624061ff_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "16207"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18046041",
             "role_id": "35351535",
             "person_name": "Alexander Hayden Girard",
+            "person_date": "American, 1907\u20131993",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18046041\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18046041",
             "role_id": "35236655",
             "person_name": "Alexander Hayden Girard",
+            "person_date": "American, 1907\u20131993",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18046041\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
@@ -72,24 +102,35 @@
     },
     "colors": [
         {
-            "color": "#c85f1d",
-            "closest_css3": "#d2691e"
+            "color": "#d86a23",
+            "closest_crayola": "#c46210",
+            "closest_css3": "#d2691e",
+            "closest_css4": "#d2691e"
         },
         {
-            "color": "#fa9048",
-            "closest_css3": "#ff7f50"
+            "color": "#b9490d",
+            "closest_crayola": "#c46210",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         },
         {
-            "color": "#537124",
-            "closest_css3": "#556b2f"
+            "color": "#5c7731",
+            "closest_crayola": "#85754e",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         },
         {
-            "color": "#708f40",
-            "closest_css3": "#6b8e23"
+            "color": "#3c5b16",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         },
         {
-            "color": "#ac3c05",
-            "closest_css3": "#8b4513"
+            "color": "#819b4f",
+            "closest_crayola": "#87a96b",
+            "closest_css3": "#6b8e23",
+            "closest_css4": "#6b8e23"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

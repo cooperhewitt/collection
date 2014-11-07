@@ -3,6 +3,7 @@
     "tms:id": "198292",
     "accession_number": "1993-73-5",
     "title": "Sample, \"Soraya\", 1993",
+    "title_raw": "Soraya",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18646775\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1993,
     "year_acquired": "1993",
     "decade": "1990",
-    "woe:country": "23424829",
+    "woe:country_id": "23424829",
     "medium": "Cotton 100%\nPrinted on plain weave.",
     "markings": "Printed on edge, color register of 16 colors.\nPrinted on edge, \"FUGGERHAUS  SORAYA  100% CO - symbols for washing instructions - DESIGN SAID  SHOHREH.\"\nPrinted paper label removed and put into research folder.",
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "Warp:  123 cm [48.5\"]    Cut & stitched both ends.\nWeft:    142 cm [56\"]       Selvedge to selvedge.",
+    "dimensions_raw": {
+        "warp": [
+            "123.00",
+            "centimeters"
+        ],
+        "weft": [
+            "142.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Taunus Textildruck Zimmer GmbH & Co. KG",
     "description": "Stripes with stylized flowers and confetti printed on white fabric.",
     "justification": null,
-    "type": {
-        "id": "35268079",
-        "name": "Sample"
-    },
+    "woe:country": "23424829",
+    "type": "Sample",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/78982_c62d7313992a543a_b.jpg",
                 "width": 1024,
                 "height": 760,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/78982_c62d7313992a543a_n.jpg",
-                "width": 320,
-                "height": 238,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "78982"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/78982_c62d7313992a543a_z.jpg",
                 "width": 640,
                 "height": 475,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "78982"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/78982_c62d7313992a543a_n.jpg",
+                "width": 320,
+                "height": 238,
+                "is_primary": "1",
+                "image_id": "78982"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/78982_c62d7313992a543a_d.gif",
+                "width": 320,
+                "height": 238,
+                "is_primary": "1",
+                "image_id": "78982"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/78982_c62d7313992a543a_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "78982"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18046369",
             "role_id": "35351535",
             "person_name": "Taunus Textildruck Zimmer KG - do not use",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18046369\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18047457",
             "role_id": "35352245",
             "person_name": "Barbara Duggan",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047457\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18045467",
             "role_id": "35236673",
             "person_name": "Taunus Textildruck Zimmer",
+            "person_date": "Oberusel, Germany, est. 1899",
             "role_name": "Printer",
+            "role_display_name": "Printed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18045467\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236673\/"
         },
@@ -78,9 +110,21 @@
             "person_id": "18046147",
             "role_id": "35236655",
             "person_name": "Said Shohreh",
+            "person_date": "",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18046147\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
+        },
+        {
+            "person_id": "18045467",
+            "role_id": "35351535",
+            "person_name": "Taunus Textildruck Zimmer",
+            "person_date": "Oberusel, Germany, est. 1899",
+            "role_name": "Donor",
+            "role_display_name": "Donated by",
+            "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18045467\/",
+            "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
     ],
     "tombstone": {
@@ -88,5 +132,6 @@
     },
     "colors": [
 
-    ]
+    ],
+    "woe:country_name": "Germany"
 }

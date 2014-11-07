@@ -3,6 +3,7 @@
     "tms:id": "49825",
     "accession_number": "1931-81-494",
     "title": "Stereoview, \"In the Ravine above Bastion Falls, The Catskills, New York, No.260 from the second series of Catskill Mountain Scenery\", 1860\u201380",
+    "title_raw": "In the Ravine above Bastion Falls, The Catskills, New York, No.260 from the second series of Catskill Mountain Scenery",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18331715\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1940,
     "year_acquired": "1931",
     "decade": null,
-    "woe:country": null,
+    "woe:country_id": null,
     "medium": "Albumen silver print mounted on green paperboard (stereoview)",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "Overall: 8.7 x 17.8 cm (3 7\/16 x 7 in.)",
+    "dimensions_raw": {
+        "height": [
+            "8.73",
+            "centimeters"
+        ],
+        "width": [
+            "17.78",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Eleanor and Sarah Hewitt",
     "description": "View looking up a mountain stream with large boulders placed in the foreground. A mountain shows in the distance between trees.",
     "justification": null,
-    "type": {
-        "id": "35286553",
-        "name": "Stereoview"
-    },
+    "woe:country": null,
+    "type": "Stereoview",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/19956_8b06d9816e910ded_b.jpg",
                 "width": 1024,
                 "height": 557,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/19956_8b06d9816e910ded_n.jpg",
-                "width": 320,
-                "height": 174,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "19956"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/19956_8b06d9816e910ded_z.jpg",
                 "width": 640,
                 "height": 348,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "19956"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/19956_8b06d9816e910ded_n.jpg",
+                "width": 320,
+                "height": 174,
+                "is_primary": "1",
+                "image_id": "19956"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/19956_8b06d9816e910ded_d.gif",
+                "width": 320,
+                "height": 174,
+                "is_primary": "1",
+                "image_id": "19956"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/19956_8b06d9816e910ded_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "19956"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18049321",
             "role_id": "35351535",
             "person_name": "Sarah Cooper Hewitt",
+            "person_date": "American, 1859\u20131930",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049321\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18049325",
             "role_id": "35351535",
             "person_name": "Eleanor Garnier Hewitt",
+            "person_date": "American, 1864\u20131924",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049325\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "34624717",
             "role_id": "35236631",
             "person_name": "J. Loeffler",
+            "person_date": "American",
             "role_name": "Photographer",
+            "role_display_name": "Photographed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/34624717\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236631\/"
         }
@@ -80,24 +112,34 @@
     },
     "colors": [
         {
-            "color": "#584638",
-            "closest_css3": "#556b2f"
+            "color": "#544237",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         },
         {
-            "color": "#271914",
-            "closest_css3": "#000000"
+            "color": "#a0cbb6",
+            "closest_crayola": "#9fe2bf",
+            "closest_css3": "#c0c0c0",
+            "closest_css4": "#c0c0c0"
         },
         {
-            "color": "#a0cbb5",
-            "closest_css3": "#c0c0c0"
+            "color": "#281a15",
+            "closest_crayola": "#000000",
+            "closest_css3": "#000000",
+            "closest_css4": "#000000"
         },
         {
-            "color": "#988971",
-            "closest_css3": "#808080"
+            "color": "#998971",
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
             "color": "#806e59",
-            "closest_css3": "#696969"
+            "closest_crayola": "#85754e",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         }
     ]
 }

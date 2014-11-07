@@ -3,6 +3,7 @@
     "tms:id": "183004",
     "accession_number": "1985-54-2",
     "title": "Glass, \"Ciga\", 1979",
+    "title_raw": "Ciga",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18805427\/",
     "department_id": "35347497",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1979,
     "year_acquired": "1985",
     "decade": "1970",
-    "woe:country": "23424853",
+    "woe:country_id": "23424977",
     "medium": "Glass",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "H x diam.: 13.2 x 8.5 cm (5 3\/16 x 3 3\/8 in.)",
+    "dimensions_raw": {
+        "diameter": [
+            "8.50",
+            "centimeters"
+        ],
+        "height": [
+            "13.20",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Lella and Massimo Vignelli",
     "description": "Red wine glass; Ribbed surface",
     "justification": null,
-    "type": {
-        "id": "35249055",
-        "name": "glass"
-    },
+    "woe:country": "23424977",
+    "type": "glass",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/31650_142e8f594b2993bc_b.jpg",
-                "width": 108,
-                "height": 192,
-                "is_primary": "1"
+                "width": null,
+                "height": null,
+                "is_primary": "0",
+                "image_id": "31650"
+            },
+            "z": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/31650_142e8f594b2993bc_z.jpg",
+                "width": null,
+                "height": null,
+                "is_primary": "0",
+                "image_id": "31650"
             },
             "n": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/31650_142e8f594b2993bc_n.jpg",
                 "width": 108,
                 "height": 192,
-                "is_primary": "1"
+                "is_primary": "0",
+                "image_id": "31650"
             },
-            "z": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/31650_142e8f594b2993bc_z.jpg",
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/31650_142e8f594b2993bc_d.gif",
                 "width": 108,
                 "height": 192,
-                "is_primary": "1"
+                "is_primary": "0",
+                "image_id": "31650"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/31650_142e8f594b2993bc_sq.jpg",
+                "width": 108,
+                "height": 192,
+                "is_primary": "0",
+                "image_id": "31650"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18044029",
             "role_id": "35236655",
             "person_name": "Lella Vignelli",
+            "person_date": "Italian, b. 1934",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18044029\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18042329",
             "role_id": "35236655",
             "person_name": "Massimo Vignelli",
+            "person_date": "Italian, 1931 - 2014",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18042329\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18042329",
             "role_id": "35351535",
             "person_name": "Massimo Vignelli",
+            "person_date": "Italian, 1931 - 2014",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18042329\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -78,7 +110,9 @@
             "person_id": "18044029",
             "role_id": "35351535",
             "person_name": "Lella Vignelli",
+            "person_date": "Italian, b. 1934",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18044029\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -86,7 +120,9 @@
             "person_id": "18044739",
             "role_id": "35236657",
             "person_name": "Venini Glassworks",
+            "person_date": "Murano, Venice, Italy, founded 1925",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18044739\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         },
@@ -94,7 +130,9 @@
             "person_id": "18044737",
             "role_id": "35236801",
             "person_name": "David Law",
+            "person_date": "American, b. 1937",
             "role_name": "Design Team member",
+            "role_display_name": "Design Team Member:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18044737\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236801\/"
         }
@@ -103,21 +141,7 @@
         "epitaph": "Glass, \"Ciga\", 1979. Glass. Gift of Lella and Massimo Vignelli. 1985-54-2."
     },
     "colors": [
-        {
-            "color": "#bcc5cd",
-            "closest_css3": "#c0c0c0"
-        },
-        {
-            "color": "#98a1a0",
-            "closest_css3": "#a9a9a9"
-        },
-        {
-            "color": "#6a6e61",
-            "closest_css3": "#696969"
-        },
-        {
-            "color": "#828b7a",
-            "closest_css3": "#808080"
-        }
-    ]
+
+    ],
+    "woe:country_name": "United States"
 }

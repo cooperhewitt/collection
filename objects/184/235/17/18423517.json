@@ -3,6 +3,7 @@
     "tms:id": "122130",
     "accession_number": "1958-78-2",
     "title": "Border, 1815\u201325",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18423517\/",
     "department_id": "35347503",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1840,
     "year_acquired": "1958",
     "decade": null,
-    "woe:country": "23424819",
+    "woe:country_id": "23424819",
     "medium": "Block-printed on handmade paper",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "54 x 47.5 cm (21 1\/4 x 18 11\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "54.00",
+            "centimeters"
+        ],
+        "width": [
+            "47.50",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase through gift of Catharine Oglesby",
     "description": "Two borders printed side by side on the length of paper. Central motif is a mirror image of a modified scissors scroll decorated with elements derived from pineapple, bay, and palm leaf. This motif is enclosed by black lines ending in Greek key patterns. Above is a string of beads, below, a band of grape leaves. Yellow and black on chocolate ground.",
     "justification": null,
-    "type": {
-        "id": "35237285",
-        "name": "Border"
-    },
+    "woe:country": "23424819",
+    "type": "Border",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/48814_d79b4c0058514be5_b.jpg",
                 "width": 1024,
                 "height": 899,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/48814_d79b4c0058514be5_n.jpg",
-                "width": 320,
-                "height": 281,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "48814"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/48814_d79b4c0058514be5_z.jpg",
                 "width": 640,
                 "height": 562,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "48814"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/48814_d79b4c0058514be5_n.jpg",
+                "width": 320,
+                "height": 281,
+                "is_primary": "1",
+                "image_id": "48814"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/48814_d79b4c0058514be5_d.gif",
+                "width": 320,
+                "height": 281,
+                "is_primary": "1",
+                "image_id": "48814"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/48814_d79b4c0058514be5_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "48814"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/5979_145d2fe9c5ef4198_b.jpg",
                 "width": 1024,
                 "height": 905,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/5979_145d2fe9c5ef4198_n.jpg",
-                "width": 320,
-                "height": 283,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "5979"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/5979_145d2fe9c5ef4198_z.jpg",
                 "width": 640,
                 "height": 565,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "5979"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/5979_145d2fe9c5ef4198_n.jpg",
+                "width": 320,
+                "height": 283,
+                "is_primary": "0",
+                "image_id": "5979"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/5979_145d2fe9c5ef4198_d.gif",
+                "width": 320,
+                "height": 283,
+                "is_primary": "0",
+                "image_id": "5979"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/5979_145d2fe9c5ef4198_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "5979"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18058441",
             "role_id": "35352249",
             "person_name": "F and G. Staack",
+            "person_date": "",
             "role_name": "Vendor",
+            "role_display_name": "Purchased from",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18058441\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352249\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18048087",
             "role_id": "35352245",
             "person_name": "cv",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18048087\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         }
@@ -92,24 +139,35 @@
     },
     "colors": [
         {
-            "color": "#7b3828",
-            "closest_css3": "#8b4513"
+            "color": "#803c2a",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#8b4513",
+            "closest_css4": "#8b4513"
         },
         {
-            "color": "#3a2626",
-            "closest_css3": "#2f4f4f"
+            "color": "#e6d351",
+            "closest_crayola": "#ffcf48",
+            "closest_css3": "#f4a460",
+            "closest_css4": "#f4a460"
         },
         {
-            "color": "#e8d753",
-            "closest_css3": "#f4a460"
+            "color": "#302327",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#d7ab38",
-            "closest_css3": "#daa520"
+            "color": "#d8ac3a",
+            "closest_crayola": "#ffae42",
+            "closest_css3": "#daa520",
+            "closest_css4": "#daa520"
         },
         {
-            "color": "#978375",
-            "closest_css3": "#808080"
+            "color": "#947f71",
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         }
-    ]
+    ],
+    "woe:country_name": "France"
 }

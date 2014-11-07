@@ -3,6 +3,7 @@
     "tms:id": "192069",
     "accession_number": "1990-22-8",
     "title": "Chair, \"Liliplon\", 1987",
+    "title_raw": "Liliplon",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18634445\/",
     "department_id": "35347497",
     "period_id": null,
@@ -13,39 +14,68 @@
     "year_end": 1987,
     "year_acquired": "1990",
     "decade": "1980",
-    "woe:country": "23424819",
+    "woe:country_id": "23424819",
     "medium": "Steel, resin",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "V.I.A.; 1990: acquired by Museum",
     "dimensions": "H x W x D: 70 x 40 x 46 cm (27 9\/16 x 15 3\/4 x 18 1\/8 in.)",
+    "dimensions_raw": {
+        "depth": [
+            "116.80",
+            "centimeters"
+        ],
+        "height": [
+            "180.30",
+            "centimeters"
+        ],
+        "width": [
+            "101.60",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of V.I.A.",
     "description": "A blue resin chair with black steel legs. The seat is a wavy blue resin resembling a ribbon. The legs are made of steel forming rectangles with crossed metal on the side connecting two legs.",
     "justification": null,
-    "type": {
-        "id": "35237307",
-        "name": "chair"
-    },
+    "woe:country": "23424819",
+    "type": "chair",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/15495_cbe28286b125694e_b.jpg",
                 "width": 675,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/15495_cbe28286b125694e_n.jpg",
-                "width": 211,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "15495"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/15495_cbe28286b125694e_z.jpg",
                 "width": 422,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "15495"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/15495_cbe28286b125694e_n.jpg",
+                "width": 211,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "15495"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/15495_cbe28286b125694e_d.gif",
+                "width": 211,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "15495"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/15495_cbe28286b125694e_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "15495"
             }
         },
         {
@@ -53,19 +83,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/11443_aa713b84c535f673_b.jpg",
                 "width": 736,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/11443_aa713b84c535f673_n.jpg",
-                "width": 230,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "11443"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/11443_aa713b84c535f673_z.jpg",
                 "width": 460,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "11443"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/11443_aa713b84c535f673_n.jpg",
+                "width": 230,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "11443"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/11443_aa713b84c535f673_d.gif",
+                "width": 230,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "11443"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/11443_aa713b84c535f673_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "11443"
             }
         }
     ],
@@ -74,7 +121,9 @@
             "person_id": "18055363",
             "role_id": "35351535",
             "person_name": "V.I.A.",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18055363\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -82,7 +131,9 @@
             "person_id": "18054333",
             "role_id": "35236655",
             "person_name": "Francois Bauchet",
+            "person_date": "French, b. 1948",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18054333\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
@@ -92,24 +143,35 @@
     },
     "colors": [
         {
+            "color": "#5f6066",
+            "closest_crayola": "#6e5160",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
+        },
+        {
             "color": "#a5a4b7",
-            "closest_css3": "#a9a9a9"
-        },
-        {
-            "color": "#54575b",
-            "closest_css3": "#696969"
-        },
-        {
-            "color": "#6e717a",
-            "closest_css3": "#696969"
-        },
-        {
-            "color": "#45768b",
-            "closest_css3": "#4682b4"
+            "closest_crayola": "#979aaa",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
         },
         {
             "color": "#304e61",
-            "closest_css3": "#2f4f4f"
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
+        },
+        {
+            "color": "#4b7b90",
+            "closest_crayola": "#319177",
+            "closest_css3": "#4682b4",
+            "closest_css4": "#4682b4"
+        },
+        {
+            "color": "#23272c",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         }
-    ]
+    ],
+    "woe:country_name": "France"
 }

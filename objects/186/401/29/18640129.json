@@ -3,6 +3,7 @@
     "tms:id": "194929",
     "accession_number": "1992-49-4",
     "title": "Textile, \"Vivaldi\", 1987",
+    "title_raw": "Vivaldi",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18640129\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,60 @@
     "year_end": 1987,
     "year_acquired": "1992",
     "decade": "1980",
-    "woe:country": "23424909",
+    "woe:country_id": "23424909",
     "medium": "Medium:\nTechnique:",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "W (rolled): 144.3 cm (56 13\/16 in.)",
+    "dimensions_raw": {
+        "width": [
+            "144.30",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Ploegstoffen",
     "description": "On white ground, allover crosshatching in red, orange, blue, green, and lavender.",
     "justification": null,
-    "type": {
-        "id": "35251739",
-        "name": "textile"
-    },
+    "woe:country": "23424909",
+    "type": "textile",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/38253_f5aecd3b265c6d09_b.jpg",
                 "width": 680,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/38253_f5aecd3b265c6d09_n.jpg",
-                "width": 213,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "38253"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/38253_f5aecd3b265c6d09_z.jpg",
                 "width": 425,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "38253"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/38253_f5aecd3b265c6d09_n.jpg",
+                "width": 213,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "38253"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/38253_f5aecd3b265c6d09_d.gif",
+                "width": 213,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "38253"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/38253_f5aecd3b265c6d09_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "38253"
             }
         },
         {
@@ -53,19 +75,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/78898_ccb92d56cce65c74_b.jpg",
                 "width": 663,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/78898_ccb92d56cce65c74_n.jpg",
-                "width": 207,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "78898"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/78898_ccb92d56cce65c74_z.jpg",
                 "width": 414,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "78898"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/78898_ccb92d56cce65c74_n.jpg",
+                "width": 207,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "78898"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/78898_ccb92d56cce65c74_d.gif",
+                "width": 207,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "78898"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/78898_ccb92d56cce65c74_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "78898"
             }
         }
     ],
@@ -74,7 +113,9 @@
             "person_id": "34624739",
             "role_id": "35236655",
             "person_name": "Barbara Broekman",
+            "person_date": "(b. 1955)",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/34624739\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -82,7 +123,9 @@
             "person_id": "18041019",
             "role_id": "35236671",
             "person_name": "Ploegstoffen",
+            "person_date": "",
             "role_name": "Producer",
+            "role_display_name": "Produced by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041019\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236671\/"
         }
@@ -92,24 +135,35 @@
     },
     "colors": [
         {
-            "color": "#b6b6c8",
-            "closest_css3": "#c0c0c0"
+            "color": "#bdbbca",
+            "closest_crayola": "#b0b7c6",
+            "closest_css3": "#c0c0c0",
+            "closest_css4": "#c0c0c0"
         },
         {
-            "color": "#a791be",
-            "closest_css3": "#a9a9a9"
+            "color": "#8f7ba9",
+            "closest_crayola": "#926eae",
+            "closest_css3": "#778899",
+            "closest_css4": "#778899"
         },
         {
-            "color": "#81977f",
-            "closest_css3": "#808080"
+            "color": "#849b83",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#bc643d",
-            "closest_css3": "#cd5c5c"
+            "color": "#5c81a7",
+            "closest_crayola": "#5d76cb",
+            "closest_css3": "#4682b4",
+            "closest_css4": "#4682b4"
         },
         {
-            "color": "#c0515b",
-            "closest_css3": "#cd5c5c"
+            "color": "#ce7546",
+            "closest_crayola": "#d68a59",
+            "closest_css3": "#cd853f",
+            "closest_css4": "#cd853f"
         }
-    ]
+    ],
+    "woe:country_name": "Netherlands"
 }

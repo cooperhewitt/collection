@@ -2,7 +2,8 @@
     "id": "18383511",
     "tms:id": "101886",
     "accession_number": "1950-116-1",
-    "title": "Print, \"Engraving of Joseph Marie Jacquard (1752 - 1834)\", 1855",
+    "title": "Print, \"Portrait of Joseph Marie Jacquard (1752\u20131834)\", 1855",
+    "title_raw": "Engraving of Joseph Marie Jacquard (1752 - 1834)",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18383511\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1855,
     "year_acquired": "1950",
     "decade": null,
-    "woe:country": "23424819",
+    "woe:country_id": "23424819",
     "medium": "Engraving on paper",
     "markings": null,
     "signed": "Signed in plate, lower right: Dessin\u00e9 and grav\u00e9 par V. Vebert, Lyon, 1855",
     "inscribed": "Inscribed, lower left: Peint d'apres nature par Bonnefond, Lyon 1854.",
     "provenance": null,
     "dimensions": "52.6 x 37.6 cm (20 11\/16 x 14 13\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "52.60",
+            "centimeters"
+        ],
+        "width": [
+            "37.60",
+            "centimeters"
+        ]
+    },
     "creditline": null,
     "description": "Interior, with a man seated in an armchair, his body turned toward the left, looking out at the viewer. Model of loom at left.",
     "justification": null,
-    "type": {
-        "id": "35236873",
-        "name": "Print"
-    },
+    "woe:country": "23424819",
+    "type": "Print",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/40107_7c1aa5537974b738_b.jpg",
                 "width": 746,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/40107_7c1aa5537974b738_n.jpg",
-                "width": 233,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "40107"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/40107_7c1aa5537974b738_z.jpg",
                 "width": 467,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "40107"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/40107_7c1aa5537974b738_n.jpg",
+                "width": 233,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "40107"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/40107_7c1aa5537974b738_d.gif",
+                "width": 233,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "40107"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/40107_7c1aa5537974b738_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "40107"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18057471",
             "role_id": "35352249",
             "person_name": "The Old Print Shop, Inc.",
+            "person_date": "",
             "role_name": "Vendor",
+            "role_display_name": "Purchased from",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18057471\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352249\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "51676457",
             "role_id": "35352245",
             "person_name": "Karin Zonis",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/51676457\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -70,30 +100,55 @@
             "person_id": "51676355",
             "role_id": "35236677",
             "person_name": "Claude Bonnefond",
+            "person_date": "1796\u20131860",
             "role_name": "After",
+            "role_display_name": "After",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/51676355\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236677\/"
+        },
+        {
+            "person_id": "68739203",
+            "role_id": "35236743",
+            "person_name": "V. Vebert",
+            "person_date": "",
+            "role_name": "Engraver",
+            "role_display_name": "Engraved by",
+            "person_url": "http:\/\/collection.cooperhewitt.org\/people\/68739203\/",
+            "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236743\/"
+        },
+        {
+            "person_id": "68739203",
+            "role_id": "35236655",
+            "person_name": "V. Vebert",
+            "person_date": "",
+            "role_name": "Designer",
+            "role_display_name": "Designed by",
+            "person_url": "http:\/\/collection.cooperhewitt.org\/people\/68739203\/",
+            "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
     ],
     "tombstone": {
-        "epitaph": "Print, \"Engraving of Joseph Marie Jacquard (1752 - 1834)\", 1855. Engraving on paper. 1950-116-1."
+        "epitaph": "Print, \"Portrait of Joseph Marie Jacquard (1752\u20131834)\", 1855. Engraving on paper. 1950-116-1."
     },
     "colors": [
         {
-            "color": "#524d42",
-            "closest_css3": "#556b2f"
-        },
-        {
-            "color": "#2d2c28",
-            "closest_css3": "#2f4f4f"
+            "color": "#3b3831",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
             "color": "#766f60",
-            "closest_css3": "#696969"
+            "closest_crayola": "#757575",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#968d7c",
-            "closest_css3": "#808080"
+            "color": "#958d7c",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         }
-    ]
+    ],
+    "woe:country_name": "France"
 }

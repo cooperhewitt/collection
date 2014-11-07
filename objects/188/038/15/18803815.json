@@ -3,6 +3,7 @@
     "tms:id": "182185",
     "accession_number": "1985-103-162",
     "title": "Knife, ca. 1650\u20131700",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18803815\/",
     "department_id": "35347497",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": null,
     "year_acquired": "1985",
     "decade": null,
-    "woe:country": "23424829",
+    "woe:country_id": "23424829",
     "medium": "ivory, steel, silver",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "Robert L. Metzenberg",
     "dimensions": "L x W: 29.1 x 2.7 cm (11 7\/16 x 1 1\/16 in.)",
+    "dimensions_raw": {
+        "length": [
+            "29.10",
+            "centimeters"
+        ],
+        "width": [
+            "2.70",
+            "centimeters"
+        ]
+    },
     "creditline": "The Robert L. Metzenberg Collection, gift of Eleanor L. Metzenberg",
     "description": "Blade sabre-shaped with rounded point; silver ferrule. Ivory handle carved in deep relief. Three putti, one of them kneeling, the other two climbing on top of his shoulders.",
     "justification": null,
-    "type": {
-        "id": "35248783",
-        "name": "knife"
-    },
+    "woe:country": "23424829",
+    "type": "knife",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/19453_948e5ecbe07212f6_b.jpg",
-                "width": 285,
-                "height": 855,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/19453_948e5ecbe07212f6_n.jpg",
-                "width": 107,
-                "height": 320,
-                "is_primary": "1"
+                "width": null,
+                "height": null,
+                "is_primary": "1",
+                "image_id": "19453"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/19453_948e5ecbe07212f6_z.jpg",
                 "width": 213,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "19453"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/19453_948e5ecbe07212f6_n.jpg",
+                "width": 107,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "19453"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/19453_948e5ecbe07212f6_d.gif",
+                "width": 107,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "19453"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/19453_948e5ecbe07212f6_sq.jpg",
+                "width": 285,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "19453"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/82501_d1f50f1850ca48ad_b.jpg",
                 "width": 623,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/82501_d1f50f1850ca48ad_n.jpg",
-                "width": 195,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "82501"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/82501_d1f50f1850ca48ad_z.jpg",
                 "width": 390,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "82501"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/82501_d1f50f1850ca48ad_n.jpg",
+                "width": 195,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "82501"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/82501_d1f50f1850ca48ad_d.gif",
+                "width": 195,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "82501"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/82501_d1f50f1850ca48ad_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "82501"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18535985",
             "role_id": "35351535",
             "person_name": "Eleanor L. Metzenberg",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18535985\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18048365",
             "role_id": "35352245",
             "person_name": "S. Wilmering",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18048365\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         }
@@ -92,24 +139,35 @@
     },
     "colors": [
         {
-            "color": "#656783",
-            "closest_css3": "#696969"
+            "color": "#4e4f75",
+            "closest_crayola": "#58427c",
+            "closest_css3": "#483d8b",
+            "closest_css4": "#483d8b"
         },
         {
-            "color": "#484b69",
-            "closest_css3": "#2f4f4f"
+            "color": "#787690",
+            "closest_crayola": "#757575",
+            "closest_css3": "#708090",
+            "closest_css4": "#708090"
         },
         {
-            "color": "#554032",
-            "closest_css3": "#556b2f"
+            "color": "#553f30",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         },
         {
             "color": "#0f112f",
-            "closest_css3": "#000000"
+            "closest_crayola": "#000000",
+            "closest_css3": "#000000",
+            "closest_css4": "#000000"
         },
         {
-            "color": "#372309",
-            "closest_css3": "#000000"
+            "color": "#3e2e0f",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         }
-    ]
+    ],
+    "woe:country_name": "Germany"
 }

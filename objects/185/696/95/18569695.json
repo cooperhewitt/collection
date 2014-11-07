@@ -3,6 +3,7 @@
     "tms:id": "78548",
     "accession_number": "1943-51-130",
     "title": "Album Page, \"Sketches of Architectural Elements, Buhl\", September 21, 1887",
+    "title_raw": "Sketches of Architectural Elements, Buhl",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18569695\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": null,
     "year_acquired": "1943",
     "decade": null,
-    "woe:country": "23424829",
+    "woe:country_id": "23424829",
     "medium": "Graphite on cream paperboard tipped into binding with fabric",
     "markings": null,
     "signed": null,
     "inscribed": "Recto, in graphite, clockwise from top left: (to right of drawing) window glass \/ leaded. flat; (beginning at top of drawing at right) rather large and heavy (pointing to finial) \/ 2 fl overhang of shed - \/ 18 in overhang \/ these beams \/ very pretty idea \/ (to left of this drawing) Sometimes this beam \/ is described as a cornice \/ also lower one; (beginning above drawing at lower right) tile \/ birch with plaster \/ stone \/ about 24 ft across front \/ very pretty little stable. (to left of this drawing) slats square...; (at bottom right edge of sheet) Buhl Sept 21st 1887 \/ Black Forest; (to right of bottom left drawing) side of stable \/ should have grape vines growing on it \/ light green leaf \/ side; (at top of two drawings above) watershed \/ window and pannelling [sic] \/ under window.",
     "provenance": null,
     "dimensions": "31.2 x 24 cm (12 5\/16 x 9 7\/16 in.), irregular",
+    "dimensions_raw": {
+        "height": [
+            "31.20",
+            "centimeters"
+        ],
+        "width": [
+            "24.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Mrs. William Greenough",
     "description": "Vertical sheet with sketches of timber structures and architectural details.  At top left is a round-arched leaded glass window composed of round glass lenses and promient metal bars dividing the window vertically and horizontally.  At right is the fa\u00e7ade of a timber and plaster building with its upper stories fully rendered.  The building has a tiled roof, deep eaves, and a projecting canopy.  At center left are two sketches: the shuttered window of a water shed, and the detail of cross-beam paneling below.  Below these is another quickly sketched half-timbered building (possibly the same as that shown above right).  At bottom right is a stable seen from the side.  Its has a pair of double doors with an open timbered slats above.  Its right side is timber and plaster with a stone course below.  It has a single door opening with a small square window to its proper right.  Above this is another square window with prominent strap hinges also at proper right.",
     "justification": null,
-    "type": {
-        "id": "35267349",
-        "name": "Album page"
-    },
+    "woe:country": "23424829",
+    "type": "Album page",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/37562_b17f084ac1272110_b.jpg",
                 "width": 1015,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/37562_b17f084ac1272110_n.jpg",
-                "width": 317,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "37562"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/37562_b17f084ac1272110_z.jpg",
                 "width": 635,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "37562"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/37562_b17f084ac1272110_n.jpg",
+                "width": 317,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "37562"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/37562_b17f084ac1272110_d.gif",
+                "width": 317,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "37562"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/37562_b17f084ac1272110_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "37562"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18051917",
             "role_id": "35351535",
             "person_name": "Mrs. William Greenough",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18051917\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18042021",
             "role_id": "35236565",
             "person_name": "Whitney Warren Jr.",
+            "person_date": "American, 1864\u20131943",
             "role_name": "Artist",
+            "role_display_name": "",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18042021\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236565\/"
         }
@@ -72,12 +102,23 @@
     },
     "colors": [
         {
-            "color": "#c8b188",
-            "closest_css3": "#d2b48c"
+            "color": "#d6c095",
+            "closest_crayola": "#e7c697",
+            "closest_css3": "#d2b48c",
+            "closest_css4": "#d2b48c"
         },
         {
-            "color": "#857155",
-            "closest_css3": "#696969"
+            "color": "#b09e81",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
+        },
+        {
+            "color": "#867256",
+            "closest_crayola": "#85754e",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         }
-    ]
+    ],
+    "woe:country_name": "Germany"
 }

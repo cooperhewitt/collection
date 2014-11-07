@@ -3,6 +3,7 @@
     "tms:id": "215243",
     "accession_number": "1999-57-77",
     "title": "Bowl, ca. 1925\u201330",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18679539\/",
     "department_id": "35347497",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1935,
     "year_acquired": "1999",
     "decade": "1920",
-    "woe:country": "23424829",
+    "woe:country_id": "23424829",
     "medium": "glazed earthenware",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "5.6h x 13.2 diameter cm (2 3\/16 x 5 3\/6 in. )",
+    "dimensions_raw": {
+        "diameter": [
+            "13.20",
+            "centimeters"
+        ],
+        "height": [
+            "5.60",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Victor Wiener",
     "description": null,
     "justification": null,
-    "type": {
-        "id": "35237197",
-        "name": "Bowl"
-    },
+    "woe:country": "23424829",
+    "type": "Bowl",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/14797_43af64bc15509ccc_b.jpg",
                 "width": 863,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/14797_43af64bc15509ccc_n.jpg",
-                "width": 270,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "14797"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/14797_43af64bc15509ccc_z.jpg",
                 "width": 539,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "14797"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/14797_43af64bc15509ccc_n.jpg",
+                "width": 270,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "14797"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/14797_43af64bc15509ccc_d.gif",
+                "width": 270,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "14797"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/14797_43af64bc15509ccc_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "14797"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/14185_aa24f2047c4bf980_b.jpg",
                 "width": 1024,
                 "height": 279,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/14185_aa24f2047c4bf980_n.jpg",
-                "width": 320,
-                "height": 87,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "14185"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/14185_aa24f2047c4bf980_z.jpg",
                 "width": 640,
                 "height": 175,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "14185"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/14185_aa24f2047c4bf980_n.jpg",
+                "width": 320,
+                "height": 87,
+                "is_primary": "0",
+                "image_id": "14185"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/14185_aa24f2047c4bf980_d.gif",
+                "width": 320,
+                "height": 87,
+                "is_primary": "0",
+                "image_id": "14185"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/14185_aa24f2047c4bf980_sq.jpg",
+                "width": 300,
+                "height": 279,
+                "is_primary": "0",
+                "image_id": "14185"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18042681",
             "role_id": "35236657",
             "person_name": "Unknown",
+            "person_date": "",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18042681\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18041855",
             "role_id": "35351535",
             "person_name": "Victor Wiener",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041855\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -92,24 +139,35 @@
     },
     "colors": [
         {
-            "color": "#d4d7c8",
-            "closest_css3": "#d3d3d3"
+            "color": "#cecab4",
+            "closest_crayola": "#cdc5c2",
+            "closest_css3": "#c0c0c0",
+            "closest_css4": "#c0c0c0"
         },
         {
-            "color": "#a4a7ae",
-            "closest_css3": "#a9a9a9"
+            "color": "#cad5d6",
+            "closest_crayola": "#c5d0e6",
+            "closest_css3": "#d3d3d3",
+            "closest_css4": "#d3d3d3"
         },
         {
-            "color": "#a4a591",
-            "closest_css3": "#a9a9a9"
+            "color": "#143e76",
+            "closest_crayola": "#1a4876",
+            "closest_css3": "#191970",
+            "closest_css4": "#191970"
         },
         {
-            "color": "#325d97",
-            "closest_css3": "#483d8b"
+            "color": "#3c649b",
+            "closest_crayola": "#2e5894",
+            "closest_css3": "#4682b4",
+            "closest_css4": "#4682b4"
         },
         {
-            "color": "#6385af",
-            "closest_css3": "#5f9ea0"
+            "color": "#738fb0",
+            "closest_crayola": "#6699cc",
+            "closest_css3": "#778899",
+            "closest_css4": "#778899"
         }
-    ]
+    ],
+    "woe:country_name": "Germany"
 }

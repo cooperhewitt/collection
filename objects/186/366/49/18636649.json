@@ -3,6 +3,7 @@
     "tms:id": "193175",
     "accession_number": "1991-58-28",
     "title": "Drawing, \"Studies for Ornamental Garde with Fountain and Statue\", 1912\u201319",
+    "title_raw": "Studies for Ornamental Garde with Fountain and Statue",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18636649\/",
     "department_id": "35347493",
     "period_id": "35417251",
@@ -13,39 +14,64 @@
     "year_end": 1919,
     "year_acquired": "1991",
     "decade": "1910",
-    "woe:country": "23424819",
+    "woe:country_id": "23424819",
     "medium": "Pen and black ink, brush and watercolor, white gouache, black crayon on cream tracing paper",
     "markings": null,
     "signed": null,
     "inscribed": "Inscribed in graphite, center right: bassin tub-\/statue se cournant d'eau\/goulottes-pour boire sous un\/dais de treillage blanc",
     "provenance": "Yu-Chee Chong Fine Art, London",
     "dimensions": "27.4 x 23.4 cm (10 13\/16 x 9 3\/16 in.)",
-    "creditline": null,
+    "dimensions_raw": {
+        "height": [
+            "27.40",
+            "centimeters"
+        ],
+        "width": [
+            "23.40",
+            "centimeters"
+        ]
+    },
+    "creditline": "Museum purchase from Smithsonian Institution Collections Acquisition Program Fund",
     "description": "View of garden plan with a sculptural fountain at center surrounded by arched trellises. Upper right, four fountain sketches; center left, sketch of fountain with enclosing walls; center right, text in graphite; lower margin, figure stepping towards fountain, a cube to the right.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424819",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/42641_83403beba53a6dfb_b.jpg",
                 "width": 882,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/42641_83403beba53a6dfb_n.jpg",
-                "width": 276,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "42641"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/42641_83403beba53a6dfb_z.jpg",
                 "width": 551,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "42641"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/42641_83403beba53a6dfb_n.jpg",
+                "width": 276,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "42641"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/42641_83403beba53a6dfb_d.gif",
+                "width": 276,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "42641"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/42641_83403beba53a6dfb_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "42641"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "51676457",
             "role_id": "35352245",
             "person_name": "Karin Zonis",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/51676457\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18043123",
             "role_id": "35236669",
             "person_name": "Paul Vera",
+            "person_date": "French, 1882\u20131957; active in Paris",
             "role_name": "Draftsman",
+            "role_display_name": "Drafted by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18043123\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236669\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18043125",
             "role_id": "35236669",
             "person_name": "Andr\u00e9 Vera",
+            "person_date": "French, 1881\u20131971; active in Paris",
             "role_name": "Draftsman",
+            "role_display_name": "Drafted by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18043125\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236669\/"
         },
@@ -78,7 +110,9 @@
             "person_id": "18043123",
             "role_id": "35236655",
             "person_name": "Paul Vera",
+            "person_date": "French, 1882\u20131957; active in Paris",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18043123\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -86,30 +120,51 @@
             "person_id": "18043125",
             "role_id": "35236655",
             "person_name": "Andr\u00e9 Vera",
+            "person_date": "French, 1881\u20131971; active in Paris",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18043125\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
+        },
+        {
+            "person_id": "18061593",
+            "role_id": "35352249",
+            "person_name": "Yu-Chee Chong",
+            "person_date": "",
+            "role_name": "Vendor",
+            "role_display_name": "Purchased from",
+            "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18061593\/",
+            "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352249\/"
         }
     ],
     "tombstone": {
-        "epitaph": "Drawing, \"Studies for Ornamental Garde with Fountain and Statue\", 1912\u201319. Pen and black ink, brush and watercolor, white gouache, black crayon on cream tracing paper. 1991-58-28."
+        "epitaph": "Drawing, \"Studies for Ornamental Garde with Fountain and Statue\", 1912\u201319. Pen and black ink, brush and watercolor, white gouache, black crayon on cream tracing paper. Museum purchase from Smithsonian Institution Collections Acquisition Program Fund. 1991-58-28."
     },
     "colors": [
         {
-            "color": "#c3b78f",
-            "closest_css3": "#d2b48c"
+            "color": "#aaa184",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         },
         {
-            "color": "#928157",
-            "closest_css3": "#808080"
+            "color": "#766e54",
+            "closest_crayola": "#85754e",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#756d54",
-            "closest_css3": "#696969"
+            "color": "#45413a",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#444039",
-            "closest_css3": "#2f4f4f"
+            "color": "#d0bf86",
+            "closest_crayola": "#deaa88",
+            "closest_css3": "#d2b48c",
+            "closest_css4": "#d2b48c"
         }
-    ]
+    ],
+    "woe:country_name": "France"
 }

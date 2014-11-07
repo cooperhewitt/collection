@@ -3,6 +3,7 @@
     "tms:id": "155673",
     "accession_number": "1976-100-56",
     "title": "Sampler, 1818",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18489599\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1818,
     "year_acquired": "1976",
     "decade": null,
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Medium: silk and wool embroidery on linen foundation\nTechnique: embroidered in counted cross stitches on plain weave foundation",
     "markings": null,
     "signed": null,
     "inscribed": "Eliza Thayer Wrentham 1818",
     "provenance": "Ex. coll. Fraser-Martin. Donor's Note: \"Bought in Portsmouth, N.H. 1908.\"",
     "dimensions": "H x W: 18.4 x 25.4 cm (7 1\/4 x 10 in.)",
+    "dimensions_raw": {
+        "height": [
+            "18.42",
+            "centimeters"
+        ],
+        "width": [
+            "25.40",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Anonymous Donor from the Fraser\/Martin Collection",
     "description": "Several bands of alphabets and numerals, separated by narrow cross borders, and at the bottom the inscription.",
     "justification": null,
-    "type": {
-        "id": "35256439",
-        "name": "Sampler"
-    },
+    "woe:country": "23424977",
+    "type": "Sampler",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/32426_78b3f5b6aaca157d_b.jpg",
                 "width": 1024,
                 "height": 775,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/32426_78b3f5b6aaca157d_n.jpg",
-                "width": 320,
-                "height": 242,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "32426"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/32426_78b3f5b6aaca157d_z.jpg",
                 "width": 640,
                 "height": 484,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "32426"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/32426_78b3f5b6aaca157d_n.jpg",
+                "width": 320,
+                "height": 242,
+                "is_primary": "1",
+                "image_id": "32426"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/32426_78b3f5b6aaca157d_d.gif",
+                "width": 320,
+                "height": 242,
+                "is_primary": "1",
+                "image_id": "32426"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/32426_78b3f5b6aaca157d_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "32426"
             }
         }
     ],
@@ -53,10 +79,22 @@
         {
             "person_id": "18049335",
             "role_id": "35351535",
-            "person_name": "Anonymous",
+            "person_name": "Unknown",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049335\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
+        },
+        {
+            "person_id": "68737479",
+            "role_id": "35236583",
+            "person_name": "Eliza Thayer Wrentham",
+            "person_date": "American",
+            "role_name": "Embroiderer",
+            "role_display_name": "Embroidered by",
+            "person_url": "http:\/\/collection.cooperhewitt.org\/people\/68737479\/",
+            "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236583\/"
         }
     ],
     "tombstone": {
@@ -64,20 +102,35 @@
     },
     "colors": [
         {
-            "color": "#c0a177",
-            "closest_css3": "#bdb76b"
+            "color": "#d2b386",
+            "closest_crayola": "#deaa88",
+            "closest_css3": "#d2b48c",
+            "closest_css4": "#d2b48c"
         },
         {
-            "color": "#ddd0c0",
-            "closest_css3": "#d3d3d3"
+            "color": "#d9ccbb",
+            "closest_crayola": "#cdc5c2",
+            "closest_css3": "#d3d3d3",
+            "closest_css4": "#d3d3d3"
         },
         {
-            "color": "#8d6c49",
-            "closest_css3": "#a0522d"
+            "color": "#ab8d66",
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         },
         {
-            "color": "#654d36",
-            "closest_css3": "#556b2f"
+            "color": "#6a553d",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
+        },
+        {
+            "color": "#47382a",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

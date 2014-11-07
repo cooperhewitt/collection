@@ -3,6 +3,7 @@
     "tms:id": "192117",
     "accession_number": "1990-33-1",
     "title": "Bowl, \"Krenit\", 1953",
+    "title_raw": "Krenit",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18634541\/",
     "department_id": "35347497",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1953,
     "year_acquired": "1990",
     "decade": "1950",
-    "woe:country": "23424796",
+    "woe:country_id": "23424796",
     "medium": "Enameled steel",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "Mel Byars, The Mel Byars Collection of 20th Century Design; 1990: acquired by Museum",
     "dimensions": "H x diam.: 14.1 x 25 cm (5 9\/16 x 9 13\/16 in.)",
+    "dimensions_raw": {
+        "diameter": [
+            "25.00",
+            "centimeters"
+        ],
+        "height": [
+            "14.10",
+            "centimeters"
+        ]
+    },
     "creditline": "The Mel Byars Collection of 20th Century Design",
     "description": "Tall steel bowl with green enameled interior.",
     "justification": null,
-    "type": {
-        "id": "35237197",
-        "name": "Bowl"
-    },
+    "woe:country": "23424796",
+    "type": "Bowl",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/44051_f04b6af4126d2ec0_b.jpg",
                 "width": 1024,
                 "height": 721,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/44051_f04b6af4126d2ec0_n.jpg",
-                "width": 320,
-                "height": 225,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "44051"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/44051_f04b6af4126d2ec0_z.jpg",
                 "width": 640,
                 "height": 451,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "44051"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/44051_f04b6af4126d2ec0_n.jpg",
+                "width": 320,
+                "height": 225,
+                "is_primary": "1",
+                "image_id": "44051"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/44051_f04b6af4126d2ec0_d.gif",
+                "width": 320,
+                "height": 225,
+                "is_primary": "1",
+                "image_id": "44051"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/44051_f04b6af4126d2ec0_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "44051"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18040939",
             "role_id": "35351535",
             "person_name": "Mel Byars",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18040939\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18057957",
             "role_id": "35236657",
             "person_name": "Torben \u00d8rskov & Co.",
+            "person_date": "",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18057957\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18054939",
             "role_id": "35236655",
             "person_name": "Herbert Krenchel",
+            "person_date": "b. 1922",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18054939\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
@@ -80,12 +112,29 @@
     },
     "colors": [
         {
-            "color": "#d6e673",
-            "closest_css3": "#f0e68c"
+            "color": "#b5c34d",
+            "closest_crayola": "#bab86c",
+            "closest_css3": "#bdb76b",
+            "closest_css4": "#bdb76b"
         },
         {
-            "color": "#b2ba7c",
-            "closest_css3": "#bdb76b"
+            "color": "#2a292c",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
+        },
+        {
+            "color": "#e3ef99",
+            "closest_crayola": "#f0e891",
+            "closest_css3": "#f0e68c",
+            "closest_css4": "#f0e68c"
+        },
+        {
+            "color": "#c0c4a7",
+            "closest_crayola": "#cdc5c2",
+            "closest_css3": "#c0c0c0",
+            "closest_css4": "#c0c0c0"
         }
-    ]
+    ],
+    "woe:country_name": "Denmark"
 }

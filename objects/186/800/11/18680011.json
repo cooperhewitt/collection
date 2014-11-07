@@ -3,6 +3,7 @@
     "tms:id": "215480",
     "accession_number": "1969-165-975",
     "title": "Sample, \"Wooldac\"",
+    "title_raw": "Wooldac",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18680011\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": null,
     "year_acquired": "1969",
     "decade": null,
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Medium: wool (73%) and Dacron polyester (27%)\nTechnique: plain weave",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "Warp x Weft: 30.5 x 30.5 cm (12 x 12 in.)",
+    "dimensions_raw": {
+        "warp": [
+            "30.48",
+            "centimeters"
+        ],
+        "weft": [
+            "30.48",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Alexander H. Girard",
     "description": "Plain weave in bright blue. Warp is comprised of fine white threads while the weft has heavier bright blue yarns. Number 437.",
     "justification": null,
-    "type": {
-        "id": "35268079",
-        "name": "Sample"
-    },
+    "woe:country": "23424977",
+    "type": "Sample",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/17289_0549b48f458aac6e_b.jpg",
                 "width": 1013,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/17289_0549b48f458aac6e_n.jpg",
-                "width": 317,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "17289"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/17289_0549b48f458aac6e_z.jpg",
                 "width": 633,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "17289"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/17289_0549b48f458aac6e_n.jpg",
+                "width": 317,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "17289"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/17289_0549b48f458aac6e_d.gif",
+                "width": 317,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "17289"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/17289_0549b48f458aac6e_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "17289"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18046041",
             "role_id": "35351535",
             "person_name": "Alexander Hayden Girard",
+            "person_date": "American, 1907\u20131993",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18046041\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18046041",
             "role_id": "35236655",
             "person_name": "Alexander Hayden Girard",
+            "person_date": "American, 1907\u20131993",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18046041\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
@@ -72,24 +102,35 @@
     },
     "colors": [
         {
-            "color": "#3e5b8f",
-            "closest_css3": "#483d8b"
+            "color": "#47659d",
+            "closest_crayola": "#2e5894",
+            "closest_css3": "#4682b4",
+            "closest_css4": "#4682b4"
         },
         {
-            "color": "#6c88bd",
-            "closest_css3": "#778899"
+            "color": "#19336f",
+            "closest_crayola": "#1a4876",
+            "closest_css3": "#191970",
+            "closest_css4": "#191970"
         },
         {
-            "color": "#031851",
-            "closest_css3": "#191970"
+            "color": "#6480ae",
+            "closest_crayola": "#5d76cb",
+            "closest_css3": "#778899",
+            "closest_css4": "#778899"
         },
         {
-            "color": "#1d3870",
-            "closest_css3": "#191970"
+            "color": "#a9c7ee",
+            "closest_crayola": "#9aceeb",
+            "closest_css3": "#b0c4de",
+            "closest_css4": "#b0c4de"
         },
         {
-            "color": "#9ab8e7",
-            "closest_css3": "#b0c4de"
+            "color": "#a8a49e",
+            "closest_crayola": "#979aaa",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

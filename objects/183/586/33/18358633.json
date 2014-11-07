@@ -3,6 +3,7 @@
     "tms:id": "62745",
     "accession_number": "1938-88-2368",
     "title": "Drawing, \"Diana and Endymion\", ca. 1650",
+    "title_raw": "Diana and Endymion",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18358633\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1660,
     "year_acquired": "1938",
     "decade": null,
-    "woe:country": "23424819",
+    "woe:country_id": "23424819",
     "medium": "Pen and brown ink, brush and gray wash on cream laid paper on secondary paper support",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "Giovanni Piancastelli, Rome; Mr. and Mrs. Edward D. Brandegee, Brookline, MA; 1938: acquired by Museum",
     "dimensions": "13.5 x 20.5 cm (5 5\/16 x 8 1\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "13.50",
+            "centimeters"
+        ],
+        "width": [
+            "20.50",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase through gift of various donors and from Eleanor G. Hewitt Fund",
     "description": "The goddess Diana is seated upon a bench at left, surrounded by companions.  She points at Endymion who stands opposite, stripped by young women.  Two additional young women stand at the center.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424819",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/42114_77afaed659480cb9_b.jpg",
                 "width": 1024,
                 "height": 688,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/42114_77afaed659480cb9_n.jpg",
-                "width": 320,
-                "height": 215,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "42114"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/42114_77afaed659480cb9_z.jpg",
                 "width": 640,
                 "height": 430,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "42114"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/42114_77afaed659480cb9_n.jpg",
+                "width": 320,
+                "height": 215,
+                "is_primary": "1",
+                "image_id": "42114"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/42114_77afaed659480cb9_d.gif",
+                "width": 320,
+                "height": 215,
+                "is_primary": "1",
+                "image_id": "42114"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/42114_77afaed659480cb9_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "42114"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18049797",
             "role_id": "35352249",
             "person_name": "Mrs. Edward D. Brandegee",
+            "person_date": "American, 1871\u20131956",
             "role_name": "Vendor",
+            "role_display_name": "Purchased from",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049797\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352249\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18042595",
             "role_id": "35236565",
             "person_name": "L\u00e9onard Chailleat",
+            "person_date": "active Ancona, 1640\u20131650",
             "role_name": "Artist",
+            "role_display_name": "",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18042595\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236565\/"
         }
@@ -72,16 +102,29 @@
     },
     "colors": [
         {
-            "color": "#c9bb9c",
-            "closest_css3": "#d2b48c"
+            "color": "#b09a77",
+            "closest_crayola": "#cd9575",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         },
         {
-            "color": "#a98458",
-            "closest_css3": "#cd853f"
+            "color": "#d3c09a",
+            "closest_crayola": "#e7c697",
+            "closest_css3": "#d2b48c",
+            "closest_css4": "#d2b48c"
         },
         {
-            "color": "#725941",
-            "closest_css3": "#556b2f"
+            "color": "#775d43",
+            "closest_crayola": "#85754e",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
+        },
+        {
+            "color": "#967652",
+            "closest_crayola": "#8a795d",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         }
-    ]
+    ],
+    "woe:country_name": "France"
 }

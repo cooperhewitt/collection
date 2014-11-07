@@ -3,6 +3,7 @@
     "tms:id": "120447",
     "accession_number": "1958-115-19",
     "title": "Sidewall, 1950\u201358",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18420415\/",
     "department_id": "35347503",
     "period_id": null,
@@ -13,39 +14,101 @@
     "year_end": 1958,
     "year_acquired": "1958",
     "decade": "1950",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Machine-printed",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "48 x 74 cm (18 7\/8 x 29 1\/8 in.)",
+    "dimensions_raw": {
+        "height": [
+            "48.00",
+            "centimeters"
+        ],
+        "width": [
+            "74.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Jessup, Inc.",
     "description": "Vertical elements composed of brown S-curves alternating with circular patterns of red, brown, and yellow border brown, stylized weeping willows and brown leaf clusters with hearts, commas, and circles at bases. Willows and leaves form diagonal patterns on a green ground. Inspired by 19th century furnerary designs. On margin: \"Thibaut, Inc. Designs of Today\".",
     "justification": null,
-    "type": {
-        "id": "35256475",
-        "name": "Sidewall"
-    },
+    "woe:country": "23424977",
+    "type": "Sidewall",
     "images": [
+        {
+            "b": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/89287_f112fc76b20247d7_b.jpg",
+                "width": 1024,
+                "height": 680,
+                "is_primary": "1",
+                "image_id": "89287"
+            },
+            "z": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/89287_f112fc76b20247d7_z.jpg",
+                "width": 640,
+                "height": 425,
+                "is_primary": "1",
+                "image_id": "89287"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/89287_f112fc76b20247d7_n.jpg",
+                "width": 320,
+                "height": 213,
+                "is_primary": "1",
+                "image_id": "89287"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/89287_f112fc76b20247d7_d.gif",
+                "width": 320,
+                "height": 213,
+                "is_primary": "1",
+                "image_id": "89287"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/89287_f112fc76b20247d7_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "89287"
+            }
+        },
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/5621_7b305743182e1bbf_b.jpg",
                 "width": 1024,
                 "height": 644,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/5621_7b305743182e1bbf_n.jpg",
-                "width": 320,
-                "height": 201,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "5621"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/5621_7b305743182e1bbf_z.jpg",
                 "width": 640,
                 "height": 402,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "5621"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/5621_7b305743182e1bbf_n.jpg",
+                "width": 320,
+                "height": 201,
+                "is_primary": "0",
+                "image_id": "5621"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/5621_7b305743182e1bbf_d.gif",
+                "width": 320,
+                "height": 201,
+                "is_primary": "0",
+                "image_id": "5621"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/5621_7b305743182e1bbf_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "5621"
             }
         }
     ],
@@ -54,7 +117,9 @@
             "person_id": "18538197",
             "role_id": "35351535",
             "person_name": "Jessup, Inc.",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18538197\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -62,7 +127,9 @@
             "person_id": "18048087",
             "role_id": "35352245",
             "person_name": "cv",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18048087\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -70,7 +137,9 @@
             "person_id": "18046623",
             "role_id": "35236657",
             "person_name": "Richard E. Thibaut, Inc.",
+            "person_date": "founded 1886",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18046623\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         }
@@ -80,20 +149,29 @@
     },
     "colors": [
         {
-            "color": "#6f5c4a",
-            "closest_css3": "#696969"
+            "color": "#6d594a",
+            "closest_crayola": "#6e5160",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#dfcd7b",
-            "closest_css3": "#deb887"
+            "color": "#897f4e",
+            "closest_crayola": "#85754e",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#95544a",
-            "closest_css3": "#a0522d"
+            "color": "#dfce7e",
+            "closest_crayola": "#e7c697",
+            "closest_css3": "#deb887",
+            "closest_css4": "#deb887"
         },
         {
-            "color": "#85794d",
-            "closest_css3": "#696969"
+            "color": "#a9504b",
+            "closest_crayola": "#bf4f51",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

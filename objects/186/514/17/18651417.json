@@ -3,6 +3,7 @@
     "tms:id": "200648",
     "accession_number": "1995-48-3",
     "title": "Textile, \"A Fish is a Fish\", 1951",
+    "title_raw": "A Fish is a Fish",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18651417\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1951,
     "year_acquired": "1995",
     "decade": "1950",
-    "woe:country": "23424977",
-    "medium": "Medium: cotton\nTechnique: screen printed on plain weave",
+    "woe:country_id": "23424977",
+    "medium": "Medium: cotton\nTechnique: screen printed on plain weave\nLabel: screen printed cotton",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "H x W: 228.6 x 123.2 cm (90 x 48 1\/2 in.)",
+    "dimensions_raw": {
+        "height": [
+            "228.60",
+            "centimeters"
+        ],
+        "width": [
+            "123.19",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase from General Acquisitions Endowment Funds",
     "description": "Length of printed cotton with clusters of stylized fish, shells and starfish in black, blue, turquoise and yellow-green on a white ground.",
     "justification": null,
-    "type": {
-        "id": "35251739",
-        "name": "textile"
-    },
+    "woe:country": "23424977",
+    "type": "textile",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/42793_94d2c58b519d58e0_b.jpg",
                 "width": 625,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/42793_94d2c58b519d58e0_n.jpg",
-                "width": 195,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "42793"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/42793_94d2c58b519d58e0_z.jpg",
                 "width": 390,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "42793"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/42793_94d2c58b519d58e0_n.jpg",
+                "width": 195,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "42793"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/42793_94d2c58b519d58e0_d.gif",
+                "width": 195,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "42793"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/42793_94d2c58b519d58e0_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "42793"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18048535",
             "role_id": "35352247",
             "person_name": "General Acquisitions Endowment",
+            "person_date": "",
             "role_name": "Fund",
+            "role_display_name": "Fund:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18048535\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352247\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18047457",
             "role_id": "35352245",
             "person_name": "Barbara Duggan",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047457\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18041519",
             "role_id": "35352249",
             "person_name": "20th Century Furnishings",
+            "person_date": "",
             "role_name": "Vendor",
+            "role_display_name": "Purchased from",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041519\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352249\/"
         },
@@ -78,34 +110,57 @@
             "person_id": "18046273",
             "role_id": "35236655",
             "person_name": "Ken Scott",
+            "person_date": "",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18046273\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
+        },
+        {
+            "person_id": "68736191",
+            "role_id": "35236671",
+            "person_name": "W.B. Quaintance & Co., Inc.",
+            "person_date": "",
+            "role_name": "Producer",
+            "role_display_name": "Produced by",
+            "person_url": "http:\/\/collection.cooperhewitt.org\/people\/68736191\/",
+            "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236671\/"
         }
     ],
     "tombstone": {
-        "epitaph": "Textile, \"A Fish is a Fish\", 1951. Medium: cotton\nTechnique: screen printed on plain weave. Museum purchase from General Acquisitions Endowment Funds. 1995-48-3."
+        "epitaph": "Textile, \"A Fish is a Fish\", 1951. Medium: cotton\nTechnique: screen printed on plain weave\nLabel: screen printed cotton. Museum purchase from General Acquisitions Endowment Funds. 1995-48-3."
     },
     "colors": [
         {
-            "color": "#3e4042",
-            "closest_css3": "#2f4f4f"
+            "color": "#363739",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#61baaa",
-            "closest_css3": "#66cdaa"
+            "color": "#e3db4b",
+            "closest_crayola": "#ffcf48",
+            "closest_css3": "#f4a460",
+            "closest_css4": "#f4a460"
         },
         {
-            "color": "#e0d948",
-            "closest_css3": "#bdb76b"
+            "color": "#60c0b0",
+            "closest_crayola": "#45cea2",
+            "closest_css3": "#66cdaa",
+            "closest_css4": "#66cdaa"
         },
         {
-            "color": "#8b8983",
-            "closest_css3": "#808080"
+            "color": "#b7b2aa",
+            "closest_crayola": "#b0b7c6",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
         },
         {
-            "color": "#a79e5a",
-            "closest_css3": "#bdb76b"
+            "color": "#add1c4",
+            "closest_crayola": "#9fe2bf",
+            "closest_css3": "#c0c0c0",
+            "closest_css4": "#c0c0c0"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

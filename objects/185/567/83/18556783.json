@@ -3,6 +3,7 @@
     "tms:id": "71043",
     "accession_number": "1939-37-5",
     "title": "Bag (one Side), 18th century",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18556783\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": null,
     "year_acquired": "1939",
     "decade": null,
-    "woe:country": "23424781",
+    "woe:country_id": "23424781",
     "medium": "Medium: silk and metal thread embroidery, cotton foundation\nTechnique: embroidered in counted satin stitches on plain weave",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "H x W: 29 x 14.5 cm (11 7\/16 x 5 11\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "29.00",
+            "centimeters"
+        ],
+        "width": [
+            "14.50",
+            "centimeters"
+        ]
+    },
     "creditline": null,
     "description": "One side of a bag, embroidered in colored silks and metal thread in a floral design on a white ground; lined with green and white silk and fitted with a blue and white knotted cord",
     "justification": null,
-    "type": {
-        "id": "35288529",
-        "name": "Bag (one side)"
-    },
+    "woe:country": "23424781",
+    "type": "Bag (one side)",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/41738_d7575aae3b505cde_b.jpg",
                 "width": 1024,
                 "height": 820,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/41738_d7575aae3b505cde_n.jpg",
-                "width": 320,
-                "height": 256,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "41738"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/41738_d7575aae3b505cde_z.jpg",
                 "width": 640,
                 "height": 512,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "41738"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/41738_d7575aae3b505cde_n.jpg",
+                "width": 320,
+                "height": 256,
+                "is_primary": "1",
+                "image_id": "41738"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/41738_d7575aae3b505cde_d.gif",
+                "width": 320,
+                "height": 256,
+                "is_primary": "1",
+                "image_id": "41738"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/41738_d7575aae3b505cde_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "41738"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/41739_b101d41231d2e8f3_b.jpg",
                 "width": 1024,
                 "height": 904,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/41739_b101d41231d2e8f3_n.jpg",
-                "width": 320,
-                "height": 282,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "41739"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/41739_b101d41231d2e8f3_z.jpg",
                 "width": 640,
                 "height": 565,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "41739"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/41739_b101d41231d2e8f3_n.jpg",
+                "width": 320,
+                "height": 282,
+                "is_primary": "0",
+                "image_id": "41739"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/41739_b101d41231d2e8f3_d.gif",
+                "width": 320,
+                "height": 282,
+                "is_primary": "0",
+                "image_id": "41739"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/41739_b101d41231d2e8f3_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "41739"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18055143",
             "role_id": "35352245",
             "person_name": "Susan J. Brown",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18055143\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         }
@@ -84,24 +129,35 @@
     },
     "colors": [
         {
-            "color": "#d9cfb3",
-            "closest_css3": "#f5deb3"
+            "color": "#cec3a1",
+            "closest_crayola": "#e7c697",
+            "closest_css3": "#d2b48c",
+            "closest_css4": "#d2b48c"
         },
         {
-            "color": "#917e6d",
-            "closest_css3": "#808080"
+            "color": "#a69584",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         },
         {
-            "color": "#bba795",
-            "closest_css3": "#bc8f8f"
+            "color": "#6c624d",
+            "closest_crayola": "#6e5160",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#6b604b",
-            "closest_css3": "#696969"
+            "color": "#897b64",
+            "closest_crayola": "#8a795d",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#a7a68c",
-            "closest_css3": "#a9a9a9"
+            "color": "#9e714e",
+            "closest_crayola": "#a5694f",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         }
-    ]
+    ],
+    "woe:country_name": "China"
 }

@@ -3,6 +3,7 @@
     "tms:id": "102664",
     "accession_number": "1950-66-88",
     "title": "Drawing, \"Design for a private residence\", ca. 1900",
+    "title_raw": "Design for a private residence",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18385061\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1910,
     "year_acquired": "1950",
     "decade": null,
-    "woe:country": null,
+    "woe:country_id": null,
     "medium": "Graphite and black ink on heavy tracing paper",
     "markings": null,
     "signed": null,
     "inscribed": "\"No.1,\" in pencil, near lower right.",
     "provenance": "Gift of Madame Hector Guimard",
     "dimensions": "26.3 x 24.1 cm (10 3\/8 x 9\/ 1\/2 in.)",
+    "dimensions_raw": {
+        "height": [
+            "26.30",
+            "centimeters"
+        ],
+        "width": [
+            "24.10",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Mme. Hector Guimard",
     "description": "A perspective sketch, design for a private residence. Gabled roof, large windows, entrance at right. Indications of foliage and trees.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": null,
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/41405_f4e7f992da265248_b.jpg",
                 "width": 940,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/41405_f4e7f992da265248_n.jpg",
-                "width": 294,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "41405"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/41405_f4e7f992da265248_z.jpg",
                 "width": 588,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "41405"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/41405_f4e7f992da265248_n.jpg",
+                "width": 294,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "41405"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/41405_f4e7f992da265248_d.gif",
+                "width": 294,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "41405"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/41405_f4e7f992da265248_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "41405"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/22856_f34badeaf9b8997c_b.jpg",
                 "width": 1022,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/22856_f34badeaf9b8997c_n.jpg",
-                "width": 319,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "22856"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/22856_f34badeaf9b8997c_z.jpg",
                 "width": 639,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "22856"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/22856_f34badeaf9b8997c_n.jpg",
+                "width": 319,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "22856"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/22856_f34badeaf9b8997c_d.gif",
+                "width": 319,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "22856"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/22856_f34badeaf9b8997c_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "22856"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18042569",
             "role_id": "35236655",
             "person_name": "Hector Guimard",
+            "person_date": "French, 1867\u20131942, active Paris, France, 1885\u20131929",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18042569\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18538779",
             "role_id": "35351535",
             "person_name": "Mme. Hector Guimard",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18538779\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -92,20 +139,28 @@
     },
     "colors": [
         {
-            "color": "#9a8556",
-            "closest_css3": "#808080"
+            "color": "#c0aa6f",
+            "closest_crayola": "#bab86c",
+            "closest_css3": "#bdb76b",
+            "closest_css4": "#bdb76b"
         },
         {
-            "color": "#faf6dd",
-            "closest_css3": "#f5f5dc"
+            "color": "#f6f1d9",
+            "closest_crayola": "#efdecd",
+            "closest_css3": "#f5f5dc",
+            "closest_css4": "#f5f5dc"
         },
         {
-            "color": "#7f6b44",
-            "closest_css3": "#696969"
+            "color": "#88754c",
+            "closest_crayola": "#85754e",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#5e4c31",
-            "closest_css3": "#556b2f"
+            "color": "#6a5a3b",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         }
     ]
 }

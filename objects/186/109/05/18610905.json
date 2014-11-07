@@ -2,7 +2,8 @@
     "id": "18610905",
     "tms:id": "98884",
     "accession_number": "1948-47-360",
-    "title": "Drawing, \"Project for the Plaza, Cleveland, OH\", 1857\u20131925",
+    "title": "Drawing, \"Design for the Plaza, Cleveland, OH\", 1857\u20131925",
+    "title_raw": "Project for the Plaza, Cleveland, OH",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18610905\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1925,
     "year_acquired": "1948",
     "decade": null,
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Black chalk, brush and black ink, white wash, graphite on cream paper",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "Mrs. Arnold W. Brunner",
     "dimensions": "52.7 x 81.7 cm (20 3\/4 x 32 3\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "52.70",
+            "centimeters"
+        ],
+        "width": [
+            "81.70",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Mrs. Arnold W. Brunner",
     "description": "View of steps of plaza on right with large vase; at center, profile of large lion sculpture with fountain to its left; and trees with stone banister.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424977",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/43420_8053f02a7ecb1436_b.jpg",
                 "width": 1024,
                 "height": 662,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/43420_8053f02a7ecb1436_n.jpg",
-                "width": 320,
-                "height": 207,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "43420"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/43420_8053f02a7ecb1436_z.jpg",
                 "width": 640,
                 "height": 414,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "43420"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/43420_8053f02a7ecb1436_n.jpg",
+                "width": 320,
+                "height": 207,
+                "is_primary": "1",
+                "image_id": "43420"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/43420_8053f02a7ecb1436_d.gif",
+                "width": 320,
+                "height": 207,
+                "is_primary": "1",
+                "image_id": "43420"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/43420_8053f02a7ecb1436_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "43420"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "51676457",
             "role_id": "35352245",
             "person_name": "Karin Zonis",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/51676457\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18043333",
             "role_id": "35236663",
             "person_name": "Arnold William Brunner",
+            "person_date": "1857\u20131925",
             "role_name": "Architect",
+            "role_display_name": "Architect:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18043333\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236663\/"
         },
@@ -70,26 +100,41 @@
             "person_id": "18054685",
             "role_id": "35351535",
             "person_name": "Mrs. Arnold W. Brunner",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18054685\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
     ],
     "tombstone": {
-        "epitaph": "Drawing, \"Project for the Plaza, Cleveland, OH\", 1857\u20131925. Black chalk, brush and black ink, white wash, graphite on cream paper. Gift of Mrs. Arnold W. Brunner. 1948-47-360."
+        "epitaph": "Drawing, \"Design for the Plaza, Cleveland, OH\", 1857\u20131925. Black chalk, brush and black ink, white wash, graphite on cream paper. Gift of Mrs. Arnold W. Brunner. 1948-47-360."
     },
     "colors": [
         {
-            "color": "#bfa070",
-            "closest_css3": "#bdb76b"
+            "color": "#c5a573",
+            "closest_crayola": "#cd9575",
+            "closest_css3": "#bdb76b",
+            "closest_css4": "#bdb76b"
         },
         {
-            "color": "#978261",
-            "closest_css3": "#808080"
+            "color": "#f8f2d9",
+            "closest_crayola": "#efdecd",
+            "closest_css3": "#f5f5dc",
+            "closest_css4": "#f5f5dc"
         },
         {
-            "color": "#68625a",
-            "closest_css3": "#696969"
+            "color": "#6a645b",
+            "closest_crayola": "#6e5160",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
+        },
+        {
+            "color": "#dac9a4",
+            "closest_crayola": "#e7c697",
+            "closest_css3": "#d2b48c",
+            "closest_css4": "#d2b48c"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

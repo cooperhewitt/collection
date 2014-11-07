@@ -3,6 +3,7 @@
     "tms:id": "110879",
     "accession_number": "1954-66-10",
     "title": "Textile, \"Windy Day\", 1953",
+    "title_raw": "Windy Day",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18401401\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1953,
     "year_acquired": "1954",
     "decade": "1950",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Medium: linen\nTechnique: screen printed on plain weave",
     "markings": null,
     "signed": null,
     "inscribed": "\"Windy Day\" by Charles Child for Morley-Fletcher (printed in selvedge)",
     "provenance": null,
     "dimensions": "H x W: 130.8 x 85.1 cm (51 1\/2 x 33 1\/2 in.)",
+    "dimensions_raw": {
+        "height": [
+            "130.81",
+            "centimeters"
+        ],
+        "width": [
+            "85.09",
+            "centimeters"
+        ]
+    },
     "creditline": null,
     "description": "Scattered leaves in bright yellow-green, yellow, and cerise, with broad gray swirls in horizontal bands on an undyed linen ground.",
     "justification": null,
-    "type": {
-        "id": "35251739",
-        "name": "textile"
-    },
+    "woe:country": "23424977",
+    "type": "textile",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/18254_9879d5aeb166560a_b.jpg",
                 "width": 681,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/18254_9879d5aeb166560a_n.jpg",
-                "width": 213,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "18254"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/18254_9879d5aeb166560a_z.jpg",
                 "width": 426,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "18254"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/18254_9879d5aeb166560a_n.jpg",
+                "width": 213,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "18254"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/18254_9879d5aeb166560a_d.gif",
+                "width": 213,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "18254"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/18254_9879d5aeb166560a_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "18254"
             }
         }
     ],
@@ -54,9 +80,21 @@
             "person_id": "18054509",
             "role_id": "35236657",
             "person_name": "Morley Fletcher Ltd., New York, NY",
+            "person_date": "",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18054509\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
+        },
+        {
+            "person_id": "68737253",
+            "role_id": "35236655",
+            "person_name": "Charles Child",
+            "person_date": "",
+            "role_name": "Designer",
+            "role_display_name": "Designed by",
+            "person_url": "http:\/\/collection.cooperhewitt.org\/people\/68737253\/",
+            "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
     ],
     "tombstone": {
@@ -64,24 +102,35 @@
     },
     "colors": [
         {
-            "color": "#e1d9ea",
-            "closest_css3": "#dcdcdc"
+            "color": "#7d7292",
+            "closest_crayola": "#757575",
+            "closest_css3": "#708090",
+            "closest_css4": "#708090"
         },
         {
-            "color": "#807696",
-            "closest_css3": "#708090"
+            "color": "#5c5d76",
+            "closest_crayola": "#4a646c",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#aca7ba",
-            "closest_css3": "#a9a9a9"
+            "color": "#ada8c7",
+            "closest_crayola": "#a2add0",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
         },
         {
-            "color": "#683546",
-            "closest_css3": "#556b2f"
+            "color": "#673142",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#8b4513",
+            "closest_css4": "#8b4513"
         },
         {
-            "color": "#73775f",
-            "closest_css3": "#696969"
+            "color": "#dbbd6a",
+            "closest_crayola": "#bab86c",
+            "closest_css3": "#deb887",
+            "closest_css4": "#deb887"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

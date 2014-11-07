@@ -3,6 +3,7 @@
     "tms:id": "229400",
     "accession_number": "1921-6-212-17-b",
     "title": "Print, \"Design of Apartment Table\", 1748",
+    "title_raw": "Design of Apartment Table",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18707129\/",
     "department_id": "35347493",
     "period_id": "35417101",
@@ -13,39 +14,64 @@
     "year_end": 1748,
     "year_acquired": "1921",
     "decade": null,
-    "woe:country": "23424819",
+    "woe:country_id": "23424819",
     "medium": "Etching on off-white laid paper",
     "markings": null,
     "signed": null,
     "inscribed": "Inscribed on plate, upper left: G; upper right: 48; lower left: J.A. Meissonnier inv.; lower right: Huquier Sculp. et ex. rue St. Jacques. C.P.R.; lower center: Table d'appartement",
     "provenance": "Jean L\u00e9on Decloux (Decloux 173)",
     "dimensions": "17 x 24.4 cm (6 11\/16 x 9 5\/8 in.)",
+    "dimensions_raw": {
+        "height": [
+            "17.00",
+            "centimeters"
+        ],
+        "width": [
+            "24.40",
+            "centimeters"
+        ]
+    },
     "creditline": "Purchased for the Museum by the Advisory Council",
     "description": "Elaborately decorated table with cartouches, garlands of flowers, shells, and leaves intertwining the cabriole legs.",
     "justification": null,
-    "type": {
-        "id": "35236873",
-        "name": "Print"
-    },
+    "woe:country": "23424819",
+    "type": "Print",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/24092_17b0cd1a7c823722_b.jpg",
                 "width": 746,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/24092_17b0cd1a7c823722_n.jpg",
-                "width": 233,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "24092"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/24092_17b0cd1a7c823722_z.jpg",
                 "width": 466,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "24092"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/24092_17b0cd1a7c823722_n.jpg",
+                "width": 233,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "24092"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/24092_17b0cd1a7c823722_d.gif",
+                "width": 233,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "24092"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/24092_17b0cd1a7c823722_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "24092"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18049621",
             "role_id": "35351535",
             "person_name": "Advisory Council",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049621\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18049621",
             "role_id": "35351535",
             "person_name": "Advisory Council",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049621\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18042559",
             "role_id": "35236585",
             "person_name": "Gabriel Huquier",
+            "person_date": "French, 1695\u20131772",
             "role_name": "Etcher",
+            "role_display_name": "Etched by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18042559\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236585\/"
         },
@@ -78,7 +110,9 @@
             "person_id": "18042559",
             "role_id": "35236661",
             "person_name": "Gabriel Huquier",
+            "person_date": "French, 1695\u20131772",
             "role_name": "Publisher",
+            "role_display_name": "Published by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18042559\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236661\/"
         },
@@ -86,7 +120,9 @@
             "person_id": "18042657",
             "role_id": "35236655",
             "person_name": "Juste-Aur\u00e8le Meissonnier",
+            "person_date": "French, 1695\u20131750",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18042657\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
@@ -96,16 +132,23 @@
     },
     "colors": [
         {
-            "color": "#d9d4c9",
-            "closest_css3": "#d3d3d3"
+            "color": "#b5afa3",
+            "closest_crayola": "#b0b7c6",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
         },
         {
-            "color": "#9f998d",
-            "closest_css3": "#bc8f8f"
+            "color": "#716b5f",
+            "closest_crayola": "#757575",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#645e53",
-            "closest_css3": "#696969"
+            "color": "#918b7f",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         }
-    ]
+    ],
+    "woe:country_name": "France"
 }

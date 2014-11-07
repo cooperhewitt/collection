@@ -3,6 +3,7 @@
     "tms:id": "185211",
     "accession_number": "1986-40-15",
     "title": "Bandana, 1930\u20131950",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18620795\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1950,
     "year_acquired": "1986",
     "decade": "1930",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Medium: cotton\nTechnique: printed and discharge printed by engraved roller on plain weave",
     "markings": null,
     "signed": null,
     "inscribed": "ALL COTTON WPL 9939 WASH FAST COLOR",
     "provenance": null,
     "dimensions": "H x W: 57.2 x 50.8 cm (22 1\/2 x 20 in.)",
+    "dimensions_raw": {
+        "height": [
+            "57.15",
+            "centimeters"
+        ],
+        "width": [
+            "50.80",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Penelope McCain",
     "description": "Square bandana with a red ground and design in black and white. Field of black and white stars, two narrow boders of stars, and a wide lace-like scalloped border.",
     "justification": null,
-    "type": {
-        "id": "35293893",
-        "name": "Bandana"
-    },
+    "woe:country": "23424977",
+    "type": "Bandana",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/50727_16b87866e7e1b2ec_b.jpg",
                 "width": 1024,
                 "height": 926,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/50727_16b87866e7e1b2ec_n.jpg",
-                "width": 320,
-                "height": 290,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "50727"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/50727_16b87866e7e1b2ec_z.jpg",
                 "width": 640,
                 "height": 579,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "50727"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/50727_16b87866e7e1b2ec_n.jpg",
+                "width": 320,
+                "height": 290,
+                "is_primary": "1",
+                "image_id": "50727"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/50727_16b87866e7e1b2ec_d.gif",
+                "width": 320,
+                "height": 290,
+                "is_primary": "1",
+                "image_id": "50727"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/50727_16b87866e7e1b2ec_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "50727"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/77718_257b54342af72511_b.jpg",
                 "width": 1024,
                 "height": 703,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/77718_257b54342af72511_n.jpg",
-                "width": 320,
-                "height": 220,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "77718"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/77718_257b54342af72511_z.jpg",
                 "width": 640,
                 "height": 440,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "77718"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/77718_257b54342af72511_n.jpg",
+                "width": 320,
+                "height": 220,
+                "is_primary": "0",
+                "image_id": "77718"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/77718_257b54342af72511_d.gif",
+                "width": 320,
+                "height": 220,
+                "is_primary": "0",
+                "image_id": "77718"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/77718_257b54342af72511_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "77718"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "51679591",
             "role_id": "35351535",
             "person_name": "Penelope McCain",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/51679591\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -84,24 +129,35 @@
     },
     "colors": [
         {
-            "color": "#891621",
-            "closest_css3": "#a52a2a"
+            "color": "#6f1b20",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#800000",
+            "closest_css4": "#800000"
         },
         {
-            "color": "#431e1c",
-            "closest_css3": "#2f4f4f"
+            "color": "#c96467",
+            "closest_crayola": "#cc6666",
+            "closest_css3": "#cd5c5c",
+            "closest_css4": "#cd5c5c"
         },
         {
-            "color": "#e9d6d2",
-            "closest_css3": "#dcdcdc"
+            "color": "#e3c8c4",
+            "closest_crayola": "#efcdb8",
+            "closest_css3": "#d8bfd8",
+            "closest_css4": "#d8bfd8"
         },
         {
-            "color": "#cd7a78",
-            "closest_css3": "#d87093"
+            "color": "#d48d8c",
+            "closest_crayola": "#d98695",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         },
         {
-            "color": "#bb2a33",
-            "closest_css3": "#b22222"
+            "color": "#2d1f1b",
+            "closest_crayola": "#000000",
+            "closest_css3": "#000000",
+            "closest_css4": "#000000"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

@@ -3,6 +3,7 @@
     "tms:id": "134324",
     "accession_number": "1963-39-281",
     "title": "Drawing, \"Costume Design for Bishop, for Checkmate\", 1937",
+    "title_raw": "Costume Design for Bishop, for Checkmate",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18447617\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1937,
     "year_acquired": "1963",
     "decade": "1930",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Brush and gouache, graphite on white paper",
     "markings": null,
     "signed": "Signed in black ink, lower right: E. Mcknight Kauffer",
     "inscribed": "Inscribed in graphite, pointing to headgear, right: silver; this should be like a starched collar \/ but silver is [...] a material; pointing to belt, to gloves: silver; left margin: Deep red where blk \/ Light \"  \"  grey \/ yellow  \"  \"  white",
     "provenance": "Mrs. E. McKnight Kauffer",
     "dimensions": "H x W: 39.5 x 30.5 cm (15 9\/16 in. x 12 in.)",
+    "dimensions_raw": {
+        "height": [
+            "39.50",
+            "centimeters"
+        ],
+        "width": [
+            "30.50",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Mrs. E. McKnight Kauffer",
     "description": "Costume design in black, gray, and white for bishop. Man, standing frontally, with black beard, right hand pointing upward and diagonally, wearing a black hat in the shape of a spade, with silver gloves and belt and long black skirt.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424977",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/51093_0a274197ac494278_b.jpg",
                 "width": 794,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/51093_0a274197ac494278_n.jpg",
-                "width": 248,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "51093"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/51093_0a274197ac494278_z.jpg",
                 "width": 496,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "51093"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/51093_0a274197ac494278_n.jpg",
+                "width": 248,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "51093"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/51093_0a274197ac494278_d.gif",
+                "width": 248,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "51093"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/51093_0a274197ac494278_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "51093"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18041923",
             "role_id": "35236655",
             "person_name": "Edward McKnight Kauffer",
+            "person_date": "American, active England, 1890\u20131954",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041923\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18061849",
             "role_id": "35351535",
             "person_name": "Mrs. Edward McKnight Kauffer",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18061849\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -72,8 +102,11 @@
     },
     "colors": [
         {
-            "color": "#e5e0ce",
-            "closest_css3": "#dcdcdc"
+            "color": "#f1ead0",
+            "closest_crayola": "#efdecd",
+            "closest_css3": "#faebd7",
+            "closest_css4": "#faebd7"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

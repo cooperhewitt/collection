@@ -3,6 +3,7 @@
     "tms:id": "191329",
     "accession_number": "1989-41-20",
     "title": "Plate, \"Learn to Read and Life Will Be Better\", 1921",
+    "title_raw": "Learn to Read and Life Will Be Better",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18632973\/",
     "department_id": "35347497",
     "period_id": null,
@@ -13,39 +14,60 @@
     "year_end": 1921,
     "year_acquired": "1989",
     "decade": "1920",
-    "woe:country": null,
+    "woe:country_id": null,
     "medium": "Enameled, glazed porcelain",
     "markings": "Marks: On underside: Imperial Porcelain Factory mark obscured by green enamel lozenge; hammer, sickle, cog, 1921 hand-painted in blue overglaze",
     "signed": null,
     "inscribed": null,
     "provenance": "The Henry and Ludmilla Shapiro Collection; 1989: acquired by Museum",
     "dimensions": "Diameter: 21.5 cm (8 7\/16 in.)",
+    "dimensions_raw": {
+        "diameter": [
+            "21.50",
+            "centimeters"
+        ]
+    },
     "creditline": "The Henry and Ludmilla Shapiro Collection; Partial gift and partial purchase through the Decorative Arts Association Acquisition and Smithsonian Collections Acquisition Program Funds",
     "description": "Circular; in the center a globe, books, scroll, rake, sythe; around the border books intersperced with the inscription, in Russian, \"Learn to read and life will be better\"",
     "justification": null,
-    "type": {
-        "id": "35236833",
-        "name": "plate"
-    },
+    "woe:country": null,
+    "type": "plate",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/11161_31863df3a6952ad1_b.jpg",
                 "width": 1024,
                 "height": 967,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/11161_31863df3a6952ad1_n.jpg",
-                "width": 320,
-                "height": 302,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "11161"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/11161_31863df3a6952ad1_z.jpg",
                 "width": 640,
                 "height": 604,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "11161"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/11161_31863df3a6952ad1_n.jpg",
+                "width": 320,
+                "height": 302,
+                "is_primary": "1",
+                "image_id": "11161"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/11161_31863df3a6952ad1_d.gif",
+                "width": 320,
+                "height": 302,
+                "is_primary": "1",
+                "image_id": "11161"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/11161_31863df3a6952ad1_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "11161"
             }
         }
     ],
@@ -54,7 +76,9 @@
             "person_id": "18047827",
             "role_id": "35352245",
             "person_name": "Deborah S. Shinn",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047827\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -62,7 +86,9 @@
             "person_id": "18045211",
             "role_id": "35236655",
             "person_name": "Elizaveta Berngardovna Rozendorf",
+            "person_date": "1898",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18045211\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -70,7 +96,9 @@
             "person_id": "18045179",
             "role_id": "35236657",
             "person_name": "State Porcelain Factory",
+            "person_date": "Leningrad, USSR, founded 1918",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18045179\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         }
@@ -80,24 +108,34 @@
     },
     "colors": [
         {
-            "color": "#e3dac2",
-            "closest_css3": "#f5deb3"
+            "color": "#fdecc6",
+            "closest_crayola": "#fae7b5",
+            "closest_css3": "#ffebcd",
+            "closest_css4": "#ffebcd"
         },
         {
-            "color": "#828f92",
-            "closest_css3": "#778899"
+            "color": "#cecab9",
+            "closest_crayola": "#cdc5c2",
+            "closest_css3": "#c0c0c0",
+            "closest_css4": "#c0c0c0"
         },
         {
-            "color": "#302725",
-            "closest_css3": "#2f4f4f"
+            "color": "#7c898b",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#908176",
-            "closest_css3": "#808080"
+            "color": "#dbbea9",
+            "closest_crayola": "#e7c697",
+            "closest_css3": "#d2b48c",
+            "closest_css4": "#d2b48c"
         },
         {
-            "color": "#706458",
-            "closest_css3": "#696969"
+            "color": "#604f48",
+            "closest_crayola": "#6e5160",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         }
     ]
 }

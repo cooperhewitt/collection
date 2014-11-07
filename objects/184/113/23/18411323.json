@@ -3,6 +3,7 @@
     "tms:id": "115882",
     "accession_number": "1957-100-2-a\/l",
     "title": "Spoons, \"Persian pattern\", patent 1872, produced 1907\u201347",
+    "title_raw": "Persian pattern",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18411323\/",
     "department_id": "35347497",
     "period_id": null,
@@ -13,39 +14,68 @@
     "year_end": 1947,
     "year_acquired": "1957",
     "decade": null,
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Silver",
     "markings": "On reverse of stem (a-l):  \"M. TIFFANY & Co STERLING, PAT 1872\"",
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "L x W x D: (a-f): 10.3  x  2 x  1.4 cm (4 1\/16 x 13\/16 x 9\/16 in.)",
+    "dimensions_raw": {
+        "depth": [
+            "1.40",
+            "centimeters"
+        ],
+        "length": [
+            "10.30",
+            "centimeters"
+        ],
+        "width": [
+            "2.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Anonymous Donor",
     "description": "Oval bowl, tapering stem with thistle-topped, rounded square terminal. Stem stamped on obverse and reverse with interlacing scrollwork and flower blossoms on a matted ground. Obverse with vacant trefoil reserve.",
     "justification": null,
-    "type": {
-        "id": "35283995",
-        "name": "Spoons"
-    },
+    "woe:country": "23424977",
+    "type": "Spoons",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/25663_6d68ffeb6e8b3c55_b.jpg",
                 "width": 1024,
                 "height": 952,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/25663_6d68ffeb6e8b3c55_n.jpg",
-                "width": 320,
-                "height": 297,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "25663"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/25663_6d68ffeb6e8b3c55_z.jpg",
                 "width": 640,
                 "height": 595,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "25663"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/25663_6d68ffeb6e8b3c55_n.jpg",
+                "width": 320,
+                "height": 297,
+                "is_primary": "1",
+                "image_id": "25663"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/25663_6d68ffeb6e8b3c55_d.gif",
+                "width": 320,
+                "height": 297,
+                "is_primary": "1",
+                "image_id": "25663"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/25663_6d68ffeb6e8b3c55_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "25663"
             }
         }
     ],
@@ -54,7 +84,9 @@
             "person_id": "18052955",
             "role_id": "35236749",
             "person_name": "Tiffany and Co., New York",
+            "person_date": "Corona, New York, USA",
             "role_name": "Retailer",
+            "role_display_name": "Retailed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18052955\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236749\/"
         },
@@ -62,7 +94,9 @@
             "person_id": "18052955",
             "role_id": "35236657",
             "person_name": "Tiffany and Co., New York",
+            "person_date": "Corona, New York, USA",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18052955\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         },
@@ -70,7 +104,9 @@
             "person_id": "18055781",
             "role_id": "35236655",
             "person_name": "Edward C. Moore (1827-1891)",
+            "person_date": "",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18055781\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -78,9 +114,21 @@
             "person_id": "18052955",
             "role_id": "35236685",
             "person_name": "Tiffany and Co., New York",
+            "person_date": "Corona, New York, USA",
             "role_name": "Maker",
+            "role_display_name": "Made by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18052955\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236685\/"
+        },
+        {
+            "person_id": "68739079",
+            "role_id": "35351535",
+            "person_name": "Anonymous",
+            "person_date": "",
+            "role_name": "Donor",
+            "role_display_name": "Donated by",
+            "person_url": "http:\/\/collection.cooperhewitt.org\/people\/68739079\/",
+            "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
     ],
     "tombstone": {
@@ -89,15 +137,28 @@
     "colors": [
         {
             "color": "#b4ada7",
-            "closest_css3": "#a9a9a9"
+            "closest_crayola": "#b0b7c6",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
         },
         {
-            "color": "#79716c",
-            "closest_css3": "#696969"
+            "color": "#938b86",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#5a5253",
-            "closest_css3": "#696969"
+            "color": "#766e68",
+            "closest_crayola": "#757575",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
+        },
+        {
+            "color": "#514b51",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

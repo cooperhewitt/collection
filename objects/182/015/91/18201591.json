@@ -3,6 +3,7 @@
     "tms:id": "23598",
     "accession_number": "1917-4-77",
     "title": "Drawing, \"Drawing. Study.  \"Bridge over the River Combeima \/ at Ibaque\", Colombia\", July 16, 1853",
+    "title_raw": "Drawing. Study.  \"Bridge over the River Combeima \/ at Ibaque\", Colombia",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18201591\/",
     "department_id": "35347493",
     "period_id": "35417175",
@@ -13,39 +14,64 @@
     "year_end": null,
     "year_acquired": "1917",
     "decade": null,
-    "woe:country": "23424787",
+    "woe:country_id": "23424787",
     "medium": "Graphite, brush and white and oxidized gouache on cream-colored paper, discolored to dark brown on verso.",
     "markings": "Recto:  Stamped in ink, at lower left:  Lugt 457c\nVerso:  Stamped in ink, at lower center:  Lugt 457d",
     "signed": null,
     "inscribed": "Recto:  Inscribed in graphite, at lower left:  Bridge over the River Combeima \/ at Ibaque  =  The name given, was  the name of a celebrated Indian chieftain \/ who governed part of the country and \/ distinguished himself by his prowess in \/ encounters with the Spaniards; and at lower center:  July 16 - 1853\n\nVerso:  Inscribed in graphite, at upper left:  Pincheon \/ Lispinard 3 doors below Church \/ Canal to church \/ Brushes Badger \/ Theodore Kelly \/ 16 Arcade \/ Phil.",
     "provenance": "Louis P. Church",
     "dimensions": "23.2 x 29.7 cm (9 1\/8 x 11 11\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "23.20",
+            "centimeters"
+        ],
+        "width": [
+            "29.70",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Louis P. Church",
     "description": "Horizontal view of the pinnacled bridge in the center of middleground surrounded by trees and bushes with hill and mountages in the background.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424787",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/27240_813c1197f60dd962_b.jpg",
                 "width": 1024,
                 "height": 806,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/27240_813c1197f60dd962_n.jpg",
-                "width": 320,
-                "height": 252,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "27240"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/27240_813c1197f60dd962_z.jpg",
                 "width": 640,
                 "height": 503,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "27240"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/27240_813c1197f60dd962_n.jpg",
+                "width": 320,
+                "height": 252,
+                "is_primary": "1",
+                "image_id": "27240"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/27240_813c1197f60dd962_d.gif",
+                "width": 320,
+                "height": 252,
+                "is_primary": "1",
+                "image_id": "27240"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/27240_813c1197f60dd962_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "27240"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18061203",
             "role_id": "35352245",
             "person_name": "Lillian Hill Clagett",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18061203\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18052081",
             "role_id": "35352245",
             "person_name": "Dr. Rudolph Berliner - do not use",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18052081\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18041941",
             "role_id": "35236565",
             "person_name": "Frederic Edwin Church",
+            "person_date": "American, 1826\u20131900",
             "role_name": "Artist",
+            "role_display_name": "",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041941\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236565\/"
         },
@@ -78,7 +110,9 @@
             "person_id": "18051625",
             "role_id": "35351535",
             "person_name": "Louis P. Church",
+            "person_date": "American, 1870\u20131943",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18051625\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -88,16 +122,17 @@
     },
     "colors": [
         {
-            "color": "#bda689",
-            "closest_css3": "#bc8f8f"
+            "color": "#bea98d",
+            "closest_crayola": "#deaa88",
+            "closest_css3": "#d2b48c",
+            "closest_css4": "#d2b48c"
         },
         {
-            "color": "#766654",
-            "closest_css3": "#696969"
-        },
-        {
-            "color": "#ded6cc",
-            "closest_css3": "#d3d3d3"
+            "color": "#8e755c",
+            "closest_crayola": "#8a795d",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         }
-    ]
+    ],
+    "woe:country_name": "Colombia"
 }

@@ -15,6 +15,9 @@ id
 name
 ==
 
+type
+==
+
 url 
 ==
 

@@ -3,6 +3,7 @@
     "tms:id": "194850",
     "accession_number": "1992-38-2",
     "title": "Frieze, \"The Golden Tiffany\", 1914",
+    "title_raw": "The Golden Tiffany",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18639971\/",
     "department_id": "35347503",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1914,
     "year_acquired": "1992",
     "decade": "1910",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Machine-printed on embossed paper",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "H x W: 292.5 x 50 cm (9 ft. 7 3\/16 in. x 19 11\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "292.50",
+            "centimeters"
+        ],
+        "width": [
+            "50.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase from Sarah Cooper-Hewitt Fund",
     "description": "Blocks of foliage with flowers growing out from woody trunk. The bottom half of the frieze is striped. The background is printed with irridescent pigments inspired by Tiffany favrile glass.",
-    "justification": null,
-    "type": {
-        "id": "35259269",
-        "name": "Frieze"
-    },
+    "justification": "This frieze and accompanying sidewall (1992-38-1) are found in a 1914 Sears &amp; Roebuck sample book held in our collection. The sidewall sold for 48 cents a double roll. The title of the design, The Golden Tiffany, refers to the mottled ground on which the design was printed, an effect produced by blending metallic pigments and mica-based color. Sears repeated the design but printed it on an engraved ground, called it The Morocco, and sold it for 50 cents a double roll\u2014the most expensive paper in the book.",
+    "woe:country": "23424977",
+    "type": "Frieze",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/12292_c29b206f7bad4115_b.jpg",
                 "width": 1024,
                 "height": 485,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/12292_c29b206f7bad4115_n.jpg",
-                "width": 320,
-                "height": 152,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "12292"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/12292_c29b206f7bad4115_z.jpg",
                 "width": 640,
                 "height": 303,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "12292"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/12292_c29b206f7bad4115_n.jpg",
+                "width": 320,
+                "height": 152,
+                "is_primary": "1",
+                "image_id": "12292"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/12292_c29b206f7bad4115_d.gif",
+                "width": 320,
+                "height": 152,
+                "is_primary": "1",
+                "image_id": "12292"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/12292_c29b206f7bad4115_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "12292"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18041011",
             "role_id": "35352249",
             "person_name": "Kurland-Zabar",
+            "person_date": "",
             "role_name": "Vendor",
+            "role_display_name": "Purchased from",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041011\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352249\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18046463",
             "role_id": "35236657",
             "person_name": "Sears, Roebuck and Co.",
+            "person_date": "1886",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18046463\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         }
@@ -72,24 +102,35 @@
     },
     "colors": [
         {
-            "color": "#aa8345",
-            "closest_css3": "#cd853f"
+            "color": "#9e7738",
+            "closest_crayola": "#9c7c38",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         },
         {
-            "color": "#d6b471",
-            "closest_css3": "#deb887"
+            "color": "#c29b5a",
+            "closest_crayola": "#d68a59",
+            "closest_css3": "#bdb76b",
+            "closest_css4": "#bdb76b"
         },
         {
-            "color": "#765732",
-            "closest_css3": "#556b2f"
+            "color": "#805e24",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#8b4513",
+            "closest_css4": "#8b4513"
         },
         {
-            "color": "#a36820",
-            "closest_css3": "#a0522d"
+            "color": "#452c13",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         },
         {
-            "color": "#542e09",
-            "closest_css3": "#8b4513"
+            "color": "#dbc079",
+            "closest_crayola": "#deaa88",
+            "closest_css3": "#deb887",
+            "closest_css4": "#deb887"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

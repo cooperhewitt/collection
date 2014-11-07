@@ -3,6 +3,7 @@
     "tms:id": "63064",
     "accession_number": "1938-88-2648",
     "title": "Drawing, \"Proposed Additions to an Octagonal Church\", 1573",
+    "title_raw": "Proposed Additions to an Octagonal Church",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18359269\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1573,
     "year_acquired": "1938",
     "decade": null,
-    "woe:country": "23424853",
+    "woe:country_id": "23424853",
     "medium": "Pen and brown ink, brush and brown wash, black chalk on paper",
     "markings": "Watermark: Briquet 1884.",
     "signed": "Signed in pen and brown ink, lower left: Bino Sotij nel primo offitio 1573",
     "inscribed": null,
     "provenance": "Giovanni Piancastelli, Rome; Mr. and Mrs. Edward D. Brandegee, Brookline, MA; 1938: acquired by Museum",
     "dimensions": "35.1 x 26.7 cm (13 13\/16 x 10 1\/2 in. )",
+    "dimensions_raw": {
+        "height": [
+            "35.10",
+            "centimeters"
+        ],
+        "width": [
+            "26.70",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase through gift of various donors and from Eleanor G. Hewitt Fund",
     "description": "The structures project from the choir of a church, the choir being three sides of an octagon in the plan. The plans of each structure are halves of hexagons.  The elevations show sockles, orders of imbedded Doric columns containing niches and being triangular pediments, balustrades from which obelisks rise in the lateral structure, upon which statues stand, in the center.  Segments of lanterns and domes form the top parts, the central one being much higher and more elaborate than the lateral ones.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424853",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/3515_48ac9f1f2ae7efba_b.jpg",
                 "width": 782,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/3515_48ac9f1f2ae7efba_n.jpg",
-                "width": 244,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "3515"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/3515_48ac9f1f2ae7efba_z.jpg",
                 "width": 489,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "3515"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/3515_48ac9f1f2ae7efba_n.jpg",
+                "width": 244,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "3515"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/3515_48ac9f1f2ae7efba_d.gif",
+                "width": 244,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "3515"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/3515_48ac9f1f2ae7efba_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "3515"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18049797",
             "role_id": "35352249",
             "person_name": "Mrs. Edward D. Brandegee",
+            "person_date": "American, 1871\u20131956",
             "role_name": "Vendor",
+            "role_display_name": "Purchased from",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049797\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352249\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18537871",
             "role_id": "35236663",
             "person_name": "Bernardino Sozi di Vincenzo",
+            "person_date": "Italian, 1573 \u2013 1603",
             "role_name": "Architect",
+            "role_display_name": "Architect:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18537871\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236663\/"
         }
@@ -72,8 +102,11 @@
     },
     "colors": [
         {
-            "color": "#b6a877",
-            "closest_css3": "#bdb76b"
+            "color": "#b7aa78",
+            "closest_crayola": "#bab86c",
+            "closest_css3": "#bdb76b",
+            "closest_css4": "#bdb76b"
         }
-    ]
+    ],
+    "woe:country_name": "Italy"
 }

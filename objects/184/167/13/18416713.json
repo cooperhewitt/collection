@@ -3,6 +3,7 @@
     "tms:id": "118583",
     "accession_number": "1957-162-2",
     "title": "Print, \"Ein fa\u00e7onirter Schreib-Tisch,\u2026 (Writing Desk and Chair)\", ca. 1720",
+    "title_raw": "Ein fa\u00e7onirter Schreib-Tisch,\u2026 (Writing Desk and Chair)",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18416713\/",
     "department_id": "35347493",
     "period_id": "35417129",
@@ -13,39 +14,64 @@
     "year_end": 1730,
     "year_acquired": "1957",
     "decade": null,
-    "woe:country": "23424829",
+    "woe:country_id": "23424829",
     "medium": "Etching and engraving on off-white laid paper",
     "markings": null,
     "signed": "In plate above lower edge of plate mark: Ich: Iacob Sch\u00fcbler: inv: del: Norimb: Ier. Wolff exc. Aug: Vind: C.P.S.C.M. Iohann Ballthasar Probst direxit.",
     "inscribed": "In plate below image: \nEin fa\u00e7onirter Schreib-Tisch, nach der neuen bequemen manier, nebst \/\neinem Frantz\u00f6ischen Commod stuhl, daran die Lehne nach der h\u00f6hle des \/\nmenschlichen Ruckens ausgef\u00fcttert, und mit einer Strebfeder versehen ist, da(s)s \/ \ndie Lehne im hintersich biegen wohl nach geben aber nicht brechen kan.\n\nIn plate lower right of image in margin: 1.\n\nrecto: in graphite lower left in margin: IV \/NT  \/ H [illeg.]\nverso: in graphite lower left: inx \/ 421\/3 (inscribed with a circle)",
     "provenance": null,
     "dimensions": "34 x 21.2 cm (13 3\/8 x 8 3\/8 in.)",
+    "dimensions_raw": {
+        "height": [
+            "34.00",
+            "centimeters"
+        ],
+        "width": [
+            "21.20",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase through gift of the Estate of David Wolfe Bishop",
     "description": "An elaborate writing desk is featured in a draped corner of a room with a bookshelf on the left and a window at right. Ornamented with globes at left and right, the desk features four sections with multiple drawers at the base, as well as a central cartouche shaped drawered section above. Decorated with swags, festoons, heavy architectural mouldings and surmounted by an astrolabe, this central section holds a candle, writing materials and a book rest above a slanted writing board. An equally elaborate chair is placed in front of the desk.",
     "justification": null,
-    "type": {
-        "id": "35236873",
-        "name": "Print"
-    },
+    "woe:country": "23424829",
+    "type": "Print",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/28232_ea4288113b3cbe20_b.jpg",
                 "width": 656,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/28232_ea4288113b3cbe20_n.jpg",
-                "width": 205,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "28232"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/28232_ea4288113b3cbe20_z.jpg",
                 "width": 410,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "28232"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/28232_ea4288113b3cbe20_n.jpg",
+                "width": 205,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "28232"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/28232_ea4288113b3cbe20_d.gif",
+                "width": 205,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "28232"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/28232_ea4288113b3cbe20_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "28232"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18042037",
             "role_id": "35236743",
             "person_name": "Johann Balthasar Probst",
+            "person_date": "1673\u20131750",
             "role_name": "Engraver",
+            "role_display_name": "Engraved by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18042037\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236743\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18049865",
             "role_id": "35236661",
             "person_name": "Jeremias Wolff",
+            "person_date": "German, 1663\u20131750",
             "role_name": "Publisher",
+            "role_display_name": "Published by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049865\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236661\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18041925",
             "role_id": "35236655",
             "person_name": "Johann Jakob Sch\u00fcbler",
+            "person_date": "German, 1689\u20131741",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041925\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
@@ -80,24 +112,29 @@
     },
     "colors": [
         {
-            "color": "#ddd8c7",
-            "closest_css3": "#d3d3d3"
+            "color": "#a69e91",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
         },
         {
-            "color": "#b7afa0",
-            "closest_css3": "#a9a9a9"
+            "color": "#5f5a52",
+            "closest_crayola": "#6e5160",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#7f796d",
-            "closest_css3": "#808080"
+            "color": "#7d766b",
+            "closest_crayola": "#757575",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#665f57",
-            "closest_css3": "#696969"
-        },
-        {
-            "color": "#3f3c37",
-            "closest_css3": "#2f4f4f"
+            "color": "#3c3935",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         }
-    ]
+    ],
+    "woe:country_name": "Germany"
 }

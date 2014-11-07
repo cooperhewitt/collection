@@ -2,7 +2,8 @@
     "id": "18350007",
     "tms:id": "58616",
     "accession_number": "1938-57-450-c",
-    "title": "Plate, \"\"Tomba de Virgilio\" (Virgil's Tomb)\", ca. 1800\u201320",
+    "title": "Plate, \"Tomba de Virgilio (Virgil's Tomb)\", ca. 1800\u201320",
+    "title_raw": "\"Tomba de Virgilio\" (Virgil's Tomb)",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18350007\/",
     "department_id": "35347497",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": null,
     "year_acquired": "1938",
     "decade": null,
-    "woe:country": "23424853",
+    "woe:country_id": "23424853",
     "medium": "Glazed porcelain",
     "markings": "On base: \"Tomba de Virgilio\"",
     "signed": null,
     "inscribed": null,
     "provenance": "Erskine Hewitt; 1938: bequested to Museum",
     "dimensions": "H x diam.: 2.5 x 24 cm (1 x 9 7\/16 in.)",
+    "dimensions_raw": {
+        "diameter": [
+            "24.00",
+            "centimeters"
+        ],
+        "height": [
+            "2.50",
+            "centimeters"
+        ]
+    },
     "creditline": "Bequest of Erskine Hewitt",
     "description": "Plate with blue and gold border. At center of well, depiction of two figures in Roman ruins landscape with sea in background.",
     "justification": null,
-    "type": {
-        "id": "35236833",
-        "name": "plate"
-    },
+    "woe:country": "23424853",
+    "type": "plate",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/20517_b996bdf544a59d43_b.jpg",
                 "width": 1021,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/20517_b996bdf544a59d43_n.jpg",
-                "width": 319,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "20517"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/20517_b996bdf544a59d43_z.jpg",
                 "width": 638,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "20517"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/20517_b996bdf544a59d43_n.jpg",
+                "width": 319,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "20517"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/20517_b996bdf544a59d43_d.gif",
+                "width": 319,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "20517"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/20517_b996bdf544a59d43_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "20517"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18058569",
             "role_id": "35236657",
             "person_name": "Doccia Porcelain Manufactory",
+            "person_date": "",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18058569\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         },
@@ -62,26 +90,47 @@
             "person_id": "18050021",
             "role_id": "35351537",
             "person_name": "Erskine Hewitt",
+            "person_date": "American, 1871\u20131938",
             "role_name": "Bequestor",
+            "role_display_name": "Bequest of",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18050021\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351537\/"
         }
     ],
     "tombstone": {
-        "epitaph": "Plate, \"\"Tomba de Virgilio\" (Virgil's Tomb)\", ca. 1800\u201320. Glazed porcelain. Bequest of Erskine Hewitt. 1938-57-450-c."
+        "epitaph": "Plate, \"Tomba de Virgilio (Virgil's Tomb)\", ca. 1800\u201320. Glazed porcelain. Bequest of Erskine Hewitt. 1938-57-450-c."
     },
     "colors": [
         {
-            "color": "#272e53",
-            "closest_css3": "#2f4f4f"
+            "color": "#c3beb9",
+            "closest_crayola": "#cdc5c2",
+            "closest_css3": "#c0c0c0",
+            "closest_css4": "#c0c0c0"
         },
         {
-            "color": "#a59579",
-            "closest_css3": "#bc8f8f"
+            "color": "#272f54",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#756145",
-            "closest_css3": "#696969"
+            "color": "#a7977c",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
+        },
+        {
+            "color": "#76644b",
+            "closest_crayola": "#85754e",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
+        },
+        {
+            "color": "#45414f",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         }
-    ]
+    ],
+    "woe:country_name": "Italy"
 }

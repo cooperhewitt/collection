@@ -3,6 +3,7 @@
     "tms:id": "134213",
     "accession_number": "1963-39-182",
     "title": "Drawing, \"Design for Street Scene, for Othello\", 1932",
+    "title_raw": "Design for Street Scene, for Othello",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18447395\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1932,
     "year_acquired": "1963",
     "decade": "1930",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Color crayon on black paper",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "Mrs. E. McKnight Kauffer",
     "dimensions": "H x W: 28.5 x 23.2 cm (11 1\/4 x 9 1\/8 in.)",
+    "dimensions_raw": {
+        "height": [
+            "28.50",
+            "centimeters"
+        ],
+        "width": [
+            "23.20",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Mrs. E. McKnight Kauffer",
     "description": "A theater set design on black paper. Upper drawing: a sketch of a scene with white arched building on the right; at center, a short staircase leading to a bridge; left, a small arched building. Lower drawing: a crenellated tower in white outline, stairs and partial crenellated wall. Two hole punches on left edge.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424977",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/51071_c71fee8c1b9f5902_b.jpg",
                 "width": 828,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/51071_c71fee8c1b9f5902_n.jpg",
-                "width": 259,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "51071"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/51071_c71fee8c1b9f5902_z.jpg",
                 "width": 517,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "51071"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/51071_c71fee8c1b9f5902_n.jpg",
+                "width": 259,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "51071"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/51071_c71fee8c1b9f5902_d.gif",
+                "width": 259,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "51071"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/51071_c71fee8c1b9f5902_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "51071"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18041923",
             "role_id": "35236655",
             "person_name": "Edward McKnight Kauffer",
+            "person_date": "American, active England, 1890\u20131954",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041923\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18061849",
             "role_id": "35351535",
             "person_name": "Mrs. Edward McKnight Kauffer",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18061849\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -72,8 +102,17 @@
     },
     "colors": [
         {
-            "color": "#96928c",
-            "closest_css3": "#808080"
+            "color": "#4f4d4b",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
+        },
+        {
+            "color": "#8e8a84",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

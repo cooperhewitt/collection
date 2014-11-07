@@ -3,6 +3,7 @@
     "tms:id": "180728",
     "accession_number": "1983-86-2",
     "title": "Book With Embroidered Covers, 1665",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18801123\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,68 @@
     "year_end": 1665,
     "year_acquired": "1983",
     "decade": null,
-    "woe:country": "23424975",
+    "woe:country_id": "23424975",
     "medium": "Medium: paper, silk, metallic thread\nTechnique: embroidered",
     "markings": null,
     "signed": null,
     "inscribed": "Printed by Jean Bill and Christopher Barker",
     "provenance": null,
     "dimensions": "H x W x D: 15 x 9 x 4 cm (5 7\/8 x 3 9\/16 x 1 9\/16 in.)",
+    "dimensions_raw": {
+        "depth": [
+            "4.00",
+            "centimeters"
+        ],
+        "height": [
+            "15.00",
+            "centimeters"
+        ],
+        "width": [
+            "9.00",
+            "centimeters"
+        ]
+    },
     "creditline": null,
     "description": "\"The Holy Bible\" covered with green silk satin and embroidered in a symmetrical vine pattern using metallic yarns. The embroidery is very high relief.",
     "justification": null,
-    "type": {
-        "id": "35293597",
-        "name": "Book with embroidered covers"
-    },
+    "woe:country": "23424975",
+    "type": "Book with embroidered covers",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/77478_2e5f58f51c881380_b.jpg",
                 "width": 636,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/77478_2e5f58f51c881380_n.jpg",
-                "width": 199,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "77478"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/77478_2e5f58f51c881380_z.jpg",
                 "width": 397,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "77478"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/77478_2e5f58f51c881380_n.jpg",
+                "width": 199,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "77478"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/77478_2e5f58f51c881380_d.gif",
+                "width": 199,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "77478"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/77478_2e5f58f51c881380_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "77478"
             }
         },
         {
@@ -53,19 +83,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/77479_5d6f6001fadac0b1_b.jpg",
                 "width": 663,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/77479_5d6f6001fadac0b1_n.jpg",
-                "width": 207,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "77479"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/77479_5d6f6001fadac0b1_z.jpg",
                 "width": 414,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "77479"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/77479_5d6f6001fadac0b1_n.jpg",
+                "width": 207,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "77479"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/77479_5d6f6001fadac0b1_d.gif",
+                "width": 207,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "77479"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/77479_5d6f6001fadac0b1_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "77479"
             }
         }
     ],
@@ -74,7 +121,9 @@
             "person_id": "34624781",
             "role_id": "35236673",
             "person_name": "John Bill",
+            "person_date": "England",
             "role_name": "Printer",
+            "role_display_name": "Printed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/34624781\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236673\/"
         },
@@ -82,7 +131,9 @@
             "person_id": "34624779",
             "role_id": "35236673",
             "person_name": "Christopher Barker",
+            "person_date": "England",
             "role_name": "Printer",
+            "role_display_name": "Printed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/34624779\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236673\/"
         }
@@ -92,5 +143,6 @@
     },
     "colors": [
 
-    ]
+    ],
+    "woe:country_name": "United Kingdom"
 }

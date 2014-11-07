@@ -3,6 +3,7 @@
     "tms:id": "98374",
     "accession_number": "1948-40-101",
     "title": "Print, \"Invitation to an Opening at 14 Wigmore Street, 1839\", ca. 1839",
+    "title_raw": "Invitation to an Opening at 14 Wigmore Street, 1839",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18609653\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1849,
     "year_acquired": "1948",
     "decade": null,
-    "woe:country": "23424975",
+    "woe:country_id": "23424975",
     "medium": "Engraving, pen and ink",
     "markings": null,
     "signed": null,
     "inscribed": "Inscribed on plate, center: Messrs Crace and Son \/ request the honor of \/ Inspection of their new Decorations in the \/ Renaissance and other styles \/ 14 Wigmore Street \/ Cavendish Square. Inscribed in pen and black ink, center: Mr. Chawner\u2019s \/ on Wednesday \/ Evening next at 9 o\u2019clock \/ June 3rd 1839.",
     "provenance": null,
     "dimensions": "H x W: 20.5 x 13.5 cm (8 1\/16 x 5 5\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "20.50",
+            "centimeters"
+        ],
+        "width": [
+            "13.50",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase through gift of Mrs. John Innes Kane",
     "description": "Left margin, swirling vertical floral motif.",
     "justification": null,
-    "type": {
-        "id": "35236873",
-        "name": "Print"
-    },
+    "woe:country": "23424975",
+    "type": "Print",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/39904_5d0ddd4b5180bc27_b.jpg",
                 "width": 677,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/39904_5d0ddd4b5180bc27_n.jpg",
-                "width": 212,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "39904"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/39904_5d0ddd4b5180bc27_z.jpg",
                 "width": 423,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "39904"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/39904_5d0ddd4b5180bc27_n.jpg",
+                "width": 212,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "39904"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/39904_5d0ddd4b5180bc27_d.gif",
+                "width": 212,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "39904"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/39904_5d0ddd4b5180bc27_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "39904"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18539479",
             "role_id": "35352249",
             "person_name": "Mrs. K. Gregory",
+            "person_date": "",
             "role_name": "Vendor",
+            "role_display_name": "Purchased from",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18539479\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352249\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18046659",
             "role_id": "35236655",
             "person_name": "Crace and Sons",
+            "person_date": "",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18046659\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
@@ -72,12 +102,17 @@
     },
     "colors": [
         {
-            "color": "#e0d6bd",
-            "closest_css3": "#f5deb3"
+            "color": "#e3dbca",
+            "closest_crayola": "#dbd7d2",
+            "closest_css3": "#dcdcdc",
+            "closest_css4": "#dcdcdc"
         },
         {
-            "color": "#c7ae7e",
-            "closest_css3": "#d2b48c"
+            "color": "#ccb78f",
+            "closest_crayola": "#deaa88",
+            "closest_css3": "#d2b48c",
+            "closest_css4": "#d2b48c"
         }
-    ]
+    ],
+    "woe:country_name": "United Kingdom"
 }

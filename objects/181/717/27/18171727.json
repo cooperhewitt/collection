@@ -3,6 +3,7 @@
     "tms:id": "18399",
     "accession_number": "1911-28-360",
     "title": "Drawing, \"Covered Tureen\", 1825\u201335",
+    "title_raw": "Covered Tureen",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18171727\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1860,
     "year_acquired": "1911",
     "decade": null,
-    "woe:country": "23424829",
+    "woe:country_id": "23424829",
     "medium": "Pen and black ink, brush and wash, graphite on white laid paper",
     "markings": "Marks: C & I HONIG (similar to Heawood 3344)",
     "signed": null,
     "inscribed": "in pen and red ink, lower right: No. 35",
     "provenance": "Leon Decloux",
     "dimensions": "Sheet: 40 x 56 cm (15 3\/4 x 22 1\/16 in.)\nMat: 40.6 x 55.9 cm (16 x 22 in.)",
+    "dimensions_raw": {
+        "height": [
+            "40.00",
+            "centimeters"
+        ],
+        "width": [
+            "56.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Purchased for the Museum by the Advisory Council",
     "description": "The tureen is composed of two separate design schemes: the left side includes banding of calyxes and the handle terminates in a human head helmeted with a cornucopia. The base is edged in triangular-shaped scallops. On the right the design shows a vine arabesque meander and the handle is formed by an elephant's head, trunk upraised.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424829",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/26268_5fd219f105275cca_b.jpg",
                 "width": 1024,
                 "height": 740,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/26268_5fd219f105275cca_n.jpg",
-                "width": 320,
-                "height": 231,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "26268"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/26268_5fd219f105275cca_z.jpg",
                 "width": 640,
                 "height": 463,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "26268"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/26268_5fd219f105275cca_n.jpg",
+                "width": 320,
+                "height": 231,
+                "is_primary": "1",
+                "image_id": "26268"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/26268_5fd219f105275cca_d.gif",
+                "width": 320,
+                "height": 231,
+                "is_primary": "1",
+                "image_id": "26268"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/26268_5fd219f105275cca_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "26268"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18049621",
             "role_id": "35351535",
             "person_name": "Advisory Council",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049621\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18054439",
             "role_id": "35352245",
             "person_name": "Richard P. Wunder",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18054439\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18047443",
             "role_id": "35352245",
             "person_name": "Megan L. Smith",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047443\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -78,7 +110,9 @@
             "person_id": "18042669",
             "role_id": "35236687",
             "person_name": "Joseph Anton Seethaler II",
+            "person_date": "German, 1799\u20131868",
             "role_name": "Attributions",
+            "role_display_name": "Attributions:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18042669\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236687\/"
         },
@@ -86,7 +120,9 @@
             "person_id": "18042667",
             "role_id": "35236565",
             "person_name": "Johann Alois Seethaler",
+            "person_date": "1796 \u2013 1835",
             "role_name": "Artist",
+            "role_display_name": "",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18042667\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236565\/"
         }
@@ -96,16 +132,23 @@
     },
     "colors": [
         {
-            "color": "#e0d8cc",
-            "closest_css3": "#d3d3d3"
+            "color": "#e0d8ca",
+            "closest_crayola": "#dbd7d2",
+            "closest_css3": "#d3d3d3",
+            "closest_css4": "#d3d3d3"
         },
         {
-            "color": "#a89e8b",
-            "closest_css3": "#bc8f8f"
+            "color": "#ada492",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
         },
         {
-            "color": "#897f6c",
-            "closest_css3": "#808080"
+            "color": "#8d8370",
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         }
-    ]
+    ],
+    "woe:country_name": "Germany"
 }

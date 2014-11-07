@@ -3,6 +3,7 @@
     "tms:id": "188739",
     "accession_number": "1988-115-3",
     "title": "Spoon, 1980s",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18627805\/",
     "department_id": "35347497",
     "period_id": null,
@@ -13,39 +14,68 @@
     "year_end": 1989,
     "year_acquired": "1988",
     "decade": "1980",
-    "woe:country": "23424819",
+    "woe:country_id": "23424819",
     "medium": "Stainless steel",
     "markings": "On handle: \"Jean-Marie Patois\" [in script].",
     "signed": null,
     "inscribed": null,
     "provenance": "David McFadden; 1988: acquired by Museum",
     "dimensions": "L x W x D: 21 x 5.1 x 2.8 cm (8 1\/4 x 2 x 1 1\/8 in.)",
+    "dimensions_raw": {
+        "depth": [
+            "2.80",
+            "centimeters"
+        ],
+        "length": [
+            "21.00",
+            "centimeters"
+        ],
+        "width": [
+            "5.10",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of David McFadden",
     "description": "Integral piece. Fish shape: wide, elongated oval bowl; fish fin shapes protrude from one side at intersection between bowl and handle; handle terminates in fish tail.",
     "justification": null,
-    "type": {
-        "id": "35249775",
-        "name": "spoon"
-    },
+    "woe:country": "23424819",
+    "type": "spoon",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/19164_59a3369c16f3b704_b.jpg",
                 "width": 1024,
                 "height": 817,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/19164_59a3369c16f3b704_n.jpg",
-                "width": 320,
-                "height": 255,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "19164"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/19164_59a3369c16f3b704_z.jpg",
                 "width": 640,
                 "height": 511,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "19164"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/19164_59a3369c16f3b704_n.jpg",
+                "width": 320,
+                "height": 255,
+                "is_primary": "1",
+                "image_id": "19164"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/19164_59a3369c16f3b704_d.gif",
+                "width": 320,
+                "height": 255,
+                "is_primary": "1",
+                "image_id": "19164"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/19164_59a3369c16f3b704_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "19164"
             }
         },
         {
@@ -53,19 +83,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/8276_b1e21beba2f547cc_b.jpg",
                 "width": 1024,
                 "height": 1007,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/8276_b1e21beba2f547cc_n.jpg",
-                "width": 320,
-                "height": 315,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "8276"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/8276_b1e21beba2f547cc_z.jpg",
                 "width": 640,
                 "height": 629,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "8276"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/8276_b1e21beba2f547cc_n.jpg",
+                "width": 320,
+                "height": 315,
+                "is_primary": "0",
+                "image_id": "8276"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/8276_b1e21beba2f547cc_d.gif",
+                "width": 320,
+                "height": 315,
+                "is_primary": "0",
+                "image_id": "8276"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/8276_b1e21beba2f547cc_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "8276"
             }
         }
     ],
@@ -74,7 +121,9 @@
             "person_id": "18057289",
             "role_id": "35236655",
             "person_name": "Jean-Marie Patois",
+            "person_date": "",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18057289\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -82,7 +131,9 @@
             "person_id": "18049699",
             "role_id": "35351535",
             "person_name": "David McFadden",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049699\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -92,24 +143,35 @@
     },
     "colors": [
         {
-            "color": "#c6b792",
-            "closest_css3": "#d2b48c"
+            "color": "#e6d8b1",
+            "closest_crayola": "#efcdb8",
+            "closest_css3": "#f5deb3",
+            "closest_css4": "#f5deb3"
         },
         {
-            "color": "#f0e4d0",
-            "closest_css3": "#faebd7"
+            "color": "#bbaf8e",
+            "closest_crayola": "#bab86c",
+            "closest_css3": "#d2b48c",
+            "closest_css4": "#d2b48c"
         },
         {
-            "color": "#332e2c",
-            "closest_css3": "#2f4f4f"
+            "color": "#383117",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#514215",
-            "closest_css3": "#556b2f"
+            "color": "#332f2d",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#6d634d",
-            "closest_css3": "#696969"
+            "color": "#391e11",
+            "closest_crayola": "#000000",
+            "closest_css3": "#000000",
+            "closest_css4": "#000000"
         }
-    ]
+    ],
+    "woe:country_name": "France"
 }

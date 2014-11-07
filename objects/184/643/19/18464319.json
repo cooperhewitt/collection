@@ -3,6 +3,7 @@
     "tms:id": "142765",
     "accession_number": "1968-135-97",
     "title": "Textile, 1920s",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18464319\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,72 @@
     "year_end": 1929,
     "year_acquired": "1968",
     "decade": "1920",
-    "woe:country": "23424975",
+    "woe:country_id": "23424975",
     "medium": "Technique: roller printed on plain weave",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "Warp x Weft: 69.5 x 81 cm (27 3\/8 x 31 7\/8 in.)\nRepeat H x W: 22.9 x 20.3 cm (9 x 8 in.)",
+    "dimensions_raw": {
+        "height": [
+            "22.86",
+            "centimeters"
+        ],
+        "warp": [
+            "69.50",
+            "centimeters"
+        ],
+        "weft": [
+            "81.00",
+            "centimeters"
+        ],
+        "width": [
+            "20.32",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Harvey Smith",
     "description": "Curving vines with flowers and fruit in a style derivative from William Morris.",
     "justification": null,
-    "type": {
-        "id": "35251739",
-        "name": "textile"
-    },
+    "woe:country": "23424975",
+    "type": "textile",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/64848_633e796998be1536_b.jpg",
                 "width": 1024,
                 "height": 882,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/64848_633e796998be1536_n.jpg",
-                "width": 320,
-                "height": 276,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "64848"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/64848_633e796998be1536_z.jpg",
                 "width": 640,
                 "height": 551,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "64848"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/64848_633e796998be1536_n.jpg",
+                "width": 320,
+                "height": 276,
+                "is_primary": "1",
+                "image_id": "64848"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/64848_633e796998be1536_d.gif",
+                "width": 320,
+                "height": 276,
+                "is_primary": "1",
+                "image_id": "64848"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/64848_633e796998be1536_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "64848"
             }
         },
         {
@@ -53,19 +87,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/75467_b0e20804b9e369ba_b.jpg",
                 "width": 669,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/75467_b0e20804b9e369ba_n.jpg",
-                "width": 209,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "75467"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/75467_b0e20804b9e369ba_z.jpg",
                 "width": 418,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "75467"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/75467_b0e20804b9e369ba_n.jpg",
+                "width": 209,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "75467"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/75467_b0e20804b9e369ba_d.gif",
+                "width": 209,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "75467"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/75467_b0e20804b9e369ba_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "75467"
             }
         }
     ],
@@ -74,7 +125,9 @@
             "person_id": "18049985",
             "role_id": "35351535",
             "person_name": "Harvey Smith",
+            "person_date": "1906\u20131994",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049985\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -82,7 +135,9 @@
             "person_id": "18047459",
             "role_id": "35352245",
             "person_name": "Gillian Moss",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047459\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         }
@@ -92,24 +147,35 @@
     },
     "colors": [
         {
-            "color": "#a38b6e",
-            "closest_css3": "#808080"
+            "color": "#bf9f78",
+            "closest_crayola": "#cd9575",
+            "closest_css3": "#bdb76b",
+            "closest_css4": "#bdb76b"
         },
         {
-            "color": "#d5b68b",
-            "closest_css3": "#d2b48c"
+            "color": "#9c7047",
+            "closest_crayola": "#a5694f",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         },
         {
-            "color": "#6c714d",
-            "closest_css3": "#696969"
+            "color": "#786d48",
+            "closest_crayola": "#85754e",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#9a6f46",
-            "closest_css3": "#a0522d"
+            "color": "#7c8559",
+            "closest_crayola": "#8a795d",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#687068",
-            "closest_css3": "#696969"
+            "color": "#98856c",
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         }
-    ]
+    ],
+    "woe:country_name": "United Kingdom"
 }

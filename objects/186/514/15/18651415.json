@@ -3,6 +3,7 @@
     "tms:id": "200647",
     "accession_number": "1995-48-2",
     "title": "Textile, \"Pagan Magic\", 1952",
+    "title_raw": "Pagan Magic",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18651415\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1952,
     "year_acquired": "1995",
     "decade": "1950",
-    "woe:country": "23424977",
-    "medium": "Medium: cotton\nTechnique: screen printed on plain weave",
+    "woe:country_id": "23424977",
+    "medium": "Medium: cotton\nTechnique: screen printed on plain weave\nLabel: screen printed cotton",
     "markings": null,
     "signed": null,
     "inscribed": "A Riverdale Fabric 'PAGAN MAGIC' Created by Aaron Bohrad of Associated American Artists 1952  A Color Tested Fabric Best Obtainable Vat Dyes Shrunketized (printed in selvedge)",
     "provenance": null,
     "dimensions": "H x W: 153.7 x 120.7 cm (60 1\/2 x 47 1\/2 in.)",
+    "dimensions_raw": {
+        "height": [
+            "153.67",
+            "centimeters"
+        ],
+        "width": [
+            "120.65",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase from General Acquisitions Endowment Funds",
     "description": "Legth of printed cotton with an irregular grid of Polynesian motifs including a tree house and a group of thatched-roof huts; palm trees; seashells, turtles, fish, birds and lizards; an archer; three men in a canoe; a man carrying bunches of fruit; masks; and a variety of patterns sililar to those used on tapa (beaten bark cloth), in shades of brown, light blue, pink and yellow on an off-white ground.",
     "justification": null,
-    "type": {
-        "id": "35251739",
-        "name": "textile"
-    },
+    "woe:country": "23424977",
+    "type": "textile",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/42792_f4df0a7f2c9cfcaa_b.jpg",
                 "width": 796,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/42792_f4df0a7f2c9cfcaa_n.jpg",
-                "width": 249,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "42792"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/42792_f4df0a7f2c9cfcaa_z.jpg",
                 "width": 498,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "42792"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/42792_f4df0a7f2c9cfcaa_n.jpg",
+                "width": 249,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "42792"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/42792_f4df0a7f2c9cfcaa_d.gif",
+                "width": 249,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "42792"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/42792_f4df0a7f2c9cfcaa_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "42792"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18047219",
             "role_id": "35236655",
             "person_name": "Aaron Bohrod",
+            "person_date": "American, 1907\u20131992",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047219\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18048535",
             "role_id": "35352247",
             "person_name": "General Acquisitions Endowment",
+            "person_date": "",
             "role_name": "Fund",
+            "role_display_name": "Fund:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18048535\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352247\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18047457",
             "role_id": "35352245",
             "person_name": "Barbara Duggan",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047457\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -78,7 +110,9 @@
             "person_id": "18041519",
             "role_id": "35352249",
             "person_name": "20th Century Furnishings",
+            "person_date": "",
             "role_name": "Vendor",
+            "role_display_name": "Purchased from",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041519\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352249\/"
         },
@@ -86,7 +120,9 @@
             "person_id": "18046183",
             "role_id": "35236675",
             "person_name": "Associated American Artists",
+            "person_date": "American, 1879 - 1907",
             "role_name": "For",
+            "role_display_name": "Made for",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18046183\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236675\/"
         },
@@ -94,34 +130,47 @@
             "person_id": "18046271",
             "role_id": "35236671",
             "person_name": "Riverdale Fabrics",
+            "person_date": "",
             "role_name": "Producer",
+            "role_display_name": "Produced by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18046271\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236671\/"
         }
     ],
     "tombstone": {
-        "epitaph": "Textile, \"Pagan Magic\", 1952. Medium: cotton\nTechnique: screen printed on plain weave. Museum purchase from General Acquisitions Endowment Funds. 1995-48-2."
+        "epitaph": "Textile, \"Pagan Magic\", 1952. Medium: cotton\nTechnique: screen printed on plain weave\nLabel: screen printed cotton. Museum purchase from General Acquisitions Endowment Funds. 1995-48-2."
     },
     "colors": [
         {
-            "color": "#835547",
-            "closest_css3": "#a0522d"
+            "color": "#9b705e",
+            "closest_crayola": "#a57164",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#a67e6c",
-            "closest_css3": "#808080"
+            "color": "#b99165",
+            "closest_crayola": "#cd9575",
+            "closest_css3": "#bdb76b",
+            "closest_css4": "#bdb76b"
         },
         {
-            "color": "#c9ac96",
-            "closest_css3": "#d2b48c"
+            "color": "#7d5143",
+            "closest_crayola": "#6e5160",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         },
         {
-            "color": "#e4d5bc",
-            "closest_css3": "#f5deb3"
+            "color": "#d9c1a5",
+            "closest_crayola": "#e7c697",
+            "closest_css3": "#d2b48c",
+            "closest_css4": "#d2b48c"
         },
         {
-            "color": "#d09f5e",
-            "closest_css3": "#bdb76b"
+            "color": "#c57855",
+            "closest_crayola": "#d68a59",
+            "closest_css3": "#cd853f",
+            "closest_css4": "#cd853f"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

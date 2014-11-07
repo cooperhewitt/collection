@@ -3,6 +3,7 @@
     "tms:id": "154462",
     "accession_number": "1975-11-64",
     "title": "Drawing, \"Design for Advertising Brochure Cover, Saks Fifth Avenue, New York\", 1927\u201328",
+    "title_raw": "Design for Advertising Brochure Cover, Saks Fifth Avenue, New York",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18487191\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1928,
     "year_acquired": "1975",
     "decade": "1920",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Brush and black ink, stencilled, traces of graphite on buff wove paper",
     "markings": null,
     "signed": null,
     "inscribed": "On bottom in black ink: SAKS-FIFTH AVENUE",
     "provenance": "Donald Deskey",
     "dimensions": "43.3 x 32 cm (17 1\/16 x 12 5\/8 in.)\nMat:  45.7 x 55.9 cm (18 x 22 in.)",
+    "dimensions_raw": {
+        "height": [
+            "43.30",
+            "centimeters"
+        ],
+        "width": [
+            "55.90",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Donald Deskey",
     "description": "A cubist composition of light shining through overlapping, transparent arches with the name \"Saks-Fifth Avenue\" beneath.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424977",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/8039_e5613e763079910b_b.jpg",
                 "width": 754,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/8039_e5613e763079910b_n.jpg",
-                "width": 236,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "8039"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/8039_e5613e763079910b_z.jpg",
                 "width": 471,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "8039"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/8039_e5613e763079910b_n.jpg",
+                "width": 236,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "8039"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/8039_e5613e763079910b_d.gif",
+                "width": 236,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "8039"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/8039_e5613e763079910b_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "8039"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18065437",
             "role_id": "35352245",
             "person_name": "Stacey Leonard",
+            "person_date": "American",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18065437\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18041973",
             "role_id": "35351535",
             "person_name": "Donald Deskey",
+            "person_date": "American, 1894\u20131989",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041973\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18048255",
             "role_id": "35352245",
             "person_name": "Dr. Gail Davidson",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18048255\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -78,7 +110,9 @@
             "person_id": "18047453",
             "role_id": "35352245",
             "person_name": "Elizabeth Horwitz Marcus",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047453\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -86,7 +120,9 @@
             "person_id": "18043539",
             "role_id": "35236667",
             "person_name": "Saks Fifth Avenue, New York, NY",
+            "person_date": "",
             "role_name": "Client",
+            "role_display_name": "Client:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18043539\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236667\/"
         },
@@ -94,7 +130,9 @@
             "person_id": "18041973",
             "role_id": "35236565",
             "person_name": "Donald Deskey",
+            "person_date": "American, 1894\u20131989",
             "role_name": "Artist",
+            "role_display_name": "",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041973\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236565\/"
         }
@@ -104,24 +142,35 @@
     },
     "colors": [
         {
-            "color": "#bcb6a5",
-            "closest_css3": "#a9a9a9"
+            "color": "#e4d4b9",
+            "closest_crayola": "#efcdb8",
+            "closest_css3": "#f5deb3",
+            "closest_css4": "#f5deb3"
         },
         {
-            "color": "#41453e",
-            "closest_css3": "#2f4f4f"
+            "color": "#505149",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#878476",
-            "closest_css3": "#808080"
+            "color": "#ada899",
+            "closest_crayola": "#979aaa",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
         },
         {
-            "color": "#28262e",
-            "closest_css3": "#2f4f4f"
+            "color": "#201e28",
+            "closest_crayola": "#000000",
+            "closest_css3": "#000000",
+            "closest_css4": "#000000"
         },
         {
-            "color": "#efe1d0",
-            "closest_css3": "#faebd7"
+            "color": "#8d897a",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

@@ -3,6 +3,7 @@
     "tms:id": "104651",
     "accession_number": "1951-66-16",
     "title": "Censer, probably 18th century",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18389013\/",
     "department_id": "35347497",
     "period_id": null,
@@ -13,39 +14,68 @@
     "year_end": null,
     "year_acquired": "1951",
     "decade": null,
-    "woe:country": "23424853",
+    "woe:country_id": "23424853",
     "medium": "Bronze",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "H x W x D: 28.8 x 13.4 x 13.4cm (11 5\/16 x 5 1\/4 x 5 1\/4in.)\nH (with chains): 103cm (40 9\/16in.)",
+    "dimensions_raw": {
+        "depth": [
+            "13.40",
+            "centimeters"
+        ],
+        "height": [
+            "28.80",
+            "centimeters"
+        ],
+        "width": [
+            "13.40",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Mrs. Russell C. Veit",
     "description": "A panelled octagonal foot resolves into a twisted knop to a round gadrooned bowl, the upper rim of which bears four pierced lugs to receive chains.  The lugs are matched on the base of the pierced top which is in the general form of an octagonal tower with voluted beam ends and an imbricated faceted roof.",
     "justification": null,
-    "type": {
-        "id": "35287453",
-        "name": "censer"
-    },
+    "woe:country": "23424853",
+    "type": "censer",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/4844_ee7c54764b52d761_b.jpg",
                 "width": 829,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/4844_ee7c54764b52d761_n.jpg",
-                "width": 259,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "4844"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/4844_ee7c54764b52d761_z.jpg",
                 "width": 518,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "4844"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/4844_ee7c54764b52d761_n.jpg",
+                "width": 259,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "4844"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/4844_ee7c54764b52d761_d.gif",
+                "width": 259,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "4844"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/4844_ee7c54764b52d761_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "4844"
             }
         },
         {
@@ -53,19 +83,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/4845_a15d479780777d51_b.jpg",
                 "width": 607,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/4845_a15d479780777d51_n.jpg",
-                "width": 190,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "4845"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/4845_a15d479780777d51_z.jpg",
                 "width": 379,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "4845"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/4845_a15d479780777d51_n.jpg",
+                "width": 190,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "4845"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/4845_a15d479780777d51_d.gif",
+                "width": 190,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "4845"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/4845_a15d479780777d51_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "4845"
             }
         }
     ],
@@ -74,7 +121,9 @@
             "person_id": "18538077",
             "role_id": "35352245",
             "person_name": "James I. Rambo",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18538077\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -82,7 +131,9 @@
             "person_id": "18052845",
             "role_id": "35351535",
             "person_name": "Mrs. Russell C. Veit",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18052845\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -92,24 +143,35 @@
     },
     "colors": [
         {
-            "color": "#96664c",
-            "closest_css3": "#a0522d"
+            "color": "#b27d5b",
+            "closest_crayola": "#a57164",
+            "closest_css3": "#cd853f",
+            "closest_css4": "#cd853f"
         },
         {
-            "color": "#deab87",
-            "closest_css3": "#deb887"
+            "color": "#885840",
+            "closest_crayola": "#85754e",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         },
         {
-            "color": "#c08765",
-            "closest_css3": "#cd853f"
+            "color": "#e3ad7e",
+            "closest_crayola": "#deaa88",
+            "closest_css3": "#deb887",
+            "closest_css4": "#deb887"
         },
         {
-            "color": "#6b4c3e",
-            "closest_css3": "#556b2f"
+            "color": "#48322d",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#fcf7d8",
-            "closest_css3": "#fff8dc"
+            "color": "#fbf7d8",
+            "closest_crayola": "#fddde6",
+            "closest_css3": "#fff8dc",
+            "closest_css4": "#fff8dc"
         }
-    ]
+    ],
+    "woe:country_name": "Italy"
 }

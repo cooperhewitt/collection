@@ -3,6 +3,7 @@
     "tms:id": "222827",
     "accession_number": "2001-14-32",
     "title": "Sidewall Sample, 1929\u201330",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18694547\/",
     "department_id": "35347503",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1930,
     "year_acquired": "2001",
     "decade": "1920",
-    "woe:country": "23424819",
+    "woe:country_id": "23424819",
     "medium": "Machine-printed on paper",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "Overall: 74.5 x 46.5 cm (29 5\/16 x 18 5\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "74.50",
+            "centimeters"
+        ],
+        "width": [
+            "46.50",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase from General Acquisitions Endowment and Friends of Wallcoverings Funds",
     "description": "Kingfisher seated on branch in stylized water. Printed in light blue, green, dark blue, yellow and black with a varnished surface.",
-    "justification": null,
-    "type": {
-        "id": "35292549",
-        "name": "Sidewall sample"
-    },
+    "justification": "This is one of 60 machine-printed samples proposed for acquisition. These papers were at one time part of a larger sample booked issued by the Isidore Leroy Company in Paris and date to approximately 1930. Leroy was one of the first French wallpaper companies to turn to machine printing. In 1858, they patented a process to improve the transfer of color on surface prints. Throughout the 19th century, the firm\u2019s reputation was equal to that of the Zuber et Cie. During the 1920s, the firm continued to produce high quality wallpapers with designs by Ren\u00e9 Crevel, Robert Duflos, Emile-Alain S\u00e9guy, and Henri Stephany. One of S\u00e9guy\u2019s designs is included in this collection. His use of bold color and naturally-inspired forms is evident in his design of a kingfisher seated on a branch. \nIncluded in this collection are a wide range of vividly-colored stripes, overscale fruit and floral designs, and distinctly deco designs. They are richly ornamental in pattern and shocking in their color palette,",
+    "woe:country": "23424819",
+    "type": "Sidewall sample",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/17488_bc929bc7895d8945_b.jpg",
                 "width": 649,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/17488_bc929bc7895d8945_n.jpg",
-                "width": 203,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "17488"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/17488_bc929bc7895d8945_z.jpg",
                 "width": 406,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "17488"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/17488_bc929bc7895d8945_n.jpg",
+                "width": 203,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "17488"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/17488_bc929bc7895d8945_d.gif",
+                "width": 203,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "17488"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/17488_bc929bc7895d8945_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "17488"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18048535",
             "role_id": "35352247",
             "person_name": "General Acquisitions Endowment",
+            "person_date": "",
             "role_name": "Fund",
+            "role_display_name": "Fund:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18048535\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352247\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18538821",
             "role_id": "35236655",
             "person_name": "Emile-Allain Seguy",
+            "person_date": "French",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18538821\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18538389",
             "role_id": "35352249",
             "person_name": "Robert Altman",
+            "person_date": "",
             "role_name": "Vendor",
+            "role_display_name": "Purchased from",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18538389\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352249\/"
         },
@@ -78,7 +110,9 @@
             "person_id": "18538387",
             "role_id": "35236671",
             "person_name": "Isidore Leroy Company",
+            "person_date": "",
             "role_name": "Producer",
+            "role_display_name": "Produced by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18538387\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236671\/"
         }
@@ -88,24 +122,35 @@
     },
     "colors": [
         {
-            "color": "#c6d288",
-            "closest_css3": "#d2b48c"
+            "color": "#a8bd75",
+            "closest_crayola": "#bab86c",
+            "closest_css3": "#bdb76b",
+            "closest_css4": "#bdb76b"
         },
         {
-            "color": "#99ab60",
-            "closest_css3": "#bdb76b"
+            "color": "#74aa7e",
+            "closest_crayola": "#6dae81",
+            "closest_css3": "#8fbc8f",
+            "closest_css4": "#8fbc8f"
         },
         {
-            "color": "#74a77c",
-            "closest_css3": "#8fbc8f"
+            "color": "#dee9a4",
+            "closest_crayola": "#f0e891",
+            "closest_css3": "#eee8aa",
+            "closest_css4": "#eee8aa"
         },
         {
-            "color": "#19555e",
-            "closest_css3": "#2f4f4f"
+            "color": "#879955",
+            "closest_crayola": "#87a96b",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#2c3412",
-            "closest_css3": "#2f4f4f"
+            "color": "#353a19",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         }
-    ]
+    ],
+    "woe:country_name": "France"
 }

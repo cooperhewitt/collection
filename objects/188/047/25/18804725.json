@@ -3,6 +3,7 @@
     "tms:id": "182647",
     "accession_number": "1985-19-14",
     "title": "Ceiling Paper - Sample, 1907\u201308",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18804725\/",
     "department_id": "35347503",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1908,
     "year_acquired": "1985",
     "decade": "1900",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Machine-printed on paper",
     "markings": null,
     "signed": null,
     "inscribed": "Printed in green, lower margin: \u201cThe Art Wall Paper Mills 613-3\u201d",
     "provenance": "Dorwin L. Starr; 1985: acquired by Museum",
     "dimensions": "72 x 49 cm (28 3\/8 x 19 5\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "72.00",
+            "centimeters"
+        ],
+        "width": [
+            "49.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Dorwin L. Starr",
     "description": "On pink ground, various motifs: light gray scrolls and large pink medallion anthemion containing yellow flowers on pink ground framed by green scrolls with honeycomb pattern; green wreaths.",
     "justification": null,
-    "type": {
-        "id": "35293767",
-        "name": "Ceiling paper - sample"
-    },
+    "woe:country": "23424977",
+    "type": "Ceiling paper - sample",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/45610_0136f53d91c44452_b.jpg",
                 "width": 1024,
                 "height": 753,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/45610_0136f53d91c44452_n.jpg",
-                "width": 320,
-                "height": 235,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "45610"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/45610_0136f53d91c44452_z.jpg",
                 "width": 640,
                 "height": 470,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "45610"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/45610_0136f53d91c44452_n.jpg",
+                "width": 320,
+                "height": 235,
+                "is_primary": "1",
+                "image_id": "45610"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/45610_0136f53d91c44452_d.gif",
+                "width": 320,
+                "height": 235,
+                "is_primary": "1",
+                "image_id": "45610"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/45610_0136f53d91c44452_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "45610"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/9774_4611f54530183d84_b.jpg",
                 "width": 754,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/9774_4611f54530183d84_n.jpg",
-                "width": 236,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "9774"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/9774_4611f54530183d84_z.jpg",
                 "width": 471,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "9774"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/9774_4611f54530183d84_n.jpg",
+                "width": 236,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "9774"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/9774_4611f54530183d84_d.gif",
+                "width": 236,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "9774"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/9774_4611f54530183d84_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "9774"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18046679",
             "role_id": "35236657",
             "person_name": "The Art Wallpaper Mills",
+            "person_date": "",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18046679\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18537637",
             "role_id": "35351535",
             "person_name": "Dorwin L. Starr",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18537637\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -92,24 +139,35 @@
     },
     "colors": [
         {
-            "color": "#adb19d",
-            "closest_css3": "#a9a9a9"
+            "color": "#aeb29d",
+            "closest_crayola": "#979aaa",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
         },
         {
-            "color": "#b59f7a",
-            "closest_css3": "#bc8f8f"
+            "color": "#b6a17d",
+            "closest_crayola": "#cd9575",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         },
         {
-            "color": "#d38a74",
-            "closest_css3": "#e9967a"
+            "color": "#d38b76",
+            "closest_crayola": "#cd9575",
+            "closest_css3": "#e9967a",
+            "closest_css4": "#e9967a"
         },
         {
-            "color": "#994c38",
-            "closest_css3": "#a0522d"
+            "color": "#9b4f3a",
+            "closest_crayola": "#a5694f",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         },
         {
-            "color": "#9f7256",
-            "closest_css3": "#cd5c5c"
+            "color": "#a8785d",
+            "closest_crayola": "#a57164",
+            "closest_css3": "#cd5c5c",
+            "closest_css4": "#cd5c5c"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

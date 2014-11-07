@@ -3,6 +3,7 @@
     "tms:id": "152490",
     "accession_number": "1974-42-21",
     "title": "Sampler, 1722",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18483255\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1722,
     "year_acquired": "1974",
     "decade": null,
-    "woe:country": "23424975",
+    "woe:country_id": "23424975",
     "medium": "Medium: silk embroidery on linen foundation\nTechnique: satin, cross, eye, four-sided canvas, running and back stitches on plain weave foundation",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "H x W: 49.5 x 23.5 cm (19 1\/2 x 9 1\/4 in.)",
+    "dimensions_raw": {
+        "height": [
+            "49.53",
+            "centimeters"
+        ],
+        "width": [
+            "23.50",
+            "centimeters"
+        ]
+    },
     "creditline": "Bequest of Rosalie Coe, from the collection inherited from her mother, Eva Johnston Coe",
     "description": "Bands of curving vines and one band with figures (boxers) at bottom, with a verse: \n\"Whom have I in heaven but thee and there is none upon earth that I deserve besides thee.\"  \"Christ is to me a life One Earth and One Death to me a gain for wh(?) throu Him alone Salvation to us be tain\" \"The fear of the Lord is the beginning of wisdom. A good understanding have all they that keep his commandments and tell the truth in all ways.\" \"Elizabeth Cartwright is my name is England is my nation, London is my dwelling place and Christ is my salvation. When I am dead remember me when I am quite forgotton.\" \"Elizabeth Cartwright ended this sampler in the 01 year of her age 1722\"",
     "justification": null,
-    "type": {
-        "id": "35256439",
-        "name": "Sampler"
-    },
+    "woe:country": "23424975",
+    "type": "Sampler",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/42569_26ac049d3280cfd6_b.jpg",
                 "width": 513,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/42569_26ac049d3280cfd6_n.jpg",
-                "width": 160,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "42569"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/42569_26ac049d3280cfd6_z.jpg",
                 "width": 321,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "42569"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/42569_26ac049d3280cfd6_n.jpg",
+                "width": 160,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "42569"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/42569_26ac049d3280cfd6_d.gif",
+                "width": 160,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "42569"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/42569_26ac049d3280cfd6_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "42569"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/29302_e38f4e45f9d71310_b.jpg",
                 "width": 520,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/29302_e38f4e45f9d71310_n.jpg",
-                "width": 163,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "29302"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/29302_e38f4e45f9d71310_z.jpg",
                 "width": 325,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "29302"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/29302_e38f4e45f9d71310_n.jpg",
+                "width": 163,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "29302"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/29302_e38f4e45f9d71310_d.gif",
+                "width": 163,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "29302"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/29302_e38f4e45f9d71310_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "29302"
             }
         }
     ],
@@ -74,9 +117,21 @@
             "person_id": "18050805",
             "role_id": "35351537",
             "person_name": "Rosalie Coe",
+            "person_date": "",
             "role_name": "Bequestor",
+            "role_display_name": "Bequest of",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18050805\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351537\/"
+        },
+        {
+            "person_id": "68737575",
+            "role_id": "35236583",
+            "person_name": "Elizabeth Cartwright",
+            "person_date": "",
+            "role_name": "Embroiderer",
+            "role_display_name": "Embroidered by",
+            "person_url": "http:\/\/collection.cooperhewitt.org\/people\/68737575\/",
+            "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236583\/"
         }
     ],
     "tombstone": {
@@ -84,24 +139,23 @@
     },
     "colors": [
         {
-            "color": "#bfa97e",
-            "closest_css3": "#bdb76b"
+            "color": "#8d8158",
+            "closest_crayola": "#8a795d",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#9e8961",
-            "closest_css3": "#808080"
+            "color": "#896b47",
+            "closest_crayola": "#85754e",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         },
         {
-            "color": "#816843",
-            "closest_css3": "#a0522d"
-        },
-        {
-            "color": "#7d543a",
-            "closest_css3": "#a0522d"
-        },
-        {
-            "color": "#584f3c",
-            "closest_css3": "#556b2f"
+            "color": "#66493a",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         }
-    ]
+    ],
+    "woe:country_name": "United Kingdom"
 }

@@ -3,6 +3,7 @@
     "tms:id": "133389",
     "accession_number": "1962-57-6",
     "title": "Portrait, 1850",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18445757\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,33 +14,55 @@
     "year_end": 1850,
     "year_acquired": "1962",
     "decade": null,
-    "woe:country": "23424819",
+    "woe:country_id": "23424819",
     "medium": "Medium: silk\nTechnique: warp-dyed velvet",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": null,
+    "dimensions_raw": null,
     "creditline": null,
     "description": "Portrait of Princess de Lamballe in a Gregoire velvet.",
     "justification": null,
-    "type": {
-        "id": "35255305",
-        "name": "portrait"
-    },
+    "woe:country": "23424819",
+    "type": "portrait",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/88305_5d7d0cb3b5d276bf_b.jpg",
                 "width": 967,
                 "height": 1024,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "88305"
+            },
+            "z": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/88305_5d7d0cb3b5d276bf_z.jpg",
+                "width": 605,
+                "height": 640,
+                "is_primary": "1",
+                "image_id": "88305"
             },
             "n": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/88305_5d7d0cb3b5d276bf_n.jpg",
                 "width": 302,
                 "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "88305"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/88305_5d7d0cb3b5d276bf_d.gif",
+                "width": 302,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "88305"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/88305_5d7d0cb3b5d276bf_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "88305"
             }
         },
         {
@@ -47,19 +70,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/74601_09140ea024816132_b.jpg",
                 "width": 663,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/74601_09140ea024816132_n.jpg",
-                "width": 207,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "74601"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/74601_09140ea024816132_z.jpg",
                 "width": 414,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "74601"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/74601_09140ea024816132_n.jpg",
+                "width": 207,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "74601"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/74601_09140ea024816132_d.gif",
+                "width": 207,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "74601"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/74601_09140ea024816132_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "74601"
             }
         }
     ],
@@ -68,7 +108,9 @@
             "person_id": "68248135",
             "role_id": "35236685",
             "person_name": "Gaspard Gr\u00e9goire",
+            "person_date": "(French, 1751-1846)",
             "role_name": "Maker",
+            "role_display_name": "Made by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/68248135\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236685\/"
         }
@@ -78,24 +120,35 @@
     },
     "colors": [
         {
-            "color": "#c6af7d",
-            "closest_css3": "#d2b48c"
+            "color": "#c1a978",
+            "closest_crayola": "#bab86c",
+            "closest_css3": "#bdb76b",
+            "closest_css4": "#bdb76b"
         },
         {
-            "color": "#a88650",
-            "closest_css3": "#cd853f"
+            "color": "#8d754b",
+            "closest_crayola": "#85754e",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#2f2a25",
-            "closest_css3": "#2f4f4f"
+            "color": "#2e2a25",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#86734f",
-            "closest_css3": "#696969"
+            "color": "#65573f",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         },
         {
-            "color": "#4e4434",
-            "closest_css3": "#556b2f"
+            "color": "#e0d4b4",
+            "closest_crayola": "#efcdb8",
+            "closest_css3": "#f5deb3",
+            "closest_css4": "#f5deb3"
         }
-    ]
+    ],
+    "woe:country_name": "France"
 }

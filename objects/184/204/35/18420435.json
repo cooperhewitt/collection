@@ -3,6 +3,7 @@
     "tms:id": "120457",
     "accession_number": "1958-115-28",
     "title": "Sidewall, \"The Milkmaid\", 1950\u201358",
+    "title_raw": "The Milkmaid",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18420435\/",
     "department_id": "35347503",
     "period_id": null,
@@ -13,39 +14,101 @@
     "year_end": 1958,
     "year_acquired": "1958",
     "decade": "1950",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Screen printed",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "62 x 75.5 cm (24 7\/16 x 29 3\/4 in.)",
+    "dimensions_raw": {
+        "height": [
+            "62.00",
+            "centimeters"
+        ],
+        "width": [
+            "75.50",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Jessup, Inc.",
     "description": "Oval medallions of a woman churning and a rooster alternate with floral and foliate arrangements in a diagonal pattern. Blues and grays on a white ground. Imitates copper plate printing. On margin: \"The Milkmaid\".",
     "justification": null,
-    "type": {
-        "id": "35256475",
-        "name": "Sidewall"
-    },
+    "woe:country": "23424977",
+    "type": "Sidewall",
     "images": [
+        {
+            "b": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/89290_6a2b2f0260c26b0e_b.jpg",
+                "width": 1024,
+                "height": 848,
+                "is_primary": "1",
+                "image_id": "89290"
+            },
+            "z": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/89290_6a2b2f0260c26b0e_z.jpg",
+                "width": 640,
+                "height": 530,
+                "is_primary": "1",
+                "image_id": "89290"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/89290_6a2b2f0260c26b0e_n.jpg",
+                "width": 320,
+                "height": 265,
+                "is_primary": "1",
+                "image_id": "89290"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/89290_6a2b2f0260c26b0e_d.gif",
+                "width": 320,
+                "height": 265,
+                "is_primary": "1",
+                "image_id": "89290"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/89290_6a2b2f0260c26b0e_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "89290"
+            }
+        },
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/5627_f23b90e769f8a166_b.jpg",
                 "width": 1024,
                 "height": 821,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/5627_f23b90e769f8a166_n.jpg",
-                "width": 320,
-                "height": 257,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "5627"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/5627_f23b90e769f8a166_z.jpg",
                 "width": 640,
                 "height": 513,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "5627"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/5627_f23b90e769f8a166_n.jpg",
+                "width": 320,
+                "height": 257,
+                "is_primary": "0",
+                "image_id": "5627"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/5627_f23b90e769f8a166_d.gif",
+                "width": 320,
+                "height": 257,
+                "is_primary": "0",
+                "image_id": "5627"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/5627_f23b90e769f8a166_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "5627"
             }
         }
     ],
@@ -54,7 +117,9 @@
             "person_id": "18538197",
             "role_id": "35351535",
             "person_name": "Jessup, Inc.",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18538197\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -62,7 +127,9 @@
             "person_id": "18048087",
             "role_id": "35352245",
             "person_name": "cv",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18048087\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -70,7 +137,9 @@
             "person_id": "18046563",
             "role_id": "35236657",
             "person_name": "Renverne Corporation",
+            "person_date": "",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18046563\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         }
@@ -80,16 +149,23 @@
     },
     "colors": [
         {
-            "color": "#7f97ac",
-            "closest_css3": "#778899"
+            "color": "#7993a8",
+            "closest_crayola": "#979aaa",
+            "closest_css3": "#778899",
+            "closest_css4": "#778899"
         },
         {
-            "color": "#483f39",
-            "closest_css3": "#2f4f4f"
+            "color": "#686e73",
+            "closest_crayola": "#757575",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#bfb7b2",
-            "closest_css3": "#c0c0c0"
+            "color": "#595653",
+            "closest_crayola": "#6e5160",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

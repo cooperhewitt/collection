@@ -3,6 +3,7 @@
     "tms:id": "102596",
     "accession_number": "1950-66-27",
     "title": "Photostat, \"Villa of M. Hemsy, St. Cloud, Facade Laterale\", 1913",
+    "title_raw": "Villa of M. Hemsy, St. Cloud, Facade Laterale",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18384925\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1913,
     "year_acquired": "1950",
     "decade": "1910",
-    "woe:country": null,
+    "woe:country_id": null,
     "medium": "Photostat and black ink, graphite on paper",
     "markings": null,
     "signed": "Signed lower right: Paris le Mars 1913\/ L'Architecte:\/ Hector Guimard",
     "inscribed": "Top center: PROPRIETE DE MONSIEUR HEMSY\/ VILLA A ST. CLOUD\/ FACADE LATERALE\nMiddle left, above bottom design: PLAN DU COUVERTURE",
     "provenance": "Gift of Madame Hector Guimard",
     "dimensions": "59.6 x 36.2 cm (23 7\/16 x 14 1\/4 in.), irregular",
+    "dimensions_raw": {
+        "height": [
+            "59.60",
+            "centimeters"
+        ],
+        "width": [
+            "36.20",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Mme. Hector Guimard",
     "description": "Elevation plan of the side view of the Villa of Monsieur Hemsy at St. Cloud. Outside of the house are suggestions of vegetation and a figure seated on a bench. Below the design of the side of the house is a scheme for the view of the rooftop.",
     "justification": null,
-    "type": {
-        "id": "35252131",
-        "name": "photostat"
-    },
+    "woe:country": null,
+    "type": "photostat",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/41303_d521918914022a19_b.jpg",
                 "width": 628,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/41303_d521918914022a19_n.jpg",
-                "width": 196,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "41303"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/41303_d521918914022a19_z.jpg",
                 "width": 393,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "41303"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/41303_d521918914022a19_n.jpg",
+                "width": 196,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "41303"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/41303_d521918914022a19_d.gif",
+                "width": 196,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "41303"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/41303_d521918914022a19_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "41303"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18042569",
             "role_id": "35236663",
             "person_name": "Hector Guimard",
+            "person_date": "French, 1867\u20131942, active Paris, France, 1885\u20131929",
             "role_name": "Architect",
+            "role_display_name": "Architect:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18042569\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236663\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18538779",
             "role_id": "35351535",
             "person_name": "Mme. Hector Guimard",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18538779\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -72,8 +102,10 @@
     },
     "colors": [
         {
-            "color": "#c8b797",
-            "closest_css3": "#d2b48c"
+            "color": "#d1c3a5",
+            "closest_crayola": "#e7c697",
+            "closest_css3": "#d2b48c",
+            "closest_css4": "#d2b48c"
         }
     ]
 }

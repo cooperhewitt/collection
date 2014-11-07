@@ -3,6 +3,7 @@
     "tms:id": "25684",
     "accession_number": "1921-22-198",
     "title": "Game Board, \"Cavagnole\", late 18th century",
+    "title_raw": "Cavagnole",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18215179\/",
     "department_id": "35347497",
     "period_id": null,
@@ -13,39 +14,68 @@
     "year_end": null,
     "year_acquired": "1921",
     "decade": null,
-    "woe:country": "23424819",
+    "woe:country_id": "23424819",
     "medium": "Painted, gilt and varnished papier mache",
     "markings": "Old stamp of Cooper Union Museum on reverse.",
     "signed": null,
     "inscribed": null,
     "provenance": "Eleanor Garnier Hewitt and Sarah Cooper Hewitt; 1921: acquired by Museum",
     "dimensions": "H x W x D: 33.1 x 22.2 x 0.3cm (13 1\/16 x 8 3\/4 x 1\/8in.)",
+    "dimensions_raw": {
+        "depth": [
+            "0.30",
+            "centimeters"
+        ],
+        "height": [
+            "33.10",
+            "centimeters"
+        ],
+        "width": [
+            "22.20",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Eleanor and Sarah Hewitt",
     "description": "Panel \"II\"\nRectangular board, part of a larger set (1921-22-197 to 209), painted in polychrome colors, gilt, and varnished, with 20 rectangular, decorated sections, numbered 21 thru 40, divided into 4 columns. Number 21, at top left, features winged putto gazing into mirror framed by flower wreath; 22, below, with lactating figure of nude female holding globe in her hands; 23 of red capped European Goldfinch perched in tree; 24 of seated nude male with outstretched arm and fire emanating from the top of his head; 25, at bottom left, with putto holding arrow and shield and framed by flowered wreath; 26, at top, with profile bust of peasant woman wearing white cap; 27, below, of basket of turnips; 28 of bare breasted woman dressed in long flowing robes and crown, wielding dagger and standing before burning city; 29 of orange-red flowers, possibly lilies; 30, at bottom, of 3\/4 view of peasant woman holding dish containing coin; 31, at top, with figure of bearded, elderly man in large brown cap, and dark coat with broad white collar, holding coin between his thumb and forefinger; 32, below, of pomegranates; 33 of warrior in armored breastplate, plumed helmet, red flowing robe and sword at his side, standing before a masked ship with arm outstretched; 34 of classical urn containing flowers; 35 of beggar playing violin; 36, at top right, of blindfolded putto with horn and quiver in his hands and framed by flowered wreath; 37 of seated nude male with flowing red robes and transparent veil draped over his head, his outstretched arm grasping a nearby branch; 38 of horse with dressy feathered plume, mask and muzzle, bearing large baskets of bread and vegetables on his back; 39 of partially draped, seated figure of sculptor with tools in hands and marble bust to his side; 40, at bottom right, of putto framed by flowered wreath. Numbered rectangles framed by classical grotesque decoration on 4 sides with gold highlights. Left 2 columns and right 2 columns divided by vertical column of laurel leaves. At top a crest of laurel leaf swags flanks central, gold-framed cartouche inscribed with Roman numeral II. Reverse painted a rose color and is unadorned.",
     "justification": null,
-    "type": {
-        "id": "35270863",
-        "name": "Game board"
-    },
+    "woe:country": "23424819",
+    "type": "Game board",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/2294_87b64d2244a4e266_b.jpg",
                 "width": 698,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/2294_87b64d2244a4e266_n.jpg",
-                "width": 218,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "2294"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/2294_87b64d2244a4e266_z.jpg",
                 "width": 436,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "2294"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/2294_87b64d2244a4e266_n.jpg",
+                "width": 218,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "2294"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/2294_87b64d2244a4e266_d.gif",
+                "width": 218,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "2294"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/2294_87b64d2244a4e266_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "2294"
             }
         }
     ],
@@ -54,7 +84,9 @@
             "person_id": "18049325",
             "role_id": "35351535",
             "person_name": "Eleanor Garnier Hewitt",
+            "person_date": "American, 1864\u20131924",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049325\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -62,7 +94,9 @@
             "person_id": "18049321",
             "role_id": "35351535",
             "person_name": "Sarah Cooper Hewitt",
+            "person_date": "American, 1859\u20131930",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049321\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -72,24 +106,35 @@
     },
     "colors": [
         {
-            "color": "#fdcc5d",
-            "closest_css3": "#f4a460"
+            "color": "#fec54d",
+            "closest_crayola": "#ffcf48",
+            "closest_css3": "#f4a460",
+            "closest_css4": "#f4a460"
         },
         {
-            "color": "#833837",
-            "closest_css3": "#a52a2a"
+            "color": "#972f28",
+            "closest_crayola": "#9c2542",
+            "closest_css3": "#a52a2a",
+            "closest_css4": "#a52a2a"
         },
         {
-            "color": "#c88c5e",
-            "closest_css3": "#cd853f"
+            "color": "#fae473",
+            "closest_crayola": "#fddb6d",
+            "closest_css3": "#f0e68c",
+            "closest_css4": "#f0e68c"
         },
         {
-            "color": "#975e49",
-            "closest_css3": "#a0522d"
+            "color": "#9b624b",
+            "closest_crayola": "#a5694f",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         },
         {
-            "color": "#4a2f33",
-            "closest_css3": "#2f4f4f"
+            "color": "#c78e63",
+            "closest_crayola": "#d68a59",
+            "closest_css3": "#cd853f",
+            "closest_css4": "#cd853f"
         }
-    ]
+    ],
+    "woe:country_name": "France"
 }

@@ -3,6 +3,7 @@
     "tms:id": "101335",
     "accession_number": "1949-49-9",
     "title": "Grasshopper, late 19th century",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18382423\/",
     "department_id": "35347497",
     "period_id": null,
@@ -13,39 +14,68 @@
     "year_end": null,
     "year_acquired": "1949",
     "decade": null,
-    "woe:country": "23424748",
+    "woe:country_id": "23424748",
     "medium": "Metal, enamel, acetate",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "H x W x D: 4 x 11.3 x 4.2cm (1 9\/16 x 4 7\/16 x 1 5\/8in.)",
+    "dimensions_raw": {
+        "depth": [
+            "4.20",
+            "centimeters"
+        ],
+        "height": [
+            "4.00",
+            "centimeters"
+        ],
+        "width": [
+            "11.30",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Anonymous Donor",
     "description": "Figure of a green grasshopper with realistic touches of other color, transparent wings.",
     "justification": null,
-    "type": {
-        "id": "35289727",
-        "name": "Grasshopper"
-    },
+    "woe:country": "23424748",
+    "type": "Grasshopper",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/5151_7d76f39d18711857_b.jpg",
                 "width": 1024,
                 "height": 849,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/5151_7d76f39d18711857_n.jpg",
-                "width": 320,
-                "height": 265,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "5151"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/5151_7d76f39d18711857_z.jpg",
                 "width": 640,
                 "height": 530,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "5151"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/5151_7d76f39d18711857_n.jpg",
+                "width": 320,
+                "height": 265,
+                "is_primary": "1",
+                "image_id": "5151"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/5151_7d76f39d18711857_d.gif",
+                "width": 320,
+                "height": 265,
+                "is_primary": "1",
+                "image_id": "5151"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/5151_7d76f39d18711857_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "5151"
             }
         },
         {
@@ -53,19 +83,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/5152_aa6f1f2d398a4c86_b.jpg",
                 "width": 1024,
                 "height": 475,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/5152_aa6f1f2d398a4c86_n.jpg",
-                "width": 320,
-                "height": 148,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "5152"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/5152_aa6f1f2d398a4c86_z.jpg",
                 "width": 640,
                 "height": 297,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "5152"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/5152_aa6f1f2d398a4c86_n.jpg",
+                "width": 320,
+                "height": 148,
+                "is_primary": "0",
+                "image_id": "5152"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/5152_aa6f1f2d398a4c86_d.gif",
+                "width": 320,
+                "height": 148,
+                "is_primary": "0",
+                "image_id": "5152"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/5152_aa6f1f2d398a4c86_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "5152"
             }
         }
     ],
@@ -74,15 +121,19 @@
             "person_id": "18538077",
             "role_id": "35352245",
             "person_name": "James I. Rambo",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18538077\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
         {
             "person_id": "18049335",
             "role_id": "35351535",
-            "person_name": "Anonymous",
+            "person_name": "Unknown",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049335\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -92,24 +143,35 @@
     },
     "colors": [
         {
-            "color": "#6d792f",
-            "closest_css3": "#6b8e23"
+            "color": "#5a6124",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         },
         {
-            "color": "#baae8f",
-            "closest_css3": "#d2b48c"
+            "color": "#9b9665",
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#74612c",
-            "closest_css3": "#556b2f"
+            "color": "#cdac75",
+            "closest_crayola": "#cd9575",
+            "closest_css3": "#bdb76b",
+            "closest_css4": "#bdb76b"
         },
         {
-            "color": "#a67b3e",
-            "closest_css3": "#cd853f"
+            "color": "#7b632f",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         },
         {
-            "color": "#52591f",
-            "closest_css3": "#556b2f"
+            "color": "#ad8141",
+            "closest_crayola": "#9c7c38",
+            "closest_css3": "#cd853f",
+            "closest_css4": "#cd853f"
         }
-    ]
+    ],
+    "woe:country_name": "Australia"
 }

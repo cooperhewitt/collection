@@ -3,6 +3,7 @@
     "tms:id": "18198",
     "accession_number": "1911-28-219",
     "title": "Drawing, \"Panel of Arabesques for the H\u00f4tel de Salm, Paris\", 1785",
+    "title_raw": "Panel of Arabesques for the H\u00f4tel de Salm, Paris",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18170501\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,68 @@
     "year_end": 1785,
     "year_acquired": "1911",
     "decade": null,
-    "woe:country": "23424819",
+    "woe:country_id": "23424819",
     "medium": "Pen and black ink, brush and gouache, black chalk on toned paper, lined",
     "markings": null,
     "signed": "Signed on the mount in pen and black ink, lower right: Moitte sculpteur 1785.",
     "inscribed": null,
     "provenance": "L\u00e9on Decloux; 1911: acquired by Museum",
     "dimensions": "43 x 10.1cm (16 15\/16 x 4in.)\nMat: 55.9 x 40.6 cm (22 x 16 in.)\nMount: 46.8 x 13.8 cm (18 7\/16 x 5 7\/16 in.)\nFrame: 60.3 x 44.8 x 2.5 cm (23 3\/4 in. x 17 5\/8 in. x 1 in.)",
+    "dimensions_raw": {
+        "depth": [
+            "2.54",
+            "centimeters"
+        ],
+        "height": [
+            "55.90",
+            "centimeters"
+        ],
+        "width": [
+            "40.60",
+            "centimeters"
+        ]
+    },
     "creditline": "Purchased for the Museum by the Advisory Council",
     "description": "Design for a wall panel.  At the bottom, two satyrs sacrifice flowers at the foot of a burning candelabrum. The satyrs support, with their heads, two half female figures (half female and half flower stem).  The figures hold a medallion with a maenad.  A putto, supporting a vase, stands on top of the medallion. At the very to center of the composition are two billing doves and at the edges two putti.  The putti hold festoons and garlands from which then flower baskets are suspended.  The doves hold long garlands, which are then connected to two female figures (one at each side of the central composition).  These female figures in turn stand on long decorative spears, which rest on the end tips of the half female figures.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424819",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/85065_1b68ea7c0cc7fc52_b.jpg",
                 "width": 308,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/85065_1b68ea7c0cc7fc52_n.jpg",
-                "width": 96,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "85065"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/85065_1b68ea7c0cc7fc52_z.jpg",
                 "width": 193,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "85065"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/85065_1b68ea7c0cc7fc52_n.jpg",
+                "width": 96,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "85065"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/85065_1b68ea7c0cc7fc52_d.gif",
+                "width": 96,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "85065"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/85065_1b68ea7c0cc7fc52_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "85065"
             }
         }
     ],
@@ -54,7 +84,9 @@
             "person_id": "18049621",
             "role_id": "35351535",
             "person_name": "Advisory Council",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049621\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -62,7 +94,9 @@
             "person_id": "18047439",
             "role_id": "35352245",
             "person_name": "Rudolph Berliner",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047439\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -70,7 +104,9 @@
             "person_id": "18047443",
             "role_id": "35352245",
             "person_name": "Megan L. Smith",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047443\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -78,7 +114,9 @@
             "person_id": "18042557",
             "role_id": "35236565",
             "person_name": "Jean-Guillaume Moitte",
+            "person_date": "French, 1746\u20131810",
             "role_name": "Artist",
+            "role_display_name": "",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18042557\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236565\/"
         }
@@ -88,24 +126,35 @@
     },
     "colors": [
         {
-            "color": "#95beb5",
-            "closest_css3": "#a9a9a9"
+            "color": "#96c0b3",
+            "closest_crayola": "#b0b7c6",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
         },
         {
             "color": "#aa9b7c",
-            "closest_css3": "#bc8f8f"
+            "closest_crayola": "#95918c",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         },
         {
-            "color": "#758f87",
-            "closest_css3": "#708090"
+            "color": "#e7d7b9",
+            "closest_crayola": "#efcdb8",
+            "closest_css3": "#f5deb3",
+            "closest_css4": "#f5deb3"
         },
         {
-            "color": "#4c4944",
-            "closest_css3": "#2f4f4f"
+            "color": "#6f847d",
+            "closest_crayola": "#757575",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#63716c",
-            "closest_css3": "#696969"
+            "color": "#c1ceca",
+            "closest_crayola": "#cdc5c2",
+            "closest_css3": "#c0c0c0",
+            "closest_css4": "#c0c0c0"
         }
-    ]
+    ],
+    "woe:country_name": "France"
 }

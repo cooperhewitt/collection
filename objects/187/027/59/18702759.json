@@ -2,7 +2,8 @@
     "id": "18702759",
     "tms:id": "227152",
     "accession_number": "2005-8-49",
-    "title": "Sample, \"Mauerbl\u00fcmchen\", 1910\u201313",
+    "title": "Sample, \"Mauerbl\u00fcmchen (Wallflower)\", 1910\u201313",
+    "title_raw": "Mauerbl\u00fcmchen",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18702759\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1913,
     "year_acquired": "2005",
     "decade": "1910",
-    "woe:country": "23424750",
+    "woe:country_id": "23424750",
     "medium": "Medium: silk \nTechnique: block printed on plain weave",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "2005: acquired by Museum (from Estate of Vance Gordon)",
     "dimensions": "H x W: 8.9 x 13.3 cm (3 1\/2 x 5 1\/4 in.)",
+    "dimensions_raw": {
+        "height": [
+            "8.90",
+            "centimeters"
+        ],
+        "width": [
+            "13.30",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase from General Acquisitions Endowment Fund",
     "description": "Large-scale off-set chevron stripe in taupe and black.",
     "justification": null,
-    "type": {
-        "id": "35268079",
-        "name": "Sample"
-    },
+    "woe:country": "23424750",
+    "type": "Sample",
     "images": [
         {
             "b": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/53822_337f9c22ec1d6401_b.jpg",
+                "url": "http:\/\/images.collection.cooperhewitt.org\/53822_0721d9033cf28848_b.jpg",
                 "width": 1024,
-                "height": 686,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/53822_337f9c22ec1d6401_n.jpg",
-                "width": 320,
-                "height": 214,
-                "is_primary": "1"
+                "height": 1024,
+                "is_primary": "1",
+                "image_id": "53822"
             },
             "z": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/53822_337f9c22ec1d6401_z.jpg",
+                "url": "http:\/\/images.collection.cooperhewitt.org\/53822_0721d9033cf28848_z.jpg",
                 "width": 640,
-                "height": 429,
-                "is_primary": "1"
+                "height": 640,
+                "is_primary": "1",
+                "image_id": "53822"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/53822_0721d9033cf28848_n.jpg",
+                "width": 320,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "53822"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/53822_0721d9033cf28848_d.gif",
+                "width": 320,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "53822"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/53822_0721d9033cf28848_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "53822"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/20655_c0b4a82709c07afa_b.jpg",
                 "width": 1024,
                 "height": 703,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/20655_c0b4a82709c07afa_n.jpg",
-                "width": 320,
-                "height": 220,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "20655"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/20655_c0b4a82709c07afa_z.jpg",
                 "width": 640,
                 "height": 439,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "20655"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/20655_c0b4a82709c07afa_n.jpg",
+                "width": 320,
+                "height": 220,
+                "is_primary": "0",
+                "image_id": "20655"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/20655_c0b4a82709c07afa_d.gif",
+                "width": 320,
+                "height": 220,
+                "is_primary": "0",
+                "image_id": "20655"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/20655_c0b4a82709c07afa_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "20655"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18058261",
             "role_id": "35236655",
             "person_name": "Lotte Fr\u00f6mel-Fochler",
+            "person_date": "Austrian, b. 1884",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18058261\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18057215",
             "role_id": "35352249",
             "person_name": "Estate of Vance Gordon",
+            "person_date": "",
             "role_name": "Vendor",
+            "role_display_name": "Purchased from",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18057215\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352249\/"
         },
@@ -90,7 +137,9 @@
             "person_id": "18048101",
             "role_id": "35236655",
             "person_name": "Wiener Werkst\u00e4tte",
+            "person_date": "Vienna, Austria, 1903\u20131932",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18048101\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -98,30 +147,47 @@
             "person_id": "18048535",
             "role_id": "35352247",
             "person_name": "General Acquisitions Endowment",
+            "person_date": "",
             "role_name": "Fund",
+            "role_display_name": "Fund:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18048535\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352247\/"
         }
     ],
     "tombstone": {
-        "epitaph": "Sample, \"Mauerbl\u00fcmchen\", 1910\u201313. Medium: silk \nTechnique: block printed on plain weave. Museum purchase from General Acquisitions Endowment Fund. 2005-8-49."
+        "epitaph": "Sample, \"Mauerbl\u00fcmchen (Wallflower)\", 1910\u201313. Medium: silk \nTechnique: block printed on plain weave. Museum purchase from General Acquisitions Endowment Fund. 2005-8-49."
     },
     "colors": [
         {
-            "color": "#b5a086",
-            "closest_css3": "#bc8f8f"
+            "color": "#998368",
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#292930",
-            "closest_css3": "#2f4f4f"
+            "color": "#29282d",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#997e61",
-            "closest_css3": "#808080"
+            "color": "#bfa88a",
+            "closest_crayola": "#deaa88",
+            "closest_css3": "#d2b48c",
+            "closest_css4": "#d2b48c"
         },
         {
-            "color": "#4c4848",
-            "closest_css3": "#2f4f4f"
+            "color": "#d9d2c6",
+            "closest_crayola": "#dbd7d2",
+            "closest_css3": "#d3d3d3",
+            "closest_css4": "#d3d3d3"
+        },
+        {
+            "color": "#514845",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         }
-    ]
+    ],
+    "woe:country_name": "Austria"
 }

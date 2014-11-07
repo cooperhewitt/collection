@@ -3,6 +3,7 @@
     "tms:id": "72433",
     "accession_number": "1940-117-27",
     "title": "Sidewall, \"Buffalo\", 1938\u201340",
+    "title_raw": "Buffalo",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18558465\/",
     "department_id": "35347503",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1940,
     "year_acquired": "1940",
     "decade": "1930",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Screen-printed on paper",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "1940: acquired by Museum",
     "dimensions": "83 x 74 cm (32 11\/16 x 29 1\/8 in.)",
+    "dimensions_raw": {
+        "height": [
+            "83.00",
+            "centimeters"
+        ],
+        "width": [
+            "74.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of D. Lorraine Yerkes",
     "description": "Less than one repeat of design composed of four outline figures of buffalo, partly overlapping in diagonal arrangement and looped figures in blue and white developed at one end in parallel white lines. Printed in green, white and blue on green ground.",
     "justification": null,
-    "type": {
-        "id": "35256475",
-        "name": "Sidewall"
-    },
+    "woe:country": "23424977",
+    "type": "Sidewall",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/46056_656bf588d1008105_b.jpg",
                 "width": 906,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/46056_656bf588d1008105_n.jpg",
-                "width": 283,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "46056"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/46056_656bf588d1008105_z.jpg",
                 "width": 566,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "46056"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/46056_656bf588d1008105_n.jpg",
+                "width": 283,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "46056"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/46056_656bf588d1008105_d.gif",
+                "width": 283,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "46056"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/46056_656bf588d1008105_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "46056"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18047043",
             "role_id": "35351535",
             "person_name": "D. Lorraine Yerkes",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047043\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18052379",
             "role_id": "35352245",
             "person_name": "Calvin S.  Hathaway",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18052379\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18047043",
             "role_id": "35236685",
             "person_name": "D. Lorraine Yerkes",
+            "person_date": "",
             "role_name": "Maker",
+            "role_display_name": "Made by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047043\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236685\/"
         },
@@ -78,7 +110,9 @@
             "person_id": "18047049",
             "role_id": "35236655",
             "person_name": "Dorothy Brodhead",
+            "person_date": "",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047049\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
@@ -88,8 +122,11 @@
     },
     "colors": [
         {
-            "color": "#97b799",
-            "closest_css3": "#8fbc8f"
+            "color": "#acc29c",
+            "closest_crayola": "#a8e4a0",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

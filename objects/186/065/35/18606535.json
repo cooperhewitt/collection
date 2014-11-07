@@ -3,6 +3,7 @@
     "tms:id": "96793",
     "accession_number": "1947-47-1-a,b",
     "title": "Gloves, 19th century",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18606535\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": null,
     "year_acquired": "1947",
     "decade": null,
-    "woe:country": null,
+    "woe:country_id": null,
     "medium": "Medium: cotton, glass beads\nTechnique: beaded knitting",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "H x W (a): 22.5 x 13.8 cm (8 7\/8 x 5 7\/16 in.)\nH x W (b): 22.2 x 14.3 cm (8 3\/4 x 5 5\/8 in.)",
+    "dimensions_raw": {
+        "height": [
+            "22.20",
+            "centimeters"
+        ],
+        "width": [
+            "14.30",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Mrs. Henry J. Bernheim",
     "description": "Gloves ornamented with blue, green and gold beads in design of conventionalized flowers.",
     "justification": null,
-    "type": {
-        "id": "35289021",
-        "name": "Gloves"
-    },
+    "woe:country": null,
+    "type": "Gloves",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/63269_0de0c6427f260ed8_b.jpg",
                 "width": 1024,
                 "height": 817,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/63269_0de0c6427f260ed8_n.jpg",
-                "width": 320,
-                "height": 255,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "63269"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/63269_0de0c6427f260ed8_z.jpg",
                 "width": 640,
                 "height": 510,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "63269"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/63269_0de0c6427f260ed8_n.jpg",
+                "width": 320,
+                "height": 255,
+                "is_primary": "1",
+                "image_id": "63269"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/63269_0de0c6427f260ed8_d.gif",
+                "width": 320,
+                "height": 255,
+                "is_primary": "1",
+                "image_id": "63269"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/63269_0de0c6427f260ed8_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "63269"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/4689_65e2c765e296138c_b.jpg",
                 "width": 1024,
                 "height": 883,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/4689_65e2c765e296138c_n.jpg",
-                "width": 320,
-                "height": 276,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "4689"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/4689_65e2c765e296138c_z.jpg",
                 "width": 640,
                 "height": 552,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "4689"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/4689_65e2c765e296138c_n.jpg",
+                "width": 320,
+                "height": 276,
+                "is_primary": "0",
+                "image_id": "4689"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/4689_65e2c765e296138c_d.gif",
+                "width": 320,
+                "height": 276,
+                "is_primary": "0",
+                "image_id": "4689"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/4689_65e2c765e296138c_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "4689"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18052629",
             "role_id": "35351535",
             "person_name": "Mrs. Henry J. Bernheim",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18052629\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -84,24 +129,34 @@
     },
     "colors": [
         {
-            "color": "#d9cdb0",
-            "closest_css3": "#c0c0c0"
+            "color": "#e1d6b8",
+            "closest_crayola": "#efcdb8",
+            "closest_css3": "#f5deb3",
+            "closest_css4": "#f5deb3"
         },
         {
-            "color": "#b0a17d",
-            "closest_css3": "#bc8f8f"
+            "color": "#aa9871",
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         },
         {
-            "color": "#8e8267",
-            "closest_css3": "#808080"
+            "color": "#130f47",
+            "closest_crayola": "#1a4876",
+            "closest_css3": "#191970",
+            "closest_css4": "#191970"
         },
         {
-            "color": "#231f46",
-            "closest_css3": "#191970"
+            "color": "#443f2b",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#164f82",
-            "closest_css3": "#008080"
+            "color": "#6c5c3f",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         }
     ]
 }

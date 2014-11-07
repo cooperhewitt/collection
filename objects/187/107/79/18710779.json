@@ -3,6 +3,7 @@
     "tms:id": "231252",
     "accession_number": "1976-109-1-d",
     "title": "Sugar Bowl, ca. 1830\u201346",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18710779\/",
     "department_id": "35347497",
     "period_id": null,
@@ -13,39 +14,68 @@
     "year_end": null,
     "year_acquired": "1976",
     "decade": null,
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Silver",
     "markings": "\"S.K\" in rectangular shield, \"11\" over line over \"oz\" in vertical rectangular shield.",
     "signed": null,
     "inscribed": "Engraved \"I.A.B.\" and \"F.B.P.\" in Gothics script in cartouches on side",
     "provenance": "Allyn Cox; 1976: acquired by Museum",
     "dimensions": "H x W x D: 21.5 x 28 x 16.3 cm (8 7\/16 x 11 x 6 7\/16 in.)",
+    "dimensions_raw": {
+        "depth": [
+            "16.30",
+            "centimeters"
+        ],
+        "height": [
+            "21.50",
+            "centimeters"
+        ],
+        "width": [
+            "28.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Allyn Cox",
     "description": "Part of repouss\u00e9 and engraved tea set consisting of teapot (a), urn with lid (b,e), creamer (c), sugar bowl (d).",
     "justification": null,
-    "type": {
-        "id": "35249119",
-        "name": "sugar bowl"
-    },
+    "woe:country": "23424977",
+    "type": "sugar bowl",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/36194_6a06e86474d7a881_b.jpg",
                 "width": 1024,
                 "height": 797,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/36194_6a06e86474d7a881_n.jpg",
-                "width": 320,
-                "height": 249,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "36194"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/36194_6a06e86474d7a881_z.jpg",
                 "width": 640,
                 "height": 498,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "36194"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/36194_6a06e86474d7a881_n.jpg",
+                "width": 320,
+                "height": 249,
+                "is_primary": "1",
+                "image_id": "36194"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/36194_6a06e86474d7a881_d.gif",
+                "width": 320,
+                "height": 249,
+                "is_primary": "1",
+                "image_id": "36194"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/36194_6a06e86474d7a881_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "36194"
             }
         },
         {
@@ -53,19 +83,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/21055_f88bd46cd23053c8_b.jpg",
                 "width": 1024,
                 "height": 737,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/21055_f88bd46cd23053c8_n.jpg",
-                "width": 320,
-                "height": 230,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "21055"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/21055_f88bd46cd23053c8_z.jpg",
                 "width": 640,
                 "height": 461,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "21055"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/21055_f88bd46cd23053c8_n.jpg",
+                "width": 320,
+                "height": 230,
+                "is_primary": "0",
+                "image_id": "21055"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/21055_f88bd46cd23053c8_d.gif",
+                "width": 320,
+                "height": 230,
+                "is_primary": "0",
+                "image_id": "21055"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/21055_f88bd46cd23053c8_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "21055"
             }
         }
     ],
@@ -74,7 +121,9 @@
             "person_id": "18536881",
             "role_id": "35351535",
             "person_name": "Allyn Cox",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18536881\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -82,7 +131,9 @@
             "person_id": "18050523",
             "role_id": "35236685",
             "person_name": "Samuel Kirk & Son",
+            "person_date": "",
             "role_name": "Maker",
+            "role_display_name": "Made by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18050523\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236685\/"
         }
@@ -92,16 +143,23 @@
     },
     "colors": [
         {
-            "color": "#908b81",
-            "closest_css3": "#808080"
+            "color": "#a39d91",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
         },
         {
-            "color": "#6f685d",
-            "closest_css3": "#696969"
+            "color": "#726b60",
+            "closest_crayola": "#757575",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#4d4840",
-            "closest_css3": "#2f4f4f"
+            "color": "#504a42",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

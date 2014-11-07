@@ -3,6 +3,7 @@
     "tms:id": "140003",
     "accession_number": "1967-73-1-a,b",
     "title": "Sidewall - Fragment, 1900\u201325",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18458859\/",
     "department_id": "35347503",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1925,
     "year_acquired": "1967",
     "decade": null,
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Machine-printed, newsprint",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "28.5 x 27 cm (11 1\/4 x 10 5\/8 in.)",
+    "dimensions_raw": {
+        "height": [
+            "28.50",
+            "centimeters"
+        ],
+        "width": [
+            "27.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Mrs. Oscar R. Houston",
     "description": "On light brown background, through which newsprint of verso is visible, geometric design of interlacing wide bands and vines. Metallic foil (?)-like coloring with shallow embossed texture in gold, copper and greenish-silver color. On verso: a later reproduction of a newspaper dated Vicksburg, Mississippi, July 4, 1863 is printed.",
     "justification": null,
-    "type": {
-        "id": "35284903",
-        "name": "Sidewall - fragment"
-    },
+    "woe:country": "23424977",
+    "type": "Sidewall - fragment",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/81860_8b26d652537a1cc9_b.jpg",
                 "width": 606,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/81860_8b26d652537a1cc9_n.jpg",
-                "width": 189,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "81860"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/81860_8b26d652537a1cc9_z.jpg",
                 "width": 378,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "81860"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/81860_8b26d652537a1cc9_n.jpg",
+                "width": 189,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "81860"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/81860_8b26d652537a1cc9_d.gif",
+                "width": 189,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "81860"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/81860_8b26d652537a1cc9_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "81860"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/81861_617184f2f060ee2c_b.jpg",
                 "width": 606,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/81861_617184f2f060ee2c_n.jpg",
-                "width": 189,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "81861"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/81861_617184f2f060ee2c_z.jpg",
                 "width": 378,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "81861"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/81861_617184f2f060ee2c_n.jpg",
+                "width": 189,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "81861"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/81861_617184f2f060ee2c_d.gif",
+                "width": 189,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "81861"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/81861_617184f2f060ee2c_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "81861"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18059815",
             "role_id": "35351535",
             "person_name": "Mrs. Oscar R. Houston",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18059815\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18048007",
             "role_id": "35352245",
             "person_name": "Catherine Lynn Frangiamore",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18048007\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         }
@@ -92,16 +139,23 @@
     },
     "colors": [
         {
-            "color": "#e5d8b1",
-            "closest_css3": "#f5deb3"
+            "color": "#ad8f54",
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#cd853f",
+            "closest_css4": "#cd853f"
         },
         {
-            "color": "#8b633a",
-            "closest_css3": "#a0522d"
+            "color": "#876d3d",
+            "closest_crayola": "#85754e",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         },
         {
-            "color": "#b9a06c",
-            "closest_css3": "#bdb76b"
+            "color": "#ddd1a8",
+            "closest_crayola": "#edd19c",
+            "closest_css3": "#eee8aa",
+            "closest_css4": "#eee8aa"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

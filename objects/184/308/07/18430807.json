@@ -3,6 +3,7 @@
     "tms:id": "125797",
     "accession_number": "1960-151-16",
     "title": "Scarf, 1920s",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18430807\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1929,
     "year_acquired": "1960",
     "decade": "1920",
-    "woe:country": "23424819",
+    "woe:country_id": "23424819",
     "medium": "Medium: silk\nTechnique: strips of satin weave, pieced",
     "markings": "Label: \"Caroline Reboux 23 Rue de la Paix Paris.\"",
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "H x W: 122 x 120 cm (48 1\/16 x 47 1\/4 in.)",
+    "dimensions_raw": {
+        "height": [
+            "122.00",
+            "centimeters"
+        ],
+        "width": [
+            "120.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Rodman A. Heeren",
     "description": "Square scarf composed of strips of black and coral satin sewn together to form central square with large simple lattice around it. Lined with pale pink satin, some of which appears on edges of face in triangles, and triangles of coral appear on reverse.",
     "justification": null,
-    "type": {
-        "id": "35251935",
-        "name": "scarf"
-    },
+    "woe:country": "23424819",
+    "type": "scarf",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/5764_3cd57224bdeae17b_b.jpg",
                 "width": 1024,
                 "height": 1002,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/5764_3cd57224bdeae17b_n.jpg",
-                "width": 320,
-                "height": 313,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "5764"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/5764_3cd57224bdeae17b_z.jpg",
                 "width": 640,
                 "height": 626,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "5764"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/5764_3cd57224bdeae17b_n.jpg",
+                "width": 320,
+                "height": 313,
+                "is_primary": "1",
+                "image_id": "5764"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/5764_3cd57224bdeae17b_d.gif",
+                "width": 320,
+                "height": 313,
+                "is_primary": "1",
+                "image_id": "5764"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/5764_3cd57224bdeae17b_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "5764"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "68248299",
             "role_id": "35236655",
             "person_name": "Caroline Reboux",
+            "person_date": "(French, 1837 - 1927)",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/68248299\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18539137",
             "role_id": "35352245",
             "person_name": "Sheila Franz",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18539137\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18053075",
             "role_id": "35351535",
             "person_name": "Rodman A. Heeren",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18053075\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -80,24 +112,35 @@
     },
     "colors": [
         {
-            "color": "#bb3b3a",
-            "closest_css3": "#a52a2a"
+            "color": "#c2413e",
+            "closest_crayola": "#cd4a4c",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         },
         {
-            "color": "#29272b",
-            "closest_css3": "#2f4f4f"
+            "color": "#29272c",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#898996",
-            "closest_css3": "#778899"
+            "color": "#888996",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#778899",
+            "closest_css4": "#778899"
         },
         {
-            "color": "#bb8a90",
-            "closest_css3": "#bc8f8f"
+            "color": "#c18f95",
+            "closest_crayola": "#d98695",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         },
         {
-            "color": "#d25a61",
-            "closest_css3": "#cd5c5c"
+            "color": "#822e30",
+            "closest_crayola": "#9c2542",
+            "closest_css3": "#a52a2a",
+            "closest_css4": "#a52a2a"
         }
-    ]
+    ],
+    "woe:country_name": "France"
 }

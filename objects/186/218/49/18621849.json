@@ -3,6 +3,7 @@
     "tms:id": "185753",
     "accession_number": "1986-99-30",
     "title": "Hairdryer, ca. 1938",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18621849\/",
     "department_id": "35347497",
     "period_id": null,
@@ -13,39 +14,68 @@
     "year_end": 1948,
     "year_acquired": "1986",
     "decade": "1920",
-    "woe:country": "23424829",
+    "woe:country_id": "23424829",
     "medium": "Plastic, metal",
     "markings": "\"Typ EDI, nr 3909\"",
     "signed": null,
     "inscribed": null,
     "provenance": "Barry Friedman and Patricia Pastor; 1986: acquired by Museum",
     "dimensions": "25 x 11 x 9 cm (9 13\/16 x 4 5\/16 x 3 9\/16 in.)",
+    "dimensions_raw": {
+        "depth": [
+            "9.00",
+            "centimeters"
+        ],
+        "height": [
+            "25.00",
+            "centimeters"
+        ],
+        "width": [
+            "11.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Barry Friedman and Patricia Pastor",
     "description": "A red cylindrical body with a circular section encasing the heating element towards the front of the object. A small air intake area on the body to the rear of the circular heating element. The power cord comes out the rear of the cylindrical body.",
     "justification": null,
-    "type": {
-        "id": "35293963",
-        "name": "hairdryer"
-    },
+    "woe:country": "23424829",
+    "type": "hairdryer",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/16141_5808b6cdd627fdc9_b.jpg",
                 "width": 1024,
                 "height": 427,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/16141_5808b6cdd627fdc9_n.jpg",
-                "width": 320,
-                "height": 134,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "16141"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/16141_5808b6cdd627fdc9_z.jpg",
                 "width": 640,
                 "height": 267,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "16141"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/16141_5808b6cdd627fdc9_n.jpg",
+                "width": 320,
+                "height": 134,
+                "is_primary": "1",
+                "image_id": "16141"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/16141_5808b6cdd627fdc9_d.gif",
+                "width": 320,
+                "height": 134,
+                "is_primary": "1",
+                "image_id": "16141"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/16141_5808b6cdd627fdc9_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "16141"
             }
         }
     ],
@@ -54,7 +84,9 @@
             "person_id": "18061281",
             "role_id": "35236657",
             "person_name": "Siemens-Schuckertwerke AG",
+            "person_date": "",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18061281\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         },
@@ -62,7 +94,9 @@
             "person_id": "18061279",
             "role_id": "35236655",
             "person_name": "Herbert Marloth",
+            "person_date": "German",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18061279\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -70,7 +104,9 @@
             "person_id": "18537457",
             "role_id": "35351535",
             "person_name": "Patricia Pastor",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18537457\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -78,7 +114,9 @@
             "person_id": "18040901",
             "role_id": "35351535",
             "person_name": "Barry Friedman",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18040901\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -88,24 +126,35 @@
     },
     "colors": [
         {
-            "color": "#8e1e24",
-            "closest_css3": "#a52a2a"
+            "color": "#9b3b46",
+            "closest_crayola": "#9c2542",
+            "closest_css3": "#a52a2a",
+            "closest_css4": "#a52a2a"
         },
         {
-            "color": "#bcaebf",
-            "closest_css3": "#c0c0c0"
+            "color": "#c1b2c2",
+            "closest_crayola": "#b0b7c6",
+            "closest_css3": "#c0c0c0",
+            "closest_css4": "#c0c0c0"
         },
         {
-            "color": "#a6404c",
-            "closest_css3": "#a0522d"
+            "color": "#c46d7c",
+            "closest_crayola": "#cc6666",
+            "closest_css3": "#d87093",
+            "closest_css4": "#db7093"
         },
         {
-            "color": "#ae6a70",
-            "closest_css3": "#cd5c5c"
+            "color": "#d0909f",
+            "closest_crayola": "#d98695",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         },
         {
-            "color": "#cc8795",
-            "closest_css3": "#bc8f8f"
+            "color": "#492325",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         }
-    ]
+    ],
+    "woe:country_name": "Germany"
 }

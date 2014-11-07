@@ -3,6 +3,7 @@
     "tms:id": "98388",
     "accession_number": "1948-40-114",
     "title": "Drawing, \"Red Door, Marbleized Wall\", 1815\u201322",
+    "title_raw": "Red Door, Marbleized Wall",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18609687\/",
     "department_id": "35347493",
     "period_id": "35417337",
@@ -13,59 +14,101 @@
     "year_end": 1837,
     "year_acquired": "1948",
     "decade": null,
-    "woe:country": "23424975",
+    "woe:country_id": "23424975",
     "medium": "Pen and black ink, brush and red gouache, green, yellow and grey wash on white wove paper",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "1948: acquired by Museum (from Mrs. K. Gregory)",
     "dimensions": "Overall: 22.8 x 37.4 cm (9 x 14 3\/4 in.)",
+    "dimensions_raw": {
+        "height": [
+            "22.80",
+            "centimeters"
+        ],
+        "width": [
+            "37.40",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase through gift of Mrs. John Innes Kane",
     "description": "Horizontal rectangle. Elevation of a marbled wall, double door at center, red panels right and left, seven small sun-bursts in cornice.  Red paint cracking.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424975",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/62881_54e5e69b1ef0f19f_b.jpg",
                 "width": 1024,
                 "height": 684,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/62881_54e5e69b1ef0f19f_n.jpg",
-                "width": 320,
-                "height": 214,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "62881"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/62881_54e5e69b1ef0f19f_z.jpg",
                 "width": 640,
                 "height": 428,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "62881"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/62881_54e5e69b1ef0f19f_n.jpg",
+                "width": 320,
+                "height": 214,
+                "is_primary": "1",
+                "image_id": "62881"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/62881_54e5e69b1ef0f19f_d.gif",
+                "width": 320,
+                "height": 214,
+                "is_primary": "1",
+                "image_id": "62881"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/62881_54e5e69b1ef0f19f_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "62881"
             }
         },
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/20182_d3b0b7be7c651a08_b.jpg",
-                "width": 448,
-                "height": 287,
-                "is_primary": "0"
+                "width": null,
+                "height": null,
+                "is_primary": "0",
+                "image_id": "20182"
+            },
+            "z": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/20182_d3b0b7be7c651a08_z.jpg",
+                "width": null,
+                "height": null,
+                "is_primary": "0",
+                "image_id": "20182"
             },
             "n": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/20182_d3b0b7be7c651a08_n.jpg",
                 "width": 320,
                 "height": 205,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "20182"
             },
-            "z": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/20182_d3b0b7be7c651a08_z.jpg",
-                "width": 448,
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/20182_d3b0b7be7c651a08_d.gif",
+                "width": 320,
+                "height": 205,
+                "is_primary": "0",
+                "image_id": "20182"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/20182_d3b0b7be7c651a08_sq.jpg",
+                "width": 300,
                 "height": 287,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "20182"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18539479",
             "role_id": "35352249",
             "person_name": "Mrs. K. Gregory",
+            "person_date": "",
             "role_name": "Vendor",
+            "role_display_name": "Purchased from",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18539479\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352249\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18042069",
             "role_id": "35236655",
             "person_name": "Frederick Crace",
+            "person_date": "English, 1779\u20131859",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18042069\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
@@ -92,24 +139,35 @@
     },
     "colors": [
         {
-            "color": "#a73325",
-            "closest_css3": "#a52a2a"
+            "color": "#b54333",
+            "closest_crayola": "#bf4f51",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         },
         {
-            "color": "#adb98c",
-            "closest_css3": "#8fbc8f"
+            "color": "#c2c7a0",
+            "closest_crayola": "#cdc5c2",
+            "closest_css3": "#d2b48c",
+            "closest_css4": "#d2b48c"
         },
         {
-            "color": "#cd563a",
-            "closest_css3": "#d2691e"
+            "color": "#97a779",
+            "closest_crayola": "#87a96b",
+            "closest_css3": "#8fbc8f",
+            "closest_css4": "#8fbc8f"
         },
         {
-            "color": "#e3d090",
-            "closest_css3": "#f0e68c"
+            "color": "#e3d08e",
+            "closest_crayola": "#e7c697",
+            "closest_css3": "#deb887",
+            "closest_css4": "#deb887"
         },
         {
-            "color": "#7e8e64",
-            "closest_css3": "#808080"
+            "color": "#ae9d77",
+            "closest_crayola": "#bab86c",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         }
-    ]
+    ],
+    "woe:country_name": "United Kingdom"
 }

@@ -3,6 +3,7 @@
     "tms:id": "43553",
     "accession_number": "1928-16-3",
     "title": "Textile, ca. 1770",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18316123\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1780,
     "year_acquired": "1928",
     "decade": null,
-    "woe:country": "23424819",
+    "woe:country_id": "23424819",
     "medium": "Medium: silk\nTechnique: chain stitch embroidery in colored silk and chenille on ribbed (fancy compound satin) weave",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "H x W: 62 x 49.7 cm (24 7\/16 x 19 9\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "62.00",
+            "centimeters"
+        ],
+        "width": [
+            "49.70",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Eleanor and Sarah Hewitt",
     "description": "Panel made of fifteen fragments of embroidery, floral pattern in colored silks and chenille (chain stitch) on ribbed silk with satin stripes (fancy compound satin). Selvage of three narrow green stripes.",
     "justification": null,
-    "type": {
-        "id": "35251739",
-        "name": "textile"
-    },
+    "woe:country": "23424819",
+    "type": "textile",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/69261_a9083f145dace284_b.jpg",
                 "width": 770,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/69261_a9083f145dace284_n.jpg",
-                "width": 241,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "69261"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/69261_a9083f145dace284_z.jpg",
                 "width": 481,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "69261"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/69261_a9083f145dace284_n.jpg",
+                "width": 241,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "69261"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/69261_a9083f145dace284_d.gif",
+                "width": 241,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "69261"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/69261_a9083f145dace284_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "69261"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/85878_a6797e8bc24e4147_b.jpg",
                 "width": 1024,
                 "height": 265,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/85878_a6797e8bc24e4147_n.jpg",
-                "width": 320,
-                "height": 83,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "85878"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/85878_a6797e8bc24e4147_z.jpg",
                 "width": 640,
                 "height": 165,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "85878"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/85878_a6797e8bc24e4147_n.jpg",
+                "width": 320,
+                "height": 83,
+                "is_primary": "0",
+                "image_id": "85878"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/85878_a6797e8bc24e4147_d.gif",
+                "width": 320,
+                "height": 83,
+                "is_primary": "0",
+                "image_id": "85878"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/85878_a6797e8bc24e4147_sq.jpg",
+                "width": 300,
+                "height": 265,
+                "is_primary": "0",
+                "image_id": "85878"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18049325",
             "role_id": "35351535",
             "person_name": "Eleanor Garnier Hewitt",
+            "person_date": "American, 1864\u20131924",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049325\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18049321",
             "role_id": "35351535",
             "person_name": "Sarah Cooper Hewitt",
+            "person_date": "American, 1859\u20131930",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049321\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -92,24 +139,35 @@
     },
     "colors": [
         {
-            "color": "#524c60",
-            "closest_css3": "#696969"
+            "color": "#564f5f",
+            "closest_crayola": "#6e5160",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#b3b9ac",
-            "closest_css3": "#a9a9a9"
+            "color": "#afac9a",
+            "closest_crayola": "#979aaa",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
         },
         {
-            "color": "#9d9585",
-            "closest_css3": "#bc8f8f"
+            "color": "#8e8977",
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#2d2938",
-            "closest_css3": "#2f4f4f"
+            "color": "#a2887b",
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         },
         {
-            "color": "#566150",
-            "closest_css3": "#696969"
+            "color": "#90584a",
+            "closest_crayola": "#a5694f",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         }
-    ]
+    ],
+    "woe:country_name": "France"
 }

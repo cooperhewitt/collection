@@ -3,6 +3,7 @@
     "tms:id": "198103",
     "accession_number": "1993-63-14-a,b",
     "title": "Sugar Bowl And Lid, \"American Modern\", 1940\u201345",
+    "title_raw": "American Modern",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18646399\/",
     "department_id": "35347497",
     "period_id": null,
@@ -13,39 +14,68 @@
     "year_end": 1945,
     "year_acquired": "1993",
     "decade": "1930",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Glazed earthenware",
     "markings": "On base (a): \"Russel \/ Wright \/ MFG. BY \/ STEUBENVILLE\"",
     "signed": null,
     "inscribed": null,
     "provenance": "Mark Kaminski; 1993: acquired by Museum",
     "dimensions": "H x W x D (a,b: overall): 7 x 16.5 x 11.1 cm (2 3\/4 x 6 1\/2 x 4 3\/8 in.)",
+    "dimensions_raw": {
+        "depth": [
+            "11.10",
+            "centimeters"
+        ],
+        "height": [
+            "7.00",
+            "centimeters"
+        ],
+        "width": [
+            "16.50",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Mark Kaminski",
     "description": "Round white bowl with flush lid and button finial; round loop handle.",
     "justification": null,
-    "type": {
-        "id": "35288059",
-        "name": "Sugar bowl and lid"
-    },
+    "woe:country": "23424977",
+    "type": "Sugar bowl and lid",
     "images": [
         {
             "b": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/44634_3dc2eb5d3dddd8ee_b.jpg",
-                "width": 1024,
-                "height": 729,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/44634_3dc2eb5d3dddd8ee_n.jpg",
-                "width": 320,
-                "height": 228,
-                "is_primary": "1"
+                "url": "http:\/\/images.collection.cooperhewitt.org\/44634_afe82549753f3f0c_b.jpg",
+                "width": 1017,
+                "height": 1024,
+                "is_primary": "1",
+                "image_id": "44634"
             },
             "z": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/44634_3dc2eb5d3dddd8ee_z.jpg",
-                "width": 640,
-                "height": 456,
-                "is_primary": "1"
+                "url": "http:\/\/images.collection.cooperhewitt.org\/44634_afe82549753f3f0c_z.jpg",
+                "width": 636,
+                "height": 640,
+                "is_primary": "1",
+                "image_id": "44634"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/44634_afe82549753f3f0c_n.jpg",
+                "width": 318,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "44634"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/44634_afe82549753f3f0c_d.gif",
+                "width": 318,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "44634"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/44634_afe82549753f3f0c_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "44634"
             }
         },
         {
@@ -53,19 +83,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/12422_39ae6f6107e61a62_b.jpg",
                 "width": 1024,
                 "height": 666,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/12422_39ae6f6107e61a62_n.jpg",
-                "width": 320,
-                "height": 208,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "12422"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/12422_39ae6f6107e61a62_z.jpg",
                 "width": 640,
                 "height": 416,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "12422"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/12422_39ae6f6107e61a62_n.jpg",
+                "width": 320,
+                "height": 208,
+                "is_primary": "0",
+                "image_id": "12422"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/12422_39ae6f6107e61a62_d.gif",
+                "width": 320,
+                "height": 208,
+                "is_primary": "0",
+                "image_id": "12422"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/12422_39ae6f6107e61a62_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "12422"
             }
         }
     ],
@@ -74,7 +121,9 @@
             "person_id": "18041391",
             "role_id": "35351535",
             "person_name": "Mr. Mark Kaminski",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041391\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -82,7 +131,9 @@
             "person_id": "18043357",
             "role_id": "35236655",
             "person_name": "Russel Wright",
+            "person_date": "American, 1904\u20131976",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18043357\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
@@ -92,8 +143,11 @@
     },
     "colors": [
         {
-            "color": "#d5d2cc",
-            "closest_css3": "#d3d3d3"
+            "color": "#ffffff",
+            "closest_crayola": "#ffffff",
+            "closest_css3": "#ffffff",
+            "closest_css4": "#ffffff"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

@@ -3,6 +3,7 @@
     "tms:id": "122235",
     "accession_number": "1958-88-20",
     "title": "Textile, 1920\u201330",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18423723\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,68 @@
     "year_end": 1930,
     "year_acquired": "1958",
     "decade": "1920",
-    "woe:country": "23424829",
+    "woe:country_id": "23424829",
     "medium": "Technique: plain weave",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "Warp x Weft: 27.5 x 92 cm (10 13\/16 x 36 1\/4 in.)\nRepeat W: 35 cm (13 3\/4 in.)\nPattern: Technical & visual repeat unit:  height: unknown: width: 35cm (13 3\/4\")\n2 1\/2 repeat units in s.to s. width. \nPattern lined up on left edge.",
+    "dimensions_raw": {
+        "warp": [
+            "27.50",
+            "centimeters"
+        ],
+        "weft": [
+            "92.00",
+            "centimeters"
+        ],
+        "width": [
+            "35.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Teresa Kilham",
     "description": "Non-directional geometric pattern on dyed orange background. Length less than height. 4 colors: orange, pink, yellow, black on white silk.",
     "justification": null,
-    "type": {
-        "id": "35251739",
-        "name": "textile"
-    },
+    "woe:country": "23424829",
+    "type": "textile",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/42563_c70f13cdba3998ae_b.jpg",
                 "width": 1024,
                 "height": 323,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/42563_c70f13cdba3998ae_n.jpg",
-                "width": 320,
-                "height": 101,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "42563"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/42563_c70f13cdba3998ae_z.jpg",
                 "width": 640,
                 "height": 202,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "42563"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/42563_c70f13cdba3998ae_n.jpg",
+                "width": 320,
+                "height": 101,
+                "is_primary": "1",
+                "image_id": "42563"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/42563_c70f13cdba3998ae_d.gif",
+                "width": 320,
+                "height": 101,
+                "is_primary": "1",
+                "image_id": "42563"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/42563_c70f13cdba3998ae_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "42563"
             }
         }
     ],
@@ -54,7 +84,9 @@
             "person_id": "18046325",
             "role_id": "35236637",
             "person_name": "Deutsche Werkst\u00e4tten GmbH",
+            "person_date": "Hellerau, Germany, founded 1898",
             "role_name": "Probably",
+            "role_display_name": "Probably",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18046325\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236637\/"
         },
@@ -62,7 +94,9 @@
             "person_id": "18047497",
             "role_id": "35352245",
             "person_name": "Milton Sonday",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047497\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -70,7 +104,9 @@
             "person_id": "18539137",
             "role_id": "35352245",
             "person_name": "Sheila Franz",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18539137\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -78,7 +114,9 @@
             "person_id": "18046827",
             "role_id": "35351535",
             "person_name": "Teresa Kilham",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18046827\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -88,24 +126,35 @@
     },
     "colors": [
         {
-            "color": "#c7462a",
-            "closest_css3": "#d2691e"
+            "color": "#e8d2b6",
+            "closest_crayola": "#efcdb8",
+            "closest_css3": "#f5deb3",
+            "closest_css4": "#f5deb3"
         },
         {
-            "color": "#e76c45",
-            "closest_css3": "#ff6347"
+            "color": "#deb44f",
+            "closest_crayola": "#ffae42",
+            "closest_css3": "#f4a460",
+            "closest_css4": "#f4a460"
         },
         {
-            "color": "#e9dabe",
-            "closest_css3": "#f5deb3"
+            "color": "#3d3238",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#daaf47",
-            "closest_css3": "#f4a460"
+            "color": "#cf7e54",
+            "closest_crayola": "#d68a59",
+            "closest_css3": "#cd853f",
+            "closest_css4": "#cd853f"
         },
         {
-            "color": "#4b363a",
-            "closest_css3": "#2f4f4f"
+            "color": "#dd6a8b",
+            "closest_crayola": "#de5d83",
+            "closest_css3": "#d87093",
+            "closest_css4": "#db7093"
         }
-    ]
+    ],
+    "woe:country_name": "Germany"
 }

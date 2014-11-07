@@ -3,6 +3,7 @@
     "tms:id": "107240",
     "accession_number": "1953-104-2",
     "title": "Tile, mid-19th\u2013early 20th century",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18394167\/",
     "department_id": "35347497",
     "period_id": null,
@@ -13,39 +14,68 @@
     "year_end": 1917,
     "year_acquired": "1953",
     "decade": null,
-    "woe:country": "23424975",
+    "woe:country_id": "23424975",
     "medium": "Glazed earthenware",
     "markings": "Impressed: \"DIP\"",
     "signed": null,
     "inscribed": null,
     "provenance": "1953: acquired by Museum",
     "dimensions": "H x W x D: 1.3 x 15.4 x 15.3 cm (1\/2 x 6 1\/16 x 6 in.)",
+    "dimensions_raw": {
+        "depth": [
+            "15.30",
+            "centimeters"
+        ],
+        "height": [
+            "1.30",
+            "centimeters"
+        ],
+        "width": [
+            "15.40",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase through gift of Georgiana L. McClellan",
     "description": "Square tile of reddish clay with grogg added. Bluish white crackled glaze with zebra and two sucks painted in blue.",
     "justification": null,
-    "type": {
-        "id": "35250645",
-        "name": "tile"
-    },
+    "woe:country": "23424975",
+    "type": "tile",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/43640_dc203691bc9b239d_b.jpg",
                 "width": 1000,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/43640_dc203691bc9b239d_n.jpg",
-                "width": 312,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "43640"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/43640_dc203691bc9b239d_z.jpg",
                 "width": 625,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "43640"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/43640_dc203691bc9b239d_n.jpg",
+                "width": 312,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "43640"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/43640_dc203691bc9b239d_d.gif",
+                "width": 312,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "43640"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/43640_dc203691bc9b239d_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "43640"
             }
         }
     ],
@@ -54,7 +84,9 @@
             "person_id": "18050055",
             "role_id": "51571025",
             "person_name": "Georgiana L. McClellan",
+            "person_date": "",
             "role_name": "Funder",
+            "role_display_name": "Purchased with funds from:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18050055\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/51571025\/"
         },
@@ -62,15 +94,19 @@
             "person_id": "18061977",
             "role_id": "35236657",
             "person_name": "Sand's End Pottery",
+            "person_date": "",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18061977\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         },
         {
             "person_id": "18044369",
             "role_id": "35236565",
-            "person_name": "William Frend de Morgan",
+            "person_name": "William Frend De Morgan",
+            "person_date": "British, 1839\u20131917",
             "role_name": "Artist",
+            "role_display_name": "",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18044369\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236565\/"
         }
@@ -80,24 +116,35 @@
     },
     "colors": [
         {
-            "color": "#738cae",
-            "closest_css3": "#778899"
+            "color": "#748daf",
+            "closest_crayola": "#6699cc",
+            "closest_css3": "#778899",
+            "closest_css4": "#778899"
         },
         {
-            "color": "#a6bacd",
-            "closest_css3": "#b0c4de"
+            "color": "#d9d2c9",
+            "closest_crayola": "#dbd7d2",
+            "closest_css3": "#d3d3d3",
+            "closest_css4": "#d3d3d3"
         },
         {
-            "color": "#dcd4ca",
-            "closest_css3": "#d3d3d3"
+            "color": "#b0c2d2",
+            "closest_crayola": "#b0b7c6",
+            "closest_css3": "#b0c4de",
+            "closest_css4": "#b0c4de"
         },
         {
-            "color": "#546f98",
-            "closest_css3": "#708090"
+            "color": "#465d88",
+            "closest_crayola": "#2e5894",
+            "closest_css3": "#483d8b",
+            "closest_css4": "#483d8b"
         },
         {
-            "color": "#364872",
-            "closest_css3": "#483d8b"
+            "color": "#a89e8a",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         }
-    ]
+    ],
+    "woe:country_name": "United Kingdom"
 }

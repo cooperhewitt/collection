@@ -3,6 +3,7 @@
     "tms:id": "194229",
     "accession_number": "1992-120-5",
     "title": "Table, \"Onlyou\", 1983",
+    "title_raw": "Onlyou",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18638737\/",
     "department_id": "35347497",
     "period_id": null,
@@ -13,39 +14,68 @@
     "year_end": 1983,
     "year_acquired": "1992",
     "decade": "1980",
-    "woe:country": "23424853",
+    "woe:country_id": "23424853",
     "medium": "metal, rubber",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "87.2 x 54 x 54 cm (34 5\/16 x 21 1\/4 x 21 1\/4 in. )",
+    "dimensions_raw": {
+        "depth": [
+            "54.00",
+            "centimeters"
+        ],
+        "height": [
+            "87.20",
+            "centimeters"
+        ],
+        "width": [
+            "54.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Carlo Forcolini",
     "description": null,
     "justification": null,
-    "type": {
-        "id": "35238865",
-        "name": "table"
-    },
+    "woe:country": "23424853",
+    "type": "table",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/11907_76582d051c454393_b.jpg",
                 "width": 689,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/11907_76582d051c454393_n.jpg",
-                "width": 215,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "11907"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/11907_76582d051c454393_z.jpg",
                 "width": 431,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "11907"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/11907_76582d051c454393_n.jpg",
+                "width": 215,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "11907"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/11907_76582d051c454393_d.gif",
+                "width": 215,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "11907"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/11907_76582d051c454393_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "11907"
             }
         },
         {
@@ -53,19 +83,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/11908_e064a6816237e061_b.jpg",
                 "width": 697,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/11908_e064a6816237e061_n.jpg",
-                "width": 218,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "11908"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/11908_e064a6816237e061_z.jpg",
                 "width": 436,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "11908"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/11908_e064a6816237e061_n.jpg",
+                "width": 218,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "11908"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/11908_e064a6816237e061_d.gif",
+                "width": 218,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "11908"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/11908_e064a6816237e061_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "11908"
             }
         }
     ],
@@ -74,7 +121,9 @@
             "person_id": "18041151",
             "role_id": "35351535",
             "person_name": "Carlo Forcolini",
+            "person_date": "Italian, b. 1947",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041151\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -82,7 +131,9 @@
             "person_id": "18044651",
             "role_id": "35236657",
             "person_name": "Alias",
+            "person_date": "",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18044651\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         },
@@ -90,7 +141,9 @@
             "person_id": "18041151",
             "role_id": "35236655",
             "person_name": "Carlo Forcolini",
+            "person_date": "Italian, b. 1947",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041151\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
@@ -100,24 +153,35 @@
     },
     "colors": [
         {
-            "color": "#cfd0c4",
-            "closest_css3": "#d3d3d3"
+            "color": "#d5d1c8",
+            "closest_crayola": "#dbd7d2",
+            "closest_css3": "#d3d3d3",
+            "closest_css4": "#d3d3d3"
         },
         {
-            "color": "#162319",
-            "closest_css3": "#000000"
+            "color": "#1f2a20",
+            "closest_crayola": "#000000",
+            "closest_css3": "#000000",
+            "closest_css4": "#000000"
         },
         {
-            "color": "#b11d09",
-            "closest_css3": "#b22222"
+            "color": "#b21d09",
+            "closest_crayola": "#9c2542",
+            "closest_css3": "#b22222",
+            "closest_css4": "#b22222"
         },
         {
-            "color": "#2d291b",
-            "closest_css3": "#2f4f4f"
+            "color": "#68371f",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#8b4513",
+            "closest_css4": "#8b4513"
         },
         {
-            "color": "#55190f",
-            "closest_css3": "#800000"
+            "color": "#ac836a",
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         }
-    ]
+    ],
+    "woe:country_name": "Italy"
 }

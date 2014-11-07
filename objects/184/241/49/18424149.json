@@ -3,6 +3,7 @@
     "tms:id": "122450",
     "accession_number": "1959-101-3",
     "title": "Textile, \"Forest\", ca. 1958",
+    "title_raw": "Forest",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18424149\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1963,
     "year_acquired": "1959",
     "decade": "1950",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Medium: linen (55%), spun rayon (30%), goat hair (15%)\nTechnique: screen printed on plain weave",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "H x W: 239 x 130.5 cm (7 ft. 10 1\/8 in. x 51 3\/8 in.)",
+    "dimensions_raw": {
+        "height": [
+            "239.00",
+            "centimeters"
+        ],
+        "width": [
+            "130.50",
+            "centimeters"
+        ]
+    },
     "creditline": null,
     "description": "Loosely woven cream-colored ground showing a bold pattern of rows of large circles. Circles are turquoise with bright blue, magenta and off-white abstract leaf shapes; and olive green containing turquoise and off-white.",
     "justification": null,
-    "type": {
-        "id": "35251739",
-        "name": "textile"
-    },
+    "woe:country": "23424977",
+    "type": "textile",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/73847_cd095c4a3e65d947_b.jpg",
                 "width": 669,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/73847_cd095c4a3e65d947_n.jpg",
-                "width": 209,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "73847"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/73847_cd095c4a3e65d947_z.jpg",
                 "width": 418,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "73847"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/73847_cd095c4a3e65d947_n.jpg",
+                "width": 209,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "73847"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/73847_cd095c4a3e65d947_d.gif",
+                "width": 209,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "73847"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/73847_cd095c4a3e65d947_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "73847"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/73848_d1d4dcd5e8019877_b.jpg",
                 "width": 674,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/73848_d1d4dcd5e8019877_n.jpg",
-                "width": 211,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "73848"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/73848_d1d4dcd5e8019877_z.jpg",
                 "width": 421,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "73848"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/73848_d1d4dcd5e8019877_n.jpg",
+                "width": 211,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "73848"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/73848_d1d4dcd5e8019877_d.gif",
+                "width": 211,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "73848"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/73848_d1d4dcd5e8019877_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "73848"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "51676409",
             "role_id": "35236657",
             "person_name": "Rowen, Inc.",
+            "person_date": "",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/51676409\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "51676411",
             "role_id": "35236655",
             "person_name": "Jason Harvey",
+            "person_date": "",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/51676411\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
@@ -92,24 +139,35 @@
     },
     "colors": [
         {
-            "color": "#15283a",
-            "closest_css3": "#2f4f4f"
+            "color": "#2b4561",
+            "closest_crayola": "#1a4876",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#405d77",
-            "closest_css3": "#483d8b"
+            "color": "#15263c",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#51405b",
-            "closest_css3": "#2f4f4f"
+            "color": "#516e88",
+            "closest_crayola": "#4a646c",
+            "closest_css3": "#708090",
+            "closest_css4": "#708090"
         },
         {
-            "color": "#353d3f",
-            "closest_css3": "#2f4f4f"
+            "color": "#5b4564",
+            "closest_crayola": "#6e5160",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#312e3b",
-            "closest_css3": "#2f4f4f"
+            "color": "#353c3d",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

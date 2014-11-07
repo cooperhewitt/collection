@@ -3,6 +3,7 @@
     "tms:id": "95874",
     "accession_number": "1946-97-5-a,b",
     "title": "Sidewall, 1905",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18604697\/",
     "department_id": "35347503",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1905,
     "year_acquired": "1946",
     "decade": "1900",
-    "woe:country": "23424975",
+    "woe:country_id": "23424975",
     "medium": "Stencil printed",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "65.5 x 56 cm (25 13\/16 x 22 1\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "65.50",
+            "centimeters"
+        ],
+        "width": [
+            "56.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Empire Wall-Paper Company",
     "description": "Made by Hayward and Son, London's oldest wallpaper factory established in the 17th century and maintained in the heart of London until 1894. This firm, then established as builders, assisted in building St. Paul's Cathedral and have letters from Sir Christopher Wren to prove it. This mill was the originator of commercial wallpaper stencil printing and first to introduce hand variation and graduation of colors now done by air brush. The leaves and fruit gradations and shadings of color on this paper were applied by hand brush. Printed in shades of green and red on green ground. The fruit and floral motif on stem forms a stripe running amidst a foliate diaper pattern.",
     "justification": null,
-    "type": {
-        "id": "35256475",
-        "name": "Sidewall"
-    },
+    "woe:country": "23424975",
+    "type": "Sidewall",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/63778_38405373c8deae8b_b.jpg",
                 "width": 867,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/63778_38405373c8deae8b_n.jpg",
-                "width": 271,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "63778"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/63778_38405373c8deae8b_z.jpg",
                 "width": 542,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "63778"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/63778_38405373c8deae8b_n.jpg",
+                "width": 271,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "63778"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/63778_38405373c8deae8b_d.gif",
+                "width": 271,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "63778"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/63778_38405373c8deae8b_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "63778"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/4667_6ede4cba7750fb63_b.jpg",
                 "width": 900,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/4667_6ede4cba7750fb63_n.jpg",
-                "width": 281,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "4667"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/4667_6ede4cba7750fb63_z.jpg",
                 "width": 562,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "4667"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/4667_6ede4cba7750fb63_n.jpg",
+                "width": 281,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "4667"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/4667_6ede4cba7750fb63_d.gif",
+                "width": 281,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "4667"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/4667_6ede4cba7750fb63_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "4667"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18047817",
             "role_id": "35352245",
             "person_name": "John Kenneth Tilton",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047817\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18047315",
             "role_id": "35236657",
             "person_name": "Hayward and Son",
+            "person_date": "",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047315\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         }
@@ -92,20 +139,29 @@
     },
     "colors": [
         {
-            "color": "#44582d",
-            "closest_css3": "#556b2f"
+            "color": "#425a32",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         },
         {
-            "color": "#939e60",
-            "closest_css3": "#808080"
+            "color": "#8e9a5c",
+            "closest_crayola": "#87a96b",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#ccb07b",
-            "closest_css3": "#d2b48c"
+            "color": "#cfb17d",
+            "closest_crayola": "#deaa88",
+            "closest_css3": "#d2b48c",
+            "closest_css4": "#d2b48c"
         },
         {
-            "color": "#decfb9",
-            "closest_css3": "#f5deb3"
+            "color": "#ded1bd",
+            "closest_crayola": "#efcdb8",
+            "closest_css3": "#d3d3d3",
+            "closest_css4": "#d3d3d3"
         }
-    ]
+    ],
+    "woe:country_name": "United Kingdom"
 }

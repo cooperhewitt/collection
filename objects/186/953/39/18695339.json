@@ -3,6 +3,7 @@
     "tms:id": "223236",
     "accession_number": "2002-11-18",
     "title": "Poster, \"The Splendor of Dresden\", 1978",
+    "title_raw": "The Splendor of Dresden",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18695339\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1978,
     "year_acquired": "2002",
     "decade": "1970",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Offset lithograph on cream paper",
     "markings": null,
     "signed": "Signed [imprinted] in black ink, upper left corner: Design: Paul Rand",
     "inscribed": "Imprinted in black ink, across lower quarter of paper: The Splendor of Dresden; below, lower left quadrant: Five\/ Centuries of\/ Art\/ Collecting; lower right quadrant: National Gallery of Art, Washington, D.C.\/ June 1-September 4, 1978\/ An Exhibition from the German Democratic Republic; imprinted in gray ink, across lower edge of page: An exhibition from the collection of the Staatliche Kunstsammlungen Dresden GDR, organized jointly by the National Gallery of Art, The Metropolitan\/ Museum of Art and The Fine Arts Museums of San Francisco. It is made possible through a grant from the IBM Corporation,\/ with additional funding from the Robert Wood Johnson, Jr. Charitable Trust, the National Endowment for the Arts and the National Endowment for the Humanities.",
     "provenance": "Marion S. Rand",
     "dimensions": "91.4 x 58.4 cm (36 x 23 in. )",
+    "dimensions_raw": {
+        "height": [
+            "91.40",
+            "centimeters"
+        ],
+        "width": [
+            "58.40",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Marion S. Rand",
     "description": "On cream ground, upper three quarters of page, three art objects (from the Staatliche Kunstsammlungen, Dresden) imprinted in numerous colors (including yellow, green, red, white, black, silver, and gold).  Upper left quadrant, elaborately decorated brooch, possibly coat of arms (cows, swords, and armor helmuts in design). Upper right corner, vase decorated with landscape (scene of soldier's meeting). Center right, Holbein painting of Henry VIII in elaborate gold costume, with sword, and dog behind him. Lower quarter of page, title, place, dates, and donors, imprinted in black and gray.",
     "justification": null,
-    "type": {
-        "id": "35238163",
-        "name": "poster"
-    },
+    "woe:country": "23424977",
+    "type": "poster",
     "images": [
         {
             "b": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/50028_487c0dfe43adf464_b.jpg",
-                "width": 661,
+                "url": "http:\/\/images.collection.cooperhewitt.org\/50028_66603f8ae43cbe59_b.jpg",
+                "width": 651,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/50028_487c0dfe43adf464_n.jpg",
-                "width": 207,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "50028"
             },
             "z": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/50028_487c0dfe43adf464_z.jpg",
-                "width": 413,
+                "url": "http:\/\/images.collection.cooperhewitt.org\/50028_66603f8ae43cbe59_z.jpg",
+                "width": 407,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "50028"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/50028_66603f8ae43cbe59_n.jpg",
+                "width": 203,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "50028"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/50028_66603f8ae43cbe59_d.gif",
+                "width": 203,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "50028"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/50028_66603f8ae43cbe59_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "50028"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "51676457",
             "role_id": "35352245",
             "person_name": "Karin Zonis",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/51676457\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18538789",
             "role_id": "35351535",
             "person_name": "Marion S. Rand",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18538789\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18042341",
             "role_id": "35236655",
             "person_name": "Paul Rand",
+            "person_date": "American, 1914\u20131996",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18042341\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
@@ -80,24 +112,35 @@
     },
     "colors": [
         {
-            "color": "#d3a55b",
-            "closest_css3": "#bdb76b"
+            "color": "#d6d2cb",
+            "closest_crayola": "#dbd7d2",
+            "closest_css3": "#d3d3d3",
+            "closest_css4": "#d3d3d3"
         },
         {
-            "color": "#625044",
-            "closest_css3": "#556b2f"
+            "color": "#b67f51",
+            "closest_crayola": "#b4674d",
+            "closest_css3": "#cd853f",
+            "closest_css4": "#cd853f"
         },
         {
-            "color": "#8e6649",
-            "closest_css3": "#a0522d"
+            "color": "#695444",
+            "closest_crayola": "#6e5160",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         },
         {
-            "color": "#ccc5b2",
-            "closest_css3": "#c0c0c0"
+            "color": "#d7ac5d",
+            "closest_crayola": "#d68a59",
+            "closest_css3": "#f4a460",
+            "closest_css4": "#f4a460"
         },
         {
-            "color": "#c07e4f",
-            "closest_css3": "#cd853f"
+            "color": "#38393c",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

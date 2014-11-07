@@ -3,6 +3,7 @@
     "tms:id": "273009",
     "accession_number": "2011-40-5",
     "title": "Textile, \"Sandis\", 2008",
+    "title_raw": "Sandis",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18794707\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 2008,
     "year_acquired": "2011",
     "decade": "2000",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Medium: 67% linen, 33% cotton\nTechnique: woven",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "H x W: 345.2 x 137.2 cm (11 ft. 3 7\/8 in. x 54 in.)",
+    "dimensions_raw": {
+        "height": [
+            "345.20",
+            "centimeters"
+        ],
+        "width": [
+            "137.20",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Knoll Textiles",
     "description": "Wood-grained effect in woven brown and ivory.",
     "justification": null,
-    "type": {
-        "id": "35251739",
-        "name": "textile"
-    },
+    "woe:country": "23424977",
+    "type": "textile",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/40224_dcf84d19d878be5b_b.jpg",
                 "width": 949,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/40224_dcf84d19d878be5b_n.jpg",
-                "width": 297,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "40224"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/40224_dcf84d19d878be5b_z.jpg",
                 "width": 593,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "40224"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/40224_dcf84d19d878be5b_n.jpg",
+                "width": 297,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "40224"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/40224_dcf84d19d878be5b_d.gif",
+                "width": 297,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "40224"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/40224_dcf84d19d878be5b_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "40224"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18041409",
             "role_id": "35236657",
             "person_name": "Knoll Textiles",
+            "person_date": "East Greenville, Pennsylvania, USA, founded 1947",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041409\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18041409",
             "role_id": "35236675",
             "person_name": "Knoll Textiles",
+            "person_date": "East Greenville, Pennsylvania, USA, founded 1947",
             "role_name": "For",
+            "role_display_name": "Made for",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041409\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236675\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18065091",
             "role_id": "35236655",
             "person_name": "Proenza Schouler",
+            "person_date": "",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18065091\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -78,7 +110,9 @@
             "person_id": "18065087",
             "role_id": "35236655",
             "person_name": "Jack McCollough",
+            "person_date": "",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18065087\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -86,7 +120,9 @@
             "person_id": "18065085",
             "role_id": "35236655",
             "person_name": "Lazaro Hernandez",
+            "person_date": "",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18065085\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
@@ -96,24 +132,35 @@
     },
     "colors": [
         {
-            "color": "#edead4",
-            "closest_css3": "#faebd7"
+            "color": "#ebe6d2",
+            "closest_crayola": "#efdecd",
+            "closest_css3": "#faebd7",
+            "closest_css4": "#faebd7"
         },
         {
-            "color": "#adac8e",
-            "closest_css3": "#a9a9a9"
+            "color": "#b5ac90",
+            "closest_crayola": "#bab86c",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
         },
         {
-            "color": "#28302c",
-            "closest_css3": "#2f4f4f"
+            "color": "#2c2d25",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#8f855e",
-            "closest_css3": "#808080"
+            "color": "#5a5543",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         },
         {
-            "color": "#575e53",
-            "closest_css3": "#696969"
+            "color": "#8b836c",
+            "closest_crayola": "#8a795d",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

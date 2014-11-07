@@ -3,6 +3,7 @@
     "tms:id": "61062",
     "accession_number": "1938-82-55-a",
     "title": "Textile",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18355295\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,55 @@
     "year_end": null,
     "year_acquired": "1938",
     "decade": null,
-    "woe:country": null,
+    "woe:country_id": null,
     "medium": "Medium: silk\nTechnique: warp-printed",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": null,
+    "dimensions_raw": null,
     "creditline": "Anonymous bequest in memory of Albert and Rebecca Elsberg",
     "description": null,
     "justification": null,
-    "type": {
-        "id": "35251739",
-        "name": "textile"
-    },
+    "woe:country": null,
+    "type": "textile",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/3713_3548be42fdcd5939_b.jpg",
                 "width": 439,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/3713_3548be42fdcd5939_n.jpg",
-                "width": 137,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "3713"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/3713_3548be42fdcd5939_z.jpg",
                 "width": 274,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "3713"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/3713_3548be42fdcd5939_n.jpg",
+                "width": 137,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "3713"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/3713_3548be42fdcd5939_d.gif",
+                "width": 137,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "3713"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/3713_3548be42fdcd5939_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "3713"
             }
         }
     ],
@@ -54,15 +71,19 @@
             "person_id": "18042417",
             "role_id": "35236655",
             "person_name": "Herman A. Elsberg",
+            "person_date": "American, 1869\u20131938",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18042417\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
         {
             "person_id": "18049335",
             "role_id": "35351537",
-            "person_name": "Anonymous",
+            "person_name": "Unknown",
+            "person_date": "",
             "role_name": "Bequestor",
+            "role_display_name": "Bequest of",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049335\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351537\/"
         }
@@ -72,24 +93,34 @@
     },
     "colors": [
         {
-            "color": "#191e37",
-            "closest_css3": "#191970"
+            "color": "#151f42",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#191970",
+            "closest_css4": "#191970"
         },
         {
-            "color": "#35405d",
-            "closest_css3": "#2f4f4f"
+            "color": "#c6baae",
+            "closest_crayola": "#cdc5c2",
+            "closest_css3": "#c0c0c0",
+            "closest_css4": "#c0c0c0"
         },
         {
-            "color": "#c4b9ad",
-            "closest_css3": "#c0c0c0"
+            "color": "#3a4568",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#697486",
-            "closest_css3": "#708090"
+            "color": "#565d6e",
+            "closest_crayola": "#4a646c",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#caa16c",
-            "closest_css3": "#bdb76b"
+            "color": "#ca9c65",
+            "closest_crayola": "#cd9575",
+            "closest_css3": "#bdb76b",
+            "closest_css4": "#bdb76b"
         }
     ]
 }

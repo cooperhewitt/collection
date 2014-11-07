@@ -3,6 +3,7 @@
     "tms:id": "176977",
     "accession_number": "1981-28-37",
     "title": "Embroidered Picture, \"The Judgement of Solomon\", late 17th century",
+    "title_raw": "The Judgement of Solomon",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18616895\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": null,
     "year_acquired": "1981",
     "decade": null,
-    "woe:country": "23424975",
+    "woe:country_id": "23424975",
     "medium": "Medium: silk embroidery on silk foundation with metal, wood, seed pearls, mica\nTechnique: embroidered in flat satin, stem, and back and knot stitches on seven and one satin foundation. Relief by a variety of looping, wrapping, and braiding and silk wrappe",
     "markings": null,
     "signed": null,
     "inscribed": "M.H.",
     "provenance": null,
     "dimensions": "H x W: 34.6 x 45.7 cm (13 5\/8 x 18 in.)",
+    "dimensions_raw": {
+        "height": [
+            "34.60",
+            "centimeters"
+        ],
+        "width": [
+            "45.72",
+            "centimeters"
+        ]
+    },
     "creditline": "Bequest of Gertrude M. Oppenheimer",
     "description": "Solomon enthroned with sage before him on left.  Two women with baby on ground and baby held up by sword-wielder on right.  Two castles in background, sun and clouds, tree with squirrel, lion, parakeet in tree, fishpond, other bird in tree, leopard in foreground.  Scattered floral and insect motifs overall.",
     "justification": null,
-    "type": {
-        "id": "35259407",
-        "name": "Embroidered picture"
-    },
+    "woe:country": "23424975",
+    "type": "Embroidered picture",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/55220_7cb098582fbf3024_b.jpg",
                 "width": 1024,
                 "height": 815,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/55220_7cb098582fbf3024_n.jpg",
-                "width": 320,
-                "height": 255,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "55220"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/55220_7cb098582fbf3024_z.jpg",
                 "width": 640,
                 "height": 509,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "55220"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/55220_7cb098582fbf3024_n.jpg",
+                "width": 320,
+                "height": 255,
+                "is_primary": "1",
+                "image_id": "55220"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/55220_7cb098582fbf3024_d.gif",
+                "width": 320,
+                "height": 255,
+                "is_primary": "1",
+                "image_id": "55220"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/55220_7cb098582fbf3024_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "55220"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/36562_1e77bb76b80e3535_b.jpg",
                 "width": 1024,
                 "height": 809,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/36562_1e77bb76b80e3535_n.jpg",
-                "width": 320,
-                "height": 253,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "36562"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/36562_1e77bb76b80e3535_z.jpg",
                 "width": 640,
                 "height": 506,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "36562"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/36562_1e77bb76b80e3535_n.jpg",
+                "width": 320,
+                "height": 253,
+                "is_primary": "0",
+                "image_id": "36562"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/36562_1e77bb76b80e3535_d.gif",
+                "width": 320,
+                "height": 253,
+                "is_primary": "0",
+                "image_id": "36562"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/36562_1e77bb76b80e3535_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "36562"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18050567",
             "role_id": "35351537",
             "person_name": "Gertrude M. Oppenheimer",
+            "person_date": "",
             "role_name": "Bequestor",
+            "role_display_name": "Bequest of",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18050567\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351537\/"
         }
@@ -84,24 +129,35 @@
     },
     "colors": [
         {
-            "color": "#c8a26b",
-            "closest_css3": "#bdb76b"
+            "color": "#c7a26b",
+            "closest_crayola": "#cd9575",
+            "closest_css3": "#bdb76b",
+            "closest_css4": "#bdb76b"
         },
         {
-            "color": "#e3d0aa",
-            "closest_css3": "#f5deb3"
+            "color": "#9d7f53",
+            "closest_crayola": "#8a795d",
+            "closest_css3": "#cd853f",
+            "closest_css4": "#cd853f"
         },
         {
-            "color": "#9d7f52",
-            "closest_css3": "#cd853f"
+            "color": "#e8d8b6",
+            "closest_crayola": "#efcdb8",
+            "closest_css3": "#f5deb3",
+            "closest_css4": "#f5deb3"
         },
         {
-            "color": "#7b5e38",
-            "closest_css3": "#a0522d"
+            "color": "#624e31",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         },
         {
-            "color": "#302617",
-            "closest_css3": "#000000"
+            "color": "#332b1d",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         }
-    ]
+    ],
+    "woe:country_name": "United Kingdom"
 }

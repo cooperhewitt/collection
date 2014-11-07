@@ -3,6 +3,7 @@
     "tms:id": "96951",
     "accession_number": "1947-72-3",
     "title": "Sidewall, 1946",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18606851\/",
     "department_id": "35347503",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1946,
     "year_acquired": "1947",
     "decade": "1940",
-    "woe:country": "23424975",
+    "woe:country_id": "23424975",
     "medium": "Machine-printed",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "111 x 56.5 cm (43 11\/16 x 22 1\/4 in.)",
+    "dimensions_raw": {
+        "height": [
+            "111.00",
+            "centimeters"
+        ],
+        "width": [
+            "56.50",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Rose J. Dirksen",
     "description": "Chinese figured paper. A large pheasant beneath a pine tree with a small lake and houses in the distance occupies one width. Above, and below, three maidens linger in a court at the foot of some steps leading up to a tea house. What appears to be another lake with buildings on the opposite shore stretches away at their left. Drop match. Printed in gold, brown, salmon, red, blue on cream ground.",
     "justification": null,
-    "type": {
-        "id": "35256475",
-        "name": "Sidewall"
-    },
+    "woe:country": "23424975",
+    "type": "Sidewall",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/42873_8b1a306c4c3518a2_b.jpg",
                 "width": 541,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/42873_8b1a306c4c3518a2_n.jpg",
-                "width": 169,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "42873"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/42873_8b1a306c4c3518a2_z.jpg",
                 "width": 338,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "42873"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/42873_8b1a306c4c3518a2_n.jpg",
+                "width": 169,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "42873"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/42873_8b1a306c4c3518a2_d.gif",
+                "width": 169,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "42873"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/42873_8b1a306c4c3518a2_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "42873"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/4703_2861cf2e65e817bd_b.jpg",
                 "width": 551,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/4703_2861cf2e65e817bd_n.jpg",
-                "width": 172,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "4703"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/4703_2861cf2e65e817bd_z.jpg",
                 "width": 345,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "4703"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/4703_2861cf2e65e817bd_n.jpg",
+                "width": 172,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "4703"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/4703_2861cf2e65e817bd_d.gif",
+                "width": 172,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "4703"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/4703_2861cf2e65e817bd_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "4703"
             }
         }
     ],
@@ -74,9 +117,21 @@
             "person_id": "18047829",
             "role_id": "35352245",
             "person_name": "Horace L. Hotchkiss, Jr.",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047829\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
+        },
+        {
+            "person_id": "68736361",
+            "role_id": "35351535",
+            "person_name": "Rose J. Dirksen",
+            "person_date": "",
+            "role_name": "Donor",
+            "role_display_name": "Donated by",
+            "person_url": "http:\/\/collection.cooperhewitt.org\/people\/68736361\/",
+            "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
     ],
     "tombstone": {
@@ -84,24 +139,35 @@
     },
     "colors": [
         {
-            "color": "#ece6ce",
-            "closest_css3": "#faebd7"
+            "color": "#f1ecd5",
+            "closest_crayola": "#efdecd",
+            "closest_css3": "#faebd7",
+            "closest_css4": "#faebd7"
         },
         {
-            "color": "#b69256",
-            "closest_css3": "#cd853f"
+            "color": "#c4a771",
+            "closest_crayola": "#bab86c",
+            "closest_css3": "#bdb76b",
+            "closest_css4": "#bdb76b"
         },
         {
-            "color": "#5d4c35",
-            "closest_css3": "#556b2f"
+            "color": "#95784c",
+            "closest_crayola": "#85754e",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         },
         {
-            "color": "#feeca6",
-            "closest_css3": "#ffdead"
+            "color": "#5e4d36",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         },
         {
-            "color": "#91754a",
-            "closest_css3": "#a0522d"
+            "color": "#fdeaa4",
+            "closest_crayola": "#fae7b5",
+            "closest_css3": "#ffdead",
+            "closest_css4": "#ffdead"
         }
-    ]
+    ],
+    "woe:country_name": "United Kingdom"
 }

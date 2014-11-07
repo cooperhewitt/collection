@@ -3,6 +3,7 @@
     "tms:id": "242194",
     "accession_number": "2009-18-159",
     "title": "Water Glass, \"Wiener Gemischter Satz\", 2008",
+    "title_raw": "Wiener Gemischter Satz",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18732161\/",
     "department_id": "35347497",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 2008,
     "year_acquired": "2009",
     "decade": "2000",
-    "woe:country": "23424750",
+    "woe:country_id": "23424750",
     "medium": "Mouth-blown crystal",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "2009: acquired by Museum",
     "dimensions": "H x diam.: 12 x 7.6 cm (4 3\/4 x 3 in.)",
+    "dimensions_raw": {
+        "diameter": [
+            "7.60",
+            "centimeters"
+        ],
+        "height": [
+            "12.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase through gift of Dale and Doug Anderson, Anonymous Donor, Arthur Liu, and Prairie Pictures, Inc. and from General Acquisitions Endowment Fund",
     "description": "Thin mouth-blown glass water glass, deep cylinder with rounded bowl on short stem and circular foot",
     "justification": null,
-    "type": {
-        "id": "35291075",
-        "name": "Water glass"
-    },
+    "woe:country": "23424750",
+    "type": "Water glass",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/33267_79f736811ad9d07e_b.jpg",
                 "width": 792,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/33267_79f736811ad9d07e_n.jpg",
-                "width": 248,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "33267"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/33267_79f736811ad9d07e_z.jpg",
                 "width": 495,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "33267"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/33267_79f736811ad9d07e_n.jpg",
+                "width": 248,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "33267"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/33267_79f736811ad9d07e_d.gif",
+                "width": 248,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "33267"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/33267_79f736811ad9d07e_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "33267"
             }
         }
     ],
@@ -54,15 +80,19 @@
             "person_id": "18063195",
             "role_id": "35236657",
             "person_name": "Boehmische Manufaktur",
+            "person_date": "",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18063195\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         },
         {
             "person_id": "18061841",
             "role_id": "35236657",
-            "person_name": "J. & L. Lobmeyr GmbH, Vienna, Austria",
+            "person_name": "J. & L. Lobmeyr GmbH",
+            "person_date": "Vienna, Austria, founded ca. 1935",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18061841\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         },
@@ -70,15 +100,19 @@
             "person_id": "18062637",
             "role_id": "35236655",
             "person_name": "POLKA",
+            "person_date": "",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18062637\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
         {
             "person_id": "18061841",
             "role_id": "51571131",
-            "person_name": "J. & L. Lobmeyr GmbH, Vienna, Austria",
+            "person_name": "J. & L. Lobmeyr GmbH",
+            "person_date": "Vienna, Austria, founded ca. 1935",
             "role_name": "Lender",
+            "role_display_name": "Lent by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18061841\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/51571131\/"
         }
@@ -89,7 +123,10 @@
     "colors": [
         {
             "color": "#ffffff",
-            "closest_css3": "#ffffff"
+            "closest_crayola": "#ffffff",
+            "closest_css3": "#ffffff",
+            "closest_css4": "#ffffff"
         }
-    ]
+    ],
+    "woe:country_name": "Austria"
 }

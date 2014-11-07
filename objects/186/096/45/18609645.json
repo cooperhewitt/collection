@@ -3,6 +3,7 @@
     "tms:id": "98371",
     "accession_number": "1948-40-1",
     "title": "Drawing, \"Royal Pavilion, Brighton\", 1817\u201322",
+    "title_raw": "Royal Pavilion, Brighton",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18609645\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1839,
     "year_acquired": "1948",
     "decade": null,
-    "woe:country": "23424975",
+    "woe:country_id": "23424975",
     "medium": "Graphite on white laid paper",
     "markings": "Brittania seated on waves in oval shield with crown, similar to Churchill 235 (in reverse)",
     "signed": null,
     "inscribed": null,
     "provenance": "1948: acquired by Museum (from Mrs. K. Gregory)",
     "dimensions": "20.4 x 32.3 cm (8 1\/16 x 12 11\/16 in.)\nMat:  35.6 x 45.7 cm (14 x 18 in.)",
+    "dimensions_raw": {
+        "height": [
+            "35.60",
+            "centimeters"
+        ],
+        "width": [
+            "45.70",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase through gift of Mrs. John Innes Kane",
     "description": "Original album associated with this collection still exists.  See 1948-40-1 accessory",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424975",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/63088_844008846e7486b3_b.jpg",
                 "width": 1024,
                 "height": 645,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/63088_844008846e7486b3_n.jpg",
-                "width": 320,
-                "height": 202,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "63088"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/63088_844008846e7486b3_z.jpg",
                 "width": 640,
                 "height": 403,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "63088"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/63088_844008846e7486b3_n.jpg",
+                "width": 320,
+                "height": 202,
+                "is_primary": "1",
+                "image_id": "63088"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/63088_844008846e7486b3_d.gif",
+                "width": 320,
+                "height": 202,
+                "is_primary": "1",
+                "image_id": "63088"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/63088_844008846e7486b3_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "63088"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18539479",
             "role_id": "35352249",
             "person_name": "Mrs. K. Gregory",
+            "person_date": "",
             "role_name": "Vendor",
+            "role_display_name": "Purchased from",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18539479\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352249\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18042131",
             "role_id": "35236711",
             "person_name": "John Nash",
+            "person_date": "1752 \u2013 1835",
             "role_name": "Attributed to",
+            "role_display_name": "Attributed to",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18042131\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236711\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18047443",
             "role_id": "35352245",
             "person_name": "Megan L. Smith",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047443\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -78,7 +110,9 @@
             "person_id": "18042071",
             "role_id": "35236667",
             "person_name": "George IV, King of England",
+            "person_date": "",
             "role_name": "Client",
+            "role_display_name": "Client:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18042071\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236667\/"
         }
@@ -88,8 +122,11 @@
     },
     "colors": [
         {
-            "color": "#ffffff",
-            "closest_css3": "#ffffff"
+            "color": "#efe9d2",
+            "closest_crayola": "#efdecd",
+            "closest_css3": "#faebd7",
+            "closest_css4": "#faebd7"
         }
-    ]
+    ],
+    "woe:country_name": "United Kingdom"
 }

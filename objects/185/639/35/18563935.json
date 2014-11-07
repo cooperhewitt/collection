@@ -3,6 +3,7 @@
     "tms:id": "75172",
     "accession_number": "1941-69-11",
     "title": "Sampler, 19th century",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18563935\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": null,
     "year_acquired": "1941",
     "decade": null,
-    "woe:country": "23424853",
+    "woe:country_id": "23424853",
     "medium": "Medium: silk embroidery on linen\nTechnique: cross stitch on plain weave",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "ex. coll. Mrs. Henry E. Coe (Eva Johnston Coe)",
     "dimensions": "Warp x Weft: 38 x 43 cm (14 15\/16 x 16 15\/16 in.)",
+    "dimensions_raw": {
+        "warp": [
+            "38.00",
+            "centimeters"
+        ],
+        "weft": [
+            "43.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Bequest of Mrs. Henry E. Coe",
     "description": "Within a floral border (of four designs) are alphabets, numerals and the maker's name (Teresa Belardi Nell), people, animals, birds, ships, and flowering plants.",
     "justification": null,
-    "type": {
-        "id": "35256439",
-        "name": "Sampler"
-    },
+    "woe:country": "23424853",
+    "type": "Sampler",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/29035_4f0f1cb81fae3426_b.jpg",
                 "width": 1024,
                 "height": 846,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/29035_4f0f1cb81fae3426_n.jpg",
-                "width": 320,
-                "height": 264,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "29035"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/29035_4f0f1cb81fae3426_z.jpg",
                 "width": 640,
                 "height": 529,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "29035"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/29035_4f0f1cb81fae3426_n.jpg",
+                "width": 320,
+                "height": 264,
+                "is_primary": "1",
+                "image_id": "29035"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/29035_4f0f1cb81fae3426_d.gif",
+                "width": 320,
+                "height": 264,
+                "is_primary": "1",
+                "image_id": "29035"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/29035_4f0f1cb81fae3426_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "29035"
             }
         }
     ],
@@ -54,9 +80,21 @@
             "person_id": "18052567",
             "role_id": "35351537",
             "person_name": "Mrs. Henry E. Coe",
+            "person_date": "",
             "role_name": "Bequestor",
+            "role_display_name": "Bequest of",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18052567\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351537\/"
+        },
+        {
+            "person_id": "68737319",
+            "role_id": "35236583",
+            "person_name": "Teresa Belardi Nell",
+            "person_date": "",
+            "role_name": "Embroiderer",
+            "role_display_name": "Embroidered by",
+            "person_url": "http:\/\/collection.cooperhewitt.org\/people\/68737319\/",
+            "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236583\/"
         }
     ],
     "tombstone": {
@@ -64,24 +102,35 @@
     },
     "colors": [
         {
-            "color": "#1c3a60",
-            "closest_css3": "#2f4f4f"
+            "color": "#132f4d",
+            "closest_crayola": "#1a4876",
+            "closest_css3": "#191970",
+            "closest_css4": "#191970"
         },
         {
-            "color": "#b3a990",
-            "closest_css3": "#a9a9a9"
+            "color": "#c1ac92",
+            "closest_crayola": "#deaa88",
+            "closest_css3": "#d2b48c",
+            "closest_css4": "#d2b48c"
         },
         {
-            "color": "#aa8a57",
-            "closest_css3": "#cd853f"
+            "color": "#9a8b70",
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#7a5831",
-            "closest_css3": "#a0522d"
+            "color": "#5b4b2f",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         },
         {
-            "color": "#443a26",
-            "closest_css3": "#2f4f4f"
+            "color": "#846b44",
+            "closest_crayola": "#85754e",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         }
-    ]
+    ],
+    "woe:country_name": "Italy"
 }

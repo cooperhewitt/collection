@@ -3,6 +3,7 @@
     "tms:id": "154130",
     "accession_number": "1975-11-34",
     "title": "Drawing, \"Textile Design: Stylized Flowers\", 1931",
+    "title_raw": "Textile Design: Stylized Flowers",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18486527\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1931,
     "year_acquired": "1975",
     "decade": "1930",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Brush and gouache, graphite; ruled border in graphite on off-white illustration board",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "Donald Deskey; 1975: acquired by Museum",
     "dimensions": "45.8 x 35.3 cm (18 1\/16 x 13 7\/8 in.)",
+    "dimensions_raw": {
+        "height": [
+            "45.80",
+            "centimeters"
+        ],
+        "width": [
+            "40.60",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Donald Deskey",
     "description": "Textile design with abstract flowers, perhaps sunflowers, interspersed with leaves. Color scale in lower right.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424977",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/8035_a8ee63185da38d1a_b.jpg",
                 "width": 727,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/8035_a8ee63185da38d1a_n.jpg",
-                "width": 227,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "8035"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/8035_a8ee63185da38d1a_z.jpg",
                 "width": 454,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "8035"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/8035_a8ee63185da38d1a_n.jpg",
+                "width": 227,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "8035"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/8035_a8ee63185da38d1a_d.gif",
+                "width": 227,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "8035"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/8035_a8ee63185da38d1a_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "8035"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18065437",
             "role_id": "35352245",
             "person_name": "Stacey Leonard",
+            "person_date": "American",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18065437\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18041973",
             "role_id": "35351535",
             "person_name": "Donald Deskey",
+            "person_date": "American, 1894\u20131989",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041973\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18047481",
             "role_id": "35352245",
             "person_name": "Eleonore Kissel",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047481\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -78,7 +110,9 @@
             "person_id": "18048255",
             "role_id": "35352245",
             "person_name": "Dr. Gail Davidson",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18048255\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -86,7 +120,9 @@
             "person_id": "18042721",
             "role_id": "35236565",
             "person_name": "Ilonka Karasz",
+            "person_date": "American, b. Hungary, 1896\u20131981",
             "role_name": "Artist",
+            "role_display_name": "",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18042721\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236565\/"
         },
@@ -94,9 +130,21 @@
             "person_id": "18041973",
             "role_id": "35236703",
             "person_name": "Donald Deskey",
+            "person_date": "American, 1894\u20131989",
             "role_name": "Office of",
+            "role_display_name": "Office of",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041973\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236703\/"
+        },
+        {
+            "person_id": "68738525",
+            "role_id": "35236657",
+            "person_name": "Lesher-Whitman & Company",
+            "person_date": "",
+            "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
+            "person_url": "http:\/\/collection.cooperhewitt.org\/people\/68738525\/",
+            "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         }
     ],
     "tombstone": {
@@ -104,24 +152,35 @@
     },
     "colors": [
         {
-            "color": "#f9d672",
-            "closest_css3": "#f0e68c"
+            "color": "#ddb954",
+            "closest_crayola": "#ffae42",
+            "closest_css3": "#f4a460",
+            "closest_css4": "#f4a460"
         },
         {
-            "color": "#f7e6c8",
-            "closest_css3": "#ffe4c4"
+            "color": "#e8d3ab",
+            "closest_crayola": "#efcdb8",
+            "closest_css3": "#f5deb3",
+            "closest_css4": "#f5deb3"
         },
         {
-            "color": "#f5b240",
-            "closest_css3": "#f4a460"
+            "color": "#8b9578",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#879375",
-            "closest_css3": "#808080"
+            "color": "#eda33f",
+            "closest_crayola": "#ffa343",
+            "closest_css3": "#f4a460",
+            "closest_css4": "#f4a460"
         },
         {
-            "color": "#3b7098",
-            "closest_css3": "#4682b4"
+            "color": "#a280aa",
+            "closest_crayola": "#9d81ba",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

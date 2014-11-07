@@ -3,6 +3,7 @@
     "tms:id": "12221",
     "accession_number": "1902-1-967-a,b",
     "title": "Fragment, 15th century",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18134301\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": null,
     "year_acquired": "1902",
     "decade": null,
-    "woe:country": "23424853",
+    "woe:country_id": "23424853",
     "medium": "Medium: silk, metal wrapped linen\nTechnique: woven",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "ex-collection: Francisco Miquel y Bad\u00eda",
     "dimensions": "Warp x Weft (A): 31.1 x 12.2 cm (12 1\/4 x 4 13\/16 in.)\nWarp x Weft (B): 10.5 x 15.9 cm (4 1\/8 x 6 1\/4 in.)",
+    "dimensions_raw": {
+        "warp": [
+            "31.12",
+            "centimeters"
+        ],
+        "weft": [
+            "12.22",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of John Pierpont Morgan",
     "description": "Large leaves and swan in coral and silver.",
     "justification": null,
-    "type": {
-        "id": "35254623",
-        "name": "Fragment"
-    },
+    "woe:country": "23424853",
+    "type": "Fragment",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/63716_e5f4dc96558523aa_b.jpg",
                 "width": 992,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/63716_e5f4dc96558523aa_n.jpg",
-                "width": 310,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "63716"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/63716_e5f4dc96558523aa_z.jpg",
                 "width": 620,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "63716"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/63716_e5f4dc96558523aa_n.jpg",
+                "width": 310,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "63716"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/63716_e5f4dc96558523aa_d.gif",
+                "width": 310,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "63716"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/63716_e5f4dc96558523aa_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "63716"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/60352_f6edd1939ba5b7c6_b.jpg",
                 "width": 1024,
                 "height": 1001,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/60352_f6edd1939ba5b7c6_n.jpg",
-                "width": 320,
-                "height": 313,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "60352"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/60352_f6edd1939ba5b7c6_z.jpg",
                 "width": 640,
                 "height": 626,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "60352"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/60352_f6edd1939ba5b7c6_n.jpg",
+                "width": 320,
+                "height": 313,
+                "is_primary": "0",
+                "image_id": "60352"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/60352_f6edd1939ba5b7c6_d.gif",
+                "width": 320,
+                "height": 313,
+                "is_primary": "0",
+                "image_id": "60352"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/60352_f6edd1939ba5b7c6_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "60352"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18049445",
             "role_id": "35351535",
             "person_name": "John Pierpont Morgan",
+            "person_date": "American, 1837\u20131913",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049445\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -84,24 +129,29 @@
     },
     "colors": [
         {
-            "color": "#bd9c71",
-            "closest_css3": "#bdb76b"
+            "color": "#ba996e",
+            "closest_crayola": "#cd9575",
+            "closest_css3": "#bdb76b",
+            "closest_css4": "#bdb76b"
         },
         {
-            "color": "#7e6f59",
-            "closest_css3": "#696969"
+            "color": "#7c6950",
+            "closest_crayola": "#85754e",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#624f39",
-            "closest_css3": "#556b2f"
+            "color": "#554838",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         },
         {
-            "color": "#403324",
-            "closest_css3": "#2f4f4f"
-        },
-        {
-            "color": "#e0cbab",
-            "closest_css3": "#f5deb3"
+            "color": "#ddc5a2",
+            "closest_crayola": "#e7c697",
+            "closest_css3": "#d2b48c",
+            "closest_css4": "#d2b48c"
         }
-    ]
+    ],
+    "woe:country_name": "Italy"
 }

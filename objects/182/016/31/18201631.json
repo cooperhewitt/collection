@@ -3,6 +3,7 @@
     "tms:id": "23604",
     "accession_number": "1917-4-773",
     "title": "Drawing, \"Cotopaxi seen from Ambato, Ecuador\", 1853",
+    "title_raw": "Cotopaxi seen from Ambato, Ecuador",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18201631\/",
     "department_id": "35347493",
     "period_id": "35417175",
@@ -13,39 +14,64 @@
     "year_end": 1853,
     "year_acquired": "1917",
     "decade": null,
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Brush and oil paint, graphite on paperboard",
     "markings": null,
     "signed": null,
     "inscribed": "On verso in graphite; lower center:  \"presented 1917\/by Mr. L.P. Church 254D\"",
     "provenance": "Gift of Louis P. Church; Frederic E. Church",
     "dimensions": "29.1 x 42.7 cm  (11 7\/16 x 16 13\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "42.70",
+            "centimeters"
+        ],
+        "width": [
+            "29.10",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Louis P. Church",
     "description": "The smoking cone of a volcano is seen at left. An outlined ridge borders the view at lower edge, and a range of old craters stretches toward the right.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424977",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/27278_82c1e0b7bb5d91f0_b.jpg",
                 "width": 1024,
                 "height": 630,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/27278_82c1e0b7bb5d91f0_n.jpg",
-                "width": 320,
-                "height": 197,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "27278"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/27278_82c1e0b7bb5d91f0_z.jpg",
                 "width": 640,
                 "height": 394,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "27278"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/27278_82c1e0b7bb5d91f0_n.jpg",
+                "width": 320,
+                "height": 197,
+                "is_primary": "1",
+                "image_id": "27278"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/27278_82c1e0b7bb5d91f0_d.gif",
+                "width": 320,
+                "height": 197,
+                "is_primary": "1",
+                "image_id": "27278"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/27278_82c1e0b7bb5d91f0_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "27278"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/2172_313fe484e855ae7f_b.jpg",
                 "width": 1024,
                 "height": 622,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/2172_313fe484e855ae7f_n.jpg",
-                "width": 320,
-                "height": 194,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "2172"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/2172_313fe484e855ae7f_z.jpg",
                 "width": 640,
                 "height": 389,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "2172"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/2172_313fe484e855ae7f_n.jpg",
+                "width": 320,
+                "height": 194,
+                "is_primary": "0",
+                "image_id": "2172"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/2172_313fe484e855ae7f_d.gif",
+                "width": 320,
+                "height": 194,
+                "is_primary": "0",
+                "image_id": "2172"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/2172_313fe484e855ae7f_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "2172"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18041941",
             "role_id": "35236565",
             "person_name": "Frederic Edwin Church",
+            "person_date": "American, 1826\u20131900",
             "role_name": "Artist",
+            "role_display_name": "",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041941\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236565\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18051625",
             "role_id": "35351535",
             "person_name": "Louis P. Church",
+            "person_date": "American, 1870\u20131943",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18051625\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -92,24 +139,35 @@
     },
     "colors": [
         {
-            "color": "#cebb91",
-            "closest_css3": "#d2b48c"
+            "color": "#cab585",
+            "closest_crayola": "#deaa88",
+            "closest_css3": "#d2b48c",
+            "closest_css4": "#d2b48c"
         },
         {
-            "color": "#9fa08f",
-            "closest_css3": "#a9a9a9"
+            "color": "#9d9f8e",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
         },
         {
-            "color": "#a38767",
-            "closest_css3": "#808080"
+            "color": "#8d7154",
+            "closest_crayola": "#85754e",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#816c53",
-            "closest_css3": "#696969"
+            "color": "#a99171",
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         },
         {
-            "color": "#635240",
-            "closest_css3": "#556b2f"
+            "color": "#645340",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

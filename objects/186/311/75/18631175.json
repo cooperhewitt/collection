@@ -2,7 +2,8 @@
     "id": "18631175",
     "tms:id": "190428",
     "accession_number": "1988-62-696",
-    "title": "Drawing, \"Design for a Textile:  Irrgarten (Maze)\", 1913",
+    "title": "Drawing, \"Irrgarten (Maze): Red\", 1913",
+    "title_raw": "Design for a Textile:  Irrgarten (Maze)",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18631175\/",
     "department_id": "35347493",
     "period_id": "35417049",
@@ -13,39 +14,64 @@
     "year_end": 1913,
     "year_acquired": "1988",
     "decade": "1910",
-    "woe:country": "23424750",
+    "woe:country_id": "23424750",
     "medium": "Brush and gouache, black ink, graphite on paper",
     "markings": null,
     "signed": null,
     "inscribed": "Inscribed in black ink upper left corner of mount: JRRGARTEN",
     "provenance": "Wiener Werkst\u00e4tte Archive (?); Wolfgang Ruf\/Galerie Ruf, Rastatt, Germany",
     "dimensions": "12.7 x 19.8 cm (5 1\/161 x 7 13\/16 in. )",
+    "dimensions_raw": {
+        "height": [
+            "40.60",
+            "centimeters"
+        ],
+        "width": [
+            "55.90",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase from Smithsonian Collections Acquisition and Decorative Arts Association Acquisition Funds",
     "description": "The \"Irrgarten\" design consists of stylized, spiky plant leaves in red color variation.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424750",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/10571_3dc827d8f5d14b8b_b.jpg",
                 "width": 1024,
                 "height": 676,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/10571_3dc827d8f5d14b8b_n.jpg",
-                "width": 320,
-                "height": 211,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "10571"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/10571_3dc827d8f5d14b8b_z.jpg",
                 "width": 640,
                 "height": 422,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "10571"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/10571_3dc827d8f5d14b8b_n.jpg",
+                "width": 320,
+                "height": 211,
+                "is_primary": "1",
+                "image_id": "10571"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/10571_3dc827d8f5d14b8b_d.gif",
+                "width": 320,
+                "height": 211,
+                "is_primary": "1",
+                "image_id": "10571"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/10571_3dc827d8f5d14b8b_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "10571"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "51676457",
             "role_id": "35352245",
             "person_name": "Karin Zonis",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/51676457\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18049365",
             "role_id": "35352247",
             "person_name": "Decorative Arts Association Acquisition Fund",
+            "person_date": "founded 1982, closed September 30, 1998",
             "role_name": "Fund",
+            "role_display_name": "Fund:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049365\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352247\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18538455",
             "role_id": "35352249",
             "person_name": "Wolfgang Ruf",
+            "person_date": "",
             "role_name": "Vendor",
+            "role_display_name": "Purchased from",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18538455\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352249\/"
         },
@@ -78,7 +110,9 @@
             "person_id": "18048101",
             "role_id": "35236675",
             "person_name": "Wiener Werkst\u00e4tte",
+            "person_date": "Vienna, Austria, 1903\u20131932",
             "role_name": "For",
+            "role_display_name": "Made for",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18048101\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236675\/"
         },
@@ -86,34 +120,41 @@
             "person_id": "18044265",
             "role_id": "35236655",
             "person_name": "Dagobert Peche",
+            "person_date": "Austrian, 1887\u20131923; active Vienna 1911\u20131923",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18044265\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
     ],
     "tombstone": {
-        "epitaph": "Drawing, \"Design for a Textile:  Irrgarten (Maze)\", 1913. Brush and gouache, black ink, graphite on paper. Museum purchase from Smithsonian Collections Acquisition and Decorative Arts Association Acquisition Funds. 1988-62-696."
+        "epitaph": "Drawing, \"Irrgarten (Maze): Red\", 1913. Brush and gouache, black ink, graphite on paper. Museum purchase from Smithsonian Collections Acquisition and Decorative Arts Association Acquisition Funds. 1988-62-696."
     },
     "colors": [
         {
             "color": "#986957",
-            "closest_css3": "#a0522d"
+            "closest_crayola": "#a5694f",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         },
         {
-            "color": "#704d3e",
-            "closest_css3": "#556b2f"
+            "color": "#734c3d",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         },
         {
-            "color": "#f1d3b8",
-            "closest_css3": "#f5deb3"
+            "color": "#f0caaa",
+            "closest_crayola": "#efcdb8",
+            "closest_css3": "#f5deb3",
+            "closest_css4": "#f5deb3"
         },
         {
-            "color": "#c39076",
-            "closest_css3": "#bc8f8f"
-        },
-        {
-            "color": "#913e31",
-            "closest_css3": "#a0522d"
+            "color": "#c29077",
+            "closest_crayola": "#cd9575",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         }
-    ]
+    ],
+    "woe:country_name": "Austria"
 }

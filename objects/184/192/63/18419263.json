@@ -3,6 +3,7 @@
     "tms:id": "119868",
     "accession_number": "1957-46-19",
     "title": "Drawing, \"Design for a  Textile\", ca. 1801",
+    "title_raw": "Design for a  Textile",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18419263\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1811,
     "year_acquired": "1957",
     "decade": null,
-    "woe:country": "23424957",
+    "woe:country_id": "23424957",
     "medium": "Pen and black ink, brush and gouache and watercolor, graphite, on gray laid paper",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "47.7 x 34.0 cm (18 3\/4 x 13 3\/8 in. )",
+    "dimensions_raw": {
+        "height": [
+            "47.70",
+            "centimeters"
+        ],
+        "width": [
+            "55.90",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase from Friends of the Museum Fund",
     "description": "Textile design with variations. Two floral designs, upper and lower left, with central posie. Upper background is small yellow flowers, while lower design has denser red vine and flower pattern. Four band designs at right: horizontal stripes bound by gold twists, vertical bands of red circles on yellow, wavy vertical stripes in pink and red, and wavy gold band with small crescents.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424957",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/5913_0606a08adbff9bb7_b.jpg",
                 "width": 733,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/5913_0606a08adbff9bb7_n.jpg",
-                "width": 229,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "5913"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/5913_0606a08adbff9bb7_z.jpg",
                 "width": 458,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "5913"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/5913_0606a08adbff9bb7_n.jpg",
+                "width": 229,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "5913"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/5913_0606a08adbff9bb7_d.gif",
+                "width": 229,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "5913"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/5913_0606a08adbff9bb7_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "5913"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18539111",
             "role_id": "35352249",
             "person_name": "P.L. Bader",
+            "person_date": "",
             "role_name": "Vendor",
+            "role_display_name": "Purchased from",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18539111\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352249\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18041965",
             "role_id": "35236675",
             "person_name": "Fabrique de Fazy aux Bergues",
+            "person_date": "",
             "role_name": "For",
+            "role_display_name": "Made for",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041965\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236675\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18041963",
             "role_id": "35236655",
             "person_name": "Louis-Albert DuBois",
+            "person_date": "Swiss, 1752\u20131818",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041963\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
@@ -80,24 +112,35 @@
     },
     "colors": [
         {
-            "color": "#d2c01f",
-            "closest_css3": "#daa520"
+            "color": "#ad0103",
+            "closest_crayola": "#9c2542",
+            "closest_css3": "#8b0000",
+            "closest_css4": "#8b0000"
         },
         {
-            "color": "#e51017",
-            "closest_css3": "#ff0000"
+            "color": "#cbb01e",
+            "closest_crayola": "#ffae42",
+            "closest_css3": "#daa520",
+            "closest_css4": "#daa520"
         },
         {
-            "color": "#a90102",
-            "closest_css3": "#8b0000"
+            "color": "#f7e634",
+            "closest_crayola": "#fefe22",
+            "closest_css3": "#ffd700",
+            "closest_css4": "#ffd700"
         },
         {
-            "color": "#f99dae",
-            "closest_css3": "#ffb6c1"
+            "color": "#bc8684",
+            "closest_crayola": "#cd9575",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         },
         {
-            "color": "#dcdacc",
-            "closest_css3": "#d3d3d3"
+            "color": "#f68d9d",
+            "closest_crayola": "#f78fa7",
+            "closest_css3": "#f08080",
+            "closest_css4": "#f08080"
         }
-    ]
+    ],
+    "woe:country_name": "Switzerland"
 }

@@ -3,6 +3,7 @@
     "tms:id": "191267",
     "accession_number": "1989-41-144",
     "title": "Figure, \"Militia Woman\", 1920",
+    "title_raw": "Militia Woman",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18632849\/",
     "department_id": "35347497",
     "period_id": null,
@@ -13,39 +14,60 @@
     "year_end": 1920,
     "year_acquired": "1989",
     "decade": "1920",
-    "woe:country": null,
+    "woe:country_id": null,
     "medium": "Enameled porcelain",
     "markings": "underside: hammer, sickle, cog stamped in green underglaze; hammer, sickle, cog, KNP, 5, 1918-1923 (special jubilee mark for the fifth anniversary of the State Porcelain Factory association with Narkompros), 39\/45 hand-painted in black overglaze; IK impressed in clay; N.Danko impressed on side of base.",
     "signed": null,
     "inscribed": null,
     "provenance": "The Henry and Ludmilla Shapiro Collection; 1989: acquired by Museum",
     "dimensions": "20 cm (7 7\/8 in.)",
+    "dimensions_raw": {
+        "height": [
+            "20.00",
+            "centimeters"
+        ]
+    },
     "creditline": "The Henry and Ludmilla Shapiro Collection; Partial gift and partial purchase through the Decorative Arts Association Acquisition and Smithsonian Collections Acquisition Program Funds",
     "description": "Young woman standing, holding rifle strapped over left shoulder, her right hand in pocket of jacket; she stands on base with raised inscription \"1920.\"",
     "justification": null,
-    "type": {
-        "id": "35237189",
-        "name": "Figure"
-    },
+    "woe:country": null,
+    "type": "Figure",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/11030_03e629c12d119da1_b.jpg",
                 "width": 649,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/11030_03e629c12d119da1_n.jpg",
-                "width": 203,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "11030"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/11030_03e629c12d119da1_z.jpg",
                 "width": 406,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "11030"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/11030_03e629c12d119da1_n.jpg",
+                "width": 203,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "11030"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/11030_03e629c12d119da1_d.gif",
+                "width": 203,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "11030"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/11030_03e629c12d119da1_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "11030"
             }
         }
     ],
@@ -54,7 +76,9 @@
             "person_id": "18047827",
             "role_id": "35352245",
             "person_name": "Deborah S. Shinn",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047827\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -62,7 +86,9 @@
             "person_id": "18045257",
             "role_id": "35236771",
             "person_name": "Ivan Kuznetsov",
+            "person_date": "",
             "role_name": "Model maker",
+            "role_display_name": "Model maker:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18045257\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236771\/"
         },
@@ -70,7 +96,9 @@
             "person_id": "18045193",
             "role_id": "35236655",
             "person_name": "Natalya Yakovlevna Danko",
+            "person_date": "Russian, b. Georgia, 1892\u20131942",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18045193\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -78,7 +106,9 @@
             "person_id": "18045179",
             "role_id": "35236657",
             "person_name": "State Porcelain Factory",
+            "person_date": "Leningrad, USSR, founded 1918",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18045179\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         }
@@ -88,24 +118,34 @@
     },
     "colors": [
         {
-            "color": "#9d95ab",
-            "closest_css3": "#a9a9a9"
+            "color": "#b2a7bc",
+            "closest_crayola": "#b0b7c6",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
+        },
+        {
+            "color": "#7f7b92",
+            "closest_crayola": "#757575",
+            "closest_css3": "#708090",
+            "closest_css4": "#708090"
         },
         {
             "color": "#e2d8e8",
-            "closest_css3": "#dcdcdc"
+            "closest_crayola": "#ebc7df",
+            "closest_css3": "#dcdcdc",
+            "closest_css4": "#dcdcdc"
         },
         {
-            "color": "#5d5b6c",
-            "closest_css3": "#696969"
+            "color": "#5e5c6c",
+            "closest_crayola": "#4a646c",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#7a768d",
-            "closest_css3": "#708090"
-        },
-        {
-            "color": "#d2877b",
-            "closest_css3": "#e9967a"
+            "color": "#323034",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         }
     ]
 }

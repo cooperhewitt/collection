@@ -3,6 +3,7 @@
     "tms:id": "177038",
     "accession_number": "1981-28-424",
     "title": "Sampler, 1826",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18617017\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1826,
     "year_acquired": "1981",
     "decade": null,
-    "woe:country": "23424950",
+    "woe:country_id": "23424950",
     "medium": "Medium: silk embroidery on linen foundation\nTechnique: embroidered in satin, stem, and cross stitches on plain weave foundation",
     "markings": null,
     "signed": null,
     "inscribed": "Me hizo Francisca Montero en casa de mi maestra Do\u00f1a Maria Coller. Se acabo dia 7 de diciembre a\u00f1o 1826",
     "provenance": null,
     "dimensions": "H x W: 59.1 x 62.2 cm (23 1\/4 x 24 1\/2 in.)",
+    "dimensions_raw": {
+        "height": [
+            "59.06",
+            "centimeters"
+        ],
+        "width": [
+            "62.23",
+            "centimeters"
+        ]
+    },
     "creditline": "Bequest of Gertrude M. Oppenheimer",
     "description": "Center field with IHS and spot motifs, surrounded by concentric bands of floral, geometric and interlacing patterns, embroidered in pale blue, green, terra cotta and peach on a natural ground.",
     "justification": null,
-    "type": {
-        "id": "35256439",
-        "name": "Sampler"
-    },
+    "woe:country": "23424950",
+    "type": "Sampler",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/40692_955f1f096d09e40b_b.jpg",
                 "width": 1024,
                 "height": 981,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/40692_955f1f096d09e40b_n.jpg",
-                "width": 320,
-                "height": 307,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "40692"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/40692_955f1f096d09e40b_z.jpg",
                 "width": 640,
                 "height": 613,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "40692"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/40692_955f1f096d09e40b_n.jpg",
+                "width": 320,
+                "height": 307,
+                "is_primary": "1",
+                "image_id": "40692"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/40692_955f1f096d09e40b_d.gif",
+                "width": 320,
+                "height": 307,
+                "is_primary": "1",
+                "image_id": "40692"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/40692_955f1f096d09e40b_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "40692"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/34476_b619767c5b169f25_b.jpg",
                 "width": 1024,
                 "height": 973,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/34476_b619767c5b169f25_n.jpg",
-                "width": 320,
-                "height": 304,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "34476"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/34476_b619767c5b169f25_z.jpg",
                 "width": 640,
                 "height": 608,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "34476"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/34476_b619767c5b169f25_n.jpg",
+                "width": 320,
+                "height": 304,
+                "is_primary": "0",
+                "image_id": "34476"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/34476_b619767c5b169f25_d.gif",
+                "width": 320,
+                "height": 304,
+                "is_primary": "0",
+                "image_id": "34476"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/34476_b619767c5b169f25_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "34476"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18055143",
             "role_id": "35352245",
             "person_name": "Susan J. Brown",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18055143\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18050567",
             "role_id": "35351537",
             "person_name": "Gertrude M. Oppenheimer",
+            "person_date": "",
             "role_name": "Bequestor",
+            "role_display_name": "Bequest of",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18050567\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351537\/"
         },
@@ -90,9 +137,21 @@
             "person_id": "18050949",
             "role_id": "35236583",
             "person_name": "Francisca Montero",
+            "person_date": "",
             "role_name": "Embroiderer",
+            "role_display_name": "Embroidered by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18050949\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236583\/"
+        },
+        {
+            "person_id": "68739083",
+            "role_id": "35236795",
+            "person_name": "Maria Coller",
+            "person_date": "",
+            "role_name": "Student of",
+            "role_display_name": "Student of",
+            "person_url": "http:\/\/collection.cooperhewitt.org\/people\/68739083\/",
+            "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236795\/"
         }
     ],
     "tombstone": {
@@ -100,24 +159,29 @@
     },
     "colors": [
         {
-            "color": "#ccab7d",
-            "closest_css3": "#d2b48c"
+            "color": "#b68157",
+            "closest_crayola": "#a57164",
+            "closest_css3": "#cd853f",
+            "closest_css4": "#cd853f"
         },
         {
-            "color": "#b7784d",
-            "closest_css3": "#cd853f"
+            "color": "#abaa8f",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
         },
         {
-            "color": "#aaa98f",
-            "closest_css3": "#a9a9a9"
+            "color": "#808057",
+            "closest_crayola": "#8a795d",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#908e63",
-            "closest_css3": "#808080"
-        },
-        {
-            "color": "#70764d",
-            "closest_css3": "#696969"
+            "color": "#cba978",
+            "closest_crayola": "#cd9575",
+            "closest_css3": "#bdb76b",
+            "closest_css4": "#bdb76b"
         }
-    ]
+    ],
+    "woe:country_name": "Spain"
 }

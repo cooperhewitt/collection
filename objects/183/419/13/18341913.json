@@ -3,6 +3,7 @@
     "tms:id": "54782",
     "accession_number": "1936-4-324",
     "title": "Tsuba, 1772\u201380",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18341913\/",
     "department_id": "35347497",
     "period_id": null,
@@ -13,39 +14,68 @@
     "year_end": 1852,
     "year_acquired": "1936",
     "decade": null,
-    "woe:country": "23424856",
+    "woe:country_id": "23424856",
     "medium": "Iron",
     "markings": null,
     "signed": null,
     "inscribed": "Mu mei",
     "provenance": "George Cameron Stone; 1936: acquired by Museum",
     "dimensions": "H x W x D: 8.2 x 8 x 0.4cm (3 1\/4 x 3 1\/8 x 3\/16in.)",
+    "dimensions_raw": {
+        "depth": [
+            "0.40",
+            "centimeters"
+        ],
+        "height": [
+            "8.20",
+            "centimeters"
+        ],
+        "width": [
+            "8.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Bequest of George Cameron Stone",
     "description": "Circular form with openwork decoration of bamboo foliage and trees surrounding three openings in center for sword and two fittings.",
     "justification": null,
-    "type": {
-        "id": "35256245",
-        "name": "Tsuba"
-    },
+    "woe:country": "23424856",
+    "type": "Tsuba",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/22172_880fc353a141bded_b.jpg",
                 "width": 909,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/22172_880fc353a141bded_n.jpg",
-                "width": 284,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "22172"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/22172_880fc353a141bded_z.jpg",
                 "width": 568,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "22172"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/22172_880fc353a141bded_n.jpg",
+                "width": 284,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "22172"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/22172_880fc353a141bded_d.gif",
+                "width": 284,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "22172"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/22172_880fc353a141bded_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "22172"
             }
         },
         {
@@ -53,19 +83,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/2733_d80648ea63b1e232_b.jpg",
                 "width": 963,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/2733_d80648ea63b1e232_n.jpg",
-                "width": 301,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "2733"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/2733_d80648ea63b1e232_z.jpg",
                 "width": 602,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "2733"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/2733_d80648ea63b1e232_n.jpg",
+                "width": 301,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "2733"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/2733_d80648ea63b1e232_d.gif",
+                "width": 301,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "2733"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/2733_d80648ea63b1e232_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "2733"
             }
         }
     ],
@@ -74,7 +121,9 @@
             "person_id": "18539549",
             "role_id": "35352245",
             "person_name": "Felicia M. Sterling",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18539549\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -82,7 +131,9 @@
             "person_id": "18052181",
             "role_id": "35351537",
             "person_name": "George Cameron Stone",
+            "person_date": "",
             "role_name": "Bequestor",
+            "role_display_name": "Bequest of",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18052181\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351537\/"
         }
@@ -93,15 +144,28 @@
     "colors": [
         {
             "color": "#2e292f",
-            "closest_css3": "#2f4f4f"
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#5c5656",
-            "closest_css3": "#696969"
+            "color": "#4e4848",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#7b7473",
-            "closest_css3": "#808080"
+            "color": "#9c9693",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
+        },
+        {
+            "color": "#706968",
+            "closest_crayola": "#757575",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         }
-    ]
+    ],
+    "woe:country_name": "Japan"
 }

@@ -3,6 +3,7 @@
     "tms:id": "6630",
     "accession_number": "1898-1-10",
     "title": "Fragment, 16th\u201317th century",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18102469\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": null,
     "year_acquired": "1898",
     "decade": null,
-    "woe:country": "23424950",
+    "woe:country_id": "23424950",
     "medium": "Medium: silk\nTechnique: damask,  5 unit satin",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "H x W: 62.2 x 41.9 cm (24 1\/2 x 16 1\/2 in.)",
+    "dimensions_raw": {
+        "height": [
+            "62.23",
+            "centimeters"
+        ],
+        "width": [
+            "41.91",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Raimundo de Madrazo",
     "description": null,
     "justification": null,
-    "type": {
-        "id": "35254623",
-        "name": "Fragment"
-    },
+    "woe:country": "23424950",
+    "type": "Fragment",
     "images": [
         {
             "b": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/88228_b6ae8ec6382e4ca0_b.jpg",
-                "width": 684,
+                "url": "http:\/\/images.collection.cooperhewitt.org\/88228_14e487a5b48e349b_b.jpg",
+                "width": 709,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/88228_b6ae8ec6382e4ca0_n.jpg",
-                "width": 214,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "88228"
             },
             "z": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/88228_b6ae8ec6382e4ca0_z.jpg",
-                "width": 428,
+                "url": "http:\/\/images.collection.cooperhewitt.org\/88228_14e487a5b48e349b_z.jpg",
+                "width": 443,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "88228"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/88228_14e487a5b48e349b_n.jpg",
+                "width": 222,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "88228"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/88228_14e487a5b48e349b_d.gif",
+                "width": 222,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "88228"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/88228_14e487a5b48e349b_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "88228"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/38742_bb1eb3aee0c2a95e_b.jpg",
                 "width": 691,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/38742_bb1eb3aee0c2a95e_n.jpg",
-                "width": 216,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "38742"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/38742_bb1eb3aee0c2a95e_z.jpg",
                 "width": 432,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "38742"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/38742_bb1eb3aee0c2a95e_n.jpg",
+                "width": 216,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "38742"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/38742_bb1eb3aee0c2a95e_d.gif",
+                "width": 216,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "38742"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/38742_bb1eb3aee0c2a95e_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "38742"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18052383",
             "role_id": "35351535",
             "person_name": "Raimundo de Madrazo",
+            "person_date": "Spanish, 1841\u20131920",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18052383\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -84,16 +129,17 @@
     },
     "colors": [
         {
-            "color": "#a67c49",
-            "closest_css3": "#cd853f"
+            "color": "#9f7245",
+            "closest_crayola": "#a5694f",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         },
         {
-            "color": "#90613f",
-            "closest_css3": "#a0522d"
-        },
-        {
-            "color": "#d9c7ba",
-            "closest_css3": "#c0c0c0"
+            "color": "#c8ad94",
+            "closest_crayola": "#deaa88",
+            "closest_css3": "#d2b48c",
+            "closest_css4": "#d2b48c"
         }
-    ]
+    ],
+    "woe:country_name": "Spain"
 }

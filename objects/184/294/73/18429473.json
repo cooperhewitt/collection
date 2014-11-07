@@ -3,6 +3,7 @@
     "tms:id": "125125",
     "accession_number": "1959-98-3",
     "title": "Sample, \"Riggs Sargent\", 1959",
+    "title_raw": "Riggs Sargent",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18429473\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1959,
     "year_acquired": "1959",
     "decade": "1950",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Medium: 70% wool, 30% viscose\nTechnique: float weave patterning",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "Warp x Weft: 64.8 x 45.1 cm (25 1\/2 x 17 3\/4 in.)",
+    "dimensions_raw": {
+        "warp": [
+            "64.77",
+            "centimeters"
+        ],
+        "weft": [
+            "45.09",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase from Au Panier Fleuri Fund",
     "description": "Alternating white and gray warps; weft is orange and olive. Both warp and weft have floats in order to make an irregular pattern of squares and rectangles.",
     "justification": null,
-    "type": {
-        "id": "35268079",
-        "name": "Sample"
-    },
+    "woe:country": "23424977",
+    "type": "Sample",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/48514_cca545a06c6fe443_b.jpg",
                 "width": 1024,
                 "height": 734,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/48514_cca545a06c6fe443_n.jpg",
-                "width": 320,
-                "height": 229,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "48514"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/48514_cca545a06c6fe443_z.jpg",
                 "width": 640,
                 "height": 459,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "48514"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/48514_cca545a06c6fe443_n.jpg",
+                "width": 320,
+                "height": 229,
+                "is_primary": "1",
+                "image_id": "48514"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/48514_cca545a06c6fe443_d.gif",
+                "width": 320,
+                "height": 229,
+                "is_primary": "1",
+                "image_id": "48514"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/48514_cca545a06c6fe443_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "48514"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18045519",
             "role_id": "35352249",
             "person_name": "Jack Lenor Larsen Inc. (New York, NY)",
+            "person_date": "",
             "role_name": "Vendor",
+            "role_display_name": "Purchased from",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18045519\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352249\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18045519",
             "role_id": "35236671",
             "person_name": "Jack Lenor Larsen Inc. (New York, NY)",
+            "person_date": "",
             "role_name": "Producer",
+            "role_display_name": "Produced by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18045519\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236671\/"
         }
@@ -72,24 +102,35 @@
     },
     "colors": [
         {
-            "color": "#6e3a1b",
-            "closest_css3": "#8b4513"
+            "color": "#97632c",
+            "closest_crayola": "#9c7c38",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         },
         {
-            "color": "#9c6832",
-            "closest_css3": "#a0522d"
+            "color": "#733414",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#8b4513",
+            "closest_css4": "#8b4513"
         },
         {
-            "color": "#a54215",
-            "closest_css3": "#8b4513"
+            "color": "#a44114",
+            "closest_crayola": "#c46210",
+            "closest_css3": "#8b4513",
+            "closest_css4": "#8b4513"
         },
         {
-            "color": "#785e42",
-            "closest_css3": "#556b2f"
+            "color": "#694b30",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         },
         {
-            "color": "#bd9c74",
-            "closest_css3": "#bdb76b"
+            "color": "#b7956d",
+            "closest_crayola": "#cd9575",
+            "closest_css3": "#bdb76b",
+            "closest_css4": "#bdb76b"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

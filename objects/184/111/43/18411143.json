@@ -3,6 +3,7 @@
     "tms:id": "115791",
     "accession_number": "1956-84-1",
     "title": "Hanging, \"Sailors Take Warning\", ca. 1928",
+    "title_raw": "Sailors Take Warning",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18411143\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1933,
     "year_acquired": "1956",
     "decade": "1920",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Medium: silk, chenille\nTechnique: plain weave with discontinuous wefts (interlocking, slit, eccentric tapestry)",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "1956: acquired by Museum",
     "dimensions": "H x W: 37 x 53 cm (14 9\/16 x 20 7\/8 in.)",
+    "dimensions_raw": {
+        "height": [
+            "37.00",
+            "centimeters"
+        ],
+        "width": [
+            "53.00",
+            "centimeters"
+        ]
+    },
     "creditline": null,
     "description": "Landscape with high sky, in bright pink, blues, green, black silk and off-white chenille wefts, on bright orange warps.",
     "justification": null,
-    "type": {
-        "id": "35257233",
-        "name": "Hanging"
-    },
+    "woe:country": "23424977",
+    "type": "Hanging",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/81744_d80fb376ad572cbf_b.jpg",
                 "width": 996,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/81744_d80fb376ad572cbf_n.jpg",
-                "width": 311,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "81744"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/81744_d80fb376ad572cbf_z.jpg",
                 "width": 623,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "81744"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/81744_d80fb376ad572cbf_n.jpg",
+                "width": 311,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "81744"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/81744_d80fb376ad572cbf_d.gif",
+                "width": 311,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "81744"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/81744_d80fb376ad572cbf_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "81744"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/18519_e3737d8d48536a42_b.jpg",
                 "width": 1024,
                 "height": 1021,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/18519_e3737d8d48536a42_n.jpg",
-                "width": 320,
-                "height": 319,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "18519"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/18519_e3737d8d48536a42_z.jpg",
                 "width": 640,
                 "height": 638,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "18519"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/18519_e3737d8d48536a42_n.jpg",
+                "width": 320,
+                "height": 319,
+                "is_primary": "0",
+                "image_id": "18519"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/18519_e3737d8d48536a42_d.gif",
+                "width": 320,
+                "height": 319,
+                "is_primary": "0",
+                "image_id": "18519"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/18519_e3737d8d48536a42_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "18519"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18046231",
             "role_id": "35236655",
             "person_name": "Edith Huntington Snow",
+            "person_date": "American, 1876\u20131960",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18046231\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18046231",
             "role_id": "35236745",
             "person_name": "Edith Huntington Snow",
+            "person_date": "American, 1876\u20131960",
             "role_name": "Weaver",
+            "role_display_name": "Woven by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18046231\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236745\/"
         }
@@ -92,24 +139,35 @@
     },
     "colors": [
         {
-            "color": "#9f3410",
-            "closest_css3": "#8b4513"
+            "color": "#632e15",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#8b4513",
+            "closest_css4": "#8b4513"
         },
         {
-            "color": "#562a15",
-            "closest_css3": "#8b4513"
+            "color": "#aa3e16",
+            "closest_crayola": "#c46210",
+            "closest_css3": "#a52a2a",
+            "closest_css4": "#a52a2a"
         },
         {
-            "color": "#a95926",
-            "closest_css3": "#a0522d"
+            "color": "#814f2d",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#8b4513",
+            "closest_css4": "#8b4513"
         },
         {
-            "color": "#ac784b",
-            "closest_css3": "#cd853f"
+            "color": "#a96f3d",
+            "closest_crayola": "#9c7c38",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         },
         {
-            "color": "#7c5b37",
-            "closest_css3": "#a0522d"
+            "color": "#d39370",
+            "closest_crayola": "#cd9575",
+            "closest_css3": "#e9967a",
+            "closest_css4": "#e9967a"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

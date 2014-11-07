@@ -3,6 +3,7 @@
     "tms:id": "199966",
     "accession_number": "1995-142-1",
     "title": "Textile, 1950\u201359",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18650083\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1959,
     "year_acquired": "1995",
     "decade": "1950",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Medium: cotton\nTechnique: screen printed",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "H x W: 47 x 60.3 cm (18 1\/2 x 23 3\/4 in.)\nRepeat H x W: 26 x 58.4 cm (10 1\/4 x 23 in.)",
+    "dimensions_raw": {
+        "height": [
+            "46.99",
+            "centimeters"
+        ],
+        "width": [
+            "60.33",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of David Dutra",
     "description": "Tile-like pattern of octagons joined by small diamonds; motifs alternate palm trees and abstract diagonal forms; in black, brown, green, orange and yellow on a white ground.",
     "justification": null,
-    "type": {
-        "id": "35251739",
-        "name": "textile"
-    },
+    "woe:country": "23424977",
+    "type": "textile",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/41357_d44d4c593fea09cb_b.jpg",
                 "width": 1024,
                 "height": 822,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/41357_d44d4c593fea09cb_n.jpg",
-                "width": 320,
-                "height": 257,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "41357"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/41357_d44d4c593fea09cb_z.jpg",
                 "width": 640,
                 "height": 514,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "41357"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/41357_d44d4c593fea09cb_n.jpg",
+                "width": 320,
+                "height": 257,
+                "is_primary": "1",
+                "image_id": "41357"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/41357_d44d4c593fea09cb_d.gif",
+                "width": 320,
+                "height": 257,
+                "is_primary": "1",
+                "image_id": "41357"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/41357_d44d4c593fea09cb_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "41357"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/33332_b9974e0602e9a1fc_b.jpg",
                 "width": 1024,
                 "height": 798,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/33332_b9974e0602e9a1fc_n.jpg",
-                "width": 320,
-                "height": 249,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "33332"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/33332_b9974e0602e9a1fc_z.jpg",
                 "width": 640,
                 "height": 499,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "33332"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/33332_b9974e0602e9a1fc_n.jpg",
+                "width": 320,
+                "height": 249,
+                "is_primary": "0",
+                "image_id": "33332"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/33332_b9974e0602e9a1fc_d.gif",
+                "width": 320,
+                "height": 249,
+                "is_primary": "0",
+                "image_id": "33332"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/33332_b9974e0602e9a1fc_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "33332"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18041745",
             "role_id": "35351535",
             "person_name": "David Dutra",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041745\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -84,24 +129,35 @@
     },
     "colors": [
         {
-            "color": "#e3d4ae",
-            "closest_css3": "#f5deb3"
+            "color": "#d1b79d",
+            "closest_crayola": "#e7c697",
+            "closest_css3": "#d2b48c",
+            "closest_css4": "#d2b48c"
         },
         {
-            "color": "#d4be4e",
-            "closest_css3": "#bdb76b"
+            "color": "#d9c35a",
+            "closest_crayola": "#bab86c",
+            "closest_css3": "#bdb76b",
+            "closest_css4": "#bdb76b"
         },
         {
-            "color": "#c8ab91",
-            "closest_css3": "#d2b48c"
+            "color": "#2f2e2b",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#2f2c29",
-            "closest_css3": "#2f4f4f"
+            "color": "#af8d76",
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         },
         {
-            "color": "#c04e28",
-            "closest_css3": "#a0522d"
+            "color": "#825f4c",
+            "closest_crayola": "#85754e",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

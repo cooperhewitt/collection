@@ -3,6 +3,7 @@
     "tms:id": "99459",
     "accession_number": "1948-85-13",
     "title": "Hand-woven Sample, ca. 1945",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18612287\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1950,
     "year_acquired": "1948",
     "decade": "1940",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Medium: wool\nTechnique: plain weave",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "1948: acquired by Museum (from Anni Albers)",
     "dimensions": "Warp x Weft: 16.5 x 19 cm (6 1\/2 x 7 1\/2 in.)",
+    "dimensions_raw": {
+        "warp": [
+            "16.50",
+            "centimeters"
+        ],
+        "weft": [
+            "19.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase through gift of Mrs. John Innes Kane",
     "description": "Hand-woven sample with subtle narrow horizontal stripes of tan, light orange, light blue and green. The warp is green.",
     "justification": null,
-    "type": {
-        "id": "68244875",
-        "name": "Hand-woven sample"
-    },
+    "woe:country": "23424977",
+    "type": "Hand-woven sample",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/41750_4f1a7d17811fbfe4_b.jpg",
                 "width": 1024,
                 "height": 880,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/41750_4f1a7d17811fbfe4_n.jpg",
-                "width": 320,
-                "height": 275,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "41750"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/41750_4f1a7d17811fbfe4_z.jpg",
                 "width": 640,
                 "height": 550,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "41750"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/41750_4f1a7d17811fbfe4_n.jpg",
+                "width": 320,
+                "height": 275,
+                "is_primary": "1",
+                "image_id": "41750"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/41750_4f1a7d17811fbfe4_d.gif",
+                "width": 320,
+                "height": 275,
+                "is_primary": "1",
+                "image_id": "41750"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/41750_4f1a7d17811fbfe4_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "41750"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/15471_6ddbd19815c2b347_b.jpg",
                 "width": 1024,
                 "height": 679,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/15471_6ddbd19815c2b347_n.jpg",
-                "width": 320,
-                "height": 212,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "15471"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/15471_6ddbd19815c2b347_z.jpg",
                 "width": 640,
                 "height": 425,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "15471"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/15471_6ddbd19815c2b347_n.jpg",
+                "width": 320,
+                "height": 212,
+                "is_primary": "0",
+                "image_id": "15471"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/15471_6ddbd19815c2b347_d.gif",
+                "width": 320,
+                "height": 212,
+                "is_primary": "0",
+                "image_id": "15471"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/15471_6ddbd19815c2b347_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "15471"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18046221",
             "role_id": "35236745",
             "person_name": "Anni Albers",
+            "person_date": "American, b. Germany., 1899 - 1994",
             "role_name": "Weaver",
+            "role_display_name": "Woven by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18046221\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236745\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18046221",
             "role_id": "35352249",
             "person_name": "Anni Albers",
+            "person_date": "American, b. Germany., 1899 - 1994",
             "role_name": "Vendor",
+            "role_display_name": "Purchased from",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18046221\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352249\/"
         },
@@ -90,7 +137,9 @@
             "person_id": "18046221",
             "role_id": "35236655",
             "person_name": "Anni Albers",
+            "person_date": "American, b. Germany., 1899 - 1994",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18046221\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
@@ -100,24 +149,35 @@
     },
     "colors": [
         {
-            "color": "#6f7d43",
-            "closest_css3": "#6b8e23"
+            "color": "#707e46",
+            "closest_crayola": "#85754e",
+            "closest_css3": "#6b8e23",
+            "closest_css4": "#6b8e23"
         },
         {
-            "color": "#97a564",
-            "closest_css3": "#bdb76b"
+            "color": "#54612d",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         },
         {
-            "color": "#52602b",
-            "closest_css3": "#556b2f"
+            "color": "#919e5e",
+            "closest_crayola": "#87a96b",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#776d47",
-            "closest_css3": "#696969"
+            "color": "#796f4a",
+            "closest_crayola": "#85754e",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#d7d3cc",
-            "closest_css3": "#d3d3d3"
+            "color": "#c0c2a1",
+            "closest_crayola": "#cdc5c2",
+            "closest_css3": "#d2b48c",
+            "closest_css4": "#d2b48c"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

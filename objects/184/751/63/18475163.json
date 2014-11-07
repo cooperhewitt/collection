@@ -3,6 +3,7 @@
     "tms:id": "148344",
     "accession_number": "1971-57-2-f",
     "title": "Drawing, \"Mise-en-carte for Textile No. 8672\", May 24, 1924",
+    "title_raw": "Mise-en-carte for Textile No. 8672",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18475163\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1924,
     "year_acquired": "1971",
     "decade": "1920",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Brush and gouache, graphite on pre-printed graph paper",
     "markings": null,
     "signed": "Signed in black ink, verso: W. K. Ayling\/May 24. '24",
     "inscribed": null,
     "provenance": null,
     "dimensions": "18.5 x 45.5 cm (7 5\/16 x 17 15\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "18.50",
+            "centimeters"
+        ],
+        "width": [
+            "45.50",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Orinoka Mills",
     "description": "Floral pattern with stylized flowers and leaves.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424977",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/39637_91cbef1a7b331e5e_b.jpg",
                 "width": 1024,
                 "height": 422,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/39637_91cbef1a7b331e5e_n.jpg",
-                "width": 320,
-                "height": 132,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "39637"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/39637_91cbef1a7b331e5e_z.jpg",
                 "width": 640,
                 "height": 263,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "39637"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/39637_91cbef1a7b331e5e_n.jpg",
+                "width": 320,
+                "height": 132,
+                "is_primary": "1",
+                "image_id": "39637"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/39637_91cbef1a7b331e5e_d.gif",
+                "width": 320,
+                "height": 132,
+                "is_primary": "1",
+                "image_id": "39637"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/39637_91cbef1a7b331e5e_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "39637"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18046321",
             "role_id": "35351535",
             "person_name": "Orinoka Mills",
+            "person_date": "USA",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18046321\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "51676457",
             "role_id": "35352245",
             "person_name": "Karin Zonis",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/51676457\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "51676615",
             "role_id": "35236661",
             "person_name": "F. Jones & Co.",
+            "person_date": "",
             "role_name": "Publisher",
+            "role_display_name": "Published by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/51676615\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236661\/"
         },
@@ -78,9 +110,21 @@
             "person_id": "18046321",
             "role_id": "35236657",
             "person_name": "Orinoka Mills",
+            "person_date": "USA",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18046321\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
+        },
+        {
+            "person_id": "68739209",
+            "role_id": "35236655",
+            "person_name": "M. K. Ayling",
+            "person_date": "American",
+            "role_name": "Designer",
+            "role_display_name": "Designed by",
+            "person_url": "http:\/\/collection.cooperhewitt.org\/people\/68739209\/",
+            "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
     ],
     "tombstone": {
@@ -88,24 +132,35 @@
     },
     "colors": [
         {
-            "color": "#ddd1ae",
-            "closest_css3": "#f5deb3"
+            "color": "#dfd2b0",
+            "closest_crayola": "#efcdb8",
+            "closest_css3": "#f5deb3",
+            "closest_css4": "#f5deb3"
         },
         {
-            "color": "#a27335",
-            "closest_css3": "#a0522d"
+            "color": "#aa7133",
+            "closest_crayola": "#9c7c38",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         },
         {
             "color": "#436e4e",
-            "closest_css3": "#556b2f"
+            "closest_crayola": "#4a646c",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         },
         {
-            "color": "#a04938",
-            "closest_css3": "#a0522d"
+            "color": "#968f7a",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#48666e",
-            "closest_css3": "#696969"
+            "color": "#ab3f30",
+            "closest_crayola": "#9c2542",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

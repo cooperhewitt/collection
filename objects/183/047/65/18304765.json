@@ -2,7 +2,8 @@
     "id": "18304765",
     "tms:id": "39960",
     "accession_number": "1924-15-23",
-    "title": "Drawing, \"Project for a Wallpaper frieze\", 1780\u20131800",
+    "title": "Drawing, \"Design for Wallpaper Frieze\", 1780\u20131800",
+    "title_raw": "Project for a Wallpaper frieze",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18304765\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": "1800",
     "year_acquired": "1924",
     "decade": null,
-    "woe:country": "23424819",
+    "woe:country_id": "23424819",
     "medium": "Pen and ink, brush and gouache, oxydized white, black on paper",
     "markings": "Stamped in black ink, lower left: Museum for the Arts of Decoration\/ Cooper Union (Lugt 457d)",
     "signed": null,
     "inscribed": null,
     "provenance": "Sarah Cooper Hewitt and Eleanor Garnier Hewitt",
     "dimensions": "23.1 x 31.6 cm (9 1\/8 x 12 7\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "23.10",
+            "centimeters"
+        ],
+        "width": [
+            "31.60",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Eleanor and Sarah Hewitt",
     "description": "Repeat consists of group of three girls and boy, dancing, and two boys playing marbles. Trees, plants. Lower margin, frieze transposing triglyph motif into rail and garland.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424819",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/45840_b603cfe0c9d7d929_b.jpg",
                 "width": 1024,
                 "height": 759,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/45840_b603cfe0c9d7d929_n.jpg",
-                "width": 320,
-                "height": 237,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "45840"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/45840_b603cfe0c9d7d929_z.jpg",
                 "width": 640,
                 "height": 475,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "45840"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/45840_b603cfe0c9d7d929_n.jpg",
+                "width": 320,
+                "height": 237,
+                "is_primary": "1",
+                "image_id": "45840"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/45840_b603cfe0c9d7d929_d.gif",
+                "width": 320,
+                "height": 237,
+                "is_primary": "1",
+                "image_id": "45840"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/45840_b603cfe0c9d7d929_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "45840"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18049325",
             "role_id": "35351535",
             "person_name": "Eleanor Garnier Hewitt",
+            "person_date": "American, 1864\u20131924",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049325\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18049321",
             "role_id": "35351535",
             "person_name": "Sarah Cooper Hewitt",
+            "person_date": "American, 1859\u20131930",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049321\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "51676457",
             "role_id": "35352245",
             "person_name": "Karin Zonis",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/51676457\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -78,7 +110,9 @@
             "person_id": "18049325",
             "role_id": "35351535",
             "person_name": "Eleanor Garnier Hewitt",
+            "person_date": "American, 1864\u20131924",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049325\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -86,7 +120,9 @@
             "person_id": "18049321",
             "role_id": "35351535",
             "person_name": "Sarah Cooper Hewitt",
+            "person_date": "American, 1859\u20131930",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049321\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -94,34 +130,47 @@
             "person_id": "18065427",
             "role_id": "35352245",
             "person_name": "Stephanie Keating",
+            "person_date": "American",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18065427\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         }
     ],
     "tombstone": {
-        "epitaph": "Drawing, \"Project for a Wallpaper frieze\", 1780\u20131800. Pen and ink, brush and gouache, oxydized white, black on paper. Gift of Eleanor and Sarah Hewitt. 1924-15-23."
+        "epitaph": "Drawing, \"Design for Wallpaper Frieze\", 1780\u20131800. Pen and ink, brush and gouache, oxydized white, black on paper. Gift of Eleanor and Sarah Hewitt. 1924-15-23."
     },
     "colors": [
         {
-            "color": "#dbb95d",
-            "closest_css3": "#f4a460"
+            "color": "#e9deaa",
+            "closest_crayola": "#edd19c",
+            "closest_css3": "#eee8aa",
+            "closest_css4": "#eee8aa"
         },
         {
-            "color": "#b69d74",
-            "closest_css3": "#bdb76b"
+            "color": "#c0b594",
+            "closest_crayola": "#deaa88",
+            "closest_css3": "#d2b48c",
+            "closest_css4": "#d2b48c"
         },
         {
-            "color": "#e1d7a2",
-            "closest_css3": "#eee8aa"
+            "color": "#5890a3",
+            "closest_crayola": "#6699cc",
+            "closest_css3": "#5f9ea0",
+            "closest_css4": "#5f9ea0"
         },
         {
-            "color": "#477a96",
-            "closest_css3": "#4682b4"
+            "color": "#8f7c57",
+            "closest_crayola": "#8a795d",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#765d43",
-            "closest_css3": "#556b2f"
+            "color": "#bc9e4e",
+            "closest_crayola": "#d68a59",
+            "closest_css3": "#cd853f",
+            "closest_css4": "#cd853f"
         }
-    ]
+    ],
+    "woe:country_name": "France"
 }

@@ -3,6 +3,7 @@
     "tms:id": "53841",
     "accession_number": "1935-23-21",
     "title": "Textile, \"Strawberry Thief\", designed 1883, printed ca. 1934",
+    "title_raw": "Strawberry Thief",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18340065\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": null,
     "year_acquired": "1935",
     "decade": null,
-    "woe:country": "23424975",
+    "woe:country_id": "23424975",
     "medium": "Medium: cotton\nTechnique: printed on plain weave",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "H x W: 69.2 x 98.5 cm (27 1\/4 x 38 3\/4 in.)",
+    "dimensions_raw": {
+        "height": [
+            "69.22",
+            "centimeters"
+        ],
+        "width": [
+            "98.50",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Cowtan & Tout, Inc.",
     "description": "Vertically symmetrical arrangement of pairs of confronted and addorsed birds, with strawberries and flowers. Printed in several colors on a dark blue ground.",
     "justification": null,
-    "type": {
-        "id": "35251739",
-        "name": "textile"
-    },
+    "woe:country": "23424975",
+    "type": "textile",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/46225_e32e1fce4001a650_b.jpg",
                 "width": 1024,
                 "height": 723,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/46225_e32e1fce4001a650_n.jpg",
-                "width": 320,
-                "height": 226,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "46225"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/46225_e32e1fce4001a650_z.jpg",
                 "width": 640,
                 "height": 452,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "46225"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/46225_e32e1fce4001a650_n.jpg",
+                "width": 320,
+                "height": 226,
+                "is_primary": "1",
+                "image_id": "46225"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/46225_e32e1fce4001a650_d.gif",
+                "width": 320,
+                "height": 226,
+                "is_primary": "1",
+                "image_id": "46225"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/46225_e32e1fce4001a650_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "46225"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/2724_eabb062be3f7829f_b.jpg",
                 "width": 1024,
                 "height": 702,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/2724_eabb062be3f7829f_n.jpg",
-                "width": 320,
-                "height": 220,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "2724"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/2724_eabb062be3f7829f_z.jpg",
                 "width": 640,
                 "height": 439,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "2724"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/2724_eabb062be3f7829f_n.jpg",
+                "width": 320,
+                "height": 220,
+                "is_primary": "0",
+                "image_id": "2724"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/2724_eabb062be3f7829f_d.gif",
+                "width": 320,
+                "height": 220,
+                "is_primary": "0",
+                "image_id": "2724"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/2724_eabb062be3f7829f_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "2724"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18043865",
             "role_id": "35236685",
             "person_name": "Morris & Co.",
+            "person_date": "Merton Abbey, England, 1874\u20131896",
             "role_name": "Maker",
+            "role_display_name": "Made by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18043865\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236685\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18536879",
             "role_id": "35351535",
             "person_name": "Cowtan & Tout, Inc.",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18536879\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -92,24 +139,35 @@
     },
     "colors": [
         {
-            "color": "#2b3a54",
-            "closest_css3": "#2f4f4f"
+            "color": "#35435b",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#738491",
-            "closest_css3": "#708090"
+            "color": "#67754f",
+            "closest_crayola": "#85754e",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#798455",
-            "closest_css3": "#696969"
+            "color": "#7c8d96",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#778899",
+            "closest_css4": "#778899"
         },
         {
-            "color": "#57654f",
-            "closest_css3": "#696969"
+            "color": "#556676",
+            "closest_crayola": "#4a646c",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#b9846c",
-            "closest_css3": "#bc8f8f"
+            "color": "#b5846e",
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         }
-    ]
+    ],
+    "woe:country_name": "United Kingdom"
 }

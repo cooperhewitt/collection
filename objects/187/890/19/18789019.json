@@ -3,6 +3,7 @@
     "tms:id": "270821",
     "accession_number": "2011-21-3",
     "title": "Textile, \"Sequoia\", ca. 1980",
+    "title_raw": "Sequoia",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18789019\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1985,
     "year_acquired": "2011",
     "decade": "1970",
-    "woe:country": "23424829",
+    "woe:country_id": "23424829",
     "medium": "Medium: wool, rayon\nTechnique: twill woven",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "Cindia Cameron; 2011: acquired by Museum",
     "dimensions": "H x W: 28.6 x 44.5 cm (11 1\/4 x 17 1\/2 in.)",
+    "dimensions_raw": {
+        "height": [
+            "28.58",
+            "centimeters"
+        ],
+        "width": [
+            "44.45",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Cindia Cameron",
     "description": "Heavy twill with strong, irregular diagonal ribs, in deep cerise red.",
-    "justification": null,
-    "type": {
-        "id": "35251739",
-        "name": "textile"
-    },
+    "justification": "\nSuzanne Huguenin was head of Knoll\u2019s textile division from late 1955 through 1963, succeeding Eszter Haraszty, whom she had assisted from 1952 to 1955. Huguenin worked closely with Florence Knoll and the Knoll Planning Unit to create textiles suited to furniture and corporate interiors and introduced many durable weaves that became the foundation of what is now called the contract market. Swiss-born Huguenin was well connected with European weavers and started integrating more European fabrics into the line at a time when the American textile industry, especially woolens, was in decline. After leaving Knoll to start her own consulting business, Huguenin continued to supply Knoll with fabrics from small European mills. The last of these was Sequoia, a heavy twill that earned her a Resources Council Product Design Award for contemporary fabrics in 1974.\n\nThis would be the first textile by Huguenin acquired by the museum. At the time of proposed acquisition, the collection includes one chair with an upholstery fabric designed by Huguenin.",
+    "woe:country": "23424829",
+    "type": "textile",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/39522_ceae0b78d76c375d_b.jpg",
                 "width": 1024,
                 "height": 676,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/39522_ceae0b78d76c375d_n.jpg",
-                "width": 320,
-                "height": 211,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "39522"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/39522_ceae0b78d76c375d_z.jpg",
                 "width": 640,
                 "height": 422,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "39522"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/39522_ceae0b78d76c375d_n.jpg",
+                "width": 320,
+                "height": 211,
+                "is_primary": "1",
+                "image_id": "39522"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/39522_ceae0b78d76c375d_d.gif",
+                "width": 320,
+                "height": 211,
+                "is_primary": "1",
+                "image_id": "39522"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/39522_ceae0b78d76c375d_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "39522"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18064521",
             "role_id": "35236657",
             "person_name": "Weberei Eschen AG",
+            "person_date": "",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18064521\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18041409",
             "role_id": "35236659",
             "person_name": "Knoll Textiles",
+            "person_date": "East Greenville, Pennsylvania, USA, founded 1947",
             "role_name": "Distributor",
+            "role_display_name": "Distributed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041409\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236659\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18064453",
             "role_id": "35236655",
             "person_name": "Suzanne Huguenin",
+            "person_date": "Swiss, 1916\u20132008",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18064453\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -78,7 +110,9 @@
             "person_id": "18064509",
             "role_id": "35351535",
             "person_name": "Cindia Cameron",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18064509\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -88,16 +122,17 @@
     },
     "colors": [
         {
-            "color": "#370606",
-            "closest_css3": "#000000"
+            "color": "#430709",
+            "closest_crayola": "#000000",
+            "closest_css3": "#800000",
+            "closest_css4": "#800000"
         },
         {
-            "color": "#854a47",
-            "closest_css3": "#a0522d"
-        },
-        {
-            "color": "#c6adae",
-            "closest_css3": "#c0c0c0"
+            "color": "#a87d7b",
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         }
-    ]
+    ],
+    "woe:country_name": "Germany"
 }

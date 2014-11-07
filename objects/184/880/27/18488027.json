@@ -3,6 +3,7 @@
     "tms:id": "154881",
     "accession_number": "1975-2-2",
     "title": "Frieze, \"Winnie the Pooh\", after 1926",
+    "title_raw": "Winnie the Pooh",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18488027\/",
     "department_id": "35347503",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1975,
     "year_acquired": "1975",
     "decade": "1920",
-    "woe:country": "23424975",
+    "woe:country_id": "23424975",
     "medium": "Block-printed on ingrain paper",
     "markings": null,
     "signed": null,
     "inscribed": "Printed in selvedge: \"Winnie the Pooh frieze\" and \"R'd No. 733152.\"",
     "provenance": null,
     "dimensions": "H x W: 1200 x 54.5 cm (39 ft. 4 7\/16 in. x 21 7\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "1200.00",
+            "centimeters"
+        ],
+        "width": [
+            "54.50",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Standard Coated Products",
     "description": "This children's frieze illustrates chapter eight, \"Christopher Robin Leads an Expotition to the North Pole\" from \"Winnie the Pooh\", by A.A. Milne, 1926. The frieze incorporates the original book illustrations by E.H Shephard which have been made continuous by the addition of an idyllic landscape.",
     "justification": null,
-    "type": {
-        "id": "35259269",
-        "name": "Frieze"
-    },
+    "woe:country": "23424975",
+    "type": "Frieze",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/26007_6037b9fdeef58451_b.jpg",
                 "width": 1024,
                 "height": 386,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/26007_6037b9fdeef58451_n.jpg",
-                "width": 320,
-                "height": 121,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "26007"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/26007_6037b9fdeef58451_z.jpg",
                 "width": 640,
                 "height": 241,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "26007"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/26007_6037b9fdeef58451_n.jpg",
+                "width": 320,
+                "height": 121,
+                "is_primary": "1",
+                "image_id": "26007"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/26007_6037b9fdeef58451_d.gif",
+                "width": 320,
+                "height": 121,
+                "is_primary": "1",
+                "image_id": "26007"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/26007_6037b9fdeef58451_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "26007"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/8018_79ea9e1fccfb90d0_b.jpg",
                 "width": 1024,
                 "height": 674,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/8018_79ea9e1fccfb90d0_n.jpg",
-                "width": 320,
-                "height": 211,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "8018"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/8018_79ea9e1fccfb90d0_z.jpg",
                 "width": 640,
                 "height": 421,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "8018"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/8018_79ea9e1fccfb90d0_n.jpg",
+                "width": 320,
+                "height": 211,
+                "is_primary": "0",
+                "image_id": "8018"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/8018_79ea9e1fccfb90d0_d.gif",
+                "width": 320,
+                "height": 211,
+                "is_primary": "0",
+                "image_id": "8018"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/8018_79ea9e1fccfb90d0_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "8018"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18047399",
             "role_id": "35352245",
             "person_name": "Gregory Herringshaw",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047399\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18539127",
             "role_id": "35351535",
             "person_name": "Standard Coated Products",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18539127\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -93,23 +140,34 @@
     "colors": [
         {
             "color": "#d0cfba",
-            "closest_css3": "#c0c0c0"
+            "closest_crayola": "#cdc5c2",
+            "closest_css3": "#c0c0c0",
+            "closest_css4": "#c0c0c0"
         },
         {
-            "color": "#a5b298",
-            "closest_css3": "#a9a9a9"
+            "color": "#a3af98",
+            "closest_crayola": "#979aaa",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
         },
         {
-            "color": "#726959",
-            "closest_css3": "#696969"
+            "color": "#838676",
+            "closest_crayola": "#757575",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#7f8272",
-            "closest_css3": "#808080"
+            "color": "#615648",
+            "closest_crayola": "#6e5160",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         },
         {
-            "color": "#a18a6a",
-            "closest_css3": "#808080"
+            "color": "#a08c6d",
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         }
-    ]
+    ],
+    "woe:country_name": "United Kingdom"
 }

@@ -3,6 +3,7 @@
     "tms:id": "242109",
     "accession_number": "2009-18-74-a,b",
     "title": "Box With Lid, \"Designed by Josef Hoffmann, et al. 1910-14\", 1910\u201314",
+    "title_raw": "Designed by Josef Hoffmann, et al. 1910-14",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18732017\/",
     "department_id": "35347497",
     "period_id": null,
@@ -13,39 +14,68 @@
     "year_end": 1914,
     "year_acquired": "2009",
     "decade": "1910",
-    "woe:country": "23424750",
+    "woe:country_id": "23424750",
     "medium": "Glass",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "2009: acquired by Museum [1] \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n[1] Created for the 1914 Deutsche Werkbund exhibition in Cologne.",
     "dimensions": "H x W x D: 4.7 x 14.6 x 7.8 cm (1 7\/8 x 5 3\/4 x 3 1\/16 in.)",
+    "dimensions_raw": {
+        "depth": [
+            "7.80",
+            "centimeters"
+        ],
+        "height": [
+            "4.70",
+            "centimeters"
+        ],
+        "width": [
+            "14.60",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase through gift of Dale and Doug Anderson, Anonymous Donor, Arthur Liu, and Prairie Pictures, Inc. and from General Acquisitions Endowment Fund",
     "description": "Facet-cut and polished rectangular box and lid.",
     "justification": null,
-    "type": {
-        "id": "35237887",
-        "name": "box with lid"
-    },
+    "woe:country": "23424750",
+    "type": "box with lid",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/33259_cff4dd5d716af1e0_b.jpg",
                 "width": 1024,
                 "height": 508,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/33259_cff4dd5d716af1e0_n.jpg",
-                "width": 320,
-                "height": 159,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "33259"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/33259_cff4dd5d716af1e0_z.jpg",
                 "width": 640,
                 "height": 317,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "33259"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/33259_cff4dd5d716af1e0_n.jpg",
+                "width": 320,
+                "height": 159,
+                "is_primary": "1",
+                "image_id": "33259"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/33259_cff4dd5d716af1e0_d.gif",
+                "width": 320,
+                "height": 159,
+                "is_primary": "1",
+                "image_id": "33259"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/33259_cff4dd5d716af1e0_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "33259"
             }
         }
     ],
@@ -53,8 +83,10 @@
         {
             "person_id": "18061841",
             "role_id": "35236657",
-            "person_name": "J. & L. Lobmeyr GmbH, Vienna, Austria",
+            "person_name": "J. & L. Lobmeyr GmbH",
+            "person_date": "Vienna, Austria, founded ca. 1935",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18061841\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         },
@@ -62,15 +94,19 @@
             "person_id": "18046353",
             "role_id": "35236655",
             "person_name": "Josef Hoffmann",
+            "person_date": "Austrian, b. Moravia, present-day Czech Republic, 1891\u20131955",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18046353\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
         {
             "person_id": "18061841",
             "role_id": "51571131",
-            "person_name": "J. & L. Lobmeyr GmbH, Vienna, Austria",
+            "person_name": "J. & L. Lobmeyr GmbH",
+            "person_date": "Vienna, Austria, founded ca. 1935",
             "role_name": "Lender",
+            "role_display_name": "Lent by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18061841\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/51571131\/"
         }
@@ -80,12 +116,17 @@
     },
     "colors": [
         {
-            "color": "#b7b3a4",
-            "closest_css3": "#a9a9a9"
+            "color": "#c5c3b9",
+            "closest_crayola": "#cdc5c2",
+            "closest_css3": "#c0c0c0",
+            "closest_css4": "#c0c0c0"
         },
         {
-            "color": "#96907f",
-            "closest_css3": "#808080"
+            "color": "#979280",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         }
-    ]
+    ],
+    "woe:country_name": "Austria"
 }

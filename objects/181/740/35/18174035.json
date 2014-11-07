@@ -3,6 +3,7 @@
     "tms:id": "18874",
     "accession_number": "1912-12-164-a",
     "title": "Drawing, \"Soldier with Pack\", 1862",
+    "title_raw": "Soldier with Pack",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18174035\/",
     "department_id": "35347493",
     "period_id": "35417141",
@@ -13,39 +14,64 @@
     "year_end": 1862,
     "year_acquired": "1912",
     "decade": null,
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Graphite on wove paper, mounted in an album",
     "markings": "Stamped in black ink, at bottom: Museum for the Arts of Decoration Cooper Union [Lugt 457d]",
     "signed": null,
     "inscribed": null,
     "provenance": "Charles Savage Homer, Jr.",
     "dimensions": "12.3 x 8.9 cm (4 13\/16 x 3 1\/2 in.)",
+    "dimensions_raw": {
+        "height": [
+            "12.30",
+            "centimeters"
+        ],
+        "width": [
+            "8.90",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Charles Savage Homer, Jr.",
     "description": "Vertical view of two soldiers with packs, and partially scratched-over figure of a civilian.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424977",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/36207_541277749d1cf306_b.jpg",
                 "width": 1024,
                 "height": 745,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/36207_541277749d1cf306_n.jpg",
-                "width": 320,
-                "height": 233,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "36207"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/36207_541277749d1cf306_z.jpg",
                 "width": 640,
                 "height": 465,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "36207"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/36207_541277749d1cf306_n.jpg",
+                "width": 320,
+                "height": 233,
+                "is_primary": "1",
+                "image_id": "36207"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/36207_541277749d1cf306_d.gif",
+                "width": 320,
+                "height": 233,
+                "is_primary": "1",
+                "image_id": "36207"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/36207_541277749d1cf306_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "36207"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18041949",
             "role_id": "35236565",
             "person_name": "Winslow Homer",
+            "person_date": "American, 1836\u20131910",
             "role_name": "Artist",
+            "role_display_name": "",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041949\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236565\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18537931",
             "role_id": "35351535",
             "person_name": "Charles Savage Homer, Jr.",
+            "person_date": "American, 1834\u20131917",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18537931\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -72,12 +102,23 @@
     },
     "colors": [
         {
-            "color": "#bdb098",
-            "closest_css3": "#d2b48c"
+            "color": "#aea089",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         },
         {
-            "color": "#763e3b",
-            "closest_css3": "#8b4513"
+            "color": "#77403d",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#8b4513",
+            "closest_css4": "#8b4513"
+        },
+        {
+            "color": "#9d7e72",
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

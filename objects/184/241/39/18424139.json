@@ -3,6 +3,7 @@
     "tms:id": "122445",
     "accession_number": "1959-10-2",
     "title": "Fragment, 1876",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18424139\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1876,
     "year_acquired": "1959",
     "decade": null,
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Medium: cotton\nTechnique: printed",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "H x W: 10 x 11 cm (3 15\/16 x 4 5\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "10.00",
+            "centimeters"
+        ],
+        "width": [
+            "11.00",
+            "centimeters"
+        ]
+    },
     "creditline": null,
     "description": "Small fragment of a centennial print in red, brown and black. Pattern shows a central diamond shape with a setting sun, dove, liberty cap, shield with \"1876\" and \"Peace\" inscribed. Other sections of the design incomplete.",
     "justification": null,
-    "type": {
-        "id": "35254623",
-        "name": "Fragment"
-    },
+    "woe:country": "23424977",
+    "type": "Fragment",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/64029_96ac48a495251161_b.jpg",
                 "width": 1024,
                 "height": 917,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/64029_96ac48a495251161_n.jpg",
-                "width": 320,
-                "height": 287,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "64029"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/64029_96ac48a495251161_z.jpg",
                 "width": 640,
                 "height": 573,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "64029"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/64029_96ac48a495251161_n.jpg",
+                "width": 320,
+                "height": 287,
+                "is_primary": "1",
+                "image_id": "64029"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/64029_96ac48a495251161_d.gif",
+                "width": 320,
+                "height": 287,
+                "is_primary": "1",
+                "image_id": "64029"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/64029_96ac48a495251161_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "64029"
             }
         },
         {
@@ -53,27 +79,52 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/86628_a67cd1e66f8ea91a_b.jpg",
                 "width": 1024,
                 "height": 663,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/86628_a67cd1e66f8ea91a_n.jpg",
-                "width": 320,
-                "height": 207,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "86628"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/86628_a67cd1e66f8ea91a_z.jpg",
                 "width": 640,
                 "height": 414,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "86628"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/86628_a67cd1e66f8ea91a_n.jpg",
+                "width": 320,
+                "height": 207,
+                "is_primary": "0",
+                "image_id": "86628"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/86628_a67cd1e66f8ea91a_d.gif",
+                "width": 320,
+                "height": 207,
+                "is_primary": "0",
+                "image_id": "86628"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/86628_a67cd1e66f8ea91a_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "86628"
             }
         },
         {
+            "b": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/86627_a67cd1e66f8ea91a_b.jpg",
+                "width": null,
+                "height": null,
+                "is_primary": "0",
+                "image_id": "86627"
+            },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/86627_a67cd1e66f8ea91a_z.jpg",
                 "width": 640,
                 "height": 414,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "86627"
             }
         }
     ],
@@ -85,24 +136,35 @@
     },
     "colors": [
         {
-            "color": "#6b5446",
-            "closest_css3": "#556b2f"
+            "color": "#4f3d38",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#382c29",
-            "closest_css3": "#2f4f4f"
+            "color": "#7d3529",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#8b4513",
+            "closest_css4": "#8b4513"
         },
         {
-            "color": "#cdb997",
-            "closest_css3": "#d2b48c"
+            "color": "#c7b38f",
+            "closest_crayola": "#deaa88",
+            "closest_css3": "#d2b48c",
+            "closest_css4": "#d2b48c"
         },
         {
-            "color": "#6f2f25",
-            "closest_css3": "#8b4513"
+            "color": "#6e5748",
+            "closest_crayola": "#6e5160",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#a6906a",
-            "closest_css3": "#bc8f8f"
+            "color": "#a28d6e",
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

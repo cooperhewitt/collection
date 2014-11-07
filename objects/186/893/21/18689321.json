@@ -3,6 +3,7 @@
     "tms:id": "220170",
     "accession_number": "2000-24-7",
     "title": "Syrup Jug, \"\"Town and Country\"\", 1946",
+    "title_raw": "\"Town and Country\"",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18689321\/",
     "department_id": "35347497",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1946,
     "year_acquired": "2000",
     "decade": "1940",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Glazed earthenware",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "2000: acquired by Museum (from Mood Indigo, New York, NY)",
     "dimensions": "H x diam.: 15 x 12 cm (5 7\/8 x 4 3\/4 in.)",
+    "dimensions_raw": {
+        "diameter": [
+            "12.00",
+            "centimeters"
+        ],
+        "height": [
+            "15.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase from Charles E. Sampson Memorial Fund",
     "description": "Bulging cylindrical form with irregular out-turned mouth, shaped to form spout and hand grip.  Sand-colored flecked glaze.",
     "justification": null,
-    "type": {
-        "id": "35299193",
-        "name": "Syrup jug"
-    },
+    "woe:country": "23424977",
+    "type": "Syrup jug",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/42543_c412f0abe06ec47b_b.jpg",
                 "width": 792,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/42543_c412f0abe06ec47b_n.jpg",
-                "width": 248,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "42543"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/42543_c412f0abe06ec47b_z.jpg",
                 "width": 495,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "42543"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/42543_c412f0abe06ec47b_n.jpg",
+                "width": 248,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "42543"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/42543_c412f0abe06ec47b_d.gif",
+                "width": 248,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "42543"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/42543_c412f0abe06ec47b_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "42543"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/14848_807afb7097f9760c_b.jpg",
                 "width": 787,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/14848_807afb7097f9760c_n.jpg",
-                "width": 246,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "14848"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/14848_807afb7097f9760c_z.jpg",
                 "width": 492,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "14848"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/14848_807afb7097f9760c_n.jpg",
+                "width": 246,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "14848"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/14848_807afb7097f9760c_d.gif",
+                "width": 246,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "14848"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/14848_807afb7097f9760c_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "14848"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18053873",
             "role_id": "35352249",
             "person_name": "Mood Indigo",
+            "person_date": "",
             "role_name": "Vendor",
+            "role_display_name": "Purchased from",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18053873\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352249\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18043295",
             "role_id": "35236655",
             "person_name": "Eva Zeisel",
+            "person_date": "American, b. Hungary, 1906\u20132011",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18043295\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -90,7 +137,9 @@
             "person_id": "34624589",
             "role_id": "35236657",
             "person_name": "Red Wing Pottery",
+            "person_date": "",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/34624589\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         }
@@ -101,23 +150,28 @@
     "colors": [
         {
             "color": "#ac946b",
-            "closest_css3": "#bdb76b"
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#bdb76b",
+            "closest_css4": "#bdb76b"
         },
         {
-            "color": "#d0b882",
-            "closest_css3": "#d2b48c"
+            "color": "#d1b882",
+            "closest_crayola": "#deaa88",
+            "closest_css3": "#d2b48c",
+            "closest_css4": "#d2b48c"
         },
         {
-            "color": "#6d6c72",
-            "closest_css3": "#696969"
+            "color": "#e9dcb9",
+            "closest_crayola": "#eceabe",
+            "closest_css3": "#f5deb3",
+            "closest_css4": "#f5deb3"
         },
         {
-            "color": "#82786d",
-            "closest_css3": "#808080"
-        },
-        {
-            "color": "#beb8ab",
-            "closest_css3": "#c0c0c0"
+            "color": "#8a7962",
+            "closest_crayola": "#8a795d",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

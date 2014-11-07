@@ -3,6 +3,7 @@
     "tms:id": "214474",
     "accession_number": "1969-165-165",
     "title": "Sample, \"Manhattan\", 1958",
+    "title_raw": "Manhattan",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18678017\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1958,
     "year_acquired": "1969",
     "decade": "1950",
-    "woe:country": null,
-    "medium": "Medium: 40% cotton, 15% rayon, 45% mohair\nTechnique: discharged printed on plain weave",
+    "woe:country_id": null,
+    "medium": "Medium: 40% cotton, 15% rayon, 45% mohair\nTechnique: screen printed with discharged on plain weave\nLabel: screen printed with discharged on 40% cotton, 15% rayon, 45% mohair",
     "markings": "Herman Miller Fabrics paper label attached to lower right corner.",
     "signed": null,
     "inscribed": null,
     "provenance": null,
-    "dimensions": "Warp x Weft: 60 x 60 cm (23 5\/8 x 23 5\/8 in.)",
+    "dimensions": "H x W: 60 \u00d7 60 cm (23 5\/8 \u00d7 23 5\/8 in.)",
+    "dimensions_raw": {
+        "warp": [
+            "60.00",
+            "centimeters"
+        ],
+        "weft": [
+            "60.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Alexander H. Girard",
     "description": "Discharge printed to form columns of groups of squares and rectangles on a black ground. Serged on all 4 sides.",
     "justification": null,
-    "type": {
-        "id": "35268079",
-        "name": "Sample"
-    },
+    "woe:country": null,
+    "type": "Sample",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/41993_12bd41f4b8ebc0ed_b.jpg",
                 "width": 1021,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/41993_12bd41f4b8ebc0ed_n.jpg",
-                "width": 319,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "41993"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/41993_12bd41f4b8ebc0ed_z.jpg",
                 "width": 638,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "41993"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/41993_12bd41f4b8ebc0ed_n.jpg",
+                "width": 319,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "41993"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/41993_12bd41f4b8ebc0ed_d.gif",
+                "width": 319,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "41993"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/41993_12bd41f4b8ebc0ed_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "41993"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18046041",
             "role_id": "35351535",
             "person_name": "Alexander Hayden Girard",
+            "person_date": "American, 1907\u20131993",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18046041\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -62,30 +90,40 @@
             "person_id": "18046041",
             "role_id": "35236655",
             "person_name": "Alexander Hayden Girard",
+            "person_date": "American, 1907\u20131993",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18046041\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
     ],
     "tombstone": {
-        "epitaph": "Sample, \"Manhattan\", 1958. Medium: 40% cotton, 15% rayon, 45% mohair\nTechnique: discharged printed on plain weave. Gift of Alexander H. Girard. 1969-165-165."
+        "epitaph": "Sample, \"Manhattan\", 1958. Medium: 40% cotton, 15% rayon, 45% mohair\nTechnique: screen printed with discharged on plain weave\nLabel: screen printed with discharged on 40% cotton, 15% rayon, 45% mohair. Gift of Alexander H. Girard. 1969-165-165."
     },
     "colors": [
         {
-            "color": "#898279",
-            "closest_css3": "#808080"
+            "color": "#8f887f",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#6b6459",
-            "closest_css3": "#696969"
+            "color": "#403d3a",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#433e39",
-            "closest_css3": "#2f4f4f"
+            "color": "#625c53",
+            "closest_crayola": "#6e5160",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#b8ab95",
-            "closest_css3": "#a9a9a9"
+            "color": "#d6cbba",
+            "closest_crayola": "#cdc5c2",
+            "closest_css3": "#c0c0c0",
+            "closest_css4": "#c0c0c0"
         }
     ]
 }

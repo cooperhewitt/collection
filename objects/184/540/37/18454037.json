@@ -3,6 +3,7 @@
     "tms:id": "137573",
     "accession_number": "1966-55-13",
     "title": "Vase, ca. 1900",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18454037\/",
     "department_id": "35347497",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1905,
     "year_acquired": "1966",
     "decade": null,
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Favrile glass",
     "markings": "On base, incised: \"790 N L.C. Tiffany - Favrile\"",
     "signed": null,
     "inscribed": null,
     "provenance": "Joseph L. Morris; 1966: bequested to Museum",
     "dimensions": "H x diam.: 10.6 x 5.9 cm (4 3\/16 x 2 5\/16 in.)",
+    "dimensions_raw": {
+        "diameter": [
+            "5.90",
+            "centimeters"
+        ],
+        "height": [
+            "10.60",
+            "centimeters"
+        ]
+    },
     "creditline": "Bequest of Joseph L. Morris",
     "description": "Opaque deep blue with marbleized swirls of green, light blue, amber, rose. Pear-shaped body; neck with convex curve below lip; low flat base.",
     "justification": null,
-    "type": {
-        "id": "35237225",
-        "name": "Vase"
-    },
+    "woe:country": "23424977",
+    "type": "Vase",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/46134_71aecb6d847d6289_b.jpg",
                 "width": 748,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/46134_71aecb6d847d6289_n.jpg",
-                "width": 234,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "46134"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/46134_71aecb6d847d6289_z.jpg",
                 "width": 468,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "46134"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/46134_71aecb6d847d6289_n.jpg",
+                "width": 234,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "46134"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/46134_71aecb6d847d6289_d.gif",
+                "width": 234,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "46134"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/46134_71aecb6d847d6289_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "46134"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/46133_f24a9f840608dee8_b.jpg",
                 "width": 1024,
                 "height": 601,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/46133_f24a9f840608dee8_n.jpg",
-                "width": 320,
-                "height": 188,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "46133"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/46133_f24a9f840608dee8_z.jpg",
                 "width": 640,
                 "height": 376,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "46133"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/46133_f24a9f840608dee8_n.jpg",
+                "width": 320,
+                "height": 188,
+                "is_primary": "0",
+                "image_id": "46133"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/46133_f24a9f840608dee8_d.gif",
+                "width": 320,
+                "height": 188,
+                "is_primary": "0",
+                "image_id": "46133"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/46133_f24a9f840608dee8_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "46133"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18057045",
             "role_id": "35351537",
             "person_name": "Joseph L. Morris",
+            "person_date": "",
             "role_name": "Bequestor",
+            "role_display_name": "Bequest of",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18057045\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351537\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18044255",
             "role_id": "35236685",
             "person_name": "Louis Comfort Tiffany",
+            "person_date": "American, 1848\u20131933",
             "role_name": "Maker",
+            "role_display_name": "Made by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18044255\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236685\/"
         }
@@ -92,24 +139,35 @@
     },
     "colors": [
         {
-            "color": "#27264f",
-            "closest_css3": "#191970"
+            "color": "#373136",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#332d33",
-            "closest_css3": "#2f4f4f"
+            "color": "#423c5b",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#543e48",
-            "closest_css3": "#2f4f4f"
+            "color": "#635f72",
+            "closest_crayola": "#6e5160",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#4f4f75",
-            "closest_css3": "#483d8b"
+            "color": "#1b1a33",
+            "closest_crayola": "#000000",
+            "closest_css3": "#191970",
+            "closest_css4": "#191970"
         },
         {
-            "color": "#6c6679",
-            "closest_css3": "#696969"
+            "color": "#a4a0ac",
+            "closest_crayola": "#979aaa",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

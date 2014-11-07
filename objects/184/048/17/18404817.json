@@ -3,6 +3,7 @@
     "tms:id": "112593",
     "accession_number": "1955-71-3",
     "title": "Sample, ca. 1950",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18404817\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1955,
     "year_acquired": "1955",
     "decade": "1940",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Medium: plastic tubing, mercerized cotton or rayon, silk, synthetic yarns\nTechnique: complex woven",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "1955: acquired by Museum",
     "dimensions": "Warp x Weft: 17.8 x 31.1 cm (7 in. x 12 1\/4 in.)",
+    "dimensions_raw": {
+        "warp": [
+            "17.78",
+            "centimeters"
+        ],
+        "weft": [
+            "31.12",
+            "centimeters"
+        ]
+    },
     "creditline": null,
     "description": "Woven sample with a windowpane plaid of clear plastic, off-white and pale green. Warp is off-white cotton; wefts are clear plastic tubing, off-white silk, and pale green synthetic yarns.",
     "justification": null,
-    "type": {
-        "id": "35268079",
-        "name": "Sample"
-    },
+    "woe:country": "23424977",
+    "type": "Sample",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/48512_1a6e310ea1bbddf1_b.jpg",
                 "width": 1024,
                 "height": 643,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/48512_1a6e310ea1bbddf1_n.jpg",
-                "width": 320,
-                "height": 201,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "48512"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/48512_1a6e310ea1bbddf1_z.jpg",
                 "width": 640,
                 "height": 402,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "48512"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/48512_1a6e310ea1bbddf1_n.jpg",
+                "width": 320,
+                "height": 201,
+                "is_primary": "1",
+                "image_id": "48512"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/48512_1a6e310ea1bbddf1_d.gif",
+                "width": 320,
+                "height": 201,
+                "is_primary": "1",
+                "image_id": "48512"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/48512_1a6e310ea1bbddf1_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "48512"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18045817",
             "role_id": "35236745",
             "person_name": "Dorothy Wright Liebes",
+            "person_date": "American, 1897\u20131972",
             "role_name": "Weaver",
+            "role_display_name": "Woven by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18045817\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236745\/"
         },
@@ -62,15 +90,19 @@
             "person_id": "18045817",
             "role_id": "35236655",
             "person_name": "Dorothy Wright Liebes",
+            "person_date": "American, 1897\u20131972",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18045817\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
         {
             "person_id": "18536901",
             "role_id": "35351535",
-            "person_name": "Mrs. Morris D.C. Crawford",
+            "person_name": "Mrs. Morris D. C. Crawford",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18536901\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -80,16 +112,23 @@
     },
     "colors": [
         {
-            "color": "#b79b58",
-            "closest_css3": "#bdb76b"
+            "color": "#c6ad69",
+            "closest_crayola": "#bab86c",
+            "closest_css3": "#bdb76b",
+            "closest_css4": "#bdb76b"
         },
         {
-            "color": "#efe7d0",
-            "closest_css3": "#faebd7"
+            "color": "#efe1a1",
+            "closest_crayola": "#edd19c",
+            "closest_css3": "#eee8aa",
+            "closest_css4": "#eee8aa"
         },
         {
-            "color": "#977a46",
-            "closest_css3": "#a0522d"
+            "color": "#987c48",
+            "closest_crayola": "#9c7c38",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

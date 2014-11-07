@@ -3,6 +3,7 @@
     "tms:id": "222987",
     "accession_number": "2001-29-57",
     "title": "Brochure, \"Product listing brochure for Louvron Lightolier\", 1952",
+    "title_raw": "Product listing brochure for Louvron Lightolier",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18694865\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,68 @@
     "year_end": 1952,
     "year_acquired": "2001",
     "decade": "1950",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Lithograph on paper",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "Susan Lustig Peck; 2001: acquired by Museum",
     "dimensions": "27.9 x 21.6 cm (11 x 8 1\/2 in. ) - closed\n27.9 x 43.2 cm (11 x 17 in.) -  open",
+    "dimensions_raw": {
+        "depth": [
+            "43.20",
+            "centimeters"
+        ],
+        "height": [
+            "27.90",
+            "centimeters"
+        ],
+        "width": [
+            "21.60",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Susan Lustig Peck",
     "description": "Checked yellow ground with three white and two black rectangles.",
     "justification": null,
-    "type": {
-        "id": "35247617",
-        "name": "brochure"
-    },
+    "woe:country": "23424977",
+    "type": "brochure",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/39757_01233c6ea77718de_b.jpg",
                 "width": 797,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/39757_01233c6ea77718de_n.jpg",
-                "width": 249,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "39757"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/39757_01233c6ea77718de_z.jpg",
                 "width": 498,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "39757"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/39757_01233c6ea77718de_n.jpg",
+                "width": 249,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "39757"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/39757_01233c6ea77718de_d.gif",
+                "width": 249,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "39757"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/39757_01233c6ea77718de_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "39757"
             }
         }
     ],
@@ -54,7 +84,9 @@
             "person_id": "18538541",
             "role_id": "35351535",
             "person_name": "Susan Lustig Peck",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18538541\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -62,7 +94,9 @@
             "person_id": "18043331",
             "role_id": "35236763",
             "person_name": "Alvin Lustig",
+            "person_date": "American, 1915\u20131955",
             "role_name": "Graphic Designer",
+            "role_display_name": "Graphic design by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18043331\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236763\/"
         }
@@ -72,16 +106,23 @@
     },
     "colors": [
         {
-            "color": "#ead6ab",
-            "closest_css3": "#f5deb3"
+            "color": "#ead7b7",
+            "closest_crayola": "#efcdb8",
+            "closest_css3": "#f5deb3",
+            "closest_css4": "#f5deb3"
         },
         {
-            "color": "#3d3838",
-            "closest_css3": "#2f4f4f"
+            "color": "#3d3938",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#605449",
-            "closest_css3": "#556b2f"
+            "color": "#837056",
+            "closest_crayola": "#85754e",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

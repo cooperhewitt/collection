@@ -3,6 +3,7 @@
     "tms:id": "135179",
     "accession_number": "1963-40-1",
     "title": "Textile, \"Bermuda\", 1963",
+    "title_raw": "Bermuda",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18449327\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1963,
     "year_acquired": "1963",
     "decade": "1960",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Medium: linen\nTechnique: block printed on plain weave",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "1963: acquired by Museum",
     "dimensions": "H x W: 284 x 91cm (111 13\/16 x 35 13\/16in.)",
+    "dimensions_raw": {
+        "height": [
+            "284.00",
+            "centimeters"
+        ],
+        "width": [
+            "91.00",
+            "centimeters"
+        ]
+    },
     "creditline": null,
     "description": "Length of hand block-printed linen in red, blue and yellow in geometric shapes.",
     "justification": null,
-    "type": {
-        "id": "35251739",
-        "name": "textile"
-    },
+    "woe:country": "23424977",
+    "type": "textile",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/74630_e4c717478e82bff1_b.jpg",
                 "width": 665,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/74630_e4c717478e82bff1_n.jpg",
-                "width": 208,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "74630"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/74630_e4c717478e82bff1_z.jpg",
                 "width": 416,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "74630"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/74630_e4c717478e82bff1_n.jpg",
+                "width": 208,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "74630"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/74630_e4c717478e82bff1_d.gif",
+                "width": 208,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "74630"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/74630_e4c717478e82bff1_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "74630"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/74631_4048490eaf927554_b.jpg",
                 "width": 668,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/74631_4048490eaf927554_n.jpg",
-                "width": 209,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "74631"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/74631_4048490eaf927554_z.jpg",
                 "width": 418,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "74631"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/74631_4048490eaf927554_n.jpg",
+                "width": 209,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "74631"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/74631_4048490eaf927554_d.gif",
+                "width": 209,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "74631"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/74631_4048490eaf927554_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "74631"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18054511",
             "role_id": "35236673",
             "person_name": "Helen A. Haselton",
+            "person_date": "1888\u20131989",
             "role_name": "Printer",
+            "role_display_name": "Printed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18054511\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236673\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18054511",
             "role_id": "35236655",
             "person_name": "Helen A. Haselton",
+            "person_date": "1888\u20131989",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18054511\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
@@ -92,24 +139,35 @@
     },
     "colors": [
         {
-            "color": "#c49994",
-            "closest_css3": "#bc8f8f"
+            "color": "#8f9da1",
+            "closest_crayola": "#979aaa",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
         },
         {
-            "color": "#9fa8aa",
-            "closest_css3": "#a9a9a9"
+            "color": "#c69993",
+            "closest_crayola": "#d98695",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         },
         {
-            "color": "#847a83",
-            "closest_css3": "#808080"
+            "color": "#857377",
+            "closest_crayola": "#757575",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#bfcd91",
-            "closest_css3": "#d2b48c"
+            "color": "#8f9c87",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#c49874",
-            "closest_css3": "#bc8f8f"
+            "color": "#c59973",
+            "closest_crayola": "#cd9575",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

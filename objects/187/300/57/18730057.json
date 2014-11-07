@@ -2,7 +2,8 @@
     "id": "18730057",
     "tms:id": "241032",
     "accession_number": "1960-1-38-c",
-    "title": "Figure, \"Allegorical Figures of the Four Continents\", late 18th\u2013early 19th century",
+    "title": "Figure, \"Allegorical Figures of the Four Continents: Africa\", late 18th\u2013early 19th century",
+    "title_raw": "Allegorical Figures of the Four Continents",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18730057\/",
     "department_id": "35347497",
     "period_id": null,
@@ -13,39 +14,68 @@
     "year_end": null,
     "year_acquired": "1960",
     "decade": null,
-    "woe:country": "23424829",
+    "woe:country_id": "23424829",
     "medium": "Polychromed, gilt and glazed porcelain",
     "markings": "none",
     "signed": null,
     "inscribed": null,
     "provenance": "Estate of James Hazen Hyde; 1960: acquired by Museum",
     "dimensions": "H x W x D: 19 x 14.8 x 10.5 cm (7 1\/2 x 5 13\/16 x 4 1\/8 in.)",
+    "dimensions_raw": {
+        "depth": [
+            "10.50",
+            "centimeters"
+        ],
+        "height": [
+            "19.00",
+            "centimeters"
+        ],
+        "width": [
+            "14.80",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of the Estate of James Hazen Hyde",
     "description": "Female figure, black, with elephant-head headdress, feather tunic and leggings, holding lemon and sheaf of wheat, seated on crouching lion facing right; in background, a tree.",
     "justification": null,
-    "type": {
-        "id": "35237189",
-        "name": "Figure"
-    },
+    "woe:country": "23424829",
+    "type": "Figure",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/48015_5511457dd81d65f9_b.jpg",
                 "width": 790,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/48015_5511457dd81d65f9_n.jpg",
-                "width": 247,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "48015"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/48015_5511457dd81d65f9_z.jpg",
                 "width": 494,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "48015"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/48015_5511457dd81d65f9_n.jpg",
+                "width": 247,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "48015"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/48015_5511457dd81d65f9_d.gif",
+                "width": 247,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "48015"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/48015_5511457dd81d65f9_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "48015"
             }
         }
     ],
@@ -54,7 +84,9 @@
             "person_id": "18060873",
             "role_id": "35236765",
             "person_name": "Peter Reinicke",
+            "person_date": "German, 1715\u20131768",
             "role_name": "Modeler",
+            "role_display_name": "Modeled by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18060873\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236765\/"
         },
@@ -62,7 +94,9 @@
             "person_id": "18044673",
             "role_id": "35236677",
             "person_name": "Johann Joachim K\u00e4ndler",
+            "person_date": "German, 1706\u20131775",
             "role_name": "After",
+            "role_display_name": "After",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18044673\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236677\/"
         },
@@ -70,7 +104,9 @@
             "person_id": "18537721",
             "role_id": "35236765",
             "person_name": "Johann Friedrich Eberlein",
+            "person_date": "1696 \u2013 1749",
             "role_name": "Modeler",
+            "role_display_name": "Modeled by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18537721\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236765\/"
         },
@@ -78,7 +114,9 @@
             "person_id": "18536267",
             "role_id": "35236671",
             "person_name": "Meissen Porcelain Manufactory",
+            "person_date": "Meissen, Saxony, Germany",
             "role_name": "Producer",
+            "role_display_name": "Produced by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18536267\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236671\/"
         },
@@ -86,7 +124,9 @@
             "person_id": "18054691",
             "role_id": "35236669",
             "person_name": "Gottfried Bernhard G\u00f6tz",
+            "person_date": "1708\u20131774",
             "role_name": "Draftsman",
+            "role_display_name": "Drafted by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18054691\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236669\/"
         },
@@ -94,30 +134,35 @@
             "person_id": "18049369",
             "role_id": "35351535",
             "person_name": "Estate of James Hazen Hyde",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049369\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
     ],
     "tombstone": {
-        "epitaph": "Figure, \"Allegorical Figures of the Four Continents\", late 18th\u2013early 19th century. Polychromed, gilt and glazed porcelain. Gift of the Estate of James Hazen Hyde. 1960-1-38-c."
+        "epitaph": "Figure, \"Allegorical Figures of the Four Continents: Africa\", late 18th\u2013early 19th century. Polychromed, gilt and glazed porcelain. Gift of the Estate of James Hazen Hyde. 1960-1-38-c."
     },
     "colors": [
         {
-            "color": "#8c8375",
-            "closest_css3": "#808080"
+            "color": "#8c8476",
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
+        },
+        {
+            "color": "#60584e",
+            "closest_crayola": "#6e5160",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
             "color": "#71775d",
-            "closest_css3": "#696969"
-        },
-        {
-            "color": "#524442",
-            "closest_css3": "#2f4f4f"
-        },
-        {
-            "color": "#af977e",
-            "closest_css3": "#bc8f8f"
+            "closest_crayola": "#757575",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         }
-    ]
+    ],
+    "woe:country_name": "Germany"
 }

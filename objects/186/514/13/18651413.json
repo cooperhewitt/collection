@@ -3,6 +3,7 @@
     "tms:id": "200646",
     "accession_number": "1995-48-1",
     "title": "Textile, \"Capitals\", ca. 1930\u201339",
+    "title_raw": "Capitals",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18651413\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1949,
     "year_acquired": "1995",
     "decade": "1900",
-    "woe:country": "23424977",
-    "medium": "Medium: cotton\nTechnique: screen printed on plain weave with overtwisted yarns",
+    "woe:country_id": "23424977",
+    "medium": "Medium: cotton\nTechnique: screen printed on plain weave with overtwisted yarns\nLabel: screen printed cotton",
     "markings": null,
     "signed": null,
     "inscribed": "Guaranteed to be Vat Colors and Pre-Shrunk (printed in selvedge)",
     "provenance": null,
     "dimensions": "H x W: 162.6 x 120.7 cm (64 x 47 1\/2 in.)",
+    "dimensions_raw": {
+        "height": [
+            "162.56",
+            "centimeters"
+        ],
+        "width": [
+            "120.65",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase from General Acquisitions Endowment Funds",
     "description": "Length of printed cotton with an all-over design of greek key ornament in tan on an off-white ground, with alternating squares of brown and yellow overprinted with an abstracted columm capital in shades of brown.",
     "justification": null,
-    "type": {
-        "id": "35251739",
-        "name": "textile"
-    },
+    "woe:country": "23424977",
+    "type": "textile",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/42791_4f403bbaa383af98_b.jpg",
                 "width": 768,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/42791_4f403bbaa383af98_n.jpg",
-                "width": 240,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "42791"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/42791_4f403bbaa383af98_z.jpg",
                 "width": 480,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "42791"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/42791_4f403bbaa383af98_n.jpg",
+                "width": 240,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "42791"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/42791_4f403bbaa383af98_d.gif",
+                "width": 240,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "42791"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/42791_4f403bbaa383af98_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "42791"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18048535",
             "role_id": "35352247",
             "person_name": "General Acquisitions Endowment",
+            "person_date": "",
             "role_name": "Fund",
+            "role_display_name": "Fund:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18048535\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352247\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18047457",
             "role_id": "35352245",
             "person_name": "Barbara Duggan",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047457\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -70,34 +100,47 @@
             "person_id": "18041519",
             "role_id": "35352249",
             "person_name": "20th Century Furnishings",
+            "person_date": "",
             "role_name": "Vendor",
+            "role_display_name": "Purchased from",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041519\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352249\/"
         }
     ],
     "tombstone": {
-        "epitaph": "Textile, \"Capitals\", ca. 1930\u201339. Medium: cotton\nTechnique: screen printed on plain weave with overtwisted yarns. Museum purchase from General Acquisitions Endowment Funds. 1995-48-1."
+        "epitaph": "Textile, \"Capitals\", ca. 1930\u201339. Medium: cotton\nTechnique: screen printed on plain weave with overtwisted yarns\nLabel: screen printed cotton. Museum purchase from General Acquisitions Endowment Funds. 1995-48-1."
     },
     "colors": [
         {
-            "color": "#d0b78e",
-            "closest_css3": "#d2b48c"
+            "color": "#b69e7d",
+            "closest_crayola": "#cd9575",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         },
         {
-            "color": "#d8be57",
-            "closest_css3": "#bdb76b"
+            "color": "#cfb352",
+            "closest_crayola": "#bab86c",
+            "closest_css3": "#bdb76b",
+            "closest_css4": "#bdb76b"
         },
         {
-            "color": "#935844",
-            "closest_css3": "#a0522d"
+            "color": "#eadbbb",
+            "closest_crayola": "#efcdb8",
+            "closest_css3": "#f5deb3",
+            "closest_css4": "#f5deb3"
         },
         {
-            "color": "#8a693b",
-            "closest_css3": "#a0522d"
+            "color": "#915441",
+            "closest_crayola": "#a5694f",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         },
         {
-            "color": "#5f3731",
-            "closest_css3": "#556b2f"
+            "color": "#603731",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

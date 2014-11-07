@@ -3,6 +3,7 @@
     "tms:id": "177055",
     "accession_number": "1981-28-44",
     "title": "Sampler, 17th century",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18617051\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": null,
     "year_acquired": "1981",
     "decade": null,
-    "woe:country": "23424975",
+    "woe:country_id": "23424975",
     "medium": "Medium: silk and linen embroidery on linen foundation\nTechnique: embroidered in cross, satin, stem, running, double running, eyelet, long armed cross stitches and areas of withdrawn elements with needlemade fillings on plain weave foundation",
     "markings": null,
     "signed": null,
     "inscribed": "S.G.",
     "provenance": null,
     "dimensions": "H x W: 66 x 17.1 cm (26 x 6 3\/4 in.)",
+    "dimensions_raw": {
+        "height": [
+            "66.00",
+            "centimeters"
+        ],
+        "width": [
+            "17.15",
+            "centimeters"
+        ]
+    },
     "creditline": "Bequest of Gertrude M. Oppenheimer",
     "description": "Bands of pattern in browns, blue, and green with alphabets followed by bands of white work pattern including an alphabet.",
     "justification": null,
-    "type": {
-        "id": "35256439",
-        "name": "Sampler"
-    },
+    "woe:country": "23424975",
+    "type": "Sampler",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/55231_b29d9b836a410641_b.jpg",
                 "width": 284,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/55231_b29d9b836a410641_n.jpg",
-                "width": 89,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "55231"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/55231_b29d9b836a410641_z.jpg",
                 "width": 177,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "55231"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/55231_b29d9b836a410641_n.jpg",
+                "width": 89,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "55231"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/55231_b29d9b836a410641_d.gif",
+                "width": 89,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "55231"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/55231_b29d9b836a410641_sq.jpg",
+                "width": 284,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "55231"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/36582_b363e76196a9c401_b.jpg",
                 "width": 309,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/36582_b363e76196a9c401_n.jpg",
-                "width": 97,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "36582"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/36582_b363e76196a9c401_z.jpg",
                 "width": 193,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "36582"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/36582_b363e76196a9c401_n.jpg",
+                "width": 97,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "36582"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/36582_b363e76196a9c401_d.gif",
+                "width": 97,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "36582"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/36582_b363e76196a9c401_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "36582"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18055143",
             "role_id": "35352245",
             "person_name": "Susan J. Brown",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18055143\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18050567",
             "role_id": "35351537",
             "person_name": "Gertrude M. Oppenheimer",
+            "person_date": "",
             "role_name": "Bequestor",
+            "role_display_name": "Bequest of",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18050567\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351537\/"
         }
@@ -92,20 +139,23 @@
     },
     "colors": [
         {
-            "color": "#987e58",
-            "closest_css3": "#808080"
+            "color": "#a98c64",
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         },
         {
-            "color": "#919073",
-            "closest_css3": "#808080"
+            "color": "#969274",
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#696c41",
-            "closest_css3": "#556b2f"
-        },
-        {
-            "color": "#d3cabc",
-            "closest_css3": "#c0c0c0"
+            "color": "#6c6e43",
+            "closest_crayola": "#85754e",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         }
-    ]
+    ],
+    "woe:country_name": "United Kingdom"
 }

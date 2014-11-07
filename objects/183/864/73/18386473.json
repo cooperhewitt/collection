@@ -3,6 +3,7 @@
     "tms:id": "103370",
     "accession_number": "1951-103-37",
     "title": "Textile, \"Flower Pot\", designed 1883",
+    "title_raw": "Flower Pot",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18386473\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": null,
     "year_acquired": "1951",
     "decade": null,
-    "woe:country": "23424975",
+    "woe:country_id": "23424975",
     "medium": "Medium: cotton\nTechnique: printed over resist on plain weave",
     "markings": null,
     "signed": null,
     "inscribed": "Rec'd Morris and Company in selvedge",
     "provenance": null,
     "dimensions": "H x W: 33 x 93 cm (13 x 36 5\/8 in.)",
+    "dimensions_raw": {
+        "height": [
+            "33.00",
+            "centimeters"
+        ],
+        "width": [
+            "93.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Robert W. Friedel",
     "description": "Small-scale symmetrical design of vases and flowers in continuous ogival framework, in pink, white, yellow, green and blue on a dark blue ground.",
     "justification": null,
-    "type": {
-        "id": "35251739",
-        "name": "textile"
-    },
+    "woe:country": "23424975",
+    "type": "textile",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/46242_d437a6cf8c7e4a4f_b.jpg",
                 "width": 1024,
                 "height": 395,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/46242_d437a6cf8c7e4a4f_n.jpg",
-                "width": 320,
-                "height": 123,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "46242"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/46242_d437a6cf8c7e4a4f_z.jpg",
                 "width": 640,
                 "height": 247,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "46242"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/46242_d437a6cf8c7e4a4f_n.jpg",
+                "width": 320,
+                "height": 123,
+                "is_primary": "1",
+                "image_id": "46242"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/46242_d437a6cf8c7e4a4f_d.gif",
+                "width": 320,
+                "height": 123,
+                "is_primary": "1",
+                "image_id": "46242"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/46242_d437a6cf8c7e4a4f_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "46242"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/16871_e7a45ccbccd750b9_b.jpg",
                 "width": 1024,
                 "height": 640,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/16871_e7a45ccbccd750b9_n.jpg",
-                "width": 320,
-                "height": 200,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "16871"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/16871_e7a45ccbccd750b9_z.jpg",
                 "width": 640,
                 "height": 400,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "16871"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/16871_e7a45ccbccd750b9_n.jpg",
+                "width": 320,
+                "height": 200,
+                "is_primary": "0",
+                "image_id": "16871"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/16871_e7a45ccbccd750b9_d.gif",
+                "width": 320,
+                "height": 200,
+                "is_primary": "0",
+                "image_id": "16871"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/16871_e7a45ccbccd750b9_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "16871"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18043865",
             "role_id": "35236685",
             "person_name": "Morris & Co.",
+            "person_date": "Merton Abbey, England, 1874\u20131896",
             "role_name": "Maker",
+            "role_display_name": "Made by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18043865\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236685\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18052481",
             "role_id": "35351535",
             "person_name": "Robert W. Friedel",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18052481\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -92,24 +139,35 @@
     },
     "colors": [
         {
-            "color": "#252f45",
-            "closest_css3": "#2f4f4f"
+            "color": "#1b2640",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#596573",
-            "closest_css3": "#696969"
+            "color": "#374353",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#6e7138",
-            "closest_css3": "#556b2f"
+            "color": "#5a6a7a",
+            "closest_crayola": "#4a646c",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#535434",
-            "closest_css3": "#556b2f"
+            "color": "#716f36",
+            "closest_crayola": "#85754e",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         },
         {
-            "color": "#b09d3a",
-            "closest_css3": "#cd853f"
+            "color": "#3d4235",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         }
-    ]
+    ],
+    "woe:country_name": "United Kingdom"
 }

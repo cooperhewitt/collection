@@ -3,6 +3,7 @@
     "tms:id": "67298",
     "accession_number": "1938-88-6441",
     "title": "Drawing, \"Design for Cupid and Trophy of Arms\", 1710\u201328",
+    "title_raw": "Design for Cupid and Trophy of Arms",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18548413\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1738,
     "year_acquired": "1938",
     "decade": null,
-    "woe:country": "23424853",
+    "woe:country_id": "23424853",
     "medium": "Red chalk on paper",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "Giovanni Piancastelli; Mr. and Mrs. Edward D. Brandegee",
     "dimensions": "13.2 x 9.8 cm (5 3\/16 x 3 7\/8 in.)",
+    "dimensions_raw": {
+        "height": [
+            "13.20",
+            "centimeters"
+        ],
+        "width": [
+            "9.80",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase through gift of various donors and from Eleanor G. Hewitt Fund",
     "description": "Shown from the front, standing upon a base.  He carries the bar in his right hand, and leans the left one upon a shield.  Below are the quiver and weapons",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424853",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/39968_e1c6810cac440577_b.jpg",
                 "width": 794,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/39968_e1c6810cac440577_n.jpg",
-                "width": 248,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "39968"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/39968_e1c6810cac440577_z.jpg",
                 "width": 496,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "39968"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/39968_e1c6810cac440577_n.jpg",
+                "width": 248,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "39968"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/39968_e1c6810cac440577_d.gif",
+                "width": 248,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "39968"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/39968_e1c6810cac440577_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "39968"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/16985_bf1d62c395fd5c10_b.jpg",
                 "width": 737,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/16985_bf1d62c395fd5c10_n.jpg",
-                "width": 230,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "16985"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/16985_bf1d62c395fd5c10_z.jpg",
                 "width": 460,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "16985"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/16985_bf1d62c395fd5c10_n.jpg",
+                "width": 230,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "16985"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/16985_bf1d62c395fd5c10_d.gif",
+                "width": 230,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "16985"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/16985_bf1d62c395fd5c10_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "16985"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18043183",
             "role_id": "35236565",
             "person_name": "Paolo de Mattheis",
+            "person_date": "1662 \u2013 1728",
             "role_name": "Artist",
+            "role_display_name": "",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18043183\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236565\/"
         }
@@ -85,15 +130,22 @@
     "colors": [
         {
             "color": "#d0a578",
-            "closest_css3": "#d2b48c"
-        },
-        {
-            "color": "#b87c53",
-            "closest_css3": "#cd853f"
+            "closest_crayola": "#cd9575",
+            "closest_css3": "#d2b48c",
+            "closest_css4": "#d2b48c"
         },
         {
             "color": "#f3eed7",
-            "closest_css3": "#faebd7"
+            "closest_crayola": "#efdecd",
+            "closest_css3": "#faebd7",
+            "closest_css4": "#faebd7"
+        },
+        {
+            "color": "#b97e56",
+            "closest_crayola": "#b4674d",
+            "closest_css3": "#cd853f",
+            "closest_css4": "#cd853f"
         }
-    ]
+    ],
+    "woe:country_name": "Italy"
 }

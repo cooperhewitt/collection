@@ -3,6 +3,7 @@
     "tms:id": "126158",
     "accession_number": "1960-163-22",
     "title": "Scenic - Panel, \"Relief Map of the United States\", 1930\u201340",
+    "title_raw": "Relief Map of the United States",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18431525\/",
     "department_id": "35347503",
     "period_id": null,
@@ -13,39 +14,101 @@
     "year_end": 1940,
     "year_acquired": "1960",
     "decade": "1930",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Chromo-lithographed",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "104 x 50 cm (40 15\/16 x 19 11\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "104.00",
+            "centimeters"
+        ],
+        "width": [
+            "50.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Wallpaper Council, Inc.",
     "description": "The left panel of a mural containing a relief map of the United States showing the west coast.",
     "justification": null,
-    "type": {
-        "id": "35287557",
-        "name": "Scenic - panel"
-    },
+    "woe:country": "23424977",
+    "type": "Scenic - panel",
     "images": [
+        {
+            "b": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/91434_02c318e0afa5857b_b.jpg",
+                "width": 506,
+                "height": 1024,
+                "is_primary": "1",
+                "image_id": "91434"
+            },
+            "z": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/91434_02c318e0afa5857b_z.jpg",
+                "width": 317,
+                "height": 640,
+                "is_primary": "1",
+                "image_id": "91434"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/91434_02c318e0afa5857b_n.jpg",
+                "width": 158,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "91434"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/91434_02c318e0afa5857b_d.gif",
+                "width": 158,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "91434"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/91434_02c318e0afa5857b_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "91434"
+            }
+        },
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/6099_b43bc9c70f4f6f35_b.jpg",
                 "width": 502,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/6099_b43bc9c70f4f6f35_n.jpg",
-                "width": 157,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "6099"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/6099_b43bc9c70f4f6f35_z.jpg",
                 "width": 314,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "6099"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/6099_b43bc9c70f4f6f35_n.jpg",
+                "width": 157,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "6099"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/6099_b43bc9c70f4f6f35_d.gif",
+                "width": 157,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "6099"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/6099_b43bc9c70f4f6f35_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "6099"
             }
         }
     ],
@@ -54,7 +117,9 @@
             "person_id": "18047399",
             "role_id": "35352245",
             "person_name": "Gregory Herringshaw",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047399\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -62,7 +127,9 @@
             "person_id": "18055649",
             "role_id": "35352245",
             "person_name": "Marilyn Hiller",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18055649\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -70,7 +137,9 @@
             "person_id": "18046573",
             "role_id": "35236657",
             "person_name": "The Schmitz-Horning Co.",
+            "person_date": "1905",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18046573\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         }
@@ -80,24 +149,35 @@
     },
     "colors": [
         {
-            "color": "#e6e1c3",
-            "closest_css3": "#f5deb3"
+            "color": "#ece6cc",
+            "closest_crayola": "#efdecd",
+            "closest_css3": "#faebd7",
+            "closest_css4": "#faebd7"
         },
         {
-            "color": "#d1b07b",
-            "closest_css3": "#d2b48c"
+            "color": "#bca95e",
+            "closest_crayola": "#bab86c",
+            "closest_css3": "#bdb76b",
+            "closest_css4": "#bdb76b"
         },
         {
-            "color": "#dbcd75",
-            "closest_css3": "#deb887"
+            "color": "#a28d61",
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#8d7858",
-            "closest_css3": "#696969"
+            "color": "#78604c",
+            "closest_crayola": "#85754e",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#a5a781",
-            "closest_css3": "#8fbc8f"
+            "color": "#e7d260",
+            "closest_crayola": "#f8d568",
+            "closest_css3": "#deb887",
+            "closest_css4": "#deb887"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

@@ -3,6 +3,7 @@
     "tms:id": "102714",
     "accession_number": "1950-72-1",
     "title": "Dado, 1810",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18385161\/",
     "department_id": "35347503",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1810,
     "year_acquired": "1950",
     "decade": null,
-    "woe:country": "23424819",
+    "woe:country_id": "23424819",
     "medium": "Block-printed on handmade paper",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "69 x 50.5 cm (27 3\/16 x 19 7\/8 in.)",
+    "dimensions_raw": {
+        "height": [
+            "69.00",
+            "centimeters"
+        ],
+        "width": [
+            "50.50",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of John Judkyn",
     "description": "A horizontal rectangle shows two children. The boy has placed a board over a small brook and the girl is in the act of crossing over. A floral rope marks the seperation of the panels which repeat horizontally. Printed in four colors on brown ground.",
     "justification": null,
-    "type": {
-        "id": "35285763",
-        "name": "Dado"
-    },
+    "woe:country": "23424819",
+    "type": "Dado",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/63782_f5ed5cd69323ed24_b.jpg",
                 "width": 1024,
                 "height": 748,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/63782_f5ed5cd69323ed24_n.jpg",
-                "width": 320,
-                "height": 234,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "63782"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/63782_f5ed5cd69323ed24_z.jpg",
                 "width": 640,
                 "height": 468,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "63782"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/63782_f5ed5cd69323ed24_n.jpg",
+                "width": 320,
+                "height": 234,
+                "is_primary": "1",
+                "image_id": "63782"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/63782_f5ed5cd69323ed24_d.gif",
+                "width": 320,
+                "height": 234,
+                "is_primary": "1",
+                "image_id": "63782"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/63782_f5ed5cd69323ed24_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "63782"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/27873_12f64b0988ef867e_b.jpg",
                 "width": 1024,
                 "height": 748,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/27873_12f64b0988ef867e_n.jpg",
-                "width": 320,
-                "height": 234,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "27873"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/27873_12f64b0988ef867e_z.jpg",
                 "width": 640,
                 "height": 467,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "27873"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/27873_12f64b0988ef867e_n.jpg",
+                "width": 320,
+                "height": 234,
+                "is_primary": "0",
+                "image_id": "27873"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/27873_12f64b0988ef867e_d.gif",
+                "width": 320,
+                "height": 234,
+                "is_primary": "0",
+                "image_id": "27873"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/27873_12f64b0988ef867e_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "27873"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18058119",
             "role_id": "35351535",
             "person_name": "John Judkyn",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18058119\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18047883",
             "role_id": "35352245",
             "person_name": "Dr. Haus Huth",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047883\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         }
@@ -92,24 +139,29 @@
     },
     "colors": [
         {
-            "color": "#a4844a",
-            "closest_css3": "#cd853f"
+            "color": "#65442f",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         },
         {
-            "color": "#87683d",
-            "closest_css3": "#a0522d"
+            "color": "#7e603a",
+            "closest_crayola": "#85754e",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         },
         {
-            "color": "#6e4d34",
-            "closest_css3": "#556b2f"
+            "color": "#d1bc84",
+            "closest_crayola": "#deaa88",
+            "closest_css3": "#d2b48c",
+            "closest_css4": "#d2b48c"
         },
         {
-            "color": "#d2bd86",
-            "closest_css3": "#d2b48c"
-        },
-        {
-            "color": "#dfd8c6",
-            "closest_css3": "#d3d3d3"
+            "color": "#dcd3ba",
+            "closest_crayola": "#efcdb8",
+            "closest_css3": "#d3d3d3",
+            "closest_css4": "#d3d3d3"
         }
-    ]
+    ],
+    "woe:country_name": "France"
 }

@@ -3,6 +3,7 @@
     "tms:id": "121336",
     "accession_number": "1958-143-60",
     "title": "Drawing, \"Figure Presenting Loaves to a General\", ca. 1650",
+    "title_raw": "Figure Presenting Loaves to a General",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18422189\/",
     "department_id": "35347493",
     "period_id": "35417081",
@@ -13,39 +14,64 @@
     "year_end": 1660,
     "year_acquired": "1958",
     "decade": null,
-    "woe:country": null,
+    "woe:country_id": null,
     "medium": "Pen and gray ink, brush and gray wash with traces of graphite on cream laid paper",
     "markings": "Stamped in black ink: [mark] (see Lugt 2631)",
     "signed": "Signed in graphite, lower right: Screta f.",
     "inscribed": null,
     "provenance": "Hugh Cassel; 1958: acquired by Museum",
     "dimensions": "Sheet: 22.5 x 17.7 cm (8 7\/8 x 6 15\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "22.50",
+            "centimeters"
+        ],
+        "width": [
+            "17.70",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Hugh Cassel",
     "description": "Street scene depicting two classical male figure, one with a sword and beard, the other handing the first three loaves of bread.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": null,
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/21860_e5c5782dd5514212_b.jpg",
                 "width": 817,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/21860_e5c5782dd5514212_n.jpg",
-                "width": 255,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "21860"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/21860_e5c5782dd5514212_z.jpg",
                 "width": 510,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "21860"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/21860_e5c5782dd5514212_n.jpg",
+                "width": 255,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "21860"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/21860_e5c5782dd5514212_d.gif",
+                "width": 255,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "21860"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/21860_e5c5782dd5514212_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "21860"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/22701_ffe6135f023c1175_b.jpg",
                 "width": 1024,
                 "height": 902,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/22701_ffe6135f023c1175_n.jpg",
-                "width": 320,
-                "height": 282,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "22701"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/22701_ffe6135f023c1175_z.jpg",
                 "width": 640,
                 "height": 564,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "22701"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/22701_ffe6135f023c1175_n.jpg",
+                "width": 320,
+                "height": 282,
+                "is_primary": "0",
+                "image_id": "22701"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/22701_ffe6135f023c1175_d.gif",
+                "width": 320,
+                "height": 282,
+                "is_primary": "0",
+                "image_id": "22701"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/22701_ffe6135f023c1175_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "22701"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18063373",
             "role_id": "35236565",
             "person_name": "Karel \u0160kr\u00e9ta",
+            "person_date": "Bohemian, 1610 - 1674",
             "role_name": "Artist",
+            "role_display_name": "",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18063373\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236565\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18535607",
             "role_id": "35351535",
             "person_name": "Mr. Hugh Cassel",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18535607\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -92,16 +139,16 @@
     },
     "colors": [
         {
-            "color": "#b2a48f",
-            "closest_css3": "#bc8f8f"
+            "color": "#998d7b",
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#867d6d",
-            "closest_css3": "#808080"
-        },
-        {
-            "color": "#5b544a",
-            "closest_css3": "#556b2f"
+            "color": "#5f584e",
+            "closest_crayola": "#6e5160",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         }
     ]
 }

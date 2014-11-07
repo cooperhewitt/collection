@@ -3,6 +3,7 @@
     "tms:id": "162765",
     "accession_number": "1980-14-617",
     "title": "Matchsafe, \"Advertisement for \"Atlas Ready Mixed Paint\"\", 1900\u201310",
+    "title_raw": "Advertisement for \"Atlas Ready Mixed Paint\"",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18503723\/",
     "department_id": "35347497",
     "period_id": null,
@@ -13,39 +14,68 @@
     "year_end": 1910,
     "year_acquired": "1980",
     "decade": null,
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Plated metal, printed celluloid",
     "markings": "\"The Whitehead & Hoag Co., Newark, N.J.\" printed on cover (see description).",
     "signed": null,
     "inscribed": null,
     "provenance": "Collection of Carol B. Brener and Stephen W. Brener",
     "dimensions": "6.9 x 3.8 x 1 cm (2 11\/16 x 1 1\/2 x 3\/8 in. )",
+    "dimensions_raw": {
+        "depth": [
+            "1.00",
+            "centimeters"
+        ],
+        "height": [
+            "6.90",
+            "centimeters"
+        ],
+        "width": [
+            "3.80",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Stephen W. Brener and Carol B. Brener",
     "description": "Rectangular, curved top and bottom, featuring black printed decoration of paint can with variying type face and decorative motifs, inscribed \"Atlas Ready Mixed Paint, Manufactured by George D. Wetherill & Co., 114 North Front St., Philadelphia\", inscribed below can \"White Lead, Zinc White, Pure Colors. All Painter's Supplies.\" Inscribed in fine print below \"The Whitehead & Hoag Co., Newark, N.J.\" Reverse features image of Atlas with globe on his back and cherubs flying about with brushes and paint cans, inscribed \"Established 1807. Incorporated 1896. We Must Cover The Earth with Atlas Paints. Geo. D. Wetherill  Co. Inc., Philadelphia.\" Side panel inscribed \"Atlas Paint Is Guaranteed\", opposite side panel inscribed Geo. D. Wetherill & Co's Pure White Lead, $1000 Guarantee.\" Lid hinged on side. Striker on bottom.",
     "justification": null,
-    "type": {
-        "id": "35287419",
-        "name": "Matchsafe"
-    },
+    "woe:country": "23424977",
+    "type": "Matchsafe",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/9472_5836f2c23f8cb38e_b.jpg",
                 "width": 757,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/9472_5836f2c23f8cb38e_n.jpg",
-                "width": 237,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "9472"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/9472_5836f2c23f8cb38e_z.jpg",
                 "width": 473,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "9472"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/9472_5836f2c23f8cb38e_n.jpg",
+                "width": 237,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "9472"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/9472_5836f2c23f8cb38e_d.gif",
+                "width": 237,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "9472"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/9472_5836f2c23f8cb38e_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "9472"
             }
         }
     ],
@@ -54,7 +84,9 @@
             "person_id": "18539175",
             "role_id": "35351535",
             "person_name": "Carol B. Brener",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18539175\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -62,7 +94,9 @@
             "person_id": "18539171",
             "role_id": "35351535",
             "person_name": "Stephen W. Brener",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18539171\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -70,7 +104,9 @@
             "person_id": "18052691",
             "role_id": "35236657",
             "person_name": "Whitehead & Hoag Company",
+            "person_date": "",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18052691\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         }
@@ -80,24 +116,29 @@
     },
     "colors": [
         {
-            "color": "#fffecb",
-            "closest_css3": "#fffacd"
+            "color": "#adaba4",
+            "closest_crayola": "#979aaa",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
         },
         {
-            "color": "#6d7167",
-            "closest_css3": "#696969"
+            "color": "#fffecc",
+            "closest_crayola": "#eceabe",
+            "closest_css3": "#fffacd",
+            "closest_css4": "#fffacd"
         },
         {
-            "color": "#55544d",
-            "closest_css3": "#556b2f"
+            "color": "#7a7f74",
+            "closest_crayola": "#757575",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#929185",
-            "closest_css3": "#808080"
-        },
-        {
-            "color": "#282d27",
-            "closest_css3": "#2f4f4f"
+            "color": "#4b4e49",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

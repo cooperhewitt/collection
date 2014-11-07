@@ -3,6 +3,7 @@
     "tms:id": "133122",
     "accession_number": "1962-54-45",
     "title": "Waistcoat, 1780\u201395",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18445261\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1875,
     "year_acquired": "1962",
     "decade": null,
-    "woe:country": "23424819",
+    "woe:country_id": "23424819",
     "medium": "Medium: silk\nTechnique: embroidered in satin, stem and knot stitches on 7&1 satin weave foundation",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "H x W: 55 x 50.2 cm (21 5\/8 x 19 3\/4 in.)",
+    "dimensions_raw": {
+        "height": [
+            "55.00",
+            "centimeters"
+        ],
+        "width": [
+            "50.17",
+            "centimeters"
+        ]
+    },
     "creditline": "Bequest of Richard Cranch Greenleaf in memory of his mother, Adeline Emma Greenleaf",
     "description": "White silk satin waistcoat with white silk plain weave back; with standing collar and straight hemline, pocket flaps and covered buttons. Embroidered with polychrome silks in fifty-three colors, with an over-all floral sprig, floral border at center front, and a design of a boy playing a horn with a turkey at the lower edge.",
     "justification": null,
-    "type": {
-        "id": "35256965",
-        "name": "Waistcoat"
-    },
+    "woe:country": "23424819",
+    "type": "Waistcoat",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/6652_8478a3d5de9d3fe1_b.jpg",
                 "width": 612,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/6652_8478a3d5de9d3fe1_n.jpg",
-                "width": 191,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "6652"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/6652_8478a3d5de9d3fe1_z.jpg",
                 "width": 382,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "6652"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/6652_8478a3d5de9d3fe1_n.jpg",
+                "width": 191,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "6652"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/6652_8478a3d5de9d3fe1_d.gif",
+                "width": 191,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "6652"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/6652_8478a3d5de9d3fe1_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "6652"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/26317_43556cb5ae0238c6_b.jpg",
                 "width": 590,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/26317_43556cb5ae0238c6_n.jpg",
-                "width": 184,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "26317"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/26317_43556cb5ae0238c6_z.jpg",
                 "width": 369,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "26317"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/26317_43556cb5ae0238c6_n.jpg",
+                "width": 184,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "26317"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/26317_43556cb5ae0238c6_d.gif",
+                "width": 184,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "26317"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/26317_43556cb5ae0238c6_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "26317"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18049377",
             "role_id": "35351537",
             "person_name": "Richard Cranch Greenleaf",
+            "person_date": "",
             "role_name": "Bequestor",
+            "role_display_name": "Bequest of",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049377\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351537\/"
         }
@@ -84,24 +129,35 @@
     },
     "colors": [
         {
-            "color": "#e1cea0",
-            "closest_css3": "#eee8aa"
+            "color": "#e8d4a9",
+            "closest_crayola": "#edd19c",
+            "closest_css3": "#f5deb3",
+            "closest_css4": "#f5deb3"
         },
         {
-            "color": "#26262e",
-            "closest_css3": "#2f4f4f"
+            "color": "#272730",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#928056",
-            "closest_css3": "#808080"
+            "color": "#c6ab80",
+            "closest_crayola": "#deaa88",
+            "closest_css3": "#d2b48c",
+            "closest_css4": "#d2b48c"
         },
         {
-            "color": "#61553c",
-            "closest_css3": "#556b2f"
+            "color": "#8b7a57",
+            "closest_crayola": "#8a795d",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#3c2513",
-            "closest_css3": "#000000"
+            "color": "#5e5437",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         }
-    ]
+    ],
+    "woe:country_name": "France"
 }

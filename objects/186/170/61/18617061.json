@@ -3,6 +3,7 @@
     "tms:id": "177060",
     "accession_number": "1981-28-444",
     "title": "Sampler, 1817",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18617061\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1817,
     "year_acquired": "1981",
     "decade": null,
-    "woe:country": "23424844",
+    "woe:country_id": "23424844",
     "medium": "Medium: wool embroidery on cotton foundation\nTechnique: embroidered in cross stitch on plain weave foundation",
     "markings": null,
     "signed": null,
     "inscribed": "Ludmilla Herzog 1817",
     "provenance": null,
     "dimensions": "H x W: 93.3 x 28.6 cm (36 3\/4 x 11 1\/4 in.)",
+    "dimensions_raw": {
+        "height": [
+            "93.35",
+            "centimeters"
+        ],
+        "width": [
+            "28.58",
+            "centimeters"
+        ]
+    },
     "creditline": "Bequest of Gertrude M. Oppenheimer",
     "description": "Spot motifs of animals, flowers, a house, a cross, and a dancing couple, with floral bands and two lines of text in unidentified script, in bright colors on a white ground.",
     "justification": null,
-    "type": {
-        "id": "35256439",
-        "name": "Sampler"
-    },
+    "woe:country": "23424844",
+    "type": "Sampler",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/41143_9dd08a4b6d92ac6e_b.jpg",
                 "width": 373,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/41143_9dd08a4b6d92ac6e_n.jpg",
-                "width": 117,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "41143"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/41143_9dd08a4b6d92ac6e_z.jpg",
                 "width": 233,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "41143"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/41143_9dd08a4b6d92ac6e_n.jpg",
+                "width": 117,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "41143"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/41143_9dd08a4b6d92ac6e_d.gif",
+                "width": 117,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "41143"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/41143_9dd08a4b6d92ac6e_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "41143"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/37279_85ef44c9c54b8501_b.jpg",
                 "width": 431,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/37279_85ef44c9c54b8501_n.jpg",
-                "width": 135,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "37279"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/37279_85ef44c9c54b8501_z.jpg",
                 "width": 269,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "37279"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/37279_85ef44c9c54b8501_n.jpg",
+                "width": 135,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "37279"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/37279_85ef44c9c54b8501_d.gif",
+                "width": 135,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "37279"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/37279_85ef44c9c54b8501_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "37279"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18055143",
             "role_id": "35352245",
             "person_name": "Susan J. Brown",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18055143\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18050567",
             "role_id": "35351537",
             "person_name": "Gertrude M. Oppenheimer",
+            "person_date": "",
             "role_name": "Bequestor",
+            "role_display_name": "Bequest of",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18050567\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351537\/"
         },
@@ -90,7 +137,9 @@
             "person_id": "18050993",
             "role_id": "35236583",
             "person_name": "Ludmilla Herzog",
+            "person_date": "",
             "role_name": "Embroiderer",
+            "role_display_name": "Embroidered by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18050993\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236583\/"
         }
@@ -100,24 +149,35 @@
     },
     "colors": [
         {
-            "color": "#ad9887",
-            "closest_css3": "#bc8f8f"
+            "color": "#d7c9b1",
+            "closest_crayola": "#cdc5c2",
+            "closest_css3": "#c0c0c0",
+            "closest_css4": "#c0c0c0"
         },
         {
-            "color": "#585a34",
-            "closest_css3": "#556b2f"
+            "color": "#af9989",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         },
         {
-            "color": "#7e4333",
-            "closest_css3": "#8b4513"
+            "color": "#5d5d3a",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         },
         {
-            "color": "#7f7c58",
-            "closest_css3": "#696969"
+            "color": "#2c332f",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#272e2c",
-            "closest_css3": "#2f4f4f"
+            "color": "#631e1f",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#800000",
+            "closest_css4": "#800000"
         }
-    ]
+    ],
+    "woe:country_name": "Hungary"
 }

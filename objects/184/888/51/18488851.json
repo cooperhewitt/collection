@@ -3,6 +3,7 @@
     "tms:id": "155294",
     "accession_number": "1975-77-19",
     "title": "Scenic - Panel, \"El Dorado\", 1915\u201325",
+    "title_raw": "El Dorado",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18488851\/",
     "department_id": "35347503",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1925,
     "year_acquired": "1975",
     "decade": "1910",
-    "woe:country": "23424819",
+    "woe:country_id": "23424819",
     "medium": "Block-printed on continuous paper",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "H x W: 199 x 54 cm (78 3\/8 x 21 1\/4in.)",
+    "dimensions_raw": {
+        "height": [
+            "199.00",
+            "centimeters"
+        ],
+        "width": [
+            "54.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Dr. and Mrs. William Collis",
     "description": "Part of: 24 scenic strips and 5 plain overdoors of Zuber paper, depicting Gothic architecture, temple ruins, mountainscapes, heavy vegetation of flowers and trees, and peacocks.",
     "justification": null,
-    "type": {
-        "id": "35287557",
-        "name": "Scenic - panel"
-    },
+    "woe:country": "23424819",
+    "type": "Scenic - panel",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/18045_8df63d2267ace7b9_b.jpg",
                 "width": 575,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/18045_8df63d2267ace7b9_n.jpg",
-                "width": 180,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "18045"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/18045_8df63d2267ace7b9_z.jpg",
                 "width": 359,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "18045"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/18045_8df63d2267ace7b9_n.jpg",
+                "width": 180,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "18045"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/18045_8df63d2267ace7b9_d.gif",
+                "width": 180,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "18045"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/18045_8df63d2267ace7b9_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "18045"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18056551",
             "role_id": "35236655",
             "person_name": "Joseph Fuchs",
+            "person_date": "1814 \u2013 1888",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18056551\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18056549",
             "role_id": "35236655",
             "person_name": "Georges Zip\u00e9lius",
+            "person_date": "1808 \u2013 1890",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18056549\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18056547",
             "role_id": "35236655",
             "person_name": "Eug\u00e8ne Ehrmann",
+            "person_date": "1804 \u2013 1896",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18056547\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -78,7 +110,9 @@
             "person_id": "18047399",
             "role_id": "35352245",
             "person_name": "Gregory Herringshaw",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047399\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -86,7 +120,9 @@
             "person_id": "18539131",
             "role_id": "35351535",
             "person_name": "Mrs. William Collis",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18539131\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -94,7 +130,9 @@
             "person_id": "18536703",
             "role_id": "35351535",
             "person_name": "Dr. William Collis",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18536703\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -102,7 +140,9 @@
             "person_id": "18043983",
             "role_id": "35236657",
             "person_name": "Zuber & Cie",
+            "person_date": "",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18043983\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         }
@@ -112,24 +152,35 @@
     },
     "colors": [
         {
-            "color": "#b9c1cf",
-            "closest_css3": "#c0c0c0"
+            "color": "#c5cedc",
+            "closest_crayola": "#c5d0e6",
+            "closest_css3": "#d3d3d3",
+            "closest_css4": "#d3d3d3"
         },
         {
-            "color": "#9c9d80",
-            "closest_css3": "#8fbc8f"
+            "color": "#a9a892",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
         },
         {
-            "color": "#c3c4a7",
-            "closest_css3": "#c0c0c0"
+            "color": "#777c64",
+            "closest_crayola": "#757575",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#fded9f",
-            "closest_css3": "#eee8aa"
+            "color": "#fbf2b3",
+            "closest_crayola": "#fae7b5",
+            "closest_css3": "#ffe4b5",
+            "closest_css4": "#ffe4b5"
         },
         {
-            "color": "#45422f",
-            "closest_css3": "#2f4f4f"
+            "color": "#6d5e39",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         }
-    ]
+    ],
+    "woe:country_name": "France"
 }

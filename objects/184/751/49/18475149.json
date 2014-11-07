@@ -3,6 +3,7 @@
     "tms:id": "148337",
     "accession_number": "1971-57-1-c",
     "title": "Drawing, \"Mise-en-carte for Textile, No. 8359\", January 24, 1918",
+    "title_raw": "Mise-en-carte for Textile, No. 8359",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18475149\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1918,
     "year_acquired": "1971",
     "decade": "1910",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Brush and gouache, graphite on pre-printed graph paper",
     "markings": null,
     "signed": "Signed in black ink: Robert M. Davidson\/Jan 24 1918",
     "inscribed": "Inscribed in black ink: No. 8359 Type 624 on 25 \" S.",
     "provenance": null,
     "dimensions": "20.5 x 55.2 cm (8 1\/16 x 21 3\/4 in.)",
+    "dimensions_raw": {
+        "height": [
+            "20.50",
+            "centimeters"
+        ],
+        "width": [
+            "55.20",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Orinoka Mills",
     "description": "Floral design of tulips, berries and stylized leaves.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424977",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/39630_cff8aab8b44d66e2_b.jpg",
                 "width": 1024,
                 "height": 386,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/39630_cff8aab8b44d66e2_n.jpg",
-                "width": 320,
-                "height": 121,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "39630"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/39630_cff8aab8b44d66e2_z.jpg",
                 "width": 640,
                 "height": 241,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "39630"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/39630_cff8aab8b44d66e2_n.jpg",
+                "width": 320,
+                "height": 121,
+                "is_primary": "1",
+                "image_id": "39630"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/39630_cff8aab8b44d66e2_d.gif",
+                "width": 320,
+                "height": 121,
+                "is_primary": "1",
+                "image_id": "39630"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/39630_cff8aab8b44d66e2_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "39630"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18046321",
             "role_id": "35351535",
             "person_name": "Orinoka Mills",
+            "person_date": "USA",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18046321\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "51676457",
             "role_id": "35352245",
             "person_name": "Karin Zonis",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/51676457\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "51676615",
             "role_id": "35236661",
             "person_name": "F. Jones & Co.",
+            "person_date": "",
             "role_name": "Publisher",
+            "role_display_name": "Published by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/51676615\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236661\/"
         },
@@ -78,9 +110,21 @@
             "person_id": "18046321",
             "role_id": "35236657",
             "person_name": "Orinoka Mills",
+            "person_date": "USA",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18046321\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
+        },
+        {
+            "person_id": "68739207",
+            "role_id": "35236655",
+            "person_name": "Robert M. Davidson",
+            "person_date": "",
+            "role_name": "Designer",
+            "role_display_name": "Designed by",
+            "person_url": "http:\/\/collection.cooperhewitt.org\/people\/68739207\/",
+            "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
     ],
     "tombstone": {
@@ -88,24 +132,35 @@
     },
     "colors": [
         {
-            "color": "#d9caa5",
-            "closest_css3": "#d2b48c"
+            "color": "#bfaf88",
+            "closest_crayola": "#bab86c",
+            "closest_css3": "#d2b48c",
+            "closest_css4": "#d2b48c"
         },
         {
-            "color": "#725535",
-            "closest_css3": "#556b2f"
+            "color": "#6d5032",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         },
         {
-            "color": "#a89579",
-            "closest_css3": "#bc8f8f"
+            "color": "#9c8b6b",
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#b8964d",
-            "closest_css3": "#cd853f"
+            "color": "#7a8a86",
+            "closest_crayola": "#757575",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#c47338",
-            "closest_css3": "#cd853f"
+            "color": "#3e5145",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

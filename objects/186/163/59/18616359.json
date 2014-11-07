@@ -3,6 +3,7 @@
     "tms:id": "176709",
     "accession_number": "1981-28-128",
     "title": "Embroidered Picture, 17th century",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18616359\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": null,
     "year_acquired": "1981",
     "decade": null,
-    "woe:country": "23424975",
+    "woe:country_id": "23424975",
     "medium": "Medium: glass beads, pearls, linen, silk thread, paper\nTechnique: beads sewn on plain weave foundation",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "H x W: 30.5 x 21.6 cm (12 x 8 1\/2 in.)",
+    "dimensions_raw": {
+        "height": [
+            "30.50",
+            "centimeters"
+        ],
+        "width": [
+            "21.59",
+            "centimeters"
+        ]
+    },
     "creditline": "Bequest of Gertrude M. Oppenheimer",
     "description": "Right half of a beadwork picture with a man holding his hat and a lion and part of a building.  Windows in building are paper with ink-drawn lines.",
     "justification": null,
-    "type": {
-        "id": "35259407",
-        "name": "Embroidered picture"
-    },
+    "woe:country": "23424975",
+    "type": "Embroidered picture",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/55503_55be48e70e429ede_b.jpg",
                 "width": 738,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/55503_55be48e70e429ede_n.jpg",
-                "width": 231,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "55503"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/55503_55be48e70e429ede_z.jpg",
                 "width": 461,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "55503"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/55503_55be48e70e429ede_n.jpg",
+                "width": 231,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "55503"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/55503_55be48e70e429ede_d.gif",
+                "width": 231,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "55503"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/55503_55be48e70e429ede_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "55503"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/36699_c9b94850b56f0e06_b.jpg",
                 "width": 736,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/36699_c9b94850b56f0e06_n.jpg",
-                "width": 230,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "36699"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/36699_c9b94850b56f0e06_z.jpg",
                 "width": 460,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "36699"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/36699_c9b94850b56f0e06_n.jpg",
+                "width": 230,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "36699"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/36699_c9b94850b56f0e06_d.gif",
+                "width": 230,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "36699"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/36699_c9b94850b56f0e06_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "36699"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18050567",
             "role_id": "35351537",
             "person_name": "Gertrude M. Oppenheimer",
+            "person_date": "",
             "role_name": "Bequestor",
+            "role_display_name": "Bequest of",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18050567\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351537\/"
         }
@@ -84,24 +129,35 @@
     },
     "colors": [
         {
-            "color": "#332e28",
-            "closest_css3": "#2f4f4f"
+            "color": "#b4a797",
+            "closest_crayola": "#979aaa",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
         },
         {
-            "color": "#6f5438",
-            "closest_css3": "#556b2f"
+            "color": "#533c28",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         },
         {
-            "color": "#94846f",
-            "closest_css3": "#808080"
+            "color": "#2b2927",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#b6a99a",
-            "closest_css3": "#a9a9a9"
+            "color": "#816f5b",
+            "closest_crayola": "#8a795d",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#43572e",
-            "closest_css3": "#556b2f"
+            "color": "#415b33",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         }
-    ]
+    ],
+    "woe:country_name": "United Kingdom"
 }

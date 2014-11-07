@@ -3,6 +3,7 @@
     "tms:id": "255510",
     "accession_number": "2010-21-120",
     "title": "Poster, \"Z\u00fcricher Ballet, Balanchin, Kylian, Spoerli, van Manen\", 1997",
+    "title_raw": "Z\u00fcricher Ballet, Balanchin, Kylian, Spoerli, van Manen",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18758449\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1997,
     "year_acquired": "2010",
     "decade": "1990",
-    "woe:country": "23424957",
+    "woe:country_id": "23424957",
     "medium": "Offset lithograph on wove paper",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "Sara and Marc Benda (acquired new and directly from designer, Karl Domenic Geissb\u00fchler); 2010: acquired by Museum",
     "dimensions": "128.2 x 90.9 cm (50 1\/2 x 35 13\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "128.20",
+            "centimeters"
+        ],
+        "width": [
+            "90.90",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Sara and Marc Benda",
     "description": "On a gray ground, text in black and white with four men\u2019s faces throughout and two dancers at right: ZURCHER BALLETT \/ AB 20. DEZEMBER \u201897 \/ BALANCHINE \/ KYLIAN \/ SPOERLI \/ VAN \/ MANEN \/ OPERNHAUS; lower margin: SERENADE\u2026DREAMTIME\u2026DEAD END\u2026BLACK CAKE\u2026TSCHAIKOWSKI . TAKEMITSU . STRAWINSKI . MASSENET . MASCAGNI . JANACEK . CLEOBURY . MACFARLANE . KROG . DEKKER.",
     "justification": null,
-    "type": {
-        "id": "35238163",
-        "name": "poster"
-    },
+    "woe:country": "23424957",
+    "type": "poster",
     "images": [
         {
             "b": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/45570_2b8c19688626ed89_b.jpg",
-                "width": 726,
+                "url": "http:\/\/images.collection.cooperhewitt.org\/45570_8f452c207ad57550_b.jpg",
+                "width": 720,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/45570_2b8c19688626ed89_n.jpg",
-                "width": 227,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "45570"
             },
             "z": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/45570_2b8c19688626ed89_z.jpg",
-                "width": 454,
+                "url": "http:\/\/images.collection.cooperhewitt.org\/45570_8f452c207ad57550_z.jpg",
+                "width": 450,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "45570"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/45570_8f452c207ad57550_n.jpg",
+                "width": 225,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "45570"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/45570_8f452c207ad57550_d.gif",
+                "width": 225,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "45570"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/45570_8f452c207ad57550_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "45570"
             }
         }
     ],
@@ -54,9 +80,21 @@
             "person_id": "18063591",
             "role_id": "35236655",
             "person_name": "Karl Domenic Geissb\u00fchler",
+            "person_date": "Swiss, b. 1932",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18063591\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
+        },
+        {
+            "person_id": "68738781",
+            "role_id": "35236667",
+            "person_name": "Opernhaus, Z\u00fcrich",
+            "person_date": "",
+            "role_name": "Client",
+            "role_display_name": "Client:",
+            "person_url": "http:\/\/collection.cooperhewitt.org\/people\/68738781\/",
+            "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236667\/"
         }
     ],
     "tombstone": {
@@ -64,12 +102,17 @@
     },
     "colors": [
         {
-            "color": "#843c35",
-            "closest_css3": "#8b4513"
+            "color": "#a62f23",
+            "closest_crayola": "#9c2542",
+            "closest_css3": "#a52a2a",
+            "closest_css4": "#a52a2a"
         },
         {
-            "color": "#7e9699",
-            "closest_css3": "#778899"
+            "color": "#789093",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#778899",
+            "closest_css4": "#778899"
         }
-    ]
+    ],
+    "woe:country_name": "Switzerland"
 }

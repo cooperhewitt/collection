@@ -3,6 +3,7 @@
     "tms:id": "222907",
     "accession_number": "2001-28-109",
     "title": "Figure, \"Elephant\", ca. 1930",
+    "title_raw": "Elephant",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18694705\/",
     "department_id": "35347497",
     "period_id": null,
@@ -13,39 +14,68 @@
     "year_end": 1935,
     "year_acquired": "2001",
     "decade": "1920",
-    "woe:country": "23424829",
+    "woe:country_id": "23424829",
     "medium": "Glazed earthenware",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "13h x 13.5w x 6.4d cm (5 1\/8 x 5 5\/16 x 2 1\/2 in. )",
+    "dimensions_raw": {
+        "depth": [
+            "6.40",
+            "centimeters"
+        ],
+        "height": [
+            "13.00",
+            "centimeters"
+        ],
+        "width": [
+            "13.50",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Victor Wiener",
     "description": "Stylized figure of an elephant, the body in light grey crackle glaze.  The upraised trunk, mouth, eyes, ears, and blanket on back rendered in turquoise picked out in black; feet also capped in turquoise.   Slot-type opening at end of trunk.",
     "justification": null,
-    "type": {
-        "id": "35237189",
-        "name": "Figure"
-    },
+    "woe:country": "23424829",
+    "type": "Figure",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/14483_46e5e403ebbf1b38_b.jpg",
                 "width": 1024,
                 "height": 927,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/14483_46e5e403ebbf1b38_n.jpg",
-                "width": 320,
-                "height": 290,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "14483"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/14483_46e5e403ebbf1b38_z.jpg",
                 "width": 640,
                 "height": 579,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "14483"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/14483_46e5e403ebbf1b38_n.jpg",
+                "width": 320,
+                "height": 290,
+                "is_primary": "1",
+                "image_id": "14483"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/14483_46e5e403ebbf1b38_d.gif",
+                "width": 320,
+                "height": 290,
+                "is_primary": "1",
+                "image_id": "14483"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/14483_46e5e403ebbf1b38_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "14483"
             }
         },
         {
@@ -53,19 +83,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/14482_739754abac1becc1_b.jpg",
                 "width": 903,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/14482_739754abac1becc1_n.jpg",
-                "width": 282,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "14482"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/14482_739754abac1becc1_z.jpg",
                 "width": 564,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "14482"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/14482_739754abac1becc1_n.jpg",
+                "width": 282,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "14482"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/14482_739754abac1becc1_d.gif",
+                "width": 282,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "14482"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/14482_739754abac1becc1_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "14482"
             }
         }
     ],
@@ -74,7 +121,9 @@
             "person_id": "18051775",
             "role_id": "35236657",
             "person_name": "Friedrich Hudler Factory",
+            "person_date": "",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18051775\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         },
@@ -82,7 +131,9 @@
             "person_id": "18051779",
             "role_id": "35236655",
             "person_name": "Friedrich Hudler",
+            "person_date": "1889\u20131982",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18051779\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -90,7 +141,9 @@
             "person_id": "18041855",
             "role_id": "35351535",
             "person_name": "Victor Wiener",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041855\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -100,24 +153,35 @@
     },
     "colors": [
         {
-            "color": "#ceccbc",
-            "closest_css3": "#c0c0c0"
+            "color": "#ceccc0",
+            "closest_crayola": "#cdc5c2",
+            "closest_css3": "#c0c0c0",
+            "closest_css4": "#c0c0c0"
         },
         {
-            "color": "#cec791",
-            "closest_css3": "#d2b48c"
+            "color": "#cec897",
+            "closest_crayola": "#e7c697",
+            "closest_css3": "#d2b48c",
+            "closest_css4": "#d2b48c"
         },
         {
-            "color": "#69b1d3",
-            "closest_css3": "#6495ed"
+            "color": "#54aeda",
+            "closest_crayola": "#6699cc",
+            "closest_css3": "#6495ed",
+            "closest_css4": "#6495ed"
         },
         {
-            "color": "#5a91a5",
-            "closest_css3": "#5f9ea0"
+            "color": "#a99651",
+            "closest_crayola": "#9c7c38",
+            "closest_css3": "#cd853f",
+            "closest_css4": "#cd853f"
         },
         {
-            "color": "#39708c",
-            "closest_css3": "#4682b4"
+            "color": "#3b7693",
+            "closest_crayola": "#2e5894",
+            "closest_css3": "#4682b4",
+            "closest_css4": "#4682b4"
         }
-    ]
+    ],
+    "woe:country_name": "Germany"
 }

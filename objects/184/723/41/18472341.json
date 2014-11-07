@@ -3,6 +3,7 @@
     "tms:id": "146837",
     "accession_number": "1970-40-4-a,b",
     "title": "Frame And Photograph, 1939",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18472341\/",
     "department_id": "35347497",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1939,
     "year_acquired": "1970",
     "decade": "1930",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Mirror glass, bamboo",
     "markings": null,
     "signed": "Photograph signed lower right corner: \"Cecil Beaton\"",
     "inscribed": "Photograph signed in ink in upper left corner: \"Elsie 1939\"",
     "provenance": "1970: acquired by Museum",
     "dimensions": "H x W: 25.4 x 24.1cm (10 x 9 1\/2in.)",
+    "dimensions_raw": {
+        "height": [
+            "25.40",
+            "centimeters"
+        ],
+        "width": [
+            "24.10",
+            "centimeters"
+        ]
+    },
     "creditline": null,
     "description": "Square frame (a) of mirror glass with simple narrow bamboo molding around outer and inner edges; frame contains signed sepia-toned photograph (b) of Elsie De Wolfe dressed in evening gown, standing in mirrored paneled interior.",
     "justification": null,
-    "type": {
-        "id": "51586205",
-        "name": "Frame and photograph"
-    },
+    "woe:country": "23424977",
+    "type": "Frame and photograph",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/7685_0e8bba7cbe5d6bcb_b.jpg",
                 "width": 974,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/7685_0e8bba7cbe5d6bcb_n.jpg",
-                "width": 304,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "7685"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/7685_0e8bba7cbe5d6bcb_z.jpg",
                 "width": 609,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "7685"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/7685_0e8bba7cbe5d6bcb_n.jpg",
+                "width": 304,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "7685"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/7685_0e8bba7cbe5d6bcb_d.gif",
+                "width": 304,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "7685"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/7685_0e8bba7cbe5d6bcb_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "7685"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/7686_308da6cf0ecd2aea_b.jpg",
                 "width": 975,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/7686_308da6cf0ecd2aea_n.jpg",
-                "width": 305,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "7686"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/7686_308da6cf0ecd2aea_z.jpg",
                 "width": 609,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "7686"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/7686_308da6cf0ecd2aea_n.jpg",
+                "width": 305,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "7686"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/7686_308da6cf0ecd2aea_d.gif",
+                "width": 305,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "7686"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/7686_308da6cf0ecd2aea_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "7686"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18050371",
             "role_id": "35236655",
             "person_name": "Elsie de Wolfe",
+            "person_date": "American, 1865\u20131950",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18050371\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18053075",
             "role_id": "35351535",
             "person_name": "Rodman A. Heeren",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18053075\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -90,7 +137,9 @@
             "person_id": "18049417",
             "role_id": "35351535",
             "person_name": "Mrs. Rodman A. Heeren",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049417\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -98,7 +147,9 @@
             "person_id": "18052411",
             "role_id": "35236631",
             "person_name": "Cecil Beaton",
+            "person_date": "",
             "role_name": "Photographer",
+            "role_display_name": "Photographed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18052411\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236631\/"
         }
@@ -108,24 +159,35 @@
     },
     "colors": [
         {
-            "color": "#3a343a",
-            "closest_css3": "#2f4f4f"
+            "color": "#343136",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#d2c6c5",
-            "closest_css3": "#d3d3d3"
+            "color": "#74696a",
+            "closest_crayola": "#757575",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#5a5154",
-            "closest_css3": "#696969"
+            "color": "#d1c5c4",
+            "closest_crayola": "#cdc5c2",
+            "closest_css3": "#c0c0c0",
+            "closest_css4": "#c0c0c0"
         },
         {
-            "color": "#776d6d",
-            "closest_css3": "#696969"
+            "color": "#9b8e8f",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         },
         {
-            "color": "#a19394",
-            "closest_css3": "#bc8f8f"
+            "color": "#564e4f",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

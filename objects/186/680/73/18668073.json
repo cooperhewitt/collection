@@ -3,6 +3,7 @@
     "tms:id": "209440",
     "accession_number": "1995-50-198",
     "title": "Textile, \"Marriage scenes\", ca. 1825",
+    "title_raw": "Marriage scenes",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18668073\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,68 @@
     "year_end": 1835,
     "year_acquired": "1995",
     "decade": null,
-    "woe:country": "23424819",
+    "woe:country_id": "23424819",
     "medium": "Medium: cotton\nTechnique: printed by engraved roller on plain weave",
     "markings": null,
     "signed": null,
     "inscribed": "At center\" A. Buquet Scu.\"",
     "provenance": null,
     "dimensions": "Warp: 175 cm (68 3\/4 in.)\nWeft: 77.5 cm (30 1\/2 in.)\nHeight of repeat: 58 cm (22 3\/4 in.)",
+    "dimensions_raw": {
+        "height": [
+            "58.00",
+            "centimeters"
+        ],
+        "warp": [
+            "175.00",
+            "centimeters"
+        ],
+        "weft": [
+            "77.50",
+            "centimeters"
+        ]
+    },
     "creditline": "Bequest of Elinor Merrell",
     "description": "Four scenes, captioned in French, of marriage; asking for the woman's hand, the civil ceremony, the bedding of the bride and the day after the marriage. In purple on white.",
     "justification": null,
-    "type": {
-        "id": "35251739",
-        "name": "textile"
-    },
+    "woe:country": "23424819",
+    "type": "textile",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/12876_5623a2530acd6778_b.jpg",
                 "width": 560,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/12876_5623a2530acd6778_n.jpg",
-                "width": 175,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "12876"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/12876_5623a2530acd6778_z.jpg",
                 "width": 350,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "12876"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/12876_5623a2530acd6778_n.jpg",
+                "width": 175,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "12876"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/12876_5623a2530acd6778_d.gif",
+                "width": 175,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "12876"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/12876_5623a2530acd6778_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "12876"
             }
         },
         {
@@ -53,19 +83,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/79210_8fd6c774dfa34c57_b.jpg",
                 "width": 663,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/79210_8fd6c774dfa34c57_n.jpg",
-                "width": 207,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "79210"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/79210_8fd6c774dfa34c57_z.jpg",
                 "width": 414,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "79210"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/79210_8fd6c774dfa34c57_n.jpg",
+                "width": 207,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "79210"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/79210_8fd6c774dfa34c57_d.gif",
+                "width": 207,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "79210"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/79210_8fd6c774dfa34c57_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "79210"
             }
         }
     ],
@@ -74,7 +121,9 @@
             "person_id": "18050043",
             "role_id": "35236743",
             "person_name": "Alexandre Buquet",
+            "person_date": "French, 1802 \u2013 1865",
             "role_name": "Engraver",
+            "role_display_name": "Engraved by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18050043\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236743\/"
         },
@@ -82,7 +131,9 @@
             "person_id": "18049427",
             "role_id": "35351537",
             "person_name": "Elinor Merrell",
+            "person_date": "",
             "role_name": "Bequestor",
+            "role_display_name": "Bequest of",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049427\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351537\/"
         }
@@ -92,24 +143,35 @@
     },
     "colors": [
         {
-            "color": "#b16361",
-            "closest_css3": "#cd5c5c"
+            "color": "#c58577",
+            "closest_crayola": "#cd9575",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         },
         {
-            "color": "#cf8481",
-            "closest_css3": "#bc8f8f"
+            "color": "#b26469",
+            "closest_crayola": "#a57164",
+            "closest_css3": "#cd5c5c",
+            "closest_css4": "#cd5c5c"
         },
         {
-            "color": "#fccec3",
-            "closest_css3": "#ffdab9"
+            "color": "#92494e",
+            "closest_crayola": "#a5694f",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         },
         {
-            "color": "#6e4a4e",
-            "closest_css3": "#696969"
+            "color": "#f6c4ba",
+            "closest_crayola": "#efcdb8",
+            "closest_css3": "#ffb6c1",
+            "closest_css4": "#ffb6c1"
         },
         {
-            "color": "#b69995",
-            "closest_css3": "#bc8f8f"
+            "color": "#b89a96",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         }
-    ]
+    ],
+    "woe:country_name": "France"
 }

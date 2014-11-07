@@ -3,6 +3,7 @@
     "tms:id": "98240",
     "accession_number": "1948-26-18",
     "title": "Textile, 1947",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18609321\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1947,
     "year_acquired": "1948",
     "decade": "1940",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Medium: mohair, cotton, metal\nTechnique: machine-woven twill",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "1948: acquired by Museum",
     "dimensions": "Warp x Weft: 44.6 x 66.3 cm (17 9\/16 x 26 1\/8 in.)",
+    "dimensions_raw": {
+        "warp": [
+            "44.60",
+            "centimeters"
+        ],
+        "weft": [
+            "66.30",
+            "centimeters"
+        ]
+    },
     "creditline": null,
     "description": "Plaid of bright blue, green and pink on ground of pale blue. Some weft stripes have threads wound with thin gold strips. There is an attached sample of plain twill in light and dark blue.",
     "justification": null,
-    "type": {
-        "id": "35251739",
-        "name": "textile"
-    },
+    "woe:country": "23424977",
+    "type": "textile",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/16009_787e6b1759ded658_b.jpg",
                 "width": 1024,
                 "height": 709,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/16009_787e6b1759ded658_n.jpg",
-                "width": 320,
-                "height": 221,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "16009"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/16009_787e6b1759ded658_z.jpg",
                 "width": 640,
                 "height": 443,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "16009"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/16009_787e6b1759ded658_n.jpg",
+                "width": 320,
+                "height": 221,
+                "is_primary": "1",
+                "image_id": "16009"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/16009_787e6b1759ded658_d.gif",
+                "width": 320,
+                "height": 221,
+                "is_primary": "1",
+                "image_id": "16009"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/16009_787e6b1759ded658_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "16009"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18045817",
             "role_id": "35236745",
             "person_name": "Dorothy Wright Liebes",
+            "person_date": "American, 1897\u20131972",
             "role_name": "Weaver",
+            "role_display_name": "Woven by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18045817\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236745\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18045817",
             "role_id": "35236655",
             "person_name": "Dorothy Wright Liebes",
+            "person_date": "American, 1897\u20131972",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18045817\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
@@ -72,24 +102,35 @@
     },
     "colors": [
         {
-            "color": "#5d6c97",
-            "closest_css3": "#708090"
+            "color": "#2c356d",
+            "closest_crayola": "#1a4876",
+            "closest_css3": "#191970",
+            "closest_css4": "#191970"
         },
         {
-            "color": "#986090",
-            "closest_css3": "#808080"
+            "color": "#5e6c97",
+            "closest_crayola": "#7851a9",
+            "closest_css3": "#708090",
+            "closest_css4": "#708090"
         },
         {
-            "color": "#7c94c4",
-            "closest_css3": "#778899"
+            "color": "#6e5177",
+            "closest_crayola": "#6e5160",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#6e517a",
-            "closest_css3": "#696969"
+            "color": "#b66e9c",
+            "closest_crayola": "#926eae",
+            "closest_css3": "#d87093",
+            "closest_css4": "#bc8f8f"
         },
         {
-            "color": "#633953",
-            "closest_css3": "#696969"
+            "color": "#7d94c5",
+            "closest_crayola": "#6699cc",
+            "closest_css3": "#778899",
+            "closest_css4": "#778899"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

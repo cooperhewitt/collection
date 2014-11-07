@@ -2,7 +2,8 @@
     "id": "18543413",
     "tms:id": "65022",
     "accession_number": "1938-88-4395",
-    "title": "Drawing, \"Ceiling in Hadrian's Villa, near Tivoli\", 1820\u201340",
+    "title": "Drawing, \"Project for a Painted Square Ceiling\", 1820\u201340",
+    "title_raw": "Ceiling in Hadrian's Villa, near Tivoli",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18543413\/",
     "department_id": "35347493",
     "period_id": "35417089",
@@ -13,39 +14,64 @@
     "year_end": 1860,
     "year_acquired": "1938",
     "decade": null,
-    "woe:country": "23424853",
+    "woe:country_id": "23424853",
     "medium": "Pen and black ink, brush and watercolor, gold paint, black chalk on paper",
     "markings": "watermark: IV",
     "signed": null,
     "inscribed": null,
     "provenance": "Giovanni Piancastelli; Mr. and Mrs. Edward D. Brandegee",
     "dimensions": "27.8 x 29.5 cm (10 15\/16 x 11 5\/8 in.)",
+    "dimensions_raw": {
+        "height": [
+            "27.80",
+            "centimeters"
+        ],
+        "width": [
+            "29.50",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase through gift of various donors and from Eleanor G. Hewitt Fund",
     "description": "Design of a ceiling.  One quarter of the design is shown.  In the center is a tent cupola shown from below.  It is supported at four corners by bucrania and in the middle of the curved sides by winged female half-figures, who are on top of an arch which is supported by two satyr gaines.  In the center of the cupola is a panel with a sphere supported by four children.  A few grotesque motifs are in the remaining panels.  From the bucrania hang festoons, the other ends of which are held by women who stand near the geines.  Below the bucrania are sitting figures of gods; shown are Zeus and Ares.  Outside are framing panels of different shapes.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424853",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/18943_9dff71b53e08ff88_b.jpg",
                 "width": 991,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/18943_9dff71b53e08ff88_n.jpg",
-                "width": 310,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "18943"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/18943_9dff71b53e08ff88_z.jpg",
                 "width": 620,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "18943"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/18943_9dff71b53e08ff88_n.jpg",
+                "width": 310,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "18943"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/18943_9dff71b53e08ff88_d.gif",
+                "width": 310,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "18943"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/18943_9dff71b53e08ff88_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "18943"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18049797",
             "role_id": "35352249",
             "person_name": "Mrs. Edward D. Brandegee",
+            "person_date": "American, 1871\u20131956",
             "role_name": "Vendor",
+            "role_display_name": "Purchased from",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049797\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352249\/"
         },
@@ -62,34 +90,47 @@
             "person_id": "18057145",
             "role_id": "35236655",
             "person_name": "Luigi Rossini",
+            "person_date": "Italian, 1790 \u2013 1857",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18057145\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
     ],
     "tombstone": {
-        "epitaph": "Drawing, \"Ceiling in Hadrian's Villa, near Tivoli\", 1820\u201340. Pen and black ink, brush and watercolor, gold paint, black chalk on paper. Museum purchase through gift of various donors and from Eleanor G. Hewitt Fund. 1938-88-4395."
+        "epitaph": "Drawing, \"Project for a Painted Square Ceiling\", 1820\u201340. Pen and black ink, brush and watercolor, gold paint, black chalk on paper. Museum purchase through gift of various donors and from Eleanor G. Hewitt Fund. 1938-88-4395."
     },
     "colors": [
         {
-            "color": "#ebdce4",
-            "closest_css3": "#dcdcdc"
+            "color": "#ede4f4",
+            "closest_crayola": "#fddde6",
+            "closest_css3": "#e6e6fa",
+            "closest_css4": "#e6e6fa"
         },
         {
-            "color": "#d0c8c1",
-            "closest_css3": "#c0c0c0"
+            "color": "#d6cecb",
+            "closest_crayola": "#dbd7d2",
+            "closest_css3": "#d3d3d3",
+            "closest_css4": "#d3d3d3"
         },
         {
-            "color": "#83181e",
-            "closest_css3": "#800000"
+            "color": "#b0afbd",
+            "closest_crayola": "#b0b7c6",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
         },
         {
-            "color": "#c2a7ba",
-            "closest_css3": "#c0c0c0"
+            "color": "#174c7a",
+            "closest_crayola": "#1a4876",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#0e1237",
-            "closest_css3": "#191970"
+            "color": "#0c0b32",
+            "closest_crayola": "#000000",
+            "closest_css3": "#000000",
+            "closest_css4": "#000000"
         }
-    ]
+    ],
+    "woe:country_name": "Italy"
 }

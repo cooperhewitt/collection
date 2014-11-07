@@ -3,6 +3,7 @@
     "tms:id": "154362",
     "accession_number": "1975-11-55",
     "title": "Drawing, \"Rug Design: Cubist Forms\", 1930\u201331",
+    "title_raw": "Rug Design: Cubist Forms",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18486991\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1931,
     "year_acquired": "1975",
     "decade": "1930",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Dark brown, terra cotta, beige and white crayon, graphite on paper\nSupport: white laid paper???",
     "markings": null,
     "signed": null,
     "inscribed": "Inscribed in graphite at left lower margin: [arrow] ALL TOAST BORDER; at bottom left margin: [arrow]",
     "provenance": null,
     "dimensions": "30.2 x 45.3 cm (11 7\/8 x 17 13\/16 in.)\nMat:  40.6 x 55.9 cm (16 x 22 in.)",
+    "dimensions_raw": {
+        "height": [
+            "40.60",
+            "centimeters"
+        ],
+        "width": [
+            "55.90",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Donald Deskey",
     "description": "A rug design in which black, brown and white abstract shapes overlap on a beige background. A curving white form runs through the composition vertically.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424977",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/40476_a58f09b79a051f34_b.jpg",
                 "width": 687,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/40476_a58f09b79a051f34_n.jpg",
-                "width": 215,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "40476"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/40476_a58f09b79a051f34_z.jpg",
                 "width": 429,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "40476"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/40476_a58f09b79a051f34_n.jpg",
+                "width": 215,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "40476"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/40476_a58f09b79a051f34_d.gif",
+                "width": 215,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "40476"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/40476_a58f09b79a051f34_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "40476"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18065437",
             "role_id": "35352245",
             "person_name": "Stacey Leonard",
+            "person_date": "American",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18065437\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18041973",
             "role_id": "35351535",
             "person_name": "Donald Deskey",
+            "person_date": "American, 1894\u20131989",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041973\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18047481",
             "role_id": "35352245",
             "person_name": "Eleonore Kissel",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047481\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -78,7 +110,9 @@
             "person_id": "18048255",
             "role_id": "35352245",
             "person_name": "Dr. Gail Davidson",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18048255\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -86,7 +120,9 @@
             "person_id": "18041973",
             "role_id": "35236703",
             "person_name": "Donald Deskey",
+            "person_date": "American, 1894\u20131989",
             "role_name": "Office of",
+            "role_display_name": "Office of",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041973\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236703\/"
         }
@@ -96,24 +132,35 @@
     },
     "colors": [
         {
-            "color": "#b7997e",
-            "closest_css3": "#bc8f8f"
+            "color": "#a7866c",
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         },
         {
-            "color": "#473932",
-            "closest_css3": "#2f4f4f"
+            "color": "#c8a98e",
+            "closest_crayola": "#deaa88",
+            "closest_css3": "#d2b48c",
+            "closest_css4": "#d2b48c"
         },
         {
-            "color": "#947561",
-            "closest_css3": "#808080"
+            "color": "#514139",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
             "color": "#ded0be",
-            "closest_css3": "#d3d3d3"
+            "closest_crayola": "#efcdb8",
+            "closest_css3": "#d3d3d3",
+            "closest_css4": "#d3d3d3"
         },
         {
-            "color": "#6a483d",
-            "closest_css3": "#556b2f"
+            "color": "#7c695b",
+            "closest_crayola": "#85754e",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

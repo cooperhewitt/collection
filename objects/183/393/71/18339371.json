@@ -3,6 +3,7 @@
     "tms:id": "53494",
     "accession_number": "1934-14-3",
     "title": "Textile, \"Fruits of Africa\", ca. 1930",
+    "title_raw": "Fruits of Africa",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18339371\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1935,
     "year_acquired": "1934",
     "decade": "1920",
-    "woe:country": "23424819",
+    "woe:country_id": "23424819",
     "medium": "Medium: cotton\nTechnique: block printed on plain weave",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "H x W: 145.4 x 121.3 cm (57 1\/4 x 47 3\/4 in.)",
+    "dimensions_raw": {
+        "height": [
+            "145.42",
+            "centimeters"
+        ],
+        "width": [
+            "121.29",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase from Au Panier Fleuri Fund",
     "description": "Length of printed cotton with an alternating horizontal repeat of a three-masted ship approaching across the water, framed by and large massed tropical fruits and leaves, in brown on white.",
     "justification": null,
-    "type": {
-        "id": "35251739",
-        "name": "textile"
-    },
+    "woe:country": "23424819",
+    "type": "textile",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/45385_7699cd26250f68c8_b.jpg",
                 "width": 838,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/45385_7699cd26250f68c8_n.jpg",
-                "width": 262,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "45385"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/45385_7699cd26250f68c8_z.jpg",
                 "width": 524,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "45385"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/45385_7699cd26250f68c8_n.jpg",
+                "width": 262,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "45385"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/45385_7699cd26250f68c8_d.gif",
+                "width": 262,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "45385"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/45385_7699cd26250f68c8_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "45385"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/3122_8ab8069844c95e2e_b.jpg",
                 "width": 1024,
                 "height": 715,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/3122_8ab8069844c95e2e_n.jpg",
-                "width": 320,
-                "height": 223,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "3122"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/3122_8ab8069844c95e2e_z.jpg",
                 "width": 640,
                 "height": 447,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "3122"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/3122_8ab8069844c95e2e_n.jpg",
+                "width": 320,
+                "height": 223,
+                "is_primary": "0",
+                "image_id": "3122"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/3122_8ab8069844c95e2e_d.gif",
+                "width": 320,
+                "height": 223,
+                "is_primary": "0",
+                "image_id": "3122"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/3122_8ab8069844c95e2e_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "3122"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18045693",
             "role_id": "35236655",
             "person_name": "Raoul Dufy",
+            "person_date": "French, 1877\u20131953",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18045693\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
@@ -84,20 +129,29 @@
     },
     "colors": [
         {
-            "color": "#e8dfce",
-            "closest_css3": "#dcdcdc"
+            "color": "#e6decc",
+            "closest_crayola": "#efdecd",
+            "closest_css3": "#dcdcdc",
+            "closest_css4": "#dcdcdc"
         },
         {
-            "color": "#856954",
-            "closest_css3": "#696969"
+            "color": "#a89480",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         },
         {
-            "color": "#bead99",
-            "closest_css3": "#d2b48c"
+            "color": "#8f7764",
+            "closest_crayola": "#8a795d",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#9b8470",
-            "closest_css3": "#808080"
+            "color": "#745c4a",
+            "closest_crayola": "#6e5160",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         }
-    ]
+    ],
+    "woe:country_name": "France"
 }

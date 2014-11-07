@@ -3,6 +3,7 @@
     "tms:id": "221693",
     "accession_number": "2001-18-2",
     "title": "Drawing, \"Elevation Perspective, Museum of American Folk Art, New York City\", October 1997",
+    "title_raw": "Elevation Perspective, Museum of American Folk Art, New York City",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18692319\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1997,
     "year_acquired": "2001",
     "decade": "1990",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Pen and black ink, graphite on tracing paper",
     "markings": null,
     "signed": "Signed in pen and black ink, lower right: T.W. Oct ' 97",
     "inscribed": "Inscribed in pen and black ink, lower right: Museum of American Folk Art",
     "provenance": "Tod Williams and Billie Tsien; 2001: acquired by Museum",
     "dimensions": "(irregular): 43.2 x 33.7 cm (17 in. x 13 1\/4 in.)",
+    "dimensions_raw": {
+        "height": [
+            "43.20",
+            "centimeters"
+        ],
+        "width": [
+            "33.70",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Tod Williams Billie Tsien",
     "description": "Elevation sketch of a building.",
-    "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "justification": "The husband and wife team of Tod Williams and Billie Tsien ranks among the most successful American architectural firms working today. Over the course of their practice, this firm has produced renowned structures for numerous institutions and private clients. Their institutional projects include buildings for Princeton University, Clark University, University of Virginia, the Phoenix Art Museum, and the Cranbrook Educational Community. In addition, they design one or two residences per year, among the most well-known of which are the Speyer townhouse in Manhattan and the Rivkind house in East Hampton, New York, which was the recipient of an AIA award.\nThe Tod Williams Billie Tsien and Associates project for the American Folk Art Museum in New York City was featured in the 2000 National Design Museum Triennial. Located on a slender plot on West 53rd Street, adjacent to property owned by MoMA, the eight-level building totals 30,000 square feet. The American Folk Art Museum site is excee",
+    "woe:country": "23424977",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/32655_877dd16560a830f0_b.jpg",
                 "width": 800,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/32655_877dd16560a830f0_n.jpg",
-                "width": 250,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "32655"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/32655_877dd16560a830f0_z.jpg",
                 "width": 500,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "32655"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/32655_877dd16560a830f0_n.jpg",
+                "width": 250,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "32655"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/32655_877dd16560a830f0_d.gif",
+                "width": 250,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "32655"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/32655_877dd16560a830f0_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "32655"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18536393",
             "role_id": "35351535",
             "person_name": "Billie Tsien",
+            "person_date": "b. 1949",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18536393\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18536383",
             "role_id": "35351535",
             "person_name": "Tod Williams",
+            "person_date": "b. 1943",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18536383\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18536051",
             "role_id": "35236663",
             "person_name": "Tod Williams Billie Tsien and Associates",
+            "person_date": "",
             "role_name": "Architect",
+            "role_display_name": "Architect:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18536051\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236663\/"
         },
@@ -78,7 +110,9 @@
             "person_id": "18536383",
             "role_id": "35236669",
             "person_name": "Tod Williams",
+            "person_date": "b. 1943",
             "role_name": "Draftsman",
+            "role_display_name": "Drafted by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18536383\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236669\/"
         }
@@ -88,16 +122,11 @@
     },
     "colors": [
         {
-            "color": "#33322e",
-            "closest_css3": "#2f4f4f"
-        },
-        {
-            "color": "#72706c",
-            "closest_css3": "#696969"
-        },
-        {
-            "color": "#54524f",
-            "closest_css3": "#2f4f4f"
+            "color": "#4b4946",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

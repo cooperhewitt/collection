@@ -3,6 +3,7 @@
     "tms:id": "120847",
     "accession_number": "1958-13-1",
     "title": "Drawing, \"Design for Pendant: La Po\u00e9sie\", 1900",
+    "title_raw": "Design for Pendant: La Po\u00e9sie",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18421213\/",
     "department_id": "35347493",
     "period_id": "35417231",
@@ -13,39 +14,101 @@
     "year_end": 1900,
     "year_acquired": "1958",
     "decade": null,
-    "woe:country": "23424819",
+    "woe:country_id": "23424819",
     "medium": "Brush and watercolor, gouache, graphite on gray-green wove paper",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "1958: acquired by Museum from Anonymous donor",
     "dimensions": "32.5 x 25 cm (12 13\/16 x 9 13\/16 in.)\nMat: 45.7 x 35.6 cm (18 x 14 in.)",
+    "dimensions_raw": {
+        "height": [
+            "45.70",
+            "centimeters"
+        ],
+        "width": [
+            "35.60",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Anonymous Donor",
     "description": "Head of a female figure, possibly a personification of the nymph Flora, playing a harp, with leaves and clover surrounding her.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424819",
+    "type": "Drawing",
     "images": [
+        {
+            "b": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/90072_4259e7f05e4fd286_b.jpg",
+                "width": 794,
+                "height": 1024,
+                "is_primary": "1",
+                "image_id": "90072"
+            },
+            "z": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/90072_4259e7f05e4fd286_z.jpg",
+                "width": 496,
+                "height": 640,
+                "is_primary": "1",
+                "image_id": "90072"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/90072_4259e7f05e4fd286_n.jpg",
+                "width": 248,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "90072"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/90072_4259e7f05e4fd286_d.gif",
+                "width": 248,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "90072"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/90072_4259e7f05e4fd286_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "90072"
+            }
+        },
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/23986_84e7b0b725f9ff54_b.jpg",
                 "width": 800,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/23986_84e7b0b725f9ff54_n.jpg",
-                "width": 250,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "23986"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/23986_84e7b0b725f9ff54_z.jpg",
                 "width": 500,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "23986"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/23986_84e7b0b725f9ff54_n.jpg",
+                "width": 250,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "23986"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/23986_84e7b0b725f9ff54_d.gif",
+                "width": 250,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "23986"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/23986_84e7b0b725f9ff54_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "23986"
             }
         }
     ],
@@ -53,8 +116,10 @@
         {
             "person_id": "18049335",
             "role_id": "35351535",
-            "person_name": "Anonymous",
+            "person_name": "Unknown",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049335\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -62,7 +127,9 @@
             "person_id": "18042605",
             "role_id": "35236655",
             "person_name": "Eug\u00e8ne Samuel Grasset",
+            "person_date": "Swiss, 1841 \u2013 1917; active Paris, France 1871\u20131917",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18042605\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
@@ -72,20 +139,35 @@
     },
     "colors": [
         {
-            "color": "#7d6340",
-            "closest_css3": "#a0522d"
+            "color": "#917347",
+            "closest_crayola": "#85754e",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         },
         {
-            "color": "#a28658",
-            "closest_css3": "#cd853f"
+            "color": "#ae9361",
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#bdb76b",
+            "closest_css4": "#bdb76b"
         },
         {
-            "color": "#5a533d",
-            "closest_css3": "#556b2f"
+            "color": "#56503c",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         },
         {
-            "color": "#827b5d",
-            "closest_css3": "#696969"
+            "color": "#756e52",
+            "closest_crayola": "#85754e",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
+        },
+        {
+            "color": "#959378",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         }
-    ]
+    ],
+    "woe:country_name": "France"
 }

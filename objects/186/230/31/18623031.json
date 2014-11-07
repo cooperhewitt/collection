@@ -3,6 +3,7 @@
     "tms:id": "186352",
     "accession_number": "1987-8-2-a,b",
     "title": "Tea Cup And Saucer, 1930\u201334",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18623031\/",
     "department_id": "35347497",
     "period_id": null,
@@ -13,39 +14,72 @@
     "year_end": 1934,
     "year_acquired": "1987",
     "decade": "1920",
-    "woe:country": "23424829",
+    "woe:country_id": "23424829",
     "medium": "Glass",
     "markings": "On base (a) printed in white in pentagon: \"Jenaer Glas\/Tefle\"; (b) same",
     "signed": null,
     "inscribed": null,
     "provenance": "1987: acquired by Museum (from Barry Friedman Ltd.)",
     "dimensions": "H x W x D (cup): 3.6 x 12.6 x 10.9 cm (1 7\/16 x 4 15\/16 x 4 5\/16 in.)\nH x diam. (saucer): 1.2 x 14.8 cm (1\/2 x 5 13\/16 in.)",
+    "dimensions_raw": {
+        "depth": [
+            "10.90",
+            "centimeters"
+        ],
+        "diameter": [
+            "14.80",
+            "centimeters"
+        ],
+        "height": [
+            "1.20",
+            "centimeters"
+        ],
+        "width": [
+            "12.60",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase from General Acquisition Endowment",
     "description": "(a) Clear blown glass cup wide with applied handle in solid glass in C-shape with flat upper section. (b) Circular saucer with curved edge and depression for cup.",
     "justification": null,
-    "type": {
-        "id": "35294079",
-        "name": "Tea cup and saucer"
-    },
+    "woe:country": "23424829",
+    "type": "Tea cup and saucer",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/45534_089ff15bde8ca032_b.jpg",
                 "width": 1024,
                 "height": 738,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/45534_089ff15bde8ca032_n.jpg",
-                "width": 320,
-                "height": 230,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "45534"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/45534_089ff15bde8ca032_z.jpg",
                 "width": 640,
                 "height": 461,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "45534"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/45534_089ff15bde8ca032_n.jpg",
+                "width": 320,
+                "height": 230,
+                "is_primary": "1",
+                "image_id": "45534"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/45534_089ff15bde8ca032_d.gif",
+                "width": 320,
+                "height": 230,
+                "is_primary": "1",
+                "image_id": "45534"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/45534_089ff15bde8ca032_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "45534"
             }
         }
     ],
@@ -54,7 +88,9 @@
             "person_id": "18048535",
             "role_id": "35352247",
             "person_name": "General Acquisitions Endowment",
+            "person_date": "",
             "role_name": "Fund",
+            "role_display_name": "Fund:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18048535\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352247\/"
         },
@@ -62,7 +98,9 @@
             "person_id": "18040899",
             "role_id": "35352249",
             "person_name": "Barry Friedman Ltd.",
+            "person_date": "",
             "role_name": "Vendor",
+            "role_display_name": "Purchased from",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18040899\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352249\/"
         },
@@ -70,7 +108,9 @@
             "person_id": "18044005",
             "role_id": "35236657",
             "person_name": "Jenaer Glaswerke Schott und Genossen",
+            "person_date": "founded 1884",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18044005\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         },
@@ -78,7 +118,9 @@
             "person_id": "18044003",
             "role_id": "35236655",
             "person_name": "Wilhelm Wagenfeld",
+            "person_date": "German, 1900\u20131990",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18044003\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
@@ -88,12 +130,11 @@
     },
     "colors": [
         {
-            "color": "#66676d",
-            "closest_css3": "#696969"
-        },
-        {
-            "color": "#393c37",
-            "closest_css3": "#2f4f4f"
+            "color": "#393c38",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         }
-    ]
+    ],
+    "woe:country_name": "Germany"
 }

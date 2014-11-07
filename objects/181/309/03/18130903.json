@@ -3,6 +3,7 @@
     "tms:id": "11595",
     "accession_number": "1902-1-417",
     "title": "Textile, 17th century",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18130903\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": null,
     "year_acquired": "1902",
     "decade": null,
-    "woe:country": null,
+    "woe:country_id": null,
     "medium": "Medium: silk, linen\nTechnique: plain compound satin, brocatelle",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "ex-collection: Francisco Miquel y Bad\u00eda",
     "dimensions": "Warp x Weft: 61.6 x 49.5 cm (24 1\/4 x 19 1\/2 in.)",
+    "dimensions_raw": {
+        "warp": [
+            "61.60",
+            "centimeters"
+        ],
+        "weft": [
+            "49.50",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of John Pierpont Morgan",
     "description": "Urn, crown holding vines together, animals, birds in red and yellow with touches of blue.",
     "justification": null,
-    "type": {
-        "id": "35251739",
-        "name": "textile"
-    },
+    "woe:country": null,
+    "type": "textile",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/36503_c7a6cfae0891d253_b.jpg",
                 "width": 775,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/36503_c7a6cfae0891d253_n.jpg",
-                "width": 242,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "36503"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/36503_c7a6cfae0891d253_z.jpg",
                 "width": 484,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "36503"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/36503_c7a6cfae0891d253_n.jpg",
+                "width": 242,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "36503"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/36503_c7a6cfae0891d253_d.gif",
+                "width": 242,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "36503"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/36503_c7a6cfae0891d253_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "36503"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18049445",
             "role_id": "35351535",
             "person_name": "John Pierpont Morgan",
+            "person_date": "American, 1837\u20131913",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049445\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -65,23 +93,33 @@
     "colors": [
         {
             "color": "#900607",
-            "closest_css3": "#8b0000"
+            "closest_crayola": "#9c2542",
+            "closest_css3": "#8b0000",
+            "closest_css4": "#8b0000"
         },
         {
-            "color": "#c27a37",
-            "closest_css3": "#cd853f"
+            "color": "#ebbd55",
+            "closest_crayola": "#ffcf48",
+            "closest_css3": "#f4a460",
+            "closest_css4": "#f4a460"
         },
         {
-            "color": "#eab55a",
-            "closest_css3": "#f4a460"
+            "color": "#c67d49",
+            "closest_crayola": "#d68a59",
+            "closest_css3": "#cd853f",
+            "closest_css4": "#cd853f"
         },
         {
-            "color": "#a84837",
-            "closest_css3": "#a0522d"
+            "color": "#ab654a",
+            "closest_crayola": "#a5694f",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         },
         {
-            "color": "#a86749",
-            "closest_css3": "#a0522d"
+            "color": "#b93829",
+            "closest_crayola": "#9c2542",
+            "closest_css3": "#b22222",
+            "closest_css4": "#b22222"
         }
     ]
 }

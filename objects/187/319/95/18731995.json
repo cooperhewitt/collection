@@ -3,6 +3,7 @@
     "tms:id": "242098",
     "accession_number": "2009-18-63-a,b",
     "title": "Liqueur Decanter With Stopper, \"No. 218\", ca. 1905",
+    "title_raw": "No. 218",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18731995\/",
     "department_id": "35347497",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1910,
     "year_acquired": "2009",
     "decade": null,
-    "woe:country": "23424750",
+    "woe:country_id": "23424750",
     "medium": "Mouth-blown pre-molded crystal",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "2009: acquired by Museum",
     "dimensions": "H x diam.: 27 x 6.6 cm (10 5\/8 x 2 5\/8 in.)",
+    "dimensions_raw": {
+        "diameter": [
+            "6.60",
+            "centimeters"
+        ],
+        "height": [
+            "27.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase through gift of Dale and Doug Anderson, Anonymous Donor, Arthur Liu, and Prairie Pictures, Inc. and from General Acquisitions Endowment Fund",
     "description": "Mouth-blown, pre-molded crystal decanter with stopper.",
     "justification": null,
-    "type": {
-        "id": "51681063",
-        "name": "Liqueur decanter with stopper"
-    },
+    "woe:country": "23424750",
+    "type": "Liqueur decanter with stopper",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/33253_5e0e6249fb3550fd_b.jpg",
                 "width": 906,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/33253_5e0e6249fb3550fd_n.jpg",
-                "width": 283,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "33253"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/33253_5e0e6249fb3550fd_z.jpg",
                 "width": 566,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "33253"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/33253_5e0e6249fb3550fd_n.jpg",
+                "width": 283,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "33253"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/33253_5e0e6249fb3550fd_d.gif",
+                "width": 283,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "33253"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/33253_5e0e6249fb3550fd_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "33253"
             }
         }
     ],
@@ -53,8 +79,10 @@
         {
             "person_id": "18061841",
             "role_id": "35236657",
-            "person_name": "J. & L. Lobmeyr GmbH, Vienna, Austria",
+            "person_name": "J. & L. Lobmeyr GmbH",
+            "person_date": "Vienna, Austria, founded ca. 1935",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18061841\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         },
@@ -62,15 +90,19 @@
             "person_id": "18537837",
             "role_id": "35236655",
             "person_name": "Stefan Rath",
+            "person_date": "Austrian, 1876\u20131960",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18537837\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
         {
             "person_id": "18061841",
             "role_id": "51571131",
-            "person_name": "J. & L. Lobmeyr GmbH, Vienna, Austria",
+            "person_name": "J. & L. Lobmeyr GmbH",
+            "person_date": "Vienna, Austria, founded ca. 1935",
             "role_name": "Lender",
+            "role_display_name": "Lent by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18061841\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/51571131\/"
         }
@@ -81,7 +113,10 @@
     "colors": [
         {
             "color": "#acabab",
-            "closest_css3": "#a9a9a9"
+            "closest_crayola": "#979aaa",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
         }
-    ]
+    ],
+    "woe:country_name": "Austria"
 }

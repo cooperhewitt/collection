@@ -3,6 +3,7 @@
     "tms:id": "180316",
     "accession_number": "1983-1-31",
     "title": "Drawing, \"Light Fixture and Plan of Glass Disc for Mr. Allen's Study and Mrs. Allen's Dressing Room, Henry J. Allen Residence, Wichita, Kansas\", 1917",
+    "title_raw": "Light Fixture and Plan of Glass Disc for Mr. Allen's Study and Mrs. Allen's Dressing Room, Henry J. Allen Residence, Wichita, Kansas",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18800307\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1917,
     "year_acquired": "1983",
     "decade": "1910",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Graphite, pen and brown ink, color pencil on tracing paper",
     "markings": null,
     "signed": null,
     "inscribed": "Inscribed in graphite, right margin: H. J. Allen; CEILING LINE \/ METAL \/ SECTION THRU WOOD \/ PLATE AT CEILING; center left: PLAN OF \/ GLASS DISK \/ SHOWING \/ WOOD BLOCKS \/ & CORD; center right: PLAN OF \/ GLASS DISK \/ SHOWING \/ LINES & HOLDS \/ FOR CORD \/ GROONE GLASS; lower center: SCALE 3\"=7'-0\" \/ FIXTURE FOR MR. ALLEN'S STUDY \/ & FOR MRS. ALLEN'S DRESS. RM. \/ NIEDECKEN CO. \/ INTERIOR-ARCHITECTS.",
     "provenance": "Mr. and Mrs. Robert L. Jacobson",
     "dimensions": "29 x 25.1 cm (11 7\/16 x 9 7\/8 in.)",
+    "dimensions_raw": {
+        "height": [
+            "29.00",
+            "centimeters"
+        ],
+        "width": [
+            "25.10",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase from Smithsonian Regents Collections Acquisition and Friends of Drawings and Prints Funds",
     "description": "Design for light fixture with two different views.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424977",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/42144_d5cbfaadae27796a_b.jpg",
                 "width": 876,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/42144_d5cbfaadae27796a_n.jpg",
-                "width": 274,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "42144"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/42144_d5cbfaadae27796a_z.jpg",
                 "width": 548,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "42144"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/42144_d5cbfaadae27796a_n.jpg",
+                "width": 274,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "42144"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/42144_d5cbfaadae27796a_d.gif",
+                "width": 274,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "42144"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/42144_d5cbfaadae27796a_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "42144"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18041629",
             "role_id": "35352249",
             "person_name": "Kelmscott Gallery",
+            "person_date": "",
             "role_name": "Vendor",
+            "role_display_name": "Purchased from",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041629\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352249\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "51676457",
             "role_id": "35352245",
             "person_name": "Karin Zonis",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/51676457\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18042051",
             "role_id": "35236667",
             "person_name": "Henry J. Allen",
+            "person_date": "",
             "role_name": "Client",
+            "role_display_name": "Client:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18042051\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236667\/"
         },
@@ -78,7 +110,9 @@
             "person_id": "18043485",
             "role_id": "35236655",
             "person_name": "George Mann Niedecken",
+            "person_date": "1878\u20131945",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18043485\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -86,9 +120,21 @@
             "person_id": "18042049",
             "role_id": "35236663",
             "person_name": "Frank Lloyd Wright",
+            "person_date": "American, 1867\u20131959",
             "role_name": "Architect",
+            "role_display_name": "Architect:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18042049\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236663\/"
+        },
+        {
+            "person_id": "68738747",
+            "role_id": "35236667",
+            "person_name": "Elsie J. Nuzman (Mrs. Henry J.) Allen",
+            "person_date": "",
+            "role_name": "Client",
+            "role_display_name": "Client:",
+            "person_url": "http:\/\/collection.cooperhewitt.org\/people\/68738747\/",
+            "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236667\/"
         }
     ],
     "tombstone": {
@@ -96,12 +142,17 @@
     },
     "colors": [
         {
-            "color": "#c0b289",
-            "closest_css3": "#d2b48c"
+            "color": "#bfb288",
+            "closest_crayola": "#bab86c",
+            "closest_css3": "#d2b48c",
+            "closest_css4": "#d2b48c"
         },
         {
-            "color": "#9e8b64",
-            "closest_css3": "#808080"
+            "color": "#a08e66",
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

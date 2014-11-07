@@ -3,6 +3,7 @@
     "tms:id": "223264",
     "accession_number": "2002-11-38",
     "title": "Poster, \"Yale University School of Art Graduate Program: 1991-1992\", 1991",
+    "title_raw": "Yale University School of Art Graduate Program: 1991-1992",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18695395\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1991,
     "year_acquired": "2002",
     "decade": "1990",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Offset lithograph on white paper",
     "markings": null,
     "signed": "Imprinted in dark gray ink, third page, lower left corner: Design: Paul Rand",
     "inscribed": "Imprinted, fourth page, upper left corner: Yale University\/ School of Art Graduate Program:\/ 1991-1992. \/ Alan Hacklin Martin Parr Sylvia Woodard\/ Typesetting: PDR, New York City;",
     "provenance": "Marion S. Rand",
     "dimensions": "(closed): 27.9 x 15.4 cm (11 in. x 6 1\/16 in.)\n(open): 27.9 x 76.5 cm (11 in. x 30 1\/8 in.)",
+    "dimensions_raw": {
+        "height": [
+            "27.90",
+            "centimeters"
+        ],
+        "width": [
+            "15.40",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Marion S. Rand",
     "description": "Five page brochure on white paper that opens like book. Center of cover page, bull's eye symbol in red, white, and dark gray. Black and white bull dog, lower right. Imprinted in dark gray ink, cover page, upper left: Yale University \/ School of Art Graduate Program: \/ 1991-1992. First page: text blocks with different headings describe mission of program, M.D.A. programs of study, who can qualify, applications, tuition, and financial aid. Second page: text blocks describe more on financial aid, additional resources, inquiries, the specific departments: graphic design, painting and printmaking. Third page: text blocks describe more on painting and print making, photography, sculpture, and visiting artists \/ lecturers.  Fourth page: name of program, upper center; same bull's eye design as cover, with a black and white bulldog in center of bull's eye, center.  Verso: all pages blank.",
     "justification": null,
-    "type": {
-        "id": "35238163",
-        "name": "poster"
-    },
+    "woe:country": "23424977",
+    "type": "poster",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/40190_f6582965cc2bbda0_b.jpg",
                 "width": 578,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/40190_f6582965cc2bbda0_n.jpg",
-                "width": 181,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "40190"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/40190_f6582965cc2bbda0_z.jpg",
                 "width": 361,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "40190"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/40190_f6582965cc2bbda0_n.jpg",
+                "width": 181,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "40190"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/40190_f6582965cc2bbda0_d.gif",
+                "width": 181,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "40190"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/40190_f6582965cc2bbda0_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "40190"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "51676457",
             "role_id": "35352245",
             "person_name": "Karin Zonis",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/51676457\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18054949",
             "role_id": "35236667",
             "person_name": "Yale University",
+            "person_date": "",
             "role_name": "Client",
+            "role_display_name": "Client:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18054949\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236667\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18538789",
             "role_id": "35351535",
             "person_name": "Marion S. Rand",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18538789\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -78,7 +110,9 @@
             "person_id": "18042341",
             "role_id": "35236763",
             "person_name": "Paul Rand",
+            "person_date": "American, 1914\u20131996",
             "role_name": "Graphic Designer",
+            "role_display_name": "Graphic design by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18042341\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236763\/"
         }
@@ -88,12 +122,23 @@
     },
     "colors": [
         {
-            "color": "#706c64",
-            "closest_css3": "#696969"
+            "color": "#747067",
+            "closest_crayola": "#757575",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#e45c4f",
-            "closest_css3": "#cd5c5c"
+            "color": "#e45c4e",
+            "closest_crayola": "#fd5e53",
+            "closest_css3": "#cd5c5c",
+            "closest_css4": "#cd5c5c"
+        },
+        {
+            "color": "#b69993",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

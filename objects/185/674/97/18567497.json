@@ -3,6 +3,7 @@
     "tms:id": "77444",
     "accession_number": "1942-84-1-a,b",
     "title": "Sidewall, 1825\u201335",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18567497\/",
     "department_id": "35347503",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1860,
     "year_acquired": "1942",
     "decade": null,
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Block-printed on handmade paper",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "This paper, according to donor, was put in the house now known at 566 East Hargett Street, Raleigh, North Carolina, at the time it was built (c. 1830)by Eleazer Colburn (great grandfather of donor).",
     "dimensions": "72 x 46.5 cm (28 3\/8 x 18 5\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "72.00",
+            "centimeters"
+        ],
+        "width": [
+            "46.50",
+            "centimeters"
+        ]
+    },
     "creditline": null,
     "description": "Paper shows design of flowering stems with flying and perching birds. Border in design of flowers arranged in panels with scrolls. Printed in color on blue ground.",
     "justification": null,
-    "type": {
-        "id": "35256475",
-        "name": "Sidewall"
-    },
+    "woe:country": "23424977",
+    "type": "Sidewall",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/64124_de2acdb175b4f09d_b.jpg",
                 "width": 704,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/64124_de2acdb175b4f09d_n.jpg",
-                "width": 220,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "64124"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/64124_de2acdb175b4f09d_z.jpg",
                 "width": 440,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "64124"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/64124_de2acdb175b4f09d_n.jpg",
+                "width": 220,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "64124"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/64124_de2acdb175b4f09d_d.gif",
+                "width": 220,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "64124"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/64124_de2acdb175b4f09d_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "64124"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/55522_6d37f473c2dcc2a5_b.jpg",
                 "width": 1024,
                 "height": 271,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/55522_6d37f473c2dcc2a5_n.jpg",
-                "width": 320,
-                "height": 85,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "55522"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/55522_6d37f473c2dcc2a5_z.jpg",
                 "width": 640,
                 "height": 169,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "55522"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/55522_6d37f473c2dcc2a5_n.jpg",
+                "width": 320,
+                "height": 85,
+                "is_primary": "0",
+                "image_id": "55522"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/55522_6d37f473c2dcc2a5_d.gif",
+                "width": 320,
+                "height": 85,
+                "is_primary": "0",
+                "image_id": "55522"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/55522_6d37f473c2dcc2a5_sq.jpg",
+                "width": 300,
+                "height": 271,
+                "is_primary": "0",
+                "image_id": "55522"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18047453",
             "role_id": "35352245",
             "person_name": "Elizabeth Horwitz Marcus",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047453\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         }
@@ -84,24 +129,35 @@
     },
     "colors": [
         {
-            "color": "#486682",
-            "closest_css3": "#696969"
+            "color": "#446682",
+            "closest_crayola": "#4a646c",
+            "closest_css3": "#483d8b",
+            "closest_css4": "#483d8b"
         },
         {
-            "color": "#374b36",
-            "closest_css3": "#2f4f4f"
+            "color": "#3a503d",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#af9c9a",
-            "closest_css3": "#a9a9a9"
+            "color": "#cec9c3",
+            "closest_crayola": "#cdc5c2",
+            "closest_css3": "#c0c0c0",
+            "closest_css4": "#c0c0c0"
         },
         {
-            "color": "#515a54",
-            "closest_css3": "#696969"
+            "color": "#a06f61",
+            "closest_crayola": "#a57164",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#a06e5f",
-            "closest_css3": "#cd5c5c"
+            "color": "#3f5b5c",
+            "closest_crayola": "#4a646c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

@@ -3,6 +3,7 @@
     "tms:id": "181512",
     "accession_number": "1984-56-2",
     "title": "Textile, \"Buffalo Hunt\", 1949",
+    "title_raw": "Buffalo Hunt",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18802653\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1949,
     "year_acquired": "1984",
     "decade": "1940",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Medium: \nTechnique: block-printed on 2\/1 twill woven foundation",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "Lanette Scheeline; 1984: acquired by Museum",
     "dimensions": "H x W: 135.9 x 188 cm (53 1\/2 x 74 in.)",
+    "dimensions_raw": {
+        "height": [
+            "135.89",
+            "centimeters"
+        ],
+        "width": [
+            "187.96",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Lanette Scheeline",
     "description": "Indians on horseback chasing buffalo with mountains and teepees in the background, in black, brown, blue, mauve and greys on a beige ground.",
     "justification": null,
-    "type": {
-        "id": "35251739",
-        "name": "textile"
-    },
+    "woe:country": "23424977",
+    "type": "textile",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/43118_3d562fb05c055f10_b.jpg",
                 "width": 1024,
                 "height": 748,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/43118_3d562fb05c055f10_n.jpg",
-                "width": 320,
-                "height": 234,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "43118"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/43118_3d562fb05c055f10_z.jpg",
                 "width": 640,
                 "height": 468,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "43118"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/43118_3d562fb05c055f10_n.jpg",
+                "width": 320,
+                "height": 234,
+                "is_primary": "1",
+                "image_id": "43118"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/43118_3d562fb05c055f10_d.gif",
+                "width": 320,
+                "height": 234,
+                "is_primary": "1",
+                "image_id": "43118"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/43118_3d562fb05c055f10_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "43118"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/77597_f4946325121afb3e_b.jpg",
                 "width": 1024,
                 "height": 663,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/77597_f4946325121afb3e_n.jpg",
-                "width": 320,
-                "height": 207,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "77597"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/77597_f4946325121afb3e_z.jpg",
                 "width": 640,
                 "height": 414,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "77597"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/77597_f4946325121afb3e_n.jpg",
+                "width": 320,
+                "height": 207,
+                "is_primary": "0",
+                "image_id": "77597"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/77597_f4946325121afb3e_d.gif",
+                "width": 320,
+                "height": 207,
+                "is_primary": "0",
+                "image_id": "77597"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/77597_f4946325121afb3e_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "77597"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18045691",
             "role_id": "35236685",
             "person_name": "Lanette Scheeline",
+            "person_date": "American, 1910 - 2001",
             "role_name": "Maker",
+            "role_display_name": "Made by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18045691\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236685\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18045691",
             "role_id": "35236655",
             "person_name": "Lanette Scheeline",
+            "person_date": "American, 1910 - 2001",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18045691\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
@@ -92,20 +139,29 @@
     },
     "colors": [
         {
-            "color": "#b09972",
-            "closest_css3": "#bc8f8f"
-        },
-        {
-            "color": "#5b5549",
-            "closest_css3": "#556b2f"
+            "color": "#9d8e74",
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
             "color": "#393836",
-            "closest_css3": "#2f4f4f"
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#80634a",
-            "closest_css3": "#696969"
+            "color": "#61594c",
+            "closest_crayola": "#6e5160",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
+        },
+        {
+            "color": "#877157",
+            "closest_crayola": "#85754e",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

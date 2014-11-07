@@ -3,6 +3,7 @@
     "tms:id": "120090",
     "accession_number": "1957-53-1",
     "title": "Textile, 1805\u20131810",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18419705\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": "1810",
     "year_acquired": "1957",
     "decade": null,
-    "woe:country": "23424975",
+    "woe:country_id": "23424975",
     "medium": "Medium: cotton\nTechnique: relief printed",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "H x W: 92 x 72 cm (36 1\/4 x 28 3\/8 in.)",
+    "dimensions_raw": {
+        "height": [
+            "92.00",
+            "centimeters"
+        ],
+        "width": [
+            "72.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase from Au Panier Fleuri Fund",
     "description": "Coarse white cotton, slightly glazed. Printed in dull red, buff, green, blue, violet, brown and drab. Fantastic design showing flower basket with long-tailed bird above. Irregular arch extends from the flowers. Under the arch, pointing at the bird, stands a man in Chinoiserie-style dress which a pointed hat and cane.",
     "justification": null,
-    "type": {
-        "id": "35251739",
-        "name": "textile"
-    },
+    "woe:country": "23424975",
+    "type": "textile",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/73638_a7c36daf3f54ab7f_b.jpg",
                 "width": 663,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/73638_a7c36daf3f54ab7f_n.jpg",
-                "width": 207,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "73638"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/73638_a7c36daf3f54ab7f_z.jpg",
                 "width": 414,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "73638"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/73638_a7c36daf3f54ab7f_n.jpg",
+                "width": 207,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "73638"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/73638_a7c36daf3f54ab7f_d.gif",
+                "width": 207,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "73638"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/73638_a7c36daf3f54ab7f_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "73638"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/73639_9af43f7be70ccf96_b.jpg",
                 "width": 663,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/73639_9af43f7be70ccf96_n.jpg",
-                "width": 207,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "73639"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/73639_9af43f7be70ccf96_z.jpg",
                 "width": 414,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "73639"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/73639_9af43f7be70ccf96_n.jpg",
+                "width": 207,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "73639"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/73639_9af43f7be70ccf96_d.gif",
+                "width": 207,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "73639"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/73639_9af43f7be70ccf96_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "73639"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18045419",
             "role_id": "35236657",
             "person_name": "Bromley Hall",
+            "person_date": "Middlesex, England, 1712 - 1763",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18045419\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18537565",
             "role_id": "35352249",
             "person_name": "Agnes Holden",
+            "person_date": "",
             "role_name": "Vendor",
+            "role_display_name": "Purchased from",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18537565\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352249\/"
         }
@@ -92,24 +139,35 @@
     },
     "colors": [
         {
-            "color": "#c69b6f",
-            "closest_css3": "#bdb76b"
+            "color": "#f2ebd4",
+            "closest_crayola": "#efdecd",
+            "closest_css3": "#faebd7",
+            "closest_css4": "#faebd7"
         },
         {
-            "color": "#ac6647",
-            "closest_css3": "#a0522d"
+            "color": "#a86a49",
+            "closest_crayola": "#a5694f",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         },
         {
-            "color": "#323b3e",
-            "closest_css3": "#2f4f4f"
+            "color": "#c69a6f",
+            "closest_crayola": "#cd9575",
+            "closest_css3": "#bdb76b",
+            "closest_css4": "#bdb76b"
         },
         {
-            "color": "#8a462f",
-            "closest_css3": "#a0522d"
+            "color": "#2c373a",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#5d4638",
-            "closest_css3": "#556b2f"
+            "color": "#833b28",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#8b4513",
+            "closest_css4": "#8b4513"
         }
-    ]
+    ],
+    "woe:country_name": "United Kingdom"
 }

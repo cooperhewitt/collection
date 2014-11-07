@@ -3,6 +3,7 @@
     "tms:id": "186033",
     "accession_number": "1987-38-1",
     "title": "Bowl, \"Sinus\", ca. 1985\u201386",
+    "title_raw": "Sinus",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18622393\/",
     "department_id": "35347497",
     "period_id": null,
@@ -13,39 +14,68 @@
     "year_end": 1987,
     "year_acquired": "1987",
     "decade": "1970",
-    "woe:country": "23424829",
+    "woe:country_id": "23424829",
     "medium": "Glazed molded porcelain",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "1987: acquired by Museum",
     "dimensions": "H x W x D: 6.5 x 34 x 12 cm (2 9\/16 x 13 3\/8 x 4 3\/4 in.)",
+    "dimensions_raw": {
+        "depth": [
+            "12.00",
+            "centimeters"
+        ],
+        "height": [
+            "6.50",
+            "centimeters"
+        ],
+        "width": [
+            "34.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Lino Sabattini",
     "description": "Black porcelain body. Molded, spoon shaped, oval and tapered bowl which incurved rounded base; at wide end and rim, an integral downward curved semi-cylindrical handle. Outer end of handle, cut at angle to provide support for bowl. Reverse with triangular molded joint between handle and bowl.",
     "justification": null,
-    "type": {
-        "id": "35237197",
-        "name": "Bowl"
-    },
+    "woe:country": "23424829",
+    "type": "Bowl",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/48038_a0eda9fd0793f0ce_b.jpg",
                 "width": 1024,
                 "height": 629,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/48038_a0eda9fd0793f0ce_n.jpg",
-                "width": 320,
-                "height": 197,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "48038"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/48038_a0eda9fd0793f0ce_z.jpg",
                 "width": 640,
                 "height": 393,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "48038"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/48038_a0eda9fd0793f0ce_n.jpg",
+                "width": 320,
+                "height": 197,
+                "is_primary": "1",
+                "image_id": "48038"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/48038_a0eda9fd0793f0ce_d.gif",
+                "width": 320,
+                "height": 197,
+                "is_primary": "1",
+                "image_id": "48038"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/48038_a0eda9fd0793f0ce_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "48038"
             }
         }
     ],
@@ -54,7 +84,9 @@
             "person_id": "18042469",
             "role_id": "35351535",
             "person_name": "Lino Sabattini",
+            "person_date": "b. 1925",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18042469\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -62,7 +94,9 @@
             "person_id": "18043913",
             "role_id": "35236657",
             "person_name": "Rosenthal Glas Und Porzellan Aktiengesellschaft",
+            "person_date": "founded 1891",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18043913\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         },
@@ -70,7 +104,9 @@
             "person_id": "18042469",
             "role_id": "35236655",
             "person_name": "Lino Sabattini",
+            "person_date": "b. 1925",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18042469\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
@@ -80,8 +116,11 @@
     },
     "colors": [
         {
-            "color": "#a4a4a5",
-            "closest_css3": "#a9a9a9"
+            "color": "#9e9ea0",
+            "closest_crayola": "#979aaa",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
         }
-    ]
+    ],
+    "woe:country_name": "Germany"
 }

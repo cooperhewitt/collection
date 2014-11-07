@@ -3,6 +3,7 @@
     "tms:id": "75390",
     "accession_number": "1941-69-77",
     "title": "Sampler, 1794",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18564379\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1794,
     "year_acquired": "1941",
     "decade": null,
-    "woe:country": "23424909",
+    "woe:country_id": "23424909",
     "medium": "Medium: linen and silk embroidery on linen foundation\nTechnique: darning and satin stitches on plain weave",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "ex. coll. Mrs. Henry E. Coe (Eva Johnston Coe)",
     "dimensions": "H x W: 33 x 31.1 cm (13 x 12 1\/4 in.)",
+    "dimensions_raw": {
+        "height": [
+            "33.02",
+            "centimeters"
+        ],
+        "width": [
+            "31.12",
+            "centimeters"
+        ]
+    },
     "creditline": "Bequest of Mrs. Henry E. Coe",
     "description": "Fifteen samples of darning arranged around central square with initials \"L A M B\" \"ANNO\" and the date \"1794\".",
     "justification": null,
-    "type": {
-        "id": "35256439",
-        "name": "Sampler"
-    },
+    "woe:country": "23424909",
+    "type": "Sampler",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/41209_cb15e190d31cbed4_b.jpg",
                 "width": 979,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/41209_cb15e190d31cbed4_n.jpg",
-                "width": 306,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "41209"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/41209_cb15e190d31cbed4_z.jpg",
                 "width": 612,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "41209"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/41209_cb15e190d31cbed4_n.jpg",
+                "width": 306,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "41209"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/41209_cb15e190d31cbed4_d.gif",
+                "width": 306,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "41209"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/41209_cb15e190d31cbed4_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "41209"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/29068_9ebbdf78b1e49070_b.jpg",
                 "width": 980,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/29068_9ebbdf78b1e49070_n.jpg",
-                "width": 306,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "29068"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/29068_9ebbdf78b1e49070_z.jpg",
                 "width": 612,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "29068"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/29068_9ebbdf78b1e49070_n.jpg",
+                "width": 306,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "29068"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/29068_9ebbdf78b1e49070_d.gif",
+                "width": 306,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "29068"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/29068_9ebbdf78b1e49070_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "29068"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18052567",
             "role_id": "35351537",
             "person_name": "Mrs. Henry E. Coe",
+            "person_date": "",
             "role_name": "Bequestor",
+            "role_display_name": "Bequest of",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18052567\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351537\/"
         }
@@ -84,24 +129,23 @@
     },
     "colors": [
         {
-            "color": "#d3ad88",
-            "closest_css3": "#d2b48c"
+            "color": "#c7906b",
+            "closest_crayola": "#cd9575",
+            "closest_css3": "#e9967a",
+            "closest_css4": "#e9967a"
         },
         {
-            "color": "#ca8b66",
-            "closest_css3": "#e9967a"
+            "color": "#a7a073",
+            "closest_crayola": "#bab86c",
+            "closest_css3": "#bdb76b",
+            "closest_css4": "#bdb76b"
         },
         {
-            "color": "#a19c6e",
-            "closest_css3": "#bdb76b"
-        },
-        {
-            "color": "#a07a53",
-            "closest_css3": "#cd853f"
-        },
-        {
-            "color": "#90554a",
-            "closest_css3": "#a0522d"
+            "color": "#955d4f",
+            "closest_crayola": "#a5694f",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         }
-    ]
+    ],
+    "woe:country_name": "Netherlands"
 }

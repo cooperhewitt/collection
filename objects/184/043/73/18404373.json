@@ -3,6 +3,7 @@
     "tms:id": "112371",
     "accession_number": "1955-38-13-c",
     "title": "Drawing, \"Details of two male arms\", ca. 1885",
+    "title_raw": "Details of two male arms",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18404373\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1895,
     "year_acquired": "1955",
     "decade": null,
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "black crayon, white chalk, on gray paper",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "Image: 26 x 29.4 cm (10 1\/4 x 11 9\/16 in.)\nMat: 55.9 x 40.6 cm (22 x 16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "55.88",
+            "centimeters"
+        ],
+        "width": [
+            "40.64",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of the American Academy of Arts and Letters",
     "description": "Two studies of male right arms, each bent and raised to the right and holding a small object, possibly a dish.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424977",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/22500_a3317fd767afa54b_b.jpg",
                 "width": 1024,
                 "height": 850,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/22500_a3317fd767afa54b_n.jpg",
-                "width": 320,
-                "height": 265,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "22500"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/22500_a3317fd767afa54b_z.jpg",
                 "width": 640,
                 "height": 531,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "22500"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/22500_a3317fd767afa54b_n.jpg",
+                "width": 320,
+                "height": 265,
+                "is_primary": "1",
+                "image_id": "22500"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/22500_a3317fd767afa54b_d.gif",
+                "width": 320,
+                "height": 265,
+                "is_primary": "1",
+                "image_id": "22500"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/22500_a3317fd767afa54b_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "22500"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18043135",
             "role_id": "35236565",
             "person_name": "Elihu Vedder",
+            "person_date": "American, 1836 \u2013 1923",
             "role_name": "Artist",
+            "role_display_name": "",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18043135\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236565\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18047665",
             "role_id": "35351535",
             "person_name": "The American Academy of Arts & Letters",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047665\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -72,16 +102,29 @@
     },
     "colors": [
         {
-            "color": "#d4cebb",
-            "closest_css3": "#d3d3d3"
+            "color": "#d5ceb2",
+            "closest_crayola": "#cdc5c2",
+            "closest_css3": "#c0c0c0",
+            "closest_css4": "#c0c0c0"
         },
         {
-            "color": "#605b45",
-            "closest_css3": "#556b2f"
+            "color": "#514c38",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         },
         {
-            "color": "#373220",
-            "closest_css3": "#2f4f4f"
+            "color": "#a7a391",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
+        },
+        {
+            "color": "#6f6853",
+            "closest_crayola": "#85754e",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

@@ -3,6 +3,7 @@
     "tms:id": "179972",
     "accession_number": "1982-23-993",
     "title": "Matchsafe, \"\"Royal Wax Vestas\" Bryant & May - London\", late 19th century",
+    "title_raw": "\"Royal Wax Vestas\" Bryant & May - London",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18799623\/",
     "department_id": "35347497",
     "period_id": null,
@@ -13,39 +14,68 @@
     "year_end": null,
     "year_acquired": "1982",
     "decade": null,
-    "woe:country": null,
+    "woe:country_id": null,
     "medium": null,
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "Overall: 12.8 x 6 x 2.7 cm (5 1\/16 x 2 3\/8 x 1 1\/16 in.)",
+    "dimensions_raw": {
+        "depth": [
+            "2.70",
+            "centimeters"
+        ],
+        "height": [
+            "12.80",
+            "centimeters"
+        ],
+        "width": [
+            "6.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Stephen W. Brener and Carol B. Brener",
     "description": "A cooper colored rectangular matchsafe. Horizontally, there is an image of wild flowers and a bird, along with the logo \"Royal Wax Vestas Bryant and May London\".",
     "justification": null,
-    "type": {
-        "id": "35287419",
-        "name": "Matchsafe"
-    },
+    "woe:country": null,
+    "type": "Matchsafe",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/9714_3f1855a4d91e4bd4_b.jpg",
                 "width": 1024,
                 "height": 515,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/9714_3f1855a4d91e4bd4_n.jpg",
-                "width": 320,
-                "height": 161,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "9714"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/9714_3f1855a4d91e4bd4_z.jpg",
                 "width": 640,
                 "height": 322,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "9714"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/9714_3f1855a4d91e4bd4_n.jpg",
+                "width": 320,
+                "height": 161,
+                "is_primary": "1",
+                "image_id": "9714"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/9714_3f1855a4d91e4bd4_d.gif",
+                "width": 320,
+                "height": 161,
+                "is_primary": "1",
+                "image_id": "9714"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/9714_3f1855a4d91e4bd4_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "9714"
             }
         },
         {
@@ -53,19 +83,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/9715_570c83ebc69cbc96_b.jpg",
                 "width": 1024,
                 "height": 683,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/9715_570c83ebc69cbc96_n.jpg",
-                "width": 320,
-                "height": 213,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "9715"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/9715_570c83ebc69cbc96_z.jpg",
                 "width": 640,
                 "height": 427,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "9715"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/9715_570c83ebc69cbc96_n.jpg",
+                "width": 320,
+                "height": 213,
+                "is_primary": "0",
+                "image_id": "9715"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/9715_570c83ebc69cbc96_d.gif",
+                "width": 320,
+                "height": 213,
+                "is_primary": "0",
+                "image_id": "9715"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/9715_570c83ebc69cbc96_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "9715"
             }
         }
     ],
@@ -74,7 +121,9 @@
             "person_id": "18539175",
             "role_id": "35351535",
             "person_name": "Carol B. Brener",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18539175\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -82,7 +131,9 @@
             "person_id": "18539171",
             "role_id": "35351535",
             "person_name": "Stephen W. Brener",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18539171\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -92,24 +143,34 @@
     },
     "colors": [
         {
-            "color": "#9f764a",
-            "closest_css3": "#a0522d"
+            "color": "#9d774a",
+            "closest_crayola": "#a5694f",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         },
         {
-            "color": "#322636",
-            "closest_css3": "#2f4f4f"
+            "color": "#664b3a",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         },
         {
-            "color": "#78523a",
-            "closest_css3": "#a0522d"
+            "color": "#312931",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#c39668",
-            "closest_css3": "#bdb76b"
+            "color": "#4a2f2c",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#422b1e",
-            "closest_css3": "#2f4f4f"
+            "color": "#10071c",
+            "closest_crayola": "#000000",
+            "closest_css3": "#000000",
+            "closest_css4": "#000000"
         }
     ]
 }

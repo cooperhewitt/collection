@@ -3,6 +3,7 @@
     "tms:id": "181519",
     "accession_number": "1984-56-9",
     "title": "Textile, \"Clouds\", 1957",
+    "title_raw": "Clouds",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18802667\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1957,
     "year_acquired": "1984",
     "decade": "1950",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Medium: \nTechnique: block print on plain weave foundation",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "Lanette Scheeline; 1984: acquired by Museum",
     "dimensions": "H x W: 170.2 x 124.5 cm (67 x 49 in.)",
+    "dimensions_raw": {
+        "height": [
+            "170.18",
+            "centimeters"
+        ],
+        "width": [
+            "124.46",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Lanette Scheeline",
     "description": "Swirling lines in grays, black and gold on a fabric with wide bands of white, yellow and blue.",
     "justification": null,
-    "type": {
-        "id": "35251739",
-        "name": "textile"
-    },
+    "woe:country": "23424977",
+    "type": "textile",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/43121_b59dad1fcf270e0e_b.jpg",
                 "width": 773,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/43121_b59dad1fcf270e0e_n.jpg",
-                "width": 242,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "43121"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/43121_b59dad1fcf270e0e_z.jpg",
                 "width": 483,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "43121"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/43121_b59dad1fcf270e0e_n.jpg",
+                "width": 242,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "43121"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/43121_b59dad1fcf270e0e_d.gif",
+                "width": 242,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "43121"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/43121_b59dad1fcf270e0e_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "43121"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/77600_453ccdf326180b4b_b.jpg",
                 "width": 699,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/77600_453ccdf326180b4b_n.jpg",
-                "width": 218,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "77600"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/77600_453ccdf326180b4b_z.jpg",
                 "width": 437,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "77600"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/77600_453ccdf326180b4b_n.jpg",
+                "width": 218,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "77600"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/77600_453ccdf326180b4b_d.gif",
+                "width": 218,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "77600"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/77600_453ccdf326180b4b_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "77600"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18051165",
             "role_id": "35236745",
             "person_name": "Maria Kipp",
+            "person_date": "1900\u20131988",
             "role_name": "Weaver",
+            "role_display_name": "Woven by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18051165\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236745\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18045691",
             "role_id": "35236655",
             "person_name": "Lanette Scheeline",
+            "person_date": "American, 1910 - 2001",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18045691\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
@@ -92,16 +139,35 @@
     },
     "colors": [
         {
-            "color": "#d5c299",
-            "closest_css3": "#d2b48c"
+            "color": "#c9a669",
+            "closest_crayola": "#cd9575",
+            "closest_css3": "#bdb76b",
+            "closest_css4": "#bdb76b"
         },
         {
-            "color": "#c49d60",
-            "closest_css3": "#bdb76b"
+            "color": "#deceab",
+            "closest_crayola": "#efcdb8",
+            "closest_css3": "#f5deb3",
+            "closest_css4": "#f5deb3"
         },
         {
-            "color": "#828670",
-            "closest_css3": "#808080"
+            "color": "#757168",
+            "closest_crayola": "#757575",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
+        },
+        {
+            "color": "#6c7858",
+            "closest_crayola": "#85754e",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
+        },
+        {
+            "color": "#54534c",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

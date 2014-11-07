@@ -3,6 +3,7 @@
     "tms:id": "150207",
     "accession_number": "1972-88-353",
     "title": "Drawing, \"Design for a Single Lens Reflex Camera (Wareham) for Polaroid\", July 12, 1963",
+    "title_raw": "Design for a Single Lens Reflex Camera (Wareham) for Polaroid",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18478749\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1963,
     "year_acquired": "1972",
     "decade": "1960",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Graphite on tracing paper",
     "markings": null,
     "signed": "Signed in graphite, lower right: JC (for James Conner).",
     "inscribed": "Inscribed in pencil, lower left: [numeral 4 in circle] Single Lens Reflex (Wareham); Lower right: in pencil C 13 \/ 7\/12\/63 \/ Cs-13-1-4 \/ School Display",
     "provenance": "Henry Dreyfuss",
     "dimensions": "23 x 30.3 cm (9 1\/16 x 11 15\/16 in.)\n9 1\/16 x 11 15\/16 in\nMat:  35.6 x 45.7 cm (14 x 18 in.)",
+    "dimensions_raw": {
+        "height": [
+            "35.60",
+            "centimeters"
+        ],
+        "width": [
+            "45.70",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Henry Dreyfuss",
     "description": "Three quarter back view of camera in center of sheet. Side view at right.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424977",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/7476_edabc73b07eeb0ae_b.jpg",
                 "width": 1024,
                 "height": 770,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/7476_edabc73b07eeb0ae_n.jpg",
-                "width": 320,
-                "height": 241,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "7476"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/7476_edabc73b07eeb0ae_z.jpg",
                 "width": 640,
                 "height": 481,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "7476"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/7476_edabc73b07eeb0ae_n.jpg",
+                "width": 320,
+                "height": 241,
+                "is_primary": "1",
+                "image_id": "7476"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/7476_edabc73b07eeb0ae_d.gif",
+                "width": 320,
+                "height": 241,
+                "is_primary": "1",
+                "image_id": "7476"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/7476_edabc73b07eeb0ae_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "7476"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18047513",
             "role_id": "35352245",
             "person_name": "Samantha Finch",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047513\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18041501",
             "role_id": "35236655",
             "person_name": "Henry Dreyfuss",
+            "person_date": "American, 1904\u20131972",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041501\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18050419",
             "role_id": "35236667",
             "person_name": "Polaroid Corporation",
+            "person_date": "Cambridge, Massachusetts, USA",
             "role_name": "Client",
+            "role_display_name": "Client:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18050419\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236667\/"
         },
@@ -78,7 +110,9 @@
             "person_id": "18041501",
             "role_id": "35351535",
             "person_name": "Henry Dreyfuss",
+            "person_date": "American, 1904\u20131972",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041501\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -88,20 +122,35 @@
     },
     "colors": [
         {
-            "color": "#ab937d",
-            "closest_css3": "#bc8f8f"
+            "color": "#ab937e",
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         },
         {
-            "color": "#2b1e1d",
-            "closest_css3": "#000000"
+            "color": "#ceb69e",
+            "closest_crayola": "#deaa88",
+            "closest_css3": "#d2b48c",
+            "closest_css4": "#d2b48c"
         },
         {
-            "color": "#fef9df",
-            "closest_css3": "#fff8dc"
+            "color": "#51403a",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#766255",
-            "closest_css3": "#696969"
+            "color": "#715d52",
+            "closest_crayola": "#6e5160",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
+        },
+        {
+            "color": "#2e2323",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

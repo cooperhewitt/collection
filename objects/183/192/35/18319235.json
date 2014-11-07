@@ -3,6 +3,7 @@
     "tms:id": "44802",
     "accession_number": "1931-45-14",
     "title": "Sidewall, 1840s",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18319235\/",
     "department_id": "35347503",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": null,
     "year_acquired": "1931",
     "decade": null,
-    "woe:country": "23424819",
+    "woe:country_id": "23424819",
     "medium": "Block-printed on paper",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "89.5 x 41.5 cm (35 1\/4 x 16 5\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "89.50",
+            "centimeters"
+        ],
+        "width": [
+            "41.50",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Eleanor and Sarah Hewitt",
     "description": "Vertical rectangle. Bright yellow scrollwork frame entwined by floral festoons, enclosing grisaille scenes after Boucher; one derived from his picture \"L'Arrive du Courier.\" Printed in colors on putty-colored ground.",
     "justification": null,
-    "type": {
-        "id": "35256475",
-        "name": "Sidewall"
-    },
+    "woe:country": "23424819",
+    "type": "Sidewall",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/41037_72f11f0648cbcd3c_b.jpg",
                 "width": 490,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/41037_72f11f0648cbcd3c_n.jpg",
-                "width": 153,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "41037"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/41037_72f11f0648cbcd3c_z.jpg",
                 "width": 306,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "41037"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/41037_72f11f0648cbcd3c_n.jpg",
+                "width": 153,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "41037"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/41037_72f11f0648cbcd3c_d.gif",
+                "width": 153,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "41037"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/41037_72f11f0648cbcd3c_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "41037"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/23025_cee5553f31c29ab8_b.jpg",
                 "width": 481,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/23025_cee5553f31c29ab8_n.jpg",
-                "width": 150,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "23025"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/23025_cee5553f31c29ab8_z.jpg",
                 "width": 300,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "23025"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/23025_cee5553f31c29ab8_n.jpg",
+                "width": 150,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "23025"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/23025_cee5553f31c29ab8_d.gif",
+                "width": 150,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "23025"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/23025_cee5553f31c29ab8_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "23025"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18539409",
             "role_id": "35236677",
             "person_name": "Fran\u00e7ois Boucher",
+            "person_date": "French, 1703\u20131770",
             "role_name": "After",
+            "role_display_name": "After",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18539409\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236677\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18052379",
             "role_id": "35352245",
             "person_name": "Calvin S.  Hathaway",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18052379\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -90,7 +137,9 @@
             "person_id": "18049325",
             "role_id": "35351535",
             "person_name": "Eleanor Garnier Hewitt",
+            "person_date": "American, 1864\u20131924",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049325\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -98,7 +147,9 @@
             "person_id": "18049321",
             "role_id": "35351535",
             "person_name": "Sarah Cooper Hewitt",
+            "person_date": "American, 1859\u20131930",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049321\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -108,24 +159,35 @@
     },
     "colors": [
         {
-            "color": "#d5d3c6",
-            "closest_css3": "#d3d3d3"
+            "color": "#d5d3c5",
+            "closest_crayola": "#dbd7d2",
+            "closest_css3": "#d3d3d3",
+            "closest_css4": "#d3d3d3"
         },
         {
-            "color": "#86c27c",
-            "closest_css3": "#8fbc8f"
+            "color": "#be8f5e",
+            "closest_crayola": "#d68a59",
+            "closest_css3": "#cd853f",
+            "closest_css4": "#cd853f"
         },
         {
-            "color": "#77a681",
-            "closest_css3": "#8fbc8f"
+            "color": "#87c27c",
+            "closest_crayola": "#71bc78",
+            "closest_css3": "#8fbc8f",
+            "closest_css4": "#8fbc8f"
         },
         {
-            "color": "#4d735f",
-            "closest_css3": "#696969"
+            "color": "#63936d",
+            "closest_crayola": "#6dae81",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#ceaa65",
-            "closest_css3": "#bdb76b"
+            "color": "#47685f",
+            "closest_crayola": "#4a646c",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         }
-    ]
+    ],
+    "woe:country_name": "France"
 }

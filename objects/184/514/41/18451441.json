@@ -3,6 +3,7 @@
     "tms:id": "136241",
     "accession_number": "1964-24-43",
     "title": "Rug Sample, \"Yellow Ovoids\", 1943",
+    "title_raw": "Yellow Ovoids",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18451441\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1943,
     "year_acquired": "1964",
     "decade": "1940",
-    "woe:country": "23424954",
+    "woe:country_id": "23424954",
     "medium": "Medium: wool\nTechnique: plain weave with discontinuous weft (tapestry)",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "H x W: 62.9 x 62.2 cm (24 3\/4 x 24 1\/2 in.)",
+    "dimensions_raw": {
+        "height": [
+            "62.87",
+            "centimeters"
+        ],
+        "width": [
+            "62.23",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Elizabeth Gordon",
     "description": "Rug sample with tangent ovoid forms in yellow, white, gray and green, with a striped border and fringe on one side.",
     "justification": null,
-    "type": {
-        "id": "35287901",
-        "name": "Rug sample"
-    },
+    "woe:country": "23424954",
+    "type": "Rug sample",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/46033_041498e73f18778f_b.jpg",
                 "width": 1024,
                 "height": 973,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/46033_041498e73f18778f_n.jpg",
-                "width": 320,
-                "height": 304,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "46033"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/46033_041498e73f18778f_z.jpg",
                 "width": 640,
                 "height": 608,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "46033"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/46033_041498e73f18778f_n.jpg",
+                "width": 320,
+                "height": 304,
+                "is_primary": "1",
+                "image_id": "46033"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/46033_041498e73f18778f_d.gif",
+                "width": 320,
+                "height": 304,
+                "is_primary": "1",
+                "image_id": "46033"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/46033_041498e73f18778f_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "46033"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/74693_836cc60a5bd27389_b.jpg",
                 "width": 1024,
                 "height": 803,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/74693_836cc60a5bd27389_n.jpg",
-                "width": 320,
-                "height": 251,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "74693"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/74693_836cc60a5bd27389_z.jpg",
                 "width": 640,
                 "height": 502,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "74693"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/74693_836cc60a5bd27389_n.jpg",
+                "width": 320,
+                "height": 251,
+                "is_primary": "0",
+                "image_id": "74693"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/74693_836cc60a5bd27389_d.gif",
+                "width": 320,
+                "height": 251,
+                "is_primary": "0",
+                "image_id": "74693"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/74693_836cc60a5bd27389_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "74693"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18046073",
             "role_id": "35236655",
             "person_name": "Barbro Nilsson",
+            "person_date": "Swedish, 1899 \u2013 1983",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18046073\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18539351",
             "role_id": "35351535",
             "person_name": "Miss Elizabeth Gordon",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18539351\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -92,24 +139,35 @@
     },
     "colors": [
         {
-            "color": "#b39f7f",
-            "closest_css3": "#bc8f8f"
+            "color": "#c0af92",
+            "closest_crayola": "#deaa88",
+            "closest_css3": "#d2b48c",
+            "closest_css4": "#d2b48c"
         },
         {
-            "color": "#c5a95f",
-            "closest_css3": "#bdb76b"
+            "color": "#b49a54",
+            "closest_crayola": "#d68a59",
+            "closest_css3": "#bdb76b",
+            "closest_css4": "#bdb76b"
         },
         {
-            "color": "#9e783a",
-            "closest_css3": "#a0522d"
+            "color": "#a07a3b",
+            "closest_crayola": "#9c7c38",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         },
         {
-            "color": "#e0d3b5",
-            "closest_css3": "#f5deb3"
+            "color": "#888e72",
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#7f7759",
-            "closest_css3": "#696969"
+            "color": "#6e6447",
+            "closest_crayola": "#85754e",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         }
-    ]
+    ],
+    "woe:country_name": "Sweden"
 }

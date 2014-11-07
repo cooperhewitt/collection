@@ -3,6 +3,7 @@
     "tms:id": "177115",
     "accession_number": "1981-28-6",
     "title": "Sampler, 1817",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18617165\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1817,
     "year_acquired": "1981",
     "decade": null,
-    "woe:country": "23424853",
+    "woe:country_id": "23424853",
     "medium": "Medium: silk embroidery on linen foundation\nTechnique: embroidered in cross and satin stitches on plain weave foundation",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "H x W: 19 x 34.6 cm (7 1\/2 x 13 5\/8 in.)",
+    "dimensions_raw": {
+        "height": [
+            "19.00",
+            "centimeters"
+        ],
+        "width": [
+            "34.61",
+            "centimeters"
+        ]
+    },
     "creditline": "Bequest of Gertrude M. Oppenheimer",
     "description": "Horizontal rectangle with narrow zigzag outer border; band of alphabet, number, name and date. Band of religious motifs. Lower field contains domestic scenes and is unfinished. Alphabet starts with Maltese cross. Polychrome on natural.",
     "justification": null,
-    "type": {
-        "id": "35256439",
-        "name": "Sampler"
-    },
+    "woe:country": "23424853",
+    "type": "Sampler",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/33833_6d199cb88b8c014c_b.jpg",
                 "width": 1024,
                 "height": 575,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/33833_6d199cb88b8c014c_n.jpg",
-                "width": 320,
-                "height": 180,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "33833"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/33833_6d199cb88b8c014c_z.jpg",
                 "width": 640,
                 "height": 359,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "33833"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/33833_6d199cb88b8c014c_n.jpg",
+                "width": 320,
+                "height": 180,
+                "is_primary": "1",
+                "image_id": "33833"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/33833_6d199cb88b8c014c_d.gif",
+                "width": 320,
+                "height": 180,
+                "is_primary": "1",
+                "image_id": "33833"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/33833_6d199cb88b8c014c_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "33833"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18050567",
             "role_id": "35351537",
             "person_name": "Gertrude M. Oppenheimer",
+            "person_date": "",
             "role_name": "Bequestor",
+            "role_display_name": "Bequest of",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18050567\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351537\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18050577",
             "role_id": "35236583",
             "person_name": "Maddalena Barzechi",
+            "person_date": "Italian",
             "role_name": "Embroiderer",
+            "role_display_name": "Embroidered by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18050577\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236583\/"
         }
@@ -72,24 +102,35 @@
     },
     "colors": [
         {
-            "color": "#b6bcc7",
-            "closest_css3": "#c0c0c0"
+            "color": "#d9d6cc",
+            "closest_crayola": "#dbd7d2",
+            "closest_css3": "#d3d3d3",
+            "closest_css4": "#d3d3d3"
         },
         {
-            "color": "#c6ccb0",
-            "closest_css3": "#c0c0c0"
+            "color": "#474454",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#e2d8cc",
-            "closest_css3": "#d3d3d3"
+            "color": "#21262e",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#e5dae7",
-            "closest_css3": "#dcdcdc"
+            "color": "#958b80",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#1f2730",
-            "closest_css3": "#2f4f4f"
+            "color": "#72533d",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         }
-    ]
+    ],
+    "woe:country_name": "Italy"
 }

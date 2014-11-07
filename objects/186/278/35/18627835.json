@@ -3,6 +3,7 @@
     "tms:id": "188754",
     "accession_number": "1988-19-1",
     "title": "Armchair, \"Signorina\", ca. 1987",
+    "title_raw": "Signorina",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18627835\/",
     "department_id": "35347497",
     "period_id": null,
@@ -13,39 +14,68 @@
     "year_end": 1988,
     "year_acquired": "1988",
     "decade": "1970",
-    "woe:country": "23424853",
+    "woe:country_id": "23424853",
     "medium": "steel, painted",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "H x W x D: 91 x 88 x 92 cm (35 13\/16 x 34 5\/8 x 36 1\/4 in.)",
+    "dimensions_raw": {
+        "depth": [
+            "91.00",
+            "centimeters"
+        ],
+        "height": [
+            "90.40",
+            "centimeters"
+        ],
+        "width": [
+            "88.80",
+            "centimeters"
+        ]
+    },
     "creditline": null,
     "description": null,
     "justification": null,
-    "type": {
-        "id": "35237947",
-        "name": "armchair"
-    },
+    "woe:country": "23424853",
+    "type": "armchair",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/10535_570aef8165f85cb4_b.jpg",
                 "width": 892,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/10535_570aef8165f85cb4_n.jpg",
-                "width": 279,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "0",
+                "image_id": "10535"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/10535_570aef8165f85cb4_z.jpg",
                 "width": 557,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "0",
+                "image_id": "10535"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/10535_570aef8165f85cb4_n.jpg",
+                "width": 279,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "10535"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/10535_570aef8165f85cb4_d.gif",
+                "width": 279,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "10535"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/10535_570aef8165f85cb4_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "10535"
             }
         },
         {
@@ -53,19 +83,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/10536_41f1e28071826228_b.jpg",
                 "width": 779,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/10536_41f1e28071826228_n.jpg",
-                "width": 244,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "10536"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/10536_41f1e28071826228_z.jpg",
                 "width": 487,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "10536"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/10536_41f1e28071826228_n.jpg",
+                "width": 244,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "10536"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/10536_41f1e28071826228_d.gif",
+                "width": 244,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "10536"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/10536_41f1e28071826228_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "10536"
             }
         }
     ],
@@ -74,7 +121,9 @@
             "person_id": "18044651",
             "role_id": "35236657",
             "person_name": "Alias",
+            "person_date": "",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18044651\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         },
@@ -82,7 +131,9 @@
             "person_id": "18041151",
             "role_id": "35236655",
             "person_name": "Carlo Forcolini",
+            "person_date": "Italian, b. 1947",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041151\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
@@ -91,21 +142,7 @@
         "epitaph": "Armchair, \"Signorina\", ca. 1987. steel, painted. 1988-19-1."
     },
     "colors": [
-        {
-            "color": "#bdb4b0",
-            "closest_css3": "#c0c0c0"
-        },
-        {
-            "color": "#262b2c",
-            "closest_css3": "#2f4f4f"
-        },
-        {
-            "color": "#737d83",
-            "closest_css3": "#708090"
-        },
-        {
-            "color": "#545852",
-            "closest_css3": "#696969"
-        }
-    ]
+
+    ],
+    "woe:country_name": "Italy"
 }

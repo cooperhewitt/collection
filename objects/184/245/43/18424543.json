@@ -3,6 +3,7 @@
     "tms:id": "122647",
     "accession_number": "1959-130-1",
     "title": "Sidewall, \"When in Rome\", 1958",
+    "title_raw": "When in Rome",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18424543\/",
     "department_id": "35347503",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1958,
     "year_acquired": "1959",
     "decade": "1950",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Screen printed on silk",
     "markings": null,
     "signed": null,
     "inscribed": "Printed in left selvedge: When in Rome \/ A Denst and Soderlund Wallpaper; printed in right selvedge: Designed by C. Hawking.",
     "provenance": null,
     "dimensions": "183.5 x 76.5 cm (72 1\/4 x 30 1\/8 in.)",
+    "dimensions_raw": {
+        "height": [
+            "183.50",
+            "centimeters"
+        ],
+        "width": [
+            "76.50",
+            "centimeters"
+        ]
+    },
     "creditline": null,
     "description": "Against a paper-backed, gold silk ground are printed simplified classical buildings and ruins, groups of warriors, figures in chariots, and on horseback, in a dark and light value of gray-green.",
     "justification": null,
-    "type": {
-        "id": "35256475",
-        "name": "Sidewall"
-    },
+    "woe:country": "23424977",
+    "type": "Sidewall",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/46646_a6dd75fea9a4a62d_b.jpg",
                 "width": 492,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/46646_a6dd75fea9a4a62d_n.jpg",
-                "width": 154,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "46646"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/46646_a6dd75fea9a4a62d_z.jpg",
                 "width": 307,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "46646"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/46646_a6dd75fea9a4a62d_n.jpg",
+                "width": 154,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "46646"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/46646_a6dd75fea9a4a62d_d.gif",
+                "width": 154,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "46646"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/46646_a6dd75fea9a4a62d_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "46646"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18047537",
             "role_id": "35352245",
             "person_name": "dj",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047537\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18047171",
             "role_id": "35236657",
             "person_name": "Denst and Soderland",
+            "person_date": "",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047171\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18047173",
             "role_id": "35236655",
             "person_name": "Clarence Hawking",
+            "person_date": "",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047173\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
@@ -80,12 +112,17 @@
     },
     "colors": [
         {
-            "color": "#9d8b66",
-            "closest_css3": "#808080"
+            "color": "#a18f6a",
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#605e4f",
-            "closest_css3": "#696969"
+            "color": "#5c5a4c",
+            "closest_crayola": "#6e5160",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

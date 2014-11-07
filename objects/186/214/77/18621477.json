@@ -3,6 +3,7 @@
     "tms:id": "185562",
     "accession_number": "1986-61-54-a,b",
     "title": "Jar And Lid, 1668\u20131705",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18621477\/",
     "department_id": "35347497",
     "period_id": null,
@@ -13,39 +14,68 @@
     "year_end": "1705",
     "year_acquired": "1986",
     "decade": null,
-    "woe:country": "23424909",
+    "woe:country_id": "23424909",
     "medium": "Tin-glazed earthenware",
     "markings": "On bottom in underglaze blue: \"GK\" (for Gerrit Pietersz Kam)",
     "signed": null,
     "inscribed": null,
     "provenance": "1964: Walter Phelps Warren (from Jacques Goudstikker, Amsterdam; Baren M. Groen Antiques, Amsterdam); 1986: bequested to Museum",
     "dimensions": "58 x 27.5 x 27.5 cm (22 13\/16 x 10 13\/16 x 10 13\/16 in.)",
+    "dimensions_raw": {
+        "depth": [
+            "27.50",
+            "centimeters"
+        ],
+        "height": [
+            "58.00",
+            "centimeters"
+        ],
+        "width": [
+            "27.50",
+            "centimeters"
+        ]
+    },
     "creditline": "Bequest of Walter Phelps Warren",
     "description": "Large ovoid jar, tall straight-sided neck, slightly flattened foot; painted in underglaze blue on white with overall floral and bird pattern with leaf band bottom and floral reserve band at shoulder; high domed cover with wide flat base, acorn finial, decorated with floral and bird pattern.",
     "justification": null,
-    "type": {
-        "id": "51587161",
-        "name": "Jar and lid"
-    },
+    "woe:country": "23424909",
+    "type": "Jar and lid",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/45214_2538dd01d9c079cb_b.jpg",
                 "width": 594,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/45214_2538dd01d9c079cb_n.jpg",
-                "width": 186,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "45214"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/45214_2538dd01d9c079cb_z.jpg",
                 "width": 371,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "45214"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/45214_2538dd01d9c079cb_n.jpg",
+                "width": 186,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "45214"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/45214_2538dd01d9c079cb_d.gif",
+                "width": 186,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "45214"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/45214_2538dd01d9c079cb_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "45214"
             }
         }
     ],
@@ -54,7 +84,9 @@
             "person_id": "18539539",
             "role_id": "35351537",
             "person_name": "Walter Phelps Warren",
+            "person_date": "",
             "role_name": "Bequestor",
+            "role_display_name": "Bequest of",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18539539\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351537\/"
         },
@@ -62,7 +94,9 @@
             "person_id": "18048407",
             "role_id": "35236657",
             "person_name": "Vergulde Astonnekens [de 3] (3 Golden Ash Barrels)",
+            "person_date": "",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18048407\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         },
@@ -70,7 +104,9 @@
             "person_id": "18043877",
             "role_id": "35236657",
             "person_name": "de Paeuw (the Peacock Factory)",
+            "person_date": "",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18043877\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         },
@@ -78,7 +114,9 @@
             "person_id": "18043825",
             "role_id": "35236657",
             "person_name": "Gerrit Pietersz Kam",
+            "person_date": "",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18043825\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         }
@@ -88,20 +126,29 @@
     },
     "colors": [
         {
-            "color": "#465a7e",
-            "closest_css3": "#483d8b"
+            "color": "#495d80",
+            "closest_crayola": "#4a646c",
+            "closest_css3": "#483d8b",
+            "closest_css4": "#483d8b"
         },
         {
-            "color": "#637c9e",
-            "closest_css3": "#708090"
+            "color": "#8898a3",
+            "closest_crayola": "#979aaa",
+            "closest_css3": "#778899",
+            "closest_css4": "#778899"
         },
         {
-            "color": "#8899ac",
-            "closest_css3": "#778899"
+            "color": "#657ea0",
+            "closest_crayola": "#7366bd",
+            "closest_css3": "#708090",
+            "closest_css4": "#708090"
         },
         {
-            "color": "#25304f",
-            "closest_css3": "#2f4f4f"
+            "color": "#253050",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         }
-    ]
+    ],
+    "woe:country_name": "Netherlands"
 }

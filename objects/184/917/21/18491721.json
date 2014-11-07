@@ -3,6 +3,7 @@
     "tms:id": "156741",
     "accession_number": "1977-105-1",
     "title": "Armchair, ca. 1930",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18491721\/",
     "department_id": "35347497",
     "period_id": null,
@@ -13,39 +14,68 @@
     "year_end": 1940,
     "year_acquired": "1977",
     "decade": "1920",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "wood, metallic springs, gold colored velvet upholstery",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "74 x 60 x 55 cm (29 1\/8 x 23 5\/8 x 21 5\/8 in. )",
+    "dimensions_raw": {
+        "depth": [
+            "55.00",
+            "centimeters"
+        ],
+        "height": [
+            "74.00",
+            "centimeters"
+        ],
+        "width": [
+            "60.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Juliett Castle",
     "description": "Upholstered armchair with shaped back, finished in a straight line leading down over two symmetrical curvatures in the back's frame.  Similar curvatures lead from each armrest to the chair's seat.  Gold colored velvet upholstery.  Simply cut wooden legs, tapering, and with a carved indentation to indicate chair's feet.",
     "justification": null,
-    "type": {
-        "id": "35237947",
-        "name": "armchair"
-    },
+    "woe:country": "23424977",
+    "type": "armchair",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/8549_0e6af459bdbc9e82_b.jpg",
                 "width": 796,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/8549_0e6af459bdbc9e82_n.jpg",
-                "width": 249,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "8549"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/8549_0e6af459bdbc9e82_z.jpg",
                 "width": 497,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "8549"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/8549_0e6af459bdbc9e82_n.jpg",
+                "width": 249,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "8549"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/8549_0e6af459bdbc9e82_d.gif",
+                "width": 249,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "8549"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/8549_0e6af459bdbc9e82_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "8549"
             }
         },
         {
@@ -53,19 +83,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/8550_e5b1174122283ad7_b.jpg",
                 "width": 788,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/8550_e5b1174122283ad7_n.jpg",
-                "width": 246,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "8550"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/8550_e5b1174122283ad7_z.jpg",
                 "width": 492,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "8550"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/8550_e5b1174122283ad7_n.jpg",
+                "width": 246,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "8550"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/8550_e5b1174122283ad7_d.gif",
+                "width": 246,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "8550"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/8550_e5b1174122283ad7_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "8550"
             }
         }
     ],
@@ -74,7 +121,9 @@
             "person_id": "18045173",
             "role_id": "35236655",
             "person_name": "Jules Bouy",
+            "person_date": "French, 1872\u20131937",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18045173\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -82,7 +131,9 @@
             "person_id": "18535559",
             "role_id": "35351535",
             "person_name": "Juliett Castle",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18535559\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -92,24 +143,35 @@
     },
     "colors": [
         {
-            "color": "#8c5f32",
-            "closest_css3": "#a0522d"
+            "color": "#84541d",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#8b4513",
+            "closest_css4": "#8b4513"
         },
         {
-            "color": "#d4d6cb",
-            "closest_css3": "#d3d3d3"
+            "color": "#a1835a",
+            "closest_crayola": "#a57164",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#b39267",
-            "closest_css3": "#bdb76b"
+            "color": "#522814",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#8b4513",
+            "closest_css4": "#8b4513"
         },
         {
-            "color": "#713e15",
-            "closest_css3": "#8b4513"
+            "color": "#31110c",
+            "closest_crayola": "#000000",
+            "closest_css3": "#000000",
+            "closest_css4": "#000000"
         },
         {
-            "color": "#4f2614",
-            "closest_css3": "#800000"
+            "color": "#473628",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

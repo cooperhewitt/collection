@@ -3,6 +3,7 @@
     "tms:id": "197469",
     "accession_number": "1993-31-186",
     "title": "Book Jacket, \"Bookjacket for \"The Hero with a Thousand Faces\" by Joseph Campbell, Meridian Books\", 1955",
+    "title_raw": "Bookjacket for \"The Hero with a Thousand Faces\" by Joseph Campbell, Meridian Books",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18645131\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1955,
     "year_acquired": "1993",
     "decade": "1950",
-    "woe:country": null,
+    "woe:country_id": null,
     "medium": "Lithograph in blue, green, black, white and yellow ink on white shiny wove paper",
     "markings": null,
     "signed": "Signed in printed white ink, front cover lower left: lustig.",
     "inscribed": "Printed in black ink, upper left: THE HERO. Printed in white ink, upper center: WITH A; lower center: FACES; lower margin: MERIDIAN BOOKS sewn bound for durability M 22 $1.45. Printed in light blue ink, center: THOUSAND; lower center right: Joseph Campbell.\n\nPrinted vertically in black ink, spine: THE HERO WITH\/A THOUSAND FACES Joseph Campbell. Printed vertically in white ink, spine: MERIDIAN BOOKS; printed horizontally in white ink, spine lower margin: M 22.\n\nPrinted in light blue ink, back cover center: THE HERO WITH A\/THOUSAND FACES; printed in green ink, back cover center: by Joseph Campbell. Printed in black ink, back cover lower half: In The Hero with a Thousand Faces, Joseph Campbell\/presents a complete hero. Apollo, Frog-King of\/the fairy tale, Wotan, Buddha, and many other pro-\/tagonists of folklore and religion enact simultane-\/ously the various phases of their common character.\/The relationship of their timeless symbols to those\/discovered by contemporary psychoanalysts is taken\/as a starting point for interpretation. The psychologi-\/cal is compared with the words of such\/spiritual leaders as Moses, Jesus, Mohammed, and\/Lao-tse. From behind a thousand faces the single hero\/emerges, archetype of all mythology.\/The numerous illustrations from the original edition\/have been retained.\/All Meridian Books are Smyth-Sewn for Durability.",
     "provenance": null,
     "dimensions": "H x W: 22 x 29.1 cm (8 11\/16 x 11 7\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "22.00",
+            "centimeters"
+        ],
+        "width": [
+            "29.10",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Tamar Cohen and Dave Slatoff",
     "description": "Design for book cover featuring from left to right: back, spine, and front cover. Five horizontal colored bars run the width of spine and cover. Colors are from top to bottom: light blue, green, white, black, and green. Spine features title written vertically in two lines of slab-serif text. Written vertically within third horizontal bar is author's name in italic serif text. In fourth black bar is publisher logo, a semicircle intersected by a thin vertical white line and a small, solid white circle.",
     "justification": null,
-    "type": {
-        "id": "35249107",
-        "name": "book jacket"
-    },
+    "woe:country": null,
+    "type": "book jacket",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/39710_c82d5d6d08825644_b.jpg",
                 "width": 1024,
                 "height": 775,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/39710_c82d5d6d08825644_n.jpg",
-                "width": 320,
-                "height": 242,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "39710"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/39710_c82d5d6d08825644_z.jpg",
                 "width": 640,
                 "height": 485,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "39710"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/39710_c82d5d6d08825644_n.jpg",
+                "width": 320,
+                "height": 242,
+                "is_primary": "1",
+                "image_id": "39710"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/39710_c82d5d6d08825644_d.gif",
+                "width": 320,
+                "height": 242,
+                "is_primary": "1",
+                "image_id": "39710"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/39710_c82d5d6d08825644_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "39710"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18051943",
             "role_id": "35351535",
             "person_name": "Private collection",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18051943\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18536655",
             "role_id": "35351535",
             "person_name": "Dave Slatoff",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18536655\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18043331",
             "role_id": "35236655",
             "person_name": "Alvin Lustig",
+            "person_date": "American, 1915\u20131955",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18043331\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
@@ -80,24 +112,34 @@
     },
     "colors": [
         {
-            "color": "#f1e9d0",
-            "closest_css3": "#faebd7"
+            "color": "#f5eacf",
+            "closest_crayola": "#efdecd",
+            "closest_css3": "#faebd7",
+            "closest_css4": "#faebd7"
         },
         {
-            "color": "#6e942e",
-            "closest_css3": "#6b8e23"
+            "color": "#6d932d",
+            "closest_crayola": "#85754e",
+            "closest_css3": "#6b8e23",
+            "closest_css4": "#6b8e23"
         },
         {
-            "color": "#5d948d",
-            "closest_css3": "#5f9ea0"
+            "color": "#60958d",
+            "closest_crayola": "#6dae81",
+            "closest_css3": "#5f9ea0",
+            "closest_css4": "#5f9ea0"
         },
         {
-            "color": "#b1ab85",
-            "closest_css3": "#bdb76b"
+            "color": "#adb387",
+            "closest_crayola": "#bab86c",
+            "closest_css3": "#8fbc8f",
+            "closest_css4": "#8fbc8f"
         },
         {
-            "color": "#727258",
-            "closest_css3": "#696969"
+            "color": "#474e42",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         }
     ]
 }

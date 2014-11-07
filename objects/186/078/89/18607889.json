@@ -3,6 +3,7 @@
     "tms:id": "97473",
     "accession_number": "1948-119-2",
     "title": "Textile, \"Labyrinth\", 1942",
+    "title_raw": "Labyrinth",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18607889\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1942,
     "year_acquired": "1948",
     "decade": "1940",
-    "woe:country": null,
+    "woe:country_id": null,
     "medium": "Medium: cotton\nTechnique: screen printed on plain weave",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "Warp x Weft: 138.2 x 62 cm (54 7\/16 x 24 7\/16 in.)",
+    "dimensions_raw": {
+        "warp": [
+            "138.20",
+            "centimeters"
+        ],
+        "weft": [
+            "62.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Angelo Testa and Company",
     "description": "Black maze-like lines and bright yellow shapes that look like jig-saw puzzle pieces.",
     "justification": null,
-    "type": {
-        "id": "35251739",
-        "name": "textile"
-    },
+    "woe:country": null,
+    "type": "textile",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/16317_f2d90d5f0c3177ab_b.jpg",
                 "width": 520,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/16317_f2d90d5f0c3177ab_n.jpg",
-                "width": 162,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "16317"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/16317_f2d90d5f0c3177ab_z.jpg",
                 "width": 325,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "16317"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/16317_f2d90d5f0c3177ab_n.jpg",
+                "width": 162,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "16317"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/16317_f2d90d5f0c3177ab_d.gif",
+                "width": 162,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "16317"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/16317_f2d90d5f0c3177ab_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "16317"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18052749",
             "role_id": "35351535",
             "person_name": "Angelo Testa and Company",
+            "person_date": "Chicago, Illinois, 1947 - 1984",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18052749\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18046223",
             "role_id": "35236655",
             "person_name": "Angelo Testa",
+            "person_date": "American, 1921\u20131984",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18046223\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18052749",
             "role_id": "35236671",
             "person_name": "Angelo Testa and Company",
+            "person_date": "Chicago, Illinois, 1947 - 1984",
             "role_name": "Producer",
+            "role_display_name": "Produced by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18052749\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236671\/"
         }
@@ -80,24 +112,34 @@
     },
     "colors": [
         {
-            "color": "#ccdbdc",
-            "closest_css3": "#d3d3d3"
+            "color": "#f79730",
+            "closest_crayola": "#ffa343",
+            "closest_css3": "#daa520",
+            "closest_css4": "#daa520"
         },
         {
-            "color": "#f89833",
-            "closest_css3": "#daa520"
+            "color": "#b6c4c8",
+            "closest_crayola": "#b0b7c6",
+            "closest_css3": "#c0c0c0",
+            "closest_css4": "#c0c0c0"
         },
         {
-            "color": "#ba7128",
-            "closest_css3": "#d2691e"
+            "color": "#a86724",
+            "closest_crayola": "#9c7c38",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         },
         {
-            "color": "#a5b5bd",
-            "closest_css3": "#a9a9a9"
+            "color": "#81a2ad",
+            "closest_crayola": "#979aaa",
+            "closest_css3": "#778899",
+            "closest_css4": "#778899"
         },
         {
-            "color": "#96591e",
-            "closest_css3": "#a0522d"
+            "color": "#391a0c",
+            "closest_crayola": "#000000",
+            "closest_css3": "#000000",
+            "closest_css4": "#000000"
         }
     ]
 }

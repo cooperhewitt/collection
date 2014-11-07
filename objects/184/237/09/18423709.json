@@ -3,6 +3,7 @@
     "tms:id": "122228",
     "accession_number": "1958-88-13",
     "title": "Textile, 1920\u201330",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18423709\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,72 @@
     "year_end": 1930,
     "year_acquired": "1958",
     "decade": "1920",
-    "woe:country": "23424750",
+    "woe:country_id": "23424750",
     "medium": "Technique: printed on plain weave",
     "markings": null,
     "signed": null,
     "inscribed": "\"WIENER WERKSTATTE\" printed on right edge in green, 3 1\/2 times.",
     "provenance": null,
     "dimensions": "Warp: 48 cm (19 in.) weft, selv. at right: 58 cm (22 3\/4 in.)\nPattern: Visual and technical repeat unit: height: 40cm (15 3\/4\") width:  31.5cm (12 3\/8\")\nStraight repeat. Block mark lined up on selvedge. Each block masked to leave un-printed stripe on right edge, about 1cm wide, for workshop identification.",
+    "dimensions_raw": {
+        "height": [
+            "40.00",
+            "centimeters"
+        ],
+        "warp": [
+            "48.00",
+            "centimeters"
+        ],
+        "weft": [
+            "58.00",
+            "centimeters"
+        ],
+        "width": [
+            "31.50",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Teresa Kilham",
     "description": "Stylized flowers, including tulip, in bright colors on un-dyed background. 5 colors: pink, red, blue, yellow, green. Pink over yellow for orange.",
     "justification": null,
-    "type": {
-        "id": "35251739",
-        "name": "textile"
-    },
+    "woe:country": "23424750",
+    "type": "textile",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/41965_73108f86c7cb9347_b.jpg",
                 "width": 1024,
                 "height": 879,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/41965_73108f86c7cb9347_n.jpg",
-                "width": 320,
-                "height": 275,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "41965"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/41965_73108f86c7cb9347_z.jpg",
                 "width": 640,
                 "height": 549,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "41965"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/41965_73108f86c7cb9347_n.jpg",
+                "width": 320,
+                "height": 275,
+                "is_primary": "1",
+                "image_id": "41965"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/41965_73108f86c7cb9347_d.gif",
+                "width": 320,
+                "height": 275,
+                "is_primary": "1",
+                "image_id": "41965"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/41965_73108f86c7cb9347_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "41965"
             }
         }
     ],
@@ -54,7 +88,9 @@
             "person_id": "18047497",
             "role_id": "35352245",
             "person_name": "Milton Sonday",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047497\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -62,7 +98,9 @@
             "person_id": "18539137",
             "role_id": "35352245",
             "person_name": "Sheila Franz",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18539137\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -70,7 +108,9 @@
             "person_id": "18046827",
             "role_id": "35351535",
             "person_name": "Teresa Kilham",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18046827\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -78,7 +118,9 @@
             "person_id": "18048101",
             "role_id": "35236675",
             "person_name": "Wiener Werkst\u00e4tte",
+            "person_date": "Vienna, Austria, 1903\u20131932",
             "role_name": "For",
+            "role_display_name": "Made for",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18048101\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236675\/"
         }
@@ -88,24 +130,35 @@
     },
     "colors": [
         {
-            "color": "#4a7563",
-            "closest_css3": "#696969"
+            "color": "#497362",
+            "closest_crayola": "#4a646c",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#ae3134",
-            "closest_css3": "#a52a2a"
-        },
-        {
-            "color": "#e6cb6b",
-            "closest_css3": "#deb887"
+            "color": "#af3134",
+            "closest_crayola": "#9c2542",
+            "closest_css3": "#a52a2a",
+            "closest_css4": "#a52a2a"
         },
         {
             "color": "#d79782",
-            "closest_css3": "#e9967a"
+            "closest_crayola": "#dd9475",
+            "closest_css3": "#e9967a",
+            "closest_css4": "#e9967a"
         },
         {
-            "color": "#668088",
-            "closest_css3": "#708090"
+            "color": "#637d87",
+            "closest_crayola": "#757575",
+            "closest_css3": "#708090",
+            "closest_css4": "#708090"
+        },
+        {
+            "color": "#c15f51",
+            "closest_crayola": "#bc5d58",
+            "closest_css3": "#cd5c5c",
+            "closest_css4": "#cd5c5c"
         }
-    ]
+    ],
+    "woe:country_name": "Austria"
 }

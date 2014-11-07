@@ -3,6 +3,7 @@
     "tms:id": "203075",
     "accession_number": "1996-74-36",
     "title": "Book Cover, \"Biography, a Novel\"",
+    "title_raw": "Biography, a Novel",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18656059\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": null,
     "year_acquired": "1996",
     "decade": null,
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Offset lithograph on paper",
     "markings": null,
     "signed": null,
     "inscribed": "Imprinted in black, spine: KNOPF",
     "provenance": "Steve Heller",
     "dimensions": "23 x 43.9 cm (9 1\/16 x 17 5\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "23.00",
+            "centimeters"
+        ],
+        "width": [
+            "43.90",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Steven Heller",
     "description": "Orange cover with depicted marks, including a dark brown coffee mug stain at upper left and dark blue postage lines running off the upper right edge. Text in center, in white on red rectangle: BIOGRAPHY A NOVEL BY CELIA GITTELSON; on spine, in white on black: BIOGRAPHY; in black on white: CELIA GITTELSON.",
     "justification": null,
-    "type": {
-        "id": "35249845",
-        "name": "book cover"
-    },
+    "woe:country": "23424977",
+    "type": "book cover",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/13570_af82444d4e9afafd_b.jpg",
                 "width": 847,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/13570_af82444d4e9afafd_n.jpg",
-                "width": 265,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "13570"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/13570_af82444d4e9afafd_z.jpg",
                 "width": 529,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "13570"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/13570_af82444d4e9afafd_n.jpg",
+                "width": 265,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "13570"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/13570_af82444d4e9afafd_d.gif",
+                "width": 265,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "13570"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/13570_af82444d4e9afafd_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "13570"
             }
         }
     ],
@@ -54,15 +80,19 @@
             "person_id": "51676721",
             "role_id": "35236689",
             "person_name": "Celia Gittelson",
+            "person_date": "",
             "role_name": "Author",
+            "role_display_name": "Written by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/51676721\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236689\/"
         },
         {
             "person_id": "18041397",
             "role_id": "35351535",
-            "person_name": "Mr. Steve Heller",
+            "person_name": "Steven Heller",
+            "person_date": "American, b. 1950",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041397\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18043649",
             "role_id": "35236655",
             "person_name": "Barbara de Wilde",
+            "person_date": "1962",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18043649\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
@@ -81,23 +113,34 @@
     "colors": [
         {
             "color": "#a30a23",
-            "closest_css3": "#b22222"
+            "closest_crayola": "#9c2542",
+            "closest_css3": "#b22222",
+            "closest_css4": "#b22222"
         },
         {
-            "color": "#fae7f9",
-            "closest_css3": "#fff0f5"
+            "color": "#ecd0e5",
+            "closest_crayola": "#ebc7df",
+            "closest_css3": "#dcdcdc",
+            "closest_css4": "#dcdcdc"
         },
         {
-            "color": "#351f1f",
-            "closest_css3": "#2f4f4f"
+            "color": "#60151e",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#800000",
+            "closest_css4": "#800000"
         },
         {
-            "color": "#f7c4bf",
-            "closest_css3": "#ffc0cb"
+            "color": "#bf5f29",
+            "closest_crayola": "#c46210",
+            "closest_css3": "#d2691e",
+            "closest_css4": "#d2691e"
         },
         {
-            "color": "#c95f3b",
-            "closest_css3": "#d2691e"
+            "color": "#e8a66f",
+            "closest_crayola": "#faa76c",
+            "closest_css3": "#f4a460",
+            "closest_css4": "#f4a460"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

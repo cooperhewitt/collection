@@ -3,6 +3,7 @@
     "tms:id": "107756",
     "accession_number": "1953-158-1",
     "title": "Scenic - Panel, \"\"Le Jardin d'Armide\" [The Garden of Armide]\", 1854",
+    "title_raw": "\"Le Jardin d'Armide\" [The Garden of Armide]",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18395195\/",
     "department_id": "35347503",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1854,
     "year_acquired": "1953",
     "decade": null,
-    "woe:country": "23424819",
+    "woe:country_id": "23424819",
     "medium": "Block-printed on paper",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "90.5 x 71 cm (35 5\/8 x 27 15\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "90.50",
+            "centimeters"
+        ],
+        "width": [
+            "71.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Arthur V. Stanley",
     "description": "A hanging vase filled with very large roses and other flowers. Detail from larger strips: 1953-158-2\/4.",
     "justification": null,
-    "type": {
-        "id": "35287557",
-        "name": "Scenic - panel"
-    },
+    "woe:country": "23424819",
+    "type": "Scenic - panel",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/21516_ac2ef6b744ed6e2a_b.jpg",
                 "width": 1024,
                 "height": 805,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/21516_ac2ef6b744ed6e2a_n.jpg",
-                "width": 320,
-                "height": 252,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "21516"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/21516_ac2ef6b744ed6e2a_z.jpg",
                 "width": 640,
                 "height": 503,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "21516"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/21516_ac2ef6b744ed6e2a_n.jpg",
+                "width": 320,
+                "height": 252,
+                "is_primary": "1",
+                "image_id": "21516"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/21516_ac2ef6b744ed6e2a_d.gif",
+                "width": 320,
+                "height": 252,
+                "is_primary": "1",
+                "image_id": "21516"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/21516_ac2ef6b744ed6e2a_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "21516"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "51678235",
             "role_id": "35351535",
             "person_name": "Arthur V. Stanley",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/51678235\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18047829",
             "role_id": "35352245",
             "person_name": "Horace L. Hotchkiss, Jr.",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047829\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18046565",
             "role_id": "35236655",
             "person_name": "Edouard Muller",
+            "person_date": "1872",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18046565\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -78,7 +110,9 @@
             "person_id": "18046779",
             "role_id": "35236657",
             "person_name": "Desfoss\u00e9 et Karth",
+            "person_date": "French,  active 1923",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18046779\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         }
@@ -88,24 +122,35 @@
     },
     "colors": [
         {
-            "color": "#41584d",
-            "closest_css3": "#2f4f4f"
+            "color": "#405850",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#233428",
-            "closest_css3": "#2f4f4f"
-        },
-        {
-            "color": "#6a8f82",
-            "closest_css3": "#708090"
-        },
-        {
-            "color": "#584033",
-            "closest_css3": "#556b2f"
+            "color": "#142f25",
+            "closest_crayola": "#000000",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
             "color": "#4d7255",
-            "closest_css3": "#696969"
+            "closest_crayola": "#4a646c",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
+        },
+        {
+            "color": "#69503d",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
+        },
+        {
+            "color": "#7e726a",
+            "closest_crayola": "#757575",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         }
-    ]
+    ],
+    "woe:country_name": "France"
 }

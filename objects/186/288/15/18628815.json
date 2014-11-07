@@ -3,6 +3,7 @@
     "tms:id": "189247",
     "accession_number": "1988-54-2",
     "title": "Hanging, 1920\u201330",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18628815\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1930,
     "year_acquired": "1988",
     "decade": "1920",
-    "woe:country": "23424819",
+    "woe:country_id": "23424819",
     "medium": "Medium: linen\nTechnique: block printed (black) and painted (remaining colors) on plain weave",
     "markings": null,
     "signed": null,
     "inscribed": "Block printed at lower right: \"RAYMOND DUNCAN\"",
     "provenance": null,
     "dimensions": "Warp x Weft: 199 x 110 cm (6 ft. 6 3\/8 in. x 43 5\/16 in.)",
+    "dimensions_raw": {
+        "warp": [
+            "199.00",
+            "centimeters"
+        ],
+        "weft": [
+            "110.00",
+            "centimeters"
+        ]
+    },
     "creditline": null,
     "description": "Alternate rows of dancing nudes and waves with a border of geometric shapes in blue, mauve, gold and aubergine.",
     "justification": null,
-    "type": {
-        "id": "35257233",
-        "name": "Hanging"
-    },
+    "woe:country": "23424819",
+    "type": "Hanging",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/78251_89f0123b3c60137f_b.jpg",
                 "width": 1024,
                 "height": 663,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/78251_89f0123b3c60137f_n.jpg",
-                "width": 320,
-                "height": 207,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "78251"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/78251_89f0123b3c60137f_z.jpg",
                 "width": 640,
                 "height": 414,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "78251"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/78251_89f0123b3c60137f_n.jpg",
+                "width": 320,
+                "height": 207,
+                "is_primary": "0",
+                "image_id": "78251"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/78251_89f0123b3c60137f_d.gif",
+                "width": 320,
+                "height": 207,
+                "is_primary": "0",
+                "image_id": "78251"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/78251_89f0123b3c60137f_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "78251"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/78252_ce1d53fc48c408c4_b.jpg",
                 "width": 1024,
                 "height": 663,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/78252_ce1d53fc48c408c4_n.jpg",
-                "width": 320,
-                "height": 207,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "78252"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/78252_ce1d53fc48c408c4_z.jpg",
                 "width": 640,
                 "height": 414,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "78252"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/78252_ce1d53fc48c408c4_n.jpg",
+                "width": 320,
+                "height": 207,
+                "is_primary": "0",
+                "image_id": "78252"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/78252_ce1d53fc48c408c4_d.gif",
+                "width": 320,
+                "height": 207,
+                "is_primary": "0",
+                "image_id": "78252"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/78252_ce1d53fc48c408c4_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "78252"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18047459",
             "role_id": "35352245",
             "person_name": "Gillian Moss",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047459\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18045565",
             "role_id": "35236655",
             "person_name": "Raymond Duncan",
+            "person_date": "1874 \u2013 1966",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18045565\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
@@ -92,24 +139,35 @@
     },
     "colors": [
         {
-            "color": "#507f9a",
-            "closest_css3": "#4682b4"
+            "color": "#5b8ead",
+            "closest_crayola": "#6699cc",
+            "closest_css3": "#5f9ea0",
+            "closest_css4": "#5f9ea0"
         },
         {
-            "color": "#20557e",
-            "closest_css3": "#483d8b"
+            "color": "#255c8c",
+            "closest_crayola": "#2e5894",
+            "closest_css3": "#483d8b",
+            "closest_css4": "#483d8b"
         },
         {
-            "color": "#6e8f94",
-            "closest_css3": "#778899"
+            "color": "#486f82",
+            "closest_crayola": "#4a646c",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#a49b8d",
-            "closest_css3": "#bc8f8f"
+            "color": "#d1c7bc",
+            "closest_crayola": "#cdc5c2",
+            "closest_css3": "#c0c0c0",
+            "closest_css4": "#c0c0c0"
         },
         {
-            "color": "#f0e7d0",
-            "closest_css3": "#faebd7"
+            "color": "#4a3931",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         }
-    ]
+    ],
+    "woe:country_name": "France"
 }

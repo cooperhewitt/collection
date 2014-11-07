@@ -3,6 +3,7 @@
     "tms:id": "198724",
     "accession_number": "1994-118-6",
     "title": "Bowl, \"Dragonfly\", ca. 1900",
+    "title_raw": "Dragonfly",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18647637\/",
     "department_id": "35347497",
     "period_id": null,
@@ -13,39 +14,68 @@
     "year_end": 1910,
     "year_acquired": "1994",
     "decade": null,
-    "woe:country": "23424796",
+    "woe:country_id": "23424796",
     "medium": "Glazed porcelain",
     "markings": "Painted on underside: \"Royal Copenhagen\"; \"9\" over \"323\", in green; \"54\" in blue",
     "signed": null,
     "inscribed": null,
     "provenance": "Denis Gallion and Daniel Morris; 1994: acquired by Museum",
     "dimensions": "Overall: H: 12 x W: 30.5 x D: 13.6 cm (4 3\/4 x 12 x 5 3\/8 in.)",
+    "dimensions_raw": {
+        "depth": [
+            "13.60",
+            "centimeters"
+        ],
+        "height": [
+            "12.00",
+            "centimeters"
+        ],
+        "width": [
+            "30.50",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Denis Gallion and Daniel Morris",
     "description": "Elongated dish of thin porcelain with painted flowers and applied handles composed of dragonflies.",
     "justification": null,
-    "type": {
-        "id": "35237197",
-        "name": "Bowl"
-    },
+    "woe:country": "23424796",
+    "type": "Bowl",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/31867_2e176cd560a2d547_b.jpg",
                 "width": 1024,
                 "height": 606,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/31867_2e176cd560a2d547_n.jpg",
-                "width": 320,
-                "height": 189,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "31867"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/31867_2e176cd560a2d547_z.jpg",
                 "width": 640,
                 "height": 379,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "31867"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/31867_2e176cd560a2d547_n.jpg",
+                "width": 320,
+                "height": 189,
+                "is_primary": "1",
+                "image_id": "31867"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/31867_2e176cd560a2d547_d.gif",
+                "width": 320,
+                "height": 189,
+                "is_primary": "1",
+                "image_id": "31867"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/31867_2e176cd560a2d547_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "31867"
             }
         }
     ],
@@ -54,7 +84,9 @@
             "person_id": "18041709",
             "role_id": "35236657",
             "person_name": "Royal Copenhagen Porcelain Manufactory",
+            "person_date": "founded 1775",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041709\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         },
@@ -62,7 +94,9 @@
             "person_id": "18537885",
             "role_id": "35351535",
             "person_name": "Daniel Morris",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18537885\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -70,7 +104,9 @@
             "person_id": "18537883",
             "role_id": "35351535",
             "person_name": "Denis Gallion",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18537883\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -80,8 +116,17 @@
     },
     "colors": [
         {
-            "color": "#494355",
-            "closest_css3": "#2f4f4f"
+            "color": "#a8a5b3",
+            "closest_crayola": "#979aaa",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
+        },
+        {
+            "color": "#494255",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         }
-    ]
+    ],
+    "woe:country_name": "Denmark"
 }

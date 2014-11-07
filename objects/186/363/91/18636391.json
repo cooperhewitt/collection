@@ -3,6 +3,7 @@
     "tms:id": "193045",
     "accession_number": "1991-30-46",
     "title": "Sugar Bowl, \"Residential\", 1950s",
+    "title_raw": "Residential",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18636391\/",
     "department_id": "35347497",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1959,
     "year_acquired": "1991",
     "decade": "1950",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Plastic",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "Paul F. Walter; 1991: acquired by Museum",
     "dimensions": "H x diam.: 8.6 x 9.8 cm (3 3\/8 x 3 7\/8 in.)",
+    "dimensions_raw": {
+        "diameter": [
+            "9.80",
+            "centimeters"
+        ],
+        "height": [
+            "8.60",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Paul F. Walter",
     "description": "Bowl with flat tapered base and curved sides.",
     "justification": null,
-    "type": {
-        "id": "35249119",
-        "name": "sugar bowl"
-    },
+    "woe:country": "23424977",
+    "type": "sugar bowl",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/44454_949e81e607d9848b_b.jpg",
                 "width": 1024,
                 "height": 555,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/44454_949e81e607d9848b_n.jpg",
-                "width": 320,
-                "height": 173,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "44454"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/44454_949e81e607d9848b_z.jpg",
                 "width": 640,
                 "height": 347,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "44454"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/44454_949e81e607d9848b_n.jpg",
+                "width": 320,
+                "height": 173,
+                "is_primary": "1",
+                "image_id": "44454"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/44454_949e81e607d9848b_d.gif",
+                "width": 320,
+                "height": 173,
+                "is_primary": "1",
+                "image_id": "44454"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/44454_949e81e607d9848b_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "44454"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/11555_041fbb9258b6db3b_b.jpg",
                 "width": 1024,
                 "height": 841,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/11555_041fbb9258b6db3b_n.jpg",
-                "width": 320,
-                "height": 263,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "11555"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/11555_041fbb9258b6db3b_z.jpg",
                 "width": 640,
                 "height": 526,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "11555"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/11555_041fbb9258b6db3b_n.jpg",
+                "width": 320,
+                "height": 263,
+                "is_primary": "0",
+                "image_id": "11555"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/11555_041fbb9258b6db3b_d.gif",
+                "width": 320,
+                "height": 263,
+                "is_primary": "0",
+                "image_id": "11555"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/11555_041fbb9258b6db3b_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "11555"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18041007",
             "role_id": "35351535",
             "person_name": "Paul F. Walter",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041007\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18043357",
             "role_id": "35236655",
             "person_name": "Russel Wright",
+            "person_date": "American, 1904\u20131976",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18043357\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
@@ -93,19 +140,28 @@
     "colors": [
         {
             "color": "#96c1c3",
-            "closest_css3": "#b0c4de"
+            "closest_crayola": "#a2add0",
+            "closest_css3": "#b0c4de",
+            "closest_css4": "#b0c4de"
         },
         {
             "color": "#70847f",
-            "closest_css3": "#808080"
+            "closest_crayola": "#757575",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#969282",
-            "closest_css3": "#808080"
+            "color": "#999180",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
             "color": "#5a5f59",
-            "closest_css3": "#696969"
+            "closest_crayola": "#4a646c",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

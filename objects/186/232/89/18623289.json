@@ -3,6 +3,7 @@
     "tms:id": "186481",
     "accession_number": "1987-97-12",
     "title": "Cane, \"Famous Actresses\", 1920s",
+    "title_raw": "Famous Actresses",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18623289\/",
     "department_id": "35347497",
     "period_id": null,
@@ -13,39 +14,60 @@
     "year_end": 1929,
     "year_acquired": "1987",
     "decade": "1920",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Carved and polychromed wood, silver, steel",
     "markings": "Inscribed: \"Made by Fred Brown\/M. Pickford\/M.M. Minter\/C. Young\/B. Daniels\/Famous Actresses\"",
     "signed": null,
     "inscribed": null,
     "provenance": "John B. Scholz; 1987: acquired by Museum",
     "dimensions": "H: 90.2 cm (35 1\/2 in.)",
+    "dimensions_raw": {
+        "height": [
+            "90.20",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of John B. Scholz in memory of Walter Scholz",
     "description": "Wood cane with carved, engraved and polychromed decoration depicting American flag and portrait busts of early 20th century film actresses Mary Pickford, Clara Young, Mary Miles Minter, and Bebe Daniels.  Silver handle in octagonal acorn form, and tapered steel tip attached at opposite end.",
     "justification": null,
-    "type": {
-        "id": "35270645",
-        "name": "Cane"
-    },
+    "woe:country": "23424977",
+    "type": "Cane",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/10528_b46d1badfa9502c0_b.jpg",
                 "width": 143,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/10528_b46d1badfa9502c0_n.jpg",
-                "width": 45,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "10528"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/10528_b46d1badfa9502c0_z.jpg",
                 "width": 90,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "10528"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/10528_b46d1badfa9502c0_n.jpg",
+                "width": 45,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "10528"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/10528_b46d1badfa9502c0_d.gif",
+                "width": 45,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "10528"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/10528_b46d1badfa9502c0_sq.jpg",
+                "width": 143,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "10528"
             }
         },
         {
@@ -53,19 +75,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/10529_c6a8e40a2cec1ee0_b.jpg",
                 "width": 182,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/10529_c6a8e40a2cec1ee0_n.jpg",
-                "width": 57,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "10529"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/10529_c6a8e40a2cec1ee0_z.jpg",
                 "width": 114,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "10529"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/10529_c6a8e40a2cec1ee0_n.jpg",
+                "width": 57,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "10529"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/10529_c6a8e40a2cec1ee0_d.gif",
+                "width": 57,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "10529"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/10529_c6a8e40a2cec1ee0_sq.jpg",
+                "width": 182,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "10529"
             }
         }
     ],
@@ -74,7 +113,9 @@
             "person_id": "18537949",
             "role_id": "35236685",
             "person_name": "Fred Brown",
+            "person_date": "",
             "role_name": "Maker",
+            "role_display_name": "Made by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18537949\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236685\/"
         },
@@ -82,7 +123,9 @@
             "person_id": "18537893",
             "role_id": "35351535",
             "person_name": "John B. Scholz",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18537893\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -92,24 +135,35 @@
     },
     "colors": [
         {
-            "color": "#d7e2fa",
-            "closest_css3": "#e6e6fa"
+            "color": "#c2cdf0",
+            "closest_crayola": "#c5d0e6",
+            "closest_css3": "#add8e6",
+            "closest_css4": "#add8e6"
         },
         {
-            "color": "#392629",
-            "closest_css3": "#2f4f4f"
+            "color": "#c06830",
+            "closest_crayola": "#b4674d",
+            "closest_css3": "#d2691e",
+            "closest_css4": "#d2691e"
         },
         {
-            "color": "#94471e",
-            "closest_css3": "#8b4513"
+            "color": "#562d24",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#8b4513",
+            "closest_css4": "#8b4513"
         },
         {
-            "color": "#5d5669",
-            "closest_css3": "#696969"
+            "color": "#544958",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#c06831",
-            "closest_css3": "#d2691e"
+            "color": "#251619",
+            "closest_crayola": "#000000",
+            "closest_css3": "#000000",
+            "closest_css4": "#000000"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

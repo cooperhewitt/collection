@@ -3,6 +3,7 @@
     "tms:id": "160269",
     "accession_number": "1979-89-16",
     "title": "Textile, \"Sumo\", 1977",
+    "title_raw": "Sumo",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18498737\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1977,
     "year_acquired": "1979",
     "decade": "1970",
-    "woe:country": "23424812",
+    "woe:country_id": "23424812",
     "medium": "Medium: cotton\nTechnique: screen printed on plain weave",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "H x W: 315 x 137.2 cm (124 x 54 in.)\nRepeat H: 126 cm (49 5\/8 in.)",
+    "dimensions_raw": {
+        "height": [
+            "314.96",
+            "centimeters"
+        ],
+        "width": [
+            "137.16",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Marimekko, Inc.",
     "description": "Large scale \"X \"grid in bright colors (red, blue, yellow or green) on white.",
     "justification": null,
-    "type": {
-        "id": "35251739",
-        "name": "textile"
-    },
+    "woe:country": "23424812",
+    "type": "textile",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/49196_6a2dca5a6b5dc4bb_b.jpg",
                 "width": 554,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/49196_6a2dca5a6b5dc4bb_n.jpg",
-                "width": 173,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "49196"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/49196_6a2dca5a6b5dc4bb_z.jpg",
                 "width": 346,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "49196"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/49196_6a2dca5a6b5dc4bb_n.jpg",
+                "width": 173,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "49196"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/49196_6a2dca5a6b5dc4bb_d.gif",
+                "width": 173,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "49196"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/49196_6a2dca5a6b5dc4bb_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "49196"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/77058_34405f9cb4bbb5c0_b.jpg",
                 "width": 663,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/77058_34405f9cb4bbb5c0_n.jpg",
-                "width": 207,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "77058"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/77058_34405f9cb4bbb5c0_z.jpg",
                 "width": 414,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "77058"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/77058_34405f9cb4bbb5c0_n.jpg",
+                "width": 207,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "77058"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/77058_34405f9cb4bbb5c0_d.gif",
+                "width": 207,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "77058"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/77058_34405f9cb4bbb5c0_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "77058"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18045663",
             "role_id": "35236657",
             "person_name": "Marimekko Oy",
+            "person_date": "Helsinki, Finland, founded 1951",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18045663\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18048723",
             "role_id": "35351535",
             "person_name": "Marimekko, Inc.",
+            "person_date": "1951 \u2013 1979",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18048723\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -90,7 +137,9 @@
             "person_id": "18045661",
             "role_id": "35236655",
             "person_name": "Fujiwo Ishimoto",
+            "person_date": "1941",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18045661\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
@@ -101,23 +150,34 @@
     "colors": [
         {
             "color": "#c90022",
-            "closest_css3": "#dc143c"
+            "closest_crayola": "#ee204d",
+            "closest_css3": "#dc143c",
+            "closest_css4": "#dc143c"
         },
         {
-            "color": "#fbe62f",
-            "closest_css3": "#ffd700"
+            "color": "#fbe729",
+            "closest_crayola": "#fefe22",
+            "closest_css3": "#ffd700",
+            "closest_css4": "#ffd700"
         },
         {
-            "color": "#2f7748",
-            "closest_css3": "#2e8b57"
+            "color": "#2f7848",
+            "closest_crayola": "#17806d",
+            "closest_css3": "#2e8b57",
+            "closest_css4": "#2e8b57"
         },
         {
-            "color": "#2c4291",
-            "closest_css3": "#483d8b"
+            "color": "#2c4493",
+            "closest_crayola": "#2e5894",
+            "closest_css3": "#483d8b",
+            "closest_css4": "#483d8b"
         },
         {
-            "color": "#7e9f94",
-            "closest_css3": "#778899"
+            "color": "#7f9e96",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#778899",
+            "closest_css4": "#778899"
         }
-    ]
+    ],
+    "woe:country_name": "Finland"
 }

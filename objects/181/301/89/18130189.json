@@ -3,6 +3,7 @@
     "tms:id": "11236",
     "accession_number": "1902-1-102",
     "title": "Panel, 4th\u20136th century",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18130189\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": null,
     "year_acquired": "1902",
     "decade": null,
-    "woe:country": "23424802",
+    "woe:country_id": "23424802",
     "medium": "Medium: warp; S-spun, Z-twist linen. Wefts; S-spun linen, S-spun wool\nTechnique: slit tapestry with supplementary wrapping",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "H x W: 23.3 x 31.2 cm (9 3\/16 x 12 5\/16 in. )",
+    "dimensions_raw": {
+        "height": [
+            "23.30",
+            "centimeters"
+        ],
+        "width": [
+            "31.20",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of John Pierpont Morgan",
     "description": "Pictorial image of a Dionysus and Ariadne: dancing female figure holding a bowl and a nude male figure with an animal at his feet. Frame of mosaic pattern.",
     "justification": null,
-    "type": {
-        "id": "35237229",
-        "name": "Panel"
-    },
+    "woe:country": "23424802",
+    "type": "Panel",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/46689_96267a750f097739_b.jpg",
                 "width": 1024,
                 "height": 759,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/46689_96267a750f097739_n.jpg",
-                "width": 320,
-                "height": 237,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "46689"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/46689_96267a750f097739_z.jpg",
                 "width": 640,
                 "height": 474,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "46689"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/46689_96267a750f097739_n.jpg",
+                "width": 320,
+                "height": 237,
+                "is_primary": "1",
+                "image_id": "46689"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/46689_96267a750f097739_d.gif",
+                "width": 320,
+                "height": 237,
+                "is_primary": "1",
+                "image_id": "46689"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/46689_96267a750f097739_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "46689"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/1317_16cdf56a097255e3_b.jpg",
                 "width": 1024,
                 "height": 733,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/1317_16cdf56a097255e3_n.jpg",
-                "width": 320,
-                "height": 229,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "1317"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/1317_16cdf56a097255e3_z.jpg",
                 "width": 640,
                 "height": 458,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "1317"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/1317_16cdf56a097255e3_n.jpg",
+                "width": 320,
+                "height": 229,
+                "is_primary": "0",
+                "image_id": "1317"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/1317_16cdf56a097255e3_d.gif",
+                "width": 320,
+                "height": 229,
+                "is_primary": "0",
+                "image_id": "1317"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/1317_16cdf56a097255e3_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "1317"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18049445",
             "role_id": "35351535",
             "person_name": "John Pierpont Morgan",
+            "person_date": "American, 1837\u20131913",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049445\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -84,24 +129,29 @@
     },
     "colors": [
         {
-            "color": "#997349",
-            "closest_css3": "#a0522d"
+            "color": "#aa8152",
+            "closest_crayola": "#a57164",
+            "closest_css3": "#cd853f",
+            "closest_css4": "#cd853f"
         },
         {
-            "color": "#b99566",
-            "closest_css3": "#bdb76b"
+            "color": "#90673e",
+            "closest_crayola": "#85754e",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         },
         {
-            "color": "#6d573e",
-            "closest_css3": "#556b2f"
+            "color": "#4f4338",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#dac29a",
-            "closest_css3": "#d2b48c"
-        },
-        {
-            "color": "#4b3727",
-            "closest_css3": "#556b2f"
+            "color": "#d9c097",
+            "closest_crayola": "#e7c697",
+            "closest_css3": "#d2b48c",
+            "closest_css4": "#d2b48c"
         }
-    ]
+    ],
+    "woe:country_name": "Egypt"
 }

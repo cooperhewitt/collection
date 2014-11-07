@@ -3,6 +3,7 @@
     "tms:id": "49874",
     "accession_number": "1931-81-538",
     "title": "Stereoview, \"The Whirlpool Rapids-Niagara from the Series Premium Views\", 1860\u201380",
+    "title_raw": "The Whirlpool Rapids-Niagara from the Series Premium Views",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18331835\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1940,
     "year_acquired": "1931",
     "decade": null,
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Albumen silver print mounted on orange paperboard",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "Overall: 11 x 17.8 cm (4 5\/16 x 7 in.)",
+    "dimensions_raw": {
+        "height": [
+            "10.95",
+            "centimeters"
+        ],
+        "width": [
+            "17.78",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Eleanor and Sarah Hewitt",
     "description": "Roiling water in the forground with a view of the Niagara suspension bridge in the upper left.",
     "justification": null,
-    "type": {
-        "id": "35286553",
-        "name": "Stereoview"
-    },
+    "woe:country": "23424977",
+    "type": "Stereoview",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/19979_f209ed28caed1c2d_b.jpg",
                 "width": 1024,
                 "height": 650,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/19979_f209ed28caed1c2d_n.jpg",
-                "width": 320,
-                "height": 203,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "19979"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/19979_f209ed28caed1c2d_z.jpg",
                 "width": 640,
                 "height": 406,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "19979"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/19979_f209ed28caed1c2d_n.jpg",
+                "width": 320,
+                "height": 203,
+                "is_primary": "1",
+                "image_id": "19979"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/19979_f209ed28caed1c2d_d.gif",
+                "width": 320,
+                "height": 203,
+                "is_primary": "1",
+                "image_id": "19979"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/19979_f209ed28caed1c2d_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "19979"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18049321",
             "role_id": "35351535",
             "person_name": "Sarah Cooper Hewitt",
+            "person_date": "American, 1859\u20131930",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049321\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18049325",
             "role_id": "35351535",
             "person_name": "Eleanor Garnier Hewitt",
+            "person_date": "American, 1864\u20131924",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049325\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18049321",
             "role_id": "35351535",
             "person_name": "Sarah Cooper Hewitt",
+            "person_date": "American, 1859\u20131930",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049321\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -78,7 +110,9 @@
             "person_id": "18049325",
             "role_id": "35351535",
             "person_name": "Eleanor Garnier Hewitt",
+            "person_date": "American, 1864\u20131924",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049325\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -86,7 +120,9 @@
             "person_id": "18058269",
             "role_id": "35236631",
             "person_name": "George Barker",
+            "person_date": "American",
             "role_name": "Photographer",
+            "role_display_name": "Photographed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18058269\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236631\/"
         }
@@ -97,23 +133,34 @@
     "colors": [
         {
             "color": "#574735",
-            "closest_css3": "#556b2f"
+            "closest_crayola": "#714b23",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         },
         {
-            "color": "#a9521e",
-            "closest_css3": "#a0522d"
+            "color": "#b35822",
+            "closest_crayola": "#c46210",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         },
         {
-            "color": "#76654d",
-            "closest_css3": "#696969"
+            "color": "#786750",
+            "closest_crayola": "#85754e",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#b6a98e",
-            "closest_css3": "#bc8f8f"
+            "color": "#b5a88d",
+            "closest_crayola": "#bab86c",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         },
         {
-            "color": "#948569",
-            "closest_css3": "#808080"
+            "color": "#958569",
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

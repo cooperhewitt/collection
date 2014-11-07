@@ -2,7 +2,8 @@
     "id": "18222631",
     "tms:id": "26831",
     "accession_number": "1921-6-212-43",
-    "title": "Print, \"V\u00fce de M\u00eame (Czartoryski) Sallon du Coste des Glac\u00e9s (Design for the Salon Czartoryski), plate 85 in Oeuvre de Juste-Aur\u00e8le Meissonnier\", 1748",
+    "title": "Print, \"V\u00fce de M\u00eame (Czartoryski) Sallon du Cost\u00e9 des Glac\u00e9s (Design for the Salon Czartoryski), plate 85, in Oeuvres de Juste-Aur\u00e8le Meissonnier (Works by Juste-Aur\u00e8le Meissonnier)\", 1748",
+    "title_raw": "V\u00fce de M\u00eame (Czartoryski) Sallon du Coste des Glac\u00e9s (Design for the Salon Czartoryski), plate 85 in Oeuvre de Juste-Aur\u00e8le Meissonnier",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18222631\/",
     "department_id": "35347493",
     "period_id": "35417101",
@@ -13,39 +14,64 @@
     "year_end": 1748,
     "year_acquired": "1921",
     "decade": null,
-    "woe:country": "23424819",
+    "woe:country_id": "23424819",
     "medium": "Engraving on white laid paper",
     "markings": null,
     "signed": "Signed in plate, lower left: J. A. Meissonnier inv.; lower right: Babel Sculp.",
     "inscribed": "Inscribed in plate, upper left: O; upper right: 85; lower center: V\u00fce de m\u00eame Sallon du cost\u00e9 des glaces. \/  A Paris ch\u00e9s Huquier rue St. Jacque au coin de celle des Mathurins. C.P.R.",
     "provenance": "Jean L\u00e9on Decloux (Decloux 173)",
     "dimensions": "25.2 x 50.9 cm (9 15\/16 x 20 1\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "25.20",
+            "centimeters"
+        ],
+        "width": [
+            "50.90",
+            "centimeters"
+        ]
+    },
     "creditline": "Purchased for the Museum by the Advisory Council",
     "description": "Symmetrical view of interior decoration with four mirrors and central double doors. Each mirror and door decorated with overhanging. Left: two putti in rocaille frame, one playing lute; second from left: group of ladies sitting in a trompe l'oeil balcony as though at the theater; central overhanging: two classical female figures flank empty crowned cartouche; right of center: three formally-dressed ladies in trompe l'oeil balcony; far right: two putti, one with bow and arrow with boar. Each mirror is heavily decorated with shells, leaves and two or four candles.",
     "justification": null,
-    "type": {
-        "id": "35236873",
-        "name": "Print"
-    },
+    "woe:country": "23424819",
+    "type": "Print",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/24128_d3cbba1df5dcadff_b.jpg",
                 "width": 1024,
                 "height": 538,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/24128_d3cbba1df5dcadff_n.jpg",
-                "width": 320,
-                "height": 168,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "24128"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/24128_d3cbba1df5dcadff_z.jpg",
                 "width": 640,
                 "height": 336,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "24128"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/24128_d3cbba1df5dcadff_n.jpg",
+                "width": 320,
+                "height": 168,
+                "is_primary": "1",
+                "image_id": "24128"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/24128_d3cbba1df5dcadff_d.gif",
+                "width": 320,
+                "height": 168,
+                "is_primary": "1",
+                "image_id": "24128"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/24128_d3cbba1df5dcadff_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "24128"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "51676457",
             "role_id": "35352245",
             "person_name": "Karin Zonis",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/51676457\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18049621",
             "role_id": "35351535",
             "person_name": "Advisory Council",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049621\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18042661",
             "role_id": "35236743",
             "person_name": "Pierre-Edm\u00e9 Babel",
+            "person_date": "1700\/1711\u20131775",
             "role_name": "Engraver",
+            "role_display_name": "Engraved by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18042661\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236743\/"
         },
@@ -78,26 +110,41 @@
             "person_id": "18042657",
             "role_id": "35236655",
             "person_name": "Juste-Aur\u00e8le Meissonnier",
+            "person_date": "French, 1695\u20131750",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18042657\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
     ],
     "tombstone": {
-        "epitaph": "Print, \"V\u00fce de M\u00eame (Czartoryski) Sallon du Coste des Glac\u00e9s (Design for the Salon Czartoryski), plate 85 in Oeuvre de Juste-Aur\u00e8le Meissonnier\", 1748. Engraving on white laid paper. Purchased for the Museum by the Advisory Council. 1921-6-212-43."
+        "epitaph": "Print, \"V\u00fce de M\u00eame (Czartoryski) Sallon du Cost\u00e9 des Glac\u00e9s (Design for the Salon Czartoryski), plate 85, in Oeuvres de Juste-Aur\u00e8le Meissonnier (Works by Juste-Aur\u00e8le Meissonnier)\", 1748. Engraving on white laid paper. Purchased for the Museum by the Advisory Council. 1921-6-212-43."
     },
     "colors": [
         {
-            "color": "#bab5a8",
-            "closest_css3": "#a9a9a9"
+            "color": "#b2ac9f",
+            "closest_crayola": "#979aaa",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
         },
         {
-            "color": "#7e796a",
-            "closest_css3": "#808080"
+            "color": "#dad6cb",
+            "closest_crayola": "#dbd7d2",
+            "closest_css3": "#d3d3d3",
+            "closest_css4": "#d3d3d3"
         },
         {
-            "color": "#615b4e",
-            "closest_css3": "#696969"
+            "color": "#857f70",
+            "closest_crayola": "#757575",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
+        },
+        {
+            "color": "#6a6457",
+            "closest_crayola": "#6e5160",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         }
-    ]
+    ],
+    "woe:country_name": "France"
 }

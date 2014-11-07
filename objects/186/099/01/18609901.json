@@ -3,6 +3,7 @@
     "tms:id": "98475",
     "accession_number": "1948-40-191-a",
     "title": "Drawing, \"Paper Sample\", 19th century",
+    "title_raw": "Paper Sample",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18609901\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": null,
     "year_acquired": "1948",
     "decade": null,
-    "woe:country": "23424975",
+    "woe:country_id": "23424975",
     "medium": "Coated paper",
     "markings": "Verso, stamp in brown ink: Cooper-Hewitt National Design Museum, Smithsonian Institution (Lugt 457e)",
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "6.5 x 17.3 cm (2 9\/16 x 6 13\/16 in.), irregular",
+    "dimensions_raw": {
+        "height": [
+            "6.50",
+            "centimeters"
+        ],
+        "width": [
+            "17.30",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase through gift of Mrs. John Innes Kane",
     "description": "Paper sample in red.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424975",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/39919_4474126d91806dd6_b.jpg",
                 "width": 1024,
                 "height": 360,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/39919_4474126d91806dd6_n.jpg",
-                "width": 320,
-                "height": 113,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "39919"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/39919_4474126d91806dd6_z.jpg",
                 "width": 640,
                 "height": 225,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "39919"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/39919_4474126d91806dd6_n.jpg",
+                "width": 320,
+                "height": 113,
+                "is_primary": "1",
+                "image_id": "39919"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/39919_4474126d91806dd6_d.gif",
+                "width": 320,
+                "height": 113,
+                "is_primary": "1",
+                "image_id": "39919"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/39919_4474126d91806dd6_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "39919"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "51676457",
             "role_id": "35352245",
             "person_name": "Karin Zonis",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/51676457\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18539479",
             "role_id": "35352249",
             "person_name": "Mrs. K. Gregory",
+            "person_date": "",
             "role_name": "Vendor",
+            "role_display_name": "Purchased from",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18539479\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352249\/"
         }
@@ -72,8 +102,11 @@
     },
     "colors": [
         {
-            "color": "#e0ccbe",
-            "closest_css3": "#d3d3d3"
+            "color": "#deac9c",
+            "closest_crayola": "#deaa88",
+            "closest_css3": "#d2b48c",
+            "closest_css4": "#d2b48c"
         }
-    ]
+    ],
+    "woe:country_name": "United Kingdom"
 }

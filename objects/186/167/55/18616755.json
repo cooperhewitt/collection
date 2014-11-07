@@ -3,6 +3,7 @@
     "tms:id": "176907",
     "accession_number": "1981-28-306",
     "title": "Darning Sampler, 1852",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18616755\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1852,
     "year_acquired": "1981",
     "decade": null,
-    "woe:country": null,
+    "woe:country_id": null,
     "medium": "Medium: silk embroidery on linen foundation\nTechnique: embroidered in running (pattern darning) and cross stitches on plain weave foundation",
     "markings": null,
     "signed": null,
     "inscribed": "H.J.",
     "provenance": null,
     "dimensions": "H x W: 32.4 x 37.5 cm (12 3\/4 x 14 3\/4 in.)",
+    "dimensions_raw": {
+        "height": [
+            "32.39",
+            "centimeters"
+        ],
+        "width": [
+            "37.47",
+            "centimeters"
+        ]
+    },
     "creditline": "Bequest of Gertrude M. Oppenheimer",
     "description": "Nine darning squares with initials and date in the center.  One square simulates knitting.",
     "justification": null,
-    "type": {
-        "id": "35285019",
-        "name": "Darning sampler"
-    },
+    "woe:country": null,
+    "type": "Darning sampler",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/41553_f7e5f181c53aec99_b.jpg",
                 "width": 1024,
                 "height": 940,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/41553_f7e5f181c53aec99_n.jpg",
-                "width": 320,
-                "height": 294,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "41553"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/41553_f7e5f181c53aec99_z.jpg",
                 "width": 640,
                 "height": 588,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "41553"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/41553_f7e5f181c53aec99_n.jpg",
+                "width": 320,
+                "height": 294,
+                "is_primary": "1",
+                "image_id": "41553"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/41553_f7e5f181c53aec99_d.gif",
+                "width": 320,
+                "height": 294,
+                "is_primary": "1",
+                "image_id": "41553"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/41553_f7e5f181c53aec99_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "41553"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/37094_9716d2b545ae8866_b.jpg",
                 "width": 1024,
                 "height": 900,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/37094_9716d2b545ae8866_n.jpg",
-                "width": 320,
-                "height": 281,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "37094"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/37094_9716d2b545ae8866_z.jpg",
                 "width": 640,
                 "height": 563,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "37094"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/37094_9716d2b545ae8866_n.jpg",
+                "width": 320,
+                "height": 281,
+                "is_primary": "0",
+                "image_id": "37094"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/37094_9716d2b545ae8866_d.gif",
+                "width": 320,
+                "height": 281,
+                "is_primary": "0",
+                "image_id": "37094"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/37094_9716d2b545ae8866_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "37094"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18050567",
             "role_id": "35351537",
             "person_name": "Gertrude M. Oppenheimer",
+            "person_date": "",
             "role_name": "Bequestor",
+            "role_display_name": "Bequest of",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18050567\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351537\/"
         }
@@ -84,16 +129,22 @@
     },
     "colors": [
         {
-            "color": "#c3a172",
-            "closest_css3": "#bdb76b"
+            "color": "#c4ae87",
+            "closest_crayola": "#deaa88",
+            "closest_css3": "#d2b48c",
+            "closest_css4": "#d2b48c"
         },
         {
-            "color": "#9d7e55",
-            "closest_css3": "#808080"
+            "color": "#9d7f58",
+            "closest_crayola": "#a57164",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#665043",
-            "closest_css3": "#556b2f"
+            "color": "#675245",
+            "closest_crayola": "#6e5160",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         }
     ]
 }

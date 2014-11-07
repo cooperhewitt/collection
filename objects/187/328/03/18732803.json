@@ -3,6 +3,7 @@
     "tms:id": "242523",
     "accession_number": "2009-18-20",
     "title": "Wine Pitcher, \"Clover\", ca. 1870",
+    "title_raw": "Clover",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18732803\/",
     "department_id": "35347497",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1880,
     "year_acquired": "2009",
     "decade": null,
-    "woe:country": "23424750",
+    "woe:country_id": "23424750",
     "medium": "Mouth-blown crystal, hand-painted gold",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "2009: acquired by Museum",
     "dimensions": "H x diam.: 22.9 x 13.9 cm (9 x 5 1\/2 in.)",
+    "dimensions_raw": {
+        "diameter": [
+            "13.90",
+            "centimeters"
+        ],
+        "height": [
+            "22.90",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase through gift of Dale and Doug Anderson, Anonymous Donor, Arthur Liu, and Prairie Pictures, Inc. and from General Acquisitions Endowment Fund",
     "description": "Mouth-blown crystal wine pitcher with slim shape, hand-painted with gold rims.",
     "justification": null,
-    "type": {
-        "id": "51681091",
-        "name": "Wine pitcher"
-    },
+    "woe:country": "23424750",
+    "type": "Wine pitcher",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/32070_dd194840036645d5_b.jpg",
                 "width": 711,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/32070_dd194840036645d5_n.jpg",
-                "width": 222,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "32070"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/32070_dd194840036645d5_z.jpg",
                 "width": 445,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "32070"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/32070_dd194840036645d5_n.jpg",
+                "width": 222,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "32070"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/32070_dd194840036645d5_d.gif",
+                "width": 222,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "32070"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/32070_dd194840036645d5_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "32070"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/33199_257ce6d57b770813_b.jpg",
                 "width": 1024,
                 "height": 666,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/33199_257ce6d57b770813_n.jpg",
-                "width": 320,
-                "height": 208,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "33199"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/33199_257ce6d57b770813_z.jpg",
                 "width": 640,
                 "height": 416,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "33199"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/33199_257ce6d57b770813_n.jpg",
+                "width": 320,
+                "height": 208,
+                "is_primary": "0",
+                "image_id": "33199"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/33199_257ce6d57b770813_d.gif",
+                "width": 320,
+                "height": 208,
+                "is_primary": "0",
+                "image_id": "33199"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/33199_257ce6d57b770813_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "33199"
             }
         }
     ],
@@ -73,8 +116,10 @@
         {
             "person_id": "18061841",
             "role_id": "35236657",
-            "person_name": "J. & L. Lobmeyr GmbH, Vienna, Austria",
+            "person_name": "J. & L. Lobmeyr GmbH",
+            "person_date": "Vienna, Austria, founded ca. 1935",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18061841\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         },
@@ -82,15 +127,19 @@
             "person_id": "18062617",
             "role_id": "35236655",
             "person_name": "Ludwig Lobmeyr",
+            "person_date": "Austrian, 1829 - 1917",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18062617\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
         {
             "person_id": "18061841",
             "role_id": "51571131",
-            "person_name": "J. & L. Lobmeyr GmbH, Vienna, Austria",
+            "person_name": "J. & L. Lobmeyr GmbH",
+            "person_date": "Vienna, Austria, founded ca. 1935",
             "role_name": "Lender",
+            "role_display_name": "Lent by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18061841\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/51571131\/"
         }
@@ -100,12 +149,11 @@
     },
     "colors": [
         {
-            "color": "#82807b",
-            "closest_css3": "#808080"
-        },
-        {
-            "color": "#58554f",
-            "closest_css3": "#696969"
+            "color": "#5a5751",
+            "closest_crayola": "#6e5160",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         }
-    ]
+    ],
+    "woe:country_name": "Austria"
 }

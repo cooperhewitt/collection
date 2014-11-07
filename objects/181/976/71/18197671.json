@@ -3,6 +3,7 @@
     "tms:id": "22997",
     "accession_number": "1917-4-381-b",
     "title": "Drawing, \"Landscape in Jamaica, West Indies\", May\u2013August 1865",
+    "title_raw": "Landscape in Jamaica, West Indies",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18197671\/",
     "department_id": "35347493",
     "period_id": "35417175",
@@ -13,39 +14,64 @@
     "year_end": null,
     "year_acquired": "1917",
     "decade": null,
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Brush and oil paint on cardboard",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "28.9 x 45.5 cm (11 3\/8 x 17 15\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "28.90",
+            "centimeters"
+        ],
+        "width": [
+            "45.50",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Louis P. Church",
     "description": "Bird's eye view of rugged mountains. A road is shown in a valley in the central middle distance. Two wooded slopes form the foreground. Cloudy sky.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424977",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/1817_50791e85ba585f5d_b.jpg",
                 "width": 1024,
                 "height": 655,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/1817_50791e85ba585f5d_n.jpg",
-                "width": 320,
-                "height": 205,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "1817"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/1817_50791e85ba585f5d_z.jpg",
                 "width": 640,
                 "height": 409,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "1817"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/1817_50791e85ba585f5d_n.jpg",
+                "width": 320,
+                "height": 205,
+                "is_primary": "1",
+                "image_id": "1817"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/1817_50791e85ba585f5d_d.gif",
+                "width": 320,
+                "height": 205,
+                "is_primary": "1",
+                "image_id": "1817"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/1817_50791e85ba585f5d_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "1817"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "51676457",
             "role_id": "35352245",
             "person_name": "Karin Zonis",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/51676457\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18054439",
             "role_id": "35352245",
             "person_name": "Richard P. Wunder",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18054439\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18047439",
             "role_id": "35352245",
             "person_name": "Rudolph Berliner",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047439\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -78,7 +110,9 @@
             "person_id": "18041941",
             "role_id": "35236565",
             "person_name": "Frederic Edwin Church",
+            "person_date": "American, 1826\u20131900",
             "role_name": "Artist",
+            "role_display_name": "",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041941\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236565\/"
         },
@@ -86,7 +120,9 @@
             "person_id": "18051625",
             "role_id": "35351535",
             "person_name": "Louis P. Church",
+            "person_date": "American, 1870\u20131943",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18051625\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -96,24 +132,35 @@
     },
     "colors": [
         {
-            "color": "#86684b",
-            "closest_css3": "#696969"
+            "color": "#6c5b2e",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         },
         {
-            "color": "#63553d",
-            "closest_css3": "#556b2f"
+            "color": "#87684a",
+            "closest_crayola": "#85754e",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#9a987c",
-            "closest_css3": "#808080"
+            "color": "#a59d80",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         },
         {
-            "color": "#c0b894",
-            "closest_css3": "#d2b48c"
+            "color": "#444237",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#434035",
-            "closest_css3": "#2f4f4f"
+            "color": "#8f806b",
+            "closest_crayola": "#8a795d",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

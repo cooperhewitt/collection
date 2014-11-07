@@ -3,6 +3,7 @@
     "tms:id": "75350",
     "accession_number": "1941-69-40",
     "title": "Sampler, 1832",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18564299\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1832,
     "year_acquired": "1941",
     "decade": null,
-    "woe:country": "23424975",
+    "woe:country_id": "23424975",
     "medium": "Medium: silk embroidery on linen\nTechnique: cross, tent, and satin stitches on plain weave",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "ex. coll. Mrs. Henry E. Coe (Eva Johnston Coe)",
     "dimensions": "Warp x Weft: 21 x 21 cm (8 1\/4 x 8 1\/4 in.)",
+    "dimensions_raw": {
+        "warp": [
+            "21.00",
+            "centimeters"
+        ],
+        "weft": [
+            "21.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Bequest of Mrs. Henry E. Coe",
     "description": "At top, a house with trees, dogs, birds and motifs; below a vase of flowers with trees, birds, hearts surrounded by a chain border.",
     "justification": null,
-    "type": {
-        "id": "35256439",
-        "name": "Sampler"
-    },
+    "woe:country": "23424975",
+    "type": "Sampler",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/29048_bb237bb276b71657_b.jpg",
                 "width": 1024,
                 "height": 997,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/29048_bb237bb276b71657_n.jpg",
-                "width": 320,
-                "height": 312,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "29048"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/29048_bb237bb276b71657_z.jpg",
                 "width": 640,
                 "height": 623,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "29048"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/29048_bb237bb276b71657_n.jpg",
+                "width": 320,
+                "height": 312,
+                "is_primary": "1",
+                "image_id": "29048"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/29048_bb237bb276b71657_d.gif",
+                "width": 320,
+                "height": 312,
+                "is_primary": "1",
+                "image_id": "29048"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/29048_bb237bb276b71657_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "29048"
             }
         }
     ],
@@ -54,9 +80,21 @@
             "person_id": "18052567",
             "role_id": "35351537",
             "person_name": "Mrs. Henry E. Coe",
+            "person_date": "",
             "role_name": "Bequestor",
+            "role_display_name": "Bequest of",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18052567\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351537\/"
+        },
+        {
+            "person_id": "68737335",
+            "role_id": "35236583",
+            "person_name": "Emma Slade",
+            "person_date": "",
+            "role_name": "Embroiderer",
+            "role_display_name": "Embroidered by",
+            "person_url": "http:\/\/collection.cooperhewitt.org\/people\/68737335\/",
+            "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236583\/"
         }
     ],
     "tombstone": {
@@ -64,24 +102,35 @@
     },
     "colors": [
         {
-            "color": "#c1b7ba",
-            "closest_css3": "#c0c0c0"
+            "color": "#c0b7b5",
+            "closest_crayola": "#cdc5c2",
+            "closest_css3": "#c0c0c0",
+            "closest_css4": "#c0c0c0"
         },
         {
-            "color": "#a0948c",
-            "closest_css3": "#bc8f8f"
+            "color": "#968c86",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#513e2c",
-            "closest_css3": "#556b2f"
+            "color": "#5b4b39",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         },
         {
-            "color": "#c5ced5",
-            "closest_css3": "#d3d3d3"
+            "color": "#85654d",
+            "closest_crayola": "#85754e",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#716057",
-            "closest_css3": "#696969"
+            "color": "#322c23",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         }
-    ]
+    ],
+    "woe:country_name": "United Kingdom"
 }

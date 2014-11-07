@@ -3,6 +3,7 @@
     "tms:id": "199357",
     "accession_number": "1994-57-1-a,b",
     "title": "Telephone, \"Phonebook\", 1980s",
+    "title_raw": "Phonebook",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18648895\/",
     "department_id": "35347497",
     "period_id": null,
@@ -13,39 +14,68 @@
     "year_end": 1989,
     "year_acquired": "1994",
     "decade": "1980",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Wood, plastic, paint",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "Lisa Krohn; 1994: acquired by Museum",
     "dimensions": "H x W x D: 6 x 33 x 23.7cm (2 3\/8 x 13 x 9 5\/16in.)",
+    "dimensions_raw": {
+        "depth": [
+            "23.70",
+            "centimeters"
+        ],
+        "height": [
+            "6.00",
+            "centimeters"
+        ],
+        "width": [
+            "33.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Lisa Krohn",
     "description": "A black telephone connected to rectangle keypad with a hinge on its right side holding open a phone book area.",
     "justification": null,
-    "type": {
-        "id": "35292687",
-        "name": "Telephone"
-    },
+    "woe:country": "23424977",
+    "type": "Telephone",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/12511_d051b91a4571a744_b.jpg",
                 "width": 1024,
                 "height": 735,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/12511_d051b91a4571a744_n.jpg",
-                "width": 320,
-                "height": 230,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "12511"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/12511_d051b91a4571a744_z.jpg",
                 "width": 640,
                 "height": 460,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "12511"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/12511_d051b91a4571a744_n.jpg",
+                "width": 320,
+                "height": 230,
+                "is_primary": "1",
+                "image_id": "12511"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/12511_d051b91a4571a744_d.gif",
+                "width": 320,
+                "height": 230,
+                "is_primary": "1",
+                "image_id": "12511"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/12511_d051b91a4571a744_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "12511"
             }
         }
     ],
@@ -54,7 +84,9 @@
             "person_id": "18041279",
             "role_id": "35351535",
             "person_name": "Lisa Krohn",
+            "person_date": "American, b. 1963",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041279\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -62,7 +94,9 @@
             "person_id": "18040933",
             "role_id": "35236733",
             "person_name": "Tucker Viemeister",
+            "person_date": "American, b. 1948",
             "role_name": "Co-Designer",
+            "role_display_name": "Co-Designer:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18040933\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236733\/"
         },
@@ -70,7 +104,9 @@
             "person_id": "18041279",
             "role_id": "35236655",
             "person_name": "Lisa Krohn",
+            "person_date": "American, b. 1963",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041279\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
@@ -80,8 +116,23 @@
     },
     "colors": [
         {
+            "color": "#746e6e",
+            "closest_crayola": "#757575",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
+        },
+        {
+            "color": "#565152",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
+        },
+        {
             "color": "#1e4037",
-            "closest_css3": "#2f4f4f"
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

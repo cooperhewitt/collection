@@ -3,6 +3,7 @@
     "tms:id": "74281",
     "accession_number": "1940-93-63-a",
     "title": "Coat, late 19th century",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18562155\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": null,
     "year_acquired": "1940",
     "decade": null,
-    "woe:country": "23424781",
+    "woe:country_id": "23424781",
     "medium": "Medium: silk\nTechnique: embroidered on satin weave",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "H x W: 29.2 x 57.2 cm (11 1\/2 x 22 1\/2 in.)",
+    "dimensions_raw": {
+        "height": [
+            "29.21",
+            "centimeters"
+        ],
+        "width": [
+            "57.15",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Mr. and Mrs. DeWitt Clinton Cohen in memory of Eleanor and Sarah Hewitt",
     "description": "Coat with long sleeves and rounded neckline closing across the right side of the chest and under arm. Embroidered with birds and flowers in pinks and blues on a white ground. Neck and hem edges bordered with dark blue silk embroidered with clouds in shades of blue. Lined with pink silk.",
     "justification": null,
-    "type": {
-        "id": "35267835",
-        "name": "Coat"
-    },
+    "woe:country": "23424781",
+    "type": "Coat",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/49903_134db2a2c477fd4e_b.jpg",
                 "width": 1024,
                 "height": 958,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/49903_134db2a2c477fd4e_n.jpg",
-                "width": 320,
-                "height": 299,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "49903"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/49903_134db2a2c477fd4e_z.jpg",
                 "width": 640,
                 "height": 599,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "49903"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/49903_134db2a2c477fd4e_n.jpg",
+                "width": 320,
+                "height": 299,
+                "is_primary": "1",
+                "image_id": "49903"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/49903_134db2a2c477fd4e_d.gif",
+                "width": 320,
+                "height": 299,
+                "is_primary": "1",
+                "image_id": "49903"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/49903_134db2a2c477fd4e_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "49903"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/86057_0e77ca19504f40c7_b.jpg",
                 "width": 794,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/86057_0e77ca19504f40c7_n.jpg",
-                "width": 248,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "86057"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/86057_0e77ca19504f40c7_z.jpg",
                 "width": 496,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "86057"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/86057_0e77ca19504f40c7_n.jpg",
+                "width": 248,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "86057"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/86057_0e77ca19504f40c7_d.gif",
+                "width": 248,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "86057"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/86057_0e77ca19504f40c7_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "86057"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18051691",
             "role_id": "35351535",
             "person_name": "Mrs. DeWitt Clinton Cohen",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18051691\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18049939",
             "role_id": "35351535",
             "person_name": "DeWitt Clinton Cohen",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049939\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -92,24 +139,35 @@
     },
     "colors": [
         {
-            "color": "#d4c7ab",
-            "closest_css3": "#c0c0c0"
+            "color": "#d6c9ae",
+            "closest_crayola": "#cdc5c2",
+            "closest_css3": "#c0c0c0",
+            "closest_css4": "#c0c0c0"
         },
         {
-            "color": "#908b7b",
-            "closest_css3": "#808080"
+            "color": "#302d2d",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#38424e",
-            "closest_css3": "#2f4f4f"
+            "color": "#938f7f",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#485858",
-            "closest_css3": "#2f4f4f"
+            "color": "#4c5b65",
+            "closest_crayola": "#4a646c",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#c1a283",
-            "closest_css3": "#bc8f8f"
+            "color": "#28364c",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         }
-    ]
+    ],
+    "woe:country_name": "China"
 }

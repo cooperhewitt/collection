@@ -3,6 +3,7 @@
     "tms:id": "115792",
     "accession_number": "1956-84-10",
     "title": "Table Mat, 1930\u201331",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18411145\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1931,
     "year_acquired": "1956",
     "decade": "1930",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Medium: linen and silk\nTechnique: plain weave",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "1956: acquired by Museum",
     "dimensions": "H x W: 32 x 44 cm (12 5\/8 x 17 5\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "32.00",
+            "centimeters"
+        ],
+        "width": [
+            "44.00",
+            "centimeters"
+        ]
+    },
     "creditline": null,
     "description": "Tablemat with a windowpane effect in pale orange and pale yellow. Stripe effect is emphasized with a single cord outline.",
     "justification": null,
-    "type": {
-        "id": "35251235",
-        "name": "table mat"
-    },
+    "woe:country": "23424977",
+    "type": "table mat",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/81747_b0194c12de465ee6_b.jpg",
                 "width": 1024,
                 "height": 758,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/81747_b0194c12de465ee6_n.jpg",
-                "width": 320,
-                "height": 237,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "81747"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/81747_b0194c12de465ee6_z.jpg",
                 "width": 640,
                 "height": 474,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "81747"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/81747_b0194c12de465ee6_n.jpg",
+                "width": 320,
+                "height": 237,
+                "is_primary": "1",
+                "image_id": "81747"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/81747_b0194c12de465ee6_d.gif",
+                "width": 320,
+                "height": 237,
+                "is_primary": "1",
+                "image_id": "81747"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/81747_b0194c12de465ee6_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "81747"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/18527_f9031d80655703ee_b.jpg",
                 "width": 1024,
                 "height": 743,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/18527_f9031d80655703ee_n.jpg",
-                "width": 320,
-                "height": 232,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "18527"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/18527_f9031d80655703ee_z.jpg",
                 "width": 640,
                 "height": 465,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "18527"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/18527_f9031d80655703ee_n.jpg",
+                "width": 320,
+                "height": 232,
+                "is_primary": "0",
+                "image_id": "18527"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/18527_f9031d80655703ee_d.gif",
+                "width": 320,
+                "height": 232,
+                "is_primary": "0",
+                "image_id": "18527"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/18527_f9031d80655703ee_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "18527"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18046231",
             "role_id": "35236655",
             "person_name": "Edith Huntington Snow",
+            "person_date": "American, 1876\u20131960",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18046231\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18046231",
             "role_id": "35236745",
             "person_name": "Edith Huntington Snow",
+            "person_date": "American, 1876\u20131960",
             "role_name": "Weaver",
+            "role_display_name": "Woven by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18046231\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236745\/"
         }
@@ -92,12 +139,11 @@
     },
     "colors": [
         {
-            "color": "#c78d58",
-            "closest_css3": "#cd853f"
-        },
-        {
-            "color": "#eee0c2",
-            "closest_css3": "#f5deb3"
+            "color": "#ca935d",
+            "closest_crayola": "#d68a59",
+            "closest_css3": "#cd853f",
+            "closest_css4": "#cd853f"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

@@ -3,6 +3,7 @@
     "tms:id": "200271",
     "accession_number": "1995-165-2-a,b",
     "title": "Ceiling Border, 1885",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18650673\/",
     "department_id": "35347503",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1885,
     "year_acquired": "1995",
     "decade": null,
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Block-printed and flocked on machine-made paper",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "Height 124 (48 13\/16 in.)\nWidth 51 cm (20 1\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "124.00",
+            "centimeters"
+        ],
+        "width": [
+            "51.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase from Smithsonian Institution Collections Acquisition Program and Sarah Cooper-Hewitt Funds",
     "description": "Wallpaper roll and separate piece. Ceiling border corner with landscape containing a mill, water wheel, cat tails in framework around scene. Printed on burgundy ground.",
     "justification": null,
-    "type": {
-        "id": "35295293",
-        "name": "Ceiling border"
-    },
+    "woe:country": "23424977",
+    "type": "Ceiling border",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/60210_417187450d249026_b.jpg",
                 "width": 1024,
                 "height": 703,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/60210_417187450d249026_n.jpg",
-                "width": 320,
-                "height": 220,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "60210"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/60210_417187450d249026_z.jpg",
                 "width": 640,
                 "height": 440,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "60210"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/60210_417187450d249026_n.jpg",
+                "width": 320,
+                "height": 220,
+                "is_primary": "1",
+                "image_id": "60210"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/60210_417187450d249026_d.gif",
+                "width": 320,
+                "height": 220,
+                "is_primary": "1",
+                "image_id": "60210"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/60210_417187450d249026_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "60210"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/33974_1333b6c5f0846f2e_b.jpg",
                 "width": 1024,
                 "height": 843,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/33974_1333b6c5f0846f2e_n.jpg",
-                "width": 320,
-                "height": 263,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "33974"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/33974_1333b6c5f0846f2e_z.jpg",
                 "width": 640,
                 "height": 527,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "33974"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/33974_1333b6c5f0846f2e_n.jpg",
+                "width": 320,
+                "height": 263,
+                "is_primary": "0",
+                "image_id": "33974"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/33974_1333b6c5f0846f2e_d.gif",
+                "width": 320,
+                "height": 263,
+                "is_primary": "0",
+                "image_id": "33974"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/33974_1333b6c5f0846f2e_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "33974"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18041251",
             "role_id": "51571159",
             "person_name": "Mr. Laurence McGilvery",
+            "person_date": "",
             "role_name": "Agent",
+            "role_display_name": "Agent:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041251\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/51571159\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18046415",
             "role_id": "35236657",
             "person_name": "M.H. Birge & Sons Co.",
+            "person_date": "1834",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18046415\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         }
@@ -92,24 +139,35 @@
     },
     "colors": [
         {
-            "color": "#c09b46",
-            "closest_css3": "#cd853f"
+            "color": "#753334",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#8b4513",
+            "closest_css4": "#8b4513"
         },
         {
-            "color": "#624b2a",
-            "closest_css3": "#556b2f"
+            "color": "#76562b",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#8b4513",
+            "closest_css4": "#8b4513"
         },
         {
-            "color": "#372d24",
-            "closest_css3": "#2f4f4f"
+            "color": "#c09b47",
+            "closest_crayola": "#d68a59",
+            "closest_css3": "#cd853f",
+            "closest_css4": "#cd853f"
         },
         {
-            "color": "#957c30",
-            "closest_css3": "#a0522d"
+            "color": "#967d30",
+            "closest_crayola": "#9c7c38",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         },
         {
-            "color": "#985d2d",
-            "closest_css3": "#a0522d"
+            "color": "#342d24",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

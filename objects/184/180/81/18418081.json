@@ -3,6 +3,7 @@
     "tms:id": "119271",
     "accession_number": "1957-191-3",
     "title": "Print, \"Morpeth, Northumberland, from the Liber Studiorum\", 1809",
+    "title_raw": "Morpeth, Northumberland, from the Liber Studiorum",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18418081\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1809,
     "year_acquired": "1957",
     "decade": null,
-    "woe:country": "23424975",
+    "woe:country_id": "23424975",
     "medium": "Mezzotint and etching on white paper",
     "markings": null,
     "signed": "Signed in plate, lower left: Drawn & Etched by J.M.W. Turner Esq.r R.A.P.P.; lower right: Engraved by Cha. Turner",
     "inscribed": "Inscribed in plate, lower center: MORPETH NORTH.D \/ London, Published March 29, 1809 by C. Turner. No. 50. Warren Street. Fitzroy Square.",
     "provenance": null,
     "dimensions": "Sheet: 30 x 43.9 cm (11 13\/16 x 17 5\/16 in.)\nPlatemark: 21 x 29 cm (8 1\/4 x 11 7\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "21.00",
+            "centimeters"
+        ],
+        "width": [
+            "29.00",
+            "centimeters"
+        ]
+    },
     "creditline": null,
     "description": "Morpeth North[umberland] depicts a town street crossing a stone bridge. In the distance is a ruined square tower on a hill. In the right foreground, workmen plaster the end wall of a house.",
     "justification": null,
-    "type": {
-        "id": "35236873",
-        "name": "Print"
-    },
+    "woe:country": "23424975",
+    "type": "Print",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/21847_3a210b7804a4bc36_b.jpg",
                 "width": 1024,
                 "height": 751,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/21847_3a210b7804a4bc36_n.jpg",
-                "width": 320,
-                "height": 235,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "21847"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/21847_3a210b7804a4bc36_z.jpg",
                 "width": 640,
                 "height": 469,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "21847"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/21847_3a210b7804a4bc36_n.jpg",
+                "width": 320,
+                "height": 235,
+                "is_primary": "1",
+                "image_id": "21847"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/21847_3a210b7804a4bc36_d.gif",
+                "width": 320,
+                "height": 235,
+                "is_primary": "1",
+                "image_id": "21847"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/21847_3a210b7804a4bc36_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "21847"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "51676457",
             "role_id": "35352245",
             "person_name": "Karin Zonis",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/51676457\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "35459851",
             "role_id": "35236661",
             "person_name": "Charles Turner",
+            "person_date": "British, 1773\u20131857",
             "role_name": "Publisher",
+            "role_display_name": "Published by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/35459851\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236661\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "35459851",
             "role_id": "35236743",
             "person_name": "Charles Turner",
+            "person_date": "British, 1773\u20131857",
             "role_name": "Engraver",
+            "role_display_name": "Engraved by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/35459851\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236743\/"
         },
@@ -78,7 +110,9 @@
             "person_id": "35459845",
             "role_id": "35236585",
             "person_name": "James Mallord William Turner",
+            "person_date": "British, 1775\u20131851",
             "role_name": "Etcher",
+            "role_display_name": "Etched by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/35459845\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236585\/"
         },
@@ -86,7 +120,9 @@
             "person_id": "35459845",
             "role_id": "35236565",
             "person_name": "James Mallord William Turner",
+            "person_date": "British, 1775\u20131851",
             "role_name": "Artist",
+            "role_display_name": "",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/35459845\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236565\/"
         }
@@ -96,24 +132,35 @@
     },
     "colors": [
         {
-            "color": "#3a2f2c",
-            "closest_css3": "#2f4f4f"
+            "color": "#45342d",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#7a5941",
-            "closest_css3": "#a0522d"
+            "color": "#79563f",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         },
         {
-            "color": "#d6c5ad",
-            "closest_css3": "#c0c0c0"
+            "color": "#ded6c9",
+            "closest_crayola": "#dbd7d2",
+            "closest_css3": "#d3d3d3",
+            "closest_css4": "#d3d3d3"
         },
         {
-            "color": "#b6997c",
-            "closest_css3": "#bc8f8f"
+            "color": "#bfa588",
+            "closest_crayola": "#cd9575",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         },
         {
-            "color": "#9a7759",
-            "closest_css3": "#808080"
+            "color": "#9c7c5f",
+            "closest_crayola": "#a57164",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         }
-    ]
+    ],
+    "woe:country_name": "United Kingdom"
 }

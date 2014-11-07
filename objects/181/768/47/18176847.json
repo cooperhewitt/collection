@@ -3,6 +3,7 @@
     "tms:id": "19307",
     "accession_number": "1912-18-18",
     "title": "Box, \"Biscuit Tin\", ca. 1820\u201330",
+    "title_raw": "Biscuit Tin",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18176847\/",
     "department_id": "35347497",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": null,
     "year_acquired": "1912",
     "decade": null,
-    "woe:country": "23424975",
+    "woe:country_id": "23424975",
     "medium": "Painted tole",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "Mr. and Mrs. Talbot Jones Taylor; 1912: acquired by Museum",
     "dimensions": "H x diam.: 8 x 13 cm (3 1\/8 x 5 1\/8 in.)",
+    "dimensions_raw": {
+        "diameter": [
+            "13.00",
+            "centimeters"
+        ],
+        "height": [
+            "8.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Mr. and Mrs. Talbot Jones Taylor",
     "description": "A tole biscuit tin with painted scenes of a village on the top and sides.",
     "justification": null,
-    "type": {
-        "id": "35236855",
-        "name": "Box"
-    },
+    "woe:country": "23424975",
+    "type": "Box",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/20847_d50929d575226f2d_b.jpg",
                 "width": 1024,
                 "height": 888,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/20847_d50929d575226f2d_n.jpg",
-                "width": 320,
-                "height": 277,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "20847"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/20847_d50929d575226f2d_z.jpg",
                 "width": 640,
                 "height": 555,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "20847"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/20847_d50929d575226f2d_n.jpg",
+                "width": 320,
+                "height": 277,
+                "is_primary": "1",
+                "image_id": "20847"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/20847_d50929d575226f2d_d.gif",
+                "width": 320,
+                "height": 277,
+                "is_primary": "1",
+                "image_id": "20847"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/20847_d50929d575226f2d_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "20847"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/20849_654ddb461bfe205e_b.jpg",
                 "width": 1024,
                 "height": 913,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/20849_654ddb461bfe205e_n.jpg",
-                "width": 320,
-                "height": 285,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "20849"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/20849_654ddb461bfe205e_z.jpg",
                 "width": 640,
                 "height": 570,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "20849"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/20849_654ddb461bfe205e_n.jpg",
+                "width": 320,
+                "height": 285,
+                "is_primary": "0",
+                "image_id": "20849"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/20849_654ddb461bfe205e_d.gif",
+                "width": 320,
+                "height": 285,
+                "is_primary": "0",
+                "image_id": "20849"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/20849_654ddb461bfe205e_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "20849"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18054051",
             "role_id": "35351535",
             "person_name": "Mrs. Talbot Jones Taylor",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18054051\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18051321",
             "role_id": "35351535",
             "person_name": "Talbot Jones Taylor",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18051321\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -93,15 +140,34 @@
     "colors": [
         {
             "color": "#464242",
-            "closest_css3": "#2f4f4f"
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#604b39",
-            "closest_css3": "#556b2f"
+            "color": "#5f4b39",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         },
         {
-            "color": "#86745f",
-            "closest_css3": "#696969"
+            "color": "#635f5e",
+            "closest_crayola": "#6e5160",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
+        },
+        {
+            "color": "#8f7047",
+            "closest_crayola": "#85754e",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
+        },
+        {
+            "color": "#978672",
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         }
-    ]
+    ],
+    "woe:country_name": "United Kingdom"
 }

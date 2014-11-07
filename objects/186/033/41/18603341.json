@@ -3,6 +3,7 @@
     "tms:id": "95106",
     "accession_number": "1946-20-2",
     "title": "Sidewall, \"Josephine\", 1940",
+    "title_raw": "Josephine",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18603341\/",
     "department_id": "35347503",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1940,
     "year_acquired": "1946",
     "decade": "1940",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Screen printed",
     "markings": null,
     "signed": null,
     "inscribed": "Printed in left selvedge: Nancy McClelland Inc; printed in right selvedge: \"Josephine.\"",
     "provenance": null,
     "dimensions": "53 x 56 cm (20 7\/8 x 22 1\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "53.00",
+            "centimeters"
+        ],
+        "width": [
+            "56.00",
+            "centimeters"
+        ]
+    },
     "creditline": null,
     "description": "Simulates festooned drapery in tiers with lace at bottom of each tier. Used in restoration of Mme. Jumel's bedroom in Jumel Mansion in New York City. Printed on margin: \"Nancy McClelland Inc. Josephine\"",
     "justification": null,
-    "type": {
-        "id": "35256475",
-        "name": "Sidewall"
-    },
+    "woe:country": "23424977",
+    "type": "Sidewall",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/20875_89c9f24eb5424e65_b.jpg",
                 "width": 1024,
                 "height": 994,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/20875_89c9f24eb5424e65_n.jpg",
-                "width": 320,
-                "height": 311,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "20875"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/20875_89c9f24eb5424e65_z.jpg",
                 "width": 640,
                 "height": 621,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "20875"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/20875_89c9f24eb5424e65_n.jpg",
+                "width": 320,
+                "height": 311,
+                "is_primary": "1",
+                "image_id": "20875"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/20875_89c9f24eb5424e65_d.gif",
+                "width": 320,
+                "height": 311,
+                "is_primary": "1",
+                "image_id": "20875"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/20875_89c9f24eb5424e65_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "20875"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18047817",
             "role_id": "35352245",
             "person_name": "John Kenneth Tilton",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047817\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18047239",
             "role_id": "35236655",
             "person_name": "Nancy McClelland",
+            "person_date": "American, b. 1877\u20131959",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047239\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
@@ -72,20 +102,23 @@
     },
     "colors": [
         {
-            "color": "#9b907b",
-            "closest_css3": "#808080"
-        },
-        {
-            "color": "#b7b295",
-            "closest_css3": "#a9a9a9"
+            "color": "#857965",
+            "closest_crayola": "#8a795d",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
             "color": "#675341",
-            "closest_css3": "#556b2f"
+            "closest_crayola": "#6e5160",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         },
         {
-            "color": "#866f5e",
-            "closest_css3": "#696969"
+            "color": "#cac8ae",
+            "closest_crayola": "#cdc5c2",
+            "closest_css3": "#c0c0c0",
+            "closest_css4": "#c0c0c0"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

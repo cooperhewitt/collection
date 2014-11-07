@@ -3,6 +3,7 @@
     "tms:id": "209058",
     "accession_number": "1998-29-68",
     "title": "Sidewall, \"Pomegranate and Pineapple\", 1954",
+    "title_raw": "Pomegranate and Pineapple",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18667341\/",
     "department_id": "35347503",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1954,
     "year_acquired": "1998",
     "decade": "1950",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Intaglio printed with photo-engraved roller",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "52 x 51 cm (20 1\/2 x 20 1\/16 in. )",
+    "dimensions_raw": {
+        "height": [
+            "52.00",
+            "centimeters"
+        ],
+        "width": [
+            "51.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Lanette Scheeline",
     "description": "Pineapple and pomegranate with other fruit. Printed in light gray on blue-gray background simulating Japanese paper.",
     "justification": null,
-    "type": {
-        "id": "35256475",
-        "name": "Sidewall"
-    },
+    "woe:country": "23424977",
+    "type": "Sidewall",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/13782_9936d8c899d1e60d_b.jpg",
                 "width": 1014,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/13782_9936d8c899d1e60d_n.jpg",
-                "width": 317,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "13782"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/13782_9936d8c899d1e60d_z.jpg",
                 "width": 634,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "13782"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/13782_9936d8c899d1e60d_n.jpg",
+                "width": 317,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "13782"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/13782_9936d8c899d1e60d_d.gif",
+                "width": 317,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "13782"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/13782_9936d8c899d1e60d_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "13782"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18045691",
             "role_id": "35351535",
             "person_name": "Lanette Scheeline",
+            "person_date": "American, 1910 - 2001",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18045691\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18046413",
             "role_id": "35236657",
             "person_name": "Katzenbach and Warren, Inc.",
+            "person_date": "",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18046413\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18045691",
             "role_id": "35236655",
             "person_name": "Lanette Scheeline",
+            "person_date": "American, 1910 - 2001",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18045691\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
@@ -80,12 +112,11 @@
     },
     "colors": [
         {
-            "color": "#bac5ce",
-            "closest_css3": "#c0c0c0"
-        },
-        {
-            "color": "#707679",
-            "closest_css3": "#808080"
+            "color": "#aeb8b6",
+            "closest_crayola": "#b0b7c6",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

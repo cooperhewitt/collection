@@ -3,6 +3,7 @@
     "tms:id": "136245",
     "accession_number": "1964-24-48",
     "title": "Hanging, \"Evening\", 1949",
+    "title_raw": "Evening",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18451449\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1949,
     "year_acquired": "1964",
     "decade": "1940",
-    "woe:country": "23424812",
-    "medium": "Medium: wool\nTechnique: plain weave with discontinuous weft (tapestry)",
+    "woe:country_id": "23424812",
+    "medium": "Medium: wool\nTechnique: plain weave with discontinuous weft (tapestry)\nLabel: wool tapestry",
     "markings": null,
     "signed": "EA",
     "inscribed": null,
     "provenance": "Elizabeth Gordon; 1964: acquired by Museum",
     "dimensions": "H x W: 52.7 x 77.2 cm (20 3\/4 x 30 3\/8 in.)",
+    "dimensions_raw": {
+        "height": [
+            "52.71",
+            "centimeters"
+        ],
+        "width": [
+            "77.15",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Elizabeth Gordon",
     "description": "Hanging depicting three women in front of a cluster of houses, in browns, grays, blues, orange, yellow and white on a natural ground.",
     "justification": null,
-    "type": {
-        "id": "35257233",
-        "name": "Hanging"
-    },
+    "woe:country": "23424812",
+    "type": "Hanging",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/46035_763f4e8694777a4a_b.jpg",
                 "width": 1024,
                 "height": 701,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/46035_763f4e8694777a4a_n.jpg",
-                "width": 320,
-                "height": 219,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "46035"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/46035_763f4e8694777a4a_z.jpg",
                 "width": 640,
                 "height": 438,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "46035"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/46035_763f4e8694777a4a_n.jpg",
+                "width": 320,
+                "height": 219,
+                "is_primary": "1",
+                "image_id": "46035"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/46035_763f4e8694777a4a_d.gif",
+                "width": 320,
+                "height": 219,
+                "is_primary": "1",
+                "image_id": "46035"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/46035_763f4e8694777a4a_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "46035"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/74698_b6348040802b4c72_b.jpg",
                 "width": 1024,
                 "height": 692,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/74698_b6348040802b4c72_n.jpg",
-                "width": 320,
-                "height": 216,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "74698"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/74698_b6348040802b4c72_z.jpg",
                 "width": 640,
                 "height": 432,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "74698"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/74698_b6348040802b4c72_n.jpg",
+                "width": 320,
+                "height": 216,
+                "is_primary": "0",
+                "image_id": "74698"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/74698_b6348040802b4c72_d.gif",
+                "width": 320,
+                "height": 216,
+                "is_primary": "0",
+                "image_id": "74698"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/74698_b6348040802b4c72_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "74698"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18063457",
             "role_id": "35236745",
             "person_name": "Eva Anttila",
+            "person_date": "Finnish, 1894\u20131993",
             "role_name": "Weaver",
+            "role_display_name": "Woven by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18063457\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236745\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18063457",
             "role_id": "35236655",
             "person_name": "Eva Anttila",
+            "person_date": "Finnish, 1894\u20131993",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18063457\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -90,34 +137,47 @@
             "person_id": "18539351",
             "role_id": "35351535",
             "person_name": "Miss Elizabeth Gordon",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18539351\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
     ],
     "tombstone": {
-        "epitaph": "Hanging, \"Evening\", 1949. Medium: wool\nTechnique: plain weave with discontinuous weft (tapestry). Gift of Elizabeth Gordon. 1964-24-48."
+        "epitaph": "Hanging, \"Evening\", 1949. Medium: wool\nTechnique: plain weave with discontinuous weft (tapestry)\nLabel: wool tapestry. Gift of Elizabeth Gordon. 1964-24-48."
     },
     "colors": [
         {
-            "color": "#ba926a",
-            "closest_css3": "#bdb76b"
+            "color": "#b48d68",
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         },
         {
-            "color": "#8f6946",
-            "closest_css3": "#a0522d"
+            "color": "#956f4b",
+            "closest_crayola": "#85754e",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         },
         {
-            "color": "#9b8f7f",
-            "closest_css3": "#808080"
+            "color": "#a59b84",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         },
         {
-            "color": "#4a181f",
-            "closest_css3": "#800000"
+            "color": "#3c1b21",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#c64f38",
-            "closest_css3": "#d2691e"
+            "color": "#b2533c",
+            "closest_crayola": "#bf4f51",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         }
-    ]
+    ],
+    "woe:country_name": "Finland"
 }

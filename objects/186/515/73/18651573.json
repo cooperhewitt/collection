@@ -3,6 +3,7 @@
     "tms:id": "200728",
     "accession_number": "1995-50-64",
     "title": "Textile, 1811",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18651573\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,68 @@
     "year_end": 1811,
     "year_acquired": "1995",
     "decade": null,
-    "woe:country": "23424819",
+    "woe:country_id": "23424819",
     "medium": "Technique: Printed by engraved plate on cotton plain weave foundation.",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "Warp: 145cm (57in.). Weft: 96.5cm (38in.) Both selvedges present.\nHeight of repeat: 52cm (20 1\/2in.).",
+    "dimensions_raw": {
+        "height": [
+            "52.00",
+            "centimeters"
+        ],
+        "warp": [
+            "145.00",
+            "centimeters"
+        ],
+        "weft": [
+            "96.50",
+            "centimeters"
+        ]
+    },
     "creditline": "Bequest of Elinor Merrell",
     "description": "Genre scenes of Roman peasants and circular medallions containing Roman landmarks on a background of semicircles and lines. In red on white.",
     "justification": null,
-    "type": {
-        "id": "35251739",
-        "name": "textile"
-    },
+    "woe:country": "23424819",
+    "type": "textile",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/38788_61fa92f23cefbf05_b.jpg",
                 "width": 683,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/38788_61fa92f23cefbf05_n.jpg",
-                "width": 213,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "38788"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/38788_61fa92f23cefbf05_z.jpg",
                 "width": 427,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "38788"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/38788_61fa92f23cefbf05_n.jpg",
+                "width": 213,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "38788"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/38788_61fa92f23cefbf05_d.gif",
+                "width": 213,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "38788"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/38788_61fa92f23cefbf05_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "38788"
             }
         },
         {
@@ -53,19 +83,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/79399_0c6f1094773c671d_b.jpg",
                 "width": 663,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/79399_0c6f1094773c671d_n.jpg",
-                "width": 207,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "79399"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/79399_0c6f1094773c671d_z.jpg",
                 "width": 414,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "79399"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/79399_0c6f1094773c671d_n.jpg",
+                "width": 207,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "79399"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/79399_0c6f1094773c671d_d.gif",
+                "width": 207,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "79399"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/79399_0c6f1094773c671d_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "79399"
             }
         }
     ],
@@ -74,7 +121,9 @@
             "person_id": "18049427",
             "role_id": "35351537",
             "person_name": "Elinor Merrell",
+            "person_date": "",
             "role_name": "Bequestor",
+            "role_display_name": "Bequest of",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049427\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351537\/"
         },
@@ -82,7 +131,9 @@
             "person_id": "18047459",
             "role_id": "35352245",
             "person_name": "Gillian Moss",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047459\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -90,7 +141,9 @@
             "person_id": "18045425",
             "role_id": "35236681",
             "person_name": "Oberkampf & Cie.",
+            "person_date": "Jouy-en-Josas, France, 1759 \u2013 1815",
             "role_name": "Company",
+            "role_display_name": "Company:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18045425\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236681\/"
         },
@@ -98,7 +151,9 @@
             "person_id": "18045567",
             "role_id": "35236655",
             "person_name": "Jean-Baptiste Hu\u00ebt",
+            "person_date": "1745 \u2013 1811",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18045567\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
@@ -108,24 +163,35 @@
     },
     "colors": [
         {
-            "color": "#592220",
-            "closest_css3": "#800000"
+            "color": "#b18a8a",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         },
         {
-            "color": "#342120",
-            "closest_css3": "#2f4f4f"
+            "color": "#632d2d",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#8b4513",
+            "closest_css4": "#8b4513"
         },
         {
-            "color": "#8f5e58",
-            "closest_css3": "#696969"
+            "color": "#503c3b",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#735e64",
-            "closest_css3": "#696969"
+            "color": "#906062",
+            "closest_crayola": "#8a795d",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#91777e",
-            "closest_css3": "#808080"
+            "color": "#241310",
+            "closest_crayola": "#000000",
+            "closest_css3": "#000000",
+            "closest_css4": "#000000"
         }
-    ]
+    ],
+    "woe:country_name": "France"
 }

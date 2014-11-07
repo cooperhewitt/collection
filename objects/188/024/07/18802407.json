@@ -3,6 +3,7 @@
     "tms:id": "181387",
     "accession_number": "1984-133-12",
     "title": "Dressing Tool, \"Dressing tools\", ca. 1875",
+    "title_raw": "Dressing tools",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18802407\/",
     "department_id": "35347497",
     "period_id": null,
@@ -13,39 +14,68 @@
     "year_end": 1885,
     "year_acquired": "1984",
     "decade": null,
-    "woe:country": "23424975",
+    "woe:country_id": "23424975",
     "medium": "Mother-of-pearl, steel(?), brass",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "Danny J. H. Kauffman; 1984: acquired by Museum",
     "dimensions": "L x W x D: 10.5 x 1.2 x 0.7 cm (4 1\/8 x 1\/2 x 1\/4 in.)",
+    "dimensions_raw": {
+        "depth": [
+            "0.70",
+            "centimeters"
+        ],
+        "length": [
+            "10.50",
+            "centimeters"
+        ],
+        "width": [
+            "1.20",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Danny J. H. Kauffman",
     "description": "Knife-hooked tool with mother-of-pearl handle.",
     "justification": null,
-    "type": {
-        "id": "35293631",
-        "name": "Dressing tool"
-    },
+    "woe:country": "23424975",
+    "type": "Dressing tool",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/9751_7b5faaf9f925f839_b.jpg",
                 "width": 1024,
                 "height": 864,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/9751_7b5faaf9f925f839_n.jpg",
-                "width": 320,
-                "height": 270,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "9751"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/9751_7b5faaf9f925f839_z.jpg",
                 "width": 640,
                 "height": 540,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "9751"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/9751_7b5faaf9f925f839_n.jpg",
+                "width": 320,
+                "height": 270,
+                "is_primary": "0",
+                "image_id": "9751"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/9751_7b5faaf9f925f839_d.gif",
+                "width": 320,
+                "height": 270,
+                "is_primary": "0",
+                "image_id": "9751"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/9751_7b5faaf9f925f839_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "9751"
             }
         },
         {
@@ -53,19 +83,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/9736_0b758bfa4ccaea92_b.jpg",
                 "width": 909,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/9736_0b758bfa4ccaea92_n.jpg",
-                "width": 284,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "9736"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/9736_0b758bfa4ccaea92_z.jpg",
                 "width": 568,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "9736"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/9736_0b758bfa4ccaea92_n.jpg",
+                "width": 284,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "9736"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/9736_0b758bfa4ccaea92_d.gif",
+                "width": 284,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "9736"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/9736_0b758bfa4ccaea92_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "9736"
             }
         }
     ],
@@ -74,7 +121,9 @@
             "person_id": "18057979",
             "role_id": "35236685",
             "person_name": "Asprey & Son Co.",
+            "person_date": "",
             "role_name": "Maker",
+            "role_display_name": "Made by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18057979\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236685\/"
         },
@@ -82,7 +131,9 @@
             "person_id": "18056383",
             "role_id": "35351535",
             "person_name": "Danny J. H. Kauffman",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18056383\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -92,12 +143,11 @@
     },
     "colors": [
         {
-            "color": "#837b79",
-            "closest_css3": "#808080"
-        },
-        {
-            "color": "#57544d",
-            "closest_css3": "#556b2f"
+            "color": "#746f69",
+            "closest_crayola": "#757575",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         }
-    ]
+    ],
+    "woe:country_name": "United Kingdom"
 }

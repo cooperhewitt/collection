@@ -3,6 +3,7 @@
     "tms:id": "146106",
     "accession_number": "1969-45-1-1\/34",
     "title": "Sample Book, \"The Black and White Book\", 1965",
+    "title_raw": "The Black and White Book",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18470933\/",
     "department_id": "35347503",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1965,
     "year_acquired": "1969",
     "decade": "1960",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Screen-printed on vinyl",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "51 x 33 cm (20 1\/16 x 13 in.)",
+    "dimensions_raw": {
+        "height": [
+            "51.00",
+            "centimeters"
+        ],
+        "width": [
+            "33.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Jack Denst",
     "description": "A collection of designs all printed in values of black and white. Designs include: Roman Stripe, WInter, Atlantis, Persian Tree, Damask, Sunday Afternoon, Periwinkle I, Paisley, Primitive, Exotica and Alpha I. Other designs are also included.",
     "justification": null,
-    "type": {
-        "id": "35247403",
-        "name": "sample book"
-    },
+    "woe:country": "23424977",
+    "type": "sample book",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/7042_3f20b7a834eb9fea_b.jpg",
                 "width": 1024,
                 "height": 565,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/7042_3f20b7a834eb9fea_n.jpg",
-                "width": 320,
-                "height": 177,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "7042"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/7042_3f20b7a834eb9fea_z.jpg",
                 "width": 640,
                 "height": 353,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "7042"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/7042_3f20b7a834eb9fea_n.jpg",
+                "width": 320,
+                "height": 177,
+                "is_primary": "1",
+                "image_id": "7042"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/7042_3f20b7a834eb9fea_d.gif",
+                "width": 320,
+                "height": 177,
+                "is_primary": "1",
+                "image_id": "7042"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/7042_3f20b7a834eb9fea_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "7042"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/7044_690f7e0bf63289ee_b.jpg",
                 "width": 550,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/7044_690f7e0bf63289ee_n.jpg",
-                "width": 172,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "7044"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/7044_690f7e0bf63289ee_z.jpg",
                 "width": 344,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "7044"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/7044_690f7e0bf63289ee_n.jpg",
+                "width": 172,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "7044"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/7044_690f7e0bf63289ee_d.gif",
+                "width": 172,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "7044"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/7044_690f7e0bf63289ee_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "7044"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18048007",
             "role_id": "35352245",
             "person_name": "Catherine Lynn Frangiamore",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18048007\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18046917",
             "role_id": "35236657",
             "person_name": "The Jack Denst Designs, Inc.",
+            "person_date": "",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18046917\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         }
@@ -92,24 +139,29 @@
     },
     "colors": [
         {
-            "color": "#908676",
-            "closest_css3": "#808080"
+            "color": "#3b2d20",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#342518",
-            "closest_css3": "#000000"
+            "color": "#645b4d",
+            "closest_crayola": "#6e5160",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#e0d9c9",
-            "closest_css3": "#d3d3d3"
+            "color": "#837b6c",
+            "closest_crayola": "#8a795d",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#534436",
-            "closest_css3": "#556b2f"
-        },
-        {
-            "color": "#686051",
-            "closest_css3": "#696969"
+            "color": "#d7cfbe",
+            "closest_crayola": "#cdc5c2",
+            "closest_css3": "#d3d3d3",
+            "closest_css4": "#d3d3d3"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

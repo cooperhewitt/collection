@@ -3,6 +3,7 @@
     "tms:id": "189099",
     "accession_number": "1988-4-16",
     "title": "Print, \"Design for a Garden Parterre of Cut Grass and Colored Gravel, from \"Nouveaux Livre de Parterres,\" in Oeuvres Du Sr. D. Marot..., The Hague:  Chez Pierre Husson, c.1702\", ca. 1702",
+    "title_raw": "Design for a Garden Parterre of Cut Grass and Colored Gravel, from \"Nouveaux Livre de Parterres,\" in Oeuvres Du Sr. D. Marot..., The Hague:  Chez Pierre Husson, c.1702",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18628519\/",
     "department_id": "35347493",
     "period_id": "35417211",
@@ -13,39 +14,64 @@
     "year_end": 1712,
     "year_acquired": "1988",
     "decade": null,
-    "woe:country": "23424819",
+    "woe:country_id": "23424819",
     "medium": "Etching on cream laid paper",
     "markings": null,
     "signed": null,
     "inscribed": "Imprinted lower center:  Pieces d'Ecoup en gazon [Parterres of Cut turf and colored gravel]; lower left:  D. Marot fec:; lower right:  avec Privilegie 10",
     "provenance": null,
     "dimensions": "27.5 x 18.5 cm (10 13\/16 x 7 5\/16 in.), plate\n33.8 x 22.5 cm (13 5\/16 x 8 7\/8 in), sheet",
+    "dimensions_raw": {
+        "height": [
+            "27.50",
+            "centimeters"
+        ],
+        "width": [
+            "18.50",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase from General Acquisitions Endowment Fund",
     "description": "Symmetrical arrangement of parterres de broderie in desgin of fleur-de-lis and cartouches.  The spaces between filled witih colored sand or gravel.  At upper center, a reflective pool with fountain flanked by putti spewing water.  Borders of vertical grass strips flanked by potted evergreens and bands of flowers.",
     "justification": null,
-    "type": {
-        "id": "35236873",
-        "name": "Print"
-    },
+    "woe:country": "23424819",
+    "type": "Print",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/45760_1d480d189e293691_b.jpg",
                 "width": 691,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/45760_1d480d189e293691_n.jpg",
-                "width": 216,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "45760"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/45760_1d480d189e293691_z.jpg",
                 "width": 432,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "45760"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/45760_1d480d189e293691_n.jpg",
+                "width": 216,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "45760"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/45760_1d480d189e293691_d.gif",
+                "width": 216,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "45760"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/45760_1d480d189e293691_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "45760"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18041265",
             "role_id": "35352249",
             "person_name": "Ms. Priscilla Juvelis",
+            "person_date": "",
             "role_name": "Vendor",
+            "role_display_name": "Purchased from",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041265\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352249\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18048535",
             "role_id": "35352247",
             "person_name": "General Acquisitions Endowment",
+            "person_date": "",
             "role_name": "Fund",
+            "role_display_name": "Fund:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18048535\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352247\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18042233",
             "role_id": "35236585",
             "person_name": "Daniel Marot",
+            "person_date": "French, 1661\u20131752; active in Netherlands and England",
             "role_name": "Etcher",
+            "role_display_name": "Etched by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18042233\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236585\/"
         },
@@ -78,7 +110,9 @@
             "person_id": "18042233",
             "role_id": "35236655",
             "person_name": "Daniel Marot",
+            "person_date": "French, 1661\u20131752; active in Netherlands and England",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18042233\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
@@ -88,20 +122,29 @@
     },
     "colors": [
         {
-            "color": "#5e5749",
-            "closest_css3": "#556b2f"
+            "color": "#6b6252",
+            "closest_crayola": "#6e5160",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#3d372e",
-            "closest_css3": "#2f4f4f"
+            "color": "#423c32",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#9d917d",
-            "closest_css3": "#808080"
+            "color": "#b2a794",
+            "closest_crayola": "#979aaa",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
         },
         {
-            "color": "#bfb5a0",
-            "closest_css3": "#a9a9a9"
+            "color": "#8d826f",
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         }
-    ]
+    ],
+    "woe:country_name": "France"
 }

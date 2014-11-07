@@ -3,6 +3,7 @@
     "tms:id": "114691",
     "accession_number": "1956-203-4",
     "title": "Textile, \"Roses\", 1956",
+    "title_raw": "Roses",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18408995\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1956,
     "year_acquired": "1956",
     "decade": "1950",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Medium: cotton\nTechnique: Dynascope printed on weft twill",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "H x W: 288 x 91 cm (9 ft. 5 3\/8 in. x 35 13\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "288.00",
+            "centimeters"
+        ],
+        "width": [
+            "91.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Apponaug Company",
     "description": "Photographic rendering of roses on densely brushed ground in manner of oil painting.  Strong pinks, blues, greens.",
     "justification": null,
-    "type": {
-        "id": "35251739",
-        "name": "textile"
-    },
+    "woe:country": "23424977",
+    "type": "textile",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/73386_32dbbf762101c846_b.jpg",
                 "width": 492,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/73386_32dbbf762101c846_n.jpg",
-                "width": 154,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "73386"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/73386_32dbbf762101c846_z.jpg",
                 "width": 308,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "73386"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/73386_32dbbf762101c846_n.jpg",
+                "width": 154,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "73386"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/73386_32dbbf762101c846_d.gif",
+                "width": 154,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "73386"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/73386_32dbbf762101c846_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "73386"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/73387_339c05d630bc937a_b.jpg",
                 "width": 670,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/73387_339c05d630bc937a_n.jpg",
-                "width": 209,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "73387"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/73387_339c05d630bc937a_z.jpg",
                 "width": 418,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "73387"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/73387_339c05d630bc937a_n.jpg",
+                "width": 209,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "73387"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/73387_339c05d630bc937a_d.gif",
+                "width": 209,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "73387"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/73387_339c05d630bc937a_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "73387"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18056075",
             "role_id": "35351535",
             "person_name": "Apponaug Company",
+            "person_date": "American",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18056075\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18056075",
             "role_id": "35236657",
             "person_name": "Apponaug Company",
+            "person_date": "American",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18056075\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         }
@@ -92,24 +139,35 @@
     },
     "colors": [
         {
-            "color": "#c596a6",
-            "closest_css3": "#bc8f8f"
+            "color": "#c797a7",
+            "closest_crayola": "#d98695",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         },
         {
-            "color": "#9b797c",
-            "closest_css3": "#808080"
+            "color": "#98899c",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#778899",
+            "closest_css4": "#778899"
         },
         {
-            "color": "#293445",
-            "closest_css3": "#2f4f4f"
+            "color": "#2f3a4a",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#85887b",
-            "closest_css3": "#808080"
+            "color": "#d4bac9",
+            "closest_crayola": "#cdc5c2",
+            "closest_css3": "#d8bfd8",
+            "closest_css4": "#d8bfd8"
         },
         {
-            "color": "#555b6c",
-            "closest_css3": "#696969"
+            "color": "#6a5a64",
+            "closest_crayola": "#6e5160",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

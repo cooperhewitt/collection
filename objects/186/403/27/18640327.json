@@ -3,6 +3,7 @@
     "tms:id": "195028",
     "accession_number": "1992-51-31",
     "title": "Drawing, \"Chain Pattern, Textile Design.\", 1950\u201370",
+    "title_raw": "Chain Pattern, Textile Design.",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18640327\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1970,
     "year_acquired": "1992",
     "decade": "1950",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Brush and gouache, graphite on paper, lined",
     "markings": null,
     "signed": "Signed in graphite, lower right of mat: Parzinger",
     "inscribed": null,
     "provenance": "Donald Cameron; 1992: acquired by Museum",
     "dimensions": "10.5 x 9.5 cm (4 1\/8 x 3 3\/4 in.)",
-    "creditline": "Gift of Mr. Donald Cameron",
+    "dimensions_raw": {
+        "height": [
+            "10.50",
+            "centimeters"
+        ],
+        "width": [
+            "9.50",
+            "centimeters"
+        ]
+    },
+    "creditline": "Gift of Donald Cameron",
     "description": "Red and white chain pattern against a black background.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424977",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/41280_545cc81604d90923_b.jpg",
                 "width": 809,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/41280_545cc81604d90923_n.jpg",
-                "width": 253,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "41280"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/41280_545cc81604d90923_z.jpg",
                 "width": 506,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "41280"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/41280_545cc81604d90923_n.jpg",
+                "width": 253,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "41280"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/41280_545cc81604d90923_d.gif",
+                "width": 253,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "41280"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/41280_545cc81604d90923_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "41280"
             }
         }
     ],
@@ -54,22 +80,39 @@
             "person_id": "18049811",
             "role_id": "35236655",
             "person_name": "Tommi Parzinger",
+            "person_date": "American, born Germany, 1903 - 1981",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049811\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
+        },
+        {
+            "person_id": "18041077",
+            "role_id": "35351535",
+            "person_name": "Donald Cameron",
+            "person_date": "",
+            "role_name": "Donor",
+            "role_display_name": "Donated by",
+            "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041077\/",
+            "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
     ],
     "tombstone": {
-        "epitaph": "Drawing, \"Chain Pattern, Textile Design.\", 1950\u201370. Brush and gouache, graphite on paper, lined. Gift of Mr. Donald Cameron. 1992-51-31."
+        "epitaph": "Drawing, \"Chain Pattern, Textile Design.\", 1950\u201370. Brush and gouache, graphite on paper, lined. Gift of Donald Cameron. 1992-51-31."
     },
     "colors": [
         {
-            "color": "#97604f",
-            "closest_css3": "#a0522d"
+            "color": "#76483a",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#8b4513",
+            "closest_css4": "#8b4513"
         },
         {
-            "color": "#6d473c",
-            "closest_css3": "#556b2f"
+            "color": "#956d60",
+            "closest_crayola": "#8a795d",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

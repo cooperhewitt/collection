@@ -3,6 +3,7 @@
     "tms:id": "23605",
     "accession_number": "1917-4-774-a",
     "title": "Drawing, \"Purese Volcano seen from Popayan, Colombia\", August 9, 1853",
+    "title_raw": "Purese Volcano seen from Popayan, Colombia",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18201639\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": null,
     "year_acquired": "1917",
     "decade": null,
-    "woe:country": "23424787",
+    "woe:country_id": "23424787",
     "medium": "Graphite on paper",
     "markings": null,
     "signed": null,
     "inscribed": "Top:  \"Purese Volcano\"; \"Smoke\"\nBottom right:  \"Aug 9th \/ 53\/ Popyan\".",
     "provenance": "Gift of Louis P. Church",
     "dimensions": "12.4 x 19.7 cm (4 7\/8 x 7 3\/4 in.)",
+    "dimensions_raw": {
+        "height": [
+            "12.40",
+            "centimeters"
+        ],
+        "width": [
+            "19.70",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Louis P. Church",
     "description": "Smoke emerges from the peak and from a lower crater which is shown in the foreground.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424787",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/20329_ea755567340a6680_b.jpg",
                 "width": 1024,
                 "height": 666,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/20329_ea755567340a6680_n.jpg",
-                "width": 320,
-                "height": 208,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "20329"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/20329_ea755567340a6680_z.jpg",
                 "width": 640,
                 "height": 416,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "20329"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/20329_ea755567340a6680_n.jpg",
+                "width": 320,
+                "height": 208,
+                "is_primary": "1",
+                "image_id": "20329"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/20329_ea755567340a6680_d.gif",
+                "width": 320,
+                "height": 208,
+                "is_primary": "1",
+                "image_id": "20329"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/20329_ea755567340a6680_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "20329"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18047439",
             "role_id": "35352245",
             "person_name": "Rudolph Berliner",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047439\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18041941",
             "role_id": "35236565",
             "person_name": "Frederic Edwin Church",
+            "person_date": "American, 1826\u20131900",
             "role_name": "Artist",
+            "role_display_name": "",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041941\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236565\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18051625",
             "role_id": "35351535",
             "person_name": "Louis P. Church",
+            "person_date": "American, 1870\u20131943",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18051625\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -80,8 +112,11 @@
     },
     "colors": [
         {
-            "color": "#d0cdc0",
-            "closest_css3": "#d3d3d3"
+            "color": "#ffffff",
+            "closest_crayola": "#ffffff",
+            "closest_css3": "#ffffff",
+            "closest_css4": "#ffffff"
         }
-    ]
+    ],
+    "woe:country_name": "Colombia"
 }

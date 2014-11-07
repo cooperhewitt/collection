@@ -3,6 +3,7 @@
     "tms:id": "242188",
     "accession_number": "2009-18-153",
     "title": "Wine Tumbler, \"Wiener Achtel\", 2006",
+    "title_raw": "Wiener Achtel",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18732149\/",
     "department_id": "35347497",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 2006,
     "year_acquired": "2009",
     "decade": "2000",
-    "woe:country": "23424750",
+    "woe:country_id": "23424750",
     "medium": "Mouth-blown crystal, copper engraved mark",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "2009: acquired by Museum",
     "dimensions": "H x diam.: 8.9 x 6.3 cm (3 1\/2 x 2 1\/2 in.)",
+    "dimensions_raw": {
+        "diameter": [
+            "6.30",
+            "centimeters"
+        ],
+        "height": [
+            "8.90",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase through gift of Dale and Doug Anderson, Anonymous Donor, Arthur Liu, and Prairie Pictures, Inc. and from General Acquisitions Endowment Fund",
     "description": "Mouth-blown, copper wheel-engraved measure mark on side of the slightly convex side, wine tumbler.",
     "justification": null,
-    "type": {
-        "id": "35306045",
-        "name": "Wine tumbler"
-    },
+    "woe:country": "23424750",
+    "type": "Wine tumbler",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/33266_a47680a582c285bb_b.jpg",
                 "width": 851,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/33266_a47680a582c285bb_n.jpg",
-                "width": 266,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "33266"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/33266_a47680a582c285bb_z.jpg",
                 "width": 532,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "33266"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/33266_a47680a582c285bb_n.jpg",
+                "width": 266,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "33266"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/33266_a47680a582c285bb_d.gif",
+                "width": 266,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "33266"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/33266_a47680a582c285bb_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "33266"
             }
         }
     ],
@@ -53,8 +79,10 @@
         {
             "person_id": "18061841",
             "role_id": "35236657",
-            "person_name": "J. & L. Lobmeyr GmbH, Vienna, Austria",
+            "person_name": "J. & L. Lobmeyr GmbH",
+            "person_date": "Vienna, Austria, founded ca. 1935",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18061841\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         },
@@ -62,17 +90,31 @@
             "person_id": "18062647",
             "role_id": "35236655",
             "person_name": "Miki Martinek",
+            "person_date": "",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18062647\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
         {
             "person_id": "18061841",
             "role_id": "51571131",
-            "person_name": "J. & L. Lobmeyr GmbH, Vienna, Austria",
+            "person_name": "J. & L. Lobmeyr GmbH",
+            "person_date": "Vienna, Austria, founded ca. 1935",
             "role_name": "Lender",
+            "role_display_name": "Lent by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18061841\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/51571131\/"
+        },
+        {
+            "person_id": "68738579",
+            "role_id": "35236657",
+            "person_name": "Boehmische Manufaktur, Lobmeyr Werkstaetten",
+            "person_date": "",
+            "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
+            "person_url": "http:\/\/collection.cooperhewitt.org\/people\/68738579\/",
+            "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         }
     ],
     "tombstone": {
@@ -81,7 +123,10 @@
     "colors": [
         {
             "color": "#ffffff",
-            "closest_css3": "#ffffff"
+            "closest_crayola": "#ffffff",
+            "closest_css3": "#ffffff",
+            "closest_css4": "#ffffff"
         }
-    ]
+    ],
+    "woe:country_name": "Austria"
 }

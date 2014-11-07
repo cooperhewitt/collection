@@ -3,6 +3,7 @@
     "tms:id": "102668",
     "accession_number": "1950-66-91",
     "title": "Photostat, \"Design and floor plan for Le Cottage Populaire\", ca. 1907",
+    "title_raw": "Design and floor plan for Le Cottage Populaire",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18385069\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1929,
     "year_acquired": "1950",
     "decade": null,
-    "woe:country": null,
+    "woe:country_id": null,
     "medium": "Photostat, pen and brown ink on paper",
     "markings": null,
     "signed": "Signed lower right in brown ink: Paris le\/ L'architecte\/ Hector Guimard",
     "inscribed": "Top in brown ink: LE COTTAGE POPULAIRE\/ TYPE NO.  PAVILLON ISOLE\nBelow, above floor plan on far left in brown ink: FONDATIONS\nBelow, above center floor plan in brown ink: REZ DE CHAUSSEE\nBelow, above floor plan on far right in brown ink: PREMIER ETAGE",
     "provenance": "Gift of Madame Hector Guimard",
     "dimensions": "39.6 x 38.7 cm (15 9\/16 x 15 1\/4 in.), irregular",
+    "dimensions_raw": {
+        "height": [
+            "39.60",
+            "centimeters"
+        ],
+        "width": [
+            "38.70",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Mme. Hector Guimard",
     "description": "Design and floor plan for the Cottage Populaire. On top, a sketch of the elevation of the building, surrounded by vegetation. Below, floor plans depicting the interior of the cottage.",
     "justification": null,
-    "type": {
-        "id": "35252131",
-        "name": "photostat"
-    },
+    "woe:country": null,
+    "type": "photostat",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/41332_e2153595d01b744e_b.jpg",
                 "width": 982,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/41332_e2153595d01b744e_n.jpg",
-                "width": 307,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "41332"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/41332_e2153595d01b744e_z.jpg",
                 "width": 614,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "41332"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/41332_e2153595d01b744e_n.jpg",
+                "width": 307,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "41332"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/41332_e2153595d01b744e_d.gif",
+                "width": 307,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "41332"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/41332_e2153595d01b744e_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "41332"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18042569",
             "role_id": "35236663",
             "person_name": "Hector Guimard",
+            "person_date": "French, 1867\u20131942, active Paris, France, 1885\u20131929",
             "role_name": "Architect",
+            "role_display_name": "Architect:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18042569\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236663\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18538779",
             "role_id": "35351535",
             "person_name": "Mme. Hector Guimard",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18538779\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -72,8 +102,10 @@
     },
     "colors": [
         {
-            "color": "#c5a785",
-            "closest_css3": "#d2b48c"
+            "color": "#cbb393",
+            "closest_crayola": "#deaa88",
+            "closest_css3": "#d2b48c",
+            "closest_css4": "#d2b48c"
         }
     ]
 }

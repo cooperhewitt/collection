@@ -3,6 +3,7 @@
     "tms:id": "208629",
     "accession_number": "1995-50-103",
     "title": "Textile, \"Le tempe de l'amour\", ca. 1785",
+    "title_raw": "Le tempe de l'amour",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18666499\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1795,
     "year_acquired": "1995",
     "decade": null,
-    "woe:country": null,
+    "woe:country_id": null,
     "medium": "Medium: cotton\nTechnique: printed by engraved copper plate on plain weave",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "Warp x Weft (both seledge present): 89 x 94 cm (35 1\/16 in. x 37 in.)",
+    "dimensions_raw": {
+        "warp": [
+            "89.00",
+            "centimeters"
+        ],
+        "weft": [
+            "94.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Bequest of Elinor Merrell",
     "description": "Assortment of scenes of goddesses and humans. In red on white.",
     "justification": null,
-    "type": {
-        "id": "35251739",
-        "name": "textile"
-    },
+    "woe:country": null,
+    "type": "textile",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/12253_13358bf102a8d6ca_b.jpg",
                 "width": 1024,
                 "height": 969,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/12253_13358bf102a8d6ca_n.jpg",
-                "width": 320,
-                "height": 303,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "12253"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/12253_13358bf102a8d6ca_z.jpg",
                 "width": 640,
                 "height": 606,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "12253"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/12253_13358bf102a8d6ca_n.jpg",
+                "width": 320,
+                "height": 303,
+                "is_primary": "1",
+                "image_id": "12253"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/12253_13358bf102a8d6ca_d.gif",
+                "width": 320,
+                "height": 303,
+                "is_primary": "1",
+                "image_id": "12253"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/12253_13358bf102a8d6ca_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "12253"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/79149_27fa1677e36e2ae3_b.jpg",
                 "width": 1024,
                 "height": 740,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/79149_27fa1677e36e2ae3_n.jpg",
-                "width": 320,
-                "height": 231,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "79149"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/79149_27fa1677e36e2ae3_z.jpg",
                 "width": 640,
                 "height": 463,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "79149"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/79149_27fa1677e36e2ae3_n.jpg",
+                "width": 320,
+                "height": 231,
+                "is_primary": "0",
+                "image_id": "79149"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/79149_27fa1677e36e2ae3_d.gif",
+                "width": 320,
+                "height": 231,
+                "is_primary": "0",
+                "image_id": "79149"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/79149_27fa1677e36e2ae3_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "79149"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18049427",
             "role_id": "35351537",
             "person_name": "Elinor Merrell",
+            "person_date": "",
             "role_name": "Bequestor",
+            "role_display_name": "Bequest of",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049427\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351537\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18046281",
             "role_id": "35236657",
             "person_name": "Gorgerat Fr\u00e8res et Cie.",
+            "person_date": "1783 - 1815",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18046281\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         }
@@ -92,24 +139,34 @@
     },
     "colors": [
         {
-            "color": "#feebcc",
-            "closest_css3": "#ffebcd"
+            "color": "#fa9374",
+            "closest_crayola": "#ffa474",
+            "closest_css3": "#ffa07a",
+            "closest_css4": "#ffa07a"
         },
         {
-            "color": "#fba485",
-            "closest_css3": "#ffa07a"
+            "color": "#fee3cb",
+            "closest_crayola": "#efdecd",
+            "closest_css3": "#ffe4c4",
+            "closest_css4": "#ffe4c4"
         },
         {
-            "color": "#da715a",
-            "closest_css3": "#cd5c5c"
+            "color": "#fefedd",
+            "closest_crayola": "#ffffff",
+            "closest_css3": "#ffffe0",
+            "closest_css4": "#ffffe0"
         },
         {
-            "color": "#fedacb",
-            "closest_css3": "#ffe4c4"
+            "color": "#de6852",
+            "closest_crayola": "#cc6666",
+            "closest_css3": "#cd5c5c",
+            "closest_css4": "#cd5c5c"
         },
         {
-            "color": "#bf9280",
-            "closest_css3": "#bc8f8f"
+            "color": "#fbc3a1",
+            "closest_crayola": "#ffcfab",
+            "closest_css3": "#ffdead",
+            "closest_css4": "#ffdead"
         }
     ]
 }

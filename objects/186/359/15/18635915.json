@@ -3,6 +3,7 @@
     "tms:id": "192805",
     "accession_number": "1991-157-7",
     "title": "Textile, late 1940s",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18635915\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1949,
     "year_acquired": "1991",
     "decade": "1940",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Medium: cotton\nTechnique: printed by engraved roller on plain weave",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "Warp x Weft: 291.7 x 114 cm (9 ft. 6 13\/16 in. x 44 7\/8 in.)",
+    "dimensions_raw": {
+        "warp": [
+            "291.70",
+            "centimeters"
+        ],
+        "weft": [
+            "114.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Mae Lamar Festa",
     "description": "Length of printed cotton with a fine, linear, geometric design, reminiscent of Paul Klee's,  in light blue on white ground.",
     "justification": null,
-    "type": {
-        "id": "35251739",
-        "name": "textile"
-    },
+    "woe:country": "23424977",
+    "type": "textile",
     "images": [
         {
             "b": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/45307_611fc8473de399f4_b.jpg",
-                "width": 579,
+                "url": "http:\/\/images.collection.cooperhewitt.org\/45307_7673aa5868abb674_b.jpg",
+                "width": 560,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/45307_611fc8473de399f4_n.jpg",
-                "width": 181,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "45307"
             },
             "z": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/45307_611fc8473de399f4_z.jpg",
-                "width": 362,
+                "url": "http:\/\/images.collection.cooperhewitt.org\/45307_7673aa5868abb674_z.jpg",
+                "width": 350,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "45307"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/45307_7673aa5868abb674_n.jpg",
+                "width": 175,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "45307"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/45307_7673aa5868abb674_d.gif",
+                "width": 175,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "45307"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/45307_7673aa5868abb674_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "45307"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/34015_cdf42ed598ea5b90_b.jpg",
                 "width": 679,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/34015_cdf42ed598ea5b90_n.jpg",
-                "width": 212,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "34015"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/34015_cdf42ed598ea5b90_z.jpg",
                 "width": 424,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "34015"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/34015_cdf42ed598ea5b90_n.jpg",
+                "width": 212,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "34015"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/34015_cdf42ed598ea5b90_d.gif",
+                "width": 212,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "34015"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/34015_cdf42ed598ea5b90_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "34015"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18041409",
             "role_id": "35236657",
             "person_name": "Knoll Textiles",
+            "person_date": "East Greenville, Pennsylvania, USA, founded 1947",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041409\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18041181",
             "role_id": "35351535",
             "person_name": "Mae Lamar Festa",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041181\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -92,12 +139,17 @@
     },
     "colors": [
         {
-            "color": "#9a9aac",
-            "closest_css3": "#a9a9a9"
+            "color": "#d5cec3",
+            "closest_crayola": "#cdc5c2",
+            "closest_css3": "#d3d3d3",
+            "closest_css4": "#d3d3d3"
         },
         {
-            "color": "#e6decd",
-            "closest_css3": "#dcdcdc"
+            "color": "#878ead",
+            "closest_crayola": "#979aaa",
+            "closest_css3": "#778899",
+            "closest_css4": "#778899"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

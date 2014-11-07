@@ -3,6 +3,7 @@
     "tms:id": "60690",
     "accession_number": "1938-82-197",
     "title": "Textile, 1919",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18354571\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1919,
     "year_acquired": "1938",
     "decade": "1910",
-    "woe:country": "23424819",
+    "woe:country_id": "23424819",
     "medium": "Medium: silk and metallic threads\nTechnique: cut and voided supplementary warp pile in a plain compound foundation (velvet)",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "Warp x Weft: 57 x 76 cm (22 7\/16 x 29 15\/16 in.)",
+    "dimensions_raw": {
+        "warp": [
+            "57.00",
+            "centimeters"
+        ],
+        "weft": [
+            "76.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Anonymous bequest in memory of Albert and Rebecca Elsberg",
     "description": "Black velvet ground with an allover design of deeply looping lines in metallic gold. Four different colors of metallics \u2013 blue, orange, violet and green \u2013 in the ground.",
     "justification": null,
-    "type": {
-        "id": "35251739",
-        "name": "textile"
-    },
+    "woe:country": "23424819",
+    "type": "textile",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/43200_84b6c765c74df380_b.jpg",
                 "width": 1024,
                 "height": 743,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/43200_84b6c765c74df380_n.jpg",
-                "width": 320,
-                "height": 232,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "43200"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/43200_84b6c765c74df380_z.jpg",
                 "width": 640,
                 "height": 464,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "43200"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/43200_84b6c765c74df380_n.jpg",
+                "width": 320,
+                "height": 232,
+                "is_primary": "1",
+                "image_id": "43200"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/43200_84b6c765c74df380_d.gif",
+                "width": 320,
+                "height": 232,
+                "is_primary": "1",
+                "image_id": "43200"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/43200_84b6c765c74df380_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "43200"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/27728_f7c558f9c743b29c_b.jpg",
                 "width": 1024,
                 "height": 688,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/27728_f7c558f9c743b29c_n.jpg",
-                "width": 320,
-                "height": 215,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "27728"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/27728_f7c558f9c743b29c_z.jpg",
                 "width": 640,
                 "height": 430,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "27728"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/27728_f7c558f9c743b29c_n.jpg",
+                "width": 320,
+                "height": 215,
+                "is_primary": "0",
+                "image_id": "27728"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/27728_f7c558f9c743b29c_d.gif",
+                "width": 320,
+                "height": 215,
+                "is_primary": "0",
+                "image_id": "27728"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/27728_f7c558f9c743b29c_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "27728"
             }
         }
     ],
@@ -74,15 +117,19 @@
             "person_id": "18042417",
             "role_id": "35236655",
             "person_name": "Herman A. Elsberg",
+            "person_date": "American, 1869\u20131938",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18042417\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
         {
             "person_id": "18049335",
             "role_id": "35351537",
-            "person_name": "Anonymous",
+            "person_name": "Unknown",
+            "person_date": "",
             "role_name": "Bequestor",
+            "role_display_name": "Bequest of",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049335\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351537\/"
         }
@@ -92,24 +139,35 @@
     },
     "colors": [
         {
-            "color": "#352e2b",
-            "closest_css3": "#2f4f4f"
+            "color": "#47423c",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#5b6052",
-            "closest_css3": "#696969"
+            "color": "#684c3c",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         },
         {
-            "color": "#726254",
-            "closest_css3": "#696969"
+            "color": "#585d50",
+            "closest_crayola": "#6e5160",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#5e4a4e",
-            "closest_css3": "#696969"
+            "color": "#5f4c56",
+            "closest_crayola": "#6e5160",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#36484a",
-            "closest_css3": "#2f4f4f"
+            "color": "#2c221f",
+            "closest_crayola": "#000000",
+            "closest_css3": "#000000",
+            "closest_css4": "#000000"
         }
-    ]
+    ],
+    "woe:country_name": "France"
 }

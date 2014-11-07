@@ -3,6 +3,7 @@
     "tms:id": "181559",
     "accession_number": "1984-69-4",
     "title": "Textile, \"Prolong\", ca. 1980",
+    "title_raw": "Prolong",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18802745\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1985,
     "year_acquired": "1984",
     "decade": "1970",
-    "woe:country": "23424829",
+    "woe:country_id": "23424829",
     "medium": "Medium: \nTechnique: screen printed on plain weave",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "1984: acquired by Museum",
     "dimensions": "Warp x Weft: 125 x 131 cm (49 3\/16 x 51 9\/16 in.)",
+    "dimensions_raw": {
+        "warp": [
+            "125.00",
+            "centimeters"
+        ],
+        "weft": [
+            "131.00",
+            "centimeters"
+        ]
+    },
     "creditline": null,
     "description": "Diagonal lines in grey, black, white and red on a grey background.",
     "justification": null,
-    "type": {
-        "id": "35251739",
-        "name": "textile"
-    },
+    "woe:country": "23424829",
+    "type": "textile",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/77612_eb64b3ded252c191_b.jpg",
                 "width": 1024,
                 "height": 841,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/77612_eb64b3ded252c191_n.jpg",
-                "width": 320,
-                "height": 263,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "77612"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/77612_eb64b3ded252c191_z.jpg",
                 "width": 640,
                 "height": 526,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "77612"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/77612_eb64b3ded252c191_n.jpg",
+                "width": 320,
+                "height": 263,
+                "is_primary": "1",
+                "image_id": "77612"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/77612_eb64b3ded252c191_d.gif",
+                "width": 320,
+                "height": 263,
+                "is_primary": "1",
+                "image_id": "77612"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/77612_eb64b3ded252c191_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "77612"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18048019",
             "role_id": "35352245",
             "person_name": "lm",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18048019\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18045987",
             "role_id": "35236681",
             "person_name": "SunarHauserman, Inc.",
+            "person_date": "",
             "role_name": "Company",
+            "role_display_name": "Company:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18045987\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236681\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18045467",
             "role_id": "35236685",
             "person_name": "Taunus Textildruck Zimmer",
+            "person_date": "Oberusel, Germany, est. 1899",
             "role_name": "Maker",
+            "role_display_name": "Made by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18045467\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236685\/"
         },
@@ -78,7 +110,9 @@
             "person_id": "18045469",
             "role_id": "35236655",
             "person_name": "Christa Hausler-Goltz",
+            "person_date": "German, b. 1943",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18045469\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
@@ -88,5 +122,6 @@
     },
     "colors": [
 
-    ]
+    ],
+    "woe:country_name": "Germany"
 }

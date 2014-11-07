@@ -3,6 +3,7 @@
     "tms:id": "191340",
     "accession_number": "1989-41-21",
     "title": "Plate, \"1921\", 1921",
+    "title_raw": "1921",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18632995\/",
     "department_id": "35347497",
     "period_id": null,
@@ -13,39 +14,60 @@
     "year_end": 1921,
     "year_acquired": "1989",
     "decade": "1920",
-    "woe:country": null,
+    "woe:country_id": null,
     "medium": "porcelain, enamel",
     "markings": "Marks: On underside: Imperial Porcelain Factory mark obscured by green enamel oval; hammer, sickle, cog, 1921 hand-painted in blue overglaze",
     "signed": null,
     "inscribed": null,
     "provenance": "The Henry and Ludmilla Shapiro collection",
     "dimensions": "Diameter: 25.2 cm (9 15\/16 in.)",
+    "dimensions_raw": {
+        "diameter": [
+            "25.20",
+            "centimeters"
+        ]
+    },
     "creditline": "The Henry and Ludmilla Shapiro Collection; Partial gift and partial purchase through the Decorative Arts Association Acquisition and Smithsonian Collections Acquisition Program Funds",
     "description": "Circular, slightly shaped edge; the inscription \"1921\" intersperced among stylized floral motifs",
     "justification": null,
-    "type": {
-        "id": "35236833",
-        "name": "plate"
-    },
+    "woe:country": null,
+    "type": "plate",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/11477_98b1609c875e8e0d_b.jpg",
                 "width": 1024,
                 "height": 954,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/11477_98b1609c875e8e0d_n.jpg",
-                "width": 320,
-                "height": 298,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "11477"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/11477_98b1609c875e8e0d_z.jpg",
                 "width": 640,
                 "height": 596,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "11477"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/11477_98b1609c875e8e0d_n.jpg",
+                "width": 320,
+                "height": 298,
+                "is_primary": "1",
+                "image_id": "11477"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/11477_98b1609c875e8e0d_d.gif",
+                "width": 320,
+                "height": 298,
+                "is_primary": "1",
+                "image_id": "11477"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/11477_98b1609c875e8e0d_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "11477"
             }
         }
     ],
@@ -54,7 +76,9 @@
             "person_id": "18047827",
             "role_id": "35352245",
             "person_name": "Deborah S. Shinn",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047827\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -62,7 +86,9 @@
             "person_id": "18045213",
             "role_id": "35236655",
             "person_name": "Rudolf Feodorovich Vilde",
+            "person_date": "1868",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18045213\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -70,7 +96,9 @@
             "person_id": "18045179",
             "role_id": "35236657",
             "person_name": "State Porcelain Factory",
+            "person_date": "Leningrad, USSR, founded 1918",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18045179\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         }
@@ -80,24 +108,34 @@
     },
     "colors": [
         {
-            "color": "#3a3945",
-            "closest_css3": "#2f4f4f"
+            "color": "#3f3e49",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#fbf7d8",
-            "closest_css3": "#fff8dc"
+            "color": "#e7f3de",
+            "closest_crayola": "#efdecd",
+            "closest_css3": "#f5f5dc",
+            "closest_css4": "#f5f5dc"
         },
         {
-            "color": "#6c5a5b",
-            "closest_css3": "#696969"
+            "color": "#6d5a59",
+            "closest_crayola": "#6e5160",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#c2cfc4",
-            "closest_css3": "#c0c0c0"
+            "color": "#bacbc3",
+            "closest_crayola": "#cdc5c2",
+            "closest_css3": "#c0c0c0",
+            "closest_css4": "#c0c0c0"
         },
         {
-            "color": "#cea87c",
-            "closest_css3": "#d2b48c"
+            "color": "#7a3938",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#8b4513",
+            "closest_css4": "#8b4513"
         }
     ]
 }

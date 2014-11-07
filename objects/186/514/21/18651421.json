@@ -3,6 +3,7 @@
     "tms:id": "200650",
     "accession_number": "1995-48-5",
     "title": "Textile, \"Adobe Hills\", 1950\u201355",
+    "title_raw": "Adobe Hills",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18651421\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1955,
     "year_acquired": "1995",
     "decade": "1950",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Medium: linen\nTechnique: screen printed on plain weave",
     "markings": null,
     "signed": null,
     "inscribed": "Adobe Hills by Jens Risom 5511 Patt. Rep. 9  A Maix's-ing Fabrics Inc. N.Y.C. (printed in selvedge)",
     "provenance": null,
     "dimensions": "H x W: 129.5 x 124.5 cm (51 x 49 in.)",
+    "dimensions_raw": {
+        "height": [
+            "129.54",
+            "centimeters"
+        ],
+        "width": [
+            "124.46",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase from General Acquisitions Endowment Funds",
     "description": "Length of printed fabric with an abstract design of undulating horizontal lines of blue and gold on a beige ground.",
     "justification": null,
-    "type": {
-        "id": "35251739",
-        "name": "textile"
-    },
+    "woe:country": "23424977",
+    "type": "textile",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/42795_4698eb4b48b9f3d6_b.jpg",
                 "width": 985,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/42795_4698eb4b48b9f3d6_n.jpg",
-                "width": 308,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "42795"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/42795_4698eb4b48b9f3d6_z.jpg",
                 "width": 616,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "42795"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/42795_4698eb4b48b9f3d6_n.jpg",
+                "width": 308,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "42795"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/42795_4698eb4b48b9f3d6_d.gif",
+                "width": 308,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "42795"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/42795_4698eb4b48b9f3d6_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "42795"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18044325",
             "role_id": "35236655",
             "person_name": "Jens Risom",
+            "person_date": "American, b. Denmark, 1916",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18044325\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18048535",
             "role_id": "35352247",
             "person_name": "General Acquisitions Endowment",
+            "person_date": "",
             "role_name": "Fund",
+            "role_display_name": "Fund:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18048535\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352247\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18047457",
             "role_id": "35352245",
             "person_name": "Barbara Duggan",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047457\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -78,7 +110,9 @@
             "person_id": "18041519",
             "role_id": "35352249",
             "person_name": "20th Century Furnishings",
+            "person_date": "",
             "role_name": "Vendor",
+            "role_display_name": "Purchased from",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041519\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352249\/"
         },
@@ -86,7 +120,9 @@
             "person_id": "18046277",
             "role_id": "35236671",
             "person_name": "L. Anton Maix, Inc.",
+            "person_date": "New York, New York, USA, founded 1948",
             "role_name": "Producer",
+            "role_display_name": "Produced by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18046277\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236671\/"
         }
@@ -96,12 +132,17 @@
     },
     "colors": [
         {
-            "color": "#ccab4e",
-            "closest_css3": "#bdb76b"
+            "color": "#cdad4f",
+            "closest_crayola": "#bab86c",
+            "closest_css3": "#bdb76b",
+            "closest_css4": "#bdb76b"
         },
         {
-            "color": "#b4a57a",
-            "closest_css3": "#bdb76b"
+            "color": "#a8a79f",
+            "closest_crayola": "#979aaa",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

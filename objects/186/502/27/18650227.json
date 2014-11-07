@@ -3,6 +3,7 @@
     "tms:id": "200040",
     "accession_number": "1995-148-9",
     "title": "Spoon, \"\"Assyrian Head\" pattern\", 1885\u201386",
+    "title_raw": "\"Assyrian Head\" pattern",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18650227\/",
     "department_id": "35347497",
     "period_id": null,
@@ -13,39 +14,60 @@
     "year_end": 1971,
     "year_acquired": "1995",
     "decade": null,
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "silver plate",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "cm: L: 18",
+    "dimensions_raw": {
+        "length": [
+            "18.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase from Decorative Arts Association Acquisition Fund",
     "description": "Handle with scrolled foliate ornament and antique style crowned mask at tip; smooth unadorned bowl.",
     "justification": null,
-    "type": {
-        "id": "35249775",
-        "name": "spoon"
-    },
+    "woe:country": "23424977",
+    "type": "spoon",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/13510_79383286247be328_b.jpg",
                 "width": 358,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/13510_79383286247be328_n.jpg",
-                "width": 112,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "13510"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/13510_79383286247be328_z.jpg",
                 "width": 224,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "13510"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/13510_79383286247be328_n.jpg",
+                "width": 112,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "13510"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/13510_79383286247be328_d.gif",
+                "width": 112,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "13510"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/13510_79383286247be328_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "13510"
             }
         },
         {
@@ -53,19 +75,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/13509_39753fd072b17609_b.jpg",
                 "width": 1024,
                 "height": 281,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/13509_39753fd072b17609_n.jpg",
-                "width": 320,
-                "height": 88,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "13509"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/13509_39753fd072b17609_z.jpg",
                 "width": 640,
                 "height": 175,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "13509"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/13509_39753fd072b17609_n.jpg",
+                "width": 320,
+                "height": 88,
+                "is_primary": "0",
+                "image_id": "13509"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/13509_39753fd072b17609_d.gif",
+                "width": 320,
+                "height": 88,
+                "is_primary": "0",
+                "image_id": "13509"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/13509_39753fd072b17609_sq.jpg",
+                "width": 300,
+                "height": 281,
+                "is_primary": "0",
+                "image_id": "13509"
             }
         }
     ],
@@ -74,7 +113,9 @@
             "person_id": "18049365",
             "role_id": "35352247",
             "person_name": "Decorative Arts Association Acquisition Fund",
+            "person_date": "founded 1982, closed September 30, 1998",
             "role_name": "Fund",
+            "role_display_name": "Fund:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049365\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352247\/"
         },
@@ -82,7 +123,9 @@
             "person_id": "18041789",
             "role_id": "35352249",
             "person_name": "Helen Hersh",
+            "person_date": "",
             "role_name": "Vendor",
+            "role_display_name": "Purchased from",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041789\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352249\/"
         },
@@ -90,7 +133,9 @@
             "person_id": "18045411",
             "role_id": "35236657",
             "person_name": "Meriden Silverplate Company",
+            "person_date": "",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18045411\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         }
@@ -100,24 +145,35 @@
     },
     "colors": [
         {
-            "color": "#b8c9de",
-            "closest_css3": "#b0c4de"
+            "color": "#c4c5b9",
+            "closest_crayola": "#cdc5c2",
+            "closest_css3": "#c0c0c0",
+            "closest_css4": "#c0c0c0"
         },
         {
-            "color": "#c3c4b6",
-            "closest_css3": "#c0c0c0"
+            "color": "#a49e7d",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         },
         {
-            "color": "#5b5241",
-            "closest_css3": "#556b2f"
+            "color": "#3f3b30",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#a1a288",
-            "closest_css3": "#8fbc8f"
+            "color": "#6a6351",
+            "closest_crayola": "#6e5160",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#2b1e19",
-            "closest_css3": "#000000"
+            "color": "#2c1c16",
+            "closest_crayola": "#000000",
+            "closest_css3": "#000000",
+            "closest_css4": "#000000"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

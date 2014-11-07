@@ -3,6 +3,7 @@
     "tms:id": "148392",
     "accession_number": "1971-58-41",
     "title": "Frieze, 1910\u201315",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18475259\/",
     "department_id": "35347503",
     "period_id": null,
@@ -13,39 +14,101 @@
     "year_end": 1915,
     "year_acquired": "1971",
     "decade": "1910",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Machine-printed",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "88.5 x 56 cm (34 13\/16 x 22 1\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "88.50",
+            "centimeters"
+        ],
+        "width": [
+            "56.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Philadelphia Museum of Art",
     "description": "Large-scale coats of arms on shield, alternating with fleur de lis. Below this is a folded ribbon motif. Printed in black, white and gold on bright red ground.",
     "justification": null,
-    "type": {
-        "id": "35259269",
-        "name": "Frieze"
-    },
+    "woe:country": "23424977",
+    "type": "Frieze",
     "images": [
+        {
+            "b": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/91441_58c5460705d1fffd_b.jpg",
+                "width": 1024,
+                "height": 664,
+                "is_primary": "1",
+                "image_id": "91441"
+            },
+            "z": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/91441_58c5460705d1fffd_z.jpg",
+                "width": 640,
+                "height": 415,
+                "is_primary": "1",
+                "image_id": "91441"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/91441_58c5460705d1fffd_n.jpg",
+                "width": 320,
+                "height": 208,
+                "is_primary": "1",
+                "image_id": "91441"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/91441_58c5460705d1fffd_d.gif",
+                "width": 320,
+                "height": 208,
+                "is_primary": "1",
+                "image_id": "91441"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/91441_58c5460705d1fffd_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "91441"
+            }
+        },
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/7729_7a8d1150fed9a395_b.jpg",
                 "width": 1024,
                 "height": 655,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/7729_7a8d1150fed9a395_n.jpg",
-                "width": 320,
-                "height": 205,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "7729"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/7729_7a8d1150fed9a395_z.jpg",
                 "width": 640,
                 "height": 409,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "7729"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/7729_7a8d1150fed9a395_n.jpg",
+                "width": 320,
+                "height": 205,
+                "is_primary": "0",
+                "image_id": "7729"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/7729_7a8d1150fed9a395_d.gif",
+                "width": 320,
+                "height": 205,
+                "is_primary": "0",
+                "image_id": "7729"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/7729_7a8d1150fed9a395_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "7729"
             }
         }
     ],
@@ -54,7 +117,9 @@
             "person_id": "18047493",
             "role_id": "35351535",
             "person_name": "Philadelphia Museum of Art",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047493\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -62,7 +127,9 @@
             "person_id": "18043897",
             "role_id": "35236657",
             "person_name": "Robert Graves Co.",
+            "person_date": "",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18043897\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         }
@@ -72,24 +139,35 @@
     },
     "colors": [
         {
-            "color": "#81322c",
-            "closest_css3": "#8b4513"
+            "color": "#8d372f",
+            "closest_crayola": "#9c2542",
+            "closest_css3": "#a52a2a",
+            "closest_css4": "#a52a2a"
         },
         {
-            "color": "#9b6b4b",
-            "closest_css3": "#a0522d"
+            "color": "#996f4b",
+            "closest_crayola": "#a5694f",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         },
         {
-            "color": "#544f33",
-            "closest_css3": "#556b2f"
+            "color": "#4d4c2f",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         },
         {
-            "color": "#a7996d",
-            "closest_css3": "#bdb76b"
+            "color": "#bbb080",
+            "closest_crayola": "#bab86c",
+            "closest_css3": "#bdb76b",
+            "closest_css4": "#bdb76b"
         },
         {
-            "color": "#b58555",
-            "closest_css3": "#cd853f"
+            "color": "#b78c5e",
+            "closest_crayola": "#d68a59",
+            "closest_css3": "#cd853f",
+            "closest_css4": "#cd853f"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

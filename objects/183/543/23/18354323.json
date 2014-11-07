@@ -3,6 +3,7 @@
     "tms:id": "60550",
     "accession_number": "1938-82-16-a",
     "title": "Textile Samples, ca. 1925",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18354323\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1930,
     "year_acquired": "1938",
     "decade": "1920",
-    "woe:country": "23424819",
+    "woe:country_id": "23424819",
     "medium": "Medium: silk\nTechnique: printed on chiffon",
     "markings": null,
     "signed": null,
     "inscribed": "Labeled: #7087 Chiffon Imprime",
     "provenance": null,
     "dimensions": "H x W: 138.7 x 99.3 cm (54 5\/8 x 39 1\/8 in.)",
+    "dimensions_raw": {
+        "height": [
+            "138.70",
+            "centimeters"
+        ],
+        "width": [
+            "99.30",
+            "centimeters"
+        ]
+    },
     "creditline": "Anonymous bequest in memory of Albert and Rebecca Elsberg",
     "description": "Three samples of printed chiffon, each with a different color ground, with a design of life-sized roses and other flowers arranged in a lozenge form in offset. Both selvedges present on each sample.",
     "justification": null,
-    "type": {
-        "id": "35288421",
-        "name": "Textile samples"
-    },
+    "woe:country": "23424819",
+    "type": "Textile samples",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/3381_00665e33fbe57e65_b.jpg",
                 "width": 683,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/3381_00665e33fbe57e65_n.jpg",
-                "width": 214,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "3381"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/3381_00665e33fbe57e65_z.jpg",
                 "width": 427,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "3381"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/3381_00665e33fbe57e65_n.jpg",
+                "width": 214,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "3381"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/3381_00665e33fbe57e65_d.gif",
+                "width": 214,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "3381"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/3381_00665e33fbe57e65_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "3381"
             }
         }
     ],
@@ -54,15 +80,19 @@
             "person_id": "18042417",
             "role_id": "35236655",
             "person_name": "Herman A. Elsberg",
+            "person_date": "American, 1869\u20131938",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18042417\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
         {
             "person_id": "18049335",
             "role_id": "35351537",
-            "person_name": "Anonymous",
+            "person_name": "Unknown",
+            "person_date": "",
             "role_name": "Bequestor",
+            "role_display_name": "Bequest of",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049335\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351537\/"
         }
@@ -72,24 +102,35 @@
     },
     "colors": [
         {
-            "color": "#454251",
-            "closest_css3": "#2f4f4f"
+            "color": "#635f74",
+            "closest_crayola": "#4a646c",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#736a80",
-            "closest_css3": "#696969"
+            "color": "#464351",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#c7b8c6",
-            "closest_css3": "#c0c0c0"
+            "color": "#c7b9c6",
+            "closest_crayola": "#cdc5c2",
+            "closest_css3": "#c0c0c0",
+            "closest_css4": "#c0c0c0"
         },
         {
-            "color": "#99b5c0",
-            "closest_css3": "#a9a9a9"
+            "color": "#76899a",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#778899",
+            "closest_css4": "#778899"
         },
         {
-            "color": "#758999",
-            "closest_css3": "#778899"
+            "color": "#a793a9",
+            "closest_crayola": "#979aaa",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
         }
-    ]
+    ],
+    "woe:country_name": "France"
 }

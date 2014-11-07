@@ -3,6 +3,7 @@
     "tms:id": "131766",
     "accession_number": "1962-149-9-bb",
     "title": "Trade Card, \"Drink McLaughlin's XXXX Coffee \/ Gathering Eggs in Grandpa's Barn\", ca. 1891",
+    "title_raw": "Drink McLaughlin's XXXX Coffee \/ Gathering Eggs in Grandpa's Barn",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18442567\/",
     "department_id": "35347493",
     "period_id": "35417269",
@@ -13,39 +14,64 @@
     "year_end": 1901,
     "year_acquired": "1962",
     "decade": null,
-    "woe:country": null,
+    "woe:country_id": null,
     "medium": "Chromolithograph",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "Gift of Carol MacDonald",
     "dimensions": "16 x 12 cm (6 5\/16 x 4 3\/4 in.)",
+    "dimensions_raw": {
+        "height": [
+            "16.00",
+            "centimeters"
+        ],
+        "width": [
+            "12.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Carol MacDonald",
     "description": "Image of a small girl standing in front of a fence and haying holding a basket of eggs in one hand and a single egg in the other.  At the top left corner a glimpse of a hens' nest, at upper right corner a view of a farm.",
     "justification": null,
-    "type": {
-        "id": "35285099",
-        "name": "Trade card"
-    },
+    "woe:country": null,
+    "type": "Trade card",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/35701_af2eeabe72d7a12e_b.jpg",
                 "width": 823,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/35701_af2eeabe72d7a12e_n.jpg",
-                "width": 257,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "35701"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/35701_af2eeabe72d7a12e_z.jpg",
                 "width": 515,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "35701"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/35701_af2eeabe72d7a12e_n.jpg",
+                "width": 257,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "35701"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/35701_af2eeabe72d7a12e_d.gif",
+                "width": 257,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "35701"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/35701_af2eeabe72d7a12e_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "35701"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18063871",
             "role_id": "35236661",
             "person_name": "Donaldson Brothers",
+            "person_date": "American, active late 19th century",
             "role_name": "Publisher",
+            "role_display_name": "Published by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18063871\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236661\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18056299",
             "role_id": "35351535",
             "person_name": "Carol MacDonald",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18056299\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -72,24 +102,34 @@
     },
     "colors": [
         {
+            "color": "#c8963f",
+            "closest_crayola": "#d68a59",
+            "closest_css3": "#cd853f",
+            "closest_css4": "#cd853f"
+        },
+        {
             "color": "#bea479",
-            "closest_css3": "#bdb76b"
+            "closest_crayola": "#cd9575",
+            "closest_css3": "#bdb76b",
+            "closest_css4": "#bdb76b"
         },
         {
-            "color": "#ae7f2e",
-            "closest_css3": "#cd853f"
+            "color": "#d3c9b2",
+            "closest_crayola": "#cdc5c2",
+            "closest_css3": "#c0c0c0",
+            "closest_css4": "#c0c0c0"
         },
         {
-            "color": "#ecdbbc",
-            "closest_css3": "#f5deb3"
+            "color": "#96713d",
+            "closest_crayola": "#9c7c38",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         },
         {
-            "color": "#8c7155",
-            "closest_css3": "#696969"
-        },
-        {
-            "color": "#431920",
-            "closest_css3": "#800000"
+            "color": "#beb261",
+            "closest_crayola": "#bab86c",
+            "closest_css3": "#bdb76b",
+            "closest_css4": "#bdb76b"
         }
     ]
 }

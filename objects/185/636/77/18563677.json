@@ -3,6 +3,7 @@
     "tms:id": "75041",
     "accession_number": "1941-51-2",
     "title": "Textile, 18th century",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18563677\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": null,
     "year_acquired": "1941",
     "decade": null,
-    "woe:country": "23424819",
+    "woe:country_id": "23424819",
     "medium": "Medium: silk and metal with plain compound satin\nTechnique: brocade",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "H x W: 75.3 x 55.8 cm (29 5\/8 x 21 15\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "75.30",
+            "centimeters"
+        ],
+        "width": [
+            "55.80",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Mrs. C. H. Judkins",
     "description": "Light orange (salmon) satin ground with the design disposed in stripes of bow-knots in silver with a staggered repeat of a scrolling leaf and flower motif brocaded in gold across the stripes. Selvages of green and white stripes.",
     "justification": null,
-    "type": {
-        "id": "35251739",
-        "name": "textile"
-    },
+    "woe:country": "23424819",
+    "type": "textile",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/46232_023976684fa9a6c5_b.jpg",
                 "width": 768,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/46232_023976684fa9a6c5_n.jpg",
-                "width": 240,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "46232"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/46232_023976684fa9a6c5_z.jpg",
                 "width": 480,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "46232"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/46232_023976684fa9a6c5_n.jpg",
+                "width": 240,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "46232"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/46232_023976684fa9a6c5_d.gif",
+                "width": 240,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "46232"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/46232_023976684fa9a6c5_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "46232"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/70593_0c81f4a9ba9179f5_b.jpg",
                 "width": 717,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/70593_0c81f4a9ba9179f5_n.jpg",
-                "width": 224,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "70593"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/70593_0c81f4a9ba9179f5_z.jpg",
                 "width": 448,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "70593"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/70593_0c81f4a9ba9179f5_n.jpg",
+                "width": 224,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "70593"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/70593_0c81f4a9ba9179f5_d.gif",
+                "width": 224,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "70593"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/70593_0c81f4a9ba9179f5_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "70593"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18535869",
             "role_id": "35351535",
             "person_name": "Mrs. C. H. Judkins",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18535869\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -84,24 +129,35 @@
     },
     "colors": [
         {
-            "color": "#beab90",
-            "closest_css3": "#d2b48c"
+            "color": "#b7693f",
+            "closest_crayola": "#b4674d",
+            "closest_css3": "#cd853f",
+            "closest_css4": "#cd853f"
         },
         {
-            "color": "#a2886f",
-            "closest_css3": "#808080"
+            "color": "#cabba8",
+            "closest_crayola": "#cdc5c2",
+            "closest_css3": "#c0c0c0",
+            "closest_css4": "#c0c0c0"
         },
         {
-            "color": "#c5885c",
-            "closest_css3": "#cd853f"
+            "color": "#dbc08a",
+            "closest_crayola": "#e7c697",
+            "closest_css3": "#deb887",
+            "closest_css4": "#deb887"
         },
         {
-            "color": "#b4663d",
-            "closest_css3": "#a0522d"
+            "color": "#c4895d",
+            "closest_crayola": "#d68a59",
+            "closest_css3": "#cd853f",
+            "closest_css4": "#cd853f"
         },
         {
-            "color": "#e0c790",
-            "closest_css3": "#deb887"
+            "color": "#515a38",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         }
-    ]
+    ],
+    "woe:country_name": "France"
 }

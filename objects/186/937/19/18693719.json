@@ -3,6 +3,7 @@
     "tms:id": "222405",
     "accession_number": "2001-20-3-a,b",
     "title": "Jar And Cover, ca. 1928",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18693719\/",
     "department_id": "35347497",
     "period_id": null,
@@ -13,39 +14,68 @@
     "year_end": 1933,
     "year_acquired": "2001",
     "decade": "1920",
-    "woe:country": "23424829",
+    "woe:country_id": "23424829",
     "medium": "Blown clear glass, cut and engraved",
     "markings": null,
     "signed": "Engraved in medallion top center of lid:  WVE [and logo] in circular cartouche",
     "inscribed": null,
     "provenance": null,
     "dimensions": "jar (a) & cover (b): 5.5h x 8.7 diameter cm (2 3\/16 x 3 7\/16 in.)",
+    "dimensions_raw": {
+        "diameter": [
+            "8.50",
+            "centimeters"
+        ],
+        "height": [
+            "5.50",
+            "centimeters"
+        ],
+        "width": [
+            "8.70",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Torsten Br\u00f6han",
     "description": "Flattened circular shape, sides ribbed, lid fits snugly over base;engraved  in circular medallion on top of lid is a stylized dog.",
     "justification": null,
-    "type": {
-        "id": "35271015",
-        "name": "Jar and cover"
-    },
+    "woe:country": "23424829",
+    "type": "Jar and cover",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/14355_57bd716298763cb6_b.jpg",
                 "width": 1024,
                 "height": 862,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/14355_57bd716298763cb6_n.jpg",
-                "width": 320,
-                "height": 269,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "14355"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/14355_57bd716298763cb6_z.jpg",
                 "width": 640,
                 "height": 539,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "14355"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/14355_57bd716298763cb6_n.jpg",
+                "width": 320,
+                "height": 269,
+                "is_primary": "1",
+                "image_id": "14355"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/14355_57bd716298763cb6_d.gif",
+                "width": 320,
+                "height": 269,
+                "is_primary": "1",
+                "image_id": "14355"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/14355_57bd716298763cb6_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "14355"
             }
         },
         {
@@ -53,19 +83,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/14354_2c77c640d3191795_b.jpg",
                 "width": 1024,
                 "height": 669,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/14354_2c77c640d3191795_n.jpg",
-                "width": 320,
-                "height": 209,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "14354"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/14354_2c77c640d3191795_z.jpg",
                 "width": 640,
                 "height": 418,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "14354"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/14354_2c77c640d3191795_n.jpg",
+                "width": 320,
+                "height": 209,
+                "is_primary": "0",
+                "image_id": "14354"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/14354_2c77c640d3191795_d.gif",
+                "width": 320,
+                "height": 209,
+                "is_primary": "0",
+                "image_id": "14354"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/14354_2c77c640d3191795_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "14354"
             }
         }
     ],
@@ -74,7 +121,9 @@
             "person_id": "18537343",
             "role_id": "35236655",
             "person_name": "Wilhelm von Eiff",
+            "person_date": "German, 1890 \u2013 1943",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18537343\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -82,7 +131,9 @@
             "person_id": "18049813",
             "role_id": "35351535",
             "person_name": "Torsten Broehan",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049813\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -92,8 +143,17 @@
     },
     "colors": [
         {
-            "color": "#6d6763",
-            "closest_css3": "#696969"
+            "color": "#706b65",
+            "closest_crayola": "#757575",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
+        },
+        {
+            "color": "#37373d",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         }
-    ]
+    ],
+    "woe:country_name": "Germany"
 }

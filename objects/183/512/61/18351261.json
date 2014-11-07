@@ -3,6 +3,7 @@
     "tms:id": "59152",
     "accession_number": "1938-57-908",
     "title": "Drawing, ca. 1750",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18351261\/",
     "department_id": "35347493",
     "period_id": "35417101",
@@ -13,39 +14,64 @@
     "year_end": 1760,
     "year_acquired": "1938",
     "decade": null,
-    "woe:country": "23424819",
+    "woe:country_id": "23424819",
     "medium": "Black and red chalk on thick cream paper",
     "markings": "Stamp onto verso of mounting paper: J. Peoli (Lugt 2020)",
     "signed": null,
     "inscribed": "Inscribed in pen and black ink, verso of mounting paper: Venta de grab. 23 Dbre. 1875\/ No. 251 - 25 pl. and J.J.F.R.",
     "provenance": "De Grab (Sale, October 25, 1875, no. 251\/25pl); J.J.Peoli (1825-1893)",
     "dimensions": "23.8 x 16.9 cm (9 3\/8 x 6 5\/8 in. )",
+    "dimensions_raw": {
+        "height": [
+            "23.80",
+            "centimeters"
+        ],
+        "width": [
+            "16.90",
+            "centimeters"
+        ]
+    },
     "creditline": "Bequest of Erskine Hewitt",
     "description": "A peasant woman stands, looking to the left (her right), cradling a baby in her right arm, while a young naked child stands clinging to her left.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424819",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/3186_2a45d8c0f5c952af_b.jpg",
                 "width": 717,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/3186_2a45d8c0f5c952af_n.jpg",
-                "width": 224,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "3186"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/3186_2a45d8c0f5c952af_z.jpg",
                 "width": 448,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "3186"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/3186_2a45d8c0f5c952af_n.jpg",
+                "width": 224,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "3186"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/3186_2a45d8c0f5c952af_d.gif",
+                "width": 224,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "3186"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/3186_2a45d8c0f5c952af_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "3186"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18539205",
             "role_id": "35352245",
             "person_name": "Floramae McCarron-Cates",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18539205\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18047439",
             "role_id": "35352245",
             "person_name": "Rudolph Berliner",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047439\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18050021",
             "role_id": "35351537",
             "person_name": "Erskine Hewitt",
+            "person_date": "American, 1871\u20131938",
             "role_name": "Bequestor",
+            "role_display_name": "Bequest of",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18050021\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351537\/"
         },
@@ -78,7 +110,9 @@
             "person_id": "18053243",
             "role_id": "35236565",
             "person_name": "J\u00e9r\u00f4me-Fran\u00e7ois Chantereau",
+            "person_date": "French, ca.1710 \u2013 1757",
             "role_name": "Artist",
+            "role_display_name": "",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18053243\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236565\/"
         }
@@ -88,24 +122,35 @@
     },
     "colors": [
         {
-            "color": "#e6d3d7",
-            "closest_css3": "#dcdcdc"
+            "color": "#ccaca9",
+            "closest_crayola": "#cdc5c2",
+            "closest_css3": "#d2b48c",
+            "closest_css4": "#d2b48c"
         },
         {
-            "color": "#c5abaa",
-            "closest_css3": "#a9a9a9"
+            "color": "#c68a7a",
+            "closest_crayola": "#cd9575",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         },
         {
-            "color": "#c48878",
-            "closest_css3": "#bc8f8f"
+            "color": "#9b7c7a",
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#a38787",
-            "closest_css3": "#bc8f8f"
+            "color": "#8a554b",
+            "closest_crayola": "#85754e",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         },
         {
-            "color": "#816664",
-            "closest_css3": "#696969"
+            "color": "#543d3f",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         }
-    ]
+    ],
+    "woe:country_name": "France"
 }

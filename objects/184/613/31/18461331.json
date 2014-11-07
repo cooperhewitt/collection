@@ -3,6 +3,7 @@
     "tms:id": "141270",
     "accession_number": "1968-110-142",
     "title": "Textile, 1920s",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18461331\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1929,
     "year_acquired": "1968",
     "decade": "1920",
-    "woe:country": "23424975",
+    "woe:country_id": "23424975",
     "medium": "Medium: cotton\nTechnique: block printed on plain weave",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "from the Ericson and Weiss Collection",
     "dimensions": "H x W: 80 x 80 cm (31 1\/2 x 31 1\/2 in.)\nRepeat H: 38.1 cm (15 in.)",
+    "dimensions_raw": {
+        "height": [
+            "80.01",
+            "centimeters"
+        ],
+        "width": [
+            "80.01",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Mrs. Germaine Little",
     "description": "Gray leaves, yellow berries and birds on an orange background.",
     "justification": null,
-    "type": {
-        "id": "35251739",
-        "name": "textile"
-    },
+    "woe:country": "23424975",
+    "type": "textile",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/75206_7e2cbdfcb0b08153_b.jpg",
                 "width": 761,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/75206_7e2cbdfcb0b08153_n.jpg",
-                "width": 238,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "75206"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/75206_7e2cbdfcb0b08153_z.jpg",
                 "width": 476,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "75206"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/75206_7e2cbdfcb0b08153_n.jpg",
+                "width": 238,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "75206"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/75206_7e2cbdfcb0b08153_d.gif",
+                "width": 238,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "75206"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/75206_7e2cbdfcb0b08153_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "75206"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/75207_26c01e7835ee3b88_b.jpg",
                 "width": 663,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/75207_26c01e7835ee3b88_n.jpg",
-                "width": 207,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "75207"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/75207_26c01e7835ee3b88_z.jpg",
                 "width": 414,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "75207"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/75207_26c01e7835ee3b88_n.jpg",
+                "width": 207,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "75207"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/75207_26c01e7835ee3b88_d.gif",
+                "width": 207,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "75207"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/75207_26c01e7835ee3b88_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "75207"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18046365",
             "role_id": "35236657",
             "person_name": "Arthur Sanderson & Sons, Ltd.",
+            "person_date": "London, founded 1860",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18046365\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         }
@@ -84,24 +129,35 @@
     },
     "colors": [
         {
-            "color": "#cababe",
-            "closest_css3": "#c0c0c0"
+            "color": "#914126",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#8b4513",
+            "closest_css4": "#8b4513"
         },
         {
-            "color": "#a74827",
-            "closest_css3": "#a0522d"
+            "color": "#eab7c3",
+            "closest_crayola": "#fdbcb4",
+            "closest_css3": "#ffb6c1",
+            "closest_css4": "#ffb6c1"
         },
         {
-            "color": "#796561",
-            "closest_css3": "#696969"
+            "color": "#642913",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#8b4513",
+            "closest_css4": "#8b4513"
         },
         {
-            "color": "#342829",
-            "closest_css3": "#2f4f4f"
+            "color": "#dd6d38",
+            "closest_crayola": "#ff7538",
+            "closest_css3": "#d2691e",
+            "closest_css4": "#d2691e"
         },
         {
-            "color": "#602813",
-            "closest_css3": "#8b4513"
+            "color": "#4e4141",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         }
-    ]
+    ],
+    "woe:country_name": "United Kingdom"
 }

@@ -3,6 +3,7 @@
     "tms:id": "23191",
     "accession_number": "1917-4-507-b",
     "title": "Drawing, \"The Parthenon from the Southeast\", April 1869",
+    "title_raw": "The Parthenon from the Southeast",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18198973\/",
     "department_id": "35347493",
     "period_id": "35417175",
@@ -13,39 +14,64 @@
     "year_end": null,
     "year_acquired": "1917",
     "decade": null,
-    "woe:country": "23424833",
+    "woe:country_id": "23424833",
     "medium": "Brush and oil paint, graphite traces on paperboard",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "22.5 x 32.8 cm (8 7\/8 x 12 15\/16 in.)\nMat: 16 x 22 in. (1917-4-507-a and b are matted together)",
+    "dimensions_raw": {
+        "height": [
+            "40.60",
+            "centimeters"
+        ],
+        "width": [
+            "55.90",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Louis P. Church",
     "description": "Over a rough hillside, the Parthenon appears in the right middle ground.  Classical fragments in the left foreground and the Piraeus in the left distance.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424833",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/1874_675622d83f82d733_b.jpg",
                 "width": 1024,
                 "height": 707,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/1874_675622d83f82d733_n.jpg",
-                "width": 320,
-                "height": 221,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "1874"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/1874_675622d83f82d733_z.jpg",
                 "width": 640,
                 "height": 442,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "1874"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/1874_675622d83f82d733_n.jpg",
+                "width": 320,
+                "height": 221,
+                "is_primary": "1",
+                "image_id": "1874"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/1874_675622d83f82d733_d.gif",
+                "width": 320,
+                "height": 221,
+                "is_primary": "1",
+                "image_id": "1874"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/1874_675622d83f82d733_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "1874"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18048255",
             "role_id": "35352245",
             "person_name": "Dr. Gail Davidson",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18048255\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18054439",
             "role_id": "35352245",
             "person_name": "Richard P. Wunder",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18054439\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18047439",
             "role_id": "35352245",
             "person_name": "Rudolph Berliner",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047439\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -78,7 +110,9 @@
             "person_id": "18041941",
             "role_id": "35236565",
             "person_name": "Frederic Edwin Church",
+            "person_date": "American, 1826\u20131900",
             "role_name": "Artist",
+            "role_display_name": "",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041941\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236565\/"
         },
@@ -86,7 +120,9 @@
             "person_id": "18051625",
             "role_id": "35351535",
             "person_name": "Louis P. Church",
+            "person_date": "American, 1870\u20131943",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18051625\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -96,24 +132,35 @@
     },
     "colors": [
         {
-            "color": "#e4b279",
-            "closest_css3": "#deb887"
+            "color": "#7e6247",
+            "closest_crayola": "#85754e",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#7d6046",
-            "closest_css3": "#696969"
+            "color": "#c4a68d",
+            "closest_crayola": "#deaa88",
+            "closest_css3": "#d2b48c",
+            "closest_css4": "#d2b48c"
         },
         {
-            "color": "#a27540",
-            "closest_css3": "#a0522d"
+            "color": "#e8ab60",
+            "closest_crayola": "#faa76c",
+            "closest_css3": "#f4a460",
+            "closest_css4": "#f4a460"
         },
         {
-            "color": "#80482a",
-            "closest_css3": "#8b4513"
+            "color": "#625225",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         },
         {
-            "color": "#4a4b2e",
-            "closest_css3": "#556b2f"
+            "color": "#543c2e",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         }
-    ]
+    ],
+    "woe:country_name": "Greece"
 }

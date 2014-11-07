@@ -3,6 +3,7 @@
     "tms:id": "255512",
     "accession_number": "2010-21-122",
     "title": "Poster, \"Schmuck und unsere Zeit\", ca. 1994",
+    "title_raw": "Schmuck und unsere Zeit",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18758453\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1994,
     "year_acquired": "2010",
     "decade": "1990",
-    "woe:country": "23424957",
+    "woe:country_id": "23424957",
     "medium": "Offset lithograph on wove paper",
     "markings": null,
     "signed": null,
     "inscribed": "Printed in white ink, lower right edge: GESTALTUNG: RENE GAUCH. LITHO: REPROTECHNIK KLOTEN AG. DRUCK: WOLFENSBERGER AG.",
     "provenance": "Sara and Marc Benda (acquired new and directly from designer, Ren\u00e9 Gauch); 2010: acquired by Museum",
     "dimensions": "127.8 x 90.5 cm (50 5\/16 x 35 5\/8 in.)",
+    "dimensions_raw": {
+        "height": [
+            "127.80",
+            "centimeters"
+        ],
+        "width": [
+            "90.50",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Sara and Marc Benda",
     "description": "On a black ground, a faceless figure covered in black is surrounded by a spiral of newspaper; text in blue, orange and light green, with intermittent pieces of jewelry: MUSEUM BELLERIVE \/ SCHM[\u2026]CK UNS[\u2026]RER ZE[\u2026]T \/ SAMMLUNG \/ HELEN WILLIAMS DRUTT . USA \/ 1964-1993.",
     "justification": null,
-    "type": {
-        "id": "35238163",
-        "name": "poster"
-    },
+    "woe:country": "23424957",
+    "type": "poster",
     "images": [
         {
             "b": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/45572_b8ed6ed342d4dd08_b.jpg",
-                "width": 731,
+                "url": "http:\/\/images.collection.cooperhewitt.org\/45572_9e646de28829ce78_b.jpg",
+                "width": 715,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/45572_b8ed6ed342d4dd08_n.jpg",
-                "width": 229,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "45572"
             },
             "z": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/45572_b8ed6ed342d4dd08_z.jpg",
-                "width": 457,
+                "url": "http:\/\/images.collection.cooperhewitt.org\/45572_9e646de28829ce78_z.jpg",
+                "width": 447,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "45572"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/45572_9e646de28829ce78_n.jpg",
+                "width": 223,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "45572"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/45572_9e646de28829ce78_d.gif",
+                "width": 223,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "45572"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/45572_9e646de28829ce78_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "45572"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18062867",
             "role_id": "35236673",
             "person_name": "J.E. Wolfensberger",
+            "person_date": "",
             "role_name": "Printer",
+            "role_display_name": "Printed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18062867\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236673\/"
         },
@@ -62,9 +90,31 @@
             "person_id": "51865075",
             "role_id": "35236617",
             "person_name": "Reprotechnik Kloten AG",
+            "person_date": "Switzerland",
             "role_name": "Lithographer",
+            "role_display_name": "Lithographer:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/51865075\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236617\/"
+        },
+        {
+            "person_id": "68738785",
+            "role_id": "35236667",
+            "person_name": "Museum Bellerive, Z\u00fcrich",
+            "person_date": "",
+            "role_name": "Client",
+            "role_display_name": "Client:",
+            "person_url": "http:\/\/collection.cooperhewitt.org\/people\/68738785\/",
+            "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236667\/"
+        },
+        {
+            "person_id": "68738789",
+            "role_id": "35236655",
+            "person_name": "Ren\u00e9 Gauch",
+            "person_date": "Swiss",
+            "role_name": "Designer",
+            "role_display_name": "Designed by",
+            "person_url": "http:\/\/collection.cooperhewitt.org\/people\/68738789\/",
+            "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
     ],
     "tombstone": {
@@ -72,8 +122,17 @@
     },
     "colors": [
         {
-            "color": "#aa7869",
-            "closest_css3": "#cd5c5c"
+            "color": "#a6786a",
+            "closest_crayola": "#a57164",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
+        },
+        {
+            "color": "#8e9ea2",
+            "closest_crayola": "#979aaa",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
         }
-    ]
+    ],
+    "woe:country_name": "Switzerland"
 }

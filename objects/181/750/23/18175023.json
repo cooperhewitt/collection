@@ -3,6 +3,7 @@
     "tms:id": "19033",
     "accession_number": "1912-12-33",
     "title": "Drawing, \"Studies for \"The Lookout-All's Well\"\", 1895\u201396",
+    "title_raw": "Studies for \"The Lookout-All's Well\"",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18175023\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1991,
     "year_acquired": "1912",
     "decade": null,
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Charcoal, black chalk, white chalk on heavy cream wove paper",
     "markings": "Stamped in ? ink, at right corner: Museum for the Arts of Decoration, Cooper Union.",
     "signed": null,
     "inscribed": "Recto: Inscribed in graphite, at top right: Sale 280. \nVerso: Inscribed in graphite, along right edge: (33).",
     "provenance": "Charles Savage Homer Jr.",
     "dimensions": "26.7 x 34.4 cm (10 1\/2 x 13 9\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "26.70",
+            "centimeters"
+        ],
+        "width": [
+            "34.40",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Charles Savage Homer, Jr.",
     "description": "Sketch of the head and shoulders of sailor, wearing a wide-brimmed hat and holding a coat (a sou'wester), at right. Another sailor, nearly full-length, with left arm raised, is shown wearing rain hat and yelling. A sketch of clouds and sea appears at left.  Various notations at the margins.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424977",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/1531_1bae09a4b3c3d04c_b.jpg",
                 "width": 1024,
                 "height": 769,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/1531_1bae09a4b3c3d04c_n.jpg",
-                "width": 320,
-                "height": 240,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "1531"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/1531_1bae09a4b3c3d04c_z.jpg",
                 "width": 640,
                 "height": 480,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "1531"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/1531_1bae09a4b3c3d04c_n.jpg",
+                "width": 320,
+                "height": 240,
+                "is_primary": "1",
+                "image_id": "1531"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/1531_1bae09a4b3c3d04c_d.gif",
+                "width": 320,
+                "height": 240,
+                "is_primary": "1",
+                "image_id": "1531"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/1531_1bae09a4b3c3d04c_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "1531"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18537931",
             "role_id": "35351535",
             "person_name": "Charles Savage Homer, Jr.",
+            "person_date": "American, 1834\u20131917",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18537931\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18052379",
             "role_id": "35352245",
             "person_name": "Calvin S.  Hathaway",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18052379\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18047677",
             "role_id": "35352245",
             "person_name": "India Loval",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047677\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -78,7 +110,9 @@
             "person_id": "18041949",
             "role_id": "35236565",
             "person_name": "Winslow Homer",
+            "person_date": "American, 1836\u20131910",
             "role_name": "Artist",
+            "role_display_name": "",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041949\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236565\/"
         }
@@ -88,20 +122,23 @@
     },
     "colors": [
         {
-            "color": "#74564d",
-            "closest_css3": "#696969"
+            "color": "#9a7569",
+            "closest_crayola": "#a57164",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#a88375",
-            "closest_css3": "#bc8f8f"
+            "color": "#7c5b51",
+            "closest_crayola": "#6e5160",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#e1ccbb",
-            "closest_css3": "#f5deb3"
-        },
-        {
-            "color": "#4a352e",
-            "closest_css3": "#2f4f4f"
+            "color": "#4f3831",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

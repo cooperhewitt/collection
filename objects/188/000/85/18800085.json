@@ -3,6 +3,7 @@
     "tms:id": "180205",
     "accession_number": "1982-53-1",
     "title": "Textile, \"Windy Way\", 1954",
+    "title_raw": "Windy Way",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18800085\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1954,
     "year_acquired": "1982",
     "decade": "1950",
-    "woe:country": "23424954",
+    "woe:country_id": "23424954",
     "medium": "Medium: cotton\nTechnique: screen printed on plain weave",
     "markings": null,
     "signed": null,
     "inscribed": "Handprinted \"Windy Way\" Astrid Sampe Design NK:S Textilkammare Made in Sweden (printed in selvedge)",
     "provenance": "1982: acquired by Museum",
     "dimensions": "H x W: 360.7 x 64.1 cm (142 x 25 1\/4 in.)\nRepeat H: 45.1 cm (17 3\/4 in.)",
+    "dimensions_raw": {
+        "height": [
+            "45.09",
+            "centimeters"
+        ],
+        "width": [
+            "64.14",
+            "centimeters"
+        ]
+    },
     "creditline": null,
     "description": "Length of printed cotton with vertical stripes in seven shades of blue-green, arranged from darkest to lightest, overlaid with a grid of black lines and small white diamonds.",
     "justification": null,
-    "type": {
-        "id": "35251739",
-        "name": "textile"
-    },
+    "woe:country": "23424954",
+    "type": "textile",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/43756_e68b8009963bccf5_b.jpg",
                 "width": 506,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/43756_e68b8009963bccf5_n.jpg",
-                "width": 158,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "43756"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/43756_e68b8009963bccf5_z.jpg",
                 "width": 316,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "43756"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/43756_e68b8009963bccf5_n.jpg",
+                "width": 158,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "43756"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/43756_e68b8009963bccf5_d.gif",
+                "width": 158,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "43756"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/43756_e68b8009963bccf5_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "43756"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/77348_048120c7fb4e4cbe_b.jpg",
                 "width": 1024,
                 "height": 653,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/77348_048120c7fb4e4cbe_n.jpg",
-                "width": 320,
-                "height": 204,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "77348"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/77348_048120c7fb4e4cbe_z.jpg",
                 "width": 640,
                 "height": 408,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "77348"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/77348_048120c7fb4e4cbe_n.jpg",
+                "width": 320,
+                "height": 204,
+                "is_primary": "0",
+                "image_id": "77348"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/77348_048120c7fb4e4cbe_d.gif",
+                "width": 320,
+                "height": 204,
+                "is_primary": "0",
+                "image_id": "77348"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/77348_048120c7fb4e4cbe_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "77348"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18045553",
             "role_id": "35352249",
             "person_name": "Astrid Sampe",
+            "person_date": "Swedish, 1909\u20132002",
             "role_name": "Vendor",
+            "role_display_name": "Purchased from",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18045553\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352249\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18535975",
             "role_id": "35236675",
             "person_name": "Nordiska Kompaniet Stockholm",
+            "person_date": "",
             "role_name": "For",
+            "role_display_name": "Made for",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18535975\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236675\/"
         },
@@ -90,7 +137,9 @@
             "person_id": "18063067",
             "role_id": "35236673",
             "person_name": "Erik Ljungberg",
+            "person_date": "Swedish, 1907 - 1983",
             "role_name": "Printer",
+            "role_display_name": "Printed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18063067\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236673\/"
         },
@@ -98,7 +147,9 @@
             "person_id": "18045553",
             "role_id": "35236655",
             "person_name": "Astrid Sampe",
+            "person_date": "Swedish, 1909\u20132002",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18045553\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
@@ -108,24 +159,35 @@
     },
     "colors": [
         {
-            "color": "#306f73",
-            "closest_css3": "#2e8b57"
+            "color": "#265c61",
+            "closest_crayola": "#1a4876",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#203f45",
-            "closest_css3": "#2f4f4f"
+            "color": "#49898b",
+            "closest_crayola": "#319177",
+            "closest_css3": "#5f9ea0",
+            "closest_css4": "#5f9ea0"
         },
         {
-            "color": "#4f9396",
-            "closest_css3": "#5f9ea0"
+            "color": "#97c1c0",
+            "closest_crayola": "#b0b7c6",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
         },
         {
-            "color": "#99c3c2",
-            "closest_css3": "#b0c4de"
+            "color": "#203f46",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#2c2826",
-            "closest_css3": "#2f4f4f"
+            "color": "#2b2927",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         }
-    ]
+    ],
+    "woe:country_name": "Sweden"
 }

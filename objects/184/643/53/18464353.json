@@ -3,6 +3,7 @@
     "tms:id": "142782",
     "accession_number": "1968-140-11",
     "title": "Chair, early 18th century",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18464353\/",
     "department_id": "35347497",
     "period_id": null,
@@ -13,39 +14,68 @@
     "year_end": null,
     "year_acquired": "1968",
     "decade": null,
-    "woe:country": "23424775",
+    "woe:country_id": "23424775",
     "medium": "wood",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "87.4 x 42 x 44.5 cm (34 7\/16 x 16 9\/16 x 17 1\/2 in. )",
+    "dimensions_raw": {
+        "depth": [
+            "44.50",
+            "centimeters"
+        ],
+        "height": [
+            "87.40",
+            "centimeters"
+        ],
+        "width": [
+            "42.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Harvey Smith",
     "description": "This side chair is comprised of turned stretchers, a flat seat, and an open back.  The void rectangular area of the chair's back may have been filled with webbing at one point.  The chair rests on elaborately carved legs and feet.",
     "justification": null,
-    "type": {
-        "id": "35237307",
-        "name": "chair"
-    },
+    "woe:country": "23424775",
+    "type": "chair",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/6937_ae256fe3df0fc0d5_b.jpg",
                 "width": 685,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/6937_ae256fe3df0fc0d5_n.jpg",
-                "width": 214,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "6937"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/6937_ae256fe3df0fc0d5_z.jpg",
                 "width": 428,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "6937"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/6937_ae256fe3df0fc0d5_n.jpg",
+                "width": 214,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "6937"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/6937_ae256fe3df0fc0d5_d.gif",
+                "width": 214,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "6937"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/6937_ae256fe3df0fc0d5_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "6937"
             }
         },
         {
@@ -53,19 +83,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/6936_a9a4077c3bb2522c_b.jpg",
                 "width": 653,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/6936_a9a4077c3bb2522c_n.jpg",
-                "width": 204,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "6936"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/6936_a9a4077c3bb2522c_z.jpg",
                 "width": 408,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "6936"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/6936_a9a4077c3bb2522c_n.jpg",
+                "width": 204,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "6936"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/6936_a9a4077c3bb2522c_d.gif",
+                "width": 204,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "6936"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/6936_a9a4077c3bb2522c_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "6936"
             }
         }
     ],
@@ -74,7 +121,9 @@
             "person_id": "18049985",
             "role_id": "35351535",
             "person_name": "Harvey Smith",
+            "person_date": "1906\u20131994",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049985\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -84,24 +133,35 @@
     },
     "colors": [
         {
-            "color": "#492011",
-            "closest_css3": "#800000"
+            "color": "#481f11",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#800000",
+            "closest_css4": "#800000"
         },
         {
-            "color": "#804a22",
-            "closest_css3": "#8b4513"
+            "color": "#925a2d",
+            "closest_crayola": "#9c7c38",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         },
         {
-            "color": "#a06736",
-            "closest_css3": "#a0522d"
+            "color": "#713d1c",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#8b4513",
+            "closest_css4": "#8b4513"
         },
         {
-            "color": "#bf9160",
-            "closest_css3": "#cd853f"
+            "color": "#b58a5c",
+            "closest_crayola": "#a57164",
+            "closest_css3": "#cd853f",
+            "closest_css4": "#cd853f"
         },
         {
-            "color": "#34281d",
-            "closest_css3": "#2f4f4f"
+            "color": "#392b1f",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         }
-    ]
+    ],
+    "woe:country_name": "Canada"
 }

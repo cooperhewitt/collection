@@ -3,6 +3,7 @@
     "tms:id": "150851",
     "accession_number": "1973-15-57",
     "title": "Drawing, \"Small Product Label for National Dairy Ice Cream\", 20th century",
+    "title_raw": "Small Product Label for National Dairy Ice Cream",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18480037\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1972,
     "year_acquired": "1973",
     "decade": "1920",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Brush and green, gray gouache on paper",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "Henry Dreyfuss",
     "dimensions": "6.8 x 8.3 cm (2 11\/16 x 3 1\/4 in.)",
+    "dimensions_raw": {
+        "height": [
+            "6.80",
+            "centimeters"
+        ],
+        "width": [
+            "8.30",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of University of California, Los Angeles",
     "description": "Product label for National Dairy Ice Cream with green stripes.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424977",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/39389_198b1bab2be7c257_b.jpg",
                 "width": 1024,
                 "height": 866,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/39389_198b1bab2be7c257_n.jpg",
-                "width": 320,
-                "height": 271,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "39389"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/39389_198b1bab2be7c257_z.jpg",
                 "width": 640,
                 "height": 541,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "39389"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/39389_198b1bab2be7c257_n.jpg",
+                "width": 320,
+                "height": 271,
+                "is_primary": "1",
+                "image_id": "39389"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/39389_198b1bab2be7c257_d.gif",
+                "width": 320,
+                "height": 271,
+                "is_primary": "1",
+                "image_id": "39389"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/39389_198b1bab2be7c257_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "39389"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "51676457",
             "role_id": "35352245",
             "person_name": "Karin Zonis",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/51676457\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18041029",
             "role_id": "35236655",
             "person_name": "Henry Dreyfuss Associates",
+            "person_date": "founded 1929",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041029\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18041357",
             "role_id": "35351535",
             "person_name": "University Research Library, University of California, Los Angeles",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041357\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -81,15 +113,22 @@
     "colors": [
         {
             "color": "#b5c382",
-            "closest_css3": "#bdb76b"
+            "closest_crayola": "#bab86c",
+            "closest_css3": "#bdb76b",
+            "closest_css4": "#bdb76b"
         },
         {
             "color": "#a0ab93",
-            "closest_css3": "#a9a9a9"
+            "closest_crayola": "#95918c",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
         },
         {
-            "color": "#c5b894",
-            "closest_css3": "#d2b48c"
+            "color": "#d2c4a2",
+            "closest_crayola": "#e7c697",
+            "closest_css3": "#d2b48c",
+            "closest_css4": "#d2b48c"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

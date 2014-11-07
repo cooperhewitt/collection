@@ -3,6 +3,7 @@
     "tms:id": "134848",
     "accession_number": "1963-39-706",
     "title": "Drawing, \"Study for Advertisement, for Coca Cola\", ca. 1936",
+    "title_raw": "Study for Advertisement, for Coca Cola",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18448665\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1941,
     "year_acquired": "1963",
     "decade": "1930",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Graphite, blue, black crayon on thin paper",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "Mrs. E. McKnight Kauffer",
     "dimensions": "20.5 x 26 cm (8 1\/16 x 10 1\/4 in.)",
+    "dimensions_raw": {
+        "height": [
+            "20.50",
+            "centimeters"
+        ],
+        "width": [
+            "26.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Mrs. E. McKnight Kauffer",
     "description": "At upper right a billboard showing a bottle and the letters in graphite: CO CA CO LA [with a bottle drawn between A and C], and another inscription in graphite, below that: CO CA CO LA ; below, an alarm clock ringing, a hand and a bottle. Across face of clock and hand, in black crayon: TIME FOR A.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424977",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/54981_7e75b636e656082e_b.jpg",
                 "width": 1024,
                 "height": 810,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/54981_7e75b636e656082e_n.jpg",
-                "width": 320,
-                "height": 253,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "54981"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/54981_7e75b636e656082e_z.jpg",
                 "width": 640,
                 "height": 506,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "54981"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/54981_7e75b636e656082e_n.jpg",
+                "width": 320,
+                "height": 253,
+                "is_primary": "1",
+                "image_id": "54981"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/54981_7e75b636e656082e_d.gif",
+                "width": 320,
+                "height": 253,
+                "is_primary": "1",
+                "image_id": "54981"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/54981_7e75b636e656082e_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "54981"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "51676457",
             "role_id": "35352245",
             "person_name": "Karin Zonis",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/51676457\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18041923",
             "role_id": "35236655",
             "person_name": "Edward McKnight Kauffer",
+            "person_date": "American, active England, 1890\u20131954",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041923\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18061849",
             "role_id": "35351535",
             "person_name": "Mrs. Edward McKnight Kauffer",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18061849\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -81,11 +113,16 @@
     "colors": [
         {
             "color": "#d3d1c3",
-            "closest_css3": "#d3d3d3"
+            "closest_crayola": "#cdc5c2",
+            "closest_css3": "#d3d3d3",
+            "closest_css4": "#d3d3d3"
         },
         {
-            "color": "#6f8295",
-            "closest_css3": "#708090"
+            "color": "#72869a",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#778899",
+            "closest_css4": "#778899"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

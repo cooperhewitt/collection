@@ -3,6 +3,7 @@
     "tms:id": "182671",
     "accession_number": "1985-19-161",
     "title": "Sidewall - Sample, 1906\u201307",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18804773\/",
     "department_id": "35347503",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1907,
     "year_acquired": "1985",
     "decade": "1900",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Machine-printed",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "67 x 48 cm (26 3\/8 x 18 7\/8 in.)",
+    "dimensions_raw": {
+        "height": [
+            "67.00",
+            "centimeters"
+        ],
+        "width": [
+            "48.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Dorwin L. Starr",
     "description": "Rich design of grapes, peaches, pineapple and cinquefoil flowers in profuse foliage and grape leaves. Printed in shades of red and green, purple, brown and beige on an off-white ground.",
     "justification": null,
-    "type": {
-        "id": "35289147",
-        "name": "Sidewall - sample"
-    },
+    "woe:country": "23424977",
+    "type": "Sidewall - sample",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/45476_2b9680a18e44a50f_b.jpg",
                 "width": 737,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/45476_2b9680a18e44a50f_n.jpg",
-                "width": 230,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "45476"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/45476_2b9680a18e44a50f_z.jpg",
                 "width": 461,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "45476"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/45476_2b9680a18e44a50f_n.jpg",
+                "width": 230,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "45476"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/45476_2b9680a18e44a50f_d.gif",
+                "width": 230,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "45476"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/45476_2b9680a18e44a50f_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "45476"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/10326_f78a52e7d73399e0_b.jpg",
                 "width": 724,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/10326_f78a52e7d73399e0_n.jpg",
-                "width": 226,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "10326"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/10326_f78a52e7d73399e0_z.jpg",
                 "width": 452,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "10326"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/10326_f78a52e7d73399e0_n.jpg",
+                "width": 226,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "10326"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/10326_f78a52e7d73399e0_d.gif",
+                "width": 226,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "10326"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/10326_f78a52e7d73399e0_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "10326"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18046675",
             "role_id": "35236671",
             "person_name": "Liberty Paper & Bag Co.",
+            "person_date": "",
             "role_name": "Producer",
+            "role_display_name": "Produced by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18046675\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236671\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18537637",
             "role_id": "35351535",
             "person_name": "Dorwin L. Starr",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18537637\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -92,24 +139,35 @@
     },
     "colors": [
         {
-            "color": "#a89160",
-            "closest_css3": "#bdb76b"
+            "color": "#b7a072",
+            "closest_crayola": "#cd9575",
+            "closest_css3": "#bdb76b",
+            "closest_css4": "#bdb76b"
         },
         {
-            "color": "#ccb582",
-            "closest_css3": "#d2b48c"
+            "color": "#787548",
+            "closest_crayola": "#85754e",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#777647",
-            "closest_css3": "#696969"
+            "color": "#939056",
+            "closest_crayola": "#8a795d",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#5f4237",
-            "closest_css3": "#556b2f"
+            "color": "#464935",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#434634",
-            "closest_css3": "#2f4f4f"
+            "color": "#694b32",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

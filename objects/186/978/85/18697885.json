@@ -3,6 +3,7 @@
     "tms:id": "224546",
     "accession_number": "1930-11-1-m",
     "title": "Sidewall, 1925\u201330",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18697885\/",
     "department_id": "35347503",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1930,
     "year_acquired": "1930",
     "decade": "1920",
-    "woe:country": "23424750",
+    "woe:country_id": "23424750",
     "medium": "Machine-printed",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "61 x 46.5 cm (24 x 18 5\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "61.00",
+            "centimeters"
+        ],
+        "width": [
+            "46.50",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Frankl Galleries",
     "description": "Surreal or dada image containing a central motif of vase with flowers, fan, bowl with lemons, pitcher and a book with initials AJD on back cover. Printed in blue and gray on pink ground. Part of a Wallpaper Scrapbook containing an assortment of papers, some of which were made at the \"Wiener Werkstatte\".",
     "justification": null,
-    "type": {
-        "id": "35256475",
-        "name": "Sidewall"
-    },
+    "woe:country": "23424750",
+    "type": "Sidewall",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/50152_7c066fd29a4fbf7b_b.jpg",
                 "width": 1024,
                 "height": 1016,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/50152_7c066fd29a4fbf7b_n.jpg",
-                "width": 320,
-                "height": 318,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "50152"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/50152_7c066fd29a4fbf7b_z.jpg",
                 "width": 640,
                 "height": 635,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "50152"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/50152_7c066fd29a4fbf7b_n.jpg",
+                "width": 320,
+                "height": 318,
+                "is_primary": "1",
+                "image_id": "50152"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/50152_7c066fd29a4fbf7b_d.gif",
+                "width": 320,
+                "height": 318,
+                "is_primary": "1",
+                "image_id": "50152"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/50152_7c066fd29a4fbf7b_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "50152"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/21805_7b7adc9b067e31c5_b.jpg",
                 "width": 1024,
                 "height": 1006,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/21805_7b7adc9b067e31c5_n.jpg",
-                "width": 320,
-                "height": 314,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "21805"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/21805_7b7adc9b067e31c5_z.jpg",
                 "width": 640,
                 "height": 629,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "21805"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/21805_7b7adc9b067e31c5_n.jpg",
+                "width": 320,
+                "height": 314,
+                "is_primary": "0",
+                "image_id": "21805"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/21805_7b7adc9b067e31c5_d.gif",
+                "width": 320,
+                "height": 314,
+                "is_primary": "0",
+                "image_id": "21805"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/21805_7b7adc9b067e31c5_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "21805"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18537969",
             "role_id": "35351535",
             "person_name": "Frankl Galleries",
+            "person_date": "New York, New York, USA",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18537969\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -84,12 +129,23 @@
     },
     "colors": [
         {
-            "color": "#958d7f",
-            "closest_css3": "#808080"
+            "color": "#b3a495",
+            "closest_crayola": "#979aaa",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
         },
         {
-            "color": "#c8cbdb",
-            "closest_css3": "#d3d3d3"
+            "color": "#c4cadd",
+            "closest_crayola": "#c5d0e6",
+            "closest_css3": "#d3d3d3",
+            "closest_css4": "#d3d3d3"
+        },
+        {
+            "color": "#90897a",
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         }
-    ]
+    ],
+    "woe:country_name": "Austria"
 }

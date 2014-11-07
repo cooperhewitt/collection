@@ -3,6 +3,7 @@
     "tms:id": "94231",
     "accession_number": "1945-69-9439",
     "title": "Print, \"Tower Falls, Yellowstone\", late 19th century",
+    "title_raw": "Tower Falls, Yellowstone",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18601599\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": null,
     "year_acquired": "1945",
     "decade": null,
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Wood engraving on cream wove paper",
     "markings": null,
     "signed": "Signed in plate with monogram, lower left: HF; lower right: W. J. LINTON",
     "inscribed": "Inscribed in plate, lower left margin: 89; lower center margin: TOWER FALLS",
     "provenance": "Gilbert White Rose and Henry Martin Rose II",
     "dimensions": "27 x 19.9 cm (10 5\/8 x 7 13\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "27.00",
+            "centimeters"
+        ],
+        "width": [
+            "19.90",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Gilbert White Rose and Henry Martin Rose II",
     "description": "Waterfall from high cliffs into river below; figure on rocks motioning to waterfall with arm raised.",
     "justification": null,
-    "type": {
-        "id": "35236873",
-        "name": "Print"
-    },
+    "woe:country": "23424977",
+    "type": "Print",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/19653_90b4b30af7329372_b.jpg",
                 "width": 764,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/19653_90b4b30af7329372_n.jpg",
-                "width": 239,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "19653"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/19653_90b4b30af7329372_z.jpg",
                 "width": 477,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "19653"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/19653_90b4b30af7329372_n.jpg",
+                "width": 239,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "19653"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/19653_90b4b30af7329372_d.gif",
+                "width": 239,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "19653"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/19653_90b4b30af7329372_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "19653"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "51676457",
             "role_id": "35352245",
             "person_name": "Karin Zonis",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/51676457\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18058121",
             "role_id": "35351535",
             "person_name": "Henry Martin Rose II",
+            "person_date": "American",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18058121\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18058123",
             "role_id": "35351535",
             "person_name": "Gilbert White Rose",
+            "person_date": "American",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18058123\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -78,7 +110,9 @@
             "person_id": "18058133",
             "role_id": "35236743",
             "person_name": "William Jason Linton",
+            "person_date": "",
             "role_name": "Engraver",
+            "role_display_name": "Engraved by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18058133\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236743\/"
         },
@@ -86,7 +120,9 @@
             "person_id": "18058131",
             "role_id": "35236565",
             "person_name": "Harry Fenn",
+            "person_date": "American, 1845\u20131911",
             "role_name": "Artist",
+            "role_display_name": "",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18058131\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236565\/"
         }
@@ -96,24 +132,35 @@
     },
     "colors": [
         {
-            "color": "#5d5649",
-            "closest_css3": "#556b2f"
+            "color": "#4e483d",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
             "color": "#e1cdb3",
-            "closest_css3": "#f5deb3"
+            "closest_crayola": "#efcdb8",
+            "closest_css3": "#f5deb3",
+            "closest_css4": "#f5deb3"
         },
         {
-            "color": "#322d23",
-            "closest_css3": "#2f4f4f"
+            "color": "#776c58",
+            "closest_crayola": "#85754e",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#9f9077",
-            "closest_css3": "#808080"
+            "color": "#9d8e74",
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#80725b",
-            "closest_css3": "#696969"
+            "color": "#2e2922",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

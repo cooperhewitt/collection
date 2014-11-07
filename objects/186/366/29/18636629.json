@@ -3,6 +3,7 @@
     "tms:id": "193165",
     "accession_number": "1991-58-19",
     "title": "Drawing, \"Study for Title Page, Les Jardins d'Andr\u00e9 Vera\", ca. 1919",
+    "title_raw": "Study for Title Page, Les Jardins d'Andr\u00e9 Vera",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18636629\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1924,
     "year_acquired": "1991",
     "decade": "1910",
-    "woe:country": "23424819",
+    "woe:country_id": "23424819",
     "medium": "Pen and black ink, brush and watercolor, gouache, graphite on tracing paper",
     "markings": null,
     "signed": null,
     "inscribed": "Upper left margin, in graphite: donner plus d'intimit\u00e9 et d'unit\u00e9",
     "provenance": "1991: acquired by Museum (from Yu-Chee Chong Fine Art, London)",
     "dimensions": "31.9 x 20.6 cm (12 9\/16 x 8 1\/8 in.), irregular",
-    "creditline": null,
+    "dimensions_raw": {
+        "height": [
+            "31.90",
+            "centimeters"
+        ],
+        "width": [
+            "20.20",
+            "centimeters"
+        ]
+    },
+    "creditline": "Museum purchase from Smithsonian Institution Collections Acquisition Program Fund",
     "description": "View of gardens with house in far, center.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424819",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/63862_bfacd86355746dac_b.jpg",
                 "width": 669,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/63862_bfacd86355746dac_n.jpg",
-                "width": 209,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "63862"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/63862_bfacd86355746dac_z.jpg",
                 "width": 418,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "63862"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/63862_bfacd86355746dac_n.jpg",
+                "width": 209,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "63862"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/63862_bfacd86355746dac_d.gif",
+                "width": 209,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "63862"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/63862_bfacd86355746dac_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "63862"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18043123",
             "role_id": "35236655",
             "person_name": "Paul Vera",
+            "person_date": "French, 1882\u20131957; active in Paris",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18043123\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -62,34 +90,57 @@
             "person_id": "18043125",
             "role_id": "35236655",
             "person_name": "Andr\u00e9 Vera",
+            "person_date": "French, 1881\u20131971; active in Paris",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18043125\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
+        },
+        {
+            "person_id": "18061593",
+            "role_id": "35352249",
+            "person_name": "Yu-Chee Chong",
+            "person_date": "",
+            "role_name": "Vendor",
+            "role_display_name": "Purchased from",
+            "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18061593\/",
+            "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352249\/"
         }
     ],
     "tombstone": {
-        "epitaph": "Drawing, \"Study for Title Page, Les Jardins d'Andr\u00e9 Vera\", ca. 1919. Pen and black ink, brush and watercolor, gouache, graphite on tracing paper. 1991-58-19."
+        "epitaph": "Drawing, \"Study for Title Page, Les Jardins d'Andr\u00e9 Vera\", ca. 1919. Pen and black ink, brush and watercolor, gouache, graphite on tracing paper. Museum purchase from Smithsonian Institution Collections Acquisition Program Fund. 1991-58-19."
     },
     "colors": [
         {
-            "color": "#f2e9ca",
-            "closest_css3": "#ffebcd"
+            "color": "#f0e5c1",
+            "closest_crayola": "#eceabe",
+            "closest_css3": "#ffe4c4",
+            "closest_css4": "#ffe4c4"
         },
         {
-            "color": "#f1e28d",
-            "closest_css3": "#f0e68c"
+            "color": "#a0a373",
+            "closest_crayola": "#87a96b",
+            "closest_css3": "#bdb76b",
+            "closest_css4": "#bdb76b"
         },
         {
-            "color": "#b5c080",
-            "closest_css3": "#bdb76b"
+            "color": "#f1e078",
+            "closest_crayola": "#fcd975",
+            "closest_css3": "#f0e68c",
+            "closest_css4": "#f0e68c"
         },
         {
-            "color": "#6a6d44",
-            "closest_css3": "#556b2f"
+            "color": "#88844e",
+            "closest_crayola": "#85754e",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#843b31",
-            "closest_css3": "#8b4513"
+            "color": "#5d6140",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         }
-    ]
+    ],
+    "woe:country_name": "France"
 }

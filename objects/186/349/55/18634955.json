@@ -3,6 +3,7 @@
     "tms:id": "192324",
     "accession_number": "1990-74-1",
     "title": "Textile, \"Saanen\", 1989",
+    "title_raw": "Saanen",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18634955\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,72 @@
     "year_end": 1989,
     "year_acquired": "1990",
     "decade": "1980",
-    "woe:country": "23424829",
+    "woe:country_id": "23424829",
     "medium": "Medium:\nTechnique: printed on plain weave",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "Warp x Weft: 307 x 156 cm (10 ft. 7\/8 in. x 5 ft. 1 7\/16 in.)\nWarp x Weft: 337 x 156 cm (11 ft. 11\/16 in. x 5 ft. 1 7\/16 in.)\nRepeat H x W (offset): 90 x 43 cm (35 7\/16 x 16 15\/16 in.)\nRepeat H x W (offset): 44.5 x 44.5 cm (17 1\/2 x 17 1\/2 in.)",
+    "dimensions_raw": {
+        "height": [
+            "90.00",
+            "centimeters"
+        ],
+        "warp": [
+            "307.00",
+            "centimeters"
+        ],
+        "weft": [
+            "156.00",
+            "centimeters"
+        ],
+        "width": [
+            "43.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of KBC of America",
     "description": "Collage of photos of cars, letters and the numbers 3 and 5. Black, white, blues, orange, yellow.",
     "justification": null,
-    "type": {
-        "id": "35251739",
-        "name": "textile"
-    },
+    "woe:country": "23424829",
+    "type": "textile",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/78588_9ae066f8f160fd89_b.jpg",
                 "width": 663,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/78588_9ae066f8f160fd89_n.jpg",
-                "width": 207,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "78588"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/78588_9ae066f8f160fd89_z.jpg",
                 "width": 414,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "78588"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/78588_9ae066f8f160fd89_n.jpg",
+                "width": 207,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "78588"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/78588_9ae066f8f160fd89_d.gif",
+                "width": 207,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "78588"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/78588_9ae066f8f160fd89_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "78588"
             }
         },
         {
@@ -53,19 +87,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/78589_e9d1190afc5d6e01_b.jpg",
                 "width": 1024,
                 "height": 663,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/78589_e9d1190afc5d6e01_n.jpg",
-                "width": 320,
-                "height": 207,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "78589"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/78589_e9d1190afc5d6e01_z.jpg",
                 "width": 640,
                 "height": 414,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "78589"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/78589_e9d1190afc5d6e01_n.jpg",
+                "width": 320,
+                "height": 207,
+                "is_primary": "0",
+                "image_id": "78589"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/78589_e9d1190afc5d6e01_d.gif",
+                "width": 320,
+                "height": 207,
+                "is_primary": "0",
+                "image_id": "78589"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/78589_e9d1190afc5d6e01_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "78589"
             }
         }
     ],
@@ -74,7 +125,9 @@
             "person_id": "18045905",
             "role_id": "35351535",
             "person_name": "KBC of America",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18045905\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -82,7 +135,9 @@
             "person_id": "18047459",
             "role_id": "35352245",
             "person_name": "Gillian Moss",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047459\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -90,7 +145,9 @@
             "person_id": "18045905",
             "role_id": "35236675",
             "person_name": "KBC of America",
+            "person_date": "",
             "role_name": "For",
+            "role_display_name": "Made for",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18045905\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236675\/"
         },
@@ -98,7 +155,9 @@
             "person_id": "18045907",
             "role_id": "35236685",
             "person_name": "Koechlin Baumgartner & Cie",
+            "person_date": "",
             "role_name": "Maker",
+            "role_display_name": "Made by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18045907\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236685\/"
         }
@@ -108,5 +167,6 @@
     },
     "colors": [
 
-    ]
+    ],
+    "woe:country_name": "Germany"
 }

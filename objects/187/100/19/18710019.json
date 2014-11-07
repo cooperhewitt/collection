@@ -3,6 +3,7 @@
     "tms:id": "230867",
     "accession_number": "2007-23-3",
     "title": "Textile, \"Curlycue\", 2007",
+    "title_raw": "Curlycue",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18710019\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 2007,
     "year_acquired": "2007",
     "decade": "2000",
-    "woe:country": "23424977",
+    "woe:country_id": "23424829",
     "medium": "Medium: cotton, polyester\nTechnique: jacquard woven",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "Mark Pollack; 2007: acquired by Museum",
     "dimensions": "Warp x Weft: 274.3 x 142.2 cm (108 x 56 in.)",
+    "dimensions_raw": {
+        "warp": [
+            "274.30",
+            "centimeters"
+        ],
+        "weft": [
+            "142.20",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Mark Pollack",
     "description": "Dove brown ground with a pattern resembling white bobbin lace, with looping forms, bridges, net grounds, in an ogival framework.",
     "justification": null,
-    "type": {
-        "id": "35251739",
-        "name": "textile"
-    },
+    "woe:country": "23424829",
+    "type": "textile",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/27688_fa5caa7ba6d5df8c_b.jpg",
                 "width": 1024,
                 "height": 849,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/27688_fa5caa7ba6d5df8c_n.jpg",
-                "width": 320,
-                "height": 265,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "27688"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/27688_fa5caa7ba6d5df8c_z.jpg",
                 "width": 640,
                 "height": 530,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "27688"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/27688_fa5caa7ba6d5df8c_n.jpg",
+                "width": 320,
+                "height": 265,
+                "is_primary": "1",
+                "image_id": "27688"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/27688_fa5caa7ba6d5df8c_d.gif",
+                "width": 320,
+                "height": 265,
+                "is_primary": "1",
+                "image_id": "27688"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/27688_fa5caa7ba6d5df8c_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "27688"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "68244809",
             "role_id": "35236655",
             "person_name": "Rachel Doriss",
+            "person_date": "American, b. 1975",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/68244809\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -62,9 +90,21 @@
             "person_id": "18045517",
             "role_id": "35351535",
             "person_name": "Mark C. Pollack",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18045517\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
+        },
+        {
+            "person_id": "68737247",
+            "role_id": "35236655",
+            "person_name": "The Pollack Studio",
+            "person_date": "",
+            "role_name": "Designer",
+            "role_display_name": "Designed by",
+            "person_url": "http:\/\/collection.cooperhewitt.org\/people\/68737247\/",
+            "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
     ],
     "tombstone": {
@@ -72,20 +112,23 @@
     },
     "colors": [
         {
-            "color": "#ada094",
-            "closest_css3": "#a9a9a9"
+            "color": "#938270",
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#d0c9c3",
-            "closest_css3": "#c0c0c0"
+            "color": "#c8c0b5",
+            "closest_crayola": "#cdc5c2",
+            "closest_css3": "#c0c0c0",
+            "closest_css4": "#c0c0c0"
         },
         {
-            "color": "#928170",
-            "closest_css3": "#808080"
-        },
-        {
-            "color": "#725a42",
-            "closest_css3": "#556b2f"
+            "color": "#7e6851",
+            "closest_crayola": "#85754e",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         }
-    ]
+    ],
+    "woe:country_name": "Germany"
 }

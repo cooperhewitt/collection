@@ -3,6 +3,7 @@
     "tms:id": "190168",
     "accession_number": "1988-62-461",
     "title": "Drawing, \"Terzett: Brown, Light Blue and Grey\", 1912\u201331",
+    "title_raw": "Terzett: Brown, Light Blue and Grey",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18630655\/",
     "department_id": "35347493",
     "period_id": "35435467",
@@ -13,39 +14,64 @@
     "year_end": 1912,
     "year_acquired": "1988",
     "decade": "1910",
-    "woe:country": "23424750",
+    "woe:country_id": "23424750",
     "medium": "Brush and gouache on paper",
     "markings": null,
     "signed": null,
     "inscribed": "Inscribed in black ink, upper left: TERZETT",
     "provenance": null,
     "dimensions": "7.5 x 21.2 cm (2 15\/16 x 8 3\/8 in.)\nMat: 32.8 x 46.2 cm (12 15\/16 x 18 3\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "7.50",
+            "centimeters"
+        ],
+        "width": [
+            "21.20",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase from Smithsonian Collections Acquisition and Decorative Arts Association Acquisition Funds",
     "description": "Woven pattern in light blue, gray and brown.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424750",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/27127_3844c309ce3e8939_b.jpg",
                 "width": 1024,
                 "height": 721,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/27127_3844c309ce3e8939_n.jpg",
-                "width": 320,
-                "height": 225,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "27127"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/27127_3844c309ce3e8939_z.jpg",
                 "width": 640,
                 "height": 451,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "27127"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/27127_3844c309ce3e8939_n.jpg",
+                "width": 320,
+                "height": 225,
+                "is_primary": "1",
+                "image_id": "27127"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/27127_3844c309ce3e8939_d.gif",
+                "width": 320,
+                "height": 225,
+                "is_primary": "1",
+                "image_id": "27127"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/27127_3844c309ce3e8939_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "27127"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "51676457",
             "role_id": "35352245",
             "person_name": "Karin Zonis",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/51676457\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18049365",
             "role_id": "35352247",
             "person_name": "Decorative Arts Association Acquisition Fund",
+            "person_date": "founded 1982, closed September 30, 1998",
             "role_name": "Fund",
+            "role_display_name": "Fund:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049365\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352247\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18538455",
             "role_id": "35352249",
             "person_name": "Wolfgang Ruf",
+            "person_date": "",
             "role_name": "Vendor",
+            "role_display_name": "Purchased from",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18538455\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352249\/"
         },
@@ -78,7 +110,9 @@
             "person_id": "18048101",
             "role_id": "35236675",
             "person_name": "Wiener Werkst\u00e4tte",
+            "person_date": "Vienna, Austria, 1903\u20131932",
             "role_name": "For",
+            "role_display_name": "Made for",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18048101\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236675\/"
         },
@@ -86,7 +120,9 @@
             "person_id": "18052057",
             "role_id": "35236655",
             "person_name": "Maria Strauss Likarz",
+            "person_date": "Austrian, 1893\u20131971",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18052057\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
@@ -96,24 +132,35 @@
     },
     "colors": [
         {
-            "color": "#ddd7c4",
-            "closest_css3": "#d3d3d3"
+            "color": "#e2dcc6",
+            "closest_crayola": "#dbd7d2",
+            "closest_css3": "#d3d3d3",
+            "closest_css4": "#d3d3d3"
         },
         {
-            "color": "#a9771d",
-            "closest_css3": "#b8860b"
+            "color": "#ab6a1c",
+            "closest_crayola": "#c46210",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         },
         {
-            "color": "#847921",
-            "closest_css3": "#6b8e23"
+            "color": "#b2a48f",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         },
         {
-            "color": "#bdb09a",
-            "closest_css3": "#d2b48c"
+            "color": "#7f7a22",
+            "closest_crayola": "#9c7c38",
+            "closest_css3": "#6b8e23",
+            "closest_css4": "#6b8e23"
         },
         {
-            "color": "#6f3e22",
-            "closest_css3": "#8b4513"
+            "color": "#733f23",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#8b4513",
+            "closest_css4": "#8b4513"
         }
-    ]
+    ],
+    "woe:country_name": "Austria"
 }

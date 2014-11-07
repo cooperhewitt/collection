@@ -3,6 +3,7 @@
     "tms:id": "76159",
     "accession_number": "1942-50-1",
     "title": "Drawing, \"Portrait of Sophie Huntington\", 1844",
+    "title_raw": "Portrait of Sophie Huntington",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18565733\/",
     "department_id": "35347493",
     "period_id": "35417269",
@@ -13,39 +14,64 @@
     "year_end": 1844,
     "year_acquired": "1942",
     "decade": null,
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Black and white crayon on gray wove paper",
     "markings": null,
     "signed": "in graphite, below right: S. W. Cheney \/ Rome \/ 1844",
     "inscribed": "in graphite, below left (likely signed by Daniel Huntington): Sophie Huntington \/ Drawn by S. W. Cheney \/ Rome 1844",
     "provenance": "Erskine Hewitt",
     "dimensions": "38.1 x 26.2 cm (15 x 10 5\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "38.10",
+            "centimeters"
+        ],
+        "width": [
+            "26.20",
+            "centimeters"
+        ]
+    },
     "creditline": "Bequest of Erskine Hewitt",
     "description": "Sophie Huntington shown in right profile.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424977",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/34078_2dc2563fa23e9e84_b.jpg",
                 "width": 720,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/34078_2dc2563fa23e9e84_n.jpg",
-                "width": 225,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "34078"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/34078_2dc2563fa23e9e84_z.jpg",
                 "width": 450,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "34078"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/34078_2dc2563fa23e9e84_n.jpg",
+                "width": 225,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "34078"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/34078_2dc2563fa23e9e84_d.gif",
+                "width": 225,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "34078"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/34078_2dc2563fa23e9e84_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "34078"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18063309",
             "role_id": "35236565",
             "person_name": "Seth Wells Cheney",
+            "person_date": "American, 1810 - 1856",
             "role_name": "Artist",
+            "role_display_name": "",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18063309\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236565\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18050021",
             "role_id": "35351537",
             "person_name": "Erskine Hewitt",
+            "person_date": "American, 1871\u20131938",
             "role_name": "Bequestor",
+            "role_display_name": "Bequest of",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18050021\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351537\/"
         }
@@ -72,24 +102,35 @@
     },
     "colors": [
         {
-            "color": "#fbcca9",
-            "closest_css3": "#ffdead"
+            "color": "#c69b67",
+            "closest_crayola": "#cd9575",
+            "closest_css3": "#bdb76b",
+            "closest_css4": "#bdb76b"
         },
         {
-            "color": "#ecc57a",
-            "closest_css3": "#deb887"
+            "color": "#a2805d",
+            "closest_crayola": "#a57164",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#ae8b55",
-            "closest_css3": "#cd853f"
+            "color": "#806758",
+            "closest_crayola": "#85754e",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#cc9f7c",
-            "closest_css3": "#d2b48c"
+            "color": "#fefee1",
+            "closest_crayola": "#ffffff",
+            "closest_css3": "#ffffe0",
+            "closest_css4": "#ffffe0"
         },
         {
-            "color": "#887159",
-            "closest_css3": "#696969"
+            "color": "#fce2a5",
+            "closest_crayola": "#fae7b5",
+            "closest_css3": "#ffdead",
+            "closest_css4": "#ffdead"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

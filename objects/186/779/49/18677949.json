@@ -3,6 +3,7 @@
     "tms:id": "214440",
     "accession_number": "1969-165-132",
     "title": "Sample, \"Cutout\", 1954",
+    "title_raw": "Cutout",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18677949\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1954,
     "year_acquired": "1969",
     "decade": "1950",
-    "woe:country": null,
+    "woe:country_id": null,
     "medium": "Medium: 100% cotton poplin (woven in Switzerland)\nTechnique: printed on plain weave",
     "markings": "Herman MIller Fabrics paper label attached to lower right corner.",
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "H x W: 59.7 x 59.7 cm (23 1\/2 x 23 1\/2 in.)",
+    "dimensions_raw": {
+        "height": [
+            "59.69",
+            "centimeters"
+        ],
+        "width": [
+            "59.69",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Alexander H. Girard",
     "description": "Columns of paper cutouts, printed in grey, black, pink and blue on light brown. Serged on all four sides.",
     "justification": null,
-    "type": {
-        "id": "35268079",
-        "name": "Sample"
-    },
+    "woe:country": null,
+    "type": "Sample",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/41979_bce6a95cfa9c14b4_b.jpg",
                 "width": 1024,
                 "height": 1023,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/41979_bce6a95cfa9c14b4_n.jpg",
-                "width": 320,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "41979"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/41979_bce6a95cfa9c14b4_z.jpg",
                 "width": 640,
                 "height": 639,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "41979"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/41979_bce6a95cfa9c14b4_n.jpg",
+                "width": 320,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "41979"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/41979_bce6a95cfa9c14b4_d.gif",
+                "width": 320,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "41979"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/41979_bce6a95cfa9c14b4_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "41979"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/7659_da8138ad8b76f292_b.jpg",
                 "width": 822,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/7659_da8138ad8b76f292_n.jpg",
-                "width": 257,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "7659"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/7659_da8138ad8b76f292_z.jpg",
                 "width": 514,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "7659"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/7659_da8138ad8b76f292_n.jpg",
+                "width": 257,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "7659"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/7659_da8138ad8b76f292_d.gif",
+                "width": 257,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "7659"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/7659_da8138ad8b76f292_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "7659"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18046041",
             "role_id": "35351535",
             "person_name": "Alexander Hayden Girard",
+            "person_date": "American, 1907\u20131993",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18046041\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18046041",
             "role_id": "35236655",
             "person_name": "Alexander Hayden Girard",
+            "person_date": "American, 1907\u20131993",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18046041\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
@@ -92,24 +139,34 @@
     },
     "colors": [
         {
-            "color": "#684f2a",
-            "closest_css3": "#556b2f"
+            "color": "#684e28",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         },
         {
-            "color": "#352d2a",
-            "closest_css3": "#2f4f4f"
+            "color": "#796e5e",
+            "closest_crayola": "#8a795d",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#8f4943",
-            "closest_css3": "#a0522d"
+            "color": "#352b25",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#7a6f60",
-            "closest_css3": "#696969"
+            "color": "#8e4942",
+            "closest_crayola": "#9c2542",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         },
         {
-            "color": "#333041",
-            "closest_css3": "#2f4f4f"
+            "color": "#322f40",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         }
     ]
 }

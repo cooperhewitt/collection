@@ -3,6 +3,7 @@
     "tms:id": "157732",
     "accession_number": "1978-141-1-a,b",
     "title": "Ashtray, \"Cylinda\", 1967",
+    "title_raw": "Cylinda",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18493683\/",
     "department_id": "35347497",
     "period_id": null,
@@ -13,39 +14,68 @@
     "year_end": 1967,
     "year_acquired": "1978",
     "decade": "1960",
-    "woe:country": "23424796",
+    "woe:country_id": "23424796",
     "medium": "Brushed stainless steel",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "1978: acquired by Museum",
     "dimensions": "H x W x D: 6.7 x 11 x 7.5 cm (2 5\/8 x 4 5\/16 x 2 15\/16 in.)",
+    "dimensions_raw": {
+        "depth": [
+            "7.50",
+            "centimeters"
+        ],
+        "height": [
+            "6.70",
+            "centimeters"
+        ],
+        "width": [
+            "11.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Mr. and Mrs. Richard Stein",
     "description": "Ashtray of two parts: circular, stainless steel concave bowl (a) rests on lip of short cylindrical base (b); one short and one long steel pin project from opposite sides of bowl, and rest in grooves in lip of base.  (Bowl can be tipped by grasping and turning longer pin.)",
     "justification": null,
-    "type": {
-        "id": "35248265",
-        "name": "ashtray"
-    },
+    "woe:country": "23424796",
+    "type": "ashtray",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/44044_63b0d2d926386f54_b.jpg",
                 "width": 1024,
                 "height": 843,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/44044_63b0d2d926386f54_n.jpg",
-                "width": 320,
-                "height": 263,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "44044"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/44044_63b0d2d926386f54_z.jpg",
                 "width": 640,
                 "height": 527,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "44044"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/44044_63b0d2d926386f54_n.jpg",
+                "width": 320,
+                "height": 263,
+                "is_primary": "1",
+                "image_id": "44044"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/44044_63b0d2d926386f54_d.gif",
+                "width": 320,
+                "height": 263,
+                "is_primary": "1",
+                "image_id": "44044"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/44044_63b0d2d926386f54_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "44044"
             }
         }
     ],
@@ -54,7 +84,9 @@
             "person_id": "51678219",
             "role_id": "35351535",
             "person_name": "Mr. & Mrs. Richard Stein",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/51678219\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -62,7 +94,9 @@
             "person_id": "18057525",
             "role_id": "35236657",
             "person_name": "Stelton A\/S",
+            "person_date": "Copenhagen, Denmark",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18057525\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         },
@@ -70,7 +104,9 @@
             "person_id": "18044547",
             "role_id": "35236655",
             "person_name": "Arne Jacobsen",
+            "person_date": "Danish, 1902 \u2013 1971",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18044547\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
@@ -81,11 +117,16 @@
     "colors": [
         {
             "color": "#3d3c39",
-            "closest_css3": "#2f4f4f"
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
             "color": "#5f5d5a",
-            "closest_css3": "#696969"
+            "closest_crayola": "#6e5160",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         }
-    ]
+    ],
+    "woe:country_name": "Denmark"
 }

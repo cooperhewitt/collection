@@ -3,6 +3,7 @@
     "tms:id": "156111",
     "accession_number": "1976-23-15",
     "title": "Photograph, \"Mariposa Grove, Grizzly Giant, Yosemite\", 1861\u201366",
+    "title_raw": "Mariposa Grove, Grizzly Giant, Yosemite",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18490467\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1927,
     "year_acquired": "1976",
     "decade": null,
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Albumen silver print",
     "markings": null,
     "signed": "Lower right corner: C. E. Watkins",
     "inscribed": null,
     "provenance": "1976: acquired by Museum",
     "dimensions": "39.5 x 52.8 cm (15 9\/16 x 20 13\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "39.50",
+            "centimeters"
+        ],
+        "width": [
+            "52.80",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Unknown Donor",
     "description": "View of forest, man with rifle, standing before an enormous tree trunk.",
     "justification": null,
-    "type": {
-        "id": "35247381",
-        "name": "photograph"
-    },
+    "woe:country": "23424977",
+    "type": "photograph",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/18496_310f41b75a89ea34_b.jpg",
                 "width": 1024,
                 "height": 777,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/18496_310f41b75a89ea34_n.jpg",
-                "width": 320,
-                "height": 243,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "18496"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/18496_310f41b75a89ea34_z.jpg",
                 "width": 640,
                 "height": 486,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "18496"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/18496_310f41b75a89ea34_n.jpg",
+                "width": 320,
+                "height": 243,
+                "is_primary": "1",
+                "image_id": "18496"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/18496_310f41b75a89ea34_d.gif",
+                "width": 320,
+                "height": 243,
+                "is_primary": "1",
+                "image_id": "18496"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/18496_310f41b75a89ea34_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "18496"
             }
         }
     ],
@@ -54,15 +80,19 @@
             "person_id": "18535861",
             "role_id": "35236631",
             "person_name": "Carleton E. Watkins",
+            "person_date": "American, 1829 \u2013 1916",
             "role_name": "Photographer",
+            "role_display_name": "Photographed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18535861\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236631\/"
         },
         {
             "person_id": "18057545",
             "role_id": "35352257",
-            "person_name": "Cooper-Hewitt, National Design Museum: Picture Library",
+            "person_name": "Cooper Hewitt, Smithsonian Design Museum: Picture Library",
+            "person_date": "",
             "role_name": "Transferor",
+            "role_display_name": "Transferred from",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18057545\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352257\/"
         }
@@ -72,24 +102,35 @@
     },
     "colors": [
         {
-            "color": "#3c2023",
-            "closest_css3": "#2f4f4f"
+            "color": "#4e343e",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#654852",
-            "closest_css3": "#696969"
+            "color": "#2d1618",
+            "closest_crayola": "#000000",
+            "closest_css3": "#000000",
+            "closest_css4": "#000000"
         },
         {
-            "color": "#7e5243",
-            "closest_css3": "#a0522d"
+            "color": "#755863",
+            "closest_crayola": "#6e5160",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#eed5cd",
-            "closest_css3": "#ffe4c4"
+            "color": "#f2dbd3",
+            "closest_crayola": "#efdecd",
+            "closest_css3": "#faebd7",
+            "closest_css4": "#faebd7"
         },
         {
-            "color": "#896978",
-            "closest_css3": "#808080"
+            "color": "#7d513e",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

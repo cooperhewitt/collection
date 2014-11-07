@@ -3,6 +3,7 @@
     "tms:id": "190682",
     "accession_number": "1988-62-924",
     "title": "Drawing, \"Korngold: light purple with purple\", 1923\u201332",
+    "title_raw": "Korngold: light purple with purple",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18631683\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,55 @@
     "year_end": 1932,
     "year_acquired": "1988",
     "decade": "1920",
-    "woe:country": "23424750",
+    "woe:country_id": "23424750",
     "medium": "Brush and gouache on paper",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "1988: acquired by Museum (from Wolfgang Ruf)",
     "dimensions": null,
+    "dimensions_raw": null,
     "creditline": "Museum purchase from Smithsonian Collections Acquisition and Decorative Arts Association Acquisition Funds",
     "description": "On light purple ground, wheat stalks in red and purple, green, and pink, along with purple stalks. A small tulip at center in green and one in upper right corner in blue.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424750",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/50670_7305358565c04384_b.jpg",
                 "width": 973,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/50670_7305358565c04384_n.jpg",
-                "width": 304,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "50670"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/50670_7305358565c04384_z.jpg",
                 "width": 608,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "50670"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/50670_7305358565c04384_n.jpg",
+                "width": 304,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "50670"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/50670_7305358565c04384_d.gif",
+                "width": 304,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "50670"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/50670_7305358565c04384_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "50670"
             }
         },
         {
@@ -53,19 +70,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/50667_2cbf3a7d9a2363df_b.jpg",
                 "width": 1024,
                 "height": 716,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/50667_2cbf3a7d9a2363df_n.jpg",
-                "width": 320,
-                "height": 224,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "50667"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/50667_2cbf3a7d9a2363df_z.jpg",
                 "width": 640,
                 "height": 447,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "50667"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/50667_2cbf3a7d9a2363df_n.jpg",
+                "width": 320,
+                "height": 224,
+                "is_primary": "0",
+                "image_id": "50667"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/50667_2cbf3a7d9a2363df_d.gif",
+                "width": 320,
+                "height": 224,
+                "is_primary": "0",
+                "image_id": "50667"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/50667_2cbf3a7d9a2363df_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "50667"
             }
         }
     ],
@@ -74,7 +108,9 @@
             "person_id": "18536953",
             "role_id": "35236655",
             "person_name": "Felice Rix-Ueno",
+            "person_date": "Austrian, 1893\u20131967",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18536953\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -82,7 +118,9 @@
             "person_id": "18049365",
             "role_id": "35352247",
             "person_name": "Decorative Arts Association Acquisition Fund",
+            "person_date": "founded 1982, closed September 30, 1998",
             "role_name": "Fund",
+            "role_display_name": "Fund:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049365\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352247\/"
         },
@@ -90,7 +128,9 @@
             "person_id": "18538455",
             "role_id": "35352249",
             "person_name": "Wolfgang Ruf",
+            "person_date": "",
             "role_name": "Vendor",
+            "role_display_name": "Purchased from",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18538455\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352249\/"
         }
@@ -100,24 +140,35 @@
     },
     "colors": [
         {
-            "color": "#ebead5",
-            "closest_css3": "#faebd7"
+            "color": "#ece8d2",
+            "closest_crayola": "#efdecd",
+            "closest_css3": "#faebd7",
+            "closest_css4": "#faebd7"
         },
         {
-            "color": "#5e507f",
-            "closest_css3": "#483d8b"
+            "color": "#5d5280",
+            "closest_crayola": "#58427c",
+            "closest_css3": "#483d8b",
+            "closest_css4": "#483d8b"
         },
         {
-            "color": "#947294",
-            "closest_css3": "#808080"
+            "color": "#9b7997",
+            "closest_crayola": "#926eae",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#98443f",
-            "closest_css3": "#a0522d"
+            "color": "#a74947",
+            "closest_crayola": "#bf4f51",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         },
         {
-            "color": "#cdbbb5",
-            "closest_css3": "#c0c0c0"
+            "color": "#849aa8",
+            "closest_crayola": "#979aaa",
+            "closest_css3": "#778899",
+            "closest_css4": "#778899"
         }
-    ]
+    ],
+    "woe:country_name": "Austria"
 }

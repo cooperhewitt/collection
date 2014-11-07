@@ -3,6 +3,7 @@
     "tms:id": "113629",
     "accession_number": "1955-85-4-a,b",
     "title": "Border, 1805\u201315",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18406877\/",
     "department_id": "35347503",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1820,
     "year_acquired": "1955",
     "decade": null,
-    "woe:country": "23424819",
+    "woe:country_id": "23424819",
     "medium": "Block-printed on handmade paper",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "55 x 8 cm (21 5\/8 x 3 1\/8 in.)",
+    "dimensions_raw": {
+        "height": [
+            "55.00",
+            "centimeters"
+        ],
+        "width": [
+            "8.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Josephine Howell",
     "description": "Gathered blue drapery with lace edging in white. Blue ribbon caught with medallions along bottom edge; was probably meant to be cut out to use as chair rail. Both motifs are ornamented with white pearls and black scroll and bead design.",
     "justification": null,
-    "type": {
-        "id": "35237285",
-        "name": "Border"
-    },
+    "woe:country": "23424819",
+    "type": "Border",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/50968_f03c19ac49aa92f3_b.jpg",
                 "width": 785,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/50968_f03c19ac49aa92f3_n.jpg",
-                "width": 245,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "50968"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/50968_f03c19ac49aa92f3_z.jpg",
                 "width": 491,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "50968"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/50968_f03c19ac49aa92f3_n.jpg",
+                "width": 245,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "50968"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/50968_f03c19ac49aa92f3_d.gif",
+                "width": 245,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "50968"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/50968_f03c19ac49aa92f3_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "50968"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/21447_7a922a899cd01f65_b.jpg",
                 "width": 969,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/21447_7a922a899cd01f65_n.jpg",
-                "width": 303,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "21447"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/21447_7a922a899cd01f65_z.jpg",
                 "width": 605,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "21447"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/21447_7a922a899cd01f65_n.jpg",
+                "width": 303,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "21447"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/21447_7a922a899cd01f65_d.gif",
+                "width": 303,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "21447"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/21447_7a922a899cd01f65_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "21447"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18049387",
             "role_id": "35351535",
             "person_name": "Josephine Howell",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049387\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18047829",
             "role_id": "35352245",
             "person_name": "Horace L. Hotchkiss, Jr.",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047829\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         }
@@ -93,23 +140,34 @@
     "colors": [
         {
             "color": "#73acaf",
-            "closest_css3": "#5f9ea0"
+            "closest_crayola": "#6699cc",
+            "closest_css3": "#5f9ea0",
+            "closest_css4": "#5f9ea0"
         },
         {
-            "color": "#a0a18b",
-            "closest_css3": "#8fbc8f"
+            "color": "#4c8091",
+            "closest_crayola": "#319177",
+            "closest_css3": "#4682b4",
+            "closest_css4": "#4682b4"
         },
         {
-            "color": "#4b8090",
-            "closest_css3": "#4682b4"
+            "color": "#a7a893",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
         },
         {
-            "color": "#af7b3f",
-            "closest_css3": "#cd853f"
+            "color": "#363431",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#305371",
-            "closest_css3": "#2f4f4f"
+            "color": "#b47f43",
+            "closest_crayola": "#b4674d",
+            "closest_css3": "#cd853f",
+            "closest_css4": "#cd853f"
         }
-    ]
+    ],
+    "woe:country_name": "France"
 }

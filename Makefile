@@ -1,7 +1,7 @@
-all:	csv glossary
-
 prune:
 	git gc --aggressive --prune
+
+build:	csv glossary pubdate
 
 csv:
 	bin/generate-csv-exhibitions.py
@@ -32,3 +32,6 @@ glossary:
 
 	bin/generate-glossary.py --objects types --glossary meta/types-glossary.json
 	bin/publish-glossary.py --glossary meta/types-glossary.json --markdown meta/types-glossary.md
+
+pubdate:
+	echo `date` > PUBDATE.md

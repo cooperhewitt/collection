@@ -3,6 +3,7 @@
     "tms:id": "156112",
     "accession_number": "1976-23-16",
     "title": "Photograph, \"Nevada Fall, Yosemite\", 1861\u201366",
+    "title_raw": "Nevada Fall, Yosemite",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18490469\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1927,
     "year_acquired": "1976",
     "decade": null,
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Albumen silver print",
     "markings": null,
     "signed": "Lower right corner: C. E. Watkins",
     "inscribed": null,
     "provenance": "1976: acquired by Museum",
     "dimensions": "39.6 x 52.7 cm (15 9\/16 x 20 3\/4 in.)",
+    "dimensions_raw": {
+        "height": [
+            "39.60",
+            "centimeters"
+        ],
+        "width": [
+            "52.70",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Unknown Donor",
     "description": "View of body of water, trees in middle ground, and waterfall between cliffs in distance. In foreground, rocks and wooden log.",
     "justification": null,
-    "type": {
-        "id": "35247381",
-        "name": "photograph"
-    },
+    "woe:country": "23424977",
+    "type": "photograph",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/18495_0000f0f1363e5866_b.jpg",
                 "width": 1024,
                 "height": 789,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/18495_0000f0f1363e5866_n.jpg",
-                "width": 320,
-                "height": 247,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "18495"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/18495_0000f0f1363e5866_z.jpg",
                 "width": 640,
                 "height": 493,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "18495"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/18495_0000f0f1363e5866_n.jpg",
+                "width": 320,
+                "height": 247,
+                "is_primary": "1",
+                "image_id": "18495"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/18495_0000f0f1363e5866_d.gif",
+                "width": 320,
+                "height": 247,
+                "is_primary": "1",
+                "image_id": "18495"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/18495_0000f0f1363e5866_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "18495"
             }
         }
     ],
@@ -54,15 +80,19 @@
             "person_id": "18535861",
             "role_id": "35236631",
             "person_name": "Carleton E. Watkins",
+            "person_date": "American, 1829 \u2013 1916",
             "role_name": "Photographer",
+            "role_display_name": "Photographed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18535861\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236631\/"
         },
         {
             "person_id": "18057545",
             "role_id": "35352257",
-            "person_name": "Cooper-Hewitt, National Design Museum: Picture Library",
+            "person_name": "Cooper Hewitt, Smithsonian Design Museum: Picture Library",
+            "person_date": "",
             "role_name": "Transferor",
+            "role_display_name": "Transferred from",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18057545\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352257\/"
         }
@@ -72,24 +102,35 @@
     },
     "colors": [
         {
-            "color": "#2a1a1a",
-            "closest_css3": "#000000"
+            "color": "#321f1f",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#000000",
+            "closest_css4": "#000000"
         },
         {
-            "color": "#503128",
-            "closest_css3": "#556b2f"
+            "color": "#ebe1cf",
+            "closest_crayola": "#efdecd",
+            "closest_css3": "#faebd7",
+            "closest_css4": "#faebd7"
         },
         {
-            "color": "#ece4d1",
-            "closest_css3": "#faebd7"
+            "color": "#563f3f",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#6e5352",
-            "closest_css3": "#696969"
+            "color": "#775b5a",
+            "closest_crayola": "#6e5160",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#bca195",
-            "closest_css3": "#bc8f8f"
+            "color": "#ba9f93",
+            "closest_crayola": "#cd9575",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

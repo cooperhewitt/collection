@@ -3,6 +3,7 @@
     "tms:id": "135219",
     "accession_number": "1963-49-2",
     "title": "Textile",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18449407\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,60 @@
     "year_end": null,
     "year_acquired": "1963",
     "decade": null,
-    "woe:country": null,
+    "woe:country_id": null,
     "medium": "warp: linen, weft: linen & metal-wrapped, thread, embroidery; silk",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "Height: 108cm (42 1\/2in.). Width:107.5cm (42 1\/4in.) Both selvedges present.",
+    "dimensions_raw": {
+        "height": [
+            "107.50",
+            "centimeters"
+        ]
+    },
     "creditline": null,
     "description": "Foundation: plain weave with bands of metallic weft which have now oxidized to black and areas of supplementary metallic weft in each corner looking like squat birds with long beaks. There is a supplementary weft area in the middle of the cloth but it is hidden by subsequent embroidery. Embroidery: Deflected Element Work, Withdrawn Element Work with needle weaving and stem and satin stitches.",
     "justification": null,
-    "type": {
-        "id": "35251739",
-        "name": "textile"
-    },
+    "woe:country": null,
+    "type": "textile",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/74636_8b435ffb5ab282a2_b.jpg",
                 "width": 985,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/74636_8b435ffb5ab282a2_n.jpg",
-                "width": 308,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "74636"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/74636_8b435ffb5ab282a2_z.jpg",
                 "width": 616,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "74636"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/74636_8b435ffb5ab282a2_n.jpg",
+                "width": 308,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "74636"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/74636_8b435ffb5ab282a2_d.gif",
+                "width": 308,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "74636"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/74636_8b435ffb5ab282a2_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "74636"
             }
         },
         {
@@ -53,19 +75,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/74637_882c28412b112d1f_b.jpg",
                 "width": 669,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/74637_882c28412b112d1f_n.jpg",
-                "width": 209,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "74637"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/74637_882c28412b112d1f_z.jpg",
                 "width": 418,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "74637"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/74637_882c28412b112d1f_n.jpg",
+                "width": 209,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "74637"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/74637_882c28412b112d1f_d.gif",
+                "width": 209,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "74637"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/74637_882c28412b112d1f_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "74637"
             }
         }
     ],
@@ -74,7 +113,9 @@
             "person_id": "18536971",
             "role_id": "35351535",
             "person_name": "Mrs. E. Sanderson Cushman",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18536971\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -82,7 +123,9 @@
             "person_id": "18047459",
             "role_id": "35352245",
             "person_name": "Gillian Moss",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047459\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         }
@@ -92,24 +135,34 @@
     },
     "colors": [
         {
-            "color": "#f5f3d3",
-            "closest_css3": "#fafad2"
+            "color": "#f1eccc",
+            "closest_crayola": "#efdecd",
+            "closest_css3": "#ffebcd",
+            "closest_css4": "#ffebcd"
         },
         {
             "color": "#181724",
-            "closest_css3": "#000000"
+            "closest_crayola": "#000000",
+            "closest_css3": "#000000",
+            "closest_css4": "#000000"
         },
         {
-            "color": "#8e827e",
-            "closest_css3": "#808080"
+            "color": "#9d9088",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         },
         {
-            "color": "#b5a898",
-            "closest_css3": "#a9a9a9"
+            "color": "#857572",
+            "closest_crayola": "#757575",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#3a363e",
-            "closest_css3": "#2f4f4f"
+            "color": "#38353d",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         }
     ]
 }

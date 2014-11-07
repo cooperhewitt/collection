@@ -3,6 +3,7 @@
     "tms:id": "189180",
     "accession_number": "1988-46-9-a,b",
     "title": "Cream Pitcher And Lid, \"Cupola\", ca. 1987",
+    "title_raw": "Cupola",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18628681\/",
     "department_id": "35347497",
     "period_id": null,
@@ -13,39 +14,68 @@
     "year_end": 1992,
     "year_acquired": "1988",
     "decade": "1980",
-    "woe:country": "23424853",
+    "woe:country_id": "23424829",
     "medium": "Glazed porcelain",
     "markings": "On underside, in white: \"Rosenthal \/ studio-line \/ GERMANY \/ Porcelaine noire \/ Design: Mario Bellini \/ [Mario Bellini in script]",
     "signed": null,
     "inscribed": null,
     "provenance": "1988: acquired by Museum",
     "dimensions": "H x W (a,b: overall): 13 x 10.2 cm (5 1\/8 in. x 4 in.)\nH x W (a: pitcher): 9 x 10.2 cm (3 9\/16 in. x 4 in.)\nH x diam. (b: lid): 4 x 7.4 cm (1 9\/16 x 2 15\/16 in.)",
+    "dimensions_raw": {
+        "diameter": [
+            "7.40",
+            "centimeters"
+        ],
+        "height": [
+            "13.00",
+            "centimeters"
+        ],
+        "width": [
+            "10.20",
+            "centimeters"
+        ]
+    },
     "creditline": null,
     "description": "Black pitcher with angular spout and bowl-shaped lid.",
     "justification": null,
-    "type": {
-        "id": "35294145",
-        "name": "Cream pitcher and lid"
-    },
+    "woe:country": "23424829",
+    "type": "Cream pitcher and lid",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/48041_664d59b3b8e2cf38_b.jpg",
                 "width": 1024,
                 "height": 676,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/48041_664d59b3b8e2cf38_n.jpg",
-                "width": 320,
-                "height": 211,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "48041"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/48041_664d59b3b8e2cf38_z.jpg",
                 "width": 640,
                 "height": 422,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "48041"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/48041_664d59b3b8e2cf38_n.jpg",
+                "width": 320,
+                "height": 211,
+                "is_primary": "1",
+                "image_id": "48041"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/48041_664d59b3b8e2cf38_d.gif",
+                "width": 320,
+                "height": 211,
+                "is_primary": "1",
+                "image_id": "48041"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/48041_664d59b3b8e2cf38_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "48041"
             }
         }
     ],
@@ -54,7 +84,9 @@
             "person_id": "18043913",
             "role_id": "35236657",
             "person_name": "Rosenthal Glas Und Porzellan Aktiengesellschaft",
+            "person_date": "founded 1891",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18043913\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         },
@@ -62,7 +94,9 @@
             "person_id": "18044493",
             "role_id": "35236655",
             "person_name": "Mario Bellini",
+            "person_date": "Italian, b. 1935",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18044493\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
@@ -72,8 +106,11 @@
     },
     "colors": [
         {
-            "color": "#000000",
-            "closest_css3": "#000000"
+            "color": "#303032",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         }
-    ]
+    ],
+    "woe:country_name": "Germany"
 }

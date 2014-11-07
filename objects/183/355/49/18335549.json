@@ -3,6 +3,7 @@
     "tms:id": "51577",
     "accession_number": "1931-94-221",
     "title": "Print, \"Saturn\", ca. 1670",
+    "title_raw": "Saturn",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18335549\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1680,
     "year_acquired": "1931",
     "decade": null,
-    "woe:country": "23424853",
+    "woe:country_id": "23424853",
     "medium": "Black ink on paper",
     "markings": null,
     "signed": null,
     "inscribed": "Inscribed, lower left center: \"SIR\" and lower center: \"Sirani invenit\" ( in reverse)",
     "provenance": "Given by the Misses Hewitt",
     "dimensions": "18.7 x 14.1 cm (7 3\/8 x 5 9\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "18.70",
+            "centimeters"
+        ],
+        "width": [
+            "14.10",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Eleanor and Sarah Hewitt",
     "description": "Vertical etching of Saturn, shown nude with a long beard and carrying  a scythe, is seated on a cloud, facing half-left.",
     "justification": null,
-    "type": {
-        "id": "35236873",
-        "name": "Print"
-    },
+    "woe:country": "23424853",
+    "type": "Print",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/30845_1f36f7093f53427e_b.jpg",
                 "width": 1024,
                 "height": 431,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/30845_1f36f7093f53427e_n.jpg",
-                "width": 320,
-                "height": 135,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "30845"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/30845_1f36f7093f53427e_z.jpg",
                 "width": 640,
                 "height": 269,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "30845"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/30845_1f36f7093f53427e_n.jpg",
+                "width": 320,
+                "height": 135,
+                "is_primary": "1",
+                "image_id": "30845"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/30845_1f36f7093f53427e_d.gif",
+                "width": 320,
+                "height": 135,
+                "is_primary": "1",
+                "image_id": "30845"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/30845_1f36f7093f53427e_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "30845"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18049325",
             "role_id": "35351535",
             "person_name": "Eleanor Garnier Hewitt",
+            "person_date": "American, 1864\u20131924",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049325\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -62,9 +90,31 @@
             "person_id": "18049321",
             "role_id": "35351535",
             "person_name": "Sarah Cooper Hewitt",
+            "person_date": "American, 1859\u20131930",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049321\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
+        },
+        {
+            "person_id": "68739117",
+            "role_id": "35236677",
+            "person_name": "Giovanni Andrea Sirani",
+            "person_date": "Italian, 1610 - 1670",
+            "role_name": "After",
+            "role_display_name": "After",
+            "person_url": "http:\/\/collection.cooperhewitt.org\/people\/68739117\/",
+            "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236677\/"
+        },
+        {
+            "person_id": "68739115",
+            "role_id": "35236565",
+            "person_name": "Girolamo Scarselli",
+            "person_date": "Italian, active c. 1670",
+            "role_name": "Artist",
+            "role_display_name": "",
+            "person_url": "http:\/\/collection.cooperhewitt.org\/people\/68739115\/",
+            "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236565\/"
         }
     ],
     "tombstone": {
@@ -72,20 +122,23 @@
     },
     "colors": [
         {
-            "color": "#727269",
-            "closest_css3": "#696969"
+            "color": "#36373a",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#333437",
-            "closest_css3": "#2f4f4f"
+            "color": "#5b5d56",
+            "closest_crayola": "#6e5160",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#51534d",
-            "closest_css3": "#2f4f4f"
-        },
-        {
-            "color": "#969488",
-            "closest_css3": "#808080"
+            "color": "#848178",
+            "closest_crayola": "#757575",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         }
-    ]
+    ],
+    "woe:country_name": "Italy"
 }

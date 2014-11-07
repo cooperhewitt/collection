@@ -3,6 +3,7 @@
     "tms:id": "227119",
     "accession_number": "2005-8-16",
     "title": "Textile, 1903\u20131932",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18702701\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1932,
     "year_acquired": "2005",
     "decade": "1900",
-    "woe:country": "23424750",
+    "woe:country_id": "23424750",
     "medium": "Medium: silk \nTechnique: block printed on plain weave",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "Height: 7.9 cm (3 1\/8 in.)\nWidth: 11.4 cm (4 1\/2 in.)",
+    "dimensions_raw": {
+        "height": [
+            "7.94",
+            "centimeters"
+        ],
+        "width": [
+            "11.43",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase from General Acquisitions Endowment Fund",
     "description": "Pattern incomplete. Ogives formed of three layers of dashed black lines, innermost with a pale yellow fill; black center with ivory flowering branch; ivory ground. Direction of ogives alternates from vertical to horizontal orientation.",
     "justification": null,
-    "type": {
-        "id": "35251739",
-        "name": "textile"
-    },
+    "woe:country": "23424750",
+    "type": "textile",
     "images": [
         {
             "b": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/53553_84ec30b311820d7b_b.jpg",
+                "url": "http:\/\/images.collection.cooperhewitt.org\/53553_e181380756684958_b.jpg",
                 "width": 1024,
-                "height": 731,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/53553_84ec30b311820d7b_n.jpg",
-                "width": 320,
-                "height": 229,
-                "is_primary": "1"
+                "height": 1024,
+                "is_primary": "1",
+                "image_id": "53553"
             },
             "z": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/53553_84ec30b311820d7b_z.jpg",
+                "url": "http:\/\/images.collection.cooperhewitt.org\/53553_e181380756684958_z.jpg",
                 "width": 640,
-                "height": 457,
-                "is_primary": "1"
+                "height": 640,
+                "is_primary": "1",
+                "image_id": "53553"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/53553_e181380756684958_n.jpg",
+                "width": 320,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "53553"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/53553_e181380756684958_d.gif",
+                "width": 320,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "53553"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/53553_e181380756684958_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "53553"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/20808_cf8fac5ac1d68b39_b.jpg",
                 "width": 1024,
                 "height": 755,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/20808_cf8fac5ac1d68b39_n.jpg",
-                "width": 320,
-                "height": 236,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "20808"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/20808_cf8fac5ac1d68b39_z.jpg",
                 "width": 640,
                 "height": 472,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "20808"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/20808_cf8fac5ac1d68b39_n.jpg",
+                "width": 320,
+                "height": 236,
+                "is_primary": "0",
+                "image_id": "20808"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/20808_cf8fac5ac1d68b39_d.gif",
+                "width": 320,
+                "height": 236,
+                "is_primary": "0",
+                "image_id": "20808"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/20808_cf8fac5ac1d68b39_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "20808"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18057215",
             "role_id": "35352249",
             "person_name": "Estate of Vance Gordon",
+            "person_date": "",
             "role_name": "Vendor",
+            "role_display_name": "Purchased from",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18057215\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352249\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18048101",
             "role_id": "35236655",
             "person_name": "Wiener Werkst\u00e4tte",
+            "person_date": "Vienna, Austria, 1903\u20131932",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18048101\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -90,7 +137,9 @@
             "person_id": "18048535",
             "role_id": "35352247",
             "person_name": "General Acquisitions Endowment",
+            "person_date": "",
             "role_name": "Fund",
+            "role_display_name": "Fund:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18048535\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352247\/"
         }
@@ -100,24 +149,35 @@
     },
     "colors": [
         {
-            "color": "#e1d9c9",
-            "closest_css3": "#d3d3d3"
+            "color": "#cdc4b0",
+            "closest_crayola": "#cdc5c2",
+            "closest_css3": "#c0c0c0",
+            "closest_css4": "#c0c0c0"
         },
         {
-            "color": "#b7afa0",
-            "closest_css3": "#a9a9a9"
+            "color": "#292826",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#4e483f",
-            "closest_css3": "#2f4f4f"
+            "color": "#d4bc5e",
+            "closest_crayola": "#bab86c",
+            "closest_css3": "#bdb76b",
+            "closest_css4": "#bdb76b"
         },
         {
-            "color": "#dbc46a",
-            "closest_css3": "#deb887"
+            "color": "#625a4b",
+            "closest_crayola": "#6e5160",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#6a6456",
-            "closest_css3": "#696969"
+            "color": "#827963",
+            "closest_crayola": "#8a795d",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         }
-    ]
+    ],
+    "woe:country_name": "Austria"
 }

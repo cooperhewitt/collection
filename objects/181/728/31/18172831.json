@@ -3,6 +3,7 @@
     "tms:id": "18630",
     "accession_number": "1911-28-80",
     "title": "Drawing, 1719\u201320",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18172831\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1739,
     "year_acquired": "1911",
     "decade": null,
-    "woe:country": "23424819",
+    "woe:country_id": "23424819",
     "medium": "Pen and black ink, brush and watercolor on white laid paper",
     "markings": "Watermark: T centrally placed above the I H S over three nails rising from a heart in oval",
     "signed": null,
     "inscribed": "Inscribed in pen and brown ink across top of sheet: Coupe du Salon d'alignement \u00e0 l'Enfilade du grand Apartement du Palais Royal; lower left: the scale 5 Toises. Remnant of a framing line at bottom edge.",
     "provenance": "L\u00e9on Decloux; 1911: acquired by Museum",
     "dimensions": "58.1 x 42.9cm (22 7\/8 x 16 7\/8in.)",
+    "dimensions_raw": {
+        "height": [
+            "71.10",
+            "centimeters"
+        ],
+        "width": [
+            "42.90",
+            "centimeters"
+        ]
+    },
     "creditline": "Purchased for the Museum by the Advisory Council",
     "description": "The sectional elevation shows a two-storied chamber, the second story indicated by a balcony. Roof construction is also shown.The design continues to the left with the outlines of a roof and the elevation of a wall, showing a dado and an entablature with brackets, and toward the lower right a section of the substructure.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424819",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/1484_9db2c326a8be212f_b.jpg",
                 "width": 762,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/1484_9db2c326a8be212f_n.jpg",
-                "width": 238,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "1484"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/1484_9db2c326a8be212f_z.jpg",
                 "width": 476,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "1484"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/1484_9db2c326a8be212f_n.jpg",
+                "width": 238,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "1484"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/1484_9db2c326a8be212f_d.gif",
+                "width": 238,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "1484"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/1484_9db2c326a8be212f_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "1484"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18049621",
             "role_id": "35351535",
             "person_name": "Advisory Council",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049621\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18539205",
             "role_id": "35352245",
             "person_name": "Floramae McCarron-Cates",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18539205\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18043501",
             "role_id": "35236669",
             "person_name": "Gilles-Marie Oppenord",
+            "person_date": "French, 1672\u20131742",
             "role_name": "Draftsman",
+            "role_display_name": "Drafted by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18043501\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236669\/"
         },
@@ -78,7 +110,9 @@
             "person_id": "18047439",
             "role_id": "35352245",
             "person_name": "Rudolph Berliner",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047439\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -86,7 +120,9 @@
             "person_id": "18054439",
             "role_id": "35352245",
             "person_name": "Richard P. Wunder",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18054439\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -94,7 +130,9 @@
             "person_id": "18043501",
             "role_id": "35236655",
             "person_name": "Gilles-Marie Oppenord",
+            "person_date": "French, 1672\u20131742",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18043501\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
@@ -104,20 +142,29 @@
     },
     "colors": [
         {
-            "color": "#c3aaa4",
-            "closest_css3": "#a9a9a9"
+            "color": "#cab2af",
+            "closest_crayola": "#cdc5c2",
+            "closest_css3": "#c0c0c0",
+            "closest_css4": "#c0c0c0"
+        },
+        {
+            "color": "#a08484",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         },
         {
             "color": "#eadadc",
-            "closest_css3": "#dcdcdc"
+            "closest_crayola": "#efdecd",
+            "closest_css3": "#dcdcdc",
+            "closest_css4": "#dcdcdc"
         },
         {
-            "color": "#9e8380",
-            "closest_css3": "#808080"
-        },
-        {
-            "color": "#7c6161",
-            "closest_css3": "#696969"
+            "color": "#856766",
+            "closest_crayola": "#8a795d",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         }
-    ]
+    ],
+    "woe:country_name": "France"
 }

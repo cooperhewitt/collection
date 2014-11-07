@@ -3,6 +3,7 @@
     "tms:id": "226807",
     "accession_number": "2006-29-4",
     "title": "Sample, 1948",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18702285\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1949,
     "year_acquired": "2006",
     "decade": "1940",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Medium: wool, cotton, and Lurex\nTechnique: twill woven",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "Helga Regensteiner Sinaiko; 2006: acquired by Museum (through Eve Sinaiko)",
     "dimensions": "Warp x Weft: 59.7 x 22.9 cm (23 1\/2 x 9 in.)",
+    "dimensions_raw": {
+        "warp": [
+            "59.70",
+            "centimeters"
+        ],
+        "weft": [
+            "22.90",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Helga Regensteiner Sinaiko",
     "description": "Upholstery fabric with a natural cotton warp and thick brown wool weft with a small amount of copper Lurex and cotton chenille, in a herringbone twill pattern.",
     "justification": null,
-    "type": {
-        "id": "35268079",
-        "name": "Sample"
-    },
+    "woe:country": "23424977",
+    "type": "Sample",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/24064_709298c6e8c2cbed_b.jpg",
                 "width": 670,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/24064_709298c6e8c2cbed_n.jpg",
-                "width": 209,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "24064"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/24064_709298c6e8c2cbed_z.jpg",
                 "width": 419,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "24064"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/24064_709298c6e8c2cbed_n.jpg",
+                "width": 209,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "24064"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/24064_709298c6e8c2cbed_d.gif",
+                "width": 209,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "24064"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/24064_709298c6e8c2cbed_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "24064"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18060577",
             "role_id": "35351535",
             "person_name": "Helga Sinaiko",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18060577\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "52272023",
             "role_id": "35236655",
             "person_name": "Julia McVicker",
+            "person_date": "",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/52272023\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -70,9 +100,41 @@
             "person_id": "18058065",
             "role_id": "51571159",
             "person_name": "Eve Sinaiko",
+            "person_date": "",
             "role_name": "Agent",
+            "role_display_name": "Agent:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18058065\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/51571159\/"
+        },
+        {
+            "person_id": "68737161",
+            "role_id": "35236675",
+            "person_name": "Samuel Marx",
+            "person_date": "",
+            "role_name": "For",
+            "role_display_name": "Made for",
+            "person_url": "http:\/\/collection.cooperhewitt.org\/people\/68737161\/",
+            "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236675\/"
+        },
+        {
+            "person_id": "68737043",
+            "role_id": "35236657",
+            "person_name": "reg\/wick Hand Woven Originals",
+            "person_date": "",
+            "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
+            "person_url": "http:\/\/collection.cooperhewitt.org\/people\/68737043\/",
+            "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
+        },
+        {
+            "person_id": "68737039",
+            "role_id": "35236655",
+            "person_name": "Else Regensteiner (American, b. Germany, 1906 \u2013 2003)",
+            "person_date": "",
+            "role_name": "Designer",
+            "role_display_name": "Designed by",
+            "person_url": "http:\/\/collection.cooperhewitt.org\/people\/68737039\/",
+            "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
     ],
     "tombstone": {
@@ -80,24 +142,35 @@
     },
     "colors": [
         {
-            "color": "#533427",
-            "closest_css3": "#556b2f"
+            "color": "#4a2f23",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#dac38c",
-            "closest_css3": "#deb887"
+            "color": "#e0c68f",
+            "closest_crayola": "#e7c697",
+            "closest_css3": "#deb887",
+            "closest_css4": "#deb887"
         },
         {
-            "color": "#28180f",
-            "closest_css3": "#000000"
+            "color": "#a68b5e",
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#cd853f",
+            "closest_css4": "#cd853f"
         },
         {
-            "color": "#9b835a",
-            "closest_css3": "#808080"
+            "color": "#775d3e",
+            "closest_crayola": "#85754e",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         },
         {
-            "color": "#755a3a",
-            "closest_css3": "#556b2f"
+            "color": "#ebe5cd",
+            "closest_crayola": "#efdecd",
+            "closest_css3": "#faebd7",
+            "closest_css4": "#faebd7"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

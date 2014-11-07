@@ -3,6 +3,7 @@
     "tms:id": "155658",
     "accession_number": "1976-100-46",
     "title": "Sampler, 1808",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18489569\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1808,
     "year_acquired": "1976",
     "decade": null,
-    "woe:country": "23424975",
+    "woe:country_id": "23424975",
     "medium": "Medium: silk on linen\nTechnique: cross stitch on plain weave foundation. Counted stitches.",
     "markings": null,
     "signed": "Initials and year (1808)",
     "inscribed": null,
     "provenance": "Ex. coll. Fraser-Martin. Purchased in Exeter, NH.",
     "dimensions": "H x W: 35.5 x 25.8 cm (14 in. x 10 3\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "35.50",
+            "centimeters"
+        ],
+        "width": [
+            "25.80",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Anonymous Donor from the Fraser\/Martin Collection",
     "description": "Bands of geometric pattern, four alphabets and two sets of numbers. At the bottom is a wreath containing the initials I.C.E. and a G. Two birds on either side of \"1808.\"",
     "justification": null,
-    "type": {
-        "id": "35256439",
-        "name": "Sampler"
-    },
+    "woe:country": "23424975",
+    "type": "Sampler",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/47245_a5fcd24be23bcb4e_b.jpg",
                 "width": 743,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/47245_a5fcd24be23bcb4e_n.jpg",
-                "width": 232,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "47245"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/47245_a5fcd24be23bcb4e_z.jpg",
                 "width": 464,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "47245"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/47245_a5fcd24be23bcb4e_n.jpg",
+                "width": 232,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "47245"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/47245_a5fcd24be23bcb4e_d.gif",
+                "width": 232,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "47245"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/47245_a5fcd24be23bcb4e_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "47245"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/35060_1e3f3020f6698cb2_b.jpg",
                 "width": 739,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/35060_1e3f3020f6698cb2_n.jpg",
-                "width": 231,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "35060"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/35060_1e3f3020f6698cb2_z.jpg",
                 "width": 462,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "35060"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/35060_1e3f3020f6698cb2_n.jpg",
+                "width": 231,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "35060"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/35060_1e3f3020f6698cb2_d.gif",
+                "width": 231,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "35060"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/35060_1e3f3020f6698cb2_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "35060"
             }
         }
     ],
@@ -73,8 +116,10 @@
         {
             "person_id": "18049335",
             "role_id": "35351535",
-            "person_name": "Anonymous",
+            "person_name": "Unknown",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049335\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -84,12 +129,23 @@
     },
     "colors": [
         {
-            "color": "#a2875b",
-            "closest_css3": "#808080"
+            "color": "#8a8971",
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#7f795f",
-            "closest_css3": "#696969"
+            "color": "#696b5a",
+            "closest_crayola": "#6e5160",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
+        },
+        {
+            "color": "#ddd7ca",
+            "closest_crayola": "#dbd7d2",
+            "closest_css3": "#d3d3d3",
+            "closest_css4": "#d3d3d3"
         }
-    ]
+    ],
+    "woe:country_name": "United Kingdom"
 }

@@ -3,6 +3,7 @@
     "tms:id": "60087",
     "accession_number": "1938-62-13",
     "title": "Sidewall, ca. 1830",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18353589\/",
     "department_id": "35347503",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1840,
     "year_acquired": "1938",
     "decade": null,
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Block-printed",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "H x W: 65 x 51 cm (25 9\/16 x 20 1\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "65.00",
+            "centimeters"
+        ],
+        "width": [
+            "51.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Grace Lincoln Temple",
     "description": "Irise or rainbow paper. Full width of paper giving repeat of large-scale arabesque of flowers and foliage in graded color, ranging from blue along edges to green down center.",
     "justification": null,
-    "type": {
-        "id": "35256475",
-        "name": "Sidewall"
-    },
+    "woe:country": "23424977",
+    "type": "Sidewall",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/64881_dfc7f72ff9cab8e8_b.jpg",
                 "width": 811,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/64881_dfc7f72ff9cab8e8_n.jpg",
-                "width": 253,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "64881"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/64881_dfc7f72ff9cab8e8_z.jpg",
                 "width": 507,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "64881"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/64881_dfc7f72ff9cab8e8_n.jpg",
+                "width": 253,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "64881"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/64881_dfc7f72ff9cab8e8_d.gif",
+                "width": 253,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "64881"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/64881_dfc7f72ff9cab8e8_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "64881"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/3802_4f6fd6c727e76fec_b.jpg",
                 "width": 830,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/3802_4f6fd6c727e76fec_n.jpg",
-                "width": 259,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "3802"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/3802_4f6fd6c727e76fec_z.jpg",
                 "width": 519,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "3802"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/3802_4f6fd6c727e76fec_n.jpg",
+                "width": 259,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "3802"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/3802_4f6fd6c727e76fec_d.gif",
+                "width": 259,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "3802"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/3802_4f6fd6c727e76fec_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "3802"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18052379",
             "role_id": "35352245",
             "person_name": "Calvin S.  Hathaway",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18052379\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18046661",
             "role_id": "35351535",
             "person_name": "Grace Lincoln Temple",
+            "person_date": "1865\u20131953",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18046661\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -92,24 +139,35 @@
     },
     "colors": [
         {
-            "color": "#40678f",
-            "closest_css3": "#483d8b"
-        },
-        {
             "color": "#c7d38b",
-            "closest_css3": "#d2b48c"
+            "closest_crayola": "#c5e384",
+            "closest_css3": "#d2b48c",
+            "closest_css4": "#d2b48c"
         },
         {
-            "color": "#597e93",
-            "closest_css3": "#708090"
+            "color": "#40658f",
+            "closest_crayola": "#2e5894",
+            "closest_css3": "#483d8b",
+            "closest_css4": "#483d8b"
         },
         {
-            "color": "#6d9392",
-            "closest_css3": "#778899"
+            "color": "#557d92",
+            "closest_crayola": "#757575",
+            "closest_css3": "#708090",
+            "closest_css4": "#708090"
         },
         {
-            "color": "#8fb08f",
-            "closest_css3": "#8fbc8f"
+            "color": "#8eaf8f",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#8fbc8f",
+            "closest_css4": "#8fbc8f"
+        },
+        {
+            "color": "#909b9a",
+            "closest_crayola": "#979aaa",
+            "closest_css3": "#778899",
+            "closest_css4": "#778899"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

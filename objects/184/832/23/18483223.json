@@ -3,6 +3,7 @@
     "tms:id": "152474",
     "accession_number": "1974-41-6",
     "title": "Border, 1850\u20131900",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18483223\/",
     "department_id": "35347503",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": "1900",
     "year_acquired": "1974",
     "decade": null,
-    "woe:country": "23424819",
+    "woe:country_id": "23424819",
     "medium": "Block-printed",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "84 x 10 cm (33 1\/16 x 3 15\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "84.00",
+            "centimeters"
+        ],
+        "width": [
+            "10.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Samuel J. Dornsife",
     "description": "Roses in shades of pink\/maroon, to be cut out",
     "justification": null,
-    "type": {
-        "id": "35237285",
-        "name": "Border"
-    },
+    "woe:country": "23424819",
+    "type": "Border",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/43280_7e1da77c9cf2c3b6_b.jpg",
                 "width": 1024,
                 "height": 182,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/43280_7e1da77c9cf2c3b6_n.jpg",
-                "width": 320,
-                "height": 57,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "43280"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/43280_7e1da77c9cf2c3b6_z.jpg",
                 "width": 640,
                 "height": 114,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "43280"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/43280_7e1da77c9cf2c3b6_n.jpg",
+                "width": 320,
+                "height": 57,
+                "is_primary": "1",
+                "image_id": "43280"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/43280_7e1da77c9cf2c3b6_d.gif",
+                "width": 320,
+                "height": 57,
+                "is_primary": "1",
+                "image_id": "43280"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/43280_7e1da77c9cf2c3b6_sq.jpg",
+                "width": 300,
+                "height": 182,
+                "is_primary": "1",
+                "image_id": "43280"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/7994_32f0b7db32c1b588_b.jpg",
                 "width": 1024,
                 "height": 154,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/7994_32f0b7db32c1b588_n.jpg",
-                "width": 320,
-                "height": 48,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "7994"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/7994_32f0b7db32c1b588_z.jpg",
                 "width": 640,
                 "height": 96,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "7994"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/7994_32f0b7db32c1b588_n.jpg",
+                "width": 320,
+                "height": 48,
+                "is_primary": "0",
+                "image_id": "7994"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/7994_32f0b7db32c1b588_d.gif",
+                "width": 320,
+                "height": 48,
+                "is_primary": "0",
+                "image_id": "7994"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/7994_32f0b7db32c1b588_sq.jpg",
+                "width": 300,
+                "height": 154,
+                "is_primary": "0",
+                "image_id": "7994"
             }
         }
     ],
@@ -74,9 +117,21 @@
             "person_id": "18047399",
             "role_id": "35352245",
             "person_name": "Gregory Herringshaw",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047399\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
+        },
+        {
+            "person_id": "68736387",
+            "role_id": "35351535",
+            "person_name": "Samuel J. Dornsife",
+            "person_date": "",
+            "role_name": "Donor",
+            "role_display_name": "Donated by",
+            "person_url": "http:\/\/collection.cooperhewitt.org\/people\/68736387\/",
+            "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
     ],
     "tombstone": {
@@ -84,24 +139,35 @@
     },
     "colors": [
         {
-            "color": "#794338",
-            "closest_css3": "#8b4513"
+            "color": "#7d483c",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         },
         {
-            "color": "#b06b55",
-            "closest_css3": "#cd5c5c"
+            "color": "#b26e58",
+            "closest_crayola": "#b4674d",
+            "closest_css3": "#cd5c5c",
+            "closest_css4": "#cd5c5c"
         },
         {
-            "color": "#5a4337",
-            "closest_css3": "#556b2f"
+            "color": "#c88e81",
+            "closest_crayola": "#cd9575",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         },
         {
-            "color": "#c89284",
-            "closest_css3": "#bc8f8f"
+            "color": "#564236",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         },
         {
-            "color": "#cdb9af",
-            "closest_css3": "#c0c0c0"
+            "color": "#cbb7ae",
+            "closest_crayola": "#cdc5c2",
+            "closest_css3": "#c0c0c0",
+            "closest_css4": "#c0c0c0"
         }
-    ]
+    ],
+    "woe:country_name": "France"
 }

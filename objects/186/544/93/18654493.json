@@ -3,6 +3,7 @@
     "tms:id": "202207",
     "accession_number": "1997-10-14",
     "title": "Drawing, \"Design for Regulator\", May 9, 1940",
+    "title_raw": "Design for Regulator",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18654493\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1940,
     "year_acquired": "1997",
     "decade": "1940",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Brush and gouache, pen and black ink, graphite on blue-gray paper stapled onto illustration board",
     "markings": null,
     "signed": null,
     "inscribed": "Inscribed in black gouache, at ninety-degree angle, upper left: DREYFUSS \/ DWG. NO. R-PO-2 \/ DATED 5-9-40 \/ FOR REGULATOR",
     "provenance": "Honeywell, Inc.",
     "dimensions": "29.2 x 22.7 cm (11 1\/2 x 8 15\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "29.20",
+            "centimeters"
+        ],
+        "width": [
+            "22.70",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Honeywell, Inc.",
     "description": "Design for regulator in gray.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424977",
+    "type": "Drawing",
     "images": [
         {
             "b": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/47624_08a16a8ee34c0b8c_b.jpg",
-                "width": 788,
+                "url": "http:\/\/images.collection.cooperhewitt.org\/47624_2a53651dbdadb949_b.jpg",
+                "width": 789,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/47624_08a16a8ee34c0b8c_n.jpg",
-                "width": 246,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "47624"
             },
             "z": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/47624_08a16a8ee34c0b8c_z.jpg",
+                "url": "http:\/\/images.collection.cooperhewitt.org\/47624_2a53651dbdadb949_z.jpg",
                 "width": 493,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "47624"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/47624_2a53651dbdadb949_n.jpg",
+                "width": 247,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "47624"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/47624_2a53651dbdadb949_d.gif",
+                "width": 247,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "47624"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/47624_2a53651dbdadb949_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "47624"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "51676457",
             "role_id": "35352245",
             "person_name": "Karin Zonis",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/51676457\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18041501",
             "role_id": "35236655",
             "person_name": "Henry Dreyfuss",
+            "person_date": "American, 1904\u20131972",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041501\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "51676529",
             "role_id": "51571159",
             "person_name": "Russell Flincham",
+            "person_date": "",
             "role_name": "Agent",
+            "role_display_name": "Agent:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/51676529\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/51571159\/"
         },
@@ -78,7 +110,9 @@
             "person_id": "18041507",
             "role_id": "35351535",
             "person_name": "Honeywell, Inc.",
+            "person_date": "Minneapolis, Minnesota, USA, founded 1906",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041507\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -88,16 +122,17 @@
     },
     "colors": [
         {
-            "color": "#8b959e",
-            "closest_css3": "#778899"
+            "color": "#9e9789",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         },
         {
-            "color": "#9c9381",
-            "closest_css3": "#808080"
-        },
-        {
-            "color": "#5a5955",
-            "closest_css3": "#696969"
+            "color": "#7c868f",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#778899",
+            "closest_css4": "#778899"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

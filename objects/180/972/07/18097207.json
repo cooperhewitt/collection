@@ -3,6 +3,7 @@
     "tms:id": "5828",
     "accession_number": "1896-3-171",
     "title": "Print, \"Abraham Francen\", ca. 1656",
+    "title_raw": "Abraham Francen",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18097207\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1666,
     "year_acquired": "1896",
     "decade": null,
-    "woe:country": "23424909",
+    "woe:country_id": "23424909",
     "medium": "Etching on laid paper",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "Earl of Aylesford (1786\u20131859); George Campbell Cooper",
     "dimensions": "Sheet: 16.1 x 21.2 cm (6 5\/16 x 8 3\/8 in.)\nPlatemark: 15.7 x 20.8 cm (6 3\/16 x 8 3\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "15.70",
+            "centimeters"
+        ],
+        "width": [
+            "20.80",
+            "centimeters"
+        ]
+    },
     "creditline": "Bequest of George Campbell Cooper",
     "description": "A man is seated before a table, facing left, holding a print in his hands, with back against an open window.  A book and other objects are on the table, pictures on the wall include a triptych with the Crucifixion as the subject of the central panel.",
     "justification": null,
-    "type": {
-        "id": "35236873",
-        "name": "Print"
-    },
+    "woe:country": "23424909",
+    "type": "Print",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/45961_3f82fceb9d1825a7_b.jpg",
                 "width": 1024,
                 "height": 777,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/45961_3f82fceb9d1825a7_n.jpg",
-                "width": 320,
-                "height": 243,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "45961"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/45961_3f82fceb9d1825a7_z.jpg",
                 "width": 640,
                 "height": 486,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "45961"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/45961_3f82fceb9d1825a7_n.jpg",
+                "width": 320,
+                "height": 243,
+                "is_primary": "1",
+                "image_id": "45961"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/45961_3f82fceb9d1825a7_d.gif",
+                "width": 320,
+                "height": 243,
+                "is_primary": "1",
+                "image_id": "45961"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/45961_3f82fceb9d1825a7_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "45961"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "51676457",
             "role_id": "35352245",
             "person_name": "Karin Zonis",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/51676457\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18043087",
             "role_id": "35236565",
             "person_name": "Rembrandt Harmensz van Rijn",
+            "person_date": "Dutch, 1606\u20131669",
             "role_name": "Artist",
+            "role_display_name": "",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18043087\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236565\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18049767",
             "role_id": "35351537",
             "person_name": "George Campbell Cooper",
+            "person_date": "",
             "role_name": "Bequestor",
+            "role_display_name": "Bequest of",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049767\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351537\/"
         }
@@ -80,20 +112,35 @@
     },
     "colors": [
         {
-            "color": "#534c40",
-            "closest_css3": "#556b2f"
+            "color": "#dcd1b3",
+            "closest_crayola": "#efcdb8",
+            "closest_css3": "#f5deb3",
+            "closest_css4": "#f5deb3"
         },
         {
-            "color": "#ddd4b6",
-            "closest_css3": "#f5deb3"
+            "color": "#4c483d",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#7e745f",
-            "closest_css3": "#696969"
+            "color": "#6b6351",
+            "closest_crayola": "#6e5160",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#b1a58a",
-            "closest_css3": "#bc8f8f"
+            "color": "#93876f",
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
+        },
+        {
+            "color": "#b6a98d",
+            "closest_crayola": "#bab86c",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         }
-    ]
+    ],
+    "woe:country_name": "Netherlands"
 }

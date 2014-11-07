@@ -3,6 +3,7 @@
     "tms:id": "125810",
     "accession_number": "1960-151-8-a,b",
     "title": "Textile, 1790\u20131810",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18430831\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": "1810",
     "year_acquired": "1960",
     "decade": null,
-    "woe:country": "23424975",
+    "woe:country_id": "23424975",
     "medium": "Medium: cotton\nTechnique: printed by engraved copper plate on plain weave",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "H x W: 196 x 143 cm (6 ft. 5 3\/16 in. x 56 5\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "196.00",
+            "centimeters"
+        ],
+        "width": [
+            "143.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Rodman A. Heeren",
     "description": "Copperplate printed in red, very faded, two scenes of village life: gathering grapes and bringing in hay and gourd harvest. Scenes separated by huge swags of naturalistic fruit, leaves and grapes.",
     "justification": null,
-    "type": {
-        "id": "35251739",
-        "name": "textile"
-    },
+    "woe:country": "23424975",
+    "type": "textile",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/86656_2852b05ee77978fd_b.jpg",
                 "width": 663,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/86656_2852b05ee77978fd_n.jpg",
-                "width": 207,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "86656"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/86656_2852b05ee77978fd_z.jpg",
                 "width": 414,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "86656"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/86656_2852b05ee77978fd_n.jpg",
+                "width": 207,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "86656"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/86656_2852b05ee77978fd_d.gif",
+                "width": 207,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "86656"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/86656_2852b05ee77978fd_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "86656"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/86657_1b56e54ab6b52ae4_b.jpg",
                 "width": 663,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/86657_1b56e54ab6b52ae4_n.jpg",
-                "width": 207,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "86657"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/86657_1b56e54ab6b52ae4_z.jpg",
                 "width": 414,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "86657"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/86657_1b56e54ab6b52ae4_n.jpg",
+                "width": 207,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "86657"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/86657_1b56e54ab6b52ae4_d.gif",
+                "width": 207,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "86657"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/86657_1b56e54ab6b52ae4_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "86657"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18053075",
             "role_id": "35351535",
             "person_name": "Rodman A. Heeren",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18053075\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -84,24 +129,35 @@
     },
     "colors": [
         {
-            "color": "#72a6a3",
-            "closest_css3": "#5f9ea0"
+            "color": "#829f9e",
+            "closest_crayola": "#979aaa",
+            "closest_css3": "#778899",
+            "closest_css4": "#778899"
         },
         {
-            "color": "#b4d5cd",
-            "closest_css3": "#b0c4de"
+            "color": "#b2c9c4",
+            "closest_crayola": "#b0b7c6",
+            "closest_css3": "#c0c0c0",
+            "closest_css4": "#c0c0c0"
         },
         {
-            "color": "#698286",
-            "closest_css3": "#708090"
+            "color": "#598487",
+            "closest_crayola": "#757575",
+            "closest_css3": "#708090",
+            "closest_css4": "#708090"
         },
         {
-            "color": "#286d72",
-            "closest_css3": "#2e8b57"
+            "color": "#95868a",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#722f3b",
-            "closest_css3": "#8b4513"
+            "color": "#73333f",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#8b4513",
+            "closest_css4": "#8b4513"
         }
-    ]
+    ],
+    "woe:country_name": "United Kingdom"
 }

@@ -3,6 +3,7 @@
     "tms:id": "104847",
     "accession_number": "1951-74-3",
     "title": "Textile, 1939",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18389405\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1939,
     "year_acquired": "1951",
     "decade": "1930",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Medium: gold-colored aluminum laminated with plastic and wrapped with silk\nTechnique: plain weave",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "H x W: 119.5 x 90 cm (47 1\/16 x 35 7\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "119.50",
+            "centimeters"
+        ],
+        "width": [
+            "90.00",
+            "centimeters"
+        ]
+    },
     "creditline": null,
     "description": "Section of a curtain hemmed on side sides. Fine and loosely woven with paired narrow gold strips in groups of three crossing it horizontally at one and a half inch intervals.",
     "justification": null,
-    "type": {
-        "id": "35251739",
-        "name": "textile"
-    },
+    "woe:country": "23424977",
+    "type": "textile",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/16838_25971b718985feca_b.jpg",
                 "width": 1024,
                 "height": 763,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/16838_25971b718985feca_n.jpg",
-                "width": 320,
-                "height": 238,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "16838"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/16838_25971b718985feca_z.jpg",
                 "width": 640,
                 "height": 477,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "16838"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/16838_25971b718985feca_n.jpg",
+                "width": 320,
+                "height": 238,
+                "is_primary": "1",
+                "image_id": "16838"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/16838_25971b718985feca_d.gif",
+                "width": 320,
+                "height": 238,
+                "is_primary": "1",
+                "image_id": "16838"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/16838_25971b718985feca_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "16838"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18064941",
             "role_id": "35236745",
             "person_name": "Anne Franke",
+            "person_date": "American",
             "role_name": "Weaver",
+            "role_display_name": "Woven by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18064941\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236745\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18064941",
             "role_id": "35236655",
             "person_name": "Anne Franke",
+            "person_date": "American",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18064941\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
@@ -72,12 +102,17 @@
     },
     "colors": [
         {
-            "color": "#9394b0",
-            "closest_css3": "#a9a9a9"
+            "color": "#9699bb",
+            "closest_crayola": "#979aaa",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
         },
         {
             "color": "#767690",
-            "closest_css3": "#708090"
+            "closest_crayola": "#757575",
+            "closest_css3": "#708090",
+            "closest_css4": "#708090"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

@@ -3,6 +3,7 @@
     "tms:id": "176454",
     "accession_number": "1981-1-29",
     "title": "Scarf Sample, mid-19th century",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18615855\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": null,
     "year_acquired": "1981",
     "decade": null,
-    "woe:country": "23424819",
+    "woe:country_id": "23424819",
     "medium": "Medium: silk\nTechnique: printed on plain weave",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "H x W: 37.5 x 39.5 cm (14 3\/4 x 15 9\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "37.50",
+            "centimeters"
+        ],
+        "width": [
+            "39.50",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Barbara Rogoff",
     "description": "Quarter of a printed scarf in blue on white ground. Rounded border with a pendant of chysanthemums crossing it, forming a corner.",
     "justification": null,
-    "type": {
-        "id": "35293367",
-        "name": "Scarf sample"
-    },
+    "woe:country": "23424819",
+    "type": "Scarf sample",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/43397_4b74730e705937bf_b.jpg",
                 "width": 1024,
                 "height": 984,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/43397_4b74730e705937bf_n.jpg",
-                "width": 320,
-                "height": 307,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "43397"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/43397_4b74730e705937bf_z.jpg",
                 "width": 640,
                 "height": 615,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "43397"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/43397_4b74730e705937bf_n.jpg",
+                "width": 320,
+                "height": 307,
+                "is_primary": "1",
+                "image_id": "43397"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/43397_4b74730e705937bf_d.gif",
+                "width": 320,
+                "height": 307,
+                "is_primary": "1",
+                "image_id": "43397"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/43397_4b74730e705937bf_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "43397"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/77183_c303891bc392a001_b.jpg",
                 "width": 1024,
                 "height": 936,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/77183_c303891bc392a001_n.jpg",
-                "width": 320,
-                "height": 293,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "77183"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/77183_c303891bc392a001_z.jpg",
                 "width": 640,
                 "height": 585,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "77183"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/77183_c303891bc392a001_n.jpg",
+                "width": 320,
+                "height": 293,
+                "is_primary": "0",
+                "image_id": "77183"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/77183_c303891bc392a001_d.gif",
+                "width": 320,
+                "height": 293,
+                "is_primary": "0",
+                "image_id": "77183"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/77183_c303891bc392a001_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "77183"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18047497",
             "role_id": "35352245",
             "person_name": "Milton Sonday",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047497\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18055619",
             "role_id": "35351535",
             "person_name": "Barbara Rogoff",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18055619\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -92,20 +139,23 @@
     },
     "colors": [
         {
-            "color": "#e3dac6",
-            "closest_css3": "#d3d3d3"
+            "color": "#e4dbc7",
+            "closest_crayola": "#efdecd",
+            "closest_css3": "#d3d3d3",
+            "closest_css4": "#d3d3d3"
         },
         {
-            "color": "#c8cfd5",
-            "closest_css3": "#d3d3d3"
+            "color": "#a8bacd",
+            "closest_crayola": "#b0b7c6",
+            "closest_css3": "#b0c4de",
+            "closest_css4": "#b0c4de"
         },
         {
-            "color": "#9ab3cb",
-            "closest_css3": "#b0c4de"
-        },
-        {
-            "color": "#6d95bf",
-            "closest_css3": "#5f9ea0"
+            "color": "#739ac1",
+            "closest_crayola": "#6699cc",
+            "closest_css3": "#5f9ea0",
+            "closest_css4": "#5f9ea0"
         }
-    ]
+    ],
+    "woe:country_name": "France"
 }

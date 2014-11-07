@@ -3,6 +3,7 @@
     "tms:id": "140681",
     "accession_number": "1968-1-23-a,b",
     "title": "Bottle And Stopper, 1927",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18460195\/",
     "department_id": "35347497",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1940,
     "year_acquired": "1968",
     "decade": "1920",
-    "woe:country": "23424819",
+    "woe:country_id": "23424819",
     "medium": "Glass",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "J. Lionberger Davis; 1968: acquired by Museum",
     "dimensions": "H x diam.: 11.6 x 5.8 cm (4 9\/16 x 2 5\/16 in.)",
+    "dimensions_raw": {
+        "diameter": [
+            "5.80",
+            "centimeters"
+        ],
+        "height": [
+            "11.60",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of J. Lionberger Davis",
     "description": "(a) Small bottle of clear heavy glass formed around cylindrical core with layer of iridescent bright green coloring which shows through clear glass. Five narrow flame0like irregular shapes run vertically from mouth growing wider through projecting enlarged base. Vertical depressions between these shapes have rough, irregular texture formed by acid etching. (b) Clear glass stopper with round top.",
     "justification": null,
-    "type": {
-        "id": "35289377",
-        "name": "Bottle and stopper"
-    },
+    "woe:country": "23424819",
+    "type": "Bottle and stopper",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/44241_37ae1b3008fd0edd_b.jpg",
                 "width": 741,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/44241_37ae1b3008fd0edd_n.jpg",
-                "width": 231,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "44241"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/44241_37ae1b3008fd0edd_z.jpg",
                 "width": 463,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "44241"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/44241_37ae1b3008fd0edd_n.jpg",
+                "width": 231,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "44241"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/44241_37ae1b3008fd0edd_d.gif",
+                "width": 231,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "44241"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/44241_37ae1b3008fd0edd_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "44241"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/6454_ffcdf2e764f7ae3b_b.jpg",
                 "width": 734,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/6454_ffcdf2e764f7ae3b_n.jpg",
-                "width": 229,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "6454"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/6454_ffcdf2e764f7ae3b_z.jpg",
                 "width": 459,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "6454"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/6454_ffcdf2e764f7ae3b_n.jpg",
+                "width": 229,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "6454"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/6454_ffcdf2e764f7ae3b_d.gif",
+                "width": 229,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "6454"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/6454_ffcdf2e764f7ae3b_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "6454"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18537073",
             "role_id": "35351535",
             "person_name": "J. Lionberger Davis",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18537073\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18050801",
             "role_id": "35236655",
             "person_name": "Maurice Marinot",
+            "person_date": "1882 \u2013 1960",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18050801\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
@@ -92,16 +139,23 @@
     },
     "colors": [
         {
-            "color": "#596057",
-            "closest_css3": "#696969"
+            "color": "#596157",
+            "closest_crayola": "#4a646c",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#485e3f",
-            "closest_css3": "#556b2f"
+            "color": "#485f40",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         },
         {
-            "color": "#364034",
-            "closest_css3": "#2f4f4f"
+            "color": "#364135",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         }
-    ]
+    ],
+    "woe:country_name": "France"
 }

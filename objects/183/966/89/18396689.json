@@ -3,6 +3,7 @@
     "tms:id": "108508",
     "accession_number": "1953-179-86-31",
     "title": "Sketchbook Folio, \"Unfinished Contours of Cliffs\", 1870\u201385",
+    "title_raw": "Unfinished Contours of Cliffs",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18396689\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1955,
     "year_acquired": "1953",
     "decade": null,
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Graphite on cream wove paper, bound",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "Anna Richards Brewster, Scarsdale, NY, 1905-1952; William T. Brewster",
     "dimensions": "9.3 x 14.3 cm (3 11\/16 x 5 5\/8 in.), irregular\nSheet: 12.8 x 19.2 cm (5 1\/16 x 7 9\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "12.80",
+            "centimeters"
+        ],
+        "width": [
+            "19.20",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of the National Academy of Design from the Mrs. William T. Brewster Bequest",
     "description": "Rectangular border surrounds sketch of cliff tops located in upper left corner.",
     "justification": null,
-    "type": {
-        "id": "35256733",
-        "name": "Sketchbook folio"
-    },
+    "woe:country": "23424977",
+    "type": "Sketchbook folio",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/35750_93202bfd79def942_b.jpg",
                 "width": 1024,
                 "height": 730,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/35750_93202bfd79def942_n.jpg",
-                "width": 320,
-                "height": 228,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "35750"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/35750_93202bfd79def942_z.jpg",
                 "width": 640,
                 "height": 456,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "35750"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/35750_93202bfd79def942_n.jpg",
+                "width": 320,
+                "height": 228,
+                "is_primary": "1",
+                "image_id": "35750"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/35750_93202bfd79def942_d.gif",
+                "width": 320,
+                "height": 228,
+                "is_primary": "1",
+                "image_id": "35750"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/35750_93202bfd79def942_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "35750"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18047465",
             "role_id": "35351535",
             "person_name": "National Academy of Design",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047465\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18042285",
             "role_id": "35236565",
             "person_name": "William Trost Richards",
+            "person_date": "American, 1833\u20131905",
             "role_name": "Artist",
+            "role_display_name": "",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18042285\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236565\/"
         }
@@ -72,12 +102,17 @@
     },
     "colors": [
         {
-            "color": "#baa688",
-            "closest_css3": "#bc8f8f"
+            "color": "#625442",
+            "closest_crayola": "#6e5160",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         },
         {
-            "color": "#6a5b48",
-            "closest_css3": "#696969"
+            "color": "#af9b7d",
+            "closest_crayola": "#cd9575",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

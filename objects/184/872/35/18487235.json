@@ -3,6 +3,7 @@
     "tms:id": "154484",
     "accession_number": "1975-11-66",
     "title": "Drawing, \"New York 1939 World's Fair: Perfume Industries Building, Entrance Hall\", 1939",
+    "title_raw": "New York 1939 World's Fair: Perfume Industries Building, Entrance Hall",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18487235\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1939,
     "year_acquired": "1975",
     "decade": "1930",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Brush and white, purple and pink gouache on black wove paper",
     "markings": null,
     "signed": null,
     "inscribed": "Inscribed in graphite on mount at lower right margin: Perfume Industries Bldg. New York World's\/Fair",
     "provenance": null,
     "dimensions": "33.8 x 45.5 cm (13 5\/16 x 17 15\/16 in.)\nmounted 37.8 x 49.6cm\nMat:  40.6 x 55.9 cm (16 x 22 in.)",
+    "dimensions_raw": {
+        "height": [
+            "37.80",
+            "centimeters"
+        ],
+        "width": [
+            "49.60",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Donald Deskey",
     "description": "Design for the Perfumse Industries building for the New York 1939 World's fair, in which a hallway flanked by an arcade receedes into the distance. Purple drapes ornament the arcade.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424977",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/40481_ea3c1d8fbd6057b5_b.jpg",
                 "width": 1024,
                 "height": 783,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/40481_ea3c1d8fbd6057b5_n.jpg",
-                "width": 320,
-                "height": 245,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "40481"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/40481_ea3c1d8fbd6057b5_z.jpg",
                 "width": 640,
                 "height": 489,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "40481"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/40481_ea3c1d8fbd6057b5_n.jpg",
+                "width": 320,
+                "height": 245,
+                "is_primary": "1",
+                "image_id": "40481"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/40481_ea3c1d8fbd6057b5_d.gif",
+                "width": 320,
+                "height": 245,
+                "is_primary": "1",
+                "image_id": "40481"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/40481_ea3c1d8fbd6057b5_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "40481"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18065437",
             "role_id": "35352245",
             "person_name": "Stacey Leonard",
+            "person_date": "American",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18065437\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18041973",
             "role_id": "35351535",
             "person_name": "Donald Deskey",
+            "person_date": "American, 1894\u20131989",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041973\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18047481",
             "role_id": "35352245",
             "person_name": "Eleonore Kissel",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047481\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -78,7 +110,9 @@
             "person_id": "18048255",
             "role_id": "35352245",
             "person_name": "Dr. Gail Davidson",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18048255\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -86,7 +120,9 @@
             "person_id": "18041973",
             "role_id": "35236703",
             "person_name": "Donald Deskey",
+            "person_date": "American, 1894\u20131989",
             "role_name": "Office of",
+            "role_display_name": "Office of",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041973\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236703\/"
         }
@@ -96,24 +132,35 @@
     },
     "colors": [
         {
-            "color": "#2e2f31",
-            "closest_css3": "#2f4f4f"
+            "color": "#deccac",
+            "closest_crayola": "#efcdb8",
+            "closest_css3": "#f5deb3",
+            "closest_css4": "#f5deb3"
         },
         {
-            "color": "#c5b4a2",
-            "closest_css3": "#d2b48c"
+            "color": "#556178",
+            "closest_crayola": "#4a646c",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#ebddc3",
-            "closest_css3": "#f5deb3"
+            "color": "#b1a494",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
         },
         {
-            "color": "#566178",
-            "closest_css3": "#696969"
+            "color": "#dab8ac",
+            "closest_crayola": "#e7c697",
+            "closest_css3": "#d2b48c",
+            "closest_css4": "#d2b48c"
         },
         {
-            "color": "#d6aca1",
-            "closest_css3": "#d2b48c"
+            "color": "#81776e",
+            "closest_crayola": "#757575",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

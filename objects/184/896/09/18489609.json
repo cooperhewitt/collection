@@ -3,6 +3,7 @@
     "tms:id": "155678",
     "accession_number": "1976-100-60",
     "title": "Sampler, 1806",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18489609\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1806,
     "year_acquired": "1976",
     "decade": null,
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Medium: silk embroidery on linen foundation\nTechnique: embroidered in counted cross and star stitches on plain weave foundation",
     "markings": null,
     "signed": null,
     "inscribed": "Hellen Goodrich aged 10 Sharon Nov. 1806",
     "provenance": "Ex. coll. Fraser-Martin",
     "dimensions": "H x W: 27 x 35.6 cm (10 5\/8 x 14 in.)",
+    "dimensions_raw": {
+        "height": [
+            "26.99",
+            "centimeters"
+        ],
+        "width": [
+            "35.56",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Anonymous Donor from the Fraser\/Martin Collection",
     "description": "Many bands of alphabets and numerals separated by narrow geometric borders, with the inscription.",
     "justification": null,
-    "type": {
-        "id": "35256439",
-        "name": "Sampler"
-    },
+    "woe:country": "23424977",
+    "type": "Sampler",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/32428_bda9222718398224_b.jpg",
                 "width": 1024,
                 "height": 773,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/32428_bda9222718398224_n.jpg",
-                "width": 320,
-                "height": 242,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "32428"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/32428_bda9222718398224_z.jpg",
                 "width": 640,
                 "height": 483,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "32428"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/32428_bda9222718398224_n.jpg",
+                "width": 320,
+                "height": 242,
+                "is_primary": "1",
+                "image_id": "32428"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/32428_bda9222718398224_d.gif",
+                "width": 320,
+                "height": 242,
+                "is_primary": "1",
+                "image_id": "32428"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/32428_bda9222718398224_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "32428"
             }
         }
     ],
@@ -53,10 +79,22 @@
         {
             "person_id": "18049335",
             "role_id": "35351535",
-            "person_name": "Anonymous",
+            "person_name": "Unknown",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049335\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
+        },
+        {
+            "person_id": "68737485",
+            "role_id": "35236583",
+            "person_name": "Hellen Goodrich",
+            "person_date": "American",
+            "role_name": "Embroiderer",
+            "role_display_name": "Embroidered by",
+            "person_url": "http:\/\/collection.cooperhewitt.org\/people\/68737485\/",
+            "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236583\/"
         }
     ],
     "tombstone": {
@@ -64,24 +102,29 @@
     },
     "colors": [
         {
-            "color": "#bf9f72",
-            "closest_css3": "#bdb76b"
+            "color": "#dccfbe",
+            "closest_crayola": "#cdc5c2",
+            "closest_css3": "#d3d3d3",
+            "closest_css4": "#d3d3d3"
         },
         {
-            "color": "#dbccba",
-            "closest_css3": "#d3d3d3"
+            "color": "#926e4c",
+            "closest_crayola": "#85754e",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         },
         {
-            "color": "#97724d",
-            "closest_css3": "#a0522d"
+            "color": "#4a3c30",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#503f30",
-            "closest_css3": "#556b2f"
-        },
-        {
-            "color": "#77563c",
-            "closest_css3": "#556b2f"
+            "color": "#d1b68c",
+            "closest_crayola": "#deaa88",
+            "closest_css3": "#d2b48c",
+            "closest_css4": "#d2b48c"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

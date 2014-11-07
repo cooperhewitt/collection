@@ -3,6 +3,7 @@
     "tms:id": "111632",
     "accession_number": "1955-144-10",
     "title": "Frieze, \"Peacocks and Amorini\", 1878",
+    "title_raw": "Peacocks and Amorini",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18402897\/",
     "department_id": "35347503",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1878,
     "year_acquired": "1955",
     "decade": null,
-    "woe:country": "23424975",
+    "woe:country_id": "23424975",
     "medium": "Embossed and bronze gilded",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "106.5 x 58 cm (41 15\/16 x 22 13\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "106.50",
+            "centimeters"
+        ],
+        "width": [
+            "58.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Roger Warner",
     "description": "On beige ground facing peacocks with spread tails alternating with sickle-bearing genii on chariots. Design heavily embossed and bronze-gilded to imitate leather.",
     "justification": null,
-    "type": {
-        "id": "35259269",
-        "name": "Frieze"
-    },
+    "woe:country": "23424975",
+    "type": "Frieze",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/41882_b354932da7263ddc_b.jpg",
                 "width": 1024,
                 "height": 566,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/41882_b354932da7263ddc_n.jpg",
-                "width": 320,
-                "height": 177,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "41882"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/41882_b354932da7263ddc_z.jpg",
                 "width": 640,
                 "height": 354,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "41882"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/41882_b354932da7263ddc_n.jpg",
+                "width": 320,
+                "height": 177,
+                "is_primary": "1",
+                "image_id": "41882"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/41882_b354932da7263ddc_d.gif",
+                "width": 320,
+                "height": 177,
+                "is_primary": "1",
+                "image_id": "41882"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/41882_b354932da7263ddc_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "41882"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18538307",
             "role_id": "35351535",
             "person_name": "Roger Warner",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18538307\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18048035",
             "role_id": "35352245",
             "person_name": "Hedy Backlin-Landman",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18048035\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18046407",
             "role_id": "35236657",
             "person_name": "Jeffrey & Company",
+            "person_date": "1836 \u2013 1930",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18046407\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         },
@@ -78,7 +110,9 @@
             "person_id": "18045153",
             "role_id": "35236655",
             "person_name": "Walter Crane",
+            "person_date": "1845 \u2013 1915",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18045153\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
@@ -88,24 +122,35 @@
     },
     "colors": [
         {
-            "color": "#d59e4d",
-            "closest_css3": "#cd853f"
+            "color": "#aa946e",
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         },
         {
-            "color": "#a78f67",
-            "closest_css3": "#bc8f8f"
+            "color": "#a67440",
+            "closest_crayola": "#9c7c38",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         },
         {
-            "color": "#a6733e",
-            "closest_css3": "#a0522d"
+            "color": "#eebb6a",
+            "closest_crayola": "#faa76c",
+            "closest_css3": "#f4a460",
+            "closest_css4": "#f4a460"
         },
         {
-            "color": "#7e6147",
-            "closest_css3": "#696969"
+            "color": "#816447",
+            "closest_crayola": "#85754e",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#f6c66c",
-            "closest_css3": "#f4a460"
+            "color": "#5f4733",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         }
-    ]
+    ],
+    "woe:country_name": "United Kingdom"
 }

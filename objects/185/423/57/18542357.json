@@ -3,6 +3,7 @@
     "tms:id": "64525",
     "accession_number": "1938-88-3951",
     "title": "Drawing, \"Sepulcher with Death Seated and Crowned\", 1779\u201384",
+    "title_raw": "Sepulcher with Death Seated and Crowned",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18542357\/",
     "department_id": "35347493",
     "period_id": "35417089",
@@ -13,39 +14,68 @@
     "year_end": 1863,
     "year_acquired": "1938",
     "decade": null,
-    "woe:country": "23424819",
+    "woe:country_id": "23424819",
     "medium": "Pen and black ink, brush and brown, gray, blue-gray wash, graphite on off-white paper",
     "markings": "Marks: J HONIG",
     "signed": null,
     "inscribed": null,
     "provenance": "Giovanni Piancastelli, Rome; Mr. and Mrs. Edward Brandegee, Boston",
     "dimensions": "Sheet: 18 x 28.7 cm (7 1\/16 x 11 5\/16 in.)\nImage: 14.5 x 19.8 cm (5 11\/16 x 7 13\/16 in.)",
+    "dimensions_raw": {
+        "depth": [
+            "3.18",
+            "centimeters"
+        ],
+        "height": [
+            "51.44",
+            "centimeters"
+        ],
+        "width": [
+            "40.96",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase through gift of various donors and from Eleanor G. Hewitt Fund",
     "description": "Architectural fantasy.  Sarcophagus stands in a niche which contains on right wall an inset occupied by an owl. The figure of Death sits before the tomb bearing royal devices.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424819",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/3517_6d9494dcb769f544_b.jpg",
                 "width": 1024,
                 "height": 752,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/3517_6d9494dcb769f544_n.jpg",
-                "width": 320,
-                "height": 235,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "3517"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/3517_6d9494dcb769f544_z.jpg",
                 "width": 640,
                 "height": 470,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "3517"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/3517_6d9494dcb769f544_n.jpg",
+                "width": 320,
+                "height": 235,
+                "is_primary": "1",
+                "image_id": "3517"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/3517_6d9494dcb769f544_d.gif",
+                "width": 320,
+                "height": 235,
+                "is_primary": "1",
+                "image_id": "3517"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/3517_6d9494dcb769f544_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "3517"
             }
         }
     ],
@@ -54,7 +84,9 @@
             "person_id": "18054439",
             "role_id": "35352245",
             "person_name": "Richard P. Wunder",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18054439\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -62,7 +94,9 @@
             "person_id": "18049797",
             "role_id": "35352249",
             "person_name": "Mrs. Edward D. Brandegee",
+            "person_date": "American, 1871\u20131956",
             "role_name": "Vendor",
+            "role_display_name": "Purchased from",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049797\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352249\/"
         },
@@ -70,7 +104,9 @@
             "person_id": "18047453",
             "role_id": "35352245",
             "person_name": "Elizabeth Horwitz Marcus",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047453\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -78,7 +114,9 @@
             "person_id": "18047439",
             "role_id": "35352245",
             "person_name": "Rudolph Berliner",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047439\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -86,7 +124,9 @@
             "person_id": "18043353",
             "role_id": "35236663",
             "person_name": "Louis-Jean Desprez",
+            "person_date": "French, 1743 \u2013 1804; active Sweden",
             "role_name": "Architect",
+            "role_display_name": "Architect:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18043353\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236663\/"
         }
@@ -96,24 +136,35 @@
     },
     "colors": [
         {
-            "color": "#a08164",
-            "closest_css3": "#808080"
+            "color": "#aa8764",
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         },
         {
-            "color": "#c79d7d",
-            "closest_css3": "#bc8f8f"
+            "color": "#564e3f",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         },
         {
-            "color": "#675d4c",
-            "closest_css3": "#696969"
+            "color": "#886a4d",
+            "closest_crayola": "#85754e",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#dcc5af",
-            "closest_css3": "#c0c0c0"
+            "color": "#373733",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#3a3530",
-            "closest_css3": "#2f4f4f"
+            "color": "#767568",
+            "closest_crayola": "#757575",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         }
-    ]
+    ],
+    "woe:country_name": "France"
 }

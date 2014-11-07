@@ -2,7 +2,8 @@
     "id": "18546565",
     "tms:id": "66392",
     "accession_number": "1938-88-563",
-    "title": "Drawing, \"Chandelier\", late 18th century",
+    "title": "Drawing, \"Design for Chandelier\", late 18th century",
+    "title_raw": "Chandelier",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18546565\/",
     "department_id": "35347493",
     "period_id": "35417089",
@@ -13,39 +14,64 @@
     "year_end": null,
     "year_acquired": "1938",
     "decade": null,
-    "woe:country": "23424853",
+    "woe:country_id": "23424853",
     "medium": "Pen and brown ink, brush and watercolor, green wash on paper",
     "markings": null,
     "signed": null,
     "inscribed": "Inscribed in pen and brown ink, top center: Disegno per Lampadaro Nobille guarnito con Sei \/ Gruppi da Numo 5, Lumi, e No 4 Lampadari",
     "provenance": "Giovanni Piancastelli, Rome; Mr. and Mrs. Edward D. Brandegee, Brookline, MA; 1938: acquired by Museum",
     "dimensions": "61 x 41 cm (24 x 16 1\/8 in.)",
+    "dimensions_raw": {
+        "height": [
+            "61.00",
+            "centimeters"
+        ],
+        "width": [
+            "41.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase through gift of various donors and from Eleanor G. Hewitt Fund",
     "description": "Design for a chandelier.  The chandelier comprises of four sections.  Above, suspended on a vine branch with stick, two vases, alternative suggestions, with a ring for candles.  Chains and pendants of crystal.  These and the candles are in general only drawn of the right half.  Suspended, with a cord, above a knob.  The edges are colored dark olive with inside a border line.  Inscription in the upper part of the sheet",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424853",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/19005_c2dff3fa2ca6ad77_b.jpg",
                 "width": 693,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/19005_c2dff3fa2ca6ad77_n.jpg",
-                "width": 217,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "19005"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/19005_c2dff3fa2ca6ad77_z.jpg",
                 "width": 433,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "19005"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/19005_c2dff3fa2ca6ad77_n.jpg",
+                "width": 217,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "19005"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/19005_c2dff3fa2ca6ad77_d.gif",
+                "width": 217,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "19005"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/19005_c2dff3fa2ca6ad77_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "19005"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18049797",
             "role_id": "35352249",
             "person_name": "Mrs. Edward D. Brandegee",
+            "person_date": "American, 1871\u20131956",
             "role_name": "Vendor",
+            "role_display_name": "Purchased from",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049797\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352249\/"
         },
@@ -62,34 +90,47 @@
             "person_id": "18057171",
             "role_id": "35236663",
             "person_name": "Unknown",
+            "person_date": "Italian",
             "role_name": "Architect",
+            "role_display_name": "Architect:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18057171\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236663\/"
         }
     ],
     "tombstone": {
-        "epitaph": "Drawing, \"Chandelier\", late 18th century. Pen and brown ink, brush and watercolor, green wash on paper. Museum purchase through gift of various donors and from Eleanor G. Hewitt Fund. 1938-88-563."
+        "epitaph": "Drawing, \"Design for Chandelier\", late 18th century. Pen and brown ink, brush and watercolor, green wash on paper. Museum purchase through gift of various donors and from Eleanor G. Hewitt Fund. 1938-88-563."
     },
     "colors": [
         {
-            "color": "#c6bebc",
-            "closest_css3": "#c0c0c0"
+            "color": "#dfd2cd",
+            "closest_crayola": "#dbd7d2",
+            "closest_css3": "#d3d3d3",
+            "closest_css4": "#d3d3d3"
         },
         {
-            "color": "#e8d9e5",
-            "closest_css3": "#dcdcdc"
+            "color": "#412b17",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#a4a093",
-            "closest_css3": "#a9a9a9"
+            "color": "#7c633e",
+            "closest_crayola": "#85754e",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         },
         {
-            "color": "#5d3719",
-            "closest_css3": "#8b4513"
+            "color": "#404231",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#545134",
-            "closest_css3": "#556b2f"
+            "color": "#baa17f",
+            "closest_crayola": "#cd9575",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         }
-    ]
+    ],
+    "woe:country_name": "Italy"
 }

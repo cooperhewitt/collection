@@ -3,6 +3,7 @@
     "tms:id": "201723",
     "accession_number": "1996-32-2",
     "title": "Sidewall, \"Tree & Cow\", 1927",
+    "title_raw": "Tree & Cow",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18653527\/",
     "department_id": "35347503",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1927,
     "year_acquired": "1996",
     "decade": "1920",
-    "woe:country": "23424975",
+    "woe:country_id": "23424975",
     "medium": "Lithograph from linocut",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "Overall: 55.5 x 55.5cm (21 7\/8 x 21 7\/8in.)",
+    "dimensions_raw": {
+        "height": [
+            "55.50",
+            "centimeters"
+        ],
+        "width": [
+            "55.50",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase from Smithsonian Institution Collections Acquisition Program and Pauline C. Noyes Funds",
     "description": "Hedge-like framework containing alternating designs of trees and cows. Printed in green, red, brown and black on white ground.",
-    "justification": null,
-    "type": {
-        "id": "35256475",
-        "name": "Sidewall"
-    },
+    "justification": "Edward Bawden was a watercolorist, book illustrator, mural painter, and designer. In 1925, Bawden saw William Morris\u2019s wallpaper, Daisy, in an exhibition and was inspired to design his first wallpaper. Harold Curwen, of the Curwen Press, saw some of these early designs and wanted to transfer the pieces to his lithographic press so they could be reproduced and sold. Bawden designed 14 wallpapers between 1926 and 1933 for the Curwen Press. These papers are now quite rare. \nThis is one of a group of Bawden papers under consideration for acquisition. In addition to being rare, these papers will expand our holdings of Bawden\u2019s designs. At the time of proposed acquisition, Cooper-Hewitt\u2019s collection holds just one wallpaper by Bawden, Stone Ivy (1992-191-5), from 1938, which was designed for the English firm, Cole and Sons. (April 17, 1996)",
+    "woe:country": "23424975",
+    "type": "Sidewall",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/19433_ff1d84f0c5c3d51a_b.jpg",
                 "width": 1024,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/19433_ff1d84f0c5c3d51a_n.jpg",
-                "width": 320,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "19433"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/19433_ff1d84f0c5c3d51a_z.jpg",
                 "width": 640,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "19433"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/19433_ff1d84f0c5c3d51a_n.jpg",
+                "width": 320,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "19433"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/19433_ff1d84f0c5c3d51a_d.gif",
+                "width": 320,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "19433"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/19433_ff1d84f0c5c3d51a_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "19433"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18537383",
             "role_id": "35352249",
             "person_name": "Garton & Co., Print Dealers & Publishers",
+            "person_date": "",
             "role_name": "Vendor",
+            "role_display_name": "Purchased from",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18537383\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352249\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18049103",
             "role_id": "35352247",
             "person_name": "Pauline Cooper Noyes Fund",
+            "person_date": "",
             "role_name": "Fund",
+            "role_display_name": "Fund:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049103\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352247\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18049341",
             "role_id": "35236671",
             "person_name": "The Curwen Press",
+            "person_date": "English",
             "role_name": "Producer",
+            "role_display_name": "Produced by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049341\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236671\/"
         },
@@ -78,7 +110,9 @@
             "person_id": "18046723",
             "role_id": "35236655",
             "person_name": "Edward Bawden",
+            "person_date": "English, 1903 \u2013 1989",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18046723\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
@@ -88,24 +122,35 @@
     },
     "colors": [
         {
-            "color": "#54654b",
-            "closest_css3": "#556b2f"
+            "color": "#57684d",
+            "closest_crayola": "#4a646c",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         },
         {
-            "color": "#747e63",
-            "closest_css3": "#696969"
+            "color": "#7e8a6e",
+            "closest_crayola": "#757575",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#afc18f",
-            "closest_css3": "#8fbc8f"
+            "color": "#cdd3b6",
+            "closest_crayola": "#cdc5c2",
+            "closest_css3": "#c0c0c0",
+            "closest_css4": "#c0c0c0"
         },
         {
-            "color": "#cbc7b2",
-            "closest_css3": "#c0c0c0"
+            "color": "#a7b986",
+            "closest_crayola": "#bab86c",
+            "closest_css3": "#8fbc8f",
+            "closest_css4": "#8fbc8f"
         },
         {
-            "color": "#353624",
-            "closest_css3": "#2f4f4f"
+            "color": "#424533",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         }
-    ]
+    ],
+    "woe:country_name": "United Kingdom"
 }

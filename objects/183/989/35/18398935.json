@@ -3,6 +3,7 @@
     "tms:id": "109641",
     "accession_number": "1953-90-7",
     "title": "Textile, early 20th century",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18398935\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1925,
     "year_acquired": "1953",
     "decade": "1900",
-    "woe:country": "23424975",
+    "woe:country_id": "23424975",
     "medium": "Medium: plain cloth\nTechnique: printed",
     "markings": null,
     "signed": null,
     "inscribed": "Attached label: \"REGd TRADEMARK\" \"REGISTERED DESIGNS\" \"No. 33017\" \"WARRANTED INDIGO BLUE\"",
     "provenance": null,
     "dimensions": "H x W: 35.6 x 45.1 cm (14 x 17 3\/4 in.)",
+    "dimensions_raw": {
+        "height": [
+            "35.56",
+            "centimeters"
+        ],
+        "width": [
+            "45.09",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Elizabeth Riefstahl",
     "description": "Dark blue ground with large lemon-yellow flowerheads, in full face with lighter blue dots in field, in profile, in band of lighter blue dots in border. Printed in imitation of tie-dye. Blue is warranted indigo according to label attached.",
     "justification": null,
-    "type": {
-        "id": "35251739",
-        "name": "textile"
-    },
+    "woe:country": "23424975",
+    "type": "textile",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/43034_33d4d4fd32b53928_b.jpg",
                 "width": 1024,
                 "height": 803,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/43034_33d4d4fd32b53928_n.jpg",
-                "width": 320,
-                "height": 251,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "43034"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/43034_33d4d4fd32b53928_z.jpg",
                 "width": 640,
                 "height": 502,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "43034"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/43034_33d4d4fd32b53928_n.jpg",
+                "width": 320,
+                "height": 251,
+                "is_primary": "1",
+                "image_id": "43034"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/43034_33d4d4fd32b53928_d.gif",
+                "width": 320,
+                "height": 251,
+                "is_primary": "1",
+                "image_id": "43034"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/43034_33d4d4fd32b53928_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "43034"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/18066_528b71cb55611aad_b.jpg",
                 "width": 805,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/18066_528b71cb55611aad_n.jpg",
-                "width": 252,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "18066"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/18066_528b71cb55611aad_z.jpg",
                 "width": 503,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "18066"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/18066_528b71cb55611aad_n.jpg",
+                "width": 252,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "18066"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/18066_528b71cb55611aad_d.gif",
+                "width": 252,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "18066"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/18066_528b71cb55611aad_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "18066"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "68247995",
             "role_id": "35351535",
             "person_name": "Elizabeth Riefstahl",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/68247995\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -84,24 +129,35 @@
     },
     "colors": [
         {
-            "color": "#364f6a",
-            "closest_css3": "#2f4f4f"
+            "color": "#344f6a",
+            "closest_crayola": "#1a4876",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#beb455",
-            "closest_css3": "#bdb76b"
+            "color": "#c9b946",
+            "closest_crayola": "#bab86c",
+            "closest_css3": "#bdb76b",
+            "closest_css4": "#bdb76b"
         },
         {
-            "color": "#e5dfc3",
-            "closest_css3": "#f5deb3"
+            "color": "#e3ddc0",
+            "closest_crayola": "#eceabe",
+            "closest_css3": "#f5deb3",
+            "closest_css4": "#f5deb3"
         },
         {
-            "color": "#7e866d",
-            "closest_css3": "#808080"
+            "color": "#a6a261",
+            "closest_crayola": "#bab86c",
+            "closest_css3": "#bdb76b",
+            "closest_css4": "#bdb76b"
         },
         {
-            "color": "#566c75",
-            "closest_css3": "#696969"
+            "color": "#7b836d",
+            "closest_crayola": "#757575",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         }
-    ]
+    ],
+    "woe:country_name": "United Kingdom"
 }

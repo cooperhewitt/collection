@@ -3,6 +3,7 @@
     "tms:id": "134218",
     "accession_number": "1963-39-187",
     "title": "Drawing, \"Design for Castle Exterior Scene, for Othello\", 1932",
+    "title_raw": "Design for Castle Exterior Scene, for Othello",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18447405\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1932,
     "year_acquired": "1963",
     "decade": "1930",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Color crayon on black paper",
     "markings": null,
     "signed": null,
     "inscribed": "Inscribed in white chalk, upper right: 2 Cyprus stree[cut off]; upper left: detail crenel[cut off]; lower right: Before the castle [underlined]",
     "provenance": "Mrs. E. McKnight Kauffer",
     "dimensions": "H x W: 17 x 24 cm (6 11\/16 x 9 7\/16 in.), irregular",
+    "dimensions_raw": {
+        "height": [
+            "17.00",
+            "centimeters"
+        ],
+        "width": [
+            "24.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Mrs. E. McKnight Kauffer",
     "description": "Cyprus castle exterior design set. Upper margin: detail of ornamented crenellation with double points; left margin: detail of crenellated tower. Main drawing depicts exterior of castle entrance. From left, partial brick building, ornamented building fa\u00e7ade with arched doorway, a crenellated wall, stairs and another building with an arched doorway. Below, there are markings in white.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424977",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/51076_3e4e2f1b9b425989_b.jpg",
                 "width": 1024,
                 "height": 721,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/51076_3e4e2f1b9b425989_n.jpg",
-                "width": 320,
-                "height": 225,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "51076"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/51076_3e4e2f1b9b425989_z.jpg",
                 "width": 640,
                 "height": 451,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "51076"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/51076_3e4e2f1b9b425989_n.jpg",
+                "width": 320,
+                "height": 225,
+                "is_primary": "1",
+                "image_id": "51076"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/51076_3e4e2f1b9b425989_d.gif",
+                "width": 320,
+                "height": 225,
+                "is_primary": "1",
+                "image_id": "51076"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/51076_3e4e2f1b9b425989_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "51076"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18041923",
             "role_id": "35236655",
             "person_name": "Edward McKnight Kauffer",
+            "person_date": "American, active England, 1890\u20131954",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041923\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18061849",
             "role_id": "35351535",
             "person_name": "Mrs. Edward McKnight Kauffer",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18061849\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -72,8 +102,11 @@
     },
     "colors": [
         {
-            "color": "#bdb8ac",
-            "closest_css3": "#c0c0c0"
+            "color": "#aea99f",
+            "closest_crayola": "#979aaa",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

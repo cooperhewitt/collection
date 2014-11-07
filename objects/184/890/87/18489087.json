@@ -3,6 +3,7 @@
     "tms:id": "155415",
     "accession_number": "1975-86-8",
     "title": "Sampler, 1738",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18489087\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1738,
     "year_acquired": "1975",
     "decade": null,
-    "woe:country": "23424975",
+    "woe:country_id": "23424975",
     "medium": "Medium: silk embroidery on linen foundation\nTechnique: embroidered in cross, satin, eye and rococo stitches on plain weave foundation; counted stitches",
     "markings": null,
     "signed": null,
     "inscribed": "Sarah Troup her work begun August the 21, 1738 in the 9 year of her age",
     "provenance": null,
     "dimensions": "H x W: 30.5 x 23.5 cm (12 x 9 1\/4 in.)",
+    "dimensions_raw": {
+        "height": [
+            "30.48",
+            "centimeters"
+        ],
+        "width": [
+            "23.50",
+            "centimeters"
+        ]
+    },
     "creditline": null,
     "description": "Bands of alphabets, crowns, reversing pattern, two figures with distaffs, and verse: \nLet none despise the criss-cross row\nDid we but know our nearness to the grave\nWhat thoughts and cogitations should we have\n\nWith the inscription:\nSarah Troup her work begun August the 21, 1738 in the 9 year of her age",
     "justification": null,
-    "type": {
-        "id": "35256439",
-        "name": "Sampler"
-    },
+    "woe:country": "23424975",
+    "type": "Sampler",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/55212_3bf62f0ddb456e46_b.jpg",
                 "width": 787,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/55212_3bf62f0ddb456e46_n.jpg",
-                "width": 246,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "55212"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/55212_3bf62f0ddb456e46_z.jpg",
                 "width": 492,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "55212"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/55212_3bf62f0ddb456e46_n.jpg",
+                "width": 246,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "55212"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/55212_3bf62f0ddb456e46_d.gif",
+                "width": 246,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "55212"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/55212_3bf62f0ddb456e46_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "55212"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/31793_546ae6324942c05c_b.jpg",
                 "width": 758,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/31793_546ae6324942c05c_n.jpg",
-                "width": 237,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "31793"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/31793_546ae6324942c05c_z.jpg",
                 "width": 474,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "31793"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/31793_546ae6324942c05c_n.jpg",
+                "width": 237,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "31793"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/31793_546ae6324942c05c_d.gif",
+                "width": 237,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "31793"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/31793_546ae6324942c05c_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "31793"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18062809",
             "role_id": "35236583",
             "person_name": "Sarah Troup",
+            "person_date": "English",
             "role_name": "Embroiderer",
+            "role_display_name": "Embroidered by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18062809\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236583\/"
         }
@@ -84,20 +129,29 @@
     },
     "colors": [
         {
-            "color": "#cfb794",
-            "closest_css3": "#d2b48c"
+            "color": "#938663",
+            "closest_crayola": "#8a795d",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#af926a",
-            "closest_css3": "#bc8f8f"
+            "color": "#726a50",
+            "closest_crayola": "#85754e",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#847655",
-            "closest_css3": "#696969"
+            "color": "#524f42",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         },
         {
-            "color": "#606453",
-            "closest_css3": "#696969"
+            "color": "#d9cec1",
+            "closest_crayola": "#cdc5c2",
+            "closest_css3": "#d3d3d3",
+            "closest_css4": "#d3d3d3"
         }
-    ]
+    ],
+    "woe:country_name": "United Kingdom"
 }

@@ -3,6 +3,7 @@
     "tms:id": "132943",
     "accession_number": "1962-50-63",
     "title": "Band, 1550\u20131600",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18444903\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": "1600",
     "year_acquired": "1962",
     "decade": null,
-    "woe:country": null,
+    "woe:country_id": null,
     "medium": "Medium: linen\nTechnique: grid of withdrawn element work with needle lace, reticella style",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "H x W: 93 x 9.1 cm (36 5\/8 x 3 9\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "93.00",
+            "centimeters"
+        ],
+        "width": [
+            "9.07",
+            "centimeters"
+        ]
+    },
     "creditline": "Bequest of Richard Cranch Greenleaf in memory of his mother, Adeline Emma Greenleaf",
     "description": "In this border are two alternating motifs, 1) St. George and the dragon; 2) a decorative pedestal flanked by winged sphinxes, supporting the figure of St. Margarete standing on a dragon. Modes: brides, portes.",
     "justification": null,
-    "type": {
-        "id": "35254631",
-        "name": "Band"
-    },
+    "woe:country": null,
+    "type": "Band",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/44419_ed1596bc6238c804_b.jpg",
                 "width": 1024,
                 "height": 135,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/44419_ed1596bc6238c804_n.jpg",
-                "width": 320,
-                "height": 42,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "44419"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/44419_ed1596bc6238c804_z.jpg",
                 "width": 640,
                 "height": 85,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "44419"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/44419_ed1596bc6238c804_n.jpg",
+                "width": 320,
+                "height": 42,
+                "is_primary": "1",
+                "image_id": "44419"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/44419_ed1596bc6238c804_d.gif",
+                "width": 320,
+                "height": 42,
+                "is_primary": "1",
+                "image_id": "44419"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/44419_ed1596bc6238c804_sq.jpg",
+                "width": 300,
+                "height": 135,
+                "is_primary": "1",
+                "image_id": "44419"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/31596_bf3f4efa508b34c9_b.jpg",
                 "width": 1024,
                 "height": 322,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/31596_bf3f4efa508b34c9_n.jpg",
-                "width": 320,
-                "height": 101,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "31596"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/31596_bf3f4efa508b34c9_z.jpg",
                 "width": 640,
                 "height": 201,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "31596"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/31596_bf3f4efa508b34c9_n.jpg",
+                "width": 320,
+                "height": 101,
+                "is_primary": "0",
+                "image_id": "31596"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/31596_bf3f4efa508b34c9_d.gif",
+                "width": 320,
+                "height": 101,
+                "is_primary": "0",
+                "image_id": "31596"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/31596_bf3f4efa508b34c9_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "31596"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18049377",
             "role_id": "35351537",
             "person_name": "Richard Cranch Greenleaf",
+            "person_date": "",
             "role_name": "Bequestor",
+            "role_display_name": "Bequest of",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049377\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351537\/"
         }
@@ -84,24 +129,28 @@
     },
     "colors": [
         {
-            "color": "#d4c8ab",
-            "closest_css3": "#c0c0c0"
+            "color": "#c7b899",
+            "closest_crayola": "#deaa88",
+            "closest_css3": "#d2b48c",
+            "closest_css4": "#d2b48c"
         },
         {
-            "color": "#372e25",
-            "closest_css3": "#2f4f4f"
+            "color": "#92856e",
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#94876f",
-            "closest_css3": "#808080"
+            "color": "#393128",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#786c58",
-            "closest_css3": "#696969"
-        },
-        {
-            "color": "#5a4e3f",
-            "closest_css3": "#556b2f"
+            "color": "#6e6352",
+            "closest_crayola": "#6e5160",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         }
     ]
 }

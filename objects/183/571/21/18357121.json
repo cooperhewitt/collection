@@ -3,6 +3,7 @@
     "tms:id": "61987",
     "accession_number": "1938-88-1693",
     "title": "Drawing, \"Doorcase\", 1789\u201393",
+    "title_raw": "Doorcase",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18357121\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1882,
     "year_acquired": "1938",
     "decade": null,
-    "woe:country": "23424853",
+    "woe:country_id": "23424853",
     "medium": "Pen and brown ink, brush and brown wash on off-white laid paper",
     "markings": "Verso: Cooper Union Museum for the Arts of Decoration (Lugt#457e)",
     "signed": null,
     "inscribed": null,
     "provenance": "Giovanni Piancastelli, Rome; Mr. and Mrs. Edward D. Brandegee, Brookline, MA; 1938: acquired by Museum",
     "dimensions": "23 x 14.7 cm (9 1\/16 x 5 13\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "23.00",
+            "centimeters"
+        ],
+        "width": [
+            "14.70",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase through gift of various donors and from Eleanor G. Hewitt Fund",
     "description": "The over door is in the back wall of a niche which is coffering on top, above a molding.  The over door consists of a high medal- lion, oval, with the bust portrait of an armored man, and a trophy.  On either side of the door is a Doric column supporting the wall which is decorated with two half-figures of children springing from rinceaux.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424853",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/35107_02d509b6f2220115_b.jpg",
                 "width": 692,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/35107_02d509b6f2220115_n.jpg",
-                "width": 216,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "35107"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/35107_02d509b6f2220115_z.jpg",
                 "width": 432,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "35107"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/35107_02d509b6f2220115_n.jpg",
+                "width": 216,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "35107"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/35107_02d509b6f2220115_d.gif",
+                "width": 216,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "35107"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/35107_02d509b6f2220115_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "35107"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/16920_efeb74084c925a08_b.jpg",
                 "width": 681,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/16920_efeb74084c925a08_n.jpg",
-                "width": 213,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "16920"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/16920_efeb74084c925a08_z.jpg",
                 "width": 426,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "16920"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/16920_efeb74084c925a08_n.jpg",
+                "width": 213,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "16920"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/16920_efeb74084c925a08_d.gif",
+                "width": 213,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "16920"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/16920_efeb74084c925a08_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "16920"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18049797",
             "role_id": "35352249",
             "person_name": "Mrs. Edward D. Brandegee",
+            "person_date": "American, 1871\u20131956",
             "role_name": "Vendor",
+            "role_display_name": "Purchased from",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049797\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352249\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18041999",
             "role_id": "35236663",
             "person_name": "Giuseppe Barberi",
+            "person_date": "Italian, 1746\u20131809",
             "role_name": "Architect",
+            "role_display_name": "Architect:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041999\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236663\/"
         }
@@ -92,8 +139,11 @@
     },
     "colors": [
         {
-            "color": "#aaa195",
-            "closest_css3": "#a9a9a9"
+            "color": "#ada499",
+            "closest_crayola": "#979aaa",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
         }
-    ]
+    ],
+    "woe:country_name": "Italy"
 }

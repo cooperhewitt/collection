@@ -3,6 +3,7 @@
     "tms:id": "197481",
     "accession_number": "1993-31-191-6",
     "title": "Book, \"The Ghost in the Underblows by Alfred Young Fisher\", 1940",
+    "title_raw": "The Ghost in the Underblows by Alfred Young Fisher",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18645155\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1940,
     "year_acquired": "1993",
     "decade": "1940",
-    "woe:country": null,
+    "woe:country_id": null,
     "medium": "Lithography in orange and black ink on off-white wove paper",
     "markings": null,
     "signed": null,
     "inscribed": "Printed in black ink, left: That stands a little while amidst the floods,\/My heart catches its head in two veined hands,\/And bends more closely to my map.\/Like snail spoor, silken on the grass\/The little tracks of planets trace\/Their shining and their wavering.\/Where is the point of destruction to come?\/Bends closer in the lines to the mind\/Seeing within itself the involved stones,\/Weak granite things fronting the sea,\/Like structures built of light,\/Like towering memory.\/One day older pine tassels hang\/And in the autumn air swing all\/Like treble carillon in a cathedral\/Or as the tinkling brains of kings that rang\/At a fool\u2019s festival.\/XVII\/And now in paradise division stands\/Like two men quarrelling on the sidewalk:\/About them gather tribes with growl and glance\/That one might think they speak of importance.\/They soon are bloody from the other\u2019s fists\/\u2019Til gradually all the populace\/Shows like a bloodied face.\/Mutterings commence, an angry blow,\/Sides taken, and presently the whole street turns\/With ants excited by the falling of a leaf.\/The hill country is not enough,\/The enemy has iron chariots\/But nevertheless will be cut down and blown to hell.\/\u2018The London Naval Conference,\/The Treaty of Versailles,\/Cost many ten pence\/And many an eye;\/One wonders, why?\u2019\/120.",
     "provenance": null,
     "dimensions": "H x W: 23.9 x 31.5 cm (9 7\/16 x 12 3\/8 in.)",
+    "dimensions_raw": {
+        "height": [
+            "23.90",
+            "centimeters"
+        ],
+        "width": [
+            "31.50",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Tamar Cohen and Dave Slatoff",
     "description": "Pages 120-121. Left: text. Right: row of 31 long, thin vertical orange lines extends roughly entire height of page. In lower right corner, a solid orange rectangle covers roughly half of this row's width and slightly less than half of its height. Superimposed over the row of lines and solid rectangle is a vertical row of thick horizontal black bars. Bars alternate randomly between ones made of smaller black lines and ones rendered in solid black. Solid black bars end at right in a diagonal. Dispersed amongs horizontal bars between the vertical rows of orange lines are small black rectangles.",
     "justification": null,
-    "type": {
-        "id": "35247441",
-        "name": "book"
-    },
+    "woe:country": null,
+    "type": "book",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/39718_3acaaa62d9bcfe29_b.jpg",
                 "width": 1024,
                 "height": 780,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/39718_3acaaa62d9bcfe29_n.jpg",
-                "width": 320,
-                "height": 244,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "39718"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/39718_3acaaa62d9bcfe29_z.jpg",
                 "width": 640,
                 "height": 488,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "39718"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/39718_3acaaa62d9bcfe29_n.jpg",
+                "width": 320,
+                "height": 244,
+                "is_primary": "1",
+                "image_id": "39718"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/39718_3acaaa62d9bcfe29_d.gif",
+                "width": 320,
+                "height": 244,
+                "is_primary": "1",
+                "image_id": "39718"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/39718_3acaaa62d9bcfe29_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "39718"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18051943",
             "role_id": "35351535",
             "person_name": "Private collection",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18051943\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18536655",
             "role_id": "35351535",
             "person_name": "Dave Slatoff",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18536655\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18043331",
             "role_id": "35236655",
             "person_name": "Alvin Lustig",
+            "person_date": "American, 1915\u20131955",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18043331\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
@@ -80,24 +112,34 @@
     },
     "colors": [
         {
-            "color": "#e3592b",
-            "closest_css3": "#d2691e"
+            "color": "#e46031",
+            "closest_crayola": "#ff7538",
+            "closest_css3": "#d2691e",
+            "closest_css4": "#d2691e"
         },
         {
-            "color": "#cfc8bf",
-            "closest_css3": "#c0c0c0"
+            "color": "#aca198",
+            "closest_crayola": "#979aaa",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
         },
         {
-            "color": "#eb9c73",
-            "closest_css3": "#e9967a"
+            "color": "#d3c9bf",
+            "closest_crayola": "#cdc5c2",
+            "closest_css3": "#c0c0c0",
+            "closest_css4": "#c0c0c0"
         },
         {
-            "color": "#84756c",
-            "closest_css3": "#808080"
+            "color": "#ec996d",
+            "closest_crayola": "#dd9475",
+            "closest_css3": "#e9967a",
+            "closest_css4": "#e9967a"
         },
         {
-            "color": "#76392b",
-            "closest_css3": "#8b4513"
+            "color": "#94432e",
+            "closest_crayola": "#9c2542",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         }
     ]
 }

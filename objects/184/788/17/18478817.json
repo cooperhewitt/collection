@@ -3,6 +3,7 @@
     "tms:id": "150241",
     "accession_number": "1972-88-387",
     "title": "Drawing, \"Tractor, Model 720, front and side screens, for John Deere\", January 29, 1959",
+    "title_raw": "Tractor, Model 720, front and side screens, for John Deere",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18478817\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1959,
     "year_acquired": "1972",
     "decade": "1950",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Brush and black wash, green and yellow wash, crayon on off-white tracing paper",
     "markings": null,
     "signed": "Signed in graphite, lower right: JR 1-29-59.",
     "inscribed": "Inscribed in graphite, lower right: JD C14-1.",
     "provenance": null,
     "dimensions": "45.8 x 60.8 cm (18 1\/16 x 23 15\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "45.80",
+            "centimeters"
+        ],
+        "width": [
+            "60.80",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Henry Dreyfuss",
     "description": "Detailed drawing of model of John Deere tractor that highlights front and side screens.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424977",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/39299_4d1073850c76dd8f_b.jpg",
                 "width": 1024,
                 "height": 721,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/39299_4d1073850c76dd8f_n.jpg",
-                "width": 320,
-                "height": 225,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "39299"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/39299_4d1073850c76dd8f_z.jpg",
                 "width": 640,
                 "height": 451,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "39299"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/39299_4d1073850c76dd8f_n.jpg",
+                "width": 320,
+                "height": 225,
+                "is_primary": "1",
+                "image_id": "39299"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/39299_4d1073850c76dd8f_d.gif",
+                "width": 320,
+                "height": 225,
+                "is_primary": "1",
+                "image_id": "39299"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/39299_4d1073850c76dd8f_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "39299"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18065427",
             "role_id": "35352245",
             "person_name": "Stephanie Keating",
+            "person_date": "American",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18065427\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18041029",
             "role_id": "35236655",
             "person_name": "Henry Dreyfuss Associates",
+            "person_date": "founded 1929",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041029\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -70,9 +100,21 @@
             "person_id": "18041501",
             "role_id": "35351535",
             "person_name": "Henry Dreyfuss",
+            "person_date": "American, 1904\u20131972",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041501\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
+        },
+        {
+            "person_id": "68738439",
+            "role_id": "35236667",
+            "person_name": "John Deere",
+            "person_date": "",
+            "role_name": "Client",
+            "role_display_name": "Client:",
+            "person_url": "http:\/\/collection.cooperhewitt.org\/people\/68738439\/",
+            "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236667\/"
         }
     ],
     "tombstone": {
@@ -80,20 +122,35 @@
     },
     "colors": [
         {
+            "color": "#a99550",
+            "closest_crayola": "#9c7c38",
+            "closest_css3": "#cd853f",
+            "closest_css4": "#cd853f"
+        },
+        {
             "color": "#5e4b36",
-            "closest_css3": "#556b2f"
+            "closest_crayola": "#714b23",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         },
         {
-            "color": "#a9934e",
-            "closest_css3": "#cd853f"
+            "color": "#372c22",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#362b21",
-            "closest_css3": "#2f4f4f"
+            "color": "#7b673f",
+            "closest_crayola": "#85754e",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         },
         {
-            "color": "#80763d",
-            "closest_css3": "#6b8e23"
+            "color": "#63703f",
+            "closest_crayola": "#85754e",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

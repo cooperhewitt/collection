@@ -3,6 +3,7 @@
     "tms:id": "101736",
     "accession_number": "1949-92-13",
     "title": "Fragment, 19th century",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18383225\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": null,
     "year_acquired": "1949",
     "decade": null,
-    "woe:country": "23424781",
+    "woe:country_id": "23424781",
     "medium": "Medium: silk\nTechnique: plain compound satin",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "Warp x Weft: 27.5 x 12.5 cm (10 13\/16 x 4 15\/16 in.)",
+    "dimensions_raw": {
+        "warp": [
+            "27.50",
+            "centimeters"
+        ],
+        "weft": [
+            "12.50",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Walter Hochstradter",
     "description": "Latticework and arabesques in red, blue and brown on a light tan ground.",
     "justification": null,
-    "type": {
-        "id": "35254623",
-        "name": "Fragment"
-    },
+    "woe:country": "23424781",
+    "type": "Fragment",
     "images": [
         {
             "b": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/63760_6f86773883acda39_b.jpg",
-                "width": 495,
+                "url": "http:\/\/images.collection.cooperhewitt.org\/63760_dcecfaa40e42d0c8_b.jpg",
+                "width": 512,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/63760_6f86773883acda39_n.jpg",
-                "width": 155,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "63760"
             },
             "z": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/63760_6f86773883acda39_z.jpg",
-                "width": 310,
+                "url": "http:\/\/images.collection.cooperhewitt.org\/63760_dcecfaa40e42d0c8_z.jpg",
+                "width": 320,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "63760"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/63760_dcecfaa40e42d0c8_n.jpg",
+                "width": 160,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "63760"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/63760_dcecfaa40e42d0c8_d.gif",
+                "width": 160,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "63760"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/63760_dcecfaa40e42d0c8_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "63760"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/48927_4a1a90db0af5eb58_b.jpg",
                 "width": 502,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/48927_4a1a90db0af5eb58_n.jpg",
-                "width": 157,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "48927"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/48927_4a1a90db0af5eb58_z.jpg",
                 "width": 314,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "48927"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/48927_4a1a90db0af5eb58_n.jpg",
+                "width": 157,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "48927"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/48927_4a1a90db0af5eb58_d.gif",
+                "width": 157,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "48927"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/48927_4a1a90db0af5eb58_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "48927"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18059755",
             "role_id": "35351535",
             "person_name": "Walter Hochstadter",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18059755\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -84,24 +129,35 @@
     },
     "colors": [
         {
-            "color": "#a88d6f",
-            "closest_css3": "#bc8f8f"
+            "color": "#ceb88b",
+            "closest_crayola": "#deaa88",
+            "closest_css3": "#d2b48c",
+            "closest_css4": "#d2b48c"
         },
         {
-            "color": "#cdb48b",
-            "closest_css3": "#d2b48c"
+            "color": "#ae9575",
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         },
         {
-            "color": "#8d4631",
-            "closest_css3": "#a0522d"
+            "color": "#ab5f40",
+            "closest_crayola": "#b4674d",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         },
         {
-            "color": "#cc572e",
-            "closest_css3": "#d2691e"
+            "color": "#b17e5f",
+            "closest_crayola": "#a57164",
+            "closest_css3": "#cd853f",
+            "closest_css4": "#cd853f"
         },
         {
-            "color": "#8c684d",
-            "closest_css3": "#a0522d"
+            "color": "#7374a5",
+            "closest_crayola": "#7366bd",
+            "closest_css3": "#778899",
+            "closest_css4": "#778899"
         }
-    ]
+    ],
+    "woe:country_name": "China"
 }

@@ -3,6 +3,7 @@
     "tms:id": "209377",
     "accession_number": "1998-50-1",
     "title": "Drawing, \"Design for a Corsage Ornament: Night\", ca. 1900",
+    "title_raw": "Design for a Corsage Ornament: Night",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18667949\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,68 @@
     "year_end": 1910,
     "year_acquired": "1998",
     "decade": null,
-    "woe:country": "23424819",
+    "woe:country_id": "23424819",
     "medium": "Brush and watercolor, graphite, brush and gouache on brownish, translucent wove paper, possibly coated with resin",
     "markings": "Watermark: B RIVES",
     "signed": null,
     "inscribed": null,
     "provenance": "David Weinstein, New York City; 1998: acquired by Museum (from Barry Friedman, Ltd., New York City)",
     "dimensions": "21.9 x 27.9 cm (8 5\/8 x 11 in.)",
+    "dimensions_raw": {
+        "depth": [
+            "2.54",
+            "centimeters"
+        ],
+        "height": [
+            "21.91",
+            "centimeters"
+        ],
+        "width": [
+            "27.94",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase from Drawings and Prints Council Fund through gift of The Florence Gould Foundation",
     "description": "On framing plaques, two nudes, personifications of Night, toss showers of stars into sky.  In central portion, nine large blue sapphires amid diamond stars and constellations recreate the Milky Way.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424819",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/23988_328db0ee41c3383b_b.jpg",
                 "width": 1024,
                 "height": 816,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/23988_328db0ee41c3383b_n.jpg",
-                "width": 320,
-                "height": 255,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "23988"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/23988_328db0ee41c3383b_z.jpg",
                 "width": 640,
                 "height": 510,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "23988"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/23988_328db0ee41c3383b_n.jpg",
+                "width": 320,
+                "height": 255,
+                "is_primary": "1",
+                "image_id": "23988"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/23988_328db0ee41c3383b_d.gif",
+                "width": 320,
+                "height": 255,
+                "is_primary": "1",
+                "image_id": "23988"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/23988_328db0ee41c3383b_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "23988"
             }
         },
         {
@@ -53,19 +83,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/13805_92cc3170ff264019_b.jpg",
                 "width": 1024,
                 "height": 810,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/13805_92cc3170ff264019_n.jpg",
-                "width": 320,
-                "height": 253,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "13805"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/13805_92cc3170ff264019_z.jpg",
                 "width": 640,
                 "height": 506,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "13805"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/13805_92cc3170ff264019_n.jpg",
+                "width": 320,
+                "height": 253,
+                "is_primary": "0",
+                "image_id": "13805"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/13805_92cc3170ff264019_d.gif",
+                "width": 320,
+                "height": 253,
+                "is_primary": "0",
+                "image_id": "13805"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/13805_92cc3170ff264019_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "13805"
             }
         }
     ],
@@ -74,7 +121,9 @@
             "person_id": "18044355",
             "role_id": "35236655",
             "person_name": "Ren\u00e9 Lalique",
+            "person_date": "French, 1860\u20131945",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18044355\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -82,7 +131,9 @@
             "person_id": "18040899",
             "role_id": "35352249",
             "person_name": "Barry Friedman Ltd.",
+            "person_date": "",
             "role_name": "Vendor",
+            "role_display_name": "Purchased from",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18040899\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352249\/"
         }
@@ -92,16 +143,23 @@
     },
     "colors": [
         {
-            "color": "#927850",
-            "closest_css3": "#696969"
+            "color": "#947a51",
+            "closest_crayola": "#8a795d",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#d8c9ac",
-            "closest_css3": "#c0c0c0"
+            "color": "#d3c4a8",
+            "closest_crayola": "#e7c697",
+            "closest_css3": "#c0c0c0",
+            "closest_css4": "#c0c0c0"
         },
         {
-            "color": "#53525b",
-            "closest_css3": "#696969"
+            "color": "#55545e",
+            "closest_crayola": "#4a646c",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         }
-    ]
+    ],
+    "woe:country_name": "France"
 }

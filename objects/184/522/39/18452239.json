@@ -3,6 +3,7 @@
     "tms:id": "136648",
     "accession_number": "1964-65-1",
     "title": "Hanging, \"Bird Square No. 2\", 1963",
+    "title_raw": "Bird Square No. 2",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18452239\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1963,
     "year_acquired": "1964",
     "decade": "1960",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Medium: linen, feathers\nTechnique: handwoven",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "1964: acquired by Museum",
     "dimensions": "H x W: 18.5 x 12 cm (7 5\/16 x 4 3\/4 in.)",
+    "dimensions_raw": {
+        "height": [
+            "18.50",
+            "centimeters"
+        ],
+        "width": [
+            "12.00",
+            "centimeters"
+        ]
+    },
     "creditline": null,
     "description": "Small hanging in light brown with slits, inserted feathers, and fringe at top and bottom.",
     "justification": null,
-    "type": {
-        "id": "35257233",
-        "name": "Hanging"
-    },
+    "woe:country": "23424977",
+    "type": "Hanging",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/80824_156b4c65ebed5112_b.jpg",
                 "width": 726,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/80824_156b4c65ebed5112_n.jpg",
-                "width": 227,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "80824"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/80824_156b4c65ebed5112_z.jpg",
                 "width": 454,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "80824"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/80824_156b4c65ebed5112_n.jpg",
+                "width": 227,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "80824"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/80824_156b4c65ebed5112_d.gif",
+                "width": 227,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "80824"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/80824_156b4c65ebed5112_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "80824"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/74777_dad0d9a2d51a9bd0_b.jpg",
                 "width": 701,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/74777_dad0d9a2d51a9bd0_n.jpg",
-                "width": 219,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "74777"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/74777_dad0d9a2d51a9bd0_z.jpg",
                 "width": 438,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "74777"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/74777_dad0d9a2d51a9bd0_n.jpg",
+                "width": 219,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "74777"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/74777_dad0d9a2d51a9bd0_d.gif",
+                "width": 219,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "74777"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/74777_dad0d9a2d51a9bd0_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "74777"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18046125",
             "role_id": "35236745",
             "person_name": "Lenore Tawney",
+            "person_date": "American, 1907\u20132007",
             "role_name": "Weaver",
+            "role_display_name": "Woven by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18046125\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236745\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18046125",
             "role_id": "35236655",
             "person_name": "Lenore Tawney",
+            "person_date": "American, 1907\u20132007",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18046125\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
@@ -92,20 +139,35 @@
     },
     "colors": [
         {
-            "color": "#b59d7b",
-            "closest_css3": "#bc8f8f"
+            "color": "#bfaa89",
+            "closest_crayola": "#deaa88",
+            "closest_css3": "#d2b48c",
+            "closest_css4": "#d2b48c"
         },
         {
-            "color": "#8a7255",
-            "closest_css3": "#696969"
+            "color": "#8e7659",
+            "closest_crayola": "#8a795d",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#6e553c",
-            "closest_css3": "#556b2f"
+            "color": "#735b41",
+            "closest_crayola": "#6e5160",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         },
         {
-            "color": "#d7c7ac",
-            "closest_css3": "#c0c0c0"
+            "color": "#cfcbc4",
+            "closest_crayola": "#cdc5c2",
+            "closest_css3": "#d3d3d3",
+            "closest_css4": "#d3d3d3"
+        },
+        {
+            "color": "#9c9286",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

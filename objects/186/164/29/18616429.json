@@ -3,6 +3,7 @@
     "tms:id": "176744",
     "accession_number": "1981-28-16",
     "title": "Sampler, 1839",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18616429\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1839,
     "year_acquired": "1981",
     "decade": null,
-    "woe:country": "23424853",
+    "woe:country_id": "23424853",
     "medium": "Medium: silk, mercerized cotton and wool embroidery on linen foundation\nTechnique: embroidered in cross, eyelet and four sided cross stitches on plain weave foundation",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "H x W: 18.1 x 75.2 cm (7 1\/8 x 29 5\/8 in.)",
+    "dimensions_raw": {
+        "height": [
+            "18.10",
+            "centimeters"
+        ],
+        "width": [
+            "75.25",
+            "centimeters"
+        ]
+    },
     "creditline": "Bequest of Gertrude M. Oppenheimer",
     "description": "Short and wider rectangle with alphabet, signature and isolated motifs including Italian flag.  Mercerized cotton present in the sampler makes the embroidered date impossible.",
     "justification": null,
-    "type": {
-        "id": "35256439",
-        "name": "Sampler"
-    },
+    "woe:country": "23424853",
+    "type": "Sampler",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/41114_40a068d89386fff8_b.jpg",
                 "width": 1024,
                 "height": 263,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/41114_40a068d89386fff8_n.jpg",
-                "width": 320,
-                "height": 82,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "41114"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/41114_40a068d89386fff8_z.jpg",
                 "width": 640,
                 "height": 164,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "41114"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/41114_40a068d89386fff8_n.jpg",
+                "width": 320,
+                "height": 82,
+                "is_primary": "1",
+                "image_id": "41114"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/41114_40a068d89386fff8_d.gif",
+                "width": 320,
+                "height": 82,
+                "is_primary": "1",
+                "image_id": "41114"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/41114_40a068d89386fff8_sq.jpg",
+                "width": 300,
+                "height": 263,
+                "is_primary": "1",
+                "image_id": "41114"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/34001_fd05f67e1c983a16_b.jpg",
                 "width": 1024,
                 "height": 280,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/34001_fd05f67e1c983a16_n.jpg",
-                "width": 320,
-                "height": 87,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "34001"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/34001_fd05f67e1c983a16_z.jpg",
                 "width": 640,
                 "height": 175,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "34001"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/34001_fd05f67e1c983a16_n.jpg",
+                "width": 320,
+                "height": 87,
+                "is_primary": "0",
+                "image_id": "34001"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/34001_fd05f67e1c983a16_d.gif",
+                "width": 320,
+                "height": 87,
+                "is_primary": "0",
+                "image_id": "34001"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/34001_fd05f67e1c983a16_sq.jpg",
+                "width": 300,
+                "height": 280,
+                "is_primary": "0",
+                "image_id": "34001"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18050567",
             "role_id": "35351537",
             "person_name": "Gertrude M. Oppenheimer",
+            "person_date": "",
             "role_name": "Bequestor",
+            "role_display_name": "Bequest of",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18050567\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351537\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18050593",
             "role_id": "35236583",
             "person_name": "Caroline Piovan",
+            "person_date": "Italian",
             "role_name": "Embroiderer",
+            "role_display_name": "Embroidered by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18050593\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236583\/"
         }
@@ -92,16 +139,23 @@
     },
     "colors": [
         {
-            "color": "#9b6c4d",
-            "closest_css3": "#a0522d"
+            "color": "#b48765",
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         },
         {
-            "color": "#c29e7a",
-            "closest_css3": "#bc8f8f"
+            "color": "#c1ae8a",
+            "closest_crayola": "#deaa88",
+            "closest_css3": "#d2b48c",
+            "closest_css4": "#d2b48c"
         },
         {
-            "color": "#6e4e3c",
-            "closest_css3": "#556b2f"
+            "color": "#71513f",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         }
-    ]
+    ],
+    "woe:country_name": "Italy"
 }

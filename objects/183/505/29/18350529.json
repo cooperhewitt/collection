@@ -3,6 +3,7 @@
     "tms:id": "58833",
     "accession_number": "1938-57-636-a,b",
     "title": "Cup And Saucer, ca. 1726\u201330",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18350529\/",
     "department_id": "35347497",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": null,
     "year_acquired": "1938",
     "decade": null,
-    "woe:country": "23424829",
+    "woe:country_id": "23424829",
     "medium": "Glazed and gilt porcelain",
     "markings": "On underside of cup, in overglaze: two blue crossed swords; on underside of saucer: mark almost completely faded; all that remains are two lines in a peachy cream color.",
     "signed": null,
     "inscribed": null,
     "provenance": "Erskine Hewitt; 1938: bequested to Museum",
     "dimensions": "H x diam. (a): 4 x 7.5 cm (1 9\/16 x 2 15\/16 in.)\nH x diam. (b): 2.5 x 13 cm (1 in. x 5 1\/8 in.)",
+    "dimensions_raw": {
+        "diameter": [
+            "13.00",
+            "centimeters"
+        ],
+        "height": [
+            "2.50",
+            "centimeters"
+        ]
+    },
     "creditline": "Bequest of Erskine Hewitt",
     "description": "Round, tapering form cup with circular ring foot that has gold chinoiserie decoration on the surface.  Images of figures engaged in various activities such as eating, drinking, and playing instruments are in the center and birds, monkeys, and a rat are included in the scene.  Interior rim of the cup is decorated in a gold scalloped border with lines and scrolls.  The saucer is a basic round form with faded gold chinoiserie decoration in the center and a gold scalloped bordered with lines and scrolls around the edge. In the center of the saucer, there are two figures, a palm tree, scroll decoration and other forms of foliage.",
     "justification": null,
-    "type": {
-        "id": "35248193",
-        "name": "cup and saucer"
-    },
+    "woe:country": "23424829",
+    "type": "cup and saucer",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/47767_256df972010186bd_b.jpg",
                 "width": 1024,
                 "height": 801,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/47767_256df972010186bd_n.jpg",
-                "width": 320,
-                "height": 250,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "47767"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/47767_256df972010186bd_z.jpg",
                 "width": 640,
                 "height": 501,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "47767"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/47767_256df972010186bd_n.jpg",
+                "width": 320,
+                "height": 250,
+                "is_primary": "1",
+                "image_id": "47767"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/47767_256df972010186bd_d.gif",
+                "width": 320,
+                "height": 250,
+                "is_primary": "1",
+                "image_id": "47767"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/47767_256df972010186bd_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "47767"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/47766_692069b3b0fd7830_b.jpg",
                 "width": 1024,
                 "height": 1002,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/47766_692069b3b0fd7830_n.jpg",
-                "width": 320,
-                "height": 313,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "47766"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/47766_692069b3b0fd7830_z.jpg",
                 "width": 640,
                 "height": 626,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "47766"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/47766_692069b3b0fd7830_n.jpg",
+                "width": 320,
+                "height": 313,
+                "is_primary": "0",
+                "image_id": "47766"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/47766_692069b3b0fd7830_d.gif",
+                "width": 320,
+                "height": 313,
+                "is_primary": "0",
+                "image_id": "47766"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/47766_692069b3b0fd7830_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "47766"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18050021",
             "role_id": "35351537",
             "person_name": "Erskine Hewitt",
+            "person_date": "American, 1871\u20131938",
             "role_name": "Bequestor",
+            "role_display_name": "Bequest of",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18050021\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351537\/"
         }
@@ -84,20 +129,29 @@
     },
     "colors": [
         {
-            "color": "#a39883",
-            "closest_css3": "#bc8f8f"
+            "color": "#977b4a",
+            "closest_crayola": "#9c7c38",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         },
         {
-            "color": "#977b49",
-            "closest_css3": "#a0522d"
+            "color": "#b5a37e",
+            "closest_crayola": "#bab86c",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         },
         {
             "color": "#7b6e56",
-            "closest_css3": "#696969"
+            "closest_crayola": "#85754e",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#d1c7af",
-            "closest_css3": "#c0c0c0"
+            "color": "#d3cab0",
+            "closest_crayola": "#cdc5c2",
+            "closest_css3": "#c0c0c0",
+            "closest_css4": "#c0c0c0"
         }
-    ]
+    ],
+    "woe:country_name": "Germany"
 }

@@ -3,6 +3,7 @@
     "tms:id": "210076",
     "accession_number": "1999-42-28",
     "title": "Plate, \"\"Iroquois Casual\"\", 1950s",
+    "title_raw": "\"Iroquois Casual\"",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18669321\/",
     "department_id": "35347497",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1959,
     "year_acquired": "1999",
     "decade": "1950",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Glazed porcelain",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "H x diam.: 3.1 x 25.2 cm (1 1\/4 x 9 15\/16 in.)",
+    "dimensions_raw": {
+        "diameter": [
+            "25.20",
+            "centimeters"
+        ],
+        "height": [
+            "3.10",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of the Brooklyn Museum of Art, Paul F. Walter Collection",
     "description": "Circular form, raised edge at rim; \"avocado\" yellow- green glaze.",
     "justification": null,
-    "type": {
-        "id": "35236833",
-        "name": "plate"
-    },
+    "woe:country": "23424977",
+    "type": "plate",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/14676_c09dc690170362e0_b.jpg",
                 "width": 1024,
                 "height": 1003,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/14676_c09dc690170362e0_n.jpg",
-                "width": 320,
-                "height": 313,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "14676"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/14676_c09dc690170362e0_z.jpg",
                 "width": 640,
                 "height": 627,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "14676"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/14676_c09dc690170362e0_n.jpg",
+                "width": 320,
+                "height": 313,
+                "is_primary": "1",
+                "image_id": "14676"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/14676_c09dc690170362e0_d.gif",
+                "width": 320,
+                "height": 313,
+                "is_primary": "1",
+                "image_id": "14676"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/14676_c09dc690170362e0_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "14676"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18050541",
             "role_id": "35236657",
             "person_name": "Iroquois China Company",
+            "person_date": "",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18050541\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18047567",
             "role_id": "35351535",
             "person_name": "Brooklyn Museum",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047567\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18043357",
             "role_id": "35236655",
             "person_name": "Russel Wright",
+            "person_date": "American, 1904\u20131976",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18043357\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
@@ -80,12 +112,23 @@
     },
     "colors": [
         {
-            "color": "#d1be69",
-            "closest_css3": "#bdb76b"
+            "color": "#c9b96b",
+            "closest_crayola": "#bab86c",
+            "closest_css3": "#bdb76b",
+            "closest_css4": "#bdb76b"
         },
         {
-            "color": "#e8deab",
-            "closest_css3": "#eee8aa"
+            "color": "#c3cbce",
+            "closest_crayola": "#cdc5c2",
+            "closest_css3": "#c0c0c0",
+            "closest_css4": "#c0c0c0"
+        },
+        {
+            "color": "#ece7cc",
+            "closest_crayola": "#efdecd",
+            "closest_css3": "#faebd7",
+            "closest_css4": "#faebd7"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

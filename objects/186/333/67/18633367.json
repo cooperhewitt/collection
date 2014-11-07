@@ -3,6 +3,7 @@
     "tms:id": "191526",
     "accession_number": "1989-62-7",
     "title": "Textile, \"Groves\", Designed 1954, reprinted 1988",
+    "title_raw": "Groves",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18633367\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1988,
     "year_acquired": "1989",
     "decade": "1950",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Medium: cotton? linen?\nTechnique: screen printed on plain weave",
     "markings": null,
     "signed": null,
     "inscribed": "BEN ROSE HAND PRINT, 1954, REPRINTED 1988 (printed in selvedge)",
     "provenance": "Given by the designer, 1989",
     "dimensions": "H x W: 318.1 x 125.1 cm (10 ft. 5 1\/4 in. x 49 1\/4 in.)",
+    "dimensions_raw": {
+        "height": [
+            "318.14",
+            "centimeters"
+        ],
+        "width": [
+            "125.10",
+            "centimeters"
+        ]
+    },
     "creditline": null,
     "description": "Horizontal stripes of tree silhouettes printed in two shades of green on white.  Alternating stripes are partially offset about 1\/4 of the horizontal repeat.",
     "justification": null,
-    "type": {
-        "id": "35251739",
-        "name": "textile"
-    },
+    "woe:country": "23424977",
+    "type": "textile",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/15483_9bcf5164c71b2ac1_b.jpg",
                 "width": 743,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/15483_9bcf5164c71b2ac1_n.jpg",
-                "width": 232,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "15483"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/15483_9bcf5164c71b2ac1_z.jpg",
                 "width": 464,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "15483"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/15483_9bcf5164c71b2ac1_n.jpg",
+                "width": 232,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "15483"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/15483_9bcf5164c71b2ac1_d.gif",
+                "width": 232,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "15483"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/15483_9bcf5164c71b2ac1_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "15483"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/78379_208780a078fc77a0_b.jpg",
                 "width": 1024,
                 "height": 663,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/78379_208780a078fc77a0_n.jpg",
-                "width": 320,
-                "height": 207,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "78379"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/78379_208780a078fc77a0_z.jpg",
                 "width": 640,
                 "height": 414,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "78379"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/78379_208780a078fc77a0_n.jpg",
+                "width": 320,
+                "height": 207,
+                "is_primary": "0",
+                "image_id": "78379"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/78379_208780a078fc77a0_d.gif",
+                "width": 320,
+                "height": 207,
+                "is_primary": "0",
+                "image_id": "78379"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/78379_208780a078fc77a0_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "78379"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18046847",
             "role_id": "35236657",
             "person_name": "Ben Rose, Inc.",
+            "person_date": "1946 - 1994",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18046847\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18539393",
             "role_id": "35351535",
             "person_name": "Frances Rose",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18539393\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -90,7 +137,9 @@
             "person_id": "18045901",
             "role_id": "35351535",
             "person_name": "Ben Rose",
+            "person_date": "American, 1916 - 2004",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18045901\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -98,7 +147,9 @@
             "person_id": "18045901",
             "role_id": "35236655",
             "person_name": "Ben Rose",
+            "person_date": "American, 1916 - 2004",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18045901\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
@@ -108,20 +159,29 @@
     },
     "colors": [
         {
-            "color": "#869283",
-            "closest_css3": "#808080"
+            "color": "#495a4d",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#4b5d50",
-            "closest_css3": "#2f4f4f"
+            "color": "#909c8d",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#8fbc8f",
+            "closest_css4": "#8fbc8f"
         },
         {
-            "color": "#243127",
-            "closest_css3": "#2f4f4f"
+            "color": "#6c7e69",
+            "closest_crayola": "#757575",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#6c7569",
-            "closest_css3": "#696969"
+            "color": "#2c3b31",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

@@ -3,6 +3,7 @@
     "tms:id": "9546",
     "accession_number": "1901-39-2878",
     "title": "Drawing, \"Death of St. Joseph\", 1880",
+    "title_raw": "Death of St. Joseph",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18119481\/",
     "department_id": "35347493",
     "period_id": "35417113",
@@ -13,39 +14,64 @@
     "year_end": 1880,
     "year_acquired": "1901",
     "decade": null,
-    "woe:country": "23424853",
+    "woe:country_id": "23424853",
     "medium": "Pen and black ink, graphite on paper",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "Ex-Collection: Giovanni Piancastelli",
     "dimensions": "17.4 x 12.3 cm (6 7\/8 x 4 13\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "17.40",
+            "centimeters"
+        ],
+        "width": [
+            "12.30",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase through gift of various donors",
     "description": "Jesus is preaching, sitting upon the bed; different attitudes of his left raised hand are sketched.  Mary, angels, cherubim are present.  On verso:  sketch of a servant.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424853",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/34900_0b3f7095c45b5d8c_b.jpg",
                 "width": 752,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/34900_0b3f7095c45b5d8c_n.jpg",
-                "width": 235,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "34900"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/34900_0b3f7095c45b5d8c_z.jpg",
                 "width": 470,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "34900"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/34900_0b3f7095c45b5d8c_n.jpg",
+                "width": 235,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "34900"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/34900_0b3f7095c45b5d8c_d.gif",
+                "width": 235,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "34900"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/34900_0b3f7095c45b5d8c_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "34900"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/16911_3129d197b3e71935_b.jpg",
                 "width": 691,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/16911_3129d197b3e71935_n.jpg",
-                "width": 216,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "16911"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/16911_3129d197b3e71935_z.jpg",
                 "width": 432,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "16911"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/16911_3129d197b3e71935_n.jpg",
+                "width": 216,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "16911"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/16911_3129d197b3e71935_d.gif",
+                "width": 216,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "16911"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/16911_3129d197b3e71935_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "16911"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18055751",
             "role_id": "35352245",
             "person_name": "Amanda Sarroff",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18055751\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18055887",
             "role_id": "35236565",
             "person_name": "Francesco Coghetti",
+            "person_date": "1804 - 1875",
             "role_name": "Artist",
+            "role_display_name": "",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18055887\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236565\/"
         }
@@ -92,16 +139,23 @@
     },
     "colors": [
         {
-            "color": "#9e8e81",
-            "closest_css3": "#bc8f8f"
+            "color": "#87796e",
+            "closest_crayola": "#8a795d",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#5e524b",
-            "closest_css3": "#556b2f"
+            "color": "#a89b90",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         },
         {
-            "color": "#7d6e63",
-            "closest_css3": "#696969"
+            "color": "#645850",
+            "closest_crayola": "#6e5160",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         }
-    ]
+    ],
+    "woe:country_name": "Italy"
 }

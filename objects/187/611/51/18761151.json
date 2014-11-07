@@ -3,6 +3,7 @@
     "tms:id": "256869",
     "accession_number": "2010-33-3",
     "title": "Plate, ca. 1986",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18761151\/",
     "department_id": "35347497",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1986,
     "year_acquired": "2010",
     "decade": "1980",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Glazed earthenware",
     "markings": "On base: \"Sasaki\"",
     "signed": null,
     "inscribed": null,
     "provenance": "Paul F. Walter; 2010: acquired by Museum",
     "dimensions": "H x diam.: 2.5 x 27.6 cm (1 x 10 7\/8 in.)",
+    "dimensions_raw": {
+        "diameter": [
+            "27.62",
+            "centimeters"
+        ],
+        "height": [
+            "2.54",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Paul F. Walter",
     "description": "Circular form; burnt umber color with a crosshatch geometric border.",
-    "justification": null,
-    "type": {
-        "id": "35236833",
-        "name": "plate"
-    },
+    "justification": "This influential plate, designed by Ward Bennett, combines the earthenware aesthetic with a high style decorative effect, enabling the user to use it in both semi-formal and informal settings, a combination that became increasingly popular in the 1980s and beyond.\nThe circular shape of the plate plays against the triangular and square elements of the diamond-point pyramidal shapes on the border, using the circle-square-triangle combination that Bennett favored in many of his designs, such as his chair models and design elements for lamps.\nThe museum holds one of Bennett\u2019s drawings for a teapot the designer created in 1986 as part of a design commission from Bloomingdale\u2019s that was produced by Sasaki to celebrate their 100th anniversary. This plate is from the same pattern. Bennett worked with Tiffany &amp; Co. as well as Bloomingdale\u2019s to produce designs for tableware, including glass, ceramics, and flatware. \nThe museum holds flatware, models, archives, drawings, and source material for Bennett\u2019s designs. This plate will be the first example of Bennett\u2019s ceramic tableware in the collection and will complement the existing drawing of the same pattern as well as further support the collection objective of acquiring the work of important designers across departments.",
+    "woe:country": "23424977",
+    "type": "plate",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/42984_df48b5436e76d1e3_b.jpg",
                 "width": 1024,
                 "height": 848,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/42984_df48b5436e76d1e3_n.jpg",
-                "width": 320,
-                "height": 265,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "42984"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/42984_df48b5436e76d1e3_z.jpg",
                 "width": 640,
                 "height": 530,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "42984"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/42984_df48b5436e76d1e3_n.jpg",
+                "width": 320,
+                "height": 265,
+                "is_primary": "1",
+                "image_id": "42984"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/42984_df48b5436e76d1e3_d.gif",
+                "width": 320,
+                "height": 265,
+                "is_primary": "1",
+                "image_id": "42984"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/42984_df48b5436e76d1e3_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "42984"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18041007",
             "role_id": "35351535",
             "person_name": "Paul F. Walter",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041007\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18044031",
             "role_id": "35236657",
             "person_name": "Sasaki",
+            "person_date": "",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18044031\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18044277",
             "role_id": "35236655",
             "person_name": "Ward Bennett",
+            "person_date": "American, 1917 \u2013 2003",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18044277\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
@@ -80,16 +112,23 @@
     },
     "colors": [
         {
-            "color": "#b6b0a4",
-            "closest_css3": "#a9a9a9"
+            "color": "#b5ada0",
+            "closest_crayola": "#979aaa",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
         },
         {
             "color": "#5e5c56",
-            "closest_css3": "#696969"
+            "closest_crayola": "#6e5160",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#827f75",
-            "closest_css3": "#808080"
+            "color": "#817e74",
+            "closest_crayola": "#757575",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

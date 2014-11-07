@@ -3,6 +3,7 @@
     "tms:id": "105479",
     "accession_number": "1952-151-4-a,b",
     "title": "Figure, \"America\", ca. 1930",
+    "title_raw": "America",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18390669\/",
     "department_id": "35347497",
     "period_id": null,
@@ -13,39 +14,68 @@
     "year_end": 1935,
     "year_acquired": "1952",
     "decade": "1920",
-    "woe:country": "23424829",
+    "woe:country_id": "23424829",
     "medium": "Terra cotta",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "H x W x D (a): 159 x 55 x 44 cm (5 ft. 2 5\/8 in. x 21 5\/8 in. x 17 5\/16 in.)\nH x W x D (b): 67.5 x 61 x 50 cm (26 9\/16 x 24 x 19 11\/16 in.)",
+    "dimensions_raw": {
+        "depth": [
+            "44.00",
+            "centimeters"
+        ],
+        "height": [
+            "159.00",
+            "centimeters"
+        ],
+        "width": [
+            "55.00",
+            "centimeters"
+        ]
+    },
     "creditline": null,
     "description": null,
     "justification": null,
-    "type": {
-        "id": "35237189",
-        "name": "Figure"
-    },
+    "woe:country": "23424829",
+    "type": "Figure",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/4940_7568155d65d6e631_b.jpg",
                 "width": 360,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/4940_7568155d65d6e631_n.jpg",
-                "width": 113,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "4940"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/4940_7568155d65d6e631_z.jpg",
                 "width": 225,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "4940"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/4940_7568155d65d6e631_n.jpg",
+                "width": 113,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "4940"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/4940_7568155d65d6e631_d.gif",
+                "width": 113,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "4940"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/4940_7568155d65d6e631_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "4940"
             }
         }
     ],
@@ -54,7 +84,9 @@
             "person_id": "18050013",
             "role_id": "35351535",
             "person_name": "James Hazen Hyde",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18050013\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -62,7 +94,9 @@
             "person_id": "18052319",
             "role_id": "35236657",
             "person_name": "Nymphenburg Porzellan",
+            "person_date": "Munich, Germany, started in 1747",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18052319\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         },
@@ -70,7 +104,9 @@
             "person_id": "18044671",
             "role_id": "35236655",
             "person_name": "Josef Wackerle",
+            "person_date": "born in Partenkirchen, Germany, 1880 - 1959",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18044671\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
@@ -80,24 +116,35 @@
     },
     "colors": [
         {
-            "color": "#6e3e2f",
-            "closest_css3": "#8b4513"
+            "color": "#814735",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         },
         {
-            "color": "#ac6649",
-            "closest_css3": "#a0522d"
+            "color": "#ac694c",
+            "closest_crayola": "#a5694f",
+            "closest_css3": "#cd5c5c",
+            "closest_css4": "#cd5c5c"
         },
         {
-            "color": "#463029",
-            "closest_css3": "#2f4f4f"
+            "color": "#51281a",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#8b4513",
+            "closest_css4": "#8b4513"
         },
         {
-            "color": "#cfd6df",
-            "closest_css3": "#d3d3d3"
+            "color": "#41312c",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#967767",
-            "closest_css3": "#808080"
+            "color": "#cfd6de",
+            "closest_crayola": "#c5d0e6",
+            "closest_css3": "#d3d3d3",
+            "closest_css4": "#d3d3d3"
         }
-    ]
+    ],
+    "woe:country_name": "Germany"
 }

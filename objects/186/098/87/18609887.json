@@ -3,6 +3,7 @@
     "tms:id": "98469",
     "accession_number": "1948-40-188",
     "title": "Drawing, \"Design for an urn on a stand\", 1815 or later",
+    "title_raw": "Design for an urn on a stand",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18609887\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": null,
     "year_acquired": "1948",
     "decade": null,
-    "woe:country": "23424975",
+    "woe:country_id": "23424975",
     "medium": "Graphite on white laid paper",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "1948: acquired by Museum (from Mrs. K. Gregory)",
     "dimensions": "22.7 x 18.3 cm (8 15\/16 x 7 3\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "22.70",
+            "centimeters"
+        ],
+        "width": [
+            "18.30",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase through gift of Mrs. John Innes Kane",
     "description": "Elevation of an urn on a stand, ruled border line in black gouache recto and verso.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424975",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/61612_c58a600e62591416_b.jpg",
                 "width": 830,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/61612_c58a600e62591416_n.jpg",
-                "width": 259,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "61612"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/61612_c58a600e62591416_z.jpg",
                 "width": 519,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "61612"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/61612_c58a600e62591416_n.jpg",
+                "width": 259,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "61612"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/61612_c58a600e62591416_d.gif",
+                "width": 259,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "61612"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/61612_c58a600e62591416_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "61612"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18042131",
             "role_id": "35236655",
             "person_name": "John Nash",
+            "person_date": "1752 \u2013 1835",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18042131\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18539479",
             "role_id": "35352249",
             "person_name": "Mrs. K. Gregory",
+            "person_date": "",
             "role_name": "Vendor",
+            "role_display_name": "Purchased from",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18539479\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352249\/"
         }
@@ -73,11 +103,22 @@
     "colors": [
         {
             "color": "#33342b",
-            "closest_css3": "#2f4f4f"
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#9e937e",
-            "closest_css3": "#bc8f8f"
+            "color": "#c1b9a4",
+            "closest_crayola": "#cdc5c2",
+            "closest_css3": "#c0c0c0",
+            "closest_css4": "#c0c0c0"
+        },
+        {
+            "color": "#7e7562",
+            "closest_crayola": "#8a795d",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         }
-    ]
+    ],
+    "woe:country_name": "United Kingdom"
 }

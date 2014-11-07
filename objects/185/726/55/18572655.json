@@ -3,6 +3,7 @@
     "tms:id": "80068",
     "accession_number": "1945-17-5",
     "title": "Print, \"Rear View of the First Carriage of Lord Catelmaine Built in 1686 by Andrea Cornely after Ciro Ferri (1634-1689)\", 1687\u20131700",
+    "title_raw": "Rear View of the First Carriage of Lord Catelmaine Built in 1686 by Andrea Cornely after Ciro Ferri (1634-1689)",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18572655\/",
     "department_id": "35347493",
     "period_id": "35417081",
@@ -13,39 +14,64 @@
     "year_end": "1700",
     "year_acquired": "1945",
     "decade": null,
-    "woe:country": "23424819",
+    "woe:country_id": "23424819",
     "medium": "Etching and engraving on off-white laid paper",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "1945: acquired by Museum (from Dr. William H. Schab)",
     "dimensions": "14.4 x 14.3 cm (5 11\/16 x 5 5\/8 in. )",
+    "dimensions_raw": {
+        "height": [
+            "14.40",
+            "centimeters"
+        ],
+        "width": [
+            "14.30",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase through gift of Mrs. John Innes Kane",
     "description": "Rear view of carriage featuring scroll decoration and group of figures, including man and woman holding a crown together, putti below, nymphs, lion and unicorn.",
     "justification": null,
-    "type": {
-        "id": "35236873",
-        "name": "Print"
-    },
+    "woe:country": "23424819",
+    "type": "Print",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/66278_bd783ade7ff6ae64_b.jpg",
                 "width": 985,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/66278_bd783ade7ff6ae64_n.jpg",
-                "width": 308,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "66278"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/66278_bd783ade7ff6ae64_z.jpg",
                 "width": 616,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "66278"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/66278_bd783ade7ff6ae64_n.jpg",
+                "width": 308,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "66278"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/66278_bd783ade7ff6ae64_d.gif",
+                "width": 308,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "66278"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/66278_bd783ade7ff6ae64_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "66278"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18539325",
             "role_id": "35352249",
             "person_name": "Dr. William H. Schab",
+            "person_date": "",
             "role_name": "Vendor",
+            "role_display_name": "Purchased from",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18539325\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352249\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18051655",
             "role_id": "35236743",
             "person_name": "Giovanni Battista Lenardi",
+            "person_date": "Italian, 1634 \u2013 1704",
             "role_name": "Engraver",
+            "role_display_name": "Engraved by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18051655\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236743\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18051653",
             "role_id": "35236677",
             "person_name": "Arnold van Westerhout",
+            "person_date": "Flemish, 1651 \u2013 1725",
             "role_name": "After",
+            "role_display_name": "After",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18051653\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236677\/"
         }
@@ -80,5 +112,6 @@
     },
     "colors": [
 
-    ]
+    ],
+    "woe:country_name": "France"
 }

@@ -3,6 +3,7 @@
     "tms:id": "273015",
     "accession_number": "2011-33-3",
     "title": "Textile, \"East Rivers\", 2009",
+    "title_raw": "East Rivers",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18794719\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 2009,
     "year_acquired": "2011",
     "decade": "2000",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Medium: acrylic on slubbed silk\nTechnique: dragbox, plaided",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "Given by the designers in 2011.",
     "dimensions": "H x W: 180.3 x 106.7 cm (5 ft. 11 in. x 42 in.)",
+    "dimensions_raw": {
+        "height": [
+            "180.34",
+            "centimeters"
+        ],
+        "width": [
+            "106.68",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Tillett and Rauscher, Inc.",
     "description": "Very subtle striped effect combined by overlaying transparent shades of pink, yellow green, pale blue and gray.",
     "justification": "TAR\u2019s textile East Rivers (ca. 2009) employs the drag box technique invented by D.D. and Leslie Tillett, using a muted palette of transparent tones of pink, yellow, gray and blue on slubbed silk. The design was created for a Brooklyn interior with panoramic views of the East River in an attempt to preserve the feeling of the sunset on the water when the curtains were closed. ",
-    "type": {
-        "id": "35251739",
-        "name": "textile"
-    },
+    "woe:country": "23424977",
+    "type": "textile",
     "images": [
         {
             "b": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/80860_bc8a1c3b36a60303_b.jpg",
-                "width": 619,
+                "url": "http:\/\/images.collection.cooperhewitt.org\/80860_37d86fa625a93bae_b.jpg",
+                "width": 601,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/80860_bc8a1c3b36a60303_n.jpg",
-                "width": 193,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "80860"
             },
             "z": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/80860_bc8a1c3b36a60303_z.jpg",
-                "width": 387,
+                "url": "http:\/\/images.collection.cooperhewitt.org\/80860_37d86fa625a93bae_z.jpg",
+                "width": 375,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "80860"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/80860_37d86fa625a93bae_n.jpg",
+                "width": 188,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "80860"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/80860_37d86fa625a93bae_d.gif",
+                "width": 188,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "80860"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/80860_37d86fa625a93bae_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "80860"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/40429_396861b2558b4866_b.jpg",
                 "width": 1024,
                 "height": 756,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/40429_396861b2558b4866_n.jpg",
-                "width": 320,
-                "height": 236,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "40429"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/40429_396861b2558b4866_z.jpg",
                 "width": 640,
                 "height": 472,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "40429"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/40429_396861b2558b4866_n.jpg",
+                "width": 320,
+                "height": 236,
+                "is_primary": "0",
+                "image_id": "40429"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/40429_396861b2558b4866_d.gif",
+                "width": 320,
+                "height": 236,
+                "is_primary": "0",
+                "image_id": "40429"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/40429_396861b2558b4866_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "40429"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18065075",
             "role_id": "35236671",
             "person_name": "TAR\/Tillett and Rauscher Inc.",
+            "person_date": "American, founded 2006",
             "role_name": "Producer",
+            "role_display_name": "Produced by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18065075\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236671\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18065081",
             "role_id": "35236655",
             "person_name": "Nicole Rauscher",
+            "person_date": "German, b. 1979",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18065081\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -90,7 +137,9 @@
             "person_id": "18065079",
             "role_id": "35236655",
             "person_name": "Seth Tillett",
+            "person_date": "American, b. 1955",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18065079\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -98,7 +147,9 @@
             "person_id": "18065075",
             "role_id": "35351535",
             "person_name": "TAR\/Tillett and Rauscher Inc.",
+            "person_date": "American, founded 2006",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18065075\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -108,5 +159,6 @@
     },
     "colors": [
 
-    ]
+    ],
+    "woe:country_name": "United States"
 }

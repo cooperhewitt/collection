@@ -3,6 +3,7 @@
     "tms:id": "102591",
     "accession_number": "1950-66-22",
     "title": "Blueprint, \"Villa of M. Hemsy, St. Cloud, Plan du Rez de Chaussee\", 1913",
+    "title_raw": "Villa of M. Hemsy, St. Cloud, Plan du Rez de Chaussee",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18384915\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1913,
     "year_acquired": "1950",
     "decade": "1910",
-    "woe:country": "23424819",
+    "woe:country_id": "23424819",
     "medium": "Blueprint on white wove paper",
     "markings": null,
     "signed": "Signed in plate, lower right: PARIS LE   MARS 1913\/ L'ARCHITECTE Hector Guimard.",
     "inscribed": "inscribed in plate, lower right: Paris Le Mars l913\/ L'ARCHITECTE\/ Hector Guimard. \ninscribed in plate, top: PROPRIETE DE MONSIEUR HEMPSY\/ VILLA  A ST. CLOUD\/ PLAN DU REZ DE CHAUSSEE.",
     "provenance": "Mme. Hector Guimard; 1950: acquired by Museum",
     "dimensions": "54.5 x 33.3 cm (21 7\/16 x 13 1\/8 in.)\ndims. vary\nMat:  71.1 x 55.9 cm (28 x 22 in.)",
+    "dimensions_raw": {
+        "height": [
+            "54.50",
+            "centimeters"
+        ],
+        "width": [
+            "55.90",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Mme. Hector Guimard",
     "description": "Design and floor plan for the Rex de Chaussee. Floor plan, pictured above center, right, notes rooms. Design in background and around floor plan. Inscription at top and artist's signature at bottom right.",
     "justification": null,
-    "type": {
-        "id": "35249153",
-        "name": "blueprint"
-    },
+    "woe:country": "23424819",
+    "type": "blueprint",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/42484_29f1410114ecb974_b.jpg",
                 "width": 633,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/42484_29f1410114ecb974_n.jpg",
-                "width": 198,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "42484"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/42484_29f1410114ecb974_z.jpg",
                 "width": 395,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "42484"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/42484_29f1410114ecb974_n.jpg",
+                "width": 198,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "42484"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/42484_29f1410114ecb974_d.gif",
+                "width": 198,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "42484"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/42484_29f1410114ecb974_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "42484"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18047443",
             "role_id": "35352245",
             "person_name": "Megan L. Smith",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047443\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18538779",
             "role_id": "35351535",
             "person_name": "Mme. Hector Guimard",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18538779\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18042569",
             "role_id": "35236663",
             "person_name": "Hector Guimard",
+            "person_date": "French, 1867\u20131942, active Paris, France, 1885\u20131929",
             "role_name": "Architect",
+            "role_display_name": "Architect:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18042569\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236663\/"
         }
@@ -80,16 +112,23 @@
     },
     "colors": [
         {
-            "color": "#486b92",
-            "closest_css3": "#4682b4"
+            "color": "#476990",
+            "closest_crayola": "#2e5894",
+            "closest_css3": "#4682b4",
+            "closest_css4": "#4682b4"
         },
         {
-            "color": "#7a95ac",
-            "closest_css3": "#778899"
+            "color": "#738ca5",
+            "closest_crayola": "#979aaa",
+            "closest_css3": "#778899",
+            "closest_css4": "#778899"
         },
         {
-            "color": "#a9b8bf",
-            "closest_css3": "#c0c0c0"
+            "color": "#9cacb7",
+            "closest_crayola": "#979aaa",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
         }
-    ]
+    ],
+    "woe:country_name": "France"
 }

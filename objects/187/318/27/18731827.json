@@ -3,6 +3,7 @@
     "tms:id": "242013",
     "accession_number": "2009-20-30",
     "title": "Poster, \"Teatr Wielki, Charles Gounod Foust [Charles Gounod's Faust]\", 1964",
+    "title_raw": "Teatr Wielki, Charles Gounod Foust [Charles Gounod's Faust]",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18731827\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1964,
     "year_acquired": "2009",
     "decade": "1960",
-    "woe:country": null,
+    "woe:country_id": null,
     "medium": "Photo-offset lithograph on paper",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "Marc Benda",
     "dimensions": "97 x 67.4 cm (38 3\/16 x 26 9\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "97.00",
+            "centimeters"
+        ],
+        "width": [
+            "67.40",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Sara and Marc Benda",
     "description": "White poster with prominent, demonic figure composed of colorful swirls of dark blue, light blue, purple, green and pink. Text in black and pink in bottom right corner reads: Teatr Wielki\/ Charles Gounod\/ FAUST.",
     "justification": null,
-    "type": {
-        "id": "35238163",
-        "name": "poster"
-    },
+    "woe:country": null,
+    "type": "poster",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/35462_62469ea6d7b0a839_b.jpg",
                 "width": 717,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/35462_62469ea6d7b0a839_n.jpg",
-                "width": 224,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "35462"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/35462_62469ea6d7b0a839_z.jpg",
                 "width": 448,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "35462"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/35462_62469ea6d7b0a839_n.jpg",
+                "width": 224,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "35462"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/35462_62469ea6d7b0a839_d.gif",
+                "width": 224,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "35462"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/35462_62469ea6d7b0a839_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "35462"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18063205",
             "role_id": "35351535",
             "person_name": "Sara Benda",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18063205\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18062853",
             "role_id": "35236655",
             "person_name": "Jan Lenica",
+            "person_date": "Polish, 1928 - 2001",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18062853\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18062523",
             "role_id": "35351535",
             "person_name": "Marc Benda",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18062523\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -80,24 +112,34 @@
     },
     "colors": [
         {
+            "color": "#dad2c2",
+            "closest_crayola": "#dbd7d2",
+            "closest_css3": "#d3d3d3",
+            "closest_css4": "#d3d3d3"
+        },
+        {
             "color": "#010d3d",
-            "closest_css3": "#191970"
+            "closest_crayola": "#000000",
+            "closest_css3": "#191970",
+            "closest_css4": "#191970"
         },
         {
-            "color": "#073f76",
-            "closest_css3": "#191970"
+            "color": "#04396e",
+            "closest_crayola": "#1a4876",
+            "closest_css3": "#191970",
+            "closest_css4": "#191970"
         },
         {
-            "color": "#022232",
-            "closest_css3": "#000000"
+            "color": "#022132",
+            "closest_crayola": "#000000",
+            "closest_css3": "#000000",
+            "closest_css4": "#000000"
         },
         {
-            "color": "#2d6492",
-            "closest_css3": "#483d8b"
-        },
-        {
-            "color": "#cc7763",
-            "closest_css3": "#cd5c5c"
+            "color": "#255d8c",
+            "closest_crayola": "#2e5894",
+            "closest_css3": "#483d8b",
+            "closest_css4": "#483d8b"
         }
     ]
 }

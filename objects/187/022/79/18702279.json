@@ -3,6 +3,7 @@
     "tms:id": "226804",
     "accession_number": "2006-29-1",
     "title": "Sample, late 1940s",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18702279\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1949,
     "year_acquired": "2006",
     "decade": "1940",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Medium: rayon, linen\nTechnique: plain weave with supplementary weft patterning",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "Helga Regensteiner Sinaiko; 2006: acquired by Museum (through Eve Sinaiko)",
     "dimensions": "Warp x Weft: 53.3 x 55.9 cm (21 x 22 in.)",
+    "dimensions_raw": {
+        "warp": [
+            "53.30",
+            "centimeters"
+        ],
+        "weft": [
+            "55.90",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Helga Regensteiner Sinaiko",
     "description": "A plain weave ground of chartreuse rayon, rayon overtwist novelty, and wool yarns, with supplementary weft patterning in natural linen, its float weave creating a large-scale chevron twill on the surface.",
     "justification": null,
-    "type": {
-        "id": "35268079",
-        "name": "Sample"
-    },
+    "woe:country": "23424977",
+    "type": "Sample",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/24040_f295b46c5be19ca8_b.jpg",
                 "width": 1024,
                 "height": 679,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/24040_f295b46c5be19ca8_n.jpg",
-                "width": 320,
-                "height": 212,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "24040"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/24040_f295b46c5be19ca8_z.jpg",
                 "width": 640,
                 "height": 424,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "24040"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/24040_f295b46c5be19ca8_n.jpg",
+                "width": 320,
+                "height": 212,
+                "is_primary": "1",
+                "image_id": "24040"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/24040_f295b46c5be19ca8_d.gif",
+                "width": 320,
+                "height": 212,
+                "is_primary": "1",
+                "image_id": "24040"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/24040_f295b46c5be19ca8_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "24040"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18060577",
             "role_id": "35351535",
             "person_name": "Helga Sinaiko",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18060577\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -62,9 +90,31 @@
             "person_id": "18058065",
             "role_id": "51571159",
             "person_name": "Eve Sinaiko",
+            "person_date": "",
             "role_name": "Agent",
+            "role_display_name": "Agent:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18058065\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/51571159\/"
+        },
+        {
+            "person_id": "68737043",
+            "role_id": "35236657",
+            "person_name": "reg\/wick Hand Woven Originals",
+            "person_date": "",
+            "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
+            "person_url": "http:\/\/collection.cooperhewitt.org\/people\/68737043\/",
+            "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
+        },
+        {
+            "person_id": "68737039",
+            "role_id": "35236655",
+            "person_name": "Else Regensteiner (American, b. Germany, 1906 \u2013 2003)",
+            "person_date": "",
+            "role_name": "Designer",
+            "role_display_name": "Designed by",
+            "person_url": "http:\/\/collection.cooperhewitt.org\/people\/68737039\/",
+            "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
     ],
     "tombstone": {
@@ -72,16 +122,29 @@
     },
     "colors": [
         {
-            "color": "#83701a",
-            "closest_css3": "#808000"
+            "color": "#a79955",
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#bdb76b",
+            "closest_css4": "#bdb76b"
         },
         {
-            "color": "#cdbf50",
-            "closest_css3": "#bdb76b"
+            "color": "#8a7b3a",
+            "closest_crayola": "#9c7c38",
+            "closest_css3": "#6b8e23",
+            "closest_css4": "#6b8e23"
         },
         {
-            "color": "#59430d",
-            "closest_css3": "#8b4513"
+            "color": "#c4b441",
+            "closest_crayola": "#bab86c",
+            "closest_css3": "#daa520",
+            "closest_css4": "#daa520"
+        },
+        {
+            "color": "#735f1a",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#8b4513",
+            "closest_css4": "#8b4513"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

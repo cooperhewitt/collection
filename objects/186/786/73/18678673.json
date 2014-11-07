@@ -3,6 +3,7 @@
     "tms:id": "214803",
     "accession_number": "1969-165-674",
     "title": "Sample, \"Millchek\"",
+    "title_raw": "Millchek",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18678673\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": null,
     "year_acquired": "1969",
     "decade": null,
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Medium: cotton (63%) and nylon (37%)\nTechnique: double cloth",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "Warp x Weft: 30.5 x 30.5 cm (12 x 12 in.)",
+    "dimensions_raw": {
+        "warp": [
+            "30.48",
+            "centimeters"
+        ],
+        "weft": [
+            "30.48",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Alexander H. Girard",
     "description": "Double cloth in a red and blue checkerboard pattern. The warp threads are blue and orange, and the weft threads are green and red. The blue warp and green weft intersect and appear as blue-green. The orange warp and red weft intersect and appear as red-orange. Number 1106.",
     "justification": null,
-    "type": {
-        "id": "35268079",
-        "name": "Sample"
-    },
+    "woe:country": "23424977",
+    "type": "Sample",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/17909_d633e8a7421f964f_b.jpg",
                 "width": 1024,
                 "height": 1018,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/17909_d633e8a7421f964f_n.jpg",
-                "width": 320,
-                "height": 318,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "17909"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/17909_d633e8a7421f964f_z.jpg",
                 "width": 640,
                 "height": 636,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "17909"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/17909_d633e8a7421f964f_n.jpg",
+                "width": 320,
+                "height": 318,
+                "is_primary": "1",
+                "image_id": "17909"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/17909_d633e8a7421f964f_d.gif",
+                "width": 320,
+                "height": 318,
+                "is_primary": "1",
+                "image_id": "17909"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/17909_d633e8a7421f964f_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "17909"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18046041",
             "role_id": "35351535",
             "person_name": "Alexander Hayden Girard",
+            "person_date": "American, 1907\u20131993",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18046041\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18046041",
             "role_id": "35236655",
             "person_name": "Alexander Hayden Girard",
+            "person_date": "American, 1907\u20131993",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18046041\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
@@ -72,24 +102,35 @@
     },
     "colors": [
         {
-            "color": "#dc3821",
-            "closest_css3": "#dc143c"
+            "color": "#d83921",
+            "closest_crayola": "#ff2b2b",
+            "closest_css3": "#b22222",
+            "closest_css4": "#b22222"
         },
         {
-            "color": "#356c7c",
-            "closest_css3": "#2e8b57"
+            "color": "#376b83",
+            "closest_crayola": "#2e5894",
+            "closest_css3": "#483d8b",
+            "closest_css4": "#483d8b"
         },
         {
-            "color": "#a54337",
-            "closest_css3": "#a0522d"
+            "color": "#9f3c2c",
+            "closest_crayola": "#9c2542",
+            "closest_css3": "#a52a2a",
+            "closest_css4": "#a52a2a"
         },
         {
-            "color": "#184c5c",
-            "closest_css3": "#2f4f4f"
+            "color": "#4d5b6f",
+            "closest_crayola": "#4a646c",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#1a5482",
-            "closest_css3": "#008080"
+            "color": "#6e4b3d",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

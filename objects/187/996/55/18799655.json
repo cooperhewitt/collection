@@ -3,6 +3,7 @@
     "tms:id": "179988",
     "accession_number": "1982-25-103",
     "title": "Drawing, \"\"Cradle Song,\" by Johanne\", April 18, 1968",
+    "title_raw": "\"Cradle Song,\" by Johanne",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18799655\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1968,
     "year_acquired": "1982",
     "decade": "1960",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Color pencil, graphite on cream wove paper",
     "markings": null,
     "signed": null,
     "inscribed": "Inscribed in graphite, lower margin: S153-M17-Scale 3\"=1'0\"-T 3\/4-P 3\/2-Cradle Song- Johannes Brahms- 4-18-1968",
     "provenance": "Estate of John De Cesare",
     "dimensions": "35.3 x 42.7cm (13 7\/8 x 16 13\/16in.)",
+    "dimensions_raw": {
+        "height": [
+            "35.30",
+            "centimeters"
+        ],
+        "width": [
+            "42.70",
+            "centimeters"
+        ]
+    },
     "creditline": null,
     "description": "Mutlicolored drawing of transcription of \"Cradle Song\" by Brahms.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424977",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/9668_8a5a83abc2a45c8e_b.jpg",
                 "width": 1024,
                 "height": 814,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/9668_8a5a83abc2a45c8e_n.jpg",
-                "width": 320,
-                "height": 255,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "9668"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/9668_8a5a83abc2a45c8e_z.jpg",
                 "width": 640,
                 "height": 509,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "9668"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/9668_8a5a83abc2a45c8e_n.jpg",
+                "width": 320,
+                "height": 255,
+                "is_primary": "1",
+                "image_id": "9668"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/9668_8a5a83abc2a45c8e_d.gif",
+                "width": 320,
+                "height": 255,
+                "is_primary": "1",
+                "image_id": "9668"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/9668_8a5a83abc2a45c8e_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "9668"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "51676457",
             "role_id": "35352245",
             "person_name": "Karin Zonis",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/51676457\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18537113",
             "role_id": "35351535",
             "person_name": "Estate of John De Cesare",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18537113\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18047513",
             "role_id": "35352245",
             "person_name": "Samantha Finch",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047513\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -78,7 +110,9 @@
             "person_id": "18043543",
             "role_id": "35236655",
             "person_name": "John De Cesare",
+            "person_date": "American, b. Italy,  1890\u20131972",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18043543\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
@@ -88,24 +122,35 @@
     },
     "colors": [
         {
-            "color": "#c5b39c",
-            "closest_css3": "#d2b48c"
+            "color": "#b9ac8e",
+            "closest_crayola": "#bab86c",
+            "closest_css3": "#d2b48c",
+            "closest_css4": "#d2b48c"
         },
         {
-            "color": "#e3dacb",
-            "closest_css3": "#dcdcdc"
+            "color": "#eae1c7",
+            "closest_crayola": "#efdecd",
+            "closest_css3": "#ffe4c4",
+            "closest_css4": "#ffe4c4"
         },
         {
-            "color": "#e1b2ad",
-            "closest_css3": "#ffb6c1"
+            "color": "#ead984",
+            "closest_crayola": "#f0e891",
+            "closest_css3": "#f0e68c",
+            "closest_css4": "#f0e68c"
         },
         {
-            "color": "#d1d9aa",
-            "closest_css3": "#eee8aa"
+            "color": "#ca9d57",
+            "closest_crayola": "#d68a59",
+            "closest_css3": "#cd853f",
+            "closest_css4": "#cd853f"
         },
         {
-            "color": "#9d7029",
-            "closest_css3": "#a0522d"
+            "color": "#9c6e25",
+            "closest_crayola": "#9c7c38",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

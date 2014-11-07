@@ -3,6 +3,7 @@
     "tms:id": "23602",
     "accession_number": "1917-4-772-a",
     "title": "Drawing, \"Mount Cayambe, Ecuador\", August 29, 1853",
+    "title_raw": "Mount Cayambe, Ecuador",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18201619\/",
     "department_id": "35347493",
     "period_id": "35417175",
@@ -13,39 +14,64 @@
     "year_end": null,
     "year_acquired": "1917",
     "decade": null,
-    "woe:country": "23424801",
+    "woe:country_id": "23424801",
     "medium": "Graphite on cream wove paper",
     "markings": null,
     "signed": null,
     "inscribed": "Bottom left:  \"Gugambu near Quito \/ Aug 29-53 \/ Cayambe\"\nVerso: (not in C's hand) \"Temple de Guajonlo\/ Honorde oto Larrea\" (?); and in C's hand: \"From his hacienda\/ Sep 1 - \/ 53\"",
     "provenance": null,
     "dimensions": "Sheet: 12.4 x 20 cm (4 7\/8 x 7 7\/8 in.)",
+    "dimensions_raw": {
+        "height": [
+            "12.40",
+            "centimeters"
+        ],
+        "width": [
+            "20.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Louis P. Church",
     "description": "\"Cayambe\" rising behind a ridge shown from Gugambu near Quito.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424801",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/20327_f774a2969cb5f923_b.jpg",
                 "width": 1024,
                 "height": 664,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/20327_f774a2969cb5f923_n.jpg",
-                "width": 320,
-                "height": 207,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "20327"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/20327_f774a2969cb5f923_z.jpg",
                 "width": 640,
                 "height": 415,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "20327"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/20327_f774a2969cb5f923_n.jpg",
+                "width": 320,
+                "height": 207,
+                "is_primary": "1",
+                "image_id": "20327"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/20327_f774a2969cb5f923_d.gif",
+                "width": 320,
+                "height": 207,
+                "is_primary": "1",
+                "image_id": "20327"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/20327_f774a2969cb5f923_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "20327"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18041941",
             "role_id": "35236565",
             "person_name": "Frederic Edwin Church",
+            "person_date": "American, 1826\u20131900",
             "role_name": "Artist",
+            "role_display_name": "",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041941\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236565\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18051625",
             "role_id": "35351535",
             "person_name": "Louis P. Church",
+            "person_date": "American, 1870\u20131943",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18051625\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -72,12 +102,17 @@
     },
     "colors": [
         {
-            "color": "#b1aca5",
-            "closest_css3": "#a9a9a9"
+            "color": "#b2ada6",
+            "closest_crayola": "#979aaa",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
         },
         {
-            "color": "#87827d",
-            "closest_css3": "#808080"
+            "color": "#88837e",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         }
-    ]
+    ],
+    "woe:country_name": "Ecuador"
 }

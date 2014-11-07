@@ -3,6 +3,7 @@
     "tms:id": "186326",
     "accession_number": "1987-72-1",
     "title": "Panel, \"Le Tapageur\", 1957",
+    "title_raw": "Le Tapageur",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18622979\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1957,
     "year_acquired": "1987",
     "decade": "1950",
-    "woe:country": "23424819",
+    "woe:country_id": "23424819",
     "medium": "Technique: screen printed using 8 screens on plain weave",
     "markings": null,
     "signed": null,
     "inscribed": "signed with a printed signature 'Lurcat' in lower right corner. label sewn to lower left corner 'Le tatageur Jean Jean Lurcat edite par COROT exemplaire No. 656' and signed in ballpoint 'Jean Lurcat\"",
     "provenance": null,
     "dimensions": "Warp: 171cm (67 1\/4in.). Weft: 123cm (48 1\/2in.).",
+    "dimensions_raw": {
+        "warp": [
+            "171.00",
+            "centimeters"
+        ],
+        "weft": [
+            "123.00",
+            "centimeters"
+        ]
+    },
     "creditline": null,
     "description": "Rooster with wing outspread in a drift of blue leaves on a chartreuse ground.",
     "justification": null,
-    "type": {
-        "id": "35237229",
-        "name": "Panel"
-    },
+    "woe:country": "23424819",
+    "type": "Panel",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/78160_f4de4213fbd375af_b.jpg",
                 "width": 663,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/78160_f4de4213fbd375af_n.jpg",
-                "width": 207,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "78160"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/78160_f4de4213fbd375af_z.jpg",
                 "width": 414,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "78160"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/78160_f4de4213fbd375af_n.jpg",
+                "width": 207,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "78160"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/78160_f4de4213fbd375af_d.gif",
+                "width": 207,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "78160"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/78160_f4de4213fbd375af_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "78160"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18047459",
             "role_id": "35352245",
             "person_name": "Gillian Moss",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047459\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18045531",
             "role_id": "35236685",
             "person_name": "COROT",
+            "person_date": "",
             "role_name": "Maker",
+            "role_display_name": "Made by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18045531\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236685\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18045529",
             "role_id": "35236655",
             "person_name": "Jean Lurcat",
+            "person_date": "French, 1892\u20131966",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18045529\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
@@ -80,5 +112,6 @@
     },
     "colors": [
 
-    ]
+    ],
+    "woe:country_name": "France"
 }

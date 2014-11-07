@@ -3,6 +3,7 @@
     "tms:id": "196845",
     "accession_number": "1993-150-44",
     "title": "Coffee Service, 1934",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18643955\/",
     "department_id": "35347497",
     "period_id": null,
@@ -13,39 +14,68 @@
     "year_end": 1934,
     "year_acquired": "1993",
     "decade": "1930",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Chrome-plated metal, enamel",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "1993: acquired by Museum (from Carole Krohn)",
     "dimensions": "(tray): 2.5 x 37.5 x 32.5 cm (1 in. x 14 3\/4 in. x 12 13\/16 in.)\n(coffee maker): 29.5 x 17.3 x 10 cm (11 5\/8 x 6 13\/16 x 3 15\/16 in.)\n(hot plate): 5.8 x 17.6 x 11.2 cm (2 5\/16 x 6 15\/16 x 4 7\/16 in.)\n(teapot): 19.4 x 15.3 x 8.5 cm (7 5\/8 in. x 6 in. x 3 3\/8 in.)\n(sugar bowl): 9.4 x 8.6 x 7.4 cm (3 11\/16 x 3 3\/8 x 2 15\/16 in.)\n(creamer): 9.6 x 12.2 x 7 cm (3 3\/4 x 4 13\/16 x 2 3\/4 in.)",
+    "dimensions_raw": {
+        "depth": [
+            "7.00",
+            "centimeters"
+        ],
+        "height": [
+            "9.60",
+            "centimeters"
+        ],
+        "width": [
+            "12.20",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase from Decorative Arts Association Acquisition Fund",
     "description": "Service pieces are chrome cylindrical with some horizontal striations; handles composed of black fluted cylinders.",
     "justification": null,
-    "type": {
-        "id": "35252891",
-        "name": "coffee service"
-    },
+    "woe:country": "23424977",
+    "type": "coffee service",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/16042_d66a105d5e5f72a5_b.jpg",
                 "width": 984,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/16042_d66a105d5e5f72a5_n.jpg",
-                "width": 307,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "16042"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/16042_d66a105d5e5f72a5_z.jpg",
                 "width": 615,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "16042"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/16042_d66a105d5e5f72a5_n.jpg",
+                "width": 307,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "16042"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/16042_d66a105d5e5f72a5_d.gif",
+                "width": 307,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "16042"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/16042_d66a105d5e5f72a5_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "16042"
             }
         }
     ],
@@ -54,7 +84,9 @@
             "person_id": "18041461",
             "role_id": "35352249",
             "person_name": "Carole Krohn",
+            "person_date": "",
             "role_name": "Vendor",
+            "role_display_name": "Purchased from",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041461\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352249\/"
         },
@@ -62,7 +94,9 @@
             "person_id": "18049365",
             "role_id": "35352247",
             "person_name": "Decorative Arts Association Acquisition Fund",
+            "person_date": "founded 1982, closed September 30, 1998",
             "role_name": "Fund",
+            "role_display_name": "Fund:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049365\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352247\/"
         },
@@ -70,7 +104,9 @@
             "person_id": "18045171",
             "role_id": "35236657",
             "person_name": "Sunbeam Corporation",
+            "person_date": "Chicago, Illinois, USA",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18045171\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         }
@@ -80,20 +116,23 @@
     },
     "colors": [
         {
-            "color": "#343439",
-            "closest_css3": "#2f4f4f"
+            "color": "#5e5d65",
+            "closest_crayola": "#6e5160",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#52515b",
-            "closest_css3": "#696969"
+            "color": "#2d3032",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#a4a1aa",
-            "closest_css3": "#a9a9a9"
-        },
-        {
-            "color": "#84818c",
-            "closest_css3": "#808080"
+            "color": "#86838d",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

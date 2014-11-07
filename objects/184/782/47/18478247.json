@@ -3,6 +3,7 @@
     "tms:id": "149933",
     "accession_number": "1972-75-107",
     "title": "Sample, ca. 1949",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18478247\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1954,
     "year_acquired": "1972",
     "decade": "1940",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Medium: cotton and synthetic fiber\nTechnique: 2 and 2 twill woven with designated warps pulled up for pile (velvet).\\",
     "markings": null,
     "signed": null,
     "inscribed": "in ink on front of card \"#66-15 NY\" \"Dorothy Liebes\" and \"c.1949\"",
     "provenance": "Estate of Dorothy (Liebes) Morin; 1972: acquired by Museum",
-    "dimensions": "Warp x Weft: 18 x 25 cm (7 1\/16 x 9 13\/16 in.)",
+    "dimensions": "Warp x Weft (sample): 26 \u00d7 18.4 cm (10 1\/4 \u00d7 7 1\/4 in.)\nH x W (card): 31.8 \u00d7 27.9 cm (12 1\/2 in. \u00d7 11 in.)",
+    "dimensions_raw": {
+        "warp": [
+            "18.00",
+            "centimeters"
+        ],
+        "weft": [
+            "25.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of the Estate of Dorothy (Liebes) Morin",
     "description": "Blocks of pile (uncut loops) in stripes of green, red and blue.",
     "justification": null,
-    "type": {
-        "id": "35268079",
-        "name": "Sample"
-    },
+    "woe:country": "23424977",
+    "type": "Sample",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/37342_d7bd5ae99771c587_b.jpg",
                 "width": 715,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/37342_d7bd5ae99771c587_n.jpg",
-                "width": 224,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "37342"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/37342_d7bd5ae99771c587_z.jpg",
                 "width": 447,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "37342"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/37342_d7bd5ae99771c587_n.jpg",
+                "width": 224,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "37342"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/37342_d7bd5ae99771c587_d.gif",
+                "width": 224,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "37342"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/37342_d7bd5ae99771c587_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "37342"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18045817",
             "role_id": "35236745",
             "person_name": "Dorothy Wright Liebes",
+            "person_date": "American, 1897\u20131972",
             "role_name": "Weaver",
+            "role_display_name": "Woven by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18045817\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236745\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18054731",
             "role_id": "35351535",
             "person_name": "Estate of Dorothy (Liebes) Morin",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18054731\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18047459",
             "role_id": "35352245",
             "person_name": "Gillian Moss",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047459\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -78,7 +110,9 @@
             "person_id": "18045817",
             "role_id": "35236655",
             "person_name": "Dorothy Wright Liebes",
+            "person_date": "American, 1897\u20131972",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18045817\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
@@ -88,24 +122,35 @@
     },
     "colors": [
         {
-            "color": "#07332d",
-            "closest_css3": "#2f4f4f"
+            "color": "#173e36",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
             "color": "#ad1605",
-            "closest_css3": "#b22222"
+            "closest_crayola": "#9c2542",
+            "closest_css3": "#b22222",
+            "closest_css4": "#b22222"
         },
         {
-            "color": "#215348",
-            "closest_css3": "#2f4f4f"
+            "color": "#011b16",
+            "closest_crayola": "#000000",
+            "closest_css3": "#000000",
+            "closest_css4": "#000000"
         },
         {
-            "color": "#83a4c5",
-            "closest_css3": "#a9a9a9"
+            "color": "#530201",
+            "closest_crayola": "#000000",
+            "closest_css3": "#800000",
+            "closest_css4": "#800000"
         },
         {
-            "color": "#7d0501",
-            "closest_css3": "#800000"
+            "color": "#5e8b9f",
+            "closest_crayola": "#6699cc",
+            "closest_css3": "#5f9ea0",
+            "closest_css4": "#5f9ea0"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

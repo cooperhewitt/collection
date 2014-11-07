@@ -2,7 +2,8 @@
     "id": "18282665",
     "tms:id": "34922",
     "accession_number": "1921-6-450-142",
-    "title": "Print, \"Design for Four Girandoles\", 1755",
+    "title": "Print, \"Gerandoles\", 1755",
+    "title_raw": "Design for Four Girandoles",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18282665\/",
     "department_id": "35347493",
     "period_id": "35417101",
@@ -13,39 +14,68 @@
     "year_end": 1755,
     "year_acquired": "1921",
     "decade": null,
-    "woe:country": "23424975",
+    "woe:country_id": "23424975",
     "medium": "Etching on off-white laid paper",
     "markings": null,
     "signed": null,
     "inscribed": "Inscribed on plate, upper left: NoCXL; upper center: Gerandoles.; lower left: Chippendale invt ed del.; lower center: Publish'd according to Act of Parliment.; lower right: M.Darly Sculp",
     "provenance": "From the Collection of L\u00e9on Decloux",
     "dimensions": "Platemark: 35.3 x 22.5 cm (13 7\/8 x 8 7\/8 in.)\nOverall: 4.8 x 30.8 x 46.3 cm (1 7\/8 x 12 1\/8 x 18 1\/4 in.)\nOpen: 15.2 x 58.8 x 45.5 cm (6 x 23 1\/8 x 17 15\/16 in.)",
+    "dimensions_raw": {
+        "depth": [
+            "46.30",
+            "centimeters"
+        ],
+        "height": [
+            "4.80",
+            "centimeters"
+        ],
+        "width": [
+            "30.80",
+            "centimeters"
+        ]
+    },
     "creditline": "Purchased for the Museum by the Advisory Council",
     "description": "Page from \"The Gentleman and Cabinet-Maker's Director\" 2nd edition.",
     "justification": null,
-    "type": {
-        "id": "35236873",
-        "name": "Print"
-    },
+    "woe:country": "23424975",
+    "type": "Print",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/22740_73adad43e7463353_b.jpg",
                 "width": 646,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/22740_73adad43e7463353_n.jpg",
-                "width": 202,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "22740"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/22740_73adad43e7463353_z.jpg",
                 "width": 404,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "22740"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/22740_73adad43e7463353_n.jpg",
+                "width": 202,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "22740"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/22740_73adad43e7463353_d.gif",
+                "width": 202,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "22740"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/22740_73adad43e7463353_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "22740"
             }
         }
     ],
@@ -54,7 +84,9 @@
             "person_id": "18049621",
             "role_id": "35351535",
             "person_name": "Advisory Council",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049621\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -62,7 +94,9 @@
             "person_id": "18060149",
             "role_id": "35236661",
             "person_name": "J Haberkorn",
+            "person_date": "English",
             "role_name": "Publisher",
+            "role_display_name": "Published by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18060149\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236661\/"
         },
@@ -70,7 +104,9 @@
             "person_id": "18060151",
             "role_id": "35236743",
             "person_name": "Matthias Darly",
+            "person_date": "English",
             "role_name": "Engraver",
+            "role_display_name": "Engraved by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18060151\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236743\/"
         },
@@ -78,26 +114,35 @@
             "person_id": "18051793",
             "role_id": "35236655",
             "person_name": "Thomas Chippendale",
+            "person_date": "1718 \u2013 1779",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18051793\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
     ],
     "tombstone": {
-        "epitaph": "Print, \"Design for Four Girandoles\", 1755. Etching on off-white laid paper. Purchased for the Museum by the Advisory Council. 1921-6-450-142."
+        "epitaph": "Print, \"Gerandoles\", 1755. Etching on off-white laid paper. Purchased for the Museum by the Advisory Council. 1921-6-450-142."
     },
     "colors": [
         {
-            "color": "#afa36f",
-            "closest_css3": "#bdb76b"
+            "color": "#b6a678",
+            "closest_crayola": "#bab86c",
+            "closest_css3": "#bdb76b",
+            "closest_css4": "#bdb76b"
         },
         {
-            "color": "#87794e",
-            "closest_css3": "#696969"
+            "color": "#938759",
+            "closest_crayola": "#8a795d",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#60532f",
-            "closest_css3": "#556b2f"
+            "color": "#695c3a",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         }
-    ]
+    ],
+    "woe:country_name": "United Kingdom"
 }

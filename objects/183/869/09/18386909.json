@@ -3,6 +3,7 @@
     "tms:id": "103595",
     "accession_number": "1951-117-4",
     "title": "Border Corner, 1850\u201360",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18386909\/",
     "department_id": "35347503",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1910,
     "year_acquired": "1951",
     "decade": null,
-    "woe:country": "23424975",
+    "woe:country_id": "23424975",
     "medium": "Block-printed",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "23 x 20.5 cm (9 1\/16 x 8 1\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "23.00",
+            "centimeters"
+        ],
+        "width": [
+            "20.50",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Martin Battersby",
     "description": "Corner for a wallpaper border. To be used to continue borders which outline panels or dados. Green and white ribbon with corner rosette, on white, glossy ground.",
     "justification": null,
-    "type": {
-        "id": "35289921",
-        "name": "Border corner"
-    },
+    "woe:country": "23424975",
+    "type": "Border corner",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/44933_4603100fd3d50c27_b.jpg",
                 "width": 1024,
                 "height": 898,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/44933_4603100fd3d50c27_n.jpg",
-                "width": 320,
-                "height": 281,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "44933"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/44933_4603100fd3d50c27_z.jpg",
                 "width": 640,
                 "height": 561,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "44933"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/44933_4603100fd3d50c27_n.jpg",
+                "width": 320,
+                "height": 281,
+                "is_primary": "1",
+                "image_id": "44933"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/44933_4603100fd3d50c27_d.gif",
+                "width": 320,
+                "height": 281,
+                "is_primary": "1",
+                "image_id": "44933"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/44933_4603100fd3d50c27_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "44933"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/17191_560a5ada2a0dc213_b.jpg",
                 "width": 895,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/17191_560a5ada2a0dc213_n.jpg",
-                "width": 280,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "17191"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/17191_560a5ada2a0dc213_z.jpg",
                 "width": 559,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "17191"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/17191_560a5ada2a0dc213_n.jpg",
+                "width": 280,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "17191"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/17191_560a5ada2a0dc213_d.gif",
+                "width": 280,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "17191"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/17191_560a5ada2a0dc213_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "17191"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18051519",
             "role_id": "35351535",
             "person_name": "Martin Battersby",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18051519\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18047829",
             "role_id": "35352245",
             "person_name": "Horace L. Hotchkiss, Jr.",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047829\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         }
@@ -92,12 +139,23 @@
     },
     "colors": [
         {
-            "color": "#bdc39d",
-            "closest_css3": "#d2b48c"
+            "color": "#b7c08e",
+            "closest_crayola": "#bab86c",
+            "closest_css3": "#d2b48c",
+            "closest_css4": "#d2b48c"
         },
         {
-            "color": "#8c9663",
-            "closest_css3": "#808080"
+            "color": "#dde1c2",
+            "closest_crayola": "#eceabe",
+            "closest_css3": "#d3d3d3",
+            "closest_css4": "#d3d3d3"
+        },
+        {
+            "color": "#868f5b",
+            "closest_crayola": "#8a795d",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         }
-    ]
+    ],
+    "woe:country_name": "United Kingdom"
 }

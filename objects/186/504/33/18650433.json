@@ -3,6 +3,7 @@
     "tms:id": "200144",
     "accession_number": "1995-163-7",
     "title": "Sidewall, \"B 100\", 1992",
+    "title_raw": "B 100",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18650433\/",
     "department_id": "35347503",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1992,
     "year_acquired": "1995",
     "decade": "1990",
-    "woe:country": "23424829",
+    "woe:country_id": "23424829",
     "medium": "Screen printed",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "H x W: 1005 x 53.5 cm (395 11\/16 x 21 1\/16 in. )",
+    "dimensions_raw": {
+        "height": [
+            "1005.00",
+            "centimeters"
+        ],
+        "width": [
+            "53.50",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Gebr. Rasch GmbH & Co.",
     "description": "Gray wood grain design, having the appearance of a wood impression left in soft cement.",
     "justification": null,
-    "type": {
-        "id": "35256475",
-        "name": "Sidewall"
-    },
+    "woe:country": "23424829",
+    "type": "Sidewall",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/13547_789c29599dc1b44e_b.jpg",
                 "width": 594,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/13547_789c29599dc1b44e_n.jpg",
-                "width": 186,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "13547"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/13547_789c29599dc1b44e_z.jpg",
                 "width": 371,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "13547"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/13547_789c29599dc1b44e_n.jpg",
+                "width": 186,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "13547"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/13547_789c29599dc1b44e_d.gif",
+                "width": 186,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "13547"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/13547_789c29599dc1b44e_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "13547"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18046473",
             "role_id": "35236657",
             "person_name": "Rasch & Company",
+            "person_date": "1896",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18046473\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18047285",
             "role_id": "35236655",
             "person_name": "Ginbande-Design",
+            "person_date": "",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047285\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18049019",
             "role_id": "35236657",
             "person_name": "Gebr. Rasch GmbH & Co.",
+            "person_date": "",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049019\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         }
@@ -80,12 +112,11 @@
     },
     "colors": [
         {
-            "color": "#7f7782",
-            "closest_css3": "#808080"
-        },
-        {
-            "color": "#9b949e",
-            "closest_css3": "#a9a9a9"
+            "color": "#938b98",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#778899",
+            "closest_css4": "#778899"
         }
-    ]
+    ],
+    "woe:country_name": "Germany"
 }

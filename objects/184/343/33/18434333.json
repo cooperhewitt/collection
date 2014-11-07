@@ -3,6 +3,7 @@
     "tms:id": "127586",
     "accession_number": "1960-72-4",
     "title": "Textile, ca. 1700",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18434333\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1710,
     "year_acquired": "1960",
     "decade": null,
-    "woe:country": null,
+    "woe:country_id": null,
     "medium": "Medium: silk, metallic threads\nTechnique: warp-faced satin weave with supplementary weft (damask patterning)",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "H x W: 43.6 x 55.2 cm (17 3\/16 x 21 3\/4 in.)",
+    "dimensions_raw": {
+        "height": [
+            "43.60",
+            "centimeters"
+        ],
+        "width": [
+            "55.20",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase from Au Panier Fleuri Fund",
     "description": "Bizarre-style silk with a coral ground in a pattern of a large roundel superimposed on a long diagonal cylinder like a quiver of arrows with elongated leaf shapes growing out of this central motif.",
     "justification": null,
-    "type": {
-        "id": "35251739",
-        "name": "textile"
-    },
+    "woe:country": null,
+    "type": "textile",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/40815_b4258217813fb66b_b.jpg",
                 "width": 1024,
                 "height": 819,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/40815_b4258217813fb66b_n.jpg",
-                "width": 320,
-                "height": 256,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "40815"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/40815_b4258217813fb66b_z.jpg",
                 "width": 640,
                 "height": 512,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "40815"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/40815_b4258217813fb66b_n.jpg",
+                "width": 320,
+                "height": 256,
+                "is_primary": "1",
+                "image_id": "40815"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/40815_b4258217813fb66b_d.gif",
+                "width": 320,
+                "height": 256,
+                "is_primary": "1",
+                "image_id": "40815"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/40815_b4258217813fb66b_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "40815"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/74032_373eb6d3f9e1bbb1_b.jpg",
                 "width": 1024,
                 "height": 765,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/74032_373eb6d3f9e1bbb1_n.jpg",
-                "width": 320,
-                "height": 239,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "74032"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/74032_373eb6d3f9e1bbb1_z.jpg",
                 "width": 640,
                 "height": 478,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "74032"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/74032_373eb6d3f9e1bbb1_n.jpg",
+                "width": 320,
+                "height": 239,
+                "is_primary": "0",
+                "image_id": "74032"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/74032_373eb6d3f9e1bbb1_d.gif",
+                "width": 320,
+                "height": 239,
+                "is_primary": "0",
+                "image_id": "74032"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/74032_373eb6d3f9e1bbb1_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "74032"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18538369",
             "role_id": "35352249",
             "person_name": "Amy Pleadwell",
+            "person_date": "",
             "role_name": "Vendor",
+            "role_display_name": "Purchased from",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18538369\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352249\/"
         }
@@ -84,20 +129,22 @@
     },
     "colors": [
         {
-            "color": "#cab48a",
-            "closest_css3": "#d2b48c"
+            "color": "#9d7e55",
+            "closest_crayola": "#8a795d",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#96907c",
-            "closest_css3": "#808080"
+            "color": "#87887d",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#798583",
-            "closest_css3": "#808080"
-        },
-        {
-            "color": "#837259",
-            "closest_css3": "#696969"
+            "color": "#e4dac7",
+            "closest_crayola": "#efdecd",
+            "closest_css3": "#d3d3d3",
+            "closest_css4": "#d3d3d3"
         }
     ]
 }

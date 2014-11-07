@@ -3,6 +3,7 @@
     "tms:id": "64411",
     "accession_number": "1938-88-3849",
     "title": "Drawing, \"Drawing for an Oratory (Memorial Chapel)\", ca. 1820",
+    "title_raw": "Drawing for an Oratory (Memorial Chapel)",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18542105\/",
     "department_id": "35347493",
     "period_id": "35417089",
@@ -13,39 +14,64 @@
     "year_end": 1830,
     "year_acquired": "1938",
     "decade": null,
-    "woe:country": "23424853",
+    "woe:country_id": "23424853",
     "medium": "Pen and black ink, brush and gray wash, blue, pink and yellow watercolor on  paper",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "Giovanni Piancastelli; Mrs. and Mrs. Edward D. Brandegee",
     "dimensions": "32.6 x 48.2 cm (12 13\/16 x 19 in.)\n(matted with -3848)\nMat:  91.4 x 71.1 cm (36 x 28 in.)",
+    "dimensions_raw": {
+        "height": [
+            "32.60",
+            "centimeters"
+        ],
+        "width": [
+            "48.20",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase through gift of various donors and from Eleanor G. Hewitt Fund",
     "description": "Section of a round building. A central, domed hall is surrounded by corridors.  Porticos are at left and at right.  From the latter, a staircase leads down to subterranean rooms.  A big sepulchral monument stands in the center.  Other monuments are in the main hall and the corridors.  Funerary urns stand in the niches in the basement.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424853",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/19056_a92dd94e8db69789_b.jpg",
                 "width": 1024,
                 "height": 721,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/19056_a92dd94e8db69789_n.jpg",
-                "width": 320,
-                "height": 225,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "19056"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/19056_a92dd94e8db69789_z.jpg",
                 "width": 640,
                 "height": 451,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "19056"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/19056_a92dd94e8db69789_n.jpg",
+                "width": 320,
+                "height": 225,
+                "is_primary": "1",
+                "image_id": "19056"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/19056_a92dd94e8db69789_d.gif",
+                "width": 320,
+                "height": 225,
+                "is_primary": "1",
+                "image_id": "19056"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/19056_a92dd94e8db69789_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "19056"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18049797",
             "role_id": "35352249",
             "person_name": "Mrs. Edward D. Brandegee",
+            "person_date": "American, 1871\u20131956",
             "role_name": "Vendor",
+            "role_display_name": "Purchased from",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049797\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352249\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18047439",
             "role_id": "35352245",
             "person_name": "Rudolph Berliner",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047439\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18047443",
             "role_id": "35352245",
             "person_name": "Megan L. Smith",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047443\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -78,7 +110,9 @@
             "person_id": "18042671",
             "role_id": "35236699",
             "person_name": "Giacomo Quarenghi",
+            "person_date": "1744 \u2013 1817",
             "role_name": "Follower of",
+            "role_display_name": "Follower of",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18042671\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236699\/"
         }
@@ -88,24 +122,35 @@
     },
     "colors": [
         {
-            "color": "#94aec5",
-            "closest_css3": "#a9a9a9"
+            "color": "#98b8d9",
+            "closest_crayola": "#a2add0",
+            "closest_css3": "#b0c4de",
+            "closest_css4": "#b0c4de"
         },
         {
-            "color": "#688bad",
-            "closest_css3": "#5f9ea0"
+            "color": "#5981a5",
+            "closest_crayola": "#5d76cb",
+            "closest_css3": "#4682b4",
+            "closest_css4": "#4682b4"
         },
         {
-            "color": "#7e7271",
-            "closest_css3": "#808080"
+            "color": "#958c8d",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#695258",
-            "closest_css3": "#696969"
+            "color": "#5a444b",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#487097",
-            "closest_css3": "#4682b4"
+            "color": "#826a6e",
+            "closest_crayola": "#757575",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         }
-    ]
+    ],
+    "woe:country_name": "Italy"
 }

@@ -3,6 +3,7 @@
     "tms:id": "222232",
     "accession_number": "2001-25-5",
     "title": "Plate, \"\"Western Star\"\", mid-19th century",
+    "title_raw": "\"Western Star\"",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18693373\/",
     "department_id": "35347497",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": null,
     "year_acquired": "2001",
     "decade": null,
-    "woe:country": "23424975",
+    "woe:country_id": "23424975",
     "medium": "Earthenware, transfer-printed decoration",
     "markings": "printed on underside:classical urn, beehive, flowers and foliage atop base with \"Western Star\" printed across front; \"WR\" over floral swags printed beneath.",
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "2.5 h. x 24 diameter cm (1 x 9 7\/16 in. )",
+    "dimensions_raw": {
+        "height": [
+            "2.50",
+            "centimeters"
+        ],
+        "width": [
+            "24.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Paul F. Walter",
     "description": "Scalloped-edge plate with blue transfer-printed decoration. Central abstract flower motif with elaborate decorative surround. Border of scrolling bands with geometric motifs, between which are alternating Japaness flower motifs and neoclassical-like motifs with large acanthus leaf.",
     "justification": null,
-    "type": {
-        "id": "35236833",
-        "name": "plate"
-    },
+    "woe:country": "23424975",
+    "type": "plate",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/14379_fc2c94ea3a351f74_b.jpg",
                 "width": 944,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/14379_fc2c94ea3a351f74_n.jpg",
-                "width": 295,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "14379"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/14379_fc2c94ea3a351f74_z.jpg",
                 "width": 590,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "14379"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/14379_fc2c94ea3a351f74_n.jpg",
+                "width": 295,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "14379"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/14379_fc2c94ea3a351f74_d.gif",
+                "width": 295,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "14379"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/14379_fc2c94ea3a351f74_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "14379"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/14378_0308066f822bcc4f_b.jpg",
                 "width": 763,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/14378_0308066f822bcc4f_n.jpg",
-                "width": 239,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "14378"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/14378_0308066f822bcc4f_z.jpg",
                 "width": 477,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "14378"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/14378_0308066f822bcc4f_n.jpg",
+                "width": 239,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "14378"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/14378_0308066f822bcc4f_d.gif",
+                "width": 239,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "14378"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/14378_0308066f822bcc4f_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "14378"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18537293",
             "role_id": "35236657",
             "person_name": "William Ridgway (& Co.)",
+            "person_date": "England, 1830 \u2013 1854",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18537293\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18041007",
             "role_id": "35351535",
             "person_name": "Paul F. Walter",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041007\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -92,24 +139,35 @@
     },
     "colors": [
         {
-            "color": "#7e83ab",
-            "closest_css3": "#778899"
+            "color": "#7e84ac",
+            "closest_crayola": "#926eae",
+            "closest_css3": "#778899",
+            "closest_css4": "#778899"
         },
         {
-            "color": "#656787",
-            "closest_css3": "#708090"
+            "color": "#676989",
+            "closest_crayola": "#757575",
+            "closest_css3": "#708090",
+            "closest_css4": "#708090"
         },
         {
-            "color": "#363d6e",
-            "closest_css3": "#483d8b"
+            "color": "#a2a5ba",
+            "closest_crayola": "#a2a2d0",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
         },
         {
-            "color": "#a2b0cd",
-            "closest_css3": "#b0c4de"
+            "color": "#e7d8b3",
+            "closest_crayola": "#efcdb8",
+            "closest_css3": "#f5deb3",
+            "closest_css4": "#f5deb3"
         },
         {
-            "color": "#060621",
-            "closest_css3": "#000000"
+            "color": "#14195a",
+            "closest_crayola": "#1a4876",
+            "closest_css3": "#191970",
+            "closest_css4": "#191970"
         }
-    ]
+    ],
+    "woe:country_name": "United Kingdom"
 }

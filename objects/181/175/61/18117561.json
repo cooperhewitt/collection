@@ -3,6 +3,7 @@
     "tms:id": "9250",
     "accession_number": "1901-39-261",
     "title": "Drawing, \"Sepulchral monument for the poet Colte, of Rome\"",
+    "title_raw": "Sepulchral monument for the poet Colte, of Rome",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18117561\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": null,
     "year_acquired": "1901",
     "decade": null,
-    "woe:country": "23424853",
+    "woe:country_id": "23424853",
     "medium": "Pen and brown ink, brush and brown wash, graphite",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "Ex collection: Piancastelli.",
     "dimensions": "Image: 21.5 x 29.5 cm (8 7\/16 x 11 5\/8 in.)",
+    "dimensions_raw": {
+        "height": [
+            "21.50",
+            "centimeters"
+        ],
+        "width": [
+            "29.50",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase through gift of various donors",
     "description": null,
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424853",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/158_2a0826472b36c310_b.jpg",
                 "width": 1024,
                 "height": 728,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/158_2a0826472b36c310_n.jpg",
-                "width": 320,
-                "height": 227,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "158"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/158_2a0826472b36c310_z.jpg",
                 "width": 640,
                 "height": 455,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "158"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/158_2a0826472b36c310_n.jpg",
+                "width": 320,
+                "height": 227,
+                "is_primary": "1",
+                "image_id": "158"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/158_2a0826472b36c310_d.gif",
+                "width": 320,
+                "height": 227,
+                "is_primary": "1",
+                "image_id": "158"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/158_2a0826472b36c310_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "158"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18041999",
             "role_id": "35236663",
             "person_name": "Giuseppe Barberi",
+            "person_date": "Italian, 1746\u20131809",
             "role_name": "Architect",
+            "role_display_name": "Architect:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041999\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236663\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18041163",
             "role_id": "35351535",
             "person_name": "Various Donors",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041163\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -72,16 +102,29 @@
     },
     "colors": [
         {
-            "color": "#8b7672",
-            "closest_css3": "#808080"
+            "color": "#907976",
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#a69398",
-            "closest_css3": "#bc8f8f"
+            "color": "#ac9fa8",
+            "closest_crayola": "#979aaa",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
         },
         {
-            "color": "#594442",
-            "closest_css3": "#556b2f"
+            "color": "#785f5b",
+            "closest_crayola": "#6e5160",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
+        },
+        {
+            "color": "#543c3c",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         }
-    ]
+    ],
+    "woe:country_name": "Italy"
 }

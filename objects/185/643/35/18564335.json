@@ -3,6 +3,7 @@
     "tms:id": "75368",
     "accession_number": "1941-69-58",
     "title": "Family Register Sampler, 1804",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18564335\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1804,
     "year_acquired": "1941",
     "decade": null,
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Medium: silk embroidery, linen warp, wool weft\nTechnique: embroidered in cross, stem, running, and roumanian stitches on plain weave foundation",
     "markings": null,
     "signed": null,
     "inscribed": "Harriot Collens marked this record in 1804",
     "provenance": "ex. coll. Mrs. Henry E. Coe (Eva Johnston Coe)",
     "dimensions": "H x W: 39 x 44 cm (15 3\/8 x 17 5\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "39.00",
+            "centimeters"
+        ],
+        "width": [
+            "44.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Bequest of Mrs. Henry E. Coe",
     "description": "Record of the Collens family, with three baskets of flowers at the bottom and a curving floral border on three sides. Inscribed at the bottom:\nHarriot Collens markd this record 1804\nThe text reads: \nFriend Collens born December 16 1762\nPhilana Norton born September 12 1761\nmarried February 20 1785\nJohn Collens born October 1 1785\nMary Ann Collens born October 1 1787\nWilliam Henry Collens born Nov. 3 1788\nHarriot Collens born September 2 1790\nGeorge Lemon Collens born Oct 28 1792\nGeorge Lemon Collens died  Sept 10  1793\nSophia T Collens born Sept 23 1794 died 1795\nSophia Teresa Collens  born June 16 1797\nJonathan Collens born December 19 1799\nEmily Collens born March 6 1801",
     "justification": null,
-    "type": {
-        "id": "35289001",
-        "name": "Family register sampler"
-    },
+    "woe:country": "23424977",
+    "type": "Family register sampler",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/4423_a18e265c3580d224_b.jpg",
                 "width": 1024,
                 "height": 912,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/4423_a18e265c3580d224_n.jpg",
-                "width": 320,
-                "height": 285,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "4423"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/4423_a18e265c3580d224_z.jpg",
                 "width": 640,
                 "height": 570,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "4423"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/4423_a18e265c3580d224_n.jpg",
+                "width": 320,
+                "height": 285,
+                "is_primary": "1",
+                "image_id": "4423"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/4423_a18e265c3580d224_d.gif",
+                "width": 320,
+                "height": 285,
+                "is_primary": "1",
+                "image_id": "4423"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/4423_a18e265c3580d224_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "4423"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18052661",
             "role_id": "35352245",
             "person_name": "Elizabeth Haynes",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18052661\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18052567",
             "role_id": "35351537",
             "person_name": "Mrs. Henry E. Coe",
+            "person_date": "",
             "role_name": "Bequestor",
+            "role_display_name": "Bequest of",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18052567\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351537\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18536369",
             "role_id": "35236583",
             "person_name": "Harriot Collens, American",
+            "person_date": "American, 1790 - 1874",
             "role_name": "Embroiderer",
+            "role_display_name": "Embroidered by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18536369\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236583\/"
         }
@@ -80,24 +112,35 @@
     },
     "colors": [
         {
-            "color": "#705d56",
-            "closest_css3": "#696969"
+            "color": "#8d634f",
+            "closest_crayola": "#85754e",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         },
         {
-            "color": "#483c34",
-            "closest_css3": "#2f4f4f"
+            "color": "#8d7c6e",
+            "closest_crayola": "#8a795d",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#9d8677",
-            "closest_css3": "#808080"
+            "color": "#d4cec3",
+            "closest_crayola": "#cdc5c2",
+            "closest_css3": "#d3d3d3",
+            "closest_css4": "#d3d3d3"
         },
         {
-            "color": "#c2b2a4",
-            "closest_css3": "#a9a9a9"
+            "color": "#b9a594",
+            "closest_crayola": "#deaa88",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         },
         {
-            "color": "#6c4635",
-            "closest_css3": "#556b2f"
+            "color": "#b88b70",
+            "closest_crayola": "#cd9575",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

@@ -3,6 +3,7 @@
     "tms:id": "154141",
     "accession_number": "1975-11-35",
     "title": "Drawing, \"Textile Design: Abstract Flowers\", 1930\u201331",
+    "title_raw": "Textile Design: Abstract Flowers",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18486549\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1930,
     "year_acquired": "1975",
     "decade": "1930",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Brush and gouache, graphite on off-white illustration board, ruled border in graphite",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "44.5 x 35.5 cm (17 1\/2 x 14 in.)\nMat:  55.9 x 40.6 cm (22 x 16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "55.90",
+            "centimeters"
+        ],
+        "width": [
+            "40.60",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Donald Deskey",
     "description": "Abstract floral design in black to white gradient.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424977",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/39564_d55d940e7131c584_b.jpg",
                 "width": 825,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/39564_d55d940e7131c584_n.jpg",
-                "width": 258,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "39564"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/39564_d55d940e7131c584_z.jpg",
                 "width": 516,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "39564"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/39564_d55d940e7131c584_n.jpg",
+                "width": 258,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "39564"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/39564_d55d940e7131c584_d.gif",
+                "width": 258,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "39564"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/39564_d55d940e7131c584_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "39564"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18065437",
             "role_id": "35352245",
             "person_name": "Stacey Leonard",
+            "person_date": "American",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18065437\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18041973",
             "role_id": "35351535",
             "person_name": "Donald Deskey",
+            "person_date": "American, 1894\u20131989",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041973\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18047481",
             "role_id": "35352245",
             "person_name": "Eleonore Kissel",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047481\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -78,7 +110,9 @@
             "person_id": "18048255",
             "role_id": "35352245",
             "person_name": "Dr. Gail Davidson",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18048255\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -86,7 +120,9 @@
             "person_id": "18041973",
             "role_id": "35236703",
             "person_name": "Donald Deskey",
+            "person_date": "American, 1894\u20131989",
             "role_name": "Office of",
+            "role_display_name": "Office of",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041973\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236703\/"
         }
@@ -96,20 +132,23 @@
     },
     "colors": [
         {
-            "color": "#d6c7a4",
-            "closest_css3": "#d2b48c"
-        },
-        {
-            "color": "#94989c",
-            "closest_css3": "#a9a9a9"
+            "color": "#d8c9a1",
+            "closest_crayola": "#e7c697",
+            "closest_css3": "#d2b48c",
+            "closest_css4": "#d2b48c"
         },
         {
             "color": "#4e5158",
-            "closest_css3": "#2f4f4f"
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#a8a08a",
-            "closest_css3": "#bc8f8f"
+            "color": "#aba084",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

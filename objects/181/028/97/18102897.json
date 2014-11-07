@@ -3,6 +3,7 @@
     "tms:id": "6714",
     "accession_number": "1898-21-24",
     "title": "Drawing, \"Cartoon for cotton printing: The Country Feast [La F\u00eate Champ\u00eatre]\", ca. 1805",
+    "title_raw": "Cartoon for cotton printing: The Country Feast [La F\u00eate Champ\u00eatre]",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18102897\/",
     "department_id": "35347493",
     "period_id": "35417089",
@@ -13,39 +14,64 @@
     "year_end": 1815,
     "year_acquired": "1898",
     "decade": null,
-    "woe:country": "23424819",
+    "woe:country_id": "23424819",
     "medium": "Pen and Ink with gray wash on white paper",
     "markings": null,
     "signed": null,
     "inscribed": "Scribbles in ink (in French) on reverse.",
     "provenance": "Miss Bridget Mahon",
     "dimensions": "42 x 58.5 cm (16 9\/16 x 23 1\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "42.00",
+            "centimeters"
+        ],
+        "width": [
+            "58.50",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Bridget Mahon",
     "description": "The scenes show children taking part in county entertainments: at the top, a group dance to a piper, while adults partake of refreshments at a table nearby. Below, to the left children and adults view a peep-show; at center a chestnut vendor; and at right youths play a clock-game, attended by a woman near a small mill.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424819",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/466_d5a604005d0dcdb6_b.jpg",
                 "width": 1024,
                 "height": 718,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/466_d5a604005d0dcdb6_n.jpg",
-                "width": 320,
-                "height": 224,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "466"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/466_d5a604005d0dcdb6_z.jpg",
                 "width": 640,
                 "height": 449,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "466"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/466_d5a604005d0dcdb6_n.jpg",
+                "width": 320,
+                "height": 224,
+                "is_primary": "1",
+                "image_id": "466"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/466_d5a604005d0dcdb6_d.gif",
+                "width": 320,
+                "height": 224,
+                "is_primary": "1",
+                "image_id": "466"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/466_d5a604005d0dcdb6_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "466"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18050099",
             "role_id": "35236633",
             "person_name": "Cholet",
+            "person_date": "",
             "role_name": "Possibly",
+            "role_display_name": "Possibly by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18050099\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236633\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18048967",
             "role_id": "35236657",
             "person_name": "Petitpierre & Compe. Nantes",
+            "person_date": "French, founded 1770",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18048967\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         },
@@ -70,9 +100,21 @@
             "person_id": "18051537",
             "role_id": "35351535",
             "person_name": "Bridget Mahon",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18051537\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
+        },
+        {
+            "person_id": "68739059",
+            "role_id": "35236633",
+            "person_name": "Belorge",
+            "person_date": "",
+            "role_name": "Possibly",
+            "role_display_name": "Possibly by",
+            "person_url": "http:\/\/collection.cooperhewitt.org\/people\/68739059\/",
+            "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236633\/"
         }
     ],
     "tombstone": {
@@ -80,8 +122,17 @@
     },
     "colors": [
         {
-            "color": "#9c8d99",
-            "closest_css3": "#bc8f8f"
+            "color": "#9f909c",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
+        },
+        {
+            "color": "#bfacac",
+            "closest_crayola": "#b0b7c6",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
         }
-    ]
+    ],
+    "woe:country_name": "France"
 }

@@ -3,6 +3,7 @@
     "tms:id": "22417",
     "accession_number": "1917-4-1346-b",
     "title": "Drawing, \"Hudson, New York, at Twilight\", 1867",
+    "title_raw": "Hudson, New York, at Twilight",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18193903\/",
     "department_id": "35347493",
     "period_id": "35417175",
@@ -13,39 +14,64 @@
     "year_end": 1867,
     "year_acquired": "1917",
     "decade": null,
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Brush and oil paint on canvas",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "Louis P. Church",
     "dimensions": "H x W x D: 22.5 x 31.8cm (8 7\/8 x 12 1\/2in.)\nFrame H x W x D: 39.7 x 50.2 cm (15 5\/8 x 19 3\/4 in.)",
+    "dimensions_raw": {
+        "height": [
+            "39.69",
+            "centimeters"
+        ],
+        "width": [
+            "50.17",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Louis P. Church",
     "description": "Sunset over the town of Hudson, NY. Heavy clouds above, rooftops visible across lower section with church steeple at left center.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424977",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/20334_880297ebd2946aa7_b.jpg",
                 "width": 1024,
                 "height": 739,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/20334_880297ebd2946aa7_n.jpg",
-                "width": 320,
-                "height": 231,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "20334"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/20334_880297ebd2946aa7_z.jpg",
                 "width": 640,
                 "height": 462,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "20334"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/20334_880297ebd2946aa7_n.jpg",
+                "width": 320,
+                "height": 231,
+                "is_primary": "1",
+                "image_id": "20334"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/20334_880297ebd2946aa7_d.gif",
+                "width": 320,
+                "height": 231,
+                "is_primary": "1",
+                "image_id": "20334"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/20334_880297ebd2946aa7_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "20334"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18051625",
             "role_id": "35351535",
             "person_name": "Louis P. Church",
+            "person_date": "American, 1870\u20131943",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18051625\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18041941",
             "role_id": "35236565",
             "person_name": "Frederic Edwin Church",
+            "person_date": "American, 1826\u20131900",
             "role_name": "Artist",
+            "role_display_name": "",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041941\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236565\/"
         }
@@ -72,24 +102,35 @@
     },
     "colors": [
         {
-            "color": "#562811",
-            "closest_css3": "#800000"
-        },
-        {
-            "color": "#291913",
-            "closest_css3": "#000000"
+            "color": "#3d1f12",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#000000",
+            "closest_css4": "#000000"
         },
         {
             "color": "#83371b",
-            "closest_css3": "#8b4513"
+            "closest_crayola": "#714b23",
+            "closest_css3": "#8b4513",
+            "closest_css4": "#8b4513"
         },
         {
-            "color": "#584b42",
-            "closest_css3": "#556b2f"
+            "color": "#a95122",
+            "closest_crayola": "#c46210",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         },
         {
-            "color": "#ba6729",
-            "closest_css3": "#d2691e"
+            "color": "#574b42",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
+        },
+        {
+            "color": "#d6d0c3",
+            "closest_crayola": "#cdc5c2",
+            "closest_css3": "#d3d3d3",
+            "closest_css4": "#d3d3d3"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

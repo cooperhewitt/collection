@@ -3,6 +3,7 @@
     "tms:id": "199301",
     "accession_number": "1994-33-6",
     "title": "Textile, 1783\u201389",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18648783\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,68 @@
     "year_end": 1872,
     "year_acquired": "1994",
     "decade": null,
-    "woe:country": "23424819",
+    "woe:country_id": "23424819",
     "medium": "Medium: cotton\nTechnique: printed by engraved copper plate on plain weave (Note that the printing plate was wider than the fabric. The printing goes over the selvedge at the right.)",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "Warp: 165.5 cm [65.25\"] Cut top and bottom. Weft: 51 cm [20\"] Selvedge on right. Cut on left.\nPattern: Height of repeat: 90 cm [35.5\"]",
+    "dimensions_raw": {
+        "height": [
+            "90.00",
+            "centimeters"
+        ],
+        "warp": [
+            "165.50",
+            "centimeters"
+        ],
+        "weft": [
+            "51.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Martin Kamer",
     "description": "Repeating pattern of birds perched in a tree; butterflies, rockery, nest with eggs. Red on white.",
     "justification": null,
-    "type": {
-        "id": "35251739",
-        "name": "textile"
-    },
+    "woe:country": "23424819",
+    "type": "textile",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/12044_1d03bada0aebdcc0_b.jpg",
                 "width": 649,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/12044_1d03bada0aebdcc0_n.jpg",
-                "width": 203,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "12044"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/12044_1d03bada0aebdcc0_z.jpg",
                 "width": 405,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "12044"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/12044_1d03bada0aebdcc0_n.jpg",
+                "width": 203,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "12044"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/12044_1d03bada0aebdcc0_d.gif",
+                "width": 203,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "12044"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/12044_1d03bada0aebdcc0_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "12044"
             }
         }
     ],
@@ -54,7 +84,9 @@
             "person_id": "18041199",
             "role_id": "35351535",
             "person_name": "Mr. Martin Kamer",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041199\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -62,7 +94,9 @@
             "person_id": "18047459",
             "role_id": "35352245",
             "person_name": "Gillian Moss",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047459\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -70,9 +104,21 @@
             "person_id": "18045425",
             "role_id": "35236681",
             "person_name": "Oberkampf & Cie.",
+            "person_date": "Jouy-en-Josas, France, 1759 \u2013 1815",
             "role_name": "Company",
+            "role_display_name": "Company:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18045425\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236681\/"
+        },
+        {
+            "person_id": "18041685",
+            "role_id": "35351535",
+            "person_name": "Martin Kamer",
+            "person_date": "",
+            "role_name": "Donor",
+            "role_display_name": "Donated by",
+            "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041685\/",
+            "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
     ],
     "tombstone": {
@@ -80,24 +126,35 @@
     },
     "colors": [
         {
-            "color": "#9c8077",
-            "closest_css3": "#808080"
+            "color": "#a38882",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         },
         {
-            "color": "#e6d0cb",
-            "closest_css3": "#d3d3d3"
+            "color": "#d9baaf",
+            "closest_crayola": "#cdc5c2",
+            "closest_css3": "#c0c0c0",
+            "closest_css4": "#c0c0c0"
         },
         {
-            "color": "#5e4b47",
-            "closest_css3": "#556b2f"
+            "color": "#846763",
+            "closest_crayola": "#8a795d",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#846662",
-            "closest_css3": "#696969"
+            "color": "#cd8180",
+            "closest_crayola": "#cd9575",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         },
         {
-            "color": "#874d4d",
-            "closest_css3": "#a0522d"
+            "color": "#693a39",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#8b4513",
+            "closest_css4": "#8b4513"
         }
-    ]
+    ],
+    "woe:country_name": "France"
 }

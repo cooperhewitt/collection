@@ -3,6 +3,7 @@
     "tms:id": "18262",
     "accession_number": "1911-28-263",
     "title": "Drawing, \"Wall Elevation of Bedroom Alcove\", ca. 1780",
+    "title_raw": "Wall Elevation of Bedroom Alcove",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18170907\/",
     "department_id": "35347493",
     "period_id": "35417089",
@@ -13,39 +14,64 @@
     "year_end": 1790,
     "year_acquired": "1911",
     "decade": null,
-    "woe:country": "23424819",
+    "woe:country_id": "23424819",
     "medium": "Pen and brown ink, brush and watercolor, gouache, graphite on white laid paper",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "Collection of Leon Decloux (acquired by him after 1906)",
     "dimensions": "28.5 x 47.2 cm (11 1\/4 x 18 9\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "28.50",
+            "centimeters"
+        ],
+        "width": [
+            "47.20",
+            "centimeters"
+        ]
+    },
     "creditline": "Purchased for the Museum by the Advisory Council",
     "description": "Elevation of a section of a painted wall showing an alcove at center hung with tasseled draperies above a day bed with blue pillows. Predominate color scheme is white, blue and gold. Trophies on side walls include quivers, arrows, swords, ribbons and doves, possibly indicating a theme of love.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424819",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/28214_5f84c89345c0d3c0_b.jpg",
                 "width": 1024,
                 "height": 631,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/28214_5f84c89345c0d3c0_n.jpg",
-                "width": 320,
-                "height": 197,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "28214"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/28214_5f84c89345c0d3c0_z.jpg",
                 "width": 640,
                 "height": 394,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "28214"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/28214_5f84c89345c0d3c0_n.jpg",
+                "width": 320,
+                "height": 197,
+                "is_primary": "1",
+                "image_id": "28214"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/28214_5f84c89345c0d3c0_d.gif",
+                "width": 320,
+                "height": 197,
+                "is_primary": "1",
+                "image_id": "28214"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/28214_5f84c89345c0d3c0_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "28214"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/1157_255af0641006ee72_b.jpg",
                 "width": 1024,
                 "height": 610,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/1157_255af0641006ee72_n.jpg",
-                "width": 320,
-                "height": 191,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "1157"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/1157_255af0641006ee72_z.jpg",
                 "width": 640,
                 "height": 381,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "1157"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/1157_255af0641006ee72_n.jpg",
+                "width": 320,
+                "height": 191,
+                "is_primary": "0",
+                "image_id": "1157"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/1157_255af0641006ee72_d.gif",
+                "width": 320,
+                "height": 191,
+                "is_primary": "0",
+                "image_id": "1157"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/1157_255af0641006ee72_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "1157"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18049621",
             "role_id": "35351535",
             "person_name": "Advisory Council",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049621\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18043089",
             "role_id": "35236565",
             "person_name": "Pierre Ranson",
+            "person_date": "1736 \u2013 1786",
             "role_name": "Artist",
+            "role_display_name": "",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18043089\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236565\/"
         }
@@ -92,24 +139,35 @@
     },
     "colors": [
         {
-            "color": "#c7b293",
-            "closest_css3": "#d2b48c"
+            "color": "#dccc8a",
+            "closest_crayola": "#e7c697",
+            "closest_css3": "#deb887",
+            "closest_css4": "#deb887"
         },
         {
-            "color": "#ddcd88",
-            "closest_css3": "#deb887"
+            "color": "#ab9568",
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#bdb76b",
+            "closest_css4": "#bdb76b"
         },
         {
-            "color": "#baa059",
-            "closest_css3": "#bdb76b"
+            "color": "#bbb4a2",
+            "closest_crayola": "#b0b7c6",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
         },
         {
-            "color": "#aeb2a4",
-            "closest_css3": "#a9a9a9"
+            "color": "#88a2a7",
+            "closest_crayola": "#979aaa",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
         },
         {
-            "color": "#819ea6",
-            "closest_css3": "#778899"
+            "color": "#5d737d",
+            "closest_crayola": "#757575",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         }
-    ]
+    ],
+    "woe:country_name": "France"
 }

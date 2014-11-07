@@ -3,6 +3,7 @@
     "tms:id": "177910",
     "accession_number": "1981-56-15",
     "title": "Tile, late 19th century",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18797803\/",
     "department_id": "35347497",
     "period_id": null,
@@ -13,39 +14,68 @@
     "year_end": null,
     "year_acquired": "1981",
     "decade": null,
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Glazed stoneware",
     "markings": "On reverse impression framed in double line: \"J & G Low Patent Tile Art Works, Chelsea, Mass. USA, Copyright 1881 by J & JG Low\".",
     "signed": null,
     "inscribed": null,
     "provenance": "Mrs. Florence Barnes; 1981: acquired by Museum",
     "dimensions": "7.6 x 15 x 1.0 cm (3 x 5 7\/8 x 3\/8 in. )",
+    "dimensions_raw": {
+        "depth": [
+            "1.00",
+            "centimeters"
+        ],
+        "height": [
+            "7.60",
+            "centimeters"
+        ],
+        "width": [
+            "15.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Florence Barnes",
     "description": "Rectangular molded tile of white clay. Face of tile shows pair of joined tile faces decorated with pair of joined rosettes surrounded by scrolling tendrils and framed in a plain band frame. Tile glaze mustard yellow.",
     "justification": null,
-    "type": {
-        "id": "35250645",
-        "name": "tile"
-    },
+    "woe:country": "23424977",
+    "type": "tile",
     "images": [
         {
             "b": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/43651_ec12c2d9bc4c84e6_b.jpg",
+                "url": "http:\/\/images.collection.cooperhewitt.org\/43651_327faef0dba79e51_b.jpg",
                 "width": 1024,
-                "height": 565,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/43651_ec12c2d9bc4c84e6_n.jpg",
-                "width": 320,
-                "height": 177,
-                "is_primary": "1"
+                "height": 1024,
+                "is_primary": "1",
+                "image_id": "43651"
             },
             "z": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/43651_ec12c2d9bc4c84e6_z.jpg",
+                "url": "http:\/\/images.collection.cooperhewitt.org\/43651_327faef0dba79e51_z.jpg",
                 "width": 640,
-                "height": 353,
-                "is_primary": "1"
+                "height": 640,
+                "is_primary": "1",
+                "image_id": "43651"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/43651_327faef0dba79e51_n.jpg",
+                "width": 320,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "43651"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/43651_327faef0dba79e51_d.gif",
+                "width": 320,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "43651"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/43651_327faef0dba79e51_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "43651"
             }
         },
         {
@@ -53,19 +83,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/9595_b49e7e1d83999918_b.jpg",
                 "width": 1024,
                 "height": 507,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/9595_b49e7e1d83999918_n.jpg",
-                "width": 320,
-                "height": 158,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "9595"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/9595_b49e7e1d83999918_z.jpg",
                 "width": 640,
                 "height": 317,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "9595"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/9595_b49e7e1d83999918_n.jpg",
+                "width": 320,
+                "height": 158,
+                "is_primary": "0",
+                "image_id": "9595"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/9595_b49e7e1d83999918_d.gif",
+                "width": 320,
+                "height": 158,
+                "is_primary": "0",
+                "image_id": "9595"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/9595_b49e7e1d83999918_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "9595"
             }
         }
     ],
@@ -74,7 +121,9 @@
             "person_id": "18050317",
             "role_id": "35351535",
             "person_name": "Mrs. Florence Barnes",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18050317\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -82,7 +131,9 @@
             "person_id": "18050313",
             "role_id": "35236657",
             "person_name": "J. & J. G. Low Art Tile Works",
+            "person_date": "1877 \u2013 1883",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18050313\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         },
@@ -90,7 +141,9 @@
             "person_id": "18050313",
             "role_id": "35236627",
             "person_name": "J. & J. G. Low Art Tile Works",
+            "person_date": "1877 \u2013 1883",
             "role_name": "Patentor",
+            "role_display_name": "Patented by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18050313\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236627\/"
         }
@@ -100,24 +153,35 @@
     },
     "colors": [
         {
-            "color": "#93752c",
-            "closest_css3": "#a0522d"
+            "color": "#653e06",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#8b4513",
+            "closest_css4": "#8b4513"
         },
         {
-            "color": "#7f5707",
-            "closest_css3": "#8b4513"
+            "color": "#9e8443",
+            "closest_crayola": "#9c7c38",
+            "closest_css3": "#cd853f",
+            "closest_css4": "#cd853f"
         },
         {
-            "color": "#d2c7bf",
-            "closest_css3": "#c0c0c0"
+            "color": "#906919",
+            "closest_crayola": "#9c7c38",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         },
         {
-            "color": "#381c02",
-            "closest_css3": "#000000"
+            "color": "#d1c7bf",
+            "closest_crayola": "#cdc5c2",
+            "closest_css3": "#c0c0c0",
+            "closest_css4": "#c0c0c0"
         },
         {
-            "color": "#b79f5e",
-            "closest_css3": "#bdb76b"
+            "color": "#381c03",
+            "closest_crayola": "#000000",
+            "closest_css3": "#000000",
+            "closest_css4": "#000000"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

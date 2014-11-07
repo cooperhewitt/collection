@@ -3,6 +3,7 @@
     "tms:id": "220244",
     "accession_number": "2000-75-8",
     "title": "Poster, 1960",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18689457\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1960,
     "year_acquired": "2000",
     "decade": "1960",
-    "woe:country": null,
+    "woe:country_id": null,
     "medium": "Offset lithography",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "62.9 x 38.1 cm (24 3\/4 x 15 in. )",
+    "dimensions_raw": {
+        "height": [
+            "62.90",
+            "centimeters"
+        ],
+        "width": [
+            "38.10",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Pieter Brattinga",
     "description": "Poster for the typography of Piet Zwart. Repeated across background in  orange: typografie. The blue squares across bottom. Large black square on a diagonal at upper right",
     "justification": null,
-    "type": {
-        "id": "35238163",
-        "name": "poster"
-    },
+    "woe:country": null,
+    "type": "poster",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/40262_9d60ae72ff9a9676_b.jpg",
                 "width": 621,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/40262_9d60ae72ff9a9676_n.jpg",
-                "width": 194,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "40262"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/40262_9d60ae72ff9a9676_z.jpg",
                 "width": 388,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "40262"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/40262_9d60ae72ff9a9676_n.jpg",
+                "width": 194,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "40262"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/40262_9d60ae72ff9a9676_d.gif",
+                "width": 194,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "40262"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/40262_9d60ae72ff9a9676_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "40262"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18051011",
             "role_id": "35351535",
             "person_name": "Pieter Brattinga",
+            "person_date": "Dutch, 1931 - 2004",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18051011\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18051011",
             "role_id": "35236655",
             "person_name": "Pieter Brattinga",
+            "person_date": "Dutch, 1931 - 2004",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18051011\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
@@ -72,24 +102,34 @@
     },
     "colors": [
         {
-            "color": "#e8e3d0",
-            "closest_css3": "#dcdcdc"
-        },
-        {
-            "color": "#36322f",
-            "closest_css3": "#2f4f4f"
+            "color": "#eadbc7",
+            "closest_crayola": "#efdecd",
+            "closest_css3": "#f5deb3",
+            "closest_css4": "#f5deb3"
         },
         {
             "color": "#6081b7",
-            "closest_css3": "#4682b4"
+            "closest_crayola": "#5d76cb",
+            "closest_css3": "#4682b4",
+            "closest_css4": "#4682b4"
         },
         {
-            "color": "#e4a783",
-            "closest_css3": "#deb887"
+            "color": "#423d3a",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#506794",
-            "closest_css3": "#708090"
+            "color": "#e8b999",
+            "closest_crayola": "#e7c697",
+            "closest_css3": "#deb887",
+            "closest_css4": "#deb887"
+        },
+        {
+            "color": "#595770",
+            "closest_crayola": "#4a646c",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         }
     ]
 }

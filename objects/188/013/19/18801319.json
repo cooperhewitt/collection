@@ -3,6 +3,7 @@
     "tms:id": "180826",
     "accession_number": "1984-111-12",
     "title": "Sample, 1937\u201361",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18801319\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1961,
     "year_acquired": "1984",
     "decade": "1930",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Medium: wool, rayon and Lurex warp with blended wool (?) weft\nTechnique: Plain weave with doubling of warps",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "1984: acquired by Museum",
     "dimensions": "Warp x Weft: 43 x 47 cm (16 15\/16 x 18 1\/2 in.)",
+    "dimensions_raw": {
+        "warp": [
+            "43.00",
+            "centimeters"
+        ],
+        "weft": [
+            "47.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Marianne Strengell",
     "description": "Dark fabric with flashes of a lighter color and with lurex.",
     "justification": null,
-    "type": {
-        "id": "35268079",
-        "name": "Sample"
-    },
+    "woe:country": "23424977",
+    "type": "Sample",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/47919_8a2814e2cce32292_b.jpg",
                 "width": 1024,
                 "height": 926,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/47919_8a2814e2cce32292_n.jpg",
-                "width": 320,
-                "height": 289,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "47919"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/47919_8a2814e2cce32292_z.jpg",
                 "width": 640,
                 "height": 579,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "47919"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/47919_8a2814e2cce32292_n.jpg",
+                "width": 320,
+                "height": 289,
+                "is_primary": "1",
+                "image_id": "47919"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/47919_8a2814e2cce32292_d.gif",
+                "width": 320,
+                "height": 289,
+                "is_primary": "1",
+                "image_id": "47919"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/47919_8a2814e2cce32292_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "47919"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/77498_85bf9309f4a71566_b.jpg",
                 "width": 972,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/77498_85bf9309f4a71566_n.jpg",
-                "width": 304,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "77498"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/77498_85bf9309f4a71566_z.jpg",
                 "width": 608,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "77498"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/77498_85bf9309f4a71566_n.jpg",
+                "width": 304,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "77498"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/77498_85bf9309f4a71566_d.gif",
+                "width": 304,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "77498"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/77498_85bf9309f4a71566_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "77498"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18041443",
             "role_id": "35236685",
             "person_name": "Marianne Strengell",
+            "person_date": "Finnish, active USA, 1909\u20131998",
             "role_name": "Maker",
+            "role_display_name": "Made by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041443\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236685\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18041443",
             "role_id": "35236655",
             "person_name": "Marianne Strengell",
+            "person_date": "Finnish, active USA, 1909\u20131998",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041443\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -90,7 +137,9 @@
             "person_id": "18041443",
             "role_id": "35351535",
             "person_name": "Marianne Strengell",
+            "person_date": "Finnish, active USA, 1909\u20131998",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041443\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -100,20 +149,23 @@
     },
     "colors": [
         {
-            "color": "#2c2320",
-            "closest_css3": "#2f4f4f"
+            "color": "#2e2522",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#49433f",
-            "closest_css3": "#2f4f4f"
+            "color": "#4c4b48",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#6e6b68",
-            "closest_css3": "#696969"
-        },
-        {
-            "color": "#998f81",
-            "closest_css3": "#808080"
+            "color": "#726b63",
+            "closest_crayola": "#757575",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

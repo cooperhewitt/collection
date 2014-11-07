@@ -3,6 +3,7 @@
     "tms:id": "192931",
     "accession_number": "1991-18-4",
     "title": "Sample, 1973",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18636167\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,72 @@
     "year_end": 1973,
     "year_acquired": "1991",
     "decade": "1970",
-    "woe:country": "23424975",
+    "woe:country_id": "23424975",
     "medium": "Medium: synthetic\nTechnique: roller printed on plain weave foundation",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "1991: acquired by Museum",
     "dimensions": "Warp x Weft: 26.5 x 20 cm (10 7\/16 x 7 7\/8 in.)\nRepeat H x W: 14.5 x 16 cm (5 11\/16 x 6 5\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "14.50",
+            "centimeters"
+        ],
+        "warp": [
+            "26.50",
+            "centimeters"
+        ],
+        "weft": [
+            "20.00",
+            "centimeters"
+        ],
+        "width": [
+            "16.00",
+            "centimeters"
+        ]
+    },
     "creditline": null,
     "description": "Brightly colored postage stamps on a black background.",
     "justification": null,
-    "type": {
-        "id": "35268079",
-        "name": "Sample"
-    },
+    "woe:country": "23424975",
+    "type": "Sample",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/81999_da100a007640f6b1_b.jpg",
                 "width": 826,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/81999_da100a007640f6b1_n.jpg",
-                "width": 258,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "81999"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/81999_da100a007640f6b1_z.jpg",
                 "width": 516,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "81999"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/81999_da100a007640f6b1_n.jpg",
+                "width": 258,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "81999"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/81999_da100a007640f6b1_d.gif",
+                "width": 258,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "81999"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/81999_da100a007640f6b1_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "81999"
             }
         },
         {
@@ -53,19 +87,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/78742_f6379db3a3641cd4_b.jpg",
                 "width": 697,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/78742_f6379db3a3641cd4_n.jpg",
-                "width": 218,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "78742"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/78742_f6379db3a3641cd4_z.jpg",
                 "width": 436,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "78742"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/78742_f6379db3a3641cd4_n.jpg",
+                "width": 218,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "78742"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/78742_f6379db3a3641cd4_d.gif",
+                "width": 218,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "78742"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/78742_f6379db3a3641cd4_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "78742"
             }
         }
     ],
@@ -74,7 +125,9 @@
             "person_id": "18047459",
             "role_id": "35352245",
             "person_name": "Gillian Moss",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047459\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -82,7 +135,9 @@
             "person_id": "18045979",
             "role_id": "35236681",
             "person_name": "Miss Mouse",
+            "person_date": "",
             "role_name": "Company",
+            "role_display_name": "Company:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18045979\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236681\/"
         },
@@ -90,7 +145,9 @@
             "person_id": "18045977",
             "role_id": "35236655",
             "person_name": "Charlotte Barnes",
+            "person_date": "",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18045977\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
@@ -100,5 +157,6 @@
     },
     "colors": [
 
-    ]
+    ],
+    "woe:country_name": "United Kingdom"
 }

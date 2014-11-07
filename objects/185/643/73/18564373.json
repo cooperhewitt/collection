@@ -3,6 +3,7 @@
     "tms:id": "75387",
     "accession_number": "1941-69-74",
     "title": "Sampler, 1787",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18564373\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1787,
     "year_acquired": "1941",
     "decade": null,
-    "woe:country": "23424977",
-    "medium": "Medium: silk embroidery on linen foundation\nTechnique: embroidered in cross, stem, satin, rococo, herringbone, eyelet and roumanian stitches on plain weave foundation",
+    "woe:country_id": "23424977",
+    "medium": "Medium: silk embroidery on linen foundation\nTechnique: embroidered in cross, stem, satin, rococo, herringbone, eyelet and roumanian stitches on plain weave foundation\nLabel: linen embroidered in silk",
     "markings": null,
     "signed": null,
     "inscribed": "Sally Follansbe Was Born September the 9 1773\nThis Sampler Wrought In The Year 1787",
     "provenance": "ex. coll. Mrs. Henry E. Coe (Eva Johnston Coe)",
     "dimensions": "H x W: 51 x 44.5cm (20 1\/16 x 17 1\/2in.)",
+    "dimensions_raw": {
+        "height": [
+            "51.00",
+            "centimeters"
+        ],
+        "width": [
+            "44.50",
+            "centimeters"
+        ]
+    },
     "creditline": "Bequest of Mrs. Henry E. Coe",
     "description": "Bands of alphabets and numerals, with floral and geometric cross borders, and inscription:\nSally Follansbe Was Born September the 9 1773\nThis Sampler Wrought In The Year 1787\nAt the bottom are two trees, one surrounded by birds, the other with birds flying away from it; the trees are identified as 'The Good Tree' and 'The Evil Tree'.\nThe verse reads:  \nLet Virtue be a Guide to Me\nWhen this you see Remember Me",
     "justification": null,
-    "type": {
-        "id": "35256439",
-        "name": "Sampler"
-    },
+    "woe:country": "23424977",
+    "type": "Sampler",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/45904_2a1dcd1ccd19de32_b.jpg",
                 "width": 866,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/45904_2a1dcd1ccd19de32_n.jpg",
-                "width": 271,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "45904"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/45904_2a1dcd1ccd19de32_z.jpg",
                 "width": 541,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "45904"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/45904_2a1dcd1ccd19de32_n.jpg",
+                "width": 271,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "45904"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/45904_2a1dcd1ccd19de32_d.gif",
+                "width": 271,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "45904"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/45904_2a1dcd1ccd19de32_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "45904"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/29066_32b276a9ec3e7bde_b.jpg",
                 "width": 843,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/29066_32b276a9ec3e7bde_n.jpg",
-                "width": 263,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "29066"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/29066_32b276a9ec3e7bde_z.jpg",
                 "width": 527,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "29066"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/29066_32b276a9ec3e7bde_n.jpg",
+                "width": 263,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "29066"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/29066_32b276a9ec3e7bde_d.gif",
+                "width": 263,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "29066"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/29066_32b276a9ec3e7bde_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "29066"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18052567",
             "role_id": "35351537",
             "person_name": "Mrs. Henry E. Coe",
+            "person_date": "",
             "role_name": "Bequestor",
+            "role_display_name": "Bequest of",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18052567\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351537\/"
         },
@@ -82,34 +127,47 @@
             "person_id": "18536417",
             "role_id": "35236583",
             "person_name": "Sally Follansbe",
+            "person_date": "American, 1773 - 1813",
             "role_name": "Embroiderer",
+            "role_display_name": "Embroidered by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18536417\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236583\/"
         }
     ],
     "tombstone": {
-        "epitaph": "Sampler, 1787. Medium: silk embroidery on linen foundation\nTechnique: embroidered in cross, stem, satin, rococo, herringbone, eyelet and roumanian stitches on plain weave foundation. Bequest of Mrs. Henry E. Coe. 1941-69-74."
+        "epitaph": "Sampler, 1787. Medium: silk embroidery on linen foundation\nTechnique: embroidered in cross, stem, satin, rococo, herringbone, eyelet and roumanian stitches on plain weave foundation\nLabel: linen embroidered in silk. Bequest of Mrs. Henry E. Coe. 1941-69-74."
     },
     "colors": [
         {
-            "color": "#ae804b",
-            "closest_css3": "#cd853f"
+            "color": "#875931",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         },
         {
-            "color": "#946336",
-            "closest_css3": "#a0522d"
+            "color": "#c7ac75",
+            "closest_crayola": "#bab86c",
+            "closest_css3": "#bdb76b",
+            "closest_css4": "#bdb76b"
         },
         {
-            "color": "#6d4e2a",
-            "closest_css3": "#556b2f"
+            "color": "#8d865d",
+            "closest_crayola": "#8a795d",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#cab481",
-            "closest_css3": "#d2b48c"
+            "color": "#443927",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#7c7950",
-            "closest_css3": "#696969"
+            "color": "#656242",
+            "closest_crayola": "#6e5160",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

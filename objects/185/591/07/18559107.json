@@ -3,6 +3,7 @@
     "tms:id": "72754",
     "accession_number": "1940-4-25",
     "title": "Textile",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18559107\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": null,
     "year_acquired": "1940",
     "decade": null,
-    "woe:country": "23424781",
+    "woe:country_id": "23424781",
     "medium": "Medium: silk\nTechnique: Plain compound satin with supplementary weft.",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "Warp x Weft: 21.3 x 19.7 cm (8 3\/8 x 7 3\/4 in.)",
+    "dimensions_raw": {
+        "warp": [
+            "21.27",
+            "centimeters"
+        ],
+        "weft": [
+            "19.69",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Miss Beatrice Kates",
     "description": "Red background with image of man at center holding a headdress in raised left hand. A bird flies at proper left over a tree. At right is a flowering bush. Along the top is a narrow band of green and blue, with worn decorative labyrinthine border. Patterning in shades of blue, black, white, and green silk threads.",
     "justification": null,
-    "type": {
-        "id": "35251739",
-        "name": "textile"
-    },
+    "woe:country": "23424781",
+    "type": "textile",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/63730_553bdcbde5f6c8ab_b.jpg",
                 "width": 977,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/63730_553bdcbde5f6c8ab_n.jpg",
-                "width": 305,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "63730"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/63730_553bdcbde5f6c8ab_z.jpg",
                 "width": 611,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "63730"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/63730_553bdcbde5f6c8ab_n.jpg",
+                "width": 305,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "63730"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/63730_553bdcbde5f6c8ab_d.gif",
+                "width": 305,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "63730"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/63730_553bdcbde5f6c8ab_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "63730"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/48876_812494161e72220b_b.jpg",
                 "width": 998,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/48876_812494161e72220b_n.jpg",
-                "width": 312,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "48876"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/48876_812494161e72220b_z.jpg",
                 "width": 623,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "48876"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/48876_812494161e72220b_n.jpg",
+                "width": 312,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "48876"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/48876_812494161e72220b_d.gif",
+                "width": 312,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "48876"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/48876_812494161e72220b_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "48876"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18052475",
             "role_id": "35351535",
             "person_name": "Beatrice Kates",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18052475\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -84,24 +129,35 @@
     },
     "colors": [
         {
-            "color": "#8a492f",
-            "closest_css3": "#a0522d"
+            "color": "#84442a",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#8b4513",
+            "closest_css4": "#8b4513"
         },
         {
-            "color": "#c39872",
-            "closest_css3": "#bc8f8f"
+            "color": "#946344",
+            "closest_crayola": "#a5694f",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         },
         {
-            "color": "#a8704d",
-            "closest_css3": "#a0522d"
+            "color": "#c09570",
+            "closest_crayola": "#cd9575",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         },
         {
-            "color": "#483939",
-            "closest_css3": "#2f4f4f"
+            "color": "#d4bb9c",
+            "closest_crayola": "#e7c697",
+            "closest_css3": "#d2b48c",
+            "closest_css4": "#d2b48c"
         },
         {
-            "color": "#d9c6ab",
-            "closest_css3": "#c0c0c0"
+            "color": "#3f2e2e",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         }
-    ]
+    ],
+    "woe:country_name": "China"
 }

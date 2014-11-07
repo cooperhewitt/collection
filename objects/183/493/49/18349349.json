@@ -3,6 +3,7 @@
     "tms:id": "58348",
     "accession_number": "1938-57-221",
     "title": "Drawing, \"Bust of a Young Girl\", 19th century",
+    "title_raw": "Bust of a Young Girl",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18349349\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": null,
     "year_acquired": "1938",
     "decade": null,
-    "woe:country": "23424819",
+    "woe:country_id": "23424819",
     "medium": "Black and red chalk, pastel on paper",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "22 x 16 cm (8 11\/16 x 6 5\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "22.00",
+            "centimeters"
+        ],
+        "width": [
+            "16.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Bequest of Erskine Hewitt",
     "description": "Bust of a young girl leaning upon her right forearm and raising her head, which is shown in profile.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424819",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/39831_7d9f837fae265962_b.jpg",
                 "width": 743,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/39831_7d9f837fae265962_n.jpg",
-                "width": 232,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "39831"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/39831_7d9f837fae265962_z.jpg",
                 "width": 464,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "39831"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/39831_7d9f837fae265962_n.jpg",
+                "width": 232,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "39831"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/39831_7d9f837fae265962_d.gif",
+                "width": 232,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "39831"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/39831_7d9f837fae265962_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "39831"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/23066_d58050398da49ac2_b.jpg",
                 "width": 748,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/23066_d58050398da49ac2_n.jpg",
-                "width": 234,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "23066"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/23066_d58050398da49ac2_z.jpg",
                 "width": 468,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "23066"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/23066_d58050398da49ac2_n.jpg",
+                "width": 234,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "23066"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/23066_d58050398da49ac2_d.gif",
+                "width": 234,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "23066"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/23066_d58050398da49ac2_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "23066"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18050021",
             "role_id": "35351537",
             "person_name": "Erskine Hewitt",
+            "person_date": "American, 1871\u20131938",
             "role_name": "Bequestor",
+            "role_display_name": "Bequest of",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18050021\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351537\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18539409",
             "role_id": "35236685",
             "person_name": "Fran\u00e7ois Boucher",
+            "person_date": "French, 1703\u20131770",
             "role_name": "Maker",
+            "role_display_name": "Made by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18539409\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236685\/"
         }
@@ -92,12 +139,23 @@
     },
     "colors": [
         {
-            "color": "#b5a68d",
-            "closest_css3": "#bc8f8f"
+            "color": "#d9c18a",
+            "closest_crayola": "#e7c697",
+            "closest_css3": "#deb887",
+            "closest_css4": "#deb887"
         },
         {
-            "color": "#817a6e",
-            "closest_css3": "#808080"
+            "color": "#b5a68d",
+            "closest_crayola": "#bab86c",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
+        },
+        {
+            "color": "#827b6f",
+            "closest_crayola": "#757575",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         }
-    ]
+    ],
+    "woe:country_name": "France"
 }

@@ -3,6 +3,7 @@
     "tms:id": "226671",
     "accession_number": "2005-11-1",
     "title": "Sample Plate, 1887",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18702033\/",
     "department_id": "35347497",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1887,
     "year_acquired": "2005",
     "decade": null,
-    "woe:country": "23424819",
+    "woe:country_id": "23424819",
     "medium": "Porcelain",
     "markings": "On base: \"Limoges\"\nFrance",
     "signed": null,
     "inscribed": null,
     "provenance": "2005: acquired by Museum (from Marion Harris)",
     "dimensions": "H x diam.: 2.8 x 23 cm (1 1\/8 x 9 1\/16 in.)",
+    "dimensions_raw": {
+        "diameter": [
+            "23.00",
+            "centimeters"
+        ],
+        "height": [
+            "2.80",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase from General Acquisitions Endowment",
     "description": "Color chart plate with shades of gray, green and yellow, defining the full range of vitrifiable colors available with porcelain. Shows variation of individual colors when floral decoration makes a mix of solid color and white, giving us an idea of the aesthetic concerns of the age.",
-    "justification": null,
-    "type": {
-        "id": "35294303",
-        "name": "Sample plate"
-    },
+    "justification": "\nSample plates give us an idea of the colors and techniques that were fashionable during different periods. This sample plate shows the variation of individual colors when white floral decoration mixes with a solid color, giving us an idea of the aesthetic concerns of the age. It also adds to our understanding of the manufacturer\u2019s range of vitrifiable colors available for porcelain and their properties. ",
+    "woe:country": "23424819",
+    "type": "Sample plate",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/43333_1f36502c3ba358e2_b.jpg",
                 "width": 1024,
                 "height": 915,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/43333_1f36502c3ba358e2_n.jpg",
-                "width": 320,
-                "height": 286,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "43333"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/43333_1f36502c3ba358e2_z.jpg",
                 "width": 640,
                 "height": 572,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "43333"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/43333_1f36502c3ba358e2_n.jpg",
+                "width": 320,
+                "height": 286,
+                "is_primary": "1",
+                "image_id": "43333"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/43333_1f36502c3ba358e2_d.gif",
+                "width": 320,
+                "height": 286,
+                "is_primary": "1",
+                "image_id": "43333"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/43333_1f36502c3ba358e2_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "43333"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18058421",
             "role_id": "35236657",
             "person_name": "A. Lacroix & Cie",
+            "person_date": "founded 1855",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18058421\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18048535",
             "role_id": "35352247",
             "person_name": "General Acquisitions Endowment",
+            "person_date": "",
             "role_name": "Fund",
+            "role_display_name": "Fund:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18048535\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352247\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18055607",
             "role_id": "35352249",
             "person_name": "Marion Harris",
+            "person_date": "",
             "role_name": "Vendor",
+            "role_display_name": "Purchased from",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18055607\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352249\/"
         }
@@ -80,24 +112,35 @@
     },
     "colors": [
         {
-            "color": "#f2e276",
-            "closest_css3": "#f0e68c"
+            "color": "#d3d3c6",
+            "closest_crayola": "#dbd7d2",
+            "closest_css3": "#d3d3d3",
+            "closest_css4": "#d3d3d3"
         },
         {
-            "color": "#d4d4c3",
-            "closest_css3": "#d3d3d3"
+            "color": "#f2e276",
+            "closest_crayola": "#fcd975",
+            "closest_css3": "#f0e68c",
+            "closest_css4": "#f0e68c"
+        },
+        {
+            "color": "#a0a08c",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
         },
         {
             "color": "#6e6c67",
-            "closest_css3": "#696969"
-        },
-        {
-            "color": "#a0a08b",
-            "closest_css3": "#a9a9a9"
+            "closest_crayola": "#757575",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
             "color": "#4b4a47",
-            "closest_css3": "#2f4f4f"
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         }
-    ]
+    ],
+    "woe:country_name": "France"
 }

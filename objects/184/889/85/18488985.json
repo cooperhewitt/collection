@@ -3,6 +3,7 @@
     "tms:id": "155361",
     "accession_number": "1975-81-1-b",
     "title": "Sampler, 1799",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18488985\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1799,
     "year_acquired": "1975",
     "decade": null,
-    "woe:country": "23424829",
+    "woe:country_id": "23424829",
     "medium": "Medium: silk embroidery on linen foundation\nTechnique: embroidered in cross, stem, satin, knot, chain, eye, four-sided canvas, rococo, herringbone, and half cross stitches on plain weave foundation",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "Ex. coll. Fraser-Martin. Purchased at R.H. Macy & Co.",
     "dimensions": "H x W: 22.5 x 25.4 cm (8 7\/8 x 10 in.)",
+    "dimensions_raw": {
+        "height": [
+            "22.54",
+            "centimeters"
+        ],
+        "width": [
+            "25.40",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Anonymous Donor from the Fraser\/Martin Collection",
     "description": "Two alphabets at the top (missing the letter J) divided by narrow bands of pattern, then a rococo frame enclosing scattered flowers and the inscription: Vivat MD WD, with initials and animal figures at the sides.",
     "justification": null,
-    "type": {
-        "id": "35256439",
-        "name": "Sampler"
-    },
+    "woe:country": "23424829",
+    "type": "Sampler",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/41108_699ba6b6eaf67a77_b.jpg",
                 "width": 1024,
                 "height": 919,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/41108_699ba6b6eaf67a77_n.jpg",
-                "width": 320,
-                "height": 287,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "41108"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/41108_699ba6b6eaf67a77_z.jpg",
                 "width": 640,
                 "height": 575,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "41108"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/41108_699ba6b6eaf67a77_n.jpg",
+                "width": 320,
+                "height": 287,
+                "is_primary": "1",
+                "image_id": "41108"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/41108_699ba6b6eaf67a77_d.gif",
+                "width": 320,
+                "height": 287,
+                "is_primary": "1",
+                "image_id": "41108"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/41108_699ba6b6eaf67a77_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "41108"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/31783_b27095d85e2fe185_b.jpg",
                 "width": 1024,
                 "height": 915,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/31783_b27095d85e2fe185_n.jpg",
-                "width": 320,
-                "height": 286,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "31783"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/31783_b27095d85e2fe185_z.jpg",
                 "width": 640,
                 "height": 572,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "31783"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/31783_b27095d85e2fe185_n.jpg",
+                "width": 320,
+                "height": 286,
+                "is_primary": "0",
+                "image_id": "31783"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/31783_b27095d85e2fe185_d.gif",
+                "width": 320,
+                "height": 286,
+                "is_primary": "0",
+                "image_id": "31783"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/31783_b27095d85e2fe185_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "31783"
             }
         }
     ],
@@ -73,8 +116,10 @@
         {
             "person_id": "18049335",
             "role_id": "35351535",
-            "person_name": "Anonymous",
+            "person_name": "Unknown",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049335\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -84,24 +129,35 @@
     },
     "colors": [
         {
-            "color": "#d1bb8f",
-            "closest_css3": "#d2b48c"
+            "color": "#ae9674",
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         },
         {
-            "color": "#eee3c9",
-            "closest_css3": "#ffe4c4"
+            "color": "#907856",
+            "closest_crayola": "#8a795d",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#bb966b",
-            "closest_css3": "#bdb76b"
+            "color": "#8c9078",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#80583d",
-            "closest_css3": "#a0522d"
+            "color": "#744e38",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         },
         {
-            "color": "#a47248",
-            "closest_css3": "#a0522d"
+            "color": "#564c3a",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         }
-    ]
+    ],
+    "woe:country_name": "Germany"
 }

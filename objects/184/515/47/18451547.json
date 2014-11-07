@@ -3,6 +3,7 @@
     "tms:id": "136294",
     "accession_number": "1964-26-10",
     "title": "Print, \"Plate I of \"Travail et emploi du coton\" from Diderot's Encyclopedia, Vol. I\", 1762",
+    "title_raw": "Plate I of \"Travail et emploi du coton\" from Diderot's Encyclopedia, Vol. I",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18451547\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1762,
     "year_acquired": "1964",
     "decade": null,
-    "woe:country": "23424819",
+    "woe:country_id": "23424819",
     "medium": "Engraving on white paper",
     "markings": null,
     "signed": "Signed in plate, lower right: Bernard Fecit; lower left: Goussier del",
     "inscribed": "Inscribed in plate, upper right: Pl. I; lower margin, OEconomie Rustique, coton.",
     "provenance": "1964: acquired by Museum",
     "dimensions": "Sheet: 38 x 24.2 cm (14 15\/16 x 9 1\/2 in.)\nPlatemark: 35.3 x 23.3 cm (13 7\/8 x 9 3\/16 in.)",
-    "creditline": null,
+    "dimensions_raw": {
+        "height": [
+            "38.00",
+            "centimeters"
+        ],
+        "width": [
+            "24.20",
+            "centimeters"
+        ]
+    },
+    "creditline": "Transfer from the Cooper Union Museum Library",
     "description": "Upper register, interior of a factory, showing combing and weaving. Lower register, various tools, letter, with a scale, lower right.",
     "justification": null,
-    "type": {
-        "id": "35236873",
-        "name": "Print"
-    },
+    "woe:country": "23424819",
+    "type": "Print",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/41253_cb363631c1117161_b.jpg",
                 "width": 664,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/41253_cb363631c1117161_n.jpg",
-                "width": 208,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "41253"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/41253_cb363631c1117161_z.jpg",
                 "width": 415,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "41253"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/41253_cb363631c1117161_n.jpg",
+                "width": 208,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "41253"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/41253_cb363631c1117161_d.gif",
+                "width": 208,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "41253"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/41253_cb363631c1117161_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "41253"
             }
         }
     ],
@@ -54,26 +80,77 @@
             "person_id": "51676457",
             "role_id": "35352245",
             "person_name": "Karin Zonis",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/51676457\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
+        },
+        {
+            "person_id": "18056853",
+            "role_id": "35352257",
+            "person_name": "Cooper Union Library",
+            "person_date": "",
+            "role_name": "Transferor",
+            "role_display_name": "Transferred from",
+            "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18056853\/",
+            "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352257\/"
+        },
+        {
+            "person_id": "68739221",
+            "role_id": "35236743",
+            "person_name": "Robert B\u00e9nard",
+            "person_date": "French",
+            "role_name": "Engraver",
+            "role_display_name": "Engraved by",
+            "person_url": "http:\/\/collection.cooperhewitt.org\/people\/68739221\/",
+            "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236743\/"
+        },
+        {
+            "person_id": "68739217",
+            "role_id": "35236655",
+            "person_name": "Goussier",
+            "person_date": "",
+            "role_name": "Designer",
+            "role_display_name": "Designed by",
+            "person_url": "http:\/\/collection.cooperhewitt.org\/people\/68739217\/",
+            "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
     ],
     "tombstone": {
-        "epitaph": "Print, \"Plate I of \"Travail et emploi du coton\" from Diderot's Encyclopedia, Vol. I\", 1762. Engraving on white paper. 1964-26-10."
+        "epitaph": "Print, \"Plate I of \"Travail et emploi du coton\" from Diderot's Encyclopedia, Vol. I\", 1762. Engraving on white paper. Transfer from the Cooper Union Museum Library. 1964-26-10."
     },
     "colors": [
         {
-            "color": "#b1a88e",
-            "closest_css3": "#bc8f8f"
+            "color": "#c9c2a9",
+            "closest_crayola": "#cdc5c2",
+            "closest_css3": "#c0c0c0",
+            "closest_css4": "#c0c0c0"
         },
         {
-            "color": "#7d755f",
-            "closest_css3": "#696969"
+            "color": "#f4eed5",
+            "closest_crayola": "#efdecd",
+            "closest_css3": "#faebd7",
+            "closest_css4": "#faebd7"
         },
         {
-            "color": "#454138",
-            "closest_css3": "#2f4f4f"
+            "color": "#877e68",
+            "closest_crayola": "#8a795d",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
+        },
+        {
+            "color": "#534e42",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
+        },
+        {
+            "color": "#c8ac73",
+            "closest_crayola": "#bab86c",
+            "closest_css3": "#bdb76b",
+            "closest_css4": "#bdb76b"
         }
-    ]
+    ],
+    "woe:country_name": "France"
 }

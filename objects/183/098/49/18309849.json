@@ -3,6 +3,7 @@
     "tms:id": "41043",
     "accession_number": "1925-2-28",
     "title": "Button, late 18th century",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18309849\/",
     "department_id": "35347497",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": null,
     "year_acquired": "1925",
     "decade": null,
-    "woe:country": "23424975",
+    "woe:country_id": "23424975",
     "medium": "Stoneware",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "Sarah and Eleanor Hewitt; 1925: acquired by Museum",
     "dimensions": "L x W x D: 3.6 x 1.9 cm (1 7\/16 x 3\/4 in.)",
+    "dimensions_raw": {
+        "length": [
+            "3.60",
+            "centimeters"
+        ],
+        "width": [
+            "1.90",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Eleanor and Sarah Hewitt",
     "description": "Octagonal mount in the style of Wedgwood Jasperware; dog and garden implements beside pedestal on which are two hearts pierced with arrow and love birds; border; white on blue ground.",
     "justification": null,
-    "type": {
-        "id": "35237135",
-        "name": "button"
-    },
+    "woe:country": "23424975",
+    "type": "button",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/2370_8d64dedd6c575b4e_b.jpg",
                 "width": 1024,
                 "height": 621,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/2370_8d64dedd6c575b4e_n.jpg",
-                "width": 320,
-                "height": 194,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "2370"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/2370_8d64dedd6c575b4e_z.jpg",
                 "width": 640,
                 "height": 388,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "2370"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/2370_8d64dedd6c575b4e_n.jpg",
+                "width": 320,
+                "height": 194,
+                "is_primary": "1",
+                "image_id": "2370"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/2370_8d64dedd6c575b4e_d.gif",
+                "width": 320,
+                "height": 194,
+                "is_primary": "1",
+                "image_id": "2370"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/2370_8d64dedd6c575b4e_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "2370"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/2762_c07fe31bc20e1435_b.jpg",
                 "width": 1024,
                 "height": 563,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/2762_c07fe31bc20e1435_n.jpg",
-                "width": 320,
-                "height": 176,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "2762"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/2762_c07fe31bc20e1435_z.jpg",
                 "width": 640,
                 "height": 352,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "2762"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/2762_c07fe31bc20e1435_n.jpg",
+                "width": 320,
+                "height": 176,
+                "is_primary": "0",
+                "image_id": "2762"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/2762_c07fe31bc20e1435_d.gif",
+                "width": 320,
+                "height": 176,
+                "is_primary": "0",
+                "image_id": "2762"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/2762_c07fe31bc20e1435_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "2762"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18049325",
             "role_id": "35351535",
             "person_name": "Eleanor Garnier Hewitt",
+            "person_date": "American, 1864\u20131924",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049325\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18049321",
             "role_id": "35351535",
             "person_name": "Sarah Cooper Hewitt",
+            "person_date": "American, 1859\u20131930",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049321\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -92,24 +139,29 @@
     },
     "colors": [
         {
-            "color": "#3538b9",
-            "closest_css3": "#483d8b"
+            "color": "#4c55c8",
+            "closest_crayola": "#324ab2",
+            "closest_css3": "#6a5acd",
+            "closest_css4": "#6a5acd"
         },
         {
-            "color": "#545bc9",
-            "closest_css3": "#6a5acd"
+            "color": "#272b9e",
+            "closest_crayola": "#324ab2",
+            "closest_css3": "#483d8b",
+            "closest_css4": "#483d8b"
         },
         {
-            "color": "#a0a4bf",
-            "closest_css3": "#a9a9a9"
+            "color": "#979bb9",
+            "closest_crayola": "#979aaa",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
         },
         {
-            "color": "#6e77b2",
-            "closest_css3": "#778899"
-        },
-        {
-            "color": "#8a8698",
-            "closest_css3": "#778899"
+            "color": "#666fb1",
+            "closest_crayola": "#7366bd",
+            "closest_css3": "#6a5acd",
+            "closest_css4": "#6a5acd"
         }
-    ]
+    ],
+    "woe:country_name": "United Kingdom"
 }

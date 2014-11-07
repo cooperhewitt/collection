@@ -3,6 +3,7 @@
     "tms:id": "67995",
     "accession_number": "1938-88-7056",
     "title": "Drawing, \"The Immaculate Conception\", ca. 1640",
+    "title_raw": "The Immaculate Conception",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18550127\/",
     "department_id": "35347493",
     "period_id": "35417081",
@@ -13,39 +14,64 @@
     "year_end": 1650,
     "year_acquired": "1938",
     "decade": null,
-    "woe:country": "23424853",
+    "woe:country_id": "23424853",
     "medium": "Pen and brown ink, brush and brown wash, red chalk on paper",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "Giovanni Piancastelli; Mr. and Mrs. Edward D. Brandegee",
     "dimensions": "24.2 x 13.1 cm (9 1\/2 x 5 3\/16 in.)\nMat:  45.7 x 35.6 cm (18 x 14 in.)",
+    "dimensions_raw": {
+        "height": [
+            "45.70",
+            "centimeters"
+        ],
+        "width": [
+            "35.60",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase through gift of various donors and from Eleanor G. Hewitt Fund",
     "description": "Drawing of the Virgin at center right looking up, surrounded by flying winged putti.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424853",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/29495_35d03a7461f20228_b.jpg",
                 "width": 596,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/29495_35d03a7461f20228_n.jpg",
-                "width": 186,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "29495"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/29495_35d03a7461f20228_z.jpg",
                 "width": 372,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "29495"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/29495_35d03a7461f20228_n.jpg",
+                "width": 186,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "29495"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/29495_35d03a7461f20228_d.gif",
+                "width": 186,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "29495"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/29495_35d03a7461f20228_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "29495"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/16992_f0a97d0517917fd9_b.jpg",
                 "width": 633,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/16992_f0a97d0517917fd9_n.jpg",
-                "width": 198,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "16992"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/16992_f0a97d0517917fd9_z.jpg",
                 "width": 396,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "16992"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/16992_f0a97d0517917fd9_n.jpg",
+                "width": 198,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "16992"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/16992_f0a97d0517917fd9_d.gif",
+                "width": 198,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "16992"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/16992_f0a97d0517917fd9_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "16992"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18047443",
             "role_id": "35352245",
             "person_name": "Megan L. Smith",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047443\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18042529",
             "role_id": "35236565",
             "person_name": "Jusepe de Ribera",
+            "person_date": "Spanish, active Italy, 1591 \u2013 1652",
             "role_name": "Artist",
+            "role_display_name": "",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18042529\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236565\/"
         }
@@ -92,8 +139,11 @@
     },
     "colors": [
         {
-            "color": "#b99b6e",
-            "closest_css3": "#bdb76b"
+            "color": "#bb9e72",
+            "closest_crayola": "#cd9575",
+            "closest_css3": "#bdb76b",
+            "closest_css4": "#bdb76b"
         }
-    ]
+    ],
+    "woe:country_name": "Italy"
 }

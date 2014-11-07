@@ -3,6 +3,7 @@
     "tms:id": "176726",
     "accession_number": "1981-28-143",
     "title": "Sampler, 19th century",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18616393\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": null,
     "year_acquired": "1981",
     "decade": null,
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Medium: silk embroidery on cotton foundation\nTechnique: embroidered in cross and marking cross stitches on plain weave foundation",
     "markings": null,
     "signed": null,
     "inscribed": "M A Tolwell aged 8",
     "provenance": "By 19??, American Art Galleries\n19?? - 1981, Gertrude M. Oppenheimer\n1981, Cooper-Hewitt Museum",
     "dimensions": "H x W: 33.7 x 17.8 cm (13 1\/4 x 7 in.)",
+    "dimensions_raw": {
+        "height": [
+            "33.66",
+            "centimeters"
+        ],
+        "width": [
+            "17.78",
+            "centimeters"
+        ]
+    },
     "creditline": "Bequest of Gertrude M. Oppenheimer",
     "description": "Bands of alphabets separated by narrow geometric borders, with the inscription:\nM A Tolwell Aged 8\nAt the bottom, houses and a tree.",
     "justification": null,
-    "type": {
-        "id": "35256439",
-        "name": "Sampler"
-    },
+    "woe:country": "23424977",
+    "type": "Sampler",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/36407_c89538915d26d5b9_b.jpg",
                 "width": 542,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/36407_c89538915d26d5b9_n.jpg",
-                "width": 169,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "36407"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/36407_c89538915d26d5b9_z.jpg",
                 "width": 339,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "36407"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/36407_c89538915d26d5b9_n.jpg",
+                "width": 169,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "36407"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/36407_c89538915d26d5b9_d.gif",
+                "width": 169,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "36407"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/36407_c89538915d26d5b9_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "36407"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/27901_19421a8292d02905_b.jpg",
                 "width": 555,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/27901_19421a8292d02905_n.jpg",
-                "width": 173,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "27901"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/27901_19421a8292d02905_z.jpg",
                 "width": 347,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "27901"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/27901_19421a8292d02905_n.jpg",
+                "width": 173,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "27901"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/27901_19421a8292d02905_d.gif",
+                "width": 173,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "27901"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/27901_19421a8292d02905_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "27901"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18050567",
             "role_id": "35351537",
             "person_name": "Gertrude M. Oppenheimer",
+            "person_date": "",
             "role_name": "Bequestor",
+            "role_display_name": "Bequest of",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18050567\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351537\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18050755",
             "role_id": "35236583",
             "person_name": "M. A. Tolwell",
+            "person_date": "American",
             "role_name": "Embroiderer",
+            "role_display_name": "Embroidered by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18050755\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236583\/"
         }
@@ -92,24 +139,35 @@
     },
     "colors": [
         {
-            "color": "#b48e57",
-            "closest_css3": "#cd853f"
+            "color": "#ab824a",
+            "closest_crayola": "#9c7c38",
+            "closest_css3": "#cd853f",
+            "closest_css4": "#cd853f"
         },
         {
-            "color": "#d7bf87",
-            "closest_css3": "#deb887"
+            "color": "#595135",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         },
         {
-            "color": "#9c6f3b",
-            "closest_css3": "#a0522d"
+            "color": "#8f8762",
+            "closest_crayola": "#8a795d",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#594d31",
-            "closest_css3": "#556b2f"
+            "color": "#ddd5c8",
+            "closest_crayola": "#dbd7d2",
+            "closest_css3": "#d3d3d3",
+            "closest_css4": "#d3d3d3"
         },
         {
-            "color": "#878260",
-            "closest_css3": "#808080"
+            "color": "#8b6437",
+            "closest_crayola": "#85754e",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

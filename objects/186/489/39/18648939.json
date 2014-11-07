@@ -3,6 +3,7 @@
     "tms:id": "199379",
     "accession_number": "1994-62-11",
     "title": "Print, \"Los Angeles Biltmore\", 20th century",
+    "title_raw": "Los Angeles Biltmore",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18648939\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1994,
     "year_acquired": "1994",
     "decade": "1900",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Offset lithograph",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "10.7 x 13.1 cm (4 3\/16 x 5 3\/16 in.), irregular",
+    "dimensions_raw": {
+        "height": [
+            "10.70",
+            "centimeters"
+        ],
+        "width": [
+            "13.10",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase from Sarah Cooper-Hewitt Fund",
     "description": "Luggage label depicting a brick building constructed in three towering sections. American flags fly atop the hotel, trees grow in front. Text, metallic gold, in a scroll swag: Los Angeles Biltmore.",
     "justification": null,
-    "type": {
-        "id": "35236873",
-        "name": "Print"
-    },
+    "woe:country": "23424977",
+    "type": "Print",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/12056_b8dbc789b691f3b0_b.jpg",
                 "width": 1024,
                 "height": 855,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/12056_b8dbc789b691f3b0_n.jpg",
-                "width": 320,
-                "height": 267,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "12056"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/12056_b8dbc789b691f3b0_z.jpg",
                 "width": 640,
                 "height": 535,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "12056"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/12056_b8dbc789b691f3b0_n.jpg",
+                "width": 320,
+                "height": 267,
+                "is_primary": "1",
+                "image_id": "12056"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/12056_b8dbc789b691f3b0_d.gif",
+                "width": 320,
+                "height": 267,
+                "is_primary": "1",
+                "image_id": "12056"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/12056_b8dbc789b691f3b0_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "12056"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/19314_48f16e14501d84fd_b.jpg",
                 "width": 826,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/19314_48f16e14501d84fd_n.jpg",
-                "width": 258,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "19314"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/19314_48f16e14501d84fd_z.jpg",
                 "width": 516,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "19314"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/19314_48f16e14501d84fd_n.jpg",
+                "width": 258,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "19314"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/19314_48f16e14501d84fd_d.gif",
+                "width": 258,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "19314"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/19314_48f16e14501d84fd_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "19314"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "51676457",
             "role_id": "35352245",
             "person_name": "Karin Zonis",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/51676457\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18041639",
             "role_id": "35352249",
             "person_name": "St. Jivago Desanges",
+            "person_date": "",
             "role_name": "Vendor",
+            "role_display_name": "Purchased from",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041639\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352249\/"
         }
@@ -92,24 +139,35 @@
     },
     "colors": [
         {
-            "color": "#5e4b39",
-            "closest_css3": "#556b2f"
+            "color": "#e0e1f4",
+            "closest_crayola": "#fddde6",
+            "closest_css3": "#e6e6fa",
+            "closest_css4": "#e6e6fa"
         },
         {
-            "color": "#a91130",
-            "closest_css3": "#b22222"
+            "color": "#72573e",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         },
         {
-            "color": "#abafc7",
-            "closest_css3": "#c0c0c0"
+            "color": "#b11231",
+            "closest_crayola": "#9c2542",
+            "closest_css3": "#b22222",
+            "closest_css4": "#b22222"
         },
         {
-            "color": "#826c54",
-            "closest_css3": "#696969"
+            "color": "#a29688",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         },
         {
-            "color": "#c5b9be",
-            "closest_css3": "#c0c0c0"
+            "color": "#2f2e2c",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

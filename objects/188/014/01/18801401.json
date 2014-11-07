@@ -3,6 +3,7 @@
     "tms:id": "180867",
     "accession_number": "1984-111-5",
     "title": "Sample, 1937\u201361",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18801401\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1961,
     "year_acquired": "1984",
     "decade": "1930",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Medium: rayon, Lurex\nTechnique: jacquard woven",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "1984: acquired by Museum",
     "dimensions": "Warp x Weft: 50 x 50 cm (19 11\/16 x 19 11\/16 in.)",
+    "dimensions_raw": {
+        "warp": [
+            "50.00",
+            "centimeters"
+        ],
+        "weft": [
+            "50.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Marianne Strengell",
     "description": "Offset squares containing dots with metallics on grey and one machine-stitched edge and one cut edge.",
     "justification": null,
-    "type": {
-        "id": "35268079",
-        "name": "Sample"
-    },
+    "woe:country": "23424977",
+    "type": "Sample",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/48547_b7768771f6dea902_b.jpg",
                 "width": 1024,
                 "height": 889,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/48547_b7768771f6dea902_n.jpg",
-                "width": 320,
-                "height": 278,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "48547"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/48547_b7768771f6dea902_z.jpg",
                 "width": 640,
                 "height": 556,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "48547"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/48547_b7768771f6dea902_n.jpg",
+                "width": 320,
+                "height": 278,
+                "is_primary": "1",
+                "image_id": "48547"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/48547_b7768771f6dea902_d.gif",
+                "width": 320,
+                "height": 278,
+                "is_primary": "1",
+                "image_id": "48547"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/48547_b7768771f6dea902_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "48547"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/77538_34306ae549bcddfb_b.jpg",
                 "width": 912,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/77538_34306ae549bcddfb_n.jpg",
-                "width": 285,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "77538"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/77538_34306ae549bcddfb_z.jpg",
                 "width": 570,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "77538"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/77538_34306ae549bcddfb_n.jpg",
+                "width": 285,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "77538"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/77538_34306ae549bcddfb_d.gif",
+                "width": 285,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "77538"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/77538_34306ae549bcddfb_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "77538"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18041443",
             "role_id": "35236655",
             "person_name": "Marianne Strengell",
+            "person_date": "Finnish, active USA, 1909\u20131998",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041443\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18041443",
             "role_id": "35351535",
             "person_name": "Marianne Strengell",
+            "person_date": "Finnish, active USA, 1909\u20131998",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041443\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -92,12 +139,17 @@
     },
     "colors": [
         {
-            "color": "#5a5042",
-            "closest_css3": "#556b2f"
+            "color": "#4d453a",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#9c8e7a",
-            "closest_css3": "#808080"
+            "color": "#85786a",
+            "closest_crayola": "#8a795d",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

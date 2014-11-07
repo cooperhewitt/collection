@@ -3,6 +3,7 @@
     "tms:id": "146586",
     "accession_number": "1970-28-25",
     "title": "Sampler, late 18th\u2013early 19th century",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18471847\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": null,
     "year_acquired": "1970",
     "decade": null,
-    "woe:country": "23424975",
+    "woe:country_id": "23424975",
     "medium": "Medium: linen, silk\nTechnique: embroidery",
     "markings": null,
     "signed": null,
     "inscribed": "Embroidered in lower panel, \"Dinah Phillips.\"",
     "provenance": null,
     "dimensions": "H x W: 32.5 x 29 cm (12 13\/16 x 11 7\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "32.50",
+            "centimeters"
+        ],
+        "width": [
+            "29.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Bequest of Emily Coe Stowell from the Coe Collection",
     "description": "Basket of flowers under an arch of two stout trees, each growing from a low mound. Panel at bottom has four darned squares on each side of the panel with a darning cross in the middle. Dinah (?) Phillips written in dark brown.",
     "justification": null,
-    "type": {
-        "id": "35256439",
-        "name": "Sampler"
-    },
+    "woe:country": "23424975",
+    "type": "Sampler",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/42567_dea985264affb519_b.jpg",
                 "width": 915,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/42567_dea985264affb519_n.jpg",
-                "width": 286,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "42567"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/42567_dea985264affb519_z.jpg",
                 "width": 572,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "42567"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/42567_dea985264affb519_n.jpg",
+                "width": 286,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "42567"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/42567_dea985264affb519_d.gif",
+                "width": 286,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "42567"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/42567_dea985264affb519_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "42567"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/29288_25ffa31953545646_b.jpg",
                 "width": 906,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/29288_25ffa31953545646_n.jpg",
-                "width": 283,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "29288"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/29288_25ffa31953545646_z.jpg",
                 "width": 566,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "29288"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/29288_25ffa31953545646_n.jpg",
+                "width": 283,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "29288"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/29288_25ffa31953545646_d.gif",
+                "width": 283,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "29288"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/29288_25ffa31953545646_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "29288"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18058235",
             "role_id": "35236583",
             "person_name": "Dinah Phillips",
+            "person_date": "",
             "role_name": "Embroiderer",
+            "role_display_name": "Embroidered by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18058235\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236583\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18054661",
             "role_id": "35351537",
             "person_name": "Emily Coe Stowell",
+            "person_date": "",
             "role_name": "Bequestor",
+            "role_display_name": "Bequest of",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18054661\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351537\/"
         }
@@ -92,24 +139,35 @@
     },
     "colors": [
         {
-            "color": "#ceb185",
-            "closest_css3": "#d2b48c"
+            "color": "#d6b888",
+            "closest_crayola": "#deaa88",
+            "closest_css3": "#d2b48c",
+            "closest_css4": "#d2b48c"
         },
         {
-            "color": "#a58251",
-            "closest_css3": "#cd853f"
+            "color": "#a48252",
+            "closest_crayola": "#a57164",
+            "closest_css3": "#cd853f",
+            "closest_css4": "#cd853f"
         },
         {
-            "color": "#866b47",
-            "closest_css3": "#a0522d"
+            "color": "#856641",
+            "closest_crayola": "#85754e",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         },
         {
-            "color": "#504635",
-            "closest_css3": "#556b2f"
+            "color": "#624b31",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         },
         {
-            "color": "#744d2e",
-            "closest_css3": "#8b4513"
+            "color": "#68634c",
+            "closest_crayola": "#6e5160",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         }
-    ]
+    ],
+    "woe:country_name": "United Kingdom"
 }

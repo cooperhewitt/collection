@@ -3,6 +3,7 @@
     "tms:id": "160827",
     "accession_number": "1979-91-203",
     "title": "Frieze, 1904\u201315",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18499851\/",
     "department_id": "35347503",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1915,
     "year_acquired": "1979",
     "decade": "1900",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Machine-printed on paper",
     "markings": null,
     "signed": null,
     "inscribed": "Printed in top selvedge: Wm. Campbell Wall Paper Co.; Antiseptic Pat'd 8-9-04. Printed in bottom selvedge: 676.",
     "provenance": null,
     "dimensions": "234.5 x 49.5 cm (92 5\/16 x 19 1\/2 in.)",
+    "dimensions_raw": {
+        "height": [
+            "234.50",
+            "centimeters"
+        ],
+        "width": [
+            "49.50",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Victorian Collectibles",
     "description": "Floral bouquets, alternating large and small, each enclosed in a foliate medallion. Trellis design and smaller bouquet beneath each tall bouquet.",
     "justification": null,
-    "type": {
-        "id": "35259269",
-        "name": "Frieze"
-    },
+    "woe:country": "23424977",
+    "type": "Frieze",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/64901_f1d2487fbc1f2bc8_b.jpg",
                 "width": 1024,
                 "height": 401,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/64901_f1d2487fbc1f2bc8_n.jpg",
-                "width": 320,
-                "height": 125,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "64901"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/64901_f1d2487fbc1f2bc8_z.jpg",
                 "width": 640,
                 "height": 251,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "64901"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/64901_f1d2487fbc1f2bc8_n.jpg",
+                "width": 320,
+                "height": 125,
+                "is_primary": "1",
+                "image_id": "64901"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/64901_f1d2487fbc1f2bc8_d.gif",
+                "width": 320,
+                "height": 125,
+                "is_primary": "1",
+                "image_id": "64901"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/64901_f1d2487fbc1f2bc8_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "64901"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/9174_f324a2c228d507cc_b.jpg",
                 "width": 1024,
                 "height": 564,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/9174_f324a2c228d507cc_n.jpg",
-                "width": 320,
-                "height": 176,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "9174"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/9174_f324a2c228d507cc_z.jpg",
                 "width": 640,
                 "height": 352,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "9174"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/9174_f324a2c228d507cc_n.jpg",
+                "width": 320,
+                "height": 176,
+                "is_primary": "0",
+                "image_id": "9174"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/9174_f324a2c228d507cc_d.gif",
+                "width": 320,
+                "height": 176,
+                "is_primary": "0",
+                "image_id": "9174"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/9174_f324a2c228d507cc_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "9174"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18064161",
             "role_id": "35351535",
             "person_name": "Victorian Collectibles",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18064161\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18046651",
             "role_id": "35236657",
             "person_name": "Wm. Campbell Wall Paper Company",
+            "person_date": "1872",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18046651\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         }
@@ -92,16 +139,29 @@
     },
     "colors": [
         {
-            "color": "#c7af83",
-            "closest_css3": "#d2b48c"
+            "color": "#e7dcbc",
+            "closest_crayola": "#eceabe",
+            "closest_css3": "#f5deb3",
+            "closest_css4": "#f5deb3"
         },
         {
-            "color": "#8e8e5f",
-            "closest_css3": "#808080"
+            "color": "#d3bc82",
+            "closest_crayola": "#deaa88",
+            "closest_css3": "#deb887",
+            "closest_css4": "#deb887"
         },
         {
-            "color": "#a9865a",
-            "closest_css3": "#cd853f"
+            "color": "#939260",
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
+        },
+        {
+            "color": "#b39469",
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#bdb76b",
+            "closest_css4": "#bdb76b"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

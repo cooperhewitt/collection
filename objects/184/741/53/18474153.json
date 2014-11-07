@@ -3,6 +3,7 @@
     "tms:id": "147836",
     "accession_number": "1971-50-182",
     "title": "Sampler, 1799",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18474153\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1799,
     "year_acquired": "1971",
     "decade": null,
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Medium: silk embroidery on linen foundation\nTechnique: embroidered in cross stitch on plain weave foundation",
     "markings": null,
     "signed": null,
     "inscribed": "1799 Relief Harris Fitzwilliam Sept the 3",
     "provenance": null,
     "dimensions": "H x W: 15.9 x 15.2 cm (6 1\/4 in. x 6 in.)",
+    "dimensions_raw": {
+        "height": [
+            "15.88",
+            "centimeters"
+        ],
+        "width": [
+            "15.24",
+            "centimeters"
+        ]
+    },
     "creditline": "Bequest of Marian Hague",
     "description": "Alphabets and numerals separated by narrow geometric cross borders, with an inscription: \n1799\nRachel Harris\nFitzwilliam Sept the 3",
     "justification": null,
-    "type": {
-        "id": "35256439",
-        "name": "Sampler"
-    },
+    "woe:country": "23424977",
+    "type": "Sampler",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/36392_f380f0f37d2ed25e_b.jpg",
                 "width": 969,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/36392_f380f0f37d2ed25e_n.jpg",
-                "width": 303,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "36392"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/36392_f380f0f37d2ed25e_z.jpg",
                 "width": 606,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "36392"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/36392_f380f0f37d2ed25e_n.jpg",
+                "width": 303,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "36392"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/36392_f380f0f37d2ed25e_d.gif",
+                "width": 303,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "36392"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/36392_f380f0f37d2ed25e_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "36392"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/30136_e0f137fc2f2a5e1a_b.jpg",
                 "width": 1009,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/30136_e0f137fc2f2a5e1a_n.jpg",
-                "width": 315,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "30136"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/30136_e0f137fc2f2a5e1a_z.jpg",
                 "width": 631,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "30136"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/30136_e0f137fc2f2a5e1a_n.jpg",
+                "width": 315,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "30136"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/30136_e0f137fc2f2a5e1a_d.gif",
+                "width": 315,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "30136"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/30136_e0f137fc2f2a5e1a_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "30136"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18062587",
             "role_id": "35236583",
             "person_name": "Relief (?) Harris Fitzwilliam",
+            "person_date": "",
             "role_name": "Embroiderer",
+            "role_display_name": "Embroidered by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18062587\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236583\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18052465",
             "role_id": "35351537",
             "person_name": "Marian Hague",
+            "person_date": "",
             "role_name": "Bequestor",
+            "role_display_name": "Bequest of",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18052465\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351537\/"
         }
@@ -92,24 +139,35 @@
     },
     "colors": [
         {
-            "color": "#af8d60",
-            "closest_css3": "#cd853f"
+            "color": "#aa8859",
+            "closest_crayola": "#a57164",
+            "closest_css3": "#cd853f",
+            "closest_css4": "#cd853f"
         },
         {
-            "color": "#8f6e46",
-            "closest_css3": "#a0522d"
+            "color": "#916848",
+            "closest_crayola": "#85754e",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         },
         {
-            "color": "#734f35",
-            "closest_css3": "#556b2f"
+            "color": "#2b2119",
+            "closest_crayola": "#000000",
+            "closest_css3": "#000000",
+            "closest_css4": "#000000"
         },
         {
-            "color": "#3c2f22",
-            "closest_css3": "#2f4f4f"
+            "color": "#e1d6c1",
+            "closest_crayola": "#dbd7d2",
+            "closest_css3": "#d3d3d3",
+            "closest_css4": "#d3d3d3"
         },
         {
-            "color": "#e5d9bd",
-            "closest_css3": "#f5deb3"
+            "color": "#6b4a33",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

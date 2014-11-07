@@ -3,6 +3,7 @@
     "tms:id": "57034",
     "accession_number": "1938-47-1",
     "title": "Print, \"The Artist in the Country, from Appletons' Journal of Literature, Science and Art, June 19, 1869, Cover\", 1869",
+    "title_raw": "The Artist in the Country, from Appletons' Journal of Literature, Science and Art, June 19, 1869, Cover",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18346281\/",
     "department_id": "35347493",
     "period_id": "35417233",
@@ -13,39 +14,64 @@
     "year_end": 1869,
     "year_acquired": "1938",
     "decade": null,
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Wood engraving  on white wove paper",
     "markings": null,
     "signed": "Signed on knapsack, lower right: WH\nSigned, lower left: J. Karst.",
     "inscribed": "Caption: THE ARTIST IN THE COUNTRY. BY WINSLOW HOMER.",
     "provenance": "Gift of Charles Savage Homer, Jr.",
     "dimensions": "Frame: 50.2 x 39.7 cm (19 3\/4 x 15 5\/8 in.)",
+    "dimensions_raw": {
+        "height": [
+            "45.72",
+            "centimeters"
+        ],
+        "width": [
+            "35.56",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase from Friends of the Museum Fund",
     "description": "Artist with porkpie hat and mustache sits on a camp stool at a portable easel under a white umbrella.  A knapsack in the right foreground is evidence of the overland trek required to reach such a remote site in the White Mountain wilderness.  Well-dressed young lady watches artist at work.",
     "justification": null,
-    "type": {
-        "id": "35236873",
-        "name": "Print"
-    },
+    "woe:country": "23424977",
+    "type": "Print",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/20001_e698221f7dd3c4be_b.jpg",
                 "width": 1024,
                 "height": 1009,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/20001_e698221f7dd3c4be_n.jpg",
-                "width": 320,
-                "height": 315,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "20001"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/20001_e698221f7dd3c4be_z.jpg",
                 "width": 640,
                 "height": 631,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "20001"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/20001_e698221f7dd3c4be_n.jpg",
+                "width": 320,
+                "height": 315,
+                "is_primary": "1",
+                "image_id": "20001"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/20001_e698221f7dd3c4be_d.gif",
+                "width": 320,
+                "height": 315,
+                "is_primary": "1",
+                "image_id": "20001"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/20001_e698221f7dd3c4be_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "20001"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18058401",
             "role_id": "35352249",
             "person_name": "The Hobby Shop",
+            "person_date": "",
             "role_name": "Vendor",
+            "role_display_name": "Purchased from",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18058401\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352249\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18041949",
             "role_id": "35236677",
             "person_name": "Winslow Homer",
+            "person_date": "American, 1836\u20131910",
             "role_name": "After",
+            "role_display_name": "After",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041949\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236677\/"
         },
@@ -70,9 +100,21 @@
             "person_id": "18047639",
             "role_id": "35352245",
             "person_name": "Adrienne Sturbois",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047639\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
+        },
+        {
+            "person_id": "68736245",
+            "role_id": "35236743",
+            "person_name": "John Karst",
+            "person_date": "1836\u20131922",
+            "role_name": "Engraver",
+            "role_display_name": "Engraved by",
+            "person_url": "http:\/\/collection.cooperhewitt.org\/people\/68736245\/",
+            "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236743\/"
         }
     ],
     "tombstone": {
@@ -80,24 +122,35 @@
     },
     "colors": [
         {
-            "color": "#b3a895",
-            "closest_css3": "#a9a9a9"
+            "color": "#e1d5c0",
+            "closest_crayola": "#efcdb8",
+            "closest_css3": "#d3d3d3",
+            "closest_css4": "#d3d3d3"
         },
         {
-            "color": "#8d8474",
-            "closest_css3": "#808080"
+            "color": "#b8ad9a",
+            "closest_crayola": "#979aaa",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
         },
         {
-            "color": "#726b5d",
-            "closest_css3": "#696969"
+            "color": "#958c7b",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#2e2c25",
-            "closest_css3": "#2f4f4f"
+            "color": "#5b564a",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         },
         {
-            "color": "#545043",
-            "closest_css3": "#556b2f"
+            "color": "#302e27",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

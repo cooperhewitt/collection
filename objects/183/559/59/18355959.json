@@ -3,6 +3,7 @@
     "tms:id": "61406",
     "accession_number": "1938-88-118",
     "title": "Drawing, \"Competition Design for La Fenice, Venice: Plan of Upper Floor of the Theater\", 1788",
+    "title_raw": "Competition Design for La Fenice, Venice: Plan of Upper Floor of the Theater",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18355959\/",
     "department_id": "35347493",
     "period_id": "35417089",
@@ -13,39 +14,64 @@
     "year_end": 1788,
     "year_acquired": "1938",
     "decade": null,
-    "woe:country": "23424853",
+    "woe:country_id": "23424853",
     "medium": "Pen and black ink, brush and gray wash, watercolor, graphite on two sheets of white laid paper joined at center, laid down on blue paper with added border of blue paper",
     "markings": null,
     "signed": null,
     "inscribed": "In black ink, lower right:  PIAN SUPERIORE  T\u02c6II; lower left, scale measurement (in Venetian feet)",
     "provenance": "Giovanni Piancastelli; Mr. and Mrs. Edward D. Brandegee, Brookline, MA; 1938: acquired by Museum",
     "dimensions": "85.2 x 45.7 cm (33 9\/16 x 18in.)",
+    "dimensions_raw": {
+        "height": [
+            "85.20",
+            "centimeters"
+        ],
+        "width": [
+            "45.70",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase through gift of various donors and from Eleanor G. Hewitt Fund",
     "description": "Plan of upper floor of theatre with horseshoe shaped section at bottom of image.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424853",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/3794_b41a1b8031a77b50_b.jpg",
                 "width": 558,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/3794_b41a1b8031a77b50_n.jpg",
-                "width": 175,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "3794"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/3794_b41a1b8031a77b50_z.jpg",
                 "width": 349,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "3794"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/3794_b41a1b8031a77b50_n.jpg",
+                "width": 175,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "3794"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/3794_b41a1b8031a77b50_d.gif",
+                "width": 175,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "3794"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/3794_b41a1b8031a77b50_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "3794"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18049715",
             "role_id": "35236733",
             "person_name": "D. Danieletti",
+            "person_date": "Italian",
             "role_name": "Co-Designer",
+            "role_display_name": "Co-Designer:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049715\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236733\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18049713",
             "role_id": "35236663",
             "person_name": "D. Cerato",
+            "person_date": "Italian",
             "role_name": "Architect",
+            "role_display_name": "Architect:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049713\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236663\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18539277",
             "role_id": "35352245",
             "person_name": "Dr. Hans Huth",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18539277\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -78,7 +110,9 @@
             "person_id": "18049797",
             "role_id": "35352249",
             "person_name": "Mrs. Edward D. Brandegee",
+            "person_date": "American, 1871\u20131956",
             "role_name": "Vendor",
+            "role_display_name": "Purchased from",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049797\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352249\/"
         }
@@ -88,24 +122,35 @@
     },
     "colors": [
         {
-            "color": "#624e42",
-            "closest_css3": "#556b2f"
+            "color": "#412e28",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#1f0e0b",
-            "closest_css3": "#000000"
+            "color": "#614f44",
+            "closest_crayola": "#6e5160",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         },
         {
-            "color": "#c2b69f",
-            "closest_css3": "#d2b48c"
+            "color": "#cab79d",
+            "closest_crayola": "#deaa88",
+            "closest_css3": "#d2b48c",
+            "closest_css4": "#d2b48c"
         },
         {
-            "color": "#8a8479",
-            "closest_css3": "#808080"
+            "color": "#86776a",
+            "closest_crayola": "#8a795d",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#3b302c",
-            "closest_css3": "#2f4f4f"
+            "color": "#a69684",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         }
-    ]
+    ],
+    "woe:country_name": "Italy"
 }

@@ -3,6 +3,7 @@
     "tms:id": "42248",
     "accession_number": "1926-37-242",
     "title": "Fan",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18312875\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,55 @@
     "year_end": null,
     "year_acquired": "1926",
     "decade": null,
-    "woe:country": null,
+    "woe:country_id": null,
     "medium": null,
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": null,
+    "dimensions_raw": null,
     "creditline": "Bequest of Mrs. John Innes Kane",
     "description": null,
     "justification": null,
-    "type": {
-        "id": "35252007",
-        "name": "fan"
-    },
+    "woe:country": null,
+    "type": "fan",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/87831_98fd9b554c5bc341_b.jpg",
                 "width": 1024,
                 "height": 643,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/87831_98fd9b554c5bc341_n.jpg",
-                "width": 320,
-                "height": 201,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "87831"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/87831_98fd9b554c5bc341_z.jpg",
                 "width": 640,
                 "height": 402,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "87831"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/87831_98fd9b554c5bc341_n.jpg",
+                "width": 320,
+                "height": 201,
+                "is_primary": "1",
+                "image_id": "87831"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/87831_98fd9b554c5bc341_d.gif",
+                "width": 320,
+                "height": 201,
+                "is_primary": "1",
+                "image_id": "87831"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/87831_98fd9b554c5bc341_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "87831"
             }
         },
         {
@@ -53,19 +70,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/69190_62c9c93e402a1048_b.jpg",
                 "width": 1024,
                 "height": 663,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/69190_62c9c93e402a1048_n.jpg",
-                "width": 320,
-                "height": 207,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "69190"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/69190_62c9c93e402a1048_z.jpg",
                 "width": 640,
                 "height": 414,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "69190"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/69190_62c9c93e402a1048_n.jpg",
+                "width": 320,
+                "height": 207,
+                "is_primary": "0",
+                "image_id": "69190"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/69190_62c9c93e402a1048_d.gif",
+                "width": 320,
+                "height": 207,
+                "is_primary": "0",
+                "image_id": "69190"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/69190_62c9c93e402a1048_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "69190"
             }
         }
     ],
@@ -74,7 +108,9 @@
             "person_id": "18049373",
             "role_id": "35351537",
             "person_name": "Mrs. John Innes Kane",
+            "person_date": "American, d. 1926",
             "role_name": "Bequestor",
+            "role_display_name": "Bequest of",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049373\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351537\/"
         }
@@ -84,24 +120,34 @@
     },
     "colors": [
         {
-            "color": "#c6b68b",
-            "closest_css3": "#d2b48c"
+            "color": "#cecbc0",
+            "closest_crayola": "#cdc5c2",
+            "closest_css3": "#c0c0c0",
+            "closest_css4": "#c0c0c0"
         },
         {
-            "color": "#9d9987",
-            "closest_css3": "#bc8f8f"
+            "color": "#908367",
+            "closest_crayola": "#8a795d",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#75715f",
-            "closest_css3": "#696969"
+            "color": "#aea88f",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
         },
         {
-            "color": "#e9debd",
-            "closest_css3": "#f5deb3"
+            "color": "#d9caa1",
+            "closest_crayola": "#e7c697",
+            "closest_css3": "#d2b48c",
+            "closest_css4": "#d2b48c"
         },
         {
-            "color": "#a98b5f",
-            "closest_css3": "#cd853f"
+            "color": "#bb9c6f",
+            "closest_crayola": "#cd9575",
+            "closest_css3": "#bdb76b",
+            "closest_css4": "#bdb76b"
         }
     ]
 }

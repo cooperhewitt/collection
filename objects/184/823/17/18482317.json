@@ -3,6 +3,7 @@
     "tms:id": "152015",
     "accession_number": "1973-70-25",
     "title": "Sidewall, 1920\u201340",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18482317\/",
     "department_id": "35347503",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1940,
     "year_acquired": "1973",
     "decade": "1920",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Machine-printed",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "174 x 56 cm (68 1\/2 x 22 1\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "174.00",
+            "centimeters"
+        ],
+        "width": [
+            "56.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of D.M.C. Hopping",
     "description": "Clumps of pine trees and wisteria blossoms. Printed in browns, silver and off-white on beige ground.",
     "justification": null,
-    "type": {
-        "id": "35256475",
-        "name": "Sidewall"
-    },
+    "woe:country": "23424977",
+    "type": "Sidewall",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/40732_3a801007c9fe972a_b.jpg",
                 "width": 340,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/40732_3a801007c9fe972a_n.jpg",
-                "width": 106,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "40732"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/40732_3a801007c9fe972a_z.jpg",
                 "width": 213,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "40732"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/40732_3a801007c9fe972a_n.jpg",
+                "width": 106,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "40732"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/40732_3a801007c9fe972a_d.gif",
+                "width": 106,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "40732"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/40732_3a801007c9fe972a_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "40732"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/24442_0446dcc676d94f1e_b.jpg",
                 "width": 667,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/24442_0446dcc676d94f1e_n.jpg",
-                "width": 208,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "24442"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/24442_0446dcc676d94f1e_z.jpg",
                 "width": 417,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "24442"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/24442_0446dcc676d94f1e_n.jpg",
+                "width": 208,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "24442"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/24442_0446dcc676d94f1e_d.gif",
+                "width": 208,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "24442"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/24442_0446dcc676d94f1e_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "24442"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18063925",
             "role_id": "35351535",
             "person_name": "Virginia Hamill Johnson",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18063925\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18059801",
             "role_id": "35351535",
             "person_name": "Mr. D.M.C. Hopping",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18059801\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -92,12 +139,17 @@
     },
     "colors": [
         {
-            "color": "#b89e71",
-            "closest_css3": "#bdb76b"
+            "color": "#b89f72",
+            "closest_crayola": "#cd9575",
+            "closest_css3": "#bdb76b",
+            "closest_css4": "#bdb76b"
         },
         {
-            "color": "#947752",
-            "closest_css3": "#696969"
+            "color": "#977b54",
+            "closest_crayola": "#8a795d",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

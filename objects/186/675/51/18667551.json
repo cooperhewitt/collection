@@ -3,6 +3,7 @@
     "tms:id": "209166",
     "accession_number": "1998-37-1",
     "title": "Drawing, \"The Mausoleum for Czar Paul I (1754-1801) in the Park of Pavlovsk, near Saint Petersburg, Russia: Side Elevation\", 1805",
+    "title_raw": "The Mausoleum for Czar Paul I (1754-1801) in the Park of Pavlovsk, near Saint Petersburg, Russia: Side Elevation",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18667551\/",
     "department_id": "35347493",
     "period_id": "35417089",
@@ -13,39 +14,64 @@
     "year_end": 1805,
     "year_acquired": "1998",
     "decade": null,
-    "woe:country": null,
+    "woe:country_id": null,
     "medium": "Pen and black ink, brush and gray wash, green and brown watercolor, trace of black chalk on cream laid paper, ruled borders in pen and black ink",
     "markings": null,
     "signed": "In gray ink, lower left: T. de Thomon",
     "inscribed": "Inscribed in gray black ink, upper center: Facade Lateralle du Monument Sepulrale   pris sur la ligne E: F:; at lower center, two scales (one in gray\/black, one in brown ink - both indicating Russsian measurements); at lower left in brown ink, 12:3.",
     "provenance": "Michel-Witold Gierzod, Paris",
     "dimensions": "24.8 x 38.4 cm (9 3\/4 x 15 1\/8 in.)",
+    "dimensions_raw": {
+        "height": [
+            "33.00",
+            "centimeters"
+        ],
+        "width": [
+            "47.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase through gift of Margery and Edgar Masinter and from Drawings and Prints Council, Sarah Cooper-Hewitt, and Smithsonian Institution Collections Acquisition Program Funds",
     "description": "A side of a building with five Doric pilasters, portico, and one Doric column.  A Doric frieze contains metopes of masks and vases. At right and left corners of the base supporting the building are two urns, each entwined by a snake.  At left, a tree grows on a boulder near a path; at right - an abundance of trees and foliage. Czar Paul I (r. 1796-1801) was assassinated in March 1801.  His widow, the Empress Maria Feodorovna, commissioned this mausoleum from Thomas de Thomon, a French architect working in St. Petersburg between 1799 and 1813.  The building still stands today on the grounds of Pavlovsk Palace.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": null,
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/13800_2a1cb3d66db06e5b_b.jpg",
                 "width": 1024,
                 "height": 809,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/13800_2a1cb3d66db06e5b_n.jpg",
-                "width": 320,
-                "height": 253,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "13800"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/13800_2a1cb3d66db06e5b_z.jpg",
                 "width": 640,
                 "height": 506,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "13800"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/13800_2a1cb3d66db06e5b_n.jpg",
+                "width": 320,
+                "height": 253,
+                "is_primary": "1",
+                "image_id": "13800"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/13800_2a1cb3d66db06e5b_d.gif",
+                "width": 320,
+                "height": 253,
+                "is_primary": "1",
+                "image_id": "13800"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/13800_2a1cb3d66db06e5b_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "13800"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18049875",
             "role_id": "35236669",
             "person_name": "Thomas de Thomon (Jean-Fran\u00e7ois Thomas)",
+            "person_date": "French, active in Russia, 1759\u20131813",
             "role_name": "Draftsman",
+            "role_display_name": "Drafted by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049875\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236669\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18051155",
             "role_id": "35352249",
             "person_name": "Georges Bac Ltd.",
+            "person_date": "",
             "role_name": "Vendor",
+            "role_display_name": "Purchased from",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18051155\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352249\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18049875",
             "role_id": "35236663",
             "person_name": "Thomas de Thomon (Jean-Fran\u00e7ois Thomas)",
+            "person_date": "French, active in Russia, 1759\u20131813",
             "role_name": "Architect",
+            "role_display_name": "Architect:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049875\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236663\/"
         }
@@ -80,16 +112,22 @@
     },
     "colors": [
         {
-            "color": "#9a9390",
-            "closest_css3": "#bc8f8f"
+            "color": "#7e7773",
+            "closest_crayola": "#757575",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#77706f",
-            "closest_css3": "#696969"
+            "color": "#9a9592",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
         },
         {
-            "color": "#57524f",
-            "closest_css3": "#696969"
+            "color": "#4e4b49",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         }
     ]
 }

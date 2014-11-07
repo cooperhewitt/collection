@@ -3,6 +3,7 @@
     "tms:id": "198711",
     "accession_number": "1994-118-18-a,b",
     "title": "Box And Lid, \"The Young-Quinlan Co., Minneapolis\", ca. 1927",
+    "title_raw": "The Young-Quinlan Co., Minneapolis",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18647611\/",
     "department_id": "35347497",
     "period_id": null,
@@ -13,39 +14,68 @@
     "year_end": 1932,
     "year_acquired": "1994",
     "decade": "1920",
-    "woe:country": "23424819",
+    "woe:country_id": "23424819",
     "medium": "Lithographed paper",
     "markings": "Printed as with logotype on label affixed to lid: \"RATEAU 19[??]\"",
     "signed": null,
     "inscribed": null,
     "provenance": "Denis Gallion and Daniel Morris; 1994: acquired by Museum",
     "dimensions": "H x W x D (a, b: overall): 6.7 x 10.6 x 10.6 cm (2 5\/8 x 4 3\/16 x 4 3\/16 in.)",
+    "dimensions_raw": {
+        "depth": [
+            "10.60",
+            "centimeters"
+        ],
+        "height": [
+            "2.00",
+            "centimeters"
+        ],
+        "width": [
+            "10.60",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Denis Gallion and Daniel Morris",
     "description": "Small square carton covered with black paper with fine stippled all-over textural pattern. Rim of lid (b) has striped paper band affixed around edge. Die-cut paper label with logotype printed in black, red and metalic gold on light colored ground, affixed to lower right corner of box lid.",
     "justification": null,
-    "type": {
-        "id": "35267991",
-        "name": "Box and lid"
-    },
+    "woe:country": "23424819",
+    "type": "Box and lid",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/12179_07fae5408a837723_b.jpg",
                 "width": 1024,
                 "height": 978,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/12179_07fae5408a837723_n.jpg",
-                "width": 320,
-                "height": 305,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "12179"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/12179_07fae5408a837723_z.jpg",
                 "width": 640,
                 "height": 611,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "12179"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/12179_07fae5408a837723_n.jpg",
+                "width": 320,
+                "height": 305,
+                "is_primary": "1",
+                "image_id": "12179"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/12179_07fae5408a837723_d.gif",
+                "width": 320,
+                "height": 305,
+                "is_primary": "1",
+                "image_id": "12179"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/12179_07fae5408a837723_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "12179"
             }
         }
     ],
@@ -54,7 +84,9 @@
             "person_id": "18537885",
             "role_id": "35351535",
             "person_name": "Daniel Morris",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18537885\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -62,7 +94,9 @@
             "person_id": "18537883",
             "role_id": "35351535",
             "person_name": "Denis Gallion",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18537883\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -70,7 +104,9 @@
             "person_id": "18045123",
             "role_id": "35236667",
             "person_name": "Young-Quinlan Rotshchild",
+            "person_date": "founded: 1894",
             "role_name": "Client",
+            "role_display_name": "Client:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18045123\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236667\/"
         },
@@ -78,7 +114,9 @@
             "person_id": "18045121",
             "role_id": "35236655",
             "person_name": "Armand-Albert Rateau",
+            "person_date": "1892 \u2013 1938",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18045121\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
@@ -88,24 +126,35 @@
     },
     "colors": [
         {
-            "color": "#ffce8c",
-            "closest_css3": "#f0e68c"
+            "color": "#fece8c",
+            "closest_crayola": "#ffbd88",
+            "closest_css3": "#f0e68c",
+            "closest_css4": "#f0e68c"
         },
         {
-            "color": "#e4a872",
-            "closest_css3": "#e9967a"
+            "color": "#e4a870",
+            "closest_crayola": "#dd9475",
+            "closest_css3": "#e9967a",
+            "closest_css4": "#e9967a"
         },
         {
-            "color": "#541d18",
-            "closest_css3": "#800000"
+            "color": "#330f10",
+            "closest_crayola": "#000000",
+            "closest_css3": "#000000",
+            "closest_css4": "#000000"
         },
         {
-            "color": "#201012",
-            "closest_css3": "#000000"
+            "color": "#af704d",
+            "closest_crayola": "#b4674d",
+            "closest_css3": "#cd5c5c",
+            "closest_css4": "#cd5c5c"
         },
         {
-            "color": "#b0704d",
-            "closest_css3": "#cd5c5c"
+            "color": "#e5c2b0",
+            "closest_crayola": "#efcdb8",
+            "closest_css3": "#f5deb3",
+            "closest_css4": "#f5deb3"
         }
-    ]
+    ],
+    "woe:country_name": "France"
 }

@@ -3,6 +3,7 @@
     "tms:id": "112431",
     "accession_number": "1955-38-53-e",
     "title": "Drawing, \"study of wrist and left hand\", ca. 1890",
+    "title_raw": "study of wrist and left hand",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18404493\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1900,
     "year_acquired": "1955",
     "decade": null,
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "black crayon, white chalk on gray-green paper",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "Gift of the American Academy of Arts and Letters",
     "dimensions": "11 x 12.9 cm (4 5\/16 x 5 1\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "11.00",
+            "centimeters"
+        ],
+        "width": [
+            "12.90",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of the American Academy of Arts and Letters",
     "description": "Woman's hand, palm upturned, rising from lower left.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424977",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/22571_3168a827e8c93678_b.jpg",
                 "width": 1024,
                 "height": 884,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/22571_3168a827e8c93678_n.jpg",
-                "width": 320,
-                "height": 276,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "22571"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/22571_3168a827e8c93678_z.jpg",
                 "width": 640,
                 "height": 552,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "22571"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/22571_3168a827e8c93678_n.jpg",
+                "width": 320,
+                "height": 276,
+                "is_primary": "1",
+                "image_id": "22571"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/22571_3168a827e8c93678_d.gif",
+                "width": 320,
+                "height": 276,
+                "is_primary": "1",
+                "image_id": "22571"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/22571_3168a827e8c93678_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "22571"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18047665",
             "role_id": "35351535",
             "person_name": "The American Academy of Arts & Letters",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047665\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18043135",
             "role_id": "35236565",
             "person_name": "Elihu Vedder",
+            "person_date": "American, 1836 \u2013 1923",
             "role_name": "Artist",
+            "role_display_name": "",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18043135\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236565\/"
         }
@@ -72,16 +102,29 @@
     },
     "colors": [
         {
-            "color": "#9a9877",
-            "closest_css3": "#808080"
+            "color": "#8e8c70",
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#d5cbaa",
-            "closest_css3": "#c0c0c0"
+            "color": "#6d6e50",
+            "closest_crayola": "#85754e",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#5e5c3f",
-            "closest_css3": "#556b2f"
+            "color": "#d2cba9",
+            "closest_crayola": "#cdc5c2",
+            "closest_css3": "#c0c0c0",
+            "closest_css4": "#c0c0c0"
+        },
+        {
+            "color": "#45432b",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

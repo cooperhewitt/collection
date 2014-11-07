@@ -3,6 +3,7 @@
     "tms:id": "195005",
     "accession_number": "1992-51-10",
     "title": "Drawing, \"Oak Leaf Design, textile design\", 1950\u201370",
+    "title_raw": "Oak Leaf Design, textile design",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18640281\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1970,
     "year_acquired": "1992",
     "decade": "1950",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Brush and gouache, graphite on paper, lined",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "Donald Cameron; 1992: acquired by Museum",
     "dimensions": "11.5 x 11.5 cm (4 1\/2 x 4 1\/2 in.)",
-    "creditline": "Gift of Mr. Donald Cameron",
+    "dimensions_raw": {
+        "height": [
+            "11.50",
+            "centimeters"
+        ],
+        "width": [
+            "11.50",
+            "centimeters"
+        ]
+    },
+    "creditline": "Gift of Donald Cameron",
     "description": "Random array of pea-green oak leaves on dark-red background.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424977",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/41264_6aa2e4145d79c1f0_b.jpg",
                 "width": 804,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/41264_6aa2e4145d79c1f0_n.jpg",
-                "width": 251,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "41264"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/41264_6aa2e4145d79c1f0_z.jpg",
                 "width": 503,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "41264"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/41264_6aa2e4145d79c1f0_n.jpg",
+                "width": 251,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "41264"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/41264_6aa2e4145d79c1f0_d.gif",
+                "width": 251,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "41264"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/41264_6aa2e4145d79c1f0_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "41264"
             }
         }
     ],
@@ -54,26 +80,45 @@
             "person_id": "18049811",
             "role_id": "35236655",
             "person_name": "Tommi Parzinger",
+            "person_date": "American, born Germany, 1903 - 1981",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049811\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
+        },
+        {
+            "person_id": "18041077",
+            "role_id": "35351535",
+            "person_name": "Donald Cameron",
+            "person_date": "",
+            "role_name": "Donor",
+            "role_display_name": "Donated by",
+            "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041077\/",
+            "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
     ],
     "tombstone": {
-        "epitaph": "Drawing, \"Oak Leaf Design, textile design\", 1950\u201370. Brush and gouache, graphite on paper, lined. Gift of Mr. Donald Cameron. 1992-51-10."
+        "epitaph": "Drawing, \"Oak Leaf Design, textile design\", 1950\u201370. Brush and gouache, graphite on paper, lined. Gift of Donald Cameron. 1992-51-10."
     },
     "colors": [
         {
-            "color": "#834137",
-            "closest_css3": "#a0522d"
+            "color": "#834238",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         },
         {
-            "color": "#a4ba6c",
-            "closest_css3": "#bdb76b"
+            "color": "#a0bb6a",
+            "closest_crayola": "#bab86c",
+            "closest_css3": "#bdb76b",
+            "closest_css4": "#bdb76b"
         },
         {
-            "color": "#8c6b4d",
-            "closest_css3": "#696969"
+            "color": "#97975f",
+            "closest_crayola": "#87a96b",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

@@ -3,6 +3,7 @@
     "tms:id": "222952",
     "accession_number": "2001-29-23",
     "title": "Book Cover, \"In the American Grain by William Carlos Williams\", 1944",
+    "title_raw": "In the American Grain by William Carlos Williams",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18694795\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1944,
     "year_acquired": "2001",
     "decade": "1940",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Lithograph on thin glossy paper",
     "markings": null,
     "signed": "Signature printed, upper right center: lustig.",
     "inscribed": "Printed in black ink, front cover upper center: IN THE AMERICAN GRAIN; lower center: WILLIAM CARLOS WILLIAMS.\n\nPrinted vertically in black ink, side cover: IN THE AMERICAN GRAIN; printed vertically in brown ink, side cover: W. C. WILLIAMS; printed horizontally in white ink, side cover: NC 1.",
     "provenance": "Susan Lustig Peck; 2001: acquired by Museum",
     "dimensions": "19.4 x 25.4 cm (7 5\/8 x 10 in. )",
+    "dimensions_raw": {
+        "height": [
+            "19.40",
+            "centimeters"
+        ],
+        "width": [
+            "25.40",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Susan Lustig Peck",
     "description": "Cream colored book cover with black, brown and white texts. Front cover: bare, inverted tree and swirling brown and white oval.",
     "justification": null,
-    "type": {
-        "id": "35249845",
-        "name": "book cover"
-    },
+    "woe:country": "23424977",
+    "type": "book cover",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/39735_53d024e1553e6e43_b.jpg",
                 "width": 1024,
                 "height": 785,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/39735_53d024e1553e6e43_n.jpg",
-                "width": 320,
-                "height": 245,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "39735"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/39735_53d024e1553e6e43_z.jpg",
                 "width": 640,
                 "height": 491,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "39735"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/39735_53d024e1553e6e43_n.jpg",
+                "width": 320,
+                "height": 245,
+                "is_primary": "1",
+                "image_id": "39735"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/39735_53d024e1553e6e43_d.gif",
+                "width": 320,
+                "height": 245,
+                "is_primary": "1",
+                "image_id": "39735"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/39735_53d024e1553e6e43_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "39735"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18538541",
             "role_id": "35351535",
             "person_name": "Susan Lustig Peck",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18538541\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18043331",
             "role_id": "35236763",
             "person_name": "Alvin Lustig",
+            "person_date": "American, 1915\u20131955",
             "role_name": "Graphic Designer",
+            "role_display_name": "Graphic design by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18043331\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236763\/"
         }
@@ -73,23 +103,34 @@
     "colors": [
         {
             "color": "#eee8d2",
-            "closest_css3": "#faebd7"
+            "closest_crayola": "#efdecd",
+            "closest_css3": "#faebd7",
+            "closest_css4": "#faebd7"
         },
         {
-            "color": "#bc8054",
-            "closest_css3": "#cd853f"
+            "color": "#b97c4f",
+            "closest_crayola": "#b4674d",
+            "closest_css3": "#cd853f",
+            "closest_css4": "#cd853f"
         },
         {
-            "color": "#292824",
-            "closest_css3": "#2f4f4f"
+            "color": "#2a2924",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#6a5c4e",
-            "closest_css3": "#696969"
+            "color": "#bbb3a6",
+            "closest_crayola": "#b0b7c6",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
         },
         {
-            "color": "#b3a593",
-            "closest_css3": "#bc8f8f"
+            "color": "#7f7164",
+            "closest_crayola": "#8a795d",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

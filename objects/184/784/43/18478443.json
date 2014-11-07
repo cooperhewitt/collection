@@ -3,6 +3,7 @@
     "tms:id": "150031",
     "accession_number": "1972-75-83",
     "title": "Sample, ca. 1952",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18478443\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1957,
     "year_acquired": "1972",
     "decade": "1940",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Medium: synthetic, cotton\nTechnique: plain weave",
     "markings": null,
     "signed": null,
     "inscribed": "NY 450 c. 1952 Dorothy Liebes",
     "provenance": "Estate of Dorothy (Liebes) Morin; 1972: acquired by Museum",
     "dimensions": "Warp x Weft: 18.5 x 21 cm (7 5\/16 x 8 1\/4 in.)",
+    "dimensions_raw": {
+        "warp": [
+            "18.50",
+            "centimeters"
+        ],
+        "weft": [
+            "21.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of the Estate of Dorothy (Liebes) Morin",
     "description": "Plain weave with paired and unpaired warps in black and white. Warp has an alternating sequence of plied white synthetic yarn and four ends four-ply black yarn. Most of the fabric is woven with paired warps: two black, one black and one white, but there are three stripes where the four black yarns are woven singly. Weft has bands of white synthetic plied yarn and two-ply black yarn.",
     "justification": null,
-    "type": {
-        "id": "35268079",
-        "name": "Sample"
-    },
+    "woe:country": "23424977",
+    "type": "Sample",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/36002_02e6e4d855285ff0_b.jpg",
                 "width": 1024,
                 "height": 711,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/36002_02e6e4d855285ff0_n.jpg",
-                "width": 320,
-                "height": 222,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "36002"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/36002_02e6e4d855285ff0_z.jpg",
                 "width": 640,
                 "height": 444,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "36002"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/36002_02e6e4d855285ff0_n.jpg",
+                "width": 320,
+                "height": 222,
+                "is_primary": "1",
+                "image_id": "36002"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/36002_02e6e4d855285ff0_d.gif",
+                "width": 320,
+                "height": 222,
+                "is_primary": "1",
+                "image_id": "36002"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/36002_02e6e4d855285ff0_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "36002"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18045817",
             "role_id": "35236745",
             "person_name": "Dorothy Wright Liebes",
+            "person_date": "American, 1897\u20131972",
             "role_name": "Weaver",
+            "role_display_name": "Woven by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18045817\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236745\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18045817",
             "role_id": "35236655",
             "person_name": "Dorothy Wright Liebes",
+            "person_date": "American, 1897\u20131972",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18045817\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18054731",
             "role_id": "35351535",
             "person_name": "Estate of Dorothy (Liebes) Morin",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18054731\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -80,24 +112,35 @@
     },
     "colors": [
         {
-            "color": "#cfd3e0",
-            "closest_css3": "#d3d3d3"
+            "color": "#242d17",
+            "closest_crayola": "#000000",
+            "closest_css3": "#000000",
+            "closest_css4": "#000000"
         },
         {
-            "color": "#1d1d0f",
-            "closest_css3": "#000000"
+            "color": "#cbcad8",
+            "closest_crayola": "#c5d0e6",
+            "closest_css3": "#d3d3d3",
+            "closest_css4": "#d3d3d3"
         },
         {
-            "color": "#2f3920",
-            "closest_css3": "#2f4f4f"
+            "color": "#7d847e",
+            "closest_crayola": "#757575",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#a2aaab",
-            "closest_css3": "#a9a9a9"
+            "color": "#6a6a5b",
+            "closest_crayola": "#6e5160",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#606f5e",
-            "closest_css3": "#696969"
+            "color": "#494b36",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

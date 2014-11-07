@@ -3,6 +3,7 @@
     "tms:id": "111544",
     "accession_number": "1955-133-3",
     "title": "Pillow Cover, 18th century",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18402721\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": null,
     "year_acquired": "1955",
     "decade": null,
-    "woe:country": "23424833",
+    "woe:country_id": "23424833",
     "medium": "Medium: silk embroidery on linen foundation\nTechnique: embroidered in counted running stitch on plain weave foundation",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "H x W: 39 x 59 cm (15 3\/8 x 23 1\/4 in.)",
+    "dimensions_raw": {
+        "height": [
+            "39.00",
+            "centimeters"
+        ],
+        "width": [
+            "59.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Provident Securities Company from the Estate of Mr. and Mrs. William H. Crocker",
     "description": "Diagonal rows of lozenges with saw-toothed edges embroidered in red, white, buff and yellow silk on a blue ground.",
     "justification": null,
-    "type": {
-        "id": "35284163",
-        "name": "Pillow cover"
-    },
+    "woe:country": "23424833",
+    "type": "Pillow cover",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/59183_427f706b134cf163_b.jpg",
                 "width": 713,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/59183_427f706b134cf163_n.jpg",
-                "width": 223,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "59183"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/59183_427f706b134cf163_z.jpg",
                 "width": 446,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "59183"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/59183_427f706b134cf163_n.jpg",
+                "width": 223,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "59183"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/59183_427f706b134cf163_d.gif",
+                "width": 223,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "59183"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/59183_427f706b134cf163_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "59183"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/33788_482037f379986376_b.jpg",
                 "width": 717,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/33788_482037f379986376_n.jpg",
-                "width": 224,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "33788"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/33788_482037f379986376_z.jpg",
                 "width": 448,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "33788"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/33788_482037f379986376_n.jpg",
+                "width": 224,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "33788"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/33788_482037f379986376_d.gif",
+                "width": 224,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "33788"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/33788_482037f379986376_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "33788"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18056891",
             "role_id": "35351535",
             "person_name": "Estate of Mr. & Mrs. William H. Crocker",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18056891\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18052997",
             "role_id": "35351535",
             "person_name": "Provident Securities Co.",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18052997\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -92,24 +139,35 @@
     },
     "colors": [
         {
-            "color": "#9b8d6f",
-            "closest_css3": "#808080"
+            "color": "#988c6f",
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#6d2a29",
-            "closest_css3": "#8b4513"
+            "color": "#6f2c2b",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#8b4513",
+            "closest_css4": "#8b4513"
         },
         {
-            "color": "#2b343e",
-            "closest_css3": "#2f4f4f"
+            "color": "#2b353f",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#8b6e48",
-            "closest_css3": "#a0522d"
+            "color": "#c6b897",
+            "closest_crayola": "#deaa88",
+            "closest_css3": "#d2b48c",
+            "closest_css4": "#d2b48c"
         },
         {
-            "color": "#cec1a0",
-            "closest_css3": "#d2b48c"
+            "color": "#8c714d",
+            "closest_crayola": "#85754e",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         }
-    ]
+    ],
+    "woe:country_name": "Greece"
 }

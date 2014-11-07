@@ -3,6 +3,7 @@
     "tms:id": "44225",
     "accession_number": "1931-1-10",
     "title": "Textile, 1910\u201314",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18317797\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1914,
     "year_acquired": "1931",
     "decade": "1910",
-    "woe:country": "23424819",
+    "woe:country_id": "23424819",
     "medium": "Medium: silk\nTechnique: compound satin weave",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "H x W: 103 x 56 cm (40 9\/16 x 22 1\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "103.00",
+            "centimeters"
+        ],
+        "width": [
+            "56.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Anonymous Donor",
     "description": "Beige satin with a design of irises in alternating horizontal rows in green, orange and black.",
     "justification": null,
-    "type": {
-        "id": "35251739",
-        "name": "textile"
-    },
+    "woe:country": "23424819",
+    "type": "textile",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/46693_9e1a86a33d202770_b.jpg",
                 "width": 566,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/46693_9e1a86a33d202770_n.jpg",
-                "width": 177,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "46693"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/46693_9e1a86a33d202770_z.jpg",
                 "width": 354,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "46693"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/46693_9e1a86a33d202770_n.jpg",
+                "width": 177,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "46693"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/46693_9e1a86a33d202770_d.gif",
+                "width": 177,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "46693"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/46693_9e1a86a33d202770_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "46693"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/2955_03859515eb893051_b.jpg",
                 "width": 1024,
                 "height": 790,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/2955_03859515eb893051_n.jpg",
-                "width": 320,
-                "height": 247,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "2955"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/2955_03859515eb893051_z.jpg",
                 "width": 640,
                 "height": 494,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "2955"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/2955_03859515eb893051_n.jpg",
+                "width": 320,
+                "height": 247,
+                "is_primary": "0",
+                "image_id": "2955"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/2955_03859515eb893051_d.gif",
+                "width": 320,
+                "height": 247,
+                "is_primary": "0",
+                "image_id": "2955"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/2955_03859515eb893051_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "2955"
             }
         }
     ],
@@ -74,15 +117,19 @@
             "person_id": "18538093",
             "role_id": "35236657",
             "person_name": "Tassinari & Chatel",
+            "person_date": "Paris and Lyons, France, founded 1680",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18538093\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         },
         {
             "person_id": "18049335",
             "role_id": "35351535",
-            "person_name": "Anonymous",
+            "person_name": "Unknown",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049335\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -92,24 +139,35 @@
     },
     "colors": [
         {
-            "color": "#9bb48f",
-            "closest_css3": "#8fbc8f"
+            "color": "#9bab89",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#8fbc8f",
+            "closest_css4": "#8fbc8f"
         },
         {
-            "color": "#dead60",
-            "closest_css3": "#f4a460"
+            "color": "#dfac5f",
+            "closest_crayola": "#faa76c",
+            "closest_css3": "#f4a460",
+            "closest_css4": "#f4a460"
         },
         {
-            "color": "#9f9579",
-            "closest_css3": "#bc8f8f"
+            "color": "#85896d",
+            "closest_crayola": "#8a795d",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#7e8669",
-            "closest_css3": "#808080"
+            "color": "#6e614b",
+            "closest_crayola": "#6e5160",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#b6874f",
-            "closest_css3": "#cd853f"
+            "color": "#a48a64",
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         }
-    ]
+    ],
+    "woe:country_name": "France"
 }

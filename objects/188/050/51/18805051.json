@@ -3,6 +3,7 @@
     "tms:id": "182813",
     "accession_number": "1985-3-13-a,b",
     "title": "Cup And Saucer, \"Drop\", 1971",
+    "title_raw": "Drop",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18805051\/",
     "department_id": "35347497",
     "period_id": null,
@@ -13,39 +14,72 @@
     "year_end": 1971,
     "year_acquired": "1985",
     "decade": "1970",
-    "woe:country": "23424829",
+    "woe:country_id": "23424829",
     "medium": "Glazed porcelain",
     "markings": "On base of (a) and (b), in green: \"Rosenthal [logo] \/ studio-linie \/ GERMANY\"",
     "signed": null,
     "inscribed": null,
     "provenance": "1985: acquired directly from the manufacturer, Rosenthal Glas und Porzellan AG",
     "dimensions": "H x W x D (a: cup): 4.1 x 13.3 x 10.8 cm (1 5\/8 x 5 1\/4 x 4 1\/4 in.)\nH x diam. (b: saucer): 2.1 x 16 cm (13\/16 x 6 5\/16 in.)",
+    "dimensions_raw": {
+        "depth": [
+            "10.80",
+            "centimeters"
+        ],
+        "diameter": [
+            "16.00",
+            "centimeters"
+        ],
+        "height": [
+            "4.10",
+            "centimeters"
+        ],
+        "width": [
+            "13.30",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Rosenthal Glas und Porzellan AG",
     "description": "White porcelain cup and saucer with a simple open form.",
     "justification": null,
-    "type": {
-        "id": "35248193",
-        "name": "cup and saucer"
-    },
+    "woe:country": "23424829",
+    "type": "cup and saucer",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/42534_f0f9652c184268c2_b.jpg",
                 "width": 1024,
                 "height": 631,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/42534_f0f9652c184268c2_n.jpg",
-                "width": 320,
-                "height": 197,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "42534"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/42534_f0f9652c184268c2_z.jpg",
                 "width": 640,
                 "height": 394,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "42534"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/42534_f0f9652c184268c2_n.jpg",
+                "width": 320,
+                "height": 197,
+                "is_primary": "1",
+                "image_id": "42534"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/42534_f0f9652c184268c2_d.gif",
+                "width": 320,
+                "height": 197,
+                "is_primary": "1",
+                "image_id": "42534"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/42534_f0f9652c184268c2_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "42534"
             }
         },
         {
@@ -53,19 +87,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/16131_da77c15a04c5b62f_b.jpg",
                 "width": 1024,
                 "height": 451,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/16131_da77c15a04c5b62f_n.jpg",
-                "width": 320,
-                "height": 141,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "16131"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/16131_da77c15a04c5b62f_z.jpg",
                 "width": 640,
                 "height": 282,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "16131"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/16131_da77c15a04c5b62f_n.jpg",
+                "width": 320,
+                "height": 141,
+                "is_primary": "0",
+                "image_id": "16131"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/16131_da77c15a04c5b62f_d.gif",
+                "width": 320,
+                "height": 141,
+                "is_primary": "0",
+                "image_id": "16131"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/16131_da77c15a04c5b62f_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "16131"
             }
         }
     ],
@@ -74,7 +125,9 @@
             "person_id": "18043913",
             "role_id": "35351535",
             "person_name": "Rosenthal Glas Und Porzellan Aktiengesellschaft",
+            "person_date": "founded 1891",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18043913\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -82,7 +135,9 @@
             "person_id": "18537511",
             "role_id": "35236675",
             "person_name": "Studio-Line (Division of Rosenthal)",
+            "person_date": "",
             "role_name": "For",
+            "role_display_name": "Made for",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18537511\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236675\/"
         },
@@ -90,7 +145,9 @@
             "person_id": "18043913",
             "role_id": "35236657",
             "person_name": "Rosenthal Glas Und Porzellan Aktiengesellschaft",
+            "person_date": "founded 1891",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18043913\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         },
@@ -98,7 +155,9 @@
             "person_id": "18537509",
             "role_id": "35236655",
             "person_name": "Luigi Colani",
+            "person_date": "German, b. 1928",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18537509\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
@@ -108,8 +167,11 @@
     },
     "colors": [
         {
-            "color": "#cfcfd2",
-            "closest_css3": "#d3d3d3"
+            "color": "#969697",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
         }
-    ]
+    ],
+    "woe:country_name": "Germany"
 }

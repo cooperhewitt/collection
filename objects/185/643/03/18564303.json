@@ -3,6 +3,7 @@
     "tms:id": "75352",
     "accession_number": "1941-69-42",
     "title": "Sampler, 1826",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18564303\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1826,
     "year_acquired": "1941",
     "decade": null,
-    "woe:country": "23424950",
+    "woe:country_id": "23424950",
     "medium": "Medium: silk embroidery on linen foundation\nTechnique: cross, counted satin, square, fishbone and stem stitches on plain weave",
     "markings": null,
     "signed": null,
-    "inscribed": null,
+    "inscribed": "Lo hizo Juliana Ximenez Cruz en Mora.",
     "provenance": "ex. coll. Mrs. Henry E. Coe (Eva Johnston Coe)",
     "dimensions": "H x W: 67 x 79 cm (26 3\/8 x 31 1\/8 in.)",
+    "dimensions_raw": {
+        "height": [
+            "67.00",
+            "centimeters"
+        ],
+        "width": [
+            "79.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Bequest of Mrs. Henry E. Coe",
     "description": "In the center is a double-headed eagle surrounded by flowers and an inscription.  Four wide borders of geometric forms and lions (?) and five narrow borders.",
     "justification": null,
-    "type": {
-        "id": "35256439",
-        "name": "Sampler"
-    },
+    "woe:country": "23424950",
+    "type": "Sampler",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/40665_eb55a776fc16fb4b_b.jpg",
                 "width": 1024,
                 "height": 883,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/40665_eb55a776fc16fb4b_n.jpg",
-                "width": 320,
-                "height": 276,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "40665"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/40665_eb55a776fc16fb4b_z.jpg",
                 "width": 640,
                 "height": 552,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "40665"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/40665_eb55a776fc16fb4b_n.jpg",
+                "width": 320,
+                "height": 276,
+                "is_primary": "1",
+                "image_id": "40665"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/40665_eb55a776fc16fb4b_d.gif",
+                "width": 320,
+                "height": 276,
+                "is_primary": "1",
+                "image_id": "40665"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/40665_eb55a776fc16fb4b_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "40665"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/29049_a926e80382b807f7_b.jpg",
                 "width": 1024,
                 "height": 852,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/29049_a926e80382b807f7_n.jpg",
-                "width": 320,
-                "height": 266,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "29049"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/29049_a926e80382b807f7_z.jpg",
                 "width": 640,
                 "height": 532,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "29049"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/29049_a926e80382b807f7_n.jpg",
+                "width": 320,
+                "height": 266,
+                "is_primary": "0",
+                "image_id": "29049"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/29049_a926e80382b807f7_d.gif",
+                "width": 320,
+                "height": 266,
+                "is_primary": "0",
+                "image_id": "29049"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/29049_a926e80382b807f7_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "29049"
             }
         }
     ],
@@ -74,9 +117,21 @@
             "person_id": "18052567",
             "role_id": "35351537",
             "person_name": "Mrs. Henry E. Coe",
+            "person_date": "",
             "role_name": "Bequestor",
+            "role_display_name": "Bequest of",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18052567\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351537\/"
+        },
+        {
+            "person_id": "68737323",
+            "role_id": "35236583",
+            "person_name": "Juliana Ximenez Cruz",
+            "person_date": "",
+            "role_name": "Embroiderer",
+            "role_display_name": "Embroidered by",
+            "person_url": "http:\/\/collection.cooperhewitt.org\/people\/68737323\/",
+            "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236583\/"
         }
     ],
     "tombstone": {
@@ -84,24 +139,35 @@
     },
     "colors": [
         {
-            "color": "#a3946b",
-            "closest_css3": "#bdb76b"
+            "color": "#938a46",
+            "closest_crayola": "#9c7c38",
+            "closest_css3": "#6b8e23",
+            "closest_css4": "#6b8e23"
         },
         {
-            "color": "#b7963f",
-            "closest_css3": "#cd853f"
+            "color": "#b69262",
+            "closest_crayola": "#cd9575",
+            "closest_css3": "#bdb76b",
+            "closest_css4": "#bdb76b"
         },
         {
-            "color": "#a76e44",
-            "closest_css3": "#a0522d"
+            "color": "#a97146",
+            "closest_crayola": "#a5694f",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         },
         {
-            "color": "#837b49",
-            "closest_css3": "#696969"
+            "color": "#919885",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#8f9684",
-            "closest_css3": "#808080"
+            "color": "#8a7144",
+            "closest_crayola": "#85754e",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         }
-    ]
+    ],
+    "woe:country_name": "Spain"
 }

@@ -3,6 +3,7 @@
     "tms:id": "132820",
     "accession_number": "1962-50-25",
     "title": "Bag Face, ca. 1810",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18444669\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1820,
     "year_acquired": "1962",
     "decade": null,
-    "woe:country": "23424819",
+    "woe:country_id": "23424819",
     "medium": "Medium: linen\nTechnique: needle lace with a ground of loop & twist with a twist return",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "ex-collection: Madame Jules Porg\u00e8s",
     "dimensions": "H x W: 30 x 21.5 cm (11 13\/16 x 8 7\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "30.00",
+            "centimeters"
+        ],
+        "width": [
+            "21.50",
+            "centimeters"
+        ]
+    },
     "creditline": "Bequest of Richard Cranch Greenleaf in memory of his mother, Adeline Emma Greenleaf",
     "description": "Shield-shaped face of a bag, with a central figure of a double headed eagle flanked by olive branches and a border of floral branches.",
     "justification": null,
-    "type": {
-        "id": "35291473",
-        "name": "Bag face"
-    },
+    "woe:country": "23424819",
+    "type": "Bag face",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/40840_3894744e1e23fbd8_b.jpg",
                 "width": 747,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/40840_3894744e1e23fbd8_n.jpg",
-                "width": 233,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "40840"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/40840_3894744e1e23fbd8_z.jpg",
                 "width": 467,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "40840"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/40840_3894744e1e23fbd8_n.jpg",
+                "width": 233,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "40840"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/40840_3894744e1e23fbd8_d.gif",
+                "width": 233,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "40840"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/40840_3894744e1e23fbd8_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "40840"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/6150_60943f01d22789df_b.jpg",
                 "width": 747,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/6150_60943f01d22789df_n.jpg",
-                "width": 234,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "6150"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/6150_60943f01d22789df_z.jpg",
                 "width": 467,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "6150"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/6150_60943f01d22789df_n.jpg",
+                "width": 234,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "6150"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/6150_60943f01d22789df_d.gif",
+                "width": 234,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "6150"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/6150_60943f01d22789df_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "6150"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18047457",
             "role_id": "35352245",
             "person_name": "Barbara Duggan",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047457\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18049377",
             "role_id": "35351537",
             "person_name": "Richard Cranch Greenleaf",
+            "person_date": "",
             "role_name": "Bequestor",
+            "role_display_name": "Bequest of",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049377\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351537\/"
         }
@@ -92,24 +139,29 @@
     },
     "colors": [
         {
-            "color": "#796f57",
-            "closest_css3": "#696969"
+            "color": "#786b53",
+            "closest_crayola": "#85754e",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#4f4433",
-            "closest_css3": "#556b2f"
+            "color": "#42382b",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#c9b489",
-            "closest_css3": "#d2b48c"
+            "color": "#ccb98f",
+            "closest_crayola": "#deaa88",
+            "closest_css3": "#d2b48c",
+            "closest_css4": "#d2b48c"
         },
         {
-            "color": "#9d8f70",
-            "closest_css3": "#808080"
-        },
-        {
-            "color": "#251a12",
-            "closest_css3": "#000000"
+            "color": "#9a8a6a",
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         }
-    ]
+    ],
+    "woe:country_name": "France"
 }

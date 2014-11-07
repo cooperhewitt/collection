@@ -3,6 +3,7 @@
     "tms:id": "261549",
     "accession_number": "2010-31-18",
     "title": "Sidewall, 1928\u201329",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18770477\/",
     "department_id": "35347503",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1929,
     "year_acquired": "2010",
     "decade": "1920",
-    "woe:country": "23424819",
+    "woe:country_id": "23424819",
     "medium": "Machine-printed on paper",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "Donor purchased the two Grantil sample books from a private collector in France ca. 2000. For the remaining non-Grantil pieces, the French, Belgian and English papers were acquired from various sources in Europe, while the American samples were acquired from private collections in the United States.",
     "dimensions": "L x W: 75 x 47 cm (29 1\/2 x 18 1\/2 in.)",
+    "dimensions_raw": {
+        "length": [
+            "75.00",
+            "centimeters"
+        ],
+        "width": [
+            "47.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Carolle Thibaut-Pomerantz",
     "description": "Vertically striped paper with two wide central bands in rust, narrower blue bands on either side of both.",
     "justification": null,
-    "type": {
-        "id": "35256475",
-        "name": "Sidewall"
-    },
+    "woe:country": "23424819",
+    "type": "Sidewall",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/37385_2571552846ea3062_b.jpg",
                 "width": 624,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/37385_2571552846ea3062_n.jpg",
-                "width": 195,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "37385"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/37385_2571552846ea3062_z.jpg",
                 "width": 390,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "37385"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/37385_2571552846ea3062_n.jpg",
+                "width": 195,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "37385"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/37385_2571552846ea3062_d.gif",
+                "width": 195,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "37385"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/37385_2571552846ea3062_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "37385"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/37378_caa3dfd3eb0ce07c_b.jpg",
                 "width": 655,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/37378_caa3dfd3eb0ce07c_n.jpg",
-                "width": 205,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "37378"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/37378_caa3dfd3eb0ce07c_z.jpg",
                 "width": 409,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "37378"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/37378_caa3dfd3eb0ce07c_n.jpg",
+                "width": 205,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "37378"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/37378_caa3dfd3eb0ce07c_d.gif",
+                "width": 205,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "37378"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/37378_caa3dfd3eb0ce07c_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "37378"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18050217",
             "role_id": "35351535",
             "person_name": "Carolle Thibaut-Pomerantz",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18050217\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18057349",
             "role_id": "35236657",
             "person_name": "J. Grantil Company",
+            "person_date": "",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18057349\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         }
@@ -92,24 +139,35 @@
     },
     "colors": [
         {
-            "color": "#2a3046",
-            "closest_css3": "#2f4f4f"
+            "color": "#242c47",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#9f603a",
-            "closest_css3": "#a0522d"
+            "color": "#a0613b",
+            "closest_crayola": "#a5694f",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         },
         {
-            "color": "#252e78",
-            "closest_css3": "#191970"
+            "color": "#262f78",
+            "closest_crayola": "#1a4876",
+            "closest_css3": "#191970",
+            "closest_css4": "#191970"
         },
         {
-            "color": "#47628c",
-            "closest_css3": "#483d8b"
+            "color": "#cf9440",
+            "closest_crayola": "#d68a59",
+            "closest_css3": "#cd853f",
+            "closest_css4": "#cd853f"
         },
         {
-            "color": "#a07d1f",
-            "closest_css3": "#b8860b"
+            "color": "#5e6676",
+            "closest_crayola": "#4a646c",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         }
-    ]
+    ],
+    "woe:country_name": "France"
 }

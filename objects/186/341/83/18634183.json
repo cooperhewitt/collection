@@ -3,6 +3,7 @@
     "tms:id": "191938",
     "accession_number": "1990-139-5",
     "title": "Chair, \"#130 Stacking Chair\", 20th century",
+    "title_raw": "#130 Stacking Chair",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18634183\/",
     "department_id": "35347497",
     "period_id": null,
@@ -13,39 +14,55 @@
     "year_end": 1990,
     "year_acquired": "1990",
     "decade": "1900",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Frame: tubular steel, polished chrome finish.\nSeat and back: white interlace vinyl cord.",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": null,
+    "dimensions_raw": null,
     "creditline": "Gift of Knoll International",
     "description": null,
     "justification": null,
-    "type": {
-        "id": "35237307",
-        "name": "chair"
-    },
+    "woe:country": "23424977",
+    "type": "chair",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/11282_e39cada93b53e80c_b.jpg",
                 "width": 729,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/11282_e39cada93b53e80c_n.jpg",
-                "width": 228,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "11282"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/11282_e39cada93b53e80c_z.jpg",
                 "width": 456,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "11282"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/11282_e39cada93b53e80c_n.jpg",
+                "width": 228,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "11282"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/11282_e39cada93b53e80c_d.gif",
+                "width": 228,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "11282"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/11282_e39cada93b53e80c_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "11282"
             }
         },
         {
@@ -53,19 +70,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/11281_73412c4441645d80_b.jpg",
                 "width": 662,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/11281_73412c4441645d80_n.jpg",
-                "width": 207,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "11281"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/11281_73412c4441645d80_z.jpg",
                 "width": 413,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "11281"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/11281_73412c4441645d80_n.jpg",
+                "width": 207,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "11281"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/11281_73412c4441645d80_d.gif",
+                "width": 207,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "11281"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/11281_73412c4441645d80_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "11281"
             }
         }
     ],
@@ -74,7 +108,9 @@
             "person_id": "18041409",
             "role_id": "35351535",
             "person_name": "Knoll Textiles",
+            "person_date": "East Greenville, Pennsylvania, USA, founded 1947",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041409\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -82,7 +118,9 @@
             "person_id": "18041409",
             "role_id": "35236657",
             "person_name": "Knoll Textiles",
+            "person_date": "East Greenville, Pennsylvania, USA, founded 1947",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041409\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         },
@@ -90,7 +128,9 @@
             "person_id": "18053899",
             "role_id": "35236655",
             "person_name": "Andre Dupree",
+            "person_date": "",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18053899\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
@@ -101,15 +141,22 @@
     "colors": [
         {
             "color": "#9c9c87",
-            "closest_css3": "#bc8f8f"
+            "closest_crayola": "#95918c",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         },
         {
-            "color": "#787765",
-            "closest_css3": "#696969"
+            "color": "#797866",
+            "closest_crayola": "#757575",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#5d553d",
-            "closest_css3": "#556b2f"
+            "color": "#5e563e",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

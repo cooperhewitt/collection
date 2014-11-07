@@ -3,6 +3,7 @@
     "tms:id": "180232",
     "accession_number": "1982-62-1",
     "title": "Stool, \"Model no. 91\", 1961",
+    "title_raw": "Model no. 91",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18800139\/",
     "department_id": "35347497",
     "period_id": null,
@@ -13,39 +14,68 @@
     "year_end": 1961,
     "year_acquired": "1982",
     "decade": "1960",
-    "woe:country": "23424796",
+    "woe:country_id": "23424796",
     "medium": "Metal, fabric",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "H x W x D: 40.5 x 59 x 44.8 cm (15 15\/16 x 23 1\/4 x 17 5\/8 in.)",
+    "dimensions_raw": {
+        "depth": [
+            "44.75",
+            "centimeters"
+        ],
+        "height": [
+            "40.50",
+            "centimeters"
+        ],
+        "width": [
+            "59.00",
+            "centimeters"
+        ]
+    },
     "creditline": null,
     "description": "Criss-crossed metallic folding base supporting a natural-colored canvas seat.",
     "justification": null,
-    "type": {
-        "id": "35238045",
-        "name": "stool"
-    },
+    "woe:country": "23424796",
+    "type": "stool",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/9679_8c1cec823cae034f_b.jpg",
                 "width": 1024,
                 "height": 833,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/9679_8c1cec823cae034f_n.jpg",
-                "width": 320,
-                "height": 260,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "9679"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/9679_8c1cec823cae034f_z.jpg",
                 "width": 640,
                 "height": 521,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "9679"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/9679_8c1cec823cae034f_n.jpg",
+                "width": 320,
+                "height": 260,
+                "is_primary": "1",
+                "image_id": "9679"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/9679_8c1cec823cae034f_d.gif",
+                "width": 320,
+                "height": 260,
+                "is_primary": "1",
+                "image_id": "9679"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/9679_8c1cec823cae034f_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "9679"
             }
         },
         {
@@ -53,19 +83,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/9680_2a61360042016743_b.jpg",
                 "width": 1024,
                 "height": 930,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/9680_2a61360042016743_n.jpg",
-                "width": 320,
-                "height": 291,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "9680"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/9680_2a61360042016743_z.jpg",
                 "width": 640,
                 "height": 582,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "9680"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/9680_2a61360042016743_n.jpg",
+                "width": 320,
+                "height": 291,
+                "is_primary": "0",
+                "image_id": "9680"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/9680_2a61360042016743_d.gif",
+                "width": 320,
+                "height": 291,
+                "is_primary": "0",
+                "image_id": "9680"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/9680_2a61360042016743_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "9680"
             }
         }
     ],
@@ -74,7 +121,9 @@
             "person_id": "18054947",
             "role_id": "35236657",
             "person_name": "Fritz Hansen Inc., Denmark",
+            "person_date": "",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18054947\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         },
@@ -82,7 +131,9 @@
             "person_id": "18536297",
             "role_id": "35236655",
             "person_name": "Poul Kjaerholm",
+            "person_date": "Danish, 1929 \u2013 1980",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18536297\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
@@ -92,16 +143,29 @@
     },
     "colors": [
         {
-            "color": "#6f7671",
-            "closest_css3": "#696969"
+            "color": "#899094",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#778899",
+            "closest_css4": "#778899"
         },
         {
-            "color": "#323634",
-            "closest_css3": "#2f4f4f"
+            "color": "#707773",
+            "closest_crayola": "#757575",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#4c5455",
-            "closest_css3": "#2f4f4f"
+            "color": "#333735",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
+        },
+        {
+            "color": "#4e5657",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         }
-    ]
+    ],
+    "woe:country_name": "Denmark"
 }

@@ -3,6 +3,7 @@
     "tms:id": "47553",
     "accession_number": "1931-64-131",
     "title": "Drawing, \"Design for a Clock\", 1800\u201325",
+    "title_raw": "Design for a Clock",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18325991\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1825,
     "year_acquired": "1931",
     "decade": null,
-    "woe:country": "23424757",
+    "woe:country_id": "23424757",
     "medium": "Pen and gray ink, brush and yellow, green and brown washes on off-white laid paper",
     "markings": "watermark: Heawood 1364",
     "signed": null,
     "inscribed": "In pen and brown ink, lower left: \"Le naufrage le vesseau vert 57 [---]\"; in pen and brown ink at bottom margin, center: \"a.a.o.f. gold\/ [---]od\"",
     "provenance": null,
     "dimensions": "51.9 x 42.9 cm (20 7\/16 x 16 7\/8in.)",
+    "dimensions_raw": {
+        "height": [
+            "71.10",
+            "centimeters"
+        ],
+        "width": [
+            "55.90",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Eleanor and Sarah Hewitt",
     "description": "Design for a gilt table clock: a child reaches towards a seated allegorical female figure (Hope?) atop a clock face (its encasing suggesting a rock).  The broken, shipwrecked hull of a sailing vessel flanks the bottom of the clock which, in turn, rests on a base decorated with bas relief of Neptune (holding a trident) riding the sea accompanied by a Triton.  Flanking the frieze are decorations featuring anchors entwined with rope.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424757",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/3066_96c8a728b3977365_b.jpg",
                 "width": 841,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/3066_96c8a728b3977365_n.jpg",
-                "width": 263,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "3066"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/3066_96c8a728b3977365_z.jpg",
                 "width": 526,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "3066"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/3066_96c8a728b3977365_n.jpg",
+                "width": 263,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "3066"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/3066_96c8a728b3977365_d.gif",
+                "width": 263,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "3066"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/3066_96c8a728b3977365_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "3066"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18042547",
             "role_id": "35236675",
             "person_name": "Lefebure Manufactory, Tournai",
+            "person_date": "",
             "role_name": "For",
+            "role_display_name": "Made for",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18042547\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236675\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18047443",
             "role_id": "35352245",
             "person_name": "Megan L. Smith",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047443\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18049325",
             "role_id": "35351535",
             "person_name": "Eleanor Garnier Hewitt",
+            "person_date": "American, 1864\u20131924",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049325\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -78,7 +110,9 @@
             "person_id": "18049321",
             "role_id": "35351535",
             "person_name": "Sarah Cooper Hewitt",
+            "person_date": "American, 1859\u20131930",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049321\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -88,24 +122,35 @@
     },
     "colors": [
         {
-            "color": "#ccbe9d",
-            "closest_css3": "#d2b48c"
+            "color": "#dfae51",
+            "closest_crayola": "#ffae42",
+            "closest_css3": "#f4a460",
+            "closest_css4": "#f4a460"
         },
         {
-            "color": "#e5b660",
-            "closest_css3": "#f4a460"
+            "color": "#ca8a3c",
+            "closest_crayola": "#d68a59",
+            "closest_css3": "#cd853f",
+            "closest_css4": "#cd853f"
         },
         {
-            "color": "#ad9b7f",
-            "closest_css3": "#bc8f8f"
+            "color": "#48674d",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         },
         {
-            "color": "#c58738",
-            "closest_css3": "#cd853f"
+            "color": "#313828",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#375d48",
-            "closest_css3": "#2f4f4f"
+            "color": "#878261",
+            "closest_crayola": "#8a795d",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         }
-    ]
+    ],
+    "woe:country_name": "Belgium"
 }

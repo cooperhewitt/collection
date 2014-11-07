@@ -2,7 +2,8 @@
     "id": "18498729",
     "tms:id": "160265",
     "accession_number": "1979-89-12",
-    "title": "Textile, 1954",
+    "title": "Textile, \"Rotti\", 1954",
+    "title_raw": "Rotti",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18498729\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1954,
     "year_acquired": "1979",
     "decade": "1950",
-    "woe:country": "23424812",
+    "woe:country_id": "23424812",
     "medium": "Medium: cotton\nTechnique: screen printed on plain weave",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "H x W: 304.8 x 137.2 cm (120 x 54 in.)\nRepeat H: 73 cm (28 3\/4 in.)",
+    "dimensions_raw": {
+        "height": [
+            "304.80",
+            "centimeters"
+        ],
+        "width": [
+            "137.16",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Marimekko, Inc.",
     "description": "Groups of narrow bands of orange, black and white, separated by larger dark grey bands.",
     "justification": null,
-    "type": {
-        "id": "35251739",
-        "name": "textile"
-    },
+    "woe:country": "23424812",
+    "type": "textile",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/49193_0808144888270add_b.jpg",
                 "width": 608,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/49193_0808144888270add_n.jpg",
-                "width": 190,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "49193"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/49193_0808144888270add_z.jpg",
                 "width": 380,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "49193"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/49193_0808144888270add_n.jpg",
+                "width": 190,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "49193"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/49193_0808144888270add_d.gif",
+                "width": 190,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "49193"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/49193_0808144888270add_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "49193"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/18200_66a2e6899f9b7bf1_b.jpg",
                 "width": 720,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/18200_66a2e6899f9b7bf1_n.jpg",
-                "width": 225,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "18200"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/18200_66a2e6899f9b7bf1_z.jpg",
                 "width": 450,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "18200"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/18200_66a2e6899f9b7bf1_n.jpg",
+                "width": 225,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "18200"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/18200_66a2e6899f9b7bf1_d.gif",
+                "width": 225,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "18200"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/18200_66a2e6899f9b7bf1_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "18200"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18045663",
             "role_id": "35236657",
             "person_name": "Marimekko Oy",
+            "person_date": "Helsinki, Finland, founded 1951",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18045663\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18048723",
             "role_id": "35351535",
             "person_name": "Marimekko, Inc.",
+            "person_date": "1951 \u2013 1979",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18048723\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -90,34 +137,47 @@
             "person_id": "18046025",
             "role_id": "35236655",
             "person_name": "Vuokko Eskolin Nurmesniemi",
+            "person_date": "Finnish, b. 1930",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18046025\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
     ],
     "tombstone": {
-        "epitaph": "Textile, 1954. Medium: cotton\nTechnique: screen printed on plain weave. Gift of Marimekko, Inc.. 1979-89-12."
+        "epitaph": "Textile, \"Rotti\", 1954. Medium: cotton\nTechnique: screen printed on plain weave. Gift of Marimekko, Inc.. 1979-89-12."
     },
     "colors": [
         {
-            "color": "#c8631e",
-            "closest_css3": "#d2691e"
+            "color": "#cd6623",
+            "closest_crayola": "#c46210",
+            "closest_css3": "#d2691e",
+            "closest_css4": "#d2691e"
         },
         {
-            "color": "#34352d",
-            "closest_css3": "#2f4f4f"
+            "color": "#35362e",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#dcb6b7",
-            "closest_css3": "#c0c0c0"
+            "color": "#e4bfc4",
+            "closest_crayola": "#efcdb8",
+            "closest_css3": "#d8bfd8",
+            "closest_css4": "#d8bfd8"
         },
         {
-            "color": "#d59177",
-            "closest_css3": "#e9967a"
+            "color": "#d49076",
+            "closest_crayola": "#cd9575",
+            "closest_css3": "#e9967a",
+            "closest_css4": "#e9967a"
         },
         {
-            "color": "#864f35",
-            "closest_css3": "#a0522d"
+            "color": "#574945",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         }
-    ]
+    ],
+    "woe:country_name": "Finland"
 }

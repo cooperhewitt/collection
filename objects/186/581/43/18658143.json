@@ -3,6 +3,7 @@
     "tms:id": "204161",
     "accession_number": "a-t-6",
     "title": "Textile, ca. 1790",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18658143\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1800,
     "year_acquired": null,
     "decade": null,
-    "woe:country": "23424975",
+    "woe:country_id": "23424975",
     "medium": "Medium: cotton\nTechnique: copperplate printed on plain weave",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
-    "dimensions": "H x W: 200 x 93 cm (6 ft. 6 3\/4 in. x 36 5\/8 in.)",
+    "dimensions": "H x W x D: 200 x 93 cm (6 ft. 6 3\/4 in. x 36 5\/8 in.)\nRepeat H: 94 cm (37 in.)",
+    "dimensions_raw": {
+        "height": [
+            "200.00",
+            "centimeters"
+        ],
+        "width": [
+            "93.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Anonymous Donor",
     "description": "Long panel of heavy off-white cotton printed in blue with a rustic scene of fields, villagers dancing, trees and a stream with buildings on either side. Trimmed by narrow blue printed braid of dark cotton. Long repeat.",
     "justification": null,
-    "type": {
-        "id": "35251739",
-        "name": "textile"
-    },
+    "woe:country": "23424975",
+    "type": "textile",
     "images": [
         {
             "b": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/46404_349ed0925d8e14ab_b.jpg",
-                "width": 500,
+                "url": "http:\/\/images.collection.cooperhewitt.org\/46404_20ae9e2496fad490_b.jpg",
+                "width": 487,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/46404_349ed0925d8e14ab_n.jpg",
-                "width": 156,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "46404"
             },
             "z": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/46404_349ed0925d8e14ab_z.jpg",
-                "width": 313,
+                "url": "http:\/\/images.collection.cooperhewitt.org\/46404_20ae9e2496fad490_z.jpg",
+                "width": 304,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "46404"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/46404_20ae9e2496fad490_n.jpg",
+                "width": 152,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "46404"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/46404_20ae9e2496fad490_d.gif",
+                "width": 152,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "46404"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/46404_20ae9e2496fad490_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "46404"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/79485_ee24f7fc6d8dfb7a_b.jpg",
                 "width": 566,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/79485_ee24f7fc6d8dfb7a_n.jpg",
-                "width": 177,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "79485"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/79485_ee24f7fc6d8dfb7a_z.jpg",
                 "width": 354,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "79485"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/79485_ee24f7fc6d8dfb7a_n.jpg",
+                "width": 177,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "79485"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/79485_ee24f7fc6d8dfb7a_d.gif",
+                "width": 177,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "79485"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/79485_ee24f7fc6d8dfb7a_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "79485"
             }
         }
     ],
@@ -77,16 +120,23 @@
     },
     "colors": [
         {
-            "color": "#8c7250",
-            "closest_css3": "#696969"
+            "color": "#76684d",
+            "closest_crayola": "#85754e",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#605746",
-            "closest_css3": "#556b2f"
+            "color": "#9d835d",
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#b9ab98",
-            "closest_css3": "#a9a9a9"
+            "color": "#564f42",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         }
-    ]
+    ],
+    "woe:country_name": "United Kingdom"
 }

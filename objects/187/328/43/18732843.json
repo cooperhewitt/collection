@@ -3,6 +3,7 @@
     "tms:id": "242546",
     "accession_number": "2009-18-160",
     "title": "Footed Dish, \"White and light blue enamel bands with gold lining\", ca. 1877\u201387",
+    "title_raw": "White and light blue enamel bands with gold lining",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18732843\/",
     "department_id": "35347497",
     "period_id": null,
@@ -13,39 +14,68 @@
     "year_end": null,
     "year_acquired": "2009",
     "decade": null,
-    "woe:country": "23424750",
+    "woe:country_id": "23424750",
     "medium": "Enameled and gilt glass",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "2009: acquired by Museum",
     "dimensions": "L x W x D: 24.5 x 20 x 6 cm (9 5\/8 x 7 7\/8 x 2 3\/8 in.)",
+    "dimensions_raw": {
+        "depth": [
+            "6.00",
+            "centimeters"
+        ],
+        "length": [
+            "24.50",
+            "centimeters"
+        ],
+        "width": [
+            "20.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase through gift of Dale and Doug Anderson, Anonymous Donor, Arthur Liu, and Prairie Pictures, Inc. and from General Acquisitions Endowment Fund",
     "description": "Enameled with blue, white, and gold foliate design, possibly of Near Eastern influence.",
     "justification": null,
-    "type": {
-        "id": "35251905",
-        "name": "footed dish"
-    },
+    "woe:country": "23424750",
+    "type": "footed dish",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/32092_84db55cbd92c88fd_b.jpg",
                 "width": 1024,
                 "height": 609,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/32092_84db55cbd92c88fd_n.jpg",
-                "width": 320,
-                "height": 190,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "32092"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/32092_84db55cbd92c88fd_z.jpg",
                 "width": 640,
                 "height": 381,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "32092"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/32092_84db55cbd92c88fd_n.jpg",
+                "width": 320,
+                "height": 190,
+                "is_primary": "1",
+                "image_id": "32092"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/32092_84db55cbd92c88fd_d.gif",
+                "width": 320,
+                "height": 190,
+                "is_primary": "1",
+                "image_id": "32092"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/32092_84db55cbd92c88fd_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "32092"
             }
         }
     ],
@@ -53,8 +83,10 @@
         {
             "person_id": "18061841",
             "role_id": "35236657",
-            "person_name": "J. & L. Lobmeyr GmbH, Vienna, Austria",
+            "person_name": "J. & L. Lobmeyr GmbH",
+            "person_date": "Vienna, Austria, founded ca. 1935",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18061841\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         },
@@ -62,17 +94,31 @@
             "person_id": "18062617",
             "role_id": "35236655",
             "person_name": "Ludwig Lobmeyr",
+            "person_date": "Austrian, 1829 - 1917",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18062617\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
         {
             "person_id": "18061841",
             "role_id": "51571131",
-            "person_name": "J. & L. Lobmeyr GmbH, Vienna, Austria",
+            "person_name": "J. & L. Lobmeyr GmbH",
+            "person_date": "Vienna, Austria, founded ca. 1935",
             "role_name": "Lender",
+            "role_display_name": "Lent by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18061841\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/51571131\/"
+        },
+        {
+            "person_id": "68739167",
+            "role_id": "35236657",
+            "person_name": "Georg Rehlender",
+            "person_date": "German",
+            "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
+            "person_url": "http:\/\/collection.cooperhewitt.org\/people\/68739167\/",
+            "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         }
     ],
     "tombstone": {
@@ -80,24 +126,29 @@
     },
     "colors": [
         {
-            "color": "#383847",
-            "closest_css3": "#2f4f4f"
+            "color": "#998f8b",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#8d7d75",
-            "closest_css3": "#808080"
+            "color": "#3c3e4e",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#b6a9a0",
-            "closest_css3": "#a9a9a9"
+            "color": "#675a56",
+            "closest_crayola": "#6e5160",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#696672",
-            "closest_css3": "#696969"
-        },
-        {
-            "color": "#635651",
-            "closest_css3": "#696969"
+            "color": "#757b8f",
+            "closest_crayola": "#757575",
+            "closest_css3": "#708090",
+            "closest_css4": "#708090"
         }
-    ]
+    ],
+    "woe:country_name": "Austria"
 }

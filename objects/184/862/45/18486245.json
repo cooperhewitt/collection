@@ -3,6 +3,7 @@
     "tms:id": "153989",
     "accession_number": "1975-11-25",
     "title": "Drawing, \"Textile Design: Vertical Stripes, Horizontal Bands\", 1930s",
+    "title_raw": "Textile Design: Vertical Stripes, Horizontal Bands",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18486245\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1939,
     "year_acquired": "1975",
     "decade": "1930",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Brush and gouache, graphite on off-white wove paper",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "40.1 x 40.5 cm (15 13\/16 x 15 15\/16 in.)\nMat:  71.1 x 55.9 cm (28 x 22 in.)",
+    "dimensions_raw": {
+        "height": [
+            "40.10",
+            "centimeters"
+        ],
+        "width": [
+            "55.90",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Donald Deskey",
     "description": "Narrow vertical stripes with interwoven wide horizontal bands.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424977",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/39554_3b6e3daad924d8f2_b.jpg",
                 "width": 1024,
                 "height": 1008,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/39554_3b6e3daad924d8f2_n.jpg",
-                "width": 320,
-                "height": 315,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "39554"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/39554_3b6e3daad924d8f2_z.jpg",
                 "width": 640,
                 "height": 630,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "39554"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/39554_3b6e3daad924d8f2_n.jpg",
+                "width": 320,
+                "height": 315,
+                "is_primary": "1",
+                "image_id": "39554"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/39554_3b6e3daad924d8f2_d.gif",
+                "width": 320,
+                "height": 315,
+                "is_primary": "1",
+                "image_id": "39554"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/39554_3b6e3daad924d8f2_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "39554"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18065437",
             "role_id": "35352245",
             "person_name": "Stacey Leonard",
+            "person_date": "American",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18065437\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18041973",
             "role_id": "35351535",
             "person_name": "Donald Deskey",
+            "person_date": "American, 1894\u20131989",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041973\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18047481",
             "role_id": "35352245",
             "person_name": "Eleonore Kissel",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047481\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -78,7 +110,9 @@
             "person_id": "18048255",
             "role_id": "35352245",
             "person_name": "Dr. Gail Davidson",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18048255\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -86,7 +120,9 @@
             "person_id": "18041973",
             "role_id": "35236703",
             "person_name": "Donald Deskey",
+            "person_date": "American, 1894\u20131989",
             "role_name": "Office of",
+            "role_display_name": "Office of",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041973\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236703\/"
         }
@@ -96,24 +132,35 @@
     },
     "colors": [
         {
-            "color": "#4c3831",
-            "closest_css3": "#2f4f4f"
+            "color": "#d0c9ad",
+            "closest_crayola": "#cdc5c2",
+            "closest_css3": "#c0c0c0",
+            "closest_css4": "#c0c0c0"
         },
         {
-            "color": "#cfc8ab",
-            "closest_css3": "#c0c0c0"
+            "color": "#46352e",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#5e8e5f",
-            "closest_css3": "#696969"
+            "color": "#5f925f",
+            "closest_crayola": "#757575",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#949a77",
-            "closest_css3": "#808080"
+            "color": "#8e9a76",
+            "closest_crayola": "#87a96b",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#66604a",
-            "closest_css3": "#696969"
+            "color": "#5c5543",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

@@ -3,6 +3,7 @@
     "tms:id": "102325",
     "accession_number": "1950-143-10",
     "title": "Square, \"Moss Rose\", 1947",
+    "title_raw": "Moss Rose",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18384383\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1947,
     "year_acquired": "1950",
     "decade": "1940",
-    "woe:country": "23424975",
+    "woe:country_id": "23424975",
     "medium": "Medium: silk\nTechnique: printed",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "H x W: 90 x 90 cm (35 7\/16 x 35 7\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "90.00",
+            "centimeters"
+        ],
+        "width": [
+            "90.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Cooper Union Art School",
     "description": "Square printed scarf with off-white ground and center square surrounded by several borders of varying thickness in white, mustard, and coral. Center square contains black linework evoking the hand and abstracted biomorphic forms in coral and red.",
     "justification": null,
-    "type": {
-        "id": "35256017",
-        "name": "Square"
-    },
+    "woe:country": "23424975",
+    "type": "Square",
     "images": [
         {
             "b": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/46275_1b641b5daa8ff0ad_b.jpg",
-                "width": 974,
-                "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/46275_1b641b5daa8ff0ad_n.jpg",
-                "width": 304,
-                "height": 320,
-                "is_primary": "1"
+                "url": "http:\/\/images.collection.cooperhewitt.org\/46275_3266ab8e193d11dc_b.jpg",
+                "width": 1024,
+                "height": 1013,
+                "is_primary": "1",
+                "image_id": "46275"
             },
             "z": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/46275_1b641b5daa8ff0ad_z.jpg",
-                "width": 608,
-                "height": 640,
-                "is_primary": "1"
+                "url": "http:\/\/images.collection.cooperhewitt.org\/46275_3266ab8e193d11dc_z.jpg",
+                "width": 640,
+                "height": 633,
+                "is_primary": "1",
+                "image_id": "46275"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/46275_3266ab8e193d11dc_n.jpg",
+                "width": 320,
+                "height": 317,
+                "is_primary": "1",
+                "image_id": "46275"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/46275_3266ab8e193d11dc_d.gif",
+                "width": 320,
+                "height": 317,
+                "is_primary": "1",
+                "image_id": "46275"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/46275_3266ab8e193d11dc_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "46275"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/16820_aadeda8c3a5023f3_b.jpg",
                 "width": 982,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/16820_aadeda8c3a5023f3_n.jpg",
-                "width": 307,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "16820"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/16820_aadeda8c3a5023f3_z.jpg",
                 "width": 614,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "16820"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/16820_aadeda8c3a5023f3_n.jpg",
+                "width": 307,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "16820"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/16820_aadeda8c3a5023f3_d.gif",
+                "width": 307,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "16820"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/16820_aadeda8c3a5023f3_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "16820"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18050481",
             "role_id": "35351535",
             "person_name": "Cooper Union Art School",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18050481\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -82,9 +127,21 @@
             "person_id": "18065379",
             "role_id": "35236673",
             "person_name": "Ascher Squares",
+            "person_date": "England",
             "role_name": "Printer",
+            "role_display_name": "Printed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18065379\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236673\/"
+        },
+        {
+            "person_id": "68739315",
+            "role_id": "35236565",
+            "person_name": "Keith Vaughan",
+            "person_date": "English, 1912 - 1977",
+            "role_name": "Artist",
+            "role_display_name": "",
+            "person_url": "http:\/\/collection.cooperhewitt.org\/people\/68739315\/",
+            "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236565\/"
         }
     ],
     "tombstone": {
@@ -92,24 +149,35 @@
     },
     "colors": [
         {
-            "color": "#c9a04f",
-            "closest_css3": "#cd853f"
+            "color": "#c9a04d",
+            "closest_crayola": "#d68a59",
+            "closest_css3": "#cd853f",
+            "closest_css4": "#cd853f"
         },
         {
-            "color": "#d86c55",
-            "closest_css3": "#cd5c5c"
+            "color": "#d56550",
+            "closest_crayola": "#cc6666",
+            "closest_css3": "#cd5c5c",
+            "closest_css4": "#cd5c5c"
         },
         {
             "color": "#e19f8a",
-            "closest_css3": "#e9967a"
+            "closest_crayola": "#deaa88",
+            "closest_css3": "#e9967a",
+            "closest_css4": "#e9967a"
         },
         {
-            "color": "#b4161c",
-            "closest_css3": "#b22222"
+            "color": "#b5141b",
+            "closest_crayola": "#9c2542",
+            "closest_css3": "#b22222",
+            "closest_css4": "#b22222"
         },
         {
-            "color": "#2c2824",
-            "closest_css3": "#2f4f4f"
+            "color": "#bbb4a7",
+            "closest_crayola": "#b0b7c6",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
         }
-    ]
+    ],
+    "woe:country_name": "United Kingdom"
 }

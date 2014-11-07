@@ -3,6 +3,7 @@
     "tms:id": "125411",
     "accession_number": "1960-12-1",
     "title": "Scenic - Panels, \"\"Les Francais en Egypte\" [French in Egypt]\", ca. 1814",
+    "title_raw": "\"Les Francais en Egypte\" [French in Egypt]",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18430035\/",
     "department_id": "35347503",
     "period_id": null,
@@ -13,39 +14,68 @@
     "year_end": 1824,
     "year_acquired": "1960",
     "decade": null,
-    "woe:country": "23424819",
+    "woe:country_id": "23424819",
     "medium": "Block-printed on handmade paper",
     "markings": null,
     "signed": null,
     "inscribed": "Inscribed below broken column in left foreground panel \"Le 20 Mars 1800, 10,000 Francais Commandes par le Brave Kleber ont vaincu 80,000 Turcs dans les plaines d'Heliopolis.\"",
     "provenance": null,
     "dimensions": "Other (For entire screen): 230.7 x 307.7 x 2.2 cm (7 ft. 6 13\/16 in. x 10 ft. 1 1\/8 in. x 7\/8 in.)",
+    "dimensions_raw": {
+        "height": [
+            "230.70",
+            "centimeters"
+        ],
+        "length": [
+            "307.70",
+            "centimeters"
+        ],
+        "width": [
+            "2.20",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of F. Burrall Hoffman",
     "description": "Four panels from \"Les Francais en Egypt\" pasted on a screen. The inscription beneath the broken column in left foreground panel is \"Le 20 Mars 1800, 10,000 Francais Commandes par le Brave Kleber ont vaincu 80,000 Turcs dans les plaines d'Heliopolis.\"  The second panel shows conquered Turks resting, and marching French soldiers.  The third panel, a tall obelisk; the fourth, the French encampment with a group of cavalry led by Kl\u00e9ber on a white horse.  Vivid colors with a grey sky and a black marbleized border at bottom.",
     "justification": null,
-    "type": {
-        "id": "35291209",
-        "name": "Scenic - panels"
-    },
+    "woe:country": "23424819",
+    "type": "Scenic - panels",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/27725_6afc9074ce4c3548_b.jpg",
                 "width": 1024,
                 "height": 772,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/27725_6afc9074ce4c3548_n.jpg",
-                "width": 320,
-                "height": 241,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "27725"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/27725_6afc9074ce4c3548_z.jpg",
                 "width": 640,
                 "height": 482,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "27725"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/27725_6afc9074ce4c3548_n.jpg",
+                "width": 320,
+                "height": 241,
+                "is_primary": "1",
+                "image_id": "27725"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/27725_6afc9074ce4c3548_d.gif",
+                "width": 320,
+                "height": 241,
+                "is_primary": "1",
+                "image_id": "27725"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/27725_6afc9074ce4c3548_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "27725"
             }
         }
     ],
@@ -54,7 +84,9 @@
             "person_id": "18049449",
             "role_id": "35236657",
             "person_name": "Joseph Dufour et Cie.",
+            "person_date": "French, 1752\u20131827",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049449\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         },
@@ -62,7 +94,9 @@
             "person_id": "18538231",
             "role_id": "35352245",
             "person_name": "Claire Vincent",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18538231\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -70,7 +104,9 @@
             "person_id": "18538393",
             "role_id": "35351535",
             "person_name": "F. Burrall Hoffman",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18538393\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -78,7 +114,9 @@
             "person_id": "18046447",
             "role_id": "35236655",
             "person_name": "Jean-Julien Deltil",
+            "person_date": "1791 \u2013 1863",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18046447\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
@@ -88,24 +126,35 @@
     },
     "colors": [
         {
-            "color": "#fee9b7",
-            "closest_css3": "#ffe4b5"
+            "color": "#e0c78b",
+            "closest_crayola": "#e7c697",
+            "closest_css3": "#deb887",
+            "closest_css4": "#deb887"
         },
         {
-            "color": "#caaf71",
-            "closest_css3": "#bdb76b"
+            "color": "#b09758",
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#bdb76b",
+            "closest_css4": "#bdb76b"
         },
         {
-            "color": "#a28c58",
-            "closest_css3": "#cd853f"
+            "color": "#695529",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         },
         {
-            "color": "#685528",
-            "closest_css3": "#556b2f"
+            "color": "#707534",
+            "closest_crayola": "#85754e",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         },
         {
-            "color": "#291e08",
-            "closest_css3": "#000000"
+            "color": "#291e09",
+            "closest_crayola": "#000000",
+            "closest_css3": "#000000",
+            "closest_css4": "#000000"
         }
-    ]
+    ],
+    "woe:country_name": "France"
 }

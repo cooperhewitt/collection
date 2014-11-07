@@ -3,6 +3,7 @@
     "tms:id": "180356",
     "accession_number": "1983-19-6",
     "title": "Textile, \"Abaco\", 1982",
+    "title_raw": "Abaco",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18800387\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1982,
     "year_acquired": "1983",
     "decade": "1980",
-    "woe:country": "23424829",
+    "woe:country_id": "23424829",
     "medium": "Medium: cotton\nTechnique: screen printed on plain weave",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "Taunus Textildruck Zimmer GmbH & Co. KG; 1983: acquired by Museum",
     "dimensions": "Warp x Weft: 125 x 132 cm (49 3\/16 x 51 15\/16 in.)",
+    "dimensions_raw": {
+        "warp": [
+            "125.00",
+            "centimeters"
+        ],
+        "weft": [
+            "132.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Taunus Textildruck Zimmer GmbH & Co. KG",
     "description": "Wide diagonal airbrushed stripes in blue, pink, and yellow.",
     "justification": null,
-    "type": {
-        "id": "35251739",
-        "name": "textile"
-    },
+    "woe:country": "23424829",
+    "type": "textile",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/51883_6a8b09907ff9235a_b.jpg",
                 "width": 1024,
                 "height": 980,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/51883_6a8b09907ff9235a_n.jpg",
-                "width": 320,
-                "height": 306,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "51883"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/51883_6a8b09907ff9235a_z.jpg",
                 "width": 640,
                 "height": 613,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "51883"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/51883_6a8b09907ff9235a_n.jpg",
+                "width": 320,
+                "height": 306,
+                "is_primary": "1",
+                "image_id": "51883"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/51883_6a8b09907ff9235a_d.gif",
+                "width": 320,
+                "height": 306,
+                "is_primary": "1",
+                "image_id": "51883"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/51883_6a8b09907ff9235a_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "51883"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18045467",
             "role_id": "35351535",
             "person_name": "Taunus Textildruck Zimmer",
+            "person_date": "Oberusel, Germany, est. 1899",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18045467\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18048019",
             "role_id": "35352245",
             "person_name": "lm",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18048019\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18045467",
             "role_id": "35236685",
             "person_name": "Taunus Textildruck Zimmer",
+            "person_date": "Oberusel, Germany, est. 1899",
             "role_name": "Maker",
+            "role_display_name": "Made by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18045467\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236685\/"
         },
@@ -78,7 +110,9 @@
             "person_id": "18045465",
             "role_id": "35236681",
             "person_name": "JAB-Stoffe",
+            "person_date": "",
             "role_name": "Company",
+            "role_display_name": "Company:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18045465\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236681\/"
         },
@@ -86,7 +120,9 @@
             "person_id": "18045469",
             "role_id": "35236655",
             "person_name": "Christa Hausler-Goltz",
+            "person_date": "German, b. 1943",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18045469\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
@@ -96,8 +132,11 @@
     },
     "colors": [
         {
-            "color": "#b2c9e0",
-            "closest_css3": "#b0c4de"
+            "color": "#acc6df",
+            "closest_crayola": "#9aceeb",
+            "closest_css3": "#b0c4de",
+            "closest_css4": "#b0c4de"
         }
-    ]
+    ],
+    "woe:country_name": "Germany"
 }

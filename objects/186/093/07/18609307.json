@@ -3,6 +3,7 @@
     "tms:id": "98235",
     "accession_number": "1948-26-13",
     "title": "Sample, 1947",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18609307\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1947,
     "year_acquired": "1948",
     "decade": "1940",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Medium: wool, leather, silk\nTechnique: plain weave with grouped warps",
     "markings": null,
     "signed": null,
     "inscribed": "Inscribed in black ink, lower left: #C-113; lower right: DOROTHY LIEBES",
     "provenance": "1948: acquired by Museum",
     "dimensions": "H x W (sample): 15.2 x 19.1 cm (6 x 7 1\/2 in.)\nH x W (card): 34.9 x 27.9 cm (13 3\/4 x 11 in.)",
+    "dimensions_raw": {
+        "height": [
+            "15.24",
+            "centimeters"
+        ],
+        "width": [
+            "19.05",
+            "centimeters"
+        ]
+    },
     "creditline": null,
     "description": "Woven sample mounted to a cardboard card with notations by the designer. Black fabric with horizontal bands of different textures. Warps are black wool; wefts and red and black silk and wool yarn, suede and leather strips. The wide suede strips float over grouped warps, giving a ribbed effect, which alternates with plain weave in the polished leather strips.",
     "justification": null,
-    "type": {
-        "id": "35268079",
-        "name": "Sample"
-    },
+    "woe:country": "23424977",
+    "type": "Sample",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/48469_9a6c89c346ef4e60_b.jpg",
                 "width": 806,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/48469_9a6c89c346ef4e60_n.jpg",
-                "width": 252,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "48469"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/48469_9a6c89c346ef4e60_z.jpg",
                 "width": 504,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "48469"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/48469_9a6c89c346ef4e60_n.jpg",
+                "width": 252,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "48469"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/48469_9a6c89c346ef4e60_d.gif",
+                "width": 252,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "48469"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/48469_9a6c89c346ef4e60_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "48469"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18045817",
             "role_id": "35236745",
             "person_name": "Dorothy Wright Liebes",
+            "person_date": "American, 1897\u20131972",
             "role_name": "Weaver",
+            "role_display_name": "Woven by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18045817\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236745\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18045817",
             "role_id": "35236655",
             "person_name": "Dorothy Wright Liebes",
+            "person_date": "American, 1897\u20131972",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18045817\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
@@ -72,8 +102,11 @@
     },
     "colors": [
         {
-            "color": "#cec9be",
-            "closest_css3": "#c0c0c0"
+            "color": "#89857f",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

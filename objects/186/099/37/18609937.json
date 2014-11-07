@@ -3,6 +3,7 @@
     "tms:id": "98489",
     "accession_number": "1948-40-22",
     "title": "Drawing, \"Wall Decoration (West) Wall, Music Room, Royal Pavilion, Brighton\", 1817",
+    "title_raw": "Wall Decoration (West) Wall, Music Room, Royal Pavilion, Brighton",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18609937\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1817,
     "year_acquired": "1948",
     "decade": null,
-    "woe:country": "23424975",
+    "woe:country_id": "23424975",
     "medium": "Graphite on paper",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "1948: acquired by Museum (from Mrs. K. Gregory)",
     "dimensions": "Mat: 40.6 x 55.9 cm (16 x 22 in.)\n30.5 x 51.6 cm (12 in. x 20 5\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "30.50",
+            "centimeters"
+        ],
+        "width": [
+            "51.60",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase through gift of Mrs. John Innes Kane",
     "description": "Elevation of a wall, with a mantelpiece indicated in the center. The walls to left and right are covered by painted panels, contained in wide decorative borders. At left, a seated Chinese lion and fling dragons. At right, a Chinese lion within a circular pendant and flying dragons.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424975",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/62842_fb11ca297f1e5893_b.jpg",
                 "width": 1024,
                 "height": 672,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/62842_fb11ca297f1e5893_n.jpg",
-                "width": 320,
-                "height": 210,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "62842"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/62842_fb11ca297f1e5893_z.jpg",
                 "width": 640,
                 "height": 420,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "62842"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/62842_fb11ca297f1e5893_n.jpg",
+                "width": 320,
+                "height": 210,
+                "is_primary": "1",
+                "image_id": "62842"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/62842_fb11ca297f1e5893_d.gif",
+                "width": 320,
+                "height": 210,
+                "is_primary": "1",
+                "image_id": "62842"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/62842_fb11ca297f1e5893_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "62842"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "51685441",
             "role_id": "35236655",
             "person_name": "Frederick Crace",
+            "person_date": "1779 - 1859",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/51685441\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18539479",
             "role_id": "35352249",
             "person_name": "Mrs. K. Gregory",
+            "person_date": "",
             "role_name": "Vendor",
+            "role_display_name": "Purchased from",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18539479\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352249\/"
         }
@@ -73,7 +103,10 @@
     "colors": [
         {
             "color": "#ffffff",
-            "closest_css3": "#ffffff"
+            "closest_crayola": "#ffffff",
+            "closest_css3": "#ffffff",
+            "closest_css4": "#ffffff"
         }
-    ]
+    ],
+    "woe:country_name": "United Kingdom"
 }

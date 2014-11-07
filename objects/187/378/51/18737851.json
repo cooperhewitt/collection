@@ -3,6 +3,7 @@
     "tms:id": "245093",
     "accession_number": "1921-6-377",
     "title": "Book, \"Plate 37 in \"Recueil des decorations int\u00e9rieures\"\", 1812",
+    "title_raw": "Plate 37 in \"Recueil des decorations int\u00e9rieures\"",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18737851\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,68 @@
     "year_end": 1812,
     "year_acquired": "1921",
     "decade": null,
-    "woe:country": "23424819",
+    "woe:country_id": "23424819",
     "medium": "Engraving on cream wove paper",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "1921: acquired by Museum",
     "dimensions": "43.8 x 28.8 cm (17 1\/4 x 11 5\/16 in.)",
+    "dimensions_raw": {
+        "depth": [
+            "55.88",
+            "centimeters"
+        ],
+        "height": [
+            "43.80",
+            "centimeters"
+        ],
+        "width": [
+            "28.80",
+            "centimeters"
+        ]
+    },
     "creditline": "Purchased for the Museum by the Advisory Council",
     "description": "Plate 37 of the book by Charles Percier and Pierre-Fran\u00e7ois-L\u00e9onard Fontaine, \"Recueil de decorations int\u00e9rieures comprenant tout ce qui a rapport a l'ornement\" (1801-12). This image shows a wall elevation for a woman's bedroom, ornamented with paintings and tapestries in the so-called \"Etruscan\" style.",
     "justification": null,
-    "type": {
-        "id": "35247441",
-        "name": "book"
-    },
+    "woe:country": "23424819",
+    "type": "book",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/37306_f0b6b267d960a2dc_b.jpg",
                 "width": 1024,
                 "height": 765,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/37306_f0b6b267d960a2dc_n.jpg",
-                "width": 320,
-                "height": 239,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "37306"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/37306_f0b6b267d960a2dc_z.jpg",
                 "width": 640,
                 "height": 478,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "37306"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/37306_f0b6b267d960a2dc_n.jpg",
+                "width": 320,
+                "height": 239,
+                "is_primary": "1",
+                "image_id": "37306"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/37306_f0b6b267d960a2dc_d.gif",
+                "width": 320,
+                "height": 239,
+                "is_primary": "1",
+                "image_id": "37306"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/37306_f0b6b267d960a2dc_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "37306"
             }
         }
     ],
@@ -54,7 +84,9 @@
             "person_id": "18056369",
             "role_id": "35236655",
             "person_name": "Pierre-Fran\u00e7ois-L\u00e9onard Fontaine",
+            "person_date": "French, 1762\u20131853",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18056369\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -62,7 +94,9 @@
             "person_id": "18056345",
             "role_id": "35236655",
             "person_name": "Charles Percier",
+            "person_date": "French, 1764\u20131838",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18056345\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -70,7 +104,9 @@
             "person_id": "18061743",
             "role_id": "35236661",
             "person_name": "P. Didot l'a\u00een\u00e9",
+            "person_date": "French",
             "role_name": "Publisher",
+            "role_display_name": "Published by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18061743\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236661\/"
         },
@@ -78,7 +114,9 @@
             "person_id": "18049621",
             "role_id": "35351535",
             "person_name": "Advisory Council",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049621\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -88,12 +126,17 @@
     },
     "colors": [
         {
-            "color": "#c9bdac",
-            "closest_css3": "#c0c0c0"
+            "color": "#d3c9b9",
+            "closest_crayola": "#cdc5c2",
+            "closest_css3": "#c0c0c0",
+            "closest_css4": "#c0c0c0"
         },
         {
-            "color": "#a29482",
-            "closest_css3": "#bc8f8f"
+            "color": "#aca08e",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         }
-    ]
+    ],
+    "woe:country_name": "France"
 }

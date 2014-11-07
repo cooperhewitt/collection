@@ -3,6 +3,7 @@
     "tms:id": "181544",
     "accession_number": "1984-64-1-a,b",
     "title": "Teapot And Lid, 1887\u20131900",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18802717\/",
     "department_id": "35347497",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": "1900",
     "year_acquired": "1984",
     "decade": null,
-    "woe:country": "23424975",
+    "woe:country_id": "23424975",
     "medium": "Gilt stoneware",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "1984: acquired by Museum (from Gem Antiques)",
     "dimensions": "H x W x D: 13 x 14.5cm (5 1\/8 x 5 11\/16in.)",
+    "dimensions_raw": {
+        "height": [
+            "13.00",
+            "centimeters"
+        ],
+        "width": [
+            "14.50",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase from Decorative Arts Association Acquisition Fund",
     "description": "Doulton Marquetrie ware ceramic teapot and lid. Ribbed ovoid teapot with gingham pattern in black and white over light blue; band crossing body in white and black with blue crosshatch pattern. Gilt-rimmed lid and spout; loop handle with gilt-rimmed teardrop cutouts.",
     "justification": null,
-    "type": {
-        "id": "35293525",
-        "name": "Teapot and lid"
-    },
+    "woe:country": "23424975",
+    "type": "Teapot and lid",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/9793_2cef057de75085ee_b.jpg",
                 "width": 1024,
                 "height": 914,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/9793_2cef057de75085ee_n.jpg",
-                "width": 320,
-                "height": 286,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "9793"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/9793_2cef057de75085ee_z.jpg",
                 "width": 640,
                 "height": 571,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "9793"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/9793_2cef057de75085ee_n.jpg",
+                "width": 320,
+                "height": 286,
+                "is_primary": "1",
+                "image_id": "9793"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/9793_2cef057de75085ee_d.gif",
+                "width": 320,
+                "height": 286,
+                "is_primary": "1",
+                "image_id": "9793"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/9793_2cef057de75085ee_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "9793"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18049365",
             "role_id": "35352247",
             "person_name": "Decorative Arts Association Acquisition Fund",
+            "person_date": "founded 1982, closed September 30, 1998",
             "role_name": "Fund",
+            "role_display_name": "Fund:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049365\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352247\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18538743",
             "role_id": "35352249",
             "person_name": "Gem Antiques",
+            "person_date": "",
             "role_name": "Vendor",
+            "role_display_name": "Purchased from",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18538743\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352249\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18054311",
             "role_id": "35236657",
             "person_name": "Lambeth Art Pottery",
+            "person_date": "founded 1665",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18054311\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         },
@@ -78,7 +110,9 @@
             "person_id": "18043761",
             "role_id": "35236675",
             "person_name": "Doulton Pottery and Porcelain Company",
+            "person_date": "founded 1815",
             "role_name": "For",
+            "role_display_name": "Made for",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18043761\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236675\/"
         }
@@ -88,24 +122,35 @@
     },
     "colors": [
         {
-            "color": "#3a3c42",
-            "closest_css3": "#2f4f4f"
+            "color": "#283039",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#231419",
-            "closest_css3": "#000000"
+            "color": "#554745",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#544542",
-            "closest_css3": "#2f4f4f"
+            "color": "#281d21",
+            "closest_crayola": "#000000",
+            "closest_css3": "#000000",
+            "closest_css4": "#000000"
         },
         {
-            "color": "#baac9e",
-            "closest_css3": "#a9a9a9"
+            "color": "#d2cfc0",
+            "closest_crayola": "#cdc5c2",
+            "closest_css3": "#d3d3d3",
+            "closest_css4": "#d3d3d3"
         },
         {
-            "color": "#3d1b14",
-            "closest_css3": "#000000"
+            "color": "#b8aa9b",
+            "closest_crayola": "#979aaa",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
         }
-    ]
+    ],
+    "woe:country_name": "United Kingdom"
 }

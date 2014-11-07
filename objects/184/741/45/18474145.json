@@ -3,6 +3,7 @@
     "tms:id": "147832",
     "accession_number": "1971-50-179",
     "title": "Sampler, 1721",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18474145\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1721,
     "year_acquired": "1971",
     "decade": null,
-    "woe:country": "23424975",
+    "woe:country_id": "23424975",
     "medium": "Medium: silk embroidery on linen foundation\nTechnique: embroidered on plain weave",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "H x W: 31 x 14 cm (12 3\/16 x 5 1\/2 in.)",
+    "dimensions_raw": {
+        "height": [
+            "31.00",
+            "centimeters"
+        ],
+        "width": [
+            "14.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Bequest of Marian Hague",
     "description": "Sampler with border of a line, repeating triangles and another line with the alphabet and numbers one through nine embroidered below. Another line and triangles with florals and decorative border with text below: THE LORD AND __ WILL BE TENDER FATHER UNTO THEE LOVE GREENWAY 1721. Border of repeated triangles with floral border below and words __ IS AN ORNAMENT BUT VERTUE IS MORE EXLENT. Embroidery of flowers and trees with empty space between another floral embroidery at the bottom.",
     "justification": null,
-    "type": {
-        "id": "35256439",
-        "name": "Sampler"
-    },
+    "woe:country": "23424975",
+    "type": "Sampler",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/47236_ff4bbcb7f1db651b_b.jpg",
                 "width": 476,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/47236_ff4bbcb7f1db651b_n.jpg",
-                "width": 149,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "47236"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/47236_ff4bbcb7f1db651b_z.jpg",
                 "width": 298,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "47236"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/47236_ff4bbcb7f1db651b_n.jpg",
+                "width": 149,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "47236"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/47236_ff4bbcb7f1db651b_d.gif",
+                "width": 149,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "47236"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/47236_ff4bbcb7f1db651b_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "47236"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/75900_5ff1f54ca2c3489d_b.jpg",
                 "width": 663,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/75900_5ff1f54ca2c3489d_n.jpg",
-                "width": 207,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "75900"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/75900_5ff1f54ca2c3489d_z.jpg",
                 "width": 414,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "75900"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/75900_5ff1f54ca2c3489d_n.jpg",
+                "width": 207,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "75900"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/75900_5ff1f54ca2c3489d_d.gif",
+                "width": 207,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "75900"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/75900_5ff1f54ca2c3489d_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "75900"
             }
         }
     ],
@@ -74,9 +117,21 @@
             "person_id": "18052465",
             "role_id": "35351537",
             "person_name": "Marian Hague",
+            "person_date": "",
             "role_name": "Bequestor",
+            "role_display_name": "Bequest of",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18052465\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351537\/"
+        },
+        {
+            "person_id": "68737513",
+            "role_id": "35236583",
+            "person_name": "Jane Greenway",
+            "person_date": "",
+            "role_name": "Embroiderer",
+            "role_display_name": "Embroidered by",
+            "person_url": "http:\/\/collection.cooperhewitt.org\/people\/68737513\/",
+            "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236583\/"
         }
     ],
     "tombstone": {
@@ -84,24 +139,35 @@
     },
     "colors": [
         {
-            "color": "#97904e",
-            "closest_css3": "#cd853f"
+            "color": "#af9163",
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#bdb76b",
+            "closest_css4": "#bdb76b"
         },
         {
-            "color": "#af9061",
-            "closest_css3": "#bdb76b"
+            "color": "#915c45",
+            "closest_crayola": "#a5694f",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         },
         {
-            "color": "#8e5944",
-            "closest_css3": "#a0522d"
+            "color": "#89804a",
+            "closest_crayola": "#85754e",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#94937c",
-            "closest_css3": "#808080"
+            "color": "#a07554",
+            "closest_crayola": "#a5694f",
+            "closest_css3": "#cd5c5c",
+            "closest_css4": "#cd5c5c"
         },
         {
-            "color": "#6e5e43",
-            "closest_css3": "#556b2f"
+            "color": "#96957d",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         }
-    ]
+    ],
+    "woe:country_name": "United Kingdom"
 }

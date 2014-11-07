@@ -3,6 +3,7 @@
     "tms:id": "193412",
     "accession_number": "1991-68-1",
     "title": "Plate, \"\"Fiesta\" Tableware\", 1936",
+    "title_raw": "\"Fiesta\" Tableware",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18637121\/",
     "department_id": "35347497",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1936,
     "year_acquired": "1991",
     "decade": "1930",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Glazed ceramic",
     "markings": "none",
     "signed": null,
     "inscribed": null,
     "provenance": "1991: acquired by Museum",
     "dimensions": "H x diam.: 2 x 24 cm (13\/16 x 9 7\/16 in.)",
+    "dimensions_raw": {
+        "diameter": [
+            "24.00",
+            "centimeters"
+        ],
+        "height": [
+            "2.00",
+            "centimeters"
+        ]
+    },
     "creditline": null,
     "description": "Large dark blue plate.",
     "justification": null,
-    "type": {
-        "id": "35236833",
-        "name": "plate"
-    },
+    "woe:country": "23424977",
+    "type": "plate",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/15697_ad745fd09c9d80b2_b.jpg",
                 "width": 801,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/15697_ad745fd09c9d80b2_n.jpg",
-                "width": 250,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "15697"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/15697_ad745fd09c9d80b2_z.jpg",
                 "width": 500,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "15697"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/15697_ad745fd09c9d80b2_n.jpg",
+                "width": 250,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "15697"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/15697_ad745fd09c9d80b2_d.gif",
+                "width": 250,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "15697"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/15697_ad745fd09c9d80b2_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "15697"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/11322_e4d51b19f9d22342_b.jpg",
                 "width": 1024,
                 "height": 674,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/11322_e4d51b19f9d22342_n.jpg",
-                "width": 320,
-                "height": 211,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "11322"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/11322_e4d51b19f9d22342_z.jpg",
                 "width": 640,
                 "height": 421,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "11322"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/11322_e4d51b19f9d22342_n.jpg",
+                "width": 320,
+                "height": 211,
+                "is_primary": "0",
+                "image_id": "11322"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/11322_e4d51b19f9d22342_d.gif",
+                "width": 320,
+                "height": 211,
+                "is_primary": "0",
+                "image_id": "11322"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/11322_e4d51b19f9d22342_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "11322"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18044329",
             "role_id": "35236657",
             "person_name": "Homer Laughlin Pottery Co.",
+            "person_date": "founded 1871",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18044329\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18044327",
             "role_id": "35236655",
             "person_name": "Frederick Hurten Rhead",
+            "person_date": "American, b. England, 1880\u20131942",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18044327\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
@@ -92,24 +139,35 @@
     },
     "colors": [
         {
-            "color": "#64646e",
-            "closest_css3": "#696969"
+            "color": "#54545e",
+            "closest_crayola": "#4a646c",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#e9d8b3",
-            "closest_css3": "#f5deb3"
+            "color": "#f0e2c0",
+            "closest_crayola": "#eceabe",
+            "closest_css3": "#f5deb3",
+            "closest_css4": "#f5deb3"
         },
         {
-            "color": "#edb344",
-            "closest_css3": "#f4a460"
+            "color": "#edb249",
+            "closest_crayola": "#ffae42",
+            "closest_css3": "#f4a460",
+            "closest_css4": "#f4a460"
         },
         {
-            "color": "#37393f",
-            "closest_css3": "#2f4f4f"
+            "color": "#8c8a92",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#778899",
+            "closest_css4": "#778899"
         },
         {
-            "color": "#8d8c95",
-            "closest_css3": "#778899"
+            "color": "#891d29",
+            "closest_crayola": "#9c2542",
+            "closest_css3": "#a52a2a",
+            "closest_css4": "#a52a2a"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

@@ -2,7 +2,8 @@
     "id": "18498727",
     "tms:id": "160264",
     "accession_number": "1979-89-11",
-    "title": "Textile, 1972",
+    "title": "Textile, \"Pepe\", 1972",
+    "title_raw": "Pepe",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18498727\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1972,
     "year_acquired": "1979",
     "decade": "1970",
-    "woe:country": "23424812",
+    "woe:country_id": "23424812",
     "medium": "Medium: cotton\nTechnique: screen printed on plain weave",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "Marimekko, Inc.; 1979: acquired by Museum",
     "dimensions": "H x W: 321.9 x 136.5 cm (126 3\/4 x 53 3\/4 in.)\nRepeat H: 80 cm (31 1\/2 in.)",
+    "dimensions_raw": {
+        "height": [
+            "80.01",
+            "centimeters"
+        ],
+        "width": [
+            "136.53",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Marimekko, Inc.",
     "description": "Two large billed birds (toucan and cockatoo) on a curving vine in two blues, red, green and yellow on white.",
     "justification": null,
-    "type": {
-        "id": "35251739",
-        "name": "textile"
-    },
+    "woe:country": "23424812",
+    "type": "textile",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/49192_ea7d4195f59a6932_b.jpg",
                 "width": 602,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/49192_ea7d4195f59a6932_n.jpg",
-                "width": 188,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "49192"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/49192_ea7d4195f59a6932_z.jpg",
                 "width": 376,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "49192"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/49192_ea7d4195f59a6932_n.jpg",
+                "width": 188,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "49192"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/49192_ea7d4195f59a6932_d.gif",
+                "width": 188,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "49192"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/49192_ea7d4195f59a6932_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "49192"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/77056_f7d8078f5a56da97_b.jpg",
                 "width": 663,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/77056_f7d8078f5a56da97_n.jpg",
-                "width": 207,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "77056"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/77056_f7d8078f5a56da97_z.jpg",
                 "width": 414,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "77056"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/77056_f7d8078f5a56da97_n.jpg",
+                "width": 207,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "77056"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/77056_f7d8078f5a56da97_d.gif",
+                "width": 207,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "77056"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/77056_f7d8078f5a56da97_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "77056"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18045663",
             "role_id": "35236657",
             "person_name": "Marimekko Oy",
+            "person_date": "Helsinki, Finland, founded 1951",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18045663\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18048723",
             "role_id": "35351535",
             "person_name": "Marimekko, Inc.",
+            "person_date": "1951 \u2013 1979",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18048723\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -90,34 +137,47 @@
             "person_id": "18049849",
             "role_id": "35236655",
             "person_name": "Maija Isola",
+            "person_date": "Finnish, 1927\u20132001",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049849\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
     ],
     "tombstone": {
-        "epitaph": "Textile, 1972. Medium: cotton\nTechnique: screen printed on plain weave. Gift of Marimekko, Inc.. 1979-89-11."
+        "epitaph": "Textile, \"Pepe\", 1972. Medium: cotton\nTechnique: screen printed on plain weave. Gift of Marimekko, Inc.. 1979-89-11."
     },
     "colors": [
         {
-            "color": "#fbec2e",
-            "closest_css3": "#ffff00"
+            "color": "#faeb2d",
+            "closest_crayola": "#fefe22",
+            "closest_css3": "#ffff00",
+            "closest_css4": "#ffff00"
         },
         {
-            "color": "#87b35a",
-            "closest_css3": "#9acd32"
+            "color": "#7aa852",
+            "closest_crayola": "#87a96b",
+            "closest_css3": "#6b8e23",
+            "closest_css4": "#6b8e23"
         },
         {
-            "color": "#25245b",
-            "closest_css3": "#191970"
+            "color": "#252257",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#191970",
+            "closest_css4": "#191970"
         },
         {
-            "color": "#e43b08",
-            "closest_css3": "#ff4500"
+            "color": "#de3507",
+            "closest_crayola": "#ff2b2b",
+            "closest_css3": "#ff4500",
+            "closest_css4": "#ff4500"
         },
         {
-            "color": "#73a9de",
-            "closest_css3": "#6495ed"
+            "color": "#72a9de",
+            "closest_crayola": "#6699cc",
+            "closest_css3": "#6495ed",
+            "closest_css4": "#6495ed"
         }
-    ]
+    ],
+    "woe:country_name": "Finland"
 }

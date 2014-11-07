@@ -3,6 +3,7 @@
     "tms:id": "149019",
     "accession_number": "1972-42-172-a\/c",
     "title": "Frieze, 1790\u20131810",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18476487\/",
     "department_id": "35347503",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": "1810",
     "year_acquired": "1972",
     "decade": null,
-    "woe:country": "23424819",
+    "woe:country_id": "23424819",
     "medium": "Block-printed on paper",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "Josephine Howell; 1972: acquired by Museum",
     "dimensions": "58 x 44 cm (22 13\/16 x 17 5\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "58.00",
+            "centimeters"
+        ],
+        "width": [
+            "44.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Josephine Howell",
     "description": "Central area features urn with four doves sitting on it, underneath floral swags supported by swans, under urn are acanthus rinceau, acanthus banding runs along bottom edge. Printed in yellows and browns on a deep gray ground.",
     "justification": null,
-    "type": {
-        "id": "35259269",
-        "name": "Frieze"
-    },
+    "woe:country": "23424819",
+    "type": "Frieze",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/63404_641b14af85a1ab7c_b.jpg",
                 "width": 1024,
                 "height": 728,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/63404_641b14af85a1ab7c_n.jpg",
-                "width": 320,
-                "height": 227,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "63404"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/63404_641b14af85a1ab7c_z.jpg",
                 "width": 640,
                 "height": 455,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "63404"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/63404_641b14af85a1ab7c_n.jpg",
+                "width": 320,
+                "height": 227,
+                "is_primary": "1",
+                "image_id": "63404"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/63404_641b14af85a1ab7c_d.gif",
+                "width": 320,
+                "height": 227,
+                "is_primary": "1",
+                "image_id": "63404"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/63404_641b14af85a1ab7c_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "63404"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/50978_c62b1f45994be28a_b.jpg",
                 "width": 1024,
                 "height": 766,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/50978_c62b1f45994be28a_n.jpg",
-                "width": 320,
-                "height": 239,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "50978"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/50978_c62b1f45994be28a_z.jpg",
                 "width": 640,
                 "height": 479,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "50978"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/50978_c62b1f45994be28a_n.jpg",
+                "width": 320,
+                "height": 239,
+                "is_primary": "0",
+                "image_id": "50978"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/50978_c62b1f45994be28a_d.gif",
+                "width": 320,
+                "height": 239,
+                "is_primary": "0",
+                "image_id": "50978"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/50978_c62b1f45994be28a_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "50978"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18049387",
             "role_id": "35351535",
             "person_name": "Josephine Howell",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049387\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -85,23 +130,34 @@
     "colors": [
         {
             "color": "#817d69",
-            "closest_css3": "#808080"
+            "closest_crayola": "#8a795d",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#9a6926",
-            "closest_css3": "#a0522d"
+            "color": "#a8865a",
+            "closest_crayola": "#a57164",
+            "closest_css3": "#cd853f",
+            "closest_css4": "#cd853f"
         },
         {
-            "color": "#b18958",
-            "closest_css3": "#cd853f"
+            "color": "#996926",
+            "closest_crayola": "#9c7c38",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         },
         {
-            "color": "#7e5838",
-            "closest_css3": "#a0522d"
+            "color": "#794f31",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#8b4513",
+            "closest_css4": "#8b4513"
         },
         {
-            "color": "#563c2d",
-            "closest_css3": "#556b2f"
+            "color": "#d0c2a0",
+            "closest_crayola": "#e7c697",
+            "closest_css3": "#d2b48c",
+            "closest_css4": "#d2b48c"
         }
-    ]
+    ],
+    "woe:country_name": "France"
 }

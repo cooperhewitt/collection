@@ -3,6 +3,7 @@
     "tms:id": "28433",
     "accession_number": "1921-6-259-6",
     "title": "Print, \"Design for Candle Holder\", 1751",
+    "title_raw": "Design for Candle Holder",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18233117\/",
     "department_id": "35347493",
     "period_id": "35417101",
@@ -13,39 +14,64 @@
     "year_end": 1751,
     "year_acquired": "1921",
     "decade": null,
-    "woe:country": "23424819",
+    "woe:country_id": "23424819",
     "medium": "Engraving on paper",
     "markings": null,
     "signed": null,
     "inscribed": "Inscribed on print, upper right: VI; lower left: Pr. Germain in C.P.R.; lower right: j.j. Pasquier s.",
     "provenance": "From the Collection of L\u00e9on Decloux",
     "dimensions": "Sheet: 24.8 x 18.3 cm (9 3\/4 x 7 3\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "24.80",
+            "centimeters"
+        ],
+        "width": [
+            "18.30",
+            "centimeters"
+        ]
+    },
     "creditline": "Purchased for the Museum by the Advisory Council",
     "description": "Rocaille design for candle holder, with seven candles.",
     "justification": null,
-    "type": {
-        "id": "35236873",
-        "name": "Print"
-    },
+    "woe:country": "23424819",
+    "type": "Print",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/23915_32c18b0f2a7d9818_b.jpg",
                 "width": 741,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/23915_32c18b0f2a7d9818_n.jpg",
-                "width": 232,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "23915"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/23915_32c18b0f2a7d9818_z.jpg",
                 "width": 463,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "23915"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/23915_32c18b0f2a7d9818_n.jpg",
+                "width": 232,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "23915"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/23915_32c18b0f2a7d9818_d.gif",
+                "width": 232,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "23915"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/23915_32c18b0f2a7d9818_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "23915"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18049621",
             "role_id": "35351535",
             "person_name": "Advisory Council",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049621\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18060077",
             "role_id": "35236743",
             "person_name": "Jean Jacques Pasquier",
+            "person_date": "French, died 1785",
             "role_name": "Engraver",
+            "role_display_name": "Engraved by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18060077\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236743\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18060075",
             "role_id": "35236655",
             "person_name": "Pierre Germain",
+            "person_date": "French, 1716\u201383",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18060075\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
@@ -80,8 +112,11 @@
     },
     "colors": [
         {
-            "color": "#cacaca",
-            "closest_css3": "#d3d3d3"
+            "color": "#bfbfbf",
+            "closest_crayola": "#cdc5c2",
+            "closest_css3": "#c0c0c0",
+            "closest_css4": "#c0c0c0"
         }
-    ]
+    ],
+    "woe:country_name": "France"
 }

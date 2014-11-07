@@ -3,6 +3,7 @@
     "tms:id": "156678",
     "accession_number": "1976-98-15",
     "title": "Textile, 1930s",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18491595\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1939,
     "year_acquired": "1976",
     "decade": "1930",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Medium: cotton\nTechnique: hand screen printed on plain weave",
     "markings": null,
     "signed": null,
     "inscribed": "In purple crayon at bottom left corner: Designed by A. Hass Age 13, Instructor J. Rohr, Federal Art Project, Educational Alliance; screen printed at bottom: Designed by ____ Age ____ Instructor A. Hass, Federal Art Project, The Educational Alliance",
     "provenance": null,
     "dimensions": "H x W: 83.8 x 87.6 cm (33 in. x 34 1\/2 in.)\nRepeat H x W: 15.3 x 38 cm (6 x 14 7\/8 in.)",
+    "dimensions_raw": {
+        "height": [
+            "83.82",
+            "centimeters"
+        ],
+        "width": [
+            "87.63",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of the Estate of Ella Ostrowsky",
     "description": "Textile printed with diagonal repeat (horizontal and vertical half drop) design of bridge over water showing boats and buildings. Printed in grey, pink, yellow, green, and two shades of blue.",
     "justification": null,
-    "type": {
-        "id": "35251739",
-        "name": "textile"
-    },
+    "woe:country": "23424977",
+    "type": "textile",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/45298_b5219ccc1295d803_b.jpg",
                 "width": 1024,
                 "height": 977,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/45298_b5219ccc1295d803_n.jpg",
-                "width": 320,
-                "height": 305,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "45298"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/45298_b5219ccc1295d803_z.jpg",
                 "width": 640,
                 "height": 611,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "45298"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/45298_b5219ccc1295d803_n.jpg",
+                "width": 320,
+                "height": 305,
+                "is_primary": "1",
+                "image_id": "45298"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/45298_b5219ccc1295d803_d.gif",
+                "width": 320,
+                "height": 305,
+                "is_primary": "1",
+                "image_id": "45298"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/45298_b5219ccc1295d803_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "45298"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/76898_82ae83c0650210ed_b.jpg",
                 "width": 1024,
                 "height": 700,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/76898_82ae83c0650210ed_n.jpg",
-                "width": 320,
-                "height": 219,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "76898"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/76898_82ae83c0650210ed_z.jpg",
                 "width": 640,
                 "height": 438,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "76898"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/76898_82ae83c0650210ed_n.jpg",
+                "width": 320,
+                "height": 219,
+                "is_primary": "0",
+                "image_id": "76898"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/76898_82ae83c0650210ed_d.gif",
+                "width": 320,
+                "height": 219,
+                "is_primary": "0",
+                "image_id": "76898"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/76898_82ae83c0650210ed_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "76898"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18053743",
             "role_id": "35236675",
             "person_name": "The Works Progress Administration, Federal Art Project",
+            "person_date": "",
             "role_name": "For",
+            "role_display_name": "Made for",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18053743\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236675\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18049575",
             "role_id": "35236793",
             "person_name": "The Educational Alliance",
+            "person_date": "",
             "role_name": "Student at",
+            "role_display_name": "Student at",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049575\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236793\/"
         },
@@ -90,7 +137,9 @@
             "person_id": "34624801",
             "role_id": "35236685",
             "person_name": "A. Hass",
+            "person_date": "American",
             "role_name": "Maker",
+            "role_display_name": "Made by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/34624801\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236685\/"
         },
@@ -98,7 +147,9 @@
             "person_id": "18537843",
             "role_id": "35351535",
             "person_name": "Estate of Ella Ostrowsky",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18537843\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -108,24 +159,35 @@
     },
     "colors": [
         {
-            "color": "#e3d3af",
-            "closest_css3": "#f5deb3"
+            "color": "#e2d2ae",
+            "closest_crayola": "#efcdb8",
+            "closest_css3": "#f5deb3",
+            "closest_css4": "#f5deb3"
         },
         {
-            "color": "#e2b438",
-            "closest_css3": "#daa520"
+            "color": "#e1b333",
+            "closest_crayola": "#ffae42",
+            "closest_css3": "#daa520",
+            "closest_css4": "#daa520"
         },
         {
-            "color": "#9d9638",
-            "closest_css3": "#cd853f"
+            "color": "#949137",
+            "closest_crayola": "#9c7c38",
+            "closest_css3": "#6b8e23",
+            "closest_css4": "#6b8e23"
         },
         {
-            "color": "#8ba9ac",
-            "closest_css3": "#a9a9a9"
+            "color": "#8eabad",
+            "closest_crayola": "#979aaa",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
         },
         {
-            "color": "#d07951",
-            "closest_css3": "#cd853f"
+            "color": "#67777f",
+            "closest_crayola": "#757575",
+            "closest_css3": "#708090",
+            "closest_css4": "#708090"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

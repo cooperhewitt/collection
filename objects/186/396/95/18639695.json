@@ -3,6 +3,7 @@
     "tms:id": "194711",
     "accession_number": "1992-183-3",
     "title": "Drawing, \"Design for Tube Radio with Center Dial, Crosley Radio Corporation\", ca. 1950",
+    "title_raw": "Design for Tube Radio with Center Dial, Crosley Radio Corporation",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18639695\/",
     "department_id": "35347493",
     "period_id": "35435429",
@@ -13,39 +14,64 @@
     "year_end": 1960,
     "year_acquired": "1992",
     "decade": "1940",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Pastel, some stencilled, white gouache, on tracing paper",
     "markings": null,
     "signed": null,
     "inscribed": "Inscribed in black ink at lower center: A",
     "provenance": "Norman Brosterman, New York, NY",
     "dimensions": "39.1 x 60.4 cm (15 3\/8 x 23 3\/4 in.)",
+    "dimensions_raw": {
+        "height": [
+            "39.10",
+            "centimeters"
+        ],
+        "width": [
+            "60.40",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase through the gift of Mrs. Edward C. Post",
     "description": "White molded case vacuum tube radio featuring center pointer dial for tuner, flanked by volume and tuning control knobs.  Design is reminiscent of automobile dashboards of the era.  Knobs, center dial pointer and bezel feature chrome-like surface.  Dial appears to be clear lucite with reverse painting.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424977",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/39376_2269ebe1aef6eebf_b.jpg",
                 "width": 1024,
                 "height": 664,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/39376_2269ebe1aef6eebf_n.jpg",
-                "width": 320,
-                "height": 207,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "39376"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/39376_2269ebe1aef6eebf_z.jpg",
                 "width": 640,
                 "height": 415,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "39376"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/39376_2269ebe1aef6eebf_n.jpg",
+                "width": 320,
+                "height": 207,
+                "is_primary": "1",
+                "image_id": "39376"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/39376_2269ebe1aef6eebf_d.gif",
+                "width": 320,
+                "height": 207,
+                "is_primary": "1",
+                "image_id": "39376"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/39376_2269ebe1aef6eebf_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "39376"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18041143",
             "role_id": "35352249",
             "person_name": "Norman Brosterman",
+            "person_date": "",
             "role_name": "Vendor",
+            "role_display_name": "Purchased from",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041143\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352249\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18048577",
             "role_id": "35236655",
             "person_name": "Anders-Orr & Associates,Inc",
+            "person_date": "",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18048577\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18048255",
             "role_id": "35352245",
             "person_name": "Dr. Gail Davidson",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18048255\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -78,7 +110,9 @@
             "person_id": "18047453",
             "role_id": "35352245",
             "person_name": "Elizabeth Horwitz Marcus",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047453\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -86,7 +120,9 @@
             "person_id": "18043313",
             "role_id": "35236657",
             "person_name": "Crosley Radio Corporation",
+            "person_date": "",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18043313\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         },
@@ -94,7 +130,9 @@
             "person_id": "18048577",
             "role_id": "35236703",
             "person_name": "Anders-Orr & Associates,Inc",
+            "person_date": "",
             "role_name": "Office of",
+            "role_display_name": "Office of",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18048577\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236703\/"
         }
@@ -104,16 +142,29 @@
     },
     "colors": [
         {
-            "color": "#b8b299",
-            "closest_css3": "#a9a9a9"
+            "color": "#c4bda2",
+            "closest_crayola": "#cdc5c2",
+            "closest_css3": "#d2b48c",
+            "closest_css4": "#d2b48c"
         },
         {
-            "color": "#8d8d83",
-            "closest_css3": "#808080"
+            "color": "#8e8e83",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#756851",
-            "closest_css3": "#696969"
+            "color": "#a49372",
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
+        },
+        {
+            "color": "#7c6e56",
+            "closest_crayola": "#85754e",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

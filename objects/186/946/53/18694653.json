@@ -3,6 +3,7 @@
     "tms:id": "222881",
     "accession_number": "2001-20-14",
     "title": "Plate, ca. 1930",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18694653\/",
     "department_id": "35347497",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1935,
     "year_acquired": "2001",
     "decade": "1920",
-    "woe:country": "23424829",
+    "woe:country_id": "23424829",
     "medium": "Glazed earthenware",
     "markings": "On underside, stamped in black: MAJOLIKA, SMF [conjoined] in shield, SCHRAMBERG, Handgemalt.",
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "1.8h x 19.7 diameter cm (11\/16 x 7 3\/4 in.)",
+    "dimensions_raw": {
+        "height": [
+            "1.80",
+            "centimeters"
+        ],
+        "width": [
+            "19.70",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Torsten Br\u00f6han",
     "description": "Circular form with narrow rim.  Brushed underglaze decoration of light brown field with three overlapping squares in dark brown, orange, and yellow; thin dark brown band around rim.",
     "justification": null,
-    "type": {
-        "id": "35236833",
-        "name": "plate"
-    },
+    "woe:country": "23424829",
+    "type": "plate",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/14363_0ddfacbdf2377f5d_b.jpg",
                 "width": 1024,
                 "height": 687,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/14363_0ddfacbdf2377f5d_n.jpg",
-                "width": 320,
-                "height": 215,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "14363"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/14363_0ddfacbdf2377f5d_z.jpg",
                 "width": 640,
                 "height": 429,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "14363"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/14363_0ddfacbdf2377f5d_n.jpg",
+                "width": 320,
+                "height": 215,
+                "is_primary": "1",
+                "image_id": "14363"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/14363_0ddfacbdf2377f5d_d.gif",
+                "width": 320,
+                "height": 215,
+                "is_primary": "1",
+                "image_id": "14363"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/14363_0ddfacbdf2377f5d_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "14363"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/14364_050843c27f8854b5_b.jpg",
                 "width": 1024,
                 "height": 956,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/14364_050843c27f8854b5_n.jpg",
-                "width": 320,
-                "height": 299,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "14364"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/14364_050843c27f8854b5_z.jpg",
                 "width": 640,
                 "height": 597,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "14364"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/14364_050843c27f8854b5_n.jpg",
+                "width": 320,
+                "height": 299,
+                "is_primary": "0",
+                "image_id": "14364"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/14364_050843c27f8854b5_d.gif",
+                "width": 320,
+                "height": 299,
+                "is_primary": "0",
+                "image_id": "14364"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/14364_050843c27f8854b5_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "14364"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18049133",
             "role_id": "35236657",
             "person_name": "Schramberg",
+            "person_date": "",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049133\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18043295",
             "role_id": "35236655",
             "person_name": "Eva Zeisel",
+            "person_date": "American, b. Hungary, 1906\u20132011",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18043295\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
@@ -92,24 +139,35 @@
     },
     "colors": [
         {
-            "color": "#a74d3b",
-            "closest_css3": "#a0522d"
+            "color": "#a84e3c",
+            "closest_crayola": "#bf4f51",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         },
         {
-            "color": "#ae6e60",
-            "closest_css3": "#cd5c5c"
+            "color": "#ae6f60",
+            "closest_crayola": "#a57164",
+            "closest_css3": "#cd5c5c",
+            "closest_css4": "#cd5c5c"
         },
         {
-            "color": "#c97e37",
-            "closest_css3": "#cd853f"
+            "color": "#ca8037",
+            "closest_crayola": "#d68a59",
+            "closest_css3": "#cd853f",
+            "closest_css4": "#cd853f"
         },
         {
-            "color": "#d3bb68",
-            "closest_css3": "#bdb76b"
+            "color": "#d7bd63",
+            "closest_crayola": "#bab86c",
+            "closest_css3": "#bdb76b",
+            "closest_css4": "#bdb76b"
         },
         {
-            "color": "#4b342e",
-            "closest_css3": "#2f4f4f"
+            "color": "#4e352f",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         }
-    ]
+    ],
+    "woe:country_name": "Germany"
 }

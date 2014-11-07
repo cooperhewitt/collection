@@ -2,7 +2,8 @@
     "id": "18628835",
     "tms:id": "189257",
     "accession_number": "1988-58-6",
-    "title": "Highball Glass, \"\"Knickerbocker\"\", 1939",
+    "title": "Highball Glass, \"Knickerbocker\", 1939",
+    "title_raw": "\"Knickerbocker\"",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18628835\/",
     "department_id": "35347497",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1939,
     "year_acquired": "1988",
     "decade": "1930",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Glass",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "1988: acquired by Museum (from Historical Design Inc.)",
     "dimensions": "H x diam.: 8.3 x 5.7 cm (3 1\/4 x 2 1\/4 in.)",
+    "dimensions_raw": {
+        "diameter": [
+            "5.70",
+            "centimeters"
+        ],
+        "height": [
+            "8.30",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase from Sir Arthur Bryan Fund",
     "description": "Clear glass with rounded base on a solid glass square foot.",
     "justification": null,
-    "type": {
-        "id": "35294173",
-        "name": "Highball glass"
-    },
+    "woe:country": "23424977",
+    "type": "Highball glass",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/45533_dfa51019ad8c7948_b.jpg",
                 "width": 1024,
                 "height": 744,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/45533_dfa51019ad8c7948_n.jpg",
-                "width": 320,
-                "height": 232,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "45533"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/45533_dfa51019ad8c7948_z.jpg",
                 "width": 640,
                 "height": 465,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "45533"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/45533_dfa51019ad8c7948_n.jpg",
+                "width": 320,
+                "height": 232,
+                "is_primary": "1",
+                "image_id": "45533"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/45533_dfa51019ad8c7948_d.gif",
+                "width": 320,
+                "height": 232,
+                "is_primary": "1",
+                "image_id": "45533"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/45533_dfa51019ad8c7948_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "45533"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18057579",
             "role_id": "35352247",
             "person_name": "Sir Arthur Bryan Fund",
+            "person_date": "",
             "role_name": "Fund",
+            "role_display_name": "Fund:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18057579\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352247\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18041381",
             "role_id": "35352249",
             "person_name": "Historical Design Inc.",
+            "person_date": "",
             "role_name": "Vendor",
+            "role_display_name": "Purchased from",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041381\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352249\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18536949",
             "role_id": "35236657",
             "person_name": "Libbey Glass Company",
+            "person_date": "1818\u2013",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18536949\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         },
@@ -78,18 +110,23 @@
             "person_id": "18053975",
             "role_id": "35236655",
             "person_name": "Walter Dorwin Teague",
+            "person_date": "American, 1883 \u2013 1960",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18053975\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
     ],
     "tombstone": {
-        "epitaph": "Highball Glass, \"\"Knickerbocker\"\", 1939. Glass. Museum purchase from Sir Arthur Bryan Fund. 1988-58-6."
+        "epitaph": "Highball Glass, \"Knickerbocker\", 1939. Glass. Museum purchase from Sir Arthur Bryan Fund. 1988-58-6."
     },
     "colors": [
         {
             "color": "#787880",
-            "closest_css3": "#808080"
+            "closest_crayola": "#757575",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

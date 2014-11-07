@@ -3,6 +3,7 @@
     "tms:id": "183134",
     "accession_number": "1985-84-1",
     "title": "Textile, \"Modern Classic\", 1946\u201347",
+    "title_raw": "Modern Classic",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18805681\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1947,
     "year_acquired": "1985",
     "decade": "1940",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Medium: linen, rayon\nTechnique: hand linoleum block printed",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "Warp x Weft: 225 x 129.5 cm (7 ft. 4 9\/16 in. x 51 in.)",
+    "dimensions_raw": {
+        "warp": [
+            "225.00",
+            "centimeters"
+        ],
+        "weft": [
+            "129.50",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Henry C. and Eleanor Kluck",
     "description": "Scrolls, foliage and tilted pillar in black and gold.",
     "justification": null,
-    "type": {
-        "id": "35251739",
-        "name": "textile"
-    },
+    "woe:country": "23424977",
+    "type": "textile",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/51103_79e9ed977c621213_b.jpg",
                 "width": 767,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/51103_79e9ed977c621213_n.jpg",
-                "width": 240,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "51103"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/51103_79e9ed977c621213_z.jpg",
                 "width": 480,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "51103"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/51103_79e9ed977c621213_n.jpg",
+                "width": 240,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "51103"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/51103_79e9ed977c621213_d.gif",
+                "width": 240,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "51103"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/51103_79e9ed977c621213_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "51103"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18056499",
             "role_id": "35351535",
             "person_name": "Henry C. Kluck",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18056499\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18056501",
             "role_id": "35351535",
             "person_name": "Eleanor Kluck",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18056501\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18048381",
             "role_id": "35352245",
             "person_name": "Ysabella Hincapie Gara",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18048381\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -78,7 +110,9 @@
             "person_id": "18045697",
             "role_id": "35236655",
             "person_name": "Elenhank",
+            "person_date": "1948 \u2013 1980",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18045697\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
@@ -88,20 +122,35 @@
     },
     "colors": [
         {
-            "color": "#bd974d",
-            "closest_css3": "#cd853f"
+            "color": "#be984d",
+            "closest_crayola": "#d68a59",
+            "closest_css3": "#cd853f",
+            "closest_css4": "#cd853f"
         },
         {
-            "color": "#d6c092",
-            "closest_css3": "#d2b48c"
+            "color": "#d1b986",
+            "closest_crayola": "#deaa88",
+            "closest_css3": "#d2b48c",
+            "closest_css4": "#d2b48c"
         },
         {
-            "color": "#666f5f",
-            "closest_css3": "#696969"
+            "color": "#546358",
+            "closest_crayola": "#4a646c",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#848877",
-            "closest_css3": "#808080"
+            "color": "#a1a190",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
+        },
+        {
+            "color": "#818169",
+            "closest_crayola": "#8a795d",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

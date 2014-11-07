@@ -3,6 +3,7 @@
     "tms:id": "148413",
     "accession_number": "1971-58-9-a,b",
     "title": "Sidewall, 1890\u20131920",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18475301\/",
     "department_id": "35347503",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1920,
     "year_acquired": "1971",
     "decade": null,
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Machine-printed on paper",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "96 x 55 cm (37 13\/16 x 21 5\/8 in.)",
+    "dimensions_raw": {
+        "height": [
+            "96.00",
+            "centimeters"
+        ],
+        "width": [
+            "55.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Philadelphia Museum of Art",
     "description": "Large, suspended purple flowers on green trellis, printed on light yellow ground.",
     "justification": null,
-    "type": {
-        "id": "35256475",
-        "name": "Sidewall"
-    },
+    "woe:country": "23424977",
+    "type": "Sidewall",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/22063_3ff762ebfd567fc2_b.jpg",
                 "width": 836,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/22063_3ff762ebfd567fc2_n.jpg",
-                "width": 261,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "22063"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/22063_3ff762ebfd567fc2_z.jpg",
                 "width": 523,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "22063"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/22063_3ff762ebfd567fc2_n.jpg",
+                "width": 261,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "22063"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/22063_3ff762ebfd567fc2_d.gif",
+                "width": 261,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "22063"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/22063_3ff762ebfd567fc2_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "22063"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/22065_d13e926009d00ff2_b.jpg",
                 "width": 891,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/22065_d13e926009d00ff2_n.jpg",
-                "width": 279,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "22065"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/22065_d13e926009d00ff2_z.jpg",
                 "width": 557,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "22065"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/22065_d13e926009d00ff2_n.jpg",
+                "width": 279,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "22065"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/22065_d13e926009d00ff2_d.gif",
+                "width": 279,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "22065"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/22065_d13e926009d00ff2_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "22065"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18047493",
             "role_id": "35351535",
             "person_name": "Philadelphia Museum of Art",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047493\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18046415",
             "role_id": "35236657",
             "person_name": "M.H. Birge & Sons Co.",
+            "person_date": "1834",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18046415\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         }
@@ -92,20 +139,29 @@
     },
     "colors": [
         {
-            "color": "#89926c",
-            "closest_css3": "#808080"
+            "color": "#808964",
+            "closest_crayola": "#8a795d",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#4c7551",
-            "closest_css3": "#556b2f"
+            "color": "#3e734f",
+            "closest_crayola": "#4a646c",
+            "closest_css3": "#2e8b57",
+            "closest_css4": "#2e8b57"
         },
         {
-            "color": "#153b23",
-            "closest_css3": "#2f4f4f"
+            "color": "#295537",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#639569",
-            "closest_css3": "#808080"
+            "color": "#0e2917",
+            "closest_crayola": "#000000",
+            "closest_css3": "#000000",
+            "closest_css4": "#000000"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

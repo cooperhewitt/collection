@@ -3,6 +3,7 @@
     "tms:id": "202095",
     "accession_number": "1996-89-1",
     "title": "Book Cover, \"The Sonnets to Orpheus\", ca. 1983",
+    "title_raw": "The Sonnets to Orpheus",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18654269\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1993,
     "year_acquired": "1996",
     "decade": "1970",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Offset lithography on cream wove paper",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "Carin Goldberg",
     "dimensions": "24.6 x 14 cm (9 11\/16 x 5 1\/2 in.)",
+    "dimensions_raw": {
+        "height": [
+            "24.60",
+            "centimeters"
+        ],
+        "width": [
+            "14.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Carin Goldberg",
     "description": "Book cover has text in black: THE \/ SONNETS \/ TO \/ ORPHEUS \/ R.A.INER \/ M.A.R.I.A \/ RILKE \/ TRANSLATED BY \/ STEPHEN MITCHELL on background of violet with stylized waves.",
     "justification": null,
-    "type": {
-        "id": "35249845",
-        "name": "book cover"
-    },
+    "woe:country": "23424977",
+    "type": "book cover",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/12830_1797b4c727c2abad_b.jpg",
                 "width": 616,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/12830_1797b4c727c2abad_n.jpg",
-                "width": 192,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "12830"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/12830_1797b4c727c2abad_z.jpg",
                 "width": 385,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "12830"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/12830_1797b4c727c2abad_n.jpg",
+                "width": 192,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "12830"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/12830_1797b4c727c2abad_d.gif",
+                "width": 192,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "12830"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/12830_1797b4c727c2abad_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "12830"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18043661",
             "role_id": "35351535",
             "person_name": "Carin Goldberg",
+            "person_date": "American, b. 1953",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18043661\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18043661",
             "role_id": "35236655",
             "person_name": "Carin Goldberg",
+            "person_date": "American, b. 1953",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18043661\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
@@ -72,16 +102,35 @@
     },
     "colors": [
         {
-            "color": "#c8cad6",
-            "closest_css3": "#d3d3d3"
+            "color": "#2a293a",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#2f2e3c",
-            "closest_css3": "#2f4f4f"
+            "color": "#e3d6d4",
+            "closest_crayola": "#dbd7d2",
+            "closest_css3": "#dcdcdc",
+            "closest_css4": "#dcdcdc"
         },
         {
-            "color": "#524b4f",
-            "closest_css3": "#2f4f4f"
+            "color": "#bdbfcb",
+            "closest_crayola": "#b0b7c6",
+            "closest_css3": "#c0c0c0",
+            "closest_css4": "#c0c0c0"
+        },
+        {
+            "color": "#484247",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
+        },
+        {
+            "color": "#7f757a",
+            "closest_crayola": "#757575",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

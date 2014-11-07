@@ -3,6 +3,7 @@
     "tms:id": "193948",
     "accession_number": "1991-90-6",
     "title": "Textile, ca. 1960",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18638177\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1985,
     "year_acquired": "1991",
     "decade": "1930",
-    "woe:country": "23424853",
+    "woe:country_id": "23424853",
     "medium": "Medium: linen\nTechnique: screen printed on plain weave, yarns of unequal thickness",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "H x W: 482 x 134.9 cm (189 3\/4 x 53 1\/8 in.)\nRepeat H: 63.5 cm (25 in.)",
+    "dimensions_raw": {
+        "height": [
+            "481.97",
+            "centimeters"
+        ],
+        "width": [
+            "134.94",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase through gift of Marion K. Morgan and from General Acquisitions Endowment, Sarah Cooper-Hewitt, and Eleanor G. Hewitt Funds",
     "description": "Length of printed linen with a black and white checkerboard, each square with a simply-drawn daisy-type flower in turquoise, purple or pink.",
     "justification": null,
-    "type": {
-        "id": "35251739",
-        "name": "textile"
-    },
+    "woe:country": "23424853",
+    "type": "textile",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/42778_9e52b94145c6b896_b.jpg",
                 "width": 571,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/42778_9e52b94145c6b896_n.jpg",
-                "width": 178,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "42778"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/42778_9e52b94145c6b896_z.jpg",
                 "width": 357,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "42778"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/42778_9e52b94145c6b896_n.jpg",
+                "width": 178,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "42778"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/42778_9e52b94145c6b896_d.gif",
+                "width": 178,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "42778"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/42778_9e52b94145c6b896_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "42778"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/78819_2861f8d5869aec93_b.jpg",
                 "width": 663,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/78819_2861f8d5869aec93_n.jpg",
-                "width": 207,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "78819"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/78819_2861f8d5869aec93_z.jpg",
                 "width": 414,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "78819"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/78819_2861f8d5869aec93_n.jpg",
+                "width": 207,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "78819"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/78819_2861f8d5869aec93_d.gif",
+                "width": 207,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "78819"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/78819_2861f8d5869aec93_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "78819"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18047459",
             "role_id": "35352245",
             "person_name": "Gillian Moss",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047459\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18048535",
             "role_id": "35352247",
             "person_name": "General Acquisitions Endowment",
+            "person_date": "",
             "role_name": "Fund",
+            "role_display_name": "Fund:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18048535\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352247\/"
         }
@@ -92,24 +139,35 @@
     },
     "colors": [
         {
-            "color": "#2d2b2e",
-            "closest_css3": "#2f4f4f"
+            "color": "#2f2d30",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#8371b3",
-            "closest_css3": "#778899"
+            "color": "#507490",
+            "closest_crayola": "#4a646c",
+            "closest_css3": "#708090",
+            "closest_css4": "#708090"
         },
         {
-            "color": "#4a6d8c",
-            "closest_css3": "#708090"
+            "color": "#8c78b8",
+            "closest_crayola": "#926eae",
+            "closest_css3": "#9370d8",
+            "closest_css4": "#9370db"
         },
         {
-            "color": "#6a9ab0",
-            "closest_css3": "#5f9ea0"
+            "color": "#699ab0",
+            "closest_crayola": "#6699cc",
+            "closest_css3": "#5f9ea0",
+            "closest_css4": "#5f9ea0"
         },
         {
-            "color": "#4a415e",
-            "closest_css3": "#2f4f4f"
+            "color": "#4b9792",
+            "closest_crayola": "#3bb08f",
+            "closest_css3": "#5f9ea0",
+            "closest_css4": "#5f9ea0"
         }
-    ]
+    ],
+    "woe:country_name": "Italy"
 }

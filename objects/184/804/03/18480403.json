@@ -3,6 +3,7 @@
     "tms:id": "151034",
     "accession_number": "1973-29-23",
     "title": "Textile, 19th century",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18480403\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": null,
     "year_acquired": "1973",
     "decade": null,
-    "woe:country": "23424856",
+    "woe:country_id": "23424856",
     "medium": "Medium: cotton\nTechnique: stenciled resist (katazome) on plain weave",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "H x W: 152.1 x 34.3 cm (59 7\/8 x 13 1\/2 in.)\nRepeat H: 19 cm (7 1\/2 in.)",
+    "dimensions_raw": {
+        "height": [
+            "19.00",
+            "centimeters"
+        ],
+        "width": [
+            "34.30",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Elinor Merrell",
     "description": "Length of stencil resist (katazome) with ivory pattern on blue ground. Zigzag lattice enclosing floral forms.",
     "justification": null,
-    "type": {
-        "id": "35251739",
-        "name": "textile"
-    },
+    "woe:country": "23424856",
+    "type": "textile",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/41353_0c622b76c6e89242_b.jpg",
                 "width": 249,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/41353_0c622b76c6e89242_n.jpg",
-                "width": 78,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "41353"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/41353_0c622b76c6e89242_z.jpg",
                 "width": 156,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "41353"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/41353_0c622b76c6e89242_n.jpg",
+                "width": 78,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "41353"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/41353_0c622b76c6e89242_d.gif",
+                "width": 78,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "41353"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/41353_0c622b76c6e89242_sq.jpg",
+                "width": 249,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "41353"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/28591_b4583812d2c5c762_b.jpg",
                 "width": 666,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/28591_b4583812d2c5c762_n.jpg",
-                "width": 208,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "28591"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/28591_b4583812d2c5c762_z.jpg",
                 "width": 416,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "28591"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/28591_b4583812d2c5c762_n.jpg",
+                "width": 208,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "28591"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/28591_b4583812d2c5c762_d.gif",
+                "width": 208,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "28591"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/28591_b4583812d2c5c762_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "28591"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18049427",
             "role_id": "35351535",
             "person_name": "Elinor Merrell",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049427\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -84,16 +129,29 @@
     },
     "colors": [
         {
-            "color": "#1d242e",
-            "closest_css3": "#2f4f4f"
+            "color": "#1f2631",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#3f4a53",
-            "closest_css3": "#2f4f4f"
+            "color": "#3e4851",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#5f676c",
-            "closest_css3": "#696969"
+            "color": "#6e7276",
+            "closest_crayola": "#757575",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
+        },
+        {
+            "color": "#c7cad2",
+            "closest_crayola": "#cdc5c2",
+            "closest_css3": "#d3d3d3",
+            "closest_css4": "#d3d3d3"
         }
-    ]
+    ],
+    "woe:country_name": "Japan"
 }

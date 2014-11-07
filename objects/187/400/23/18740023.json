@@ -3,6 +3,7 @@
     "tms:id": "246251",
     "accession_number": "2010-12-11",
     "title": "Drawing, \"Design for Fork and Knife:  Web Pattern\", 1980s",
+    "title_raw": "Design for Fork and Knife:  Web Pattern",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18740023\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1989,
     "year_acquired": "2010",
     "decade": "1980",
-    "woe:country": null,
+    "woe:country_id": null,
     "medium": "Graphite on heavy tracing paper",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "Ward Bennett, by gift to David McCorkle, New York",
     "dimensions": "20.5 x 27 cm (8 1\/16 x 10 5\/8 in.)",
+    "dimensions_raw": {
+        "height": [
+            "20.50",
+            "centimeters"
+        ],
+        "width": [
+            "27.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of David McCorkle and Ernest Hood",
     "description": null,
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": null,
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/33293_deb9382d4b774c61_b.jpg",
                 "width": 635,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/33293_deb9382d4b774c61_n.jpg",
-                "width": 198,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "33293"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/33293_deb9382d4b774c61_z.jpg",
                 "width": 397,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "33293"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/33293_deb9382d4b774c61_n.jpg",
+                "width": 198,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "33293"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/33293_deb9382d4b774c61_d.gif",
+                "width": 198,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "33293"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/33293_deb9382d4b774c61_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "33293"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18044031",
             "role_id": "35236657",
             "person_name": "Sasaki",
+            "person_date": "",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18044031\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18044277",
             "role_id": "35236655",
             "person_name": "Ward Bennett",
+            "person_date": "American, 1917 \u2013 2003",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18044277\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18062983",
             "role_id": "35351535",
             "person_name": "David McCorkle",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18062983\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -78,7 +110,9 @@
             "person_id": "18062981",
             "role_id": "51571159",
             "person_name": "Ernest Hood",
+            "person_date": "",
             "role_name": "Agent",
+            "role_display_name": "Agent:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18062981\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/51571159\/"
         }
@@ -88,8 +122,10 @@
     },
     "colors": [
         {
-            "color": "#ffffff",
-            "closest_css3": "#ffffff"
+            "color": "#8f8f92",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#778899",
+            "closest_css4": "#778899"
         }
     ]
 }

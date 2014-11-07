@@ -2,7 +2,8 @@
     "id": "18170937",
     "tms:id": "18266",
     "accession_number": "1911-28-267",
-    "title": "Drawing, 1780",
+    "title": "Drawing, \"Six Trophies composed of Military Attributes\", 1780",
+    "title_raw": "Six Trophies composed of Military Attributes",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18170937\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1780,
     "year_acquired": "1911",
     "decade": null,
-    "woe:country": "23424819",
+    "woe:country_id": "23424819",
     "medium": "Graphite, pen and ink, brush and gouache on paper",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "L\u00e9on Decloux; 1911: acquired by Museum",
     "dimensions": "26.9 x 20.3 cm (10 9\/16 in. x 8 in.)",
+    "dimensions_raw": {
+        "height": [
+            "26.90",
+            "centimeters"
+        ],
+        "width": [
+            "20.30",
+            "centimeters"
+        ]
+    },
     "creditline": "Purchased for the Museum by the Advisory Council",
     "description": "Two columns of six military trophies. Upper left: drums and crossed banners, fasces and pickaxe; upper right: soldier\u2019s upper body armor, axe, and sword; center left: cannon, spiked staff; center right: cannon balls, arrow, basket with scythe; lower left: basket, musket, banners, helmet; lower right: drum, shield, and banners.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424819",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/51171_4d11913c63bbe381_b.jpg",
                 "width": 781,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/51171_4d11913c63bbe381_n.jpg",
-                "width": 244,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "51171"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/51171_4d11913c63bbe381_z.jpg",
                 "width": 488,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "51171"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/51171_4d11913c63bbe381_n.jpg",
+                "width": 244,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "51171"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/51171_4d11913c63bbe381_d.gif",
+                "width": 244,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "51171"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/51171_4d11913c63bbe381_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "51171"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18043089",
             "role_id": "35236655",
             "person_name": "Pierre Ranson",
+            "person_date": "1736 \u2013 1786",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18043089\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -62,34 +90,47 @@
             "person_id": "18049621",
             "role_id": "35351535",
             "person_name": "Advisory Council",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049621\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
     ],
     "tombstone": {
-        "epitaph": "Drawing, 1780. Graphite, pen and ink, brush and gouache on paper. Purchased for the Museum by the Advisory Council. 1911-28-267."
+        "epitaph": "Drawing, \"Six Trophies composed of Military Attributes\", 1780. Graphite, pen and ink, brush and gouache on paper. Purchased for the Museum by the Advisory Council. 1911-28-267."
     },
     "colors": [
         {
-            "color": "#d5bc93",
-            "closest_css3": "#d2b48c"
+            "color": "#b9ab8f",
+            "closest_crayola": "#bab86c",
+            "closest_css3": "#d2b48c",
+            "closest_css4": "#d2b48c"
         },
         {
-            "color": "#96a49d",
-            "closest_css3": "#a9a9a9"
+            "color": "#6d675c",
+            "closest_crayola": "#6e5160",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#4a4641",
-            "closest_css3": "#2f4f4f"
+            "color": "#b4906d",
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         },
         {
-            "color": "#a28f6e",
-            "closest_css3": "#808080"
+            "color": "#9ba7a0",
+            "closest_crayola": "#979aaa",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
         },
         {
-            "color": "#84715c",
-            "closest_css3": "#696969"
+            "color": "#4d4842",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         }
-    ]
+    ],
+    "woe:country_name": "France"
 }

@@ -3,6 +3,7 @@
     "tms:id": "57058",
     "accession_number": "1938-50-13",
     "title": "Frieze, ca. 1905",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18346329\/",
     "department_id": "35347503",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1910,
     "year_acquired": "1938",
     "decade": null,
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Machine-printed with distemper colors",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "120 x 49 cm (47 1\/4 x 19 5\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "120.00",
+            "centimeters"
+        ],
+        "width": [
+            "49.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Paul F. Franco",
     "description": "Landscape frieze, with repeating design of mountain lake set with islands. Identical trees in foreground, with one clump of pines, in the distance, appearing larger than others. Entire paper printed with close set lines of square dots, intended to suggest the appearance of tapestry.",
     "justification": null,
-    "type": {
-        "id": "35259269",
-        "name": "Frieze"
-    },
+    "woe:country": "23424977",
+    "type": "Frieze",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/41910_5997c3b62e6c7742_b.jpg",
                 "width": 1024,
                 "height": 420,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/41910_5997c3b62e6c7742_n.jpg",
-                "width": 320,
-                "height": 131,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "41910"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/41910_5997c3b62e6c7742_z.jpg",
                 "width": 640,
                 "height": 262,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "41910"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/41910_5997c3b62e6c7742_n.jpg",
+                "width": 320,
+                "height": 131,
+                "is_primary": "1",
+                "image_id": "41910"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/41910_5997c3b62e6c7742_d.gif",
+                "width": 320,
+                "height": 131,
+                "is_primary": "1",
+                "image_id": "41910"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/41910_5997c3b62e6c7742_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "41910"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/3313_4dfa283d01cb6fdf_b.jpg",
                 "width": 1024,
                 "height": 441,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/3313_4dfa283d01cb6fdf_n.jpg",
-                "width": 320,
-                "height": 138,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "3313"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/3313_4dfa283d01cb6fdf_z.jpg",
                 "width": 640,
                 "height": 276,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "3313"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/3313_4dfa283d01cb6fdf_n.jpg",
+                "width": 320,
+                "height": 138,
+                "is_primary": "0",
+                "image_id": "3313"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/3313_4dfa283d01cb6fdf_d.gif",
+                "width": 320,
+                "height": 138,
+                "is_primary": "0",
+                "image_id": "3313"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/3313_4dfa283d01cb6fdf_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "3313"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18052379",
             "role_id": "35352245",
             "person_name": "Calvin S.  Hathaway",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18052379\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18538079",
             "role_id": "35351535",
             "person_name": "Paul F. Franco",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18538079\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -92,24 +139,35 @@
     },
     "colors": [
         {
-            "color": "#ae9770",
-            "closest_css3": "#bc8f8f"
+            "color": "#957d57",
+            "closest_crayola": "#8a795d",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#566038",
-            "closest_css3": "#556b2f"
+            "color": "#555d37",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         },
         {
-            "color": "#717b49",
-            "closest_css3": "#696969"
+            "color": "#7b8652",
+            "closest_crayola": "#85754e",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#856d48",
-            "closest_css3": "#696969"
+            "color": "#c7b89a",
+            "closest_crayola": "#deaa88",
+            "closest_css3": "#d2b48c",
+            "closest_css4": "#d2b48c"
         },
         {
-            "color": "#684f36",
-            "closest_css3": "#556b2f"
+            "color": "#674f36",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

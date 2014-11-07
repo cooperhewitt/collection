@@ -3,6 +3,7 @@
     "tms:id": "44375",
     "accession_number": "1931-30-1",
     "title": "Sampler, 1832",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18318167\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1832,
     "year_acquired": "1931",
     "decade": null,
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Medium: linen embroidery on cotton net, backed with silk\nTechnique: embroidered on machine-made net, backed with taffeta",
     "markings": null,
     "signed": "On left margin is written in ink: Sampler of lace stitches worked 1832 Mary C. Myers Baltimore",
     "inscribed": null,
     "provenance": null,
     "dimensions": "H x W: 44 x 35 cm (17 5\/16 x 13 3\/4 in.)",
+    "dimensions_raw": {
+        "height": [
+            "44.00",
+            "centimeters"
+        ],
+        "width": [
+            "35.00",
+            "centimeters"
+        ]
+    },
     "creditline": null,
     "description": "Machine-made net embroidered with a variety of lace stitches, backed with red silk taffeta.",
     "justification": null,
-    "type": {
-        "id": "35256439",
-        "name": "Sampler"
-    },
+    "woe:country": "23424977",
+    "type": "Sampler",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/36383_17cd3cbfbaa3f061_b.jpg",
                 "width": 1024,
                 "height": 822,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/36383_17cd3cbfbaa3f061_n.jpg",
-                "width": 320,
-                "height": 257,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "36383"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/36383_17cd3cbfbaa3f061_z.jpg",
                 "width": 640,
                 "height": 514,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "36383"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/36383_17cd3cbfbaa3f061_n.jpg",
+                "width": 320,
+                "height": 257,
+                "is_primary": "1",
+                "image_id": "36383"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/36383_17cd3cbfbaa3f061_d.gif",
+                "width": 320,
+                "height": 257,
+                "is_primary": "1",
+                "image_id": "36383"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/36383_17cd3cbfbaa3f061_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "36383"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/36382_1182b3489ef4eb5d_b.jpg",
                 "width": 1024,
                 "height": 814,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/36382_1182b3489ef4eb5d_n.jpg",
-                "width": 320,
-                "height": 254,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "36382"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/36382_1182b3489ef4eb5d_z.jpg",
                 "width": 640,
                 "height": 509,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "36382"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/36382_1182b3489ef4eb5d_n.jpg",
+                "width": 320,
+                "height": 254,
+                "is_primary": "0",
+                "image_id": "36382"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/36382_1182b3489ef4eb5d_d.gif",
+                "width": 320,
+                "height": 254,
+                "is_primary": "0",
+                "image_id": "36382"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/36382_1182b3489ef4eb5d_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "36382"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18062255",
             "role_id": "35236583",
             "person_name": "Mary C. Myers",
+            "person_date": "American",
             "role_name": "Embroiderer",
+            "role_display_name": "Embroidered by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18062255\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236583\/"
         }
@@ -84,20 +129,35 @@
     },
     "colors": [
         {
-            "color": "#7a7462",
-            "closest_css3": "#696969"
+            "color": "#665f52",
+            "closest_crayola": "#6e5160",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#a79e86",
-            "closest_css3": "#bc8f8f"
+            "color": "#89816d",
+            "closest_crayola": "#8a795d",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#554e41",
-            "closest_css3": "#556b2f"
+            "color": "#3d372e",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#dcd1b0",
-            "closest_css3": "#f5deb3"
+            "color": "#b8ae93",
+            "closest_crayola": "#deaa88",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
+        },
+        {
+            "color": "#e1d5b3",
+            "closest_crayola": "#efcdb8",
+            "closest_css3": "#f5deb3",
+            "closest_css4": "#f5deb3"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

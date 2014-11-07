@@ -3,6 +3,7 @@
     "tms:id": "132845",
     "accession_number": "1962-50-272",
     "title": "Border, 17th century",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18444719\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": null,
     "year_acquired": "1962",
     "decade": null,
-    "woe:country": null,
+    "woe:country_id": null,
     "medium": "Medium: linen\nTechnique: bobbin lace, discontinuous tape",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "Ex-collection: Frances Morris",
     "dimensions": "H x W: 43.5 x 16.7 cm (17 1\/8 x 6 9\/16 in.)",
-    "creditline": "Bequest of Richard Cranch Greenleaf in memory of his mother, Adeline Emma Greenleaf",
-    "description": "Border with a repeat pattern of three large rounded pendants. In each, a central motif is comprised of a grotesque human figure surmounted by a vase with a rising, foliated spray. Flanking the central motif are birds in flight, animals and peacocks. Each pendant is framed by a border of stylized floral forms.",
-    "justification": null,
-    "type": {
-        "id": "35237285",
-        "name": "Border"
+    "dimensions_raw": {
+        "height": [
+            "43.50",
+            "centimeters"
+        ],
+        "width": [
+            "16.70",
+            "centimeters"
+        ]
     },
+    "creditline": "Bequest of Richard Cranch Greenleaf in memory of his mother, Adeline Emma Greenleaf",
+    "description": "Border with a repeat pattern of three large rounded pendants. In each, a central motif is comprised of a siren surmounted by a vase with a rising, foliated spray. Flanking the central motif are birds in flight, animals and peacocks. Each pendant is framed by a border of stylized floral forms.",
+    "justification": null,
+    "woe:country": null,
+    "type": "Border",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/40847_7a48d81b8c12acce_b.jpg",
                 "width": 1024,
                 "height": 416,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/40847_7a48d81b8c12acce_n.jpg",
-                "width": 320,
-                "height": 130,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "40847"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/40847_7a48d81b8c12acce_z.jpg",
                 "width": 640,
                 "height": 260,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "40847"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/40847_7a48d81b8c12acce_n.jpg",
+                "width": 320,
+                "height": 130,
+                "is_primary": "1",
+                "image_id": "40847"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/40847_7a48d81b8c12acce_d.gif",
+                "width": 320,
+                "height": 130,
+                "is_primary": "1",
+                "image_id": "40847"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/40847_7a48d81b8c12acce_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "40847"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/32400_c99824f72b603205_b.jpg",
                 "width": 1024,
                 "height": 597,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/32400_c99824f72b603205_n.jpg",
-                "width": 320,
-                "height": 187,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "32400"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/32400_c99824f72b603205_z.jpg",
                 "width": 640,
                 "height": 373,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "32400"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/32400_c99824f72b603205_n.jpg",
+                "width": 320,
+                "height": 187,
+                "is_primary": "0",
+                "image_id": "32400"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/32400_c99824f72b603205_d.gif",
+                "width": 320,
+                "height": 187,
+                "is_primary": "0",
+                "image_id": "32400"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/32400_c99824f72b603205_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "32400"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18049377",
             "role_id": "35351537",
             "person_name": "Richard Cranch Greenleaf",
+            "person_date": "",
             "role_name": "Bequestor",
+            "role_display_name": "Bequest of",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049377\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351537\/"
         }
@@ -84,24 +129,34 @@
     },
     "colors": [
         {
-            "color": "#e0dcc9",
-            "closest_css3": "#d3d3d3"
+            "color": "#dfdbcc",
+            "closest_crayola": "#dbd7d2",
+            "closest_css3": "#d3d3d3",
+            "closest_css4": "#d3d3d3"
         },
         {
-            "color": "#9e978b",
-            "closest_css3": "#bc8f8f"
+            "color": "#9c958a",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         },
         {
-            "color": "#60584f",
-            "closest_css3": "#696969"
+            "color": "#7c756c",
+            "closest_crayola": "#757575",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#3d352f",
-            "closest_css3": "#2f4f4f"
+            "color": "#5f5a52",
+            "closest_crayola": "#6e5160",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#7d766c",
-            "closest_css3": "#808080"
+            "color": "#3d3833",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         }
     ]
 }

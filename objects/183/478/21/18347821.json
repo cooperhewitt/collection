@@ -3,6 +3,7 @@
     "tms:id": "57739",
     "accession_number": "1938-57-1078",
     "title": "Painting, \"The Immaculate Conception\", ca. 1775",
+    "title_raw": "The Immaculate Conception",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18347821\/",
     "department_id": "35347493",
     "period_id": "35417101",
@@ -13,39 +14,64 @@
     "year_end": 1785,
     "year_acquired": "1938",
     "decade": null,
-    "woe:country": null,
+    "woe:country_id": null,
     "medium": "Oil on canvas",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "ex-collection: Martin Enrico ('Henry') Luigi Gaetano Colnaghi (1821-1908) (Knox, 1980, p. 308).",
     "dimensions": "181.6 x 106.7 cm (71 1\/2 x 42 in. )",
+    "dimensions_raw": {
+        "height": [
+            "181.60",
+            "centimeters"
+        ],
+        "width": [
+            "106.70",
+            "centimeters"
+        ]
+    },
     "creditline": "Bequest of Erskine Hewitt",
     "description": "Vertical rectangle.  Madonna in center of composition surrounded by angels.",
     "justification": null,
-    "type": {
-        "id": "35248229",
-        "name": "painting"
-    },
+    "woe:country": null,
+    "type": "painting",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/21665_f418adeb18ba6706_b.jpg",
                 "width": 630,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/21665_f418adeb18ba6706_n.jpg",
-                "width": 197,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "21665"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/21665_f418adeb18ba6706_z.jpg",
                 "width": 394,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "21665"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/21665_f418adeb18ba6706_n.jpg",
+                "width": 197,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "21665"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/21665_f418adeb18ba6706_d.gif",
+                "width": 197,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "21665"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/21665_f418adeb18ba6706_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "21665"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18050021",
             "role_id": "35351537",
             "person_name": "Erskine Hewitt",
+            "person_date": "American, 1871\u20131938",
             "role_name": "Bequestor",
+            "role_display_name": "Bequest of",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18050021\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351537\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18042589",
             "role_id": "35236565",
             "person_name": "Giovanni Domenico Tiepolo",
+            "person_date": "Italian, 1727 \u2013 1804",
             "role_name": "Artist",
+            "role_display_name": "",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18042589\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236565\/"
         }
@@ -72,24 +102,34 @@
     },
     "colors": [
         {
-            "color": "#9d9683",
-            "closest_css3": "#bc8f8f"
+            "color": "#aba091",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         },
         {
-            "color": "#666559",
-            "closest_css3": "#696969"
+            "color": "#0c222f",
+            "closest_crayola": "#000000",
+            "closest_css3": "#000000",
+            "closest_css4": "#000000"
         },
         {
-            "color": "#1c384f",
-            "closest_css3": "#2f4f4f"
+            "color": "#89826f",
+            "closest_crayola": "#8a795d",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#dfd5c8",
-            "closest_css3": "#d3d3d3"
+            "color": "#484743",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#8b7e79",
-            "closest_css3": "#808080"
+            "color": "#26445e",
+            "closest_crayola": "#1a4876",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         }
     ]
 }

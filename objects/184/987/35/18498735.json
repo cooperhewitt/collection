@@ -2,7 +2,8 @@
     "id": "18498735",
     "tms:id": "160268",
     "accession_number": "1979-89-15",
-    "title": "Printed Textile, 1977",
+    "title": "Printed Textile, \"Heraaminen\", 1977",
+    "title_raw": "Heraaminen",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18498735\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1977,
     "year_acquired": "1979",
     "decade": "1970",
-    "woe:country": "23424812",
-    "medium": "Medium: cotton\nTechnique: screen printed on plain weave",
+    "woe:country_id": "23424812",
+    "medium": "Medium: cotton\nTechnique: screen printed on plain weave\nLabel: screen printed cotton",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "H x W: 353.1 x 137.2 cm (139 x 54 in.)\nRepeat H: 177.2 cm (69 3\/4 in.)",
+    "dimensions_raw": {
+        "height": [
+            "177.17",
+            "centimeters"
+        ],
+        "width": [
+            "137.16",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Marimekko, Inc.",
     "description": "Linear and kidney shapes in light blue and purple on black.",
     "justification": null,
-    "type": {
-        "id": "35287709",
-        "name": "Printed textile"
-    },
+    "woe:country": "23424812",
+    "type": "Printed textile",
     "images": [
         {
             "b": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/43755_8b83f4df1bfb05d4_b.jpg",
-                "width": 595,
+                "url": "http:\/\/images.collection.cooperhewitt.org\/43755_c93d28c1f0f6508b_b.jpg",
+                "width": 562,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/43755_8b83f4df1bfb05d4_n.jpg",
-                "width": 186,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "43755"
             },
             "z": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/43755_8b83f4df1bfb05d4_z.jpg",
-                "width": 372,
+                "url": "http:\/\/images.collection.cooperhewitt.org\/43755_c93d28c1f0f6508b_z.jpg",
+                "width": 351,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "43755"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/43755_c93d28c1f0f6508b_n.jpg",
+                "width": 176,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "43755"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/43755_c93d28c1f0f6508b_d.gif",
+                "width": 176,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "43755"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/43755_c93d28c1f0f6508b_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "43755"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/77057_b04328f29ad2797f_b.jpg",
                 "width": 663,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/77057_b04328f29ad2797f_n.jpg",
-                "width": 207,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "77057"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/77057_b04328f29ad2797f_z.jpg",
                 "width": 414,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "77057"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/77057_b04328f29ad2797f_n.jpg",
+                "width": 207,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "77057"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/77057_b04328f29ad2797f_d.gif",
+                "width": 207,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "77057"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/77057_b04328f29ad2797f_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "77057"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18048723",
             "role_id": "35351535",
             "person_name": "Marimekko, Inc.",
+            "person_date": "1951 \u2013 1979",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18048723\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -82,38 +127,57 @@
             "person_id": "18045663",
             "role_id": "35236657",
             "person_name": "Marimekko Oy",
+            "person_date": "Helsinki, Finland, founded 1951",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18045663\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         },
         {
             "person_id": "18045819",
             "role_id": "35236655",
-            "person_name": "Penti Rinta",
+            "person_name": "Pentti Rinta",
+            "person_date": "b. 1946",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18045819\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
     ],
     "tombstone": {
-        "epitaph": "Printed Textile, 1977. Medium: cotton\nTechnique: screen printed on plain weave. Gift of Marimekko, Inc.. 1979-89-15."
+        "epitaph": "Printed Textile, \"Heraaminen\", 1977. Medium: cotton\nTechnique: screen printed on plain weave\nLabel: screen printed cotton. Gift of Marimekko, Inc.. 1979-89-15."
     },
     "colors": [
         {
             "color": "#baa2dd",
-            "closest_css3": "#dda0dd"
+            "closest_crayola": "#cda4de",
+            "closest_css3": "#dda0dd",
+            "closest_css4": "#dda0dd"
         },
         {
-            "color": "#478ba5",
-            "closest_css3": "#4682b4"
+            "color": "#488da7",
+            "closest_crayola": "#3bb08f",
+            "closest_css3": "#4682b4",
+            "closest_css4": "#4682b4"
         },
         {
-            "color": "#374750",
-            "closest_css3": "#2f4f4f"
+            "color": "#2f3940",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#969bbd",
-            "closest_css3": "#a9a9a9"
+            "color": "#365f71",
+            "closest_crayola": "#4a646c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
+        },
+        {
+            "color": "#5b626b",
+            "closest_crayola": "#4a646c",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         }
-    ]
+    ],
+    "woe:country_name": "Finland"
 }

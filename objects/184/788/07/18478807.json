@@ -3,6 +3,7 @@
     "tms:id": "150236",
     "accession_number": "1972-88-382",
     "title": "Drawing, \"Tractor preliminary sketch; Fawn Garden Tractor, perspective for John Deere\", June 23, 1962",
+    "title_raw": "Tractor preliminary sketch; Fawn Garden Tractor, perspective for John Deere",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18478807\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1962,
     "year_acquired": "1972",
     "decade": "1960",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Black crayon, graphite of off-white tracing paper",
     "markings": "Stamped in black ink, lower right: PRELIMINARY \/ HENRY DREYFUSS \/ NEW YORK \u2013 4 WEST 58TH STREET, NEW YORK 19 \/ CALIFORNIA \u2013 500 COLUMBIA STREET, SOUTH PASADENA \/ CLIENT DEERE & COMPANY \/ TITLE \/ DATE SCALE NUMBER \/ DISPLAY FILE.",
     "signed": null,
     "inscribed": "Inscribed in graphite, lower right: FAWN GARDEN TRACTOR \/ PERSPECTIVE \/ 6\/23\/62 NONE C80-2.",
     "provenance": null,
     "dimensions": "45.8 x 57.5 cm (18 in. x 22 5\/8 in.); irregular",
+    "dimensions_raw": {
+        "height": [
+            "45.75",
+            "centimeters"
+        ],
+        "width": [
+            "57.50",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Henry Dreyfuss",
     "description": "Sketch of John Deere tractor viewed from side.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424977",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/39294_847d0cefa00cc480_b.jpg",
                 "width": 1024,
                 "height": 769,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/39294_847d0cefa00cc480_n.jpg",
-                "width": 320,
-                "height": 240,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "39294"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/39294_847d0cefa00cc480_z.jpg",
                 "width": 640,
                 "height": 480,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "39294"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/39294_847d0cefa00cc480_n.jpg",
+                "width": 320,
+                "height": 240,
+                "is_primary": "1",
+                "image_id": "39294"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/39294_847d0cefa00cc480_d.gif",
+                "width": 320,
+                "height": 240,
+                "is_primary": "1",
+                "image_id": "39294"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/39294_847d0cefa00cc480_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "39294"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18065427",
             "role_id": "35352245",
             "person_name": "Stephanie Keating",
+            "person_date": "American",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18065427\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18041029",
             "role_id": "35236655",
             "person_name": "Henry Dreyfuss Associates",
+            "person_date": "founded 1929",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041029\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -70,9 +100,21 @@
             "person_id": "18041501",
             "role_id": "35351535",
             "person_name": "Henry Dreyfuss",
+            "person_date": "American, 1904\u20131972",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041501\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
+        },
+        {
+            "person_id": "68738439",
+            "role_id": "35236667",
+            "person_name": "John Deere",
+            "person_date": "",
+            "role_name": "Client",
+            "role_display_name": "Client:",
+            "person_url": "http:\/\/collection.cooperhewitt.org\/people\/68738439\/",
+            "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236667\/"
         }
     ],
     "tombstone": {
@@ -80,20 +122,35 @@
     },
     "colors": [
         {
-            "color": "#41403b",
-            "closest_css3": "#2f4f4f"
+            "color": "#8e8b7a",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#7c796c",
-            "closest_css3": "#808080"
+            "color": "#515049",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#a7a390",
-            "closest_css3": "#a9a9a9"
+            "color": "#32322f",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#5f5d53",
-            "closest_css3": "#696969"
+            "color": "#727064",
+            "closest_crayola": "#757575",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
+        },
+        {
+            "color": "#b4b09a",
+            "closest_crayola": "#979aaa",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

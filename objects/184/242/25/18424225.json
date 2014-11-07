@@ -3,6 +3,7 @@
     "tms:id": "122488",
     "accession_number": "1959-106-1",
     "title": "Sample, 1920\u201340",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18424225\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1940,
     "year_acquired": "1959",
     "decade": "1920",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Medium: silk\nTechnique:",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "1959: acquired by Museum",
     "dimensions": "H x W (binder): 30 x 25 cm (11 13\/16 x 9 13\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "30.00",
+            "centimeters"
+        ],
+        "width": [
+            "25.00",
+            "centimeters"
+        ]
+    },
     "creditline": null,
     "description": "A woven sample included in a notebook covered in handwoven fabric and put together by Edith Huntington Snow of 37 woven samples.",
     "justification": null,
-    "type": {
-        "id": "35268079",
-        "name": "Sample"
-    },
+    "woe:country": "23424977",
+    "type": "Sample",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/73855_1b1c7b3a8f0372d0_b.jpg",
                 "width": 663,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/73855_1b1c7b3a8f0372d0_n.jpg",
-                "width": 207,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "73855"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/73855_1b1c7b3a8f0372d0_z.jpg",
                 "width": 414,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "73855"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/73855_1b1c7b3a8f0372d0_n.jpg",
+                "width": 207,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "73855"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/73855_1b1c7b3a8f0372d0_d.gif",
+                "width": 207,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "73855"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/73855_1b1c7b3a8f0372d0_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "73855"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/73856_891f1c5bfe526381_b.jpg",
                 "width": 796,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/73856_891f1c5bfe526381_n.jpg",
-                "width": 249,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "73856"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/73856_891f1c5bfe526381_z.jpg",
                 "width": 498,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "73856"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/73856_891f1c5bfe526381_n.jpg",
+                "width": 249,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "73856"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/73856_891f1c5bfe526381_d.gif",
+                "width": 249,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "73856"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/73856_891f1c5bfe526381_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "73856"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18046231",
             "role_id": "35236745",
             "person_name": "Edith Huntington Snow",
+            "person_date": "American, 1876\u20131960",
             "role_name": "Weaver",
+            "role_display_name": "Woven by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18046231\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236745\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18046231",
             "role_id": "35236655",
             "person_name": "Edith Huntington Snow",
+            "person_date": "American, 1876\u20131960",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18046231\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
@@ -92,24 +139,35 @@
     },
     "colors": [
         {
-            "color": "#9b8f7c",
-            "closest_css3": "#808080"
+            "color": "#282d39",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#101424",
-            "closest_css3": "#000000"
-        },
-        {
-            "color": "#776559",
-            "closest_css3": "#696969"
-        },
-        {
-            "color": "#574a49",
-            "closest_css3": "#2f4f4f"
+            "color": "#7a6f65",
+            "closest_crayola": "#757575",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
             "color": "#703e34",
-            "closest_css3": "#8b4513"
+            "closest_crayola": "#714b23",
+            "closest_css3": "#8b4513",
+            "closest_css4": "#8b4513"
+        },
+        {
+            "color": "#4f4a4d",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
+        },
+        {
+            "color": "#8c6253",
+            "closest_crayola": "#85754e",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

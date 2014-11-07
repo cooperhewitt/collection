@@ -3,6 +3,7 @@
     "tms:id": "146976",
     "accession_number": "1970-58-25",
     "title": "Fan, 1780\u201390",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18472617\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1870,
     "year_acquired": "1970",
     "decade": null,
-    "woe:country": "23424975",
+    "woe:country_id": "23424975",
     "medium": "Cut and painted paper leaf, ivory sticks with applied metallic foil",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "H x W (open): 26.7 x 46 cm (10 1\/2 x 18 1\/8 in.)",
+    "dimensions_raw": {
+        "height": [
+            "26.67",
+            "centimeters"
+        ],
+        "width": [
+            "46.04",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Mrs. Robertson D. Ward, from the collection of her mother, Mrs. Helen Wright-Clark Dawson",
     "description": "Pleated fan. Front leaf of die cut and painted paper showing oval and diamond-shaped panels, back leaf of die cut paper; sticks of ivory with applied metallic foil.",
     "justification": null,
-    "type": {
-        "id": "35252007",
-        "name": "fan"
-    },
+    "woe:country": "23424975",
+    "type": "fan",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/41668_a091bfd3cfb0baa8_b.jpg",
                 "width": 1024,
                 "height": 644,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/41668_a091bfd3cfb0baa8_n.jpg",
-                "width": 320,
-                "height": 201,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "41668"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/41668_a091bfd3cfb0baa8_z.jpg",
                 "width": 640,
                 "height": 402,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "41668"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/41668_a091bfd3cfb0baa8_n.jpg",
+                "width": 320,
+                "height": 201,
+                "is_primary": "1",
+                "image_id": "41668"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/41668_a091bfd3cfb0baa8_d.gif",
+                "width": 320,
+                "height": 201,
+                "is_primary": "1",
+                "image_id": "41668"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/41668_a091bfd3cfb0baa8_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "41668"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/75813_b9beb61536cec1ed_b.jpg",
                 "width": 1024,
                 "height": 612,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/75813_b9beb61536cec1ed_n.jpg",
-                "width": 320,
-                "height": 191,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "75813"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/75813_b9beb61536cec1ed_z.jpg",
                 "width": 640,
                 "height": 382,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "75813"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/75813_b9beb61536cec1ed_n.jpg",
+                "width": 320,
+                "height": 191,
+                "is_primary": "0",
+                "image_id": "75813"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/75813_b9beb61536cec1ed_d.gif",
+                "width": 320,
+                "height": 191,
+                "is_primary": "0",
+                "image_id": "75813"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/75813_b9beb61536cec1ed_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "75813"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18054669",
             "role_id": "35351535",
             "person_name": "Mrs. Robertson D. Ward",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18054669\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -84,24 +129,35 @@
     },
     "colors": [
         {
-            "color": "#d8d0bc",
-            "closest_css3": "#d3d3d3"
+            "color": "#d1c9b1",
+            "closest_crayola": "#cdc5c2",
+            "closest_css3": "#c0c0c0",
+            "closest_css4": "#c0c0c0"
         },
         {
-            "color": "#8a7457",
-            "closest_css3": "#696969"
+            "color": "#79644a",
+            "closest_crayola": "#85754e",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#7399ad",
-            "closest_css3": "#5f9ea0"
+            "color": "#a0876b",
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#b8a17b",
-            "closest_css3": "#bc8f8f"
+            "color": "#7296a8",
+            "closest_crayola": "#979aaa",
+            "closest_css3": "#778899",
+            "closest_css4": "#778899"
         },
         {
-            "color": "#4e4744",
-            "closest_css3": "#2f4f4f"
+            "color": "#526473",
+            "closest_crayola": "#4a646c",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         }
-    ]
+    ],
+    "woe:country_name": "United Kingdom"
 }

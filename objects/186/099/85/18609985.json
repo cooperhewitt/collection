@@ -3,6 +3,7 @@
     "tms:id": "98510",
     "accession_number": "1948-40-39",
     "title": "Drawing, \"Entrance Hall, North Wall, Royal Pavilion, Brighton\", 1802 or earlier",
+    "title_raw": "Entrance Hall, North Wall, Royal Pavilion, Brighton",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18609985\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": null,
     "year_acquired": "1948",
     "decade": null,
-    "woe:country": "23424975",
+    "woe:country_id": "23424975",
     "medium": "Brush and watercolor, pen and black ink, graphite on white wove paper",
     "markings": null,
     "signed": null,
     "inscribed": "Inscribed in graphite, upper margin: Brighton Pavilion-Decoration for one side of the Hall",
     "provenance": "1948: acquired by Museum (from Mrs. K. Gregory)",
     "dimensions": "26.5 x 33 cm (10 7\/16 in. x 13 in.)",
+    "dimensions_raw": {
+        "height": [
+            "26.50",
+            "centimeters"
+        ],
+        "width": [
+            "33.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase through gift of Mrs. John Innes Kane",
     "description": "Elevation of a wall, with doorways flanking a large central painted decoration consisting of a cloudy sky, enclosed in a frame, and surrounded by painted representation of stonework and a border of lattice work design. Over the doorway, left, a tablet with Chinese characters, and above that a rectangular framed panel with painted sky.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424975",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/59552_db2081d62b986012_b.jpg",
                 "width": 1024,
                 "height": 826,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/59552_db2081d62b986012_n.jpg",
-                "width": 320,
-                "height": 258,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "59552"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/59552_db2081d62b986012_z.jpg",
                 "width": 640,
                 "height": 516,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "59552"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/59552_db2081d62b986012_n.jpg",
+                "width": 320,
+                "height": 258,
+                "is_primary": "1",
+                "image_id": "59552"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/59552_db2081d62b986012_d.gif",
+                "width": 320,
+                "height": 258,
+                "is_primary": "1",
+                "image_id": "59552"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/59552_db2081d62b986012_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "59552"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18042069",
             "role_id": "35236655",
             "person_name": "Frederick Crace",
+            "person_date": "English, 1779\u20131859",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18042069\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18539479",
             "role_id": "35352249",
             "person_name": "Mrs. K. Gregory",
+            "person_date": "",
             "role_name": "Vendor",
+            "role_display_name": "Purchased from",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18539479\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352249\/"
         }
@@ -72,24 +102,35 @@
     },
     "colors": [
         {
-            "color": "#a59d8a",
-            "closest_css3": "#bc8f8f"
+            "color": "#a9a595",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
         },
         {
-            "color": "#524e48",
-            "closest_css3": "#2f4f4f"
+            "color": "#5b5650",
+            "closest_crayola": "#6e5160",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#877d6d",
-            "closest_css3": "#808080"
+            "color": "#897f6f",
+            "closest_crayola": "#8a795d",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#cda983",
-            "closest_css3": "#d2b48c"
+            "color": "#cdaa84",
+            "closest_crayola": "#deaa88",
+            "closest_css3": "#d2b48c",
+            "closest_css4": "#d2b48c"
         },
         {
             "color": "#dbc6bb",
-            "closest_css3": "#c0c0c0"
+            "closest_crayola": "#cdc5c2",
+            "closest_css3": "#c0c0c0",
+            "closest_css4": "#c0c0c0"
         }
-    ]
+    ],
+    "woe:country_name": "United Kingdom"
 }

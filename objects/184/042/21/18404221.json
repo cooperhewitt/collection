@@ -3,6 +3,7 @@
     "tms:id": "112295",
     "accession_number": "1955-25-3-a,b",
     "title": "Fragments, 18th\u201320th century",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18404221\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 2000,
     "year_acquired": "1955",
     "decade": null,
-    "woe:country": "23424853",
+    "woe:country_id": "23424853",
     "medium": "Technique: fancy warp twill damask",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "H x W (a): 238.8 x 53.3 cm (7 ft. 10 in. x 21 in.)",
+    "dimensions_raw": {
+        "height": [
+            "238.76",
+            "centimeters"
+        ],
+        "width": [
+            "53.34",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of L. Boyd and Annie McQuarrie Hatch",
     "description": "Pattern of free floral serpentines closely covering ground; in golden yellow cloth weave on pale salmon warp twill ground.  Three kinds of selvages on different breadths - green chevron warp twill; green and white warp twill with cloth edge;  gold warp twill.  Pink and yellow silk fringe of period.  Lined with cotton weft twill.",
     "justification": null,
-    "type": {
-        "id": "35254679",
-        "name": "Fragments"
-    },
+    "woe:country": "23424853",
+    "type": "Fragments",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/62359_1be01d166bd52191_b.jpg",
                 "width": 500,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/62359_1be01d166bd52191_n.jpg",
-                "width": 156,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "62359"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/62359_1be01d166bd52191_z.jpg",
                 "width": 312,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "62359"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/62359_1be01d166bd52191_n.jpg",
+                "width": 156,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "62359"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/62359_1be01d166bd52191_d.gif",
+                "width": 156,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "62359"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/62359_1be01d166bd52191_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "62359"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/86531_f06de8695b307dcd_b.jpg",
                 "width": 665,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/86531_f06de8695b307dcd_n.jpg",
-                "width": 208,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "86531"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/86531_f06de8695b307dcd_z.jpg",
                 "width": 416,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "86531"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/86531_f06de8695b307dcd_n.jpg",
+                "width": 208,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "86531"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/86531_f06de8695b307dcd_d.gif",
+                "width": 208,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "86531"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/86531_f06de8695b307dcd_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "86531"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18056351",
             "role_id": "35351535",
             "person_name": "Anne McQuarrie Hatch",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18056351\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18049411",
             "role_id": "35351535",
             "person_name": "L. Boyd Hatch",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049411\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -92,16 +139,17 @@
     },
     "colors": [
         {
-            "color": "#a67940",
-            "closest_css3": "#cd853f"
+            "color": "#a07040",
+            "closest_crayola": "#9c7c38",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         },
         {
-            "color": "#c69e4b",
-            "closest_css3": "#cd853f"
-        },
-        {
-            "color": "#e6d9bb",
-            "closest_css3": "#f5deb3"
+            "color": "#dab55e",
+            "closest_crayola": "#bab86c",
+            "closest_css3": "#f4a460",
+            "closest_css4": "#f4a460"
         }
-    ]
+    ],
+    "woe:country_name": "Italy"
 }

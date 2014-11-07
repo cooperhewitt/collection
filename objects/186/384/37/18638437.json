@@ -3,6 +3,7 @@
     "tms:id": "194079",
     "accession_number": "1992-103-6",
     "title": "Brooch, \"Brooch with U.S. insignia\", ca. 1945",
+    "title_raw": "Brooch with U.S. insignia",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18638437\/",
     "department_id": "35347497",
     "period_id": null,
@@ -13,39 +14,68 @@
     "year_end": 1955,
     "year_acquired": "1992",
     "decade": "1940",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Gilded metal, enamel, glass",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "H x W x D: 3.3 x 3.2 x 0.8 cm (1 5\/16 x 1 1\/4 x 5\/16 in.)",
+    "dimensions_raw": {
+        "depth": [
+            "0.80",
+            "centimeters"
+        ],
+        "height": [
+            "3.30",
+            "centimeters"
+        ],
+        "width": [
+            "3.20",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase from Sarah Cooper Hewitt Fund",
     "description": "Brooch in form of U.S. seal with eagle.",
     "justification": null,
-    "type": {
-        "id": "35251201",
-        "name": "brooch"
-    },
+    "woe:country": "23424977",
+    "type": "brooch",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/15939_f8b84b90a600ed60_b.jpg",
                 "width": 1024,
                 "height": 823,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/15939_f8b84b90a600ed60_n.jpg",
-                "width": 320,
-                "height": 257,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "15939"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/15939_f8b84b90a600ed60_z.jpg",
                 "width": 640,
                 "height": 514,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "15939"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/15939_f8b84b90a600ed60_n.jpg",
+                "width": 320,
+                "height": 257,
+                "is_primary": "1",
+                "image_id": "15939"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/15939_f8b84b90a600ed60_d.gif",
+                "width": 320,
+                "height": 257,
+                "is_primary": "1",
+                "image_id": "15939"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/15939_f8b84b90a600ed60_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "15939"
             }
         }
     ],
@@ -54,7 +84,9 @@
             "person_id": "18059475",
             "role_id": "35352249",
             "person_name": "Ms. Deane Granoff",
+            "person_date": "",
             "role_name": "Vendor",
+            "role_display_name": "Purchased from",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18059475\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352249\/"
         },
@@ -62,7 +94,9 @@
             "person_id": "18044633",
             "role_id": "35236685",
             "person_name": "Trifari",
+            "person_date": "",
             "role_name": "Maker",
+            "role_display_name": "Made by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18044633\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236685\/"
         },
@@ -70,7 +104,9 @@
             "person_id": "18044633",
             "role_id": "35236565",
             "person_name": "Trifari",
+            "person_date": "",
             "role_name": "Artist",
+            "role_display_name": "",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18044633\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236565\/"
         }
@@ -80,24 +116,35 @@
     },
     "colors": [
         {
-            "color": "#e3d6bf",
-            "closest_css3": "#f5deb3"
+            "color": "#cdb192",
+            "closest_crayola": "#deaa88",
+            "closest_css3": "#d2b48c",
+            "closest_css4": "#d2b48c"
         },
         {
-            "color": "#661e2c",
-            "closest_css3": "#800000"
+            "color": "#ab8067",
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         },
         {
-            "color": "#caad90",
-            "closest_css3": "#d2b48c"
+            "color": "#aaa1a4",
+            "closest_crayola": "#979aaa",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
         },
         {
-            "color": "#a0979b",
-            "closest_css3": "#a9a9a9"
+            "color": "#8d564e",
+            "closest_crayola": "#a5694f",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         },
         {
-            "color": "#8e6654",
-            "closest_css3": "#696969"
+            "color": "#58222c",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#8b4513",
+            "closest_css4": "#8b4513"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

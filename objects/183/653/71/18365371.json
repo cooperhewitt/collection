@@ -3,6 +3,7 @@
     "tms:id": "69395",
     "accession_number": "1938-88-8313",
     "title": "Drawing, \"Design for a Painted Porcelain Scalloped Salad Bowl, for S\u00e8vres Porcelain Manufactury\", ca. 1775",
+    "title_raw": "Design for a Painted Porcelain Scalloped Salad Bowl, for S\u00e8vres Porcelain Manufactury",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18365371\/",
     "department_id": "35347493",
     "period_id": "35417279",
@@ -13,39 +14,64 @@
     "year_end": 1785,
     "year_acquired": "1938",
     "decade": null,
-    "woe:country": "23424819",
+    "woe:country_id": "23424819",
     "medium": "Brush and watercolor, black chalk on cream laid paper",
     "markings": "Watermark:  D C BLAUW, similar to Churchill 328; Stamp:  Cooper Union Museum for the Arts of Decoration in black, upper right corner, lower edge center, verso:  Lugt 457d",
     "signed": null,
     "inscribed": "Inscribed in pen and brown ink, upper center:  N\u00b0 7  hauteur du Saladier dit Verdun; along lower right edge:  N\u00b0 7 Saladier dit Verdun. 1re grandeur 48\".; in graphite, right edge, center:  20; in graphite, lower right corner, verso (up-side-down):  P. 15",
     "provenance": "Giovanni Piancastelli\nMr. and Mrs. Edward D. Brandegee",
     "dimensions": "45.0 x 32.3 cm (17 11\/16 x 12 11\/16 in. )",
+    "dimensions_raw": {
+        "height": [
+            "45.00",
+            "centimeters"
+        ],
+        "width": [
+            "32.30",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase through gift of various donors and from Eleanor G. Hewitt Fund",
     "description": "Salad bowl in elevation (above) and plan (below) with scalloped body and rim.  The rim is bordered with blue and gold; the shallow base in blue.  Exterior and interior of bowl is decorated with sprays of roses, ranuculusses, and colored daisies.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424819",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/38478_bcb070eb02021cf1_b.jpg",
                 "width": 739,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/38478_bcb070eb02021cf1_n.jpg",
-                "width": 231,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "38478"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/38478_bcb070eb02021cf1_z.jpg",
                 "width": 462,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "38478"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/38478_bcb070eb02021cf1_n.jpg",
+                "width": 231,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "38478"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/38478_bcb070eb02021cf1_d.gif",
+                "width": 231,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "38478"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/38478_bcb070eb02021cf1_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "38478"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18048255",
             "role_id": "35352245",
             "person_name": "Dr. Gail Davidson",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18048255\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18043925",
             "role_id": "35236657",
             "person_name": "S\u00e8vres Porcelain Manufactory",
+            "person_date": "S\u00e8vres France, founded 1738",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18043925\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18539249",
             "role_id": "35236711",
             "person_name": "Jacques-Fran\u00e7ois Micaud",
+            "person_date": "French, ca.1732\u20131811",
             "role_name": "Attributed to",
+            "role_display_name": "Attributed to",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18539249\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236711\/"
         }
@@ -80,20 +112,23 @@
     },
     "colors": [
         {
-            "color": "#c29467",
-            "closest_css3": "#bdb76b"
+            "color": "#b7ae8e",
+            "closest_crayola": "#bab86c",
+            "closest_css3": "#d2b48c",
+            "closest_css4": "#d2b48c"
         },
         {
-            "color": "#b5ac8a",
-            "closest_css3": "#d2b48c"
+            "color": "#c2976c",
+            "closest_crayola": "#cd9575",
+            "closest_css3": "#bdb76b",
+            "closest_css4": "#bdb76b"
         },
         {
-            "color": "#8c5d43",
-            "closest_css3": "#a0522d"
-        },
-        {
-            "color": "#8f937a",
-            "closest_css3": "#808080"
+            "color": "#8e5f44",
+            "closest_crayola": "#85754e",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         }
-    ]
+    ],
+    "woe:country_name": "France"
 }

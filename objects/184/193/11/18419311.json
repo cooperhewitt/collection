@@ -3,6 +3,7 @@
     "tms:id": "119892",
     "accession_number": "1957-46-210",
     "title": "Drawing, \"Printed Textile Design\", ca. 1801",
+    "title_raw": "Printed Textile Design",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18419311\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1811,
     "year_acquired": "1957",
     "decade": null,
-    "woe:country": "23424957",
+    "woe:country_id": "23424957",
     "medium": "Brush and gouache, graphite on white laid paper",
     "markings": null,
     "signed": null,
     "inscribed": "In pen and black ink, lower right: 7\/8 El 5\/4 LD 579; in graphite, upper right corner: 8",
     "provenance": "1957: acquired by Museum (from P.L. Bader)",
     "dimensions": "35.1 x 58.1 cm (13 13\/16 x 22 7\/8 in.)\n(dims. vary)\nMat:  55.9 x 71.1 cm (22 x 28 in.)",
+    "dimensions_raw": {
+        "height": [
+            "35.10",
+            "centimeters"
+        ],
+        "width": [
+            "71.10",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase from Friends of the Museum Fund",
     "description": "Left corner border of flowers in pink and blue against black background patterned with ten double ovals, four single flowers in white upper field.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424957",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/5918_6fa1efca9be58a46_b.jpg",
                 "width": 1024,
                 "height": 627,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/5918_6fa1efca9be58a46_n.jpg",
-                "width": 320,
-                "height": 196,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "5918"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/5918_6fa1efca9be58a46_z.jpg",
                 "width": 640,
                 "height": 392,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "5918"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/5918_6fa1efca9be58a46_n.jpg",
+                "width": 320,
+                "height": 196,
+                "is_primary": "1",
+                "image_id": "5918"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/5918_6fa1efca9be58a46_d.gif",
+                "width": 320,
+                "height": 196,
+                "is_primary": "1",
+                "image_id": "5918"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/5918_6fa1efca9be58a46_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "5918"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18539111",
             "role_id": "35352249",
             "person_name": "P.L. Bader",
+            "person_date": "",
             "role_name": "Vendor",
+            "role_display_name": "Purchased from",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18539111\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352249\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18054715",
             "role_id": "35352245",
             "person_name": "Xenia Cage",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18054715\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18047443",
             "role_id": "35352245",
             "person_name": "Megan L. Smith",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047443\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -78,7 +110,9 @@
             "person_id": "18041965",
             "role_id": "35236657",
             "person_name": "Fabrique de Fazy aux Bergues",
+            "person_date": "",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041965\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         },
@@ -86,7 +120,9 @@
             "person_id": "18041963",
             "role_id": "35236565",
             "person_name": "Louis-Albert DuBois",
+            "person_date": "Swiss, 1752\u20131818",
             "role_name": "Artist",
+            "role_display_name": "",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041963\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236565\/"
         }
@@ -96,24 +132,35 @@
     },
     "colors": [
         {
-            "color": "#cdb682",
-            "closest_css3": "#d2b48c"
+            "color": "#70963d",
+            "closest_crayola": "#85754e",
+            "closest_css3": "#6b8e23",
+            "closest_css4": "#6b8e23"
         },
         {
-            "color": "#749b41",
-            "closest_css3": "#6b8e23"
+            "color": "#292919",
+            "closest_crayola": "#000000",
+            "closest_css3": "#000000",
+            "closest_css4": "#000000"
         },
         {
-            "color": "#322d16",
-            "closest_css3": "#2f4f4f"
+            "color": "#495126",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         },
         {
-            "color": "#69783d",
-            "closest_css3": "#556b2f"
+            "color": "#5d7a38",
+            "closest_crayola": "#85754e",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         },
         {
-            "color": "#980514",
-            "closest_css3": "#8b0000"
+            "color": "#cf0c2f",
+            "closest_crayola": "#ee204d",
+            "closest_css3": "#dc143c",
+            "closest_css4": "#dc143c"
         }
-    ]
+    ],
+    "woe:country_name": "Switzerland"
 }

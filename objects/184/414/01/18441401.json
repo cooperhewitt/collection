@@ -3,6 +3,7 @@
     "tms:id": "131172",
     "accession_number": "1962-141-10",
     "title": "Sample, 1962",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18441401\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1962,
     "year_acquired": "1962",
     "decade": "1960",
-    "woe:country": "23424975",
+    "woe:country_id": "23424975",
     "medium": "Medium: cotton, wool\nTechnique: screen (?) printed on twill woven",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "1962: acquired by Museum",
     "dimensions": "H x W: 55 x 93 cm (21 5\/8 x 36 5\/8 in.)",
+    "dimensions_raw": {
+        "height": [
+            "55.00",
+            "centimeters"
+        ],
+        "width": [
+            "93.00",
+            "centimeters"
+        ]
+    },
     "creditline": null,
     "description": "Dark ground, printed with small block design in light blue. Ground over-printed in darker green. Both selvedges present.",
     "justification": null,
-    "type": {
-        "id": "35268079",
-        "name": "Sample"
-    },
+    "woe:country": "23424975",
+    "type": "Sample",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/74306_9e54ad980382b501_b.jpg",
                 "width": 1024,
                 "height": 638,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/74306_9e54ad980382b501_n.jpg",
-                "width": 320,
-                "height": 199,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "74306"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/74306_9e54ad980382b501_z.jpg",
                 "width": 640,
                 "height": 399,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "74306"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/74306_9e54ad980382b501_n.jpg",
+                "width": 320,
+                "height": 199,
+                "is_primary": "1",
+                "image_id": "74306"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/74306_9e54ad980382b501_d.gif",
+                "width": 320,
+                "height": 199,
+                "is_primary": "1",
+                "image_id": "74306"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/74306_9e54ad980382b501_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "74306"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18057745",
             "role_id": "35236655",
             "person_name": "Colleen Farr",
+            "person_date": "",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18057745\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18044251",
             "role_id": "35236681",
             "person_name": "Liberty & Company",
+            "person_date": "founded 1874",
             "role_name": "Company",
+            "role_display_name": "Company:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18044251\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236681\/"
         }
@@ -72,24 +102,35 @@
     },
     "colors": [
         {
-            "color": "#392721",
-            "closest_css3": "#2f4f4f"
+            "color": "#2b1c1c",
+            "closest_crayola": "#000000",
+            "closest_css3": "#000000",
+            "closest_css4": "#000000"
         },
         {
-            "color": "#84838b",
-            "closest_css3": "#808080"
+            "color": "#4a3024",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#5e3c2d",
-            "closest_css3": "#556b2f"
+            "color": "#a2cadd",
+            "closest_crayola": "#9aceeb",
+            "closest_css3": "#b0c4de",
+            "closest_css4": "#b0c4de"
         },
         {
-            "color": "#534548",
-            "closest_css3": "#2f4f4f"
+            "color": "#7d767e",
+            "closest_crayola": "#757575",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#696771",
-            "closest_css3": "#696969"
+            "color": "#54494c",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         }
-    ]
+    ],
+    "woe:country_name": "United Kingdom"
 }

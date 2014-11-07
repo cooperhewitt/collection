@@ -3,6 +3,7 @@
     "tms:id": "176346",
     "accession_number": "1980-73-16",
     "title": "Sidewall, \"Branch\", 1872",
+    "title_raw": "Branch",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18615639\/",
     "department_id": "35347503",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1872,
     "year_acquired": "1980",
     "decade": null,
-    "woe:country": "23424975",
+    "woe:country_id": "23424975",
     "medium": "Block-printed on paper",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "66.5 x 55 cm (26 3\/16 x 21 5\/8 in.)",
+    "dimensions_raw": {
+        "height": [
+            "66.50",
+            "centimeters"
+        ],
+        "width": [
+            "55.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Dr. Francis J. Geck",
     "description": "Repeat of simple laurel leaf clusters. Printed in green, pattern reserve-printed in grey.",
     "justification": null,
-    "type": {
-        "id": "35256475",
-        "name": "Sidewall"
-    },
+    "woe:country": "23424975",
+    "type": "Sidewall",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/63416_1ed0d46002b6bd16_b.jpg",
                 "width": 850,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/63416_1ed0d46002b6bd16_n.jpg",
-                "width": 266,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "63416"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/63416_1ed0d46002b6bd16_z.jpg",
                 "width": 531,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "63416"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/63416_1ed0d46002b6bd16_n.jpg",
+                "width": 266,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "63416"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/63416_1ed0d46002b6bd16_d.gif",
+                "width": 266,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "63416"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/63416_1ed0d46002b6bd16_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "63416"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/9113_c82e7385722e1245_b.jpg",
                 "width": 879,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/9113_c82e7385722e1245_n.jpg",
-                "width": 275,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "9113"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/9113_c82e7385722e1245_z.jpg",
                 "width": 549,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "9113"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/9113_c82e7385722e1245_n.jpg",
+                "width": 275,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "9113"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/9113_c82e7385722e1245_d.gif",
+                "width": 275,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "9113"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/9113_c82e7385722e1245_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "9113"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18047849",
             "role_id": "35352245",
             "person_name": "Kate Milkin",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047849\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18043867",
             "role_id": "35236655",
             "person_name": "William Morris",
+            "person_date": "English, 1834\u20131896",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18043867\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
@@ -92,12 +139,11 @@
     },
     "colors": [
         {
-            "color": "#706e56",
-            "closest_css3": "#696969"
-        },
-        {
-            "color": "#baaf8d",
-            "closest_css3": "#d2b48c"
+            "color": "#706f56",
+            "closest_crayola": "#85754e",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         }
-    ]
+    ],
+    "woe:country_name": "United Kingdom"
 }

@@ -3,6 +3,7 @@
     "tms:id": "196459",
     "accession_number": "1993-118-5",
     "title": "Textile, 1993",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18643189\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,55 @@
     "year_end": 1993,
     "year_acquired": "1993",
     "decade": "1990",
-    "woe:country": "23424856",
+    "woe:country_id": "23424856",
     "medium": "Medium: warp: metallic film; weft: wool\nTechnique: 2 x 2 broken twill weave; gathered, tied and shrunk",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": null,
+    "dimensions_raw": null,
     "creditline": "Gift of Junichi Arai",
     "description": "Long, narrow length of pale gray fulled wool, with a meandering stripe of silver metallic reserved from shrinking by a tied resist method.",
     "justification": null,
-    "type": {
-        "id": "35251739",
-        "name": "textile"
-    },
+    "woe:country": "23424856",
+    "type": "textile",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/28641_fecc221bb21f63b4_b.jpg",
                 "width": 554,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/28641_fecc221bb21f63b4_n.jpg",
-                "width": 173,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "28641"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/28641_fecc221bb21f63b4_z.jpg",
                 "width": 346,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "28641"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/28641_fecc221bb21f63b4_n.jpg",
+                "width": 173,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "28641"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/28641_fecc221bb21f63b4_d.gif",
+                "width": 173,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "28641"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/28641_fecc221bb21f63b4_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "28641"
             }
         },
         {
@@ -53,19 +70,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/78946_7045da2c3eeb1daa_b.jpg",
                 "width": 663,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/78946_7045da2c3eeb1daa_n.jpg",
-                "width": 207,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "78946"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/78946_7045da2c3eeb1daa_z.jpg",
                 "width": 414,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "78946"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/78946_7045da2c3eeb1daa_n.jpg",
+                "width": 207,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "78946"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/78946_7045da2c3eeb1daa_d.gif",
+                "width": 207,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "78946"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/78946_7045da2c3eeb1daa_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "78946"
             }
         }
     ],
@@ -74,7 +108,9 @@
             "person_id": "18041361",
             "role_id": "35351535",
             "person_name": "Arai Creation System",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041361\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -82,7 +118,9 @@
             "person_id": "18047457",
             "role_id": "35352245",
             "person_name": "Barbara Duggan",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047457\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -90,7 +128,9 @@
             "person_id": "18045617",
             "role_id": "35236655",
             "person_name": "Junichi Arai",
+            "person_date": "Japanese, b. 1932",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18045617\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
@@ -100,20 +140,23 @@
     },
     "colors": [
         {
-            "color": "#a5a8af",
-            "closest_css3": "#a9a9a9"
+            "color": "#83807a",
+            "closest_crayola": "#757575",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
             "color": "#625f5a",
-            "closest_css3": "#696969"
-        },
-        {
-            "color": "#cad6db",
-            "closest_css3": "#d3d3d3"
+            "closest_crayola": "#6e5160",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
             "color": "#3e3838",
-            "closest_css3": "#2f4f4f"
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         }
-    ]
+    ],
+    "woe:country_name": "Japan"
 }

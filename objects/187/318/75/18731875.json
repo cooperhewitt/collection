@@ -2,7 +2,8 @@
     "id": "18731875",
     "tms:id": "242038",
     "accession_number": "2009-18-77",
-    "title": "Rhine Wine Glass, \"Mimosas\", 1905",
+    "title": "Rhine Wine Glass, \"No. 222\", 1905",
+    "title_raw": "Mimosas",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18731875\/",
     "department_id": "35347497",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1905,
     "year_acquired": "2009",
     "decade": "1900",
-    "woe:country": "23424750",
+    "woe:country_id": "23424750",
     "medium": "Engraved mouth-blown crystal",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "2009: acquired by Museum",
     "dimensions": "H x diam.: 14.6 x 6.5 cm (5 3\/4 x 2 9\/16 in.)",
+    "dimensions_raw": {
+        "diameter": [
+            "6.50",
+            "centimeters"
+        ],
+        "height": [
+            "14.60",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase through gift of Dale and Doug Anderson, Anonymous Donor, Arthur Liu, and Prairie Pictures, Inc. and from General Acquisitions Endowment Fund",
     "description": "Green mouth-blown crystal wine glass, with dainty floral engraving.",
     "justification": null,
-    "type": {
-        "id": "35305995",
-        "name": "Rhine wine glass"
-    },
+    "woe:country": "23424750",
+    "type": "Rhine wine glass",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/32245_e31d6ebcedc629aa_b.jpg",
                 "width": 615,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/32245_e31d6ebcedc629aa_n.jpg",
-                "width": 192,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "32245"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/32245_e31d6ebcedc629aa_z.jpg",
                 "width": 385,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "32245"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/32245_e31d6ebcedc629aa_n.jpg",
+                "width": 192,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "32245"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/32245_e31d6ebcedc629aa_d.gif",
+                "width": 192,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "32245"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/32245_e31d6ebcedc629aa_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "32245"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/33261_dedd8f0ff76c26a7_b.jpg",
                 "width": 1024,
                 "height": 828,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/33261_dedd8f0ff76c26a7_n.jpg",
-                "width": 320,
-                "height": 259,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "33261"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/33261_dedd8f0ff76c26a7_z.jpg",
                 "width": 640,
                 "height": 518,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "33261"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/33261_dedd8f0ff76c26a7_n.jpg",
+                "width": 320,
+                "height": 259,
+                "is_primary": "0",
+                "image_id": "33261"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/33261_dedd8f0ff76c26a7_d.gif",
+                "width": 320,
+                "height": 259,
+                "is_primary": "0",
+                "image_id": "33261"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/33261_dedd8f0ff76c26a7_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "33261"
             }
         }
     ],
@@ -73,8 +116,10 @@
         {
             "person_id": "18061841",
             "role_id": "35236657",
-            "person_name": "J. & L. Lobmeyr GmbH, Vienna, Austria",
+            "person_name": "J. & L. Lobmeyr GmbH",
+            "person_date": "Vienna, Austria, founded ca. 1935",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18061841\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         },
@@ -82,34 +127,45 @@
             "person_id": "18537837",
             "role_id": "35236655",
             "person_name": "Stefan Rath",
+            "person_date": "Austrian, 1876\u20131960",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18537837\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
         {
             "person_id": "18061841",
             "role_id": "51571131",
-            "person_name": "J. & L. Lobmeyr GmbH, Vienna, Austria",
+            "person_name": "J. & L. Lobmeyr GmbH",
+            "person_date": "Vienna, Austria, founded ca. 1935",
             "role_name": "Lender",
+            "role_display_name": "Lent by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18061841\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/51571131\/"
         }
     ],
     "tombstone": {
-        "epitaph": "Rhine Wine Glass, \"Mimosas\", 1905. Engraved mouth-blown crystal. Museum purchase through gift of Dale and Doug Anderson, Anonymous Donor, Arthur Liu, and Prairie Pictures, Inc. and from General Acquisitions Endowment Fund. 2009-18-77."
+        "epitaph": "Rhine Wine Glass, \"No. 222\", 1905. Engraved mouth-blown crystal. Museum purchase through gift of Dale and Doug Anderson, Anonymous Donor, Arthur Liu, and Prairie Pictures, Inc. and from General Acquisitions Endowment Fund. 2009-18-77."
     },
     "colors": [
         {
             "color": "#e2ebd8",
-            "closest_css3": "#dcdcdc"
+            "closest_crayola": "#efdecd",
+            "closest_css3": "#dcdcdc",
+            "closest_css4": "#dcdcdc"
         },
         {
-            "color": "#b6c0b3",
-            "closest_css3": "#c0c0c0"
+            "color": "#b5bfb1",
+            "closest_crayola": "#b0b7c6",
+            "closest_css3": "#c0c0c0",
+            "closest_css4": "#c0c0c0"
         },
         {
-            "color": "#7d9a79",
-            "closest_css3": "#808080"
+            "color": "#7d9b79",
+            "closest_crayola": "#87a96b",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         }
-    ]
+    ],
+    "woe:country_name": "Austria"
 }

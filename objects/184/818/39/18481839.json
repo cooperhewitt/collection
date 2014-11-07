@@ -3,6 +3,7 @@
     "tms:id": "151776",
     "accession_number": "1973-51-60",
     "title": "Chintz, 18th century",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18481839\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": null,
     "year_acquired": "1973",
     "decade": null,
-    "woe:country": "23424848",
+    "woe:country_id": "23424848",
     "medium": "Medium: cotton\nTechnique: mordants (black, brown, 2 reds, 2 purples) and dye (yellow) applied by pen or brush; blue applied by brush; chintz on plain weave",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "ex. coll. Martin scrapbook",
     "dimensions": "Warp x Weft: 56.5 x 59 cm (22 1\/4 x 23 1\/4 in.)",
+    "dimensions_raw": {
+        "warp": [
+            "56.50",
+            "centimeters"
+        ],
+        "weft": [
+            "59.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Josephine Howell",
     "description": "Curving vines enclosing motifs of people, buildings and a quail-like bird. Blue band at top.",
     "justification": null,
-    "type": {
-        "id": "35289239",
-        "name": "Chintz"
-    },
+    "woe:country": "23424848",
+    "type": "Chintz",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/8367_0cebb8d9ac9e66fc_b.jpg",
                 "width": 1024,
                 "height": 981,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/8367_0cebb8d9ac9e66fc_n.jpg",
-                "width": 320,
-                "height": 307,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "8367"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/8367_0cebb8d9ac9e66fc_z.jpg",
                 "width": 640,
                 "height": 613,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "8367"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/8367_0cebb8d9ac9e66fc_n.jpg",
+                "width": 320,
+                "height": 307,
+                "is_primary": "1",
+                "image_id": "8367"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/8367_0cebb8d9ac9e66fc_d.gif",
+                "width": 320,
+                "height": 307,
+                "is_primary": "1",
+                "image_id": "8367"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/8367_0cebb8d9ac9e66fc_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "8367"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/76324_2543e1330a98bedf_b.jpg",
                 "width": 1024,
                 "height": 737,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/76324_2543e1330a98bedf_n.jpg",
-                "width": 320,
-                "height": 230,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "76324"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/76324_2543e1330a98bedf_z.jpg",
                 "width": 640,
                 "height": 460,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "76324"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/76324_2543e1330a98bedf_n.jpg",
+                "width": 320,
+                "height": 230,
+                "is_primary": "0",
+                "image_id": "76324"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/76324_2543e1330a98bedf_d.gif",
+                "width": 320,
+                "height": 230,
+                "is_primary": "0",
+                "image_id": "76324"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/76324_2543e1330a98bedf_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "76324"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18049387",
             "role_id": "35351535",
             "person_name": "Josephine Howell",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049387\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18047459",
             "role_id": "35352245",
             "person_name": "Gillian Moss",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047459\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         }
@@ -92,24 +139,35 @@
     },
     "colors": [
         {
-            "color": "#ddcdcc",
-            "closest_css3": "#d3d3d3"
+            "color": "#ccbec4",
+            "closest_crayola": "#cdc5c2",
+            "closest_css3": "#c0c0c0",
+            "closest_css4": "#c0c0c0"
         },
         {
-            "color": "#a0959b",
-            "closest_css3": "#a9a9a9"
+            "color": "#837b7b",
+            "closest_crayola": "#757575",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#514240",
-            "closest_css3": "#2f4f4f"
+            "color": "#765f62",
+            "closest_crayola": "#6e5160",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#5a5d62",
-            "closest_css3": "#696969"
+            "color": "#453e43",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#7e5a62",
-            "closest_css3": "#696969"
+            "color": "#a59aa3",
+            "closest_crayola": "#979aaa",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
         }
-    ]
+    ],
+    "woe:country_name": "India"
 }

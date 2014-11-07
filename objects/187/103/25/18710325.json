@@ -3,6 +3,7 @@
     "tms:id": "231023",
     "accession_number": "1995-50-275-i",
     "title": "Page From Ackermann's \"Repository Of The Arts, Science Etc,\", 1809\u201311",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18710325\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1820,
     "year_acquired": "1995",
     "decade": null,
-    "woe:country": "23424975",
+    "woe:country_id": "23424975",
     "medium": "Medium: paper, cotton, silk\nTechnique: (samples) printed plain weave; warp-faced plain weave with weft patterning; printed plain weave with twill effect",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "H x W: 24.1 x 14.6 cm (9 1\/2 x 5 3\/4 in.)",
+    "dimensions_raw": {
+        "height": [
+            "24.10",
+            "centimeters"
+        ],
+        "width": [
+            "14.60",
+            "centimeters"
+        ]
+    },
     "creditline": "Bequest of Elinor Merrell",
     "description": "Component \"i\" is a page from Ackermann's Repository, January 1811. Page contains printed graphics and three textile swatches: two printed and one woven.",
     "justification": null,
-    "type": {
-        "id": "35297825",
-        "name": "Page from Ackermann's \"Repository of the Arts, Science etc,\""
-    },
+    "woe:country": "23424975",
+    "type": "Page from Ackermann's \"Repository of the Arts, Science etc,\"",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/26348_6aaf9d8d9cf73e7e_b.jpg",
                 "width": 664,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/26348_6aaf9d8d9cf73e7e_n.jpg",
-                "width": 207,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "26348"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/26348_6aaf9d8d9cf73e7e_z.jpg",
                 "width": 415,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "26348"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/26348_6aaf9d8d9cf73e7e_n.jpg",
+                "width": 207,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "26348"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/26348_6aaf9d8d9cf73e7e_d.gif",
+                "width": 207,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "26348"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/26348_6aaf9d8d9cf73e7e_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "26348"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/25690_5b0476003475c5af_b.jpg",
                 "width": 654,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/25690_5b0476003475c5af_n.jpg",
-                "width": 204,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "25690"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/25690_5b0476003475c5af_z.jpg",
                 "width": 409,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "25690"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/25690_5b0476003475c5af_n.jpg",
+                "width": 204,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "25690"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/25690_5b0476003475c5af_d.gif",
+                "width": 204,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "25690"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/25690_5b0476003475c5af_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "25690"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18049427",
             "role_id": "35351537",
             "person_name": "Elinor Merrell",
+            "person_date": "",
             "role_name": "Bequestor",
+            "role_display_name": "Bequest of",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049427\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351537\/"
         }
@@ -84,24 +129,35 @@
     },
     "colors": [
         {
-            "color": "#bfb8a9",
-            "closest_css3": "#c0c0c0"
+            "color": "#bcb5a6",
+            "closest_crayola": "#b0b7c6",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
         },
         {
-            "color": "#686051",
-            "closest_css3": "#696969"
+            "color": "#898274",
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#847b6b",
-            "closest_css3": "#808080"
+            "color": "#484036",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#453d33",
-            "closest_css3": "#2f4f4f"
+            "color": "#6a6356",
+            "closest_crayola": "#6e5160",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#a4b0b5",
-            "closest_css3": "#a9a9a9"
+            "color": "#a1afb3",
+            "closest_crayola": "#979aaa",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
         }
-    ]
+    ],
+    "woe:country_name": "United Kingdom"
 }

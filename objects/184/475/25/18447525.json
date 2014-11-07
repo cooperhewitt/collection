@@ -3,6 +3,7 @@
     "tms:id": "134278",
     "accession_number": "1963-39-24",
     "title": "Poster, \"London History at the London Museum, for London Underground\", 1922",
+    "title_raw": "London History at the London Museum, for London Underground",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18447525\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1922,
     "year_acquired": "1963",
     "decade": "1920",
-    "woe:country": "23424975",
+    "woe:country_id": "23424975",
     "medium": "Offset lithograph on paper, lined",
     "markings": null,
     "signed": "Signed in grey ink, center right: E.McK. KAUFFER. 22",
     "inscribed": "Printed in grey ink, lower left: 171. 1000. 8-2-23.; lower right: VINCENT BROOKS DAY & SON LTD. LITH. LONDON. w.C.2.",
     "provenance": "Mrs. Edward McKnight Kauffer; 1963: acquired by Museum",
     "dimensions": "101.9 x 59.8 cm (40 1\/8 x 23 9\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "101.90",
+            "centimeters"
+        ],
+        "width": [
+            "59.80",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Mrs. E. McKnight Kauffer",
     "description": "Large fire and smoke engulfing a grey abstracted castle. Below, in grey and red: LONDON HISTORY AT THE \/ LONDON MUSEUM \/ DOVER STREET \/ OR ST. JAMES\u2019S PARK STATION.",
     "justification": null,
-    "type": {
-        "id": "35238163",
-        "name": "poster"
-    },
+    "woe:country": "23424975",
+    "type": "poster",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/65777_4a725d31f07070db_b.jpg",
                 "width": 609,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/65777_4a725d31f07070db_n.jpg",
-                "width": 190,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "65777"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/65777_4a725d31f07070db_z.jpg",
                 "width": 381,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "65777"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/65777_4a725d31f07070db_n.jpg",
+                "width": 190,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "65777"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/65777_4a725d31f07070db_d.gif",
+                "width": 190,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "65777"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/65777_4a725d31f07070db_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "65777"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18061849",
             "role_id": "35351535",
             "person_name": "Mrs. Edward McKnight Kauffer",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18061849\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18041923",
             "role_id": "35236655",
             "person_name": "Edward McKnight Kauffer",
+            "person_date": "American, active England, 1890\u20131954",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041923\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
@@ -73,23 +103,34 @@
     "colors": [
         {
             "color": "#f2ecd6",
-            "closest_css3": "#faebd7"
+            "closest_crayola": "#efdecd",
+            "closest_css3": "#faebd7",
+            "closest_css4": "#faebd7"
         },
         {
             "color": "#de6934",
-            "closest_css3": "#d2691e"
+            "closest_crayola": "#ff7538",
+            "closest_css3": "#d2691e",
+            "closest_css4": "#d2691e"
         },
         {
-            "color": "#8a3d2d",
-            "closest_css3": "#8b4513"
+            "color": "#84392a",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#8b4513",
+            "closest_css4": "#8b4513"
         },
         {
-            "color": "#91785a",
-            "closest_css3": "#808080"
+            "color": "#947b5b",
+            "closest_crayola": "#8a795d",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#f1e588",
-            "closest_css3": "#f0e68c"
+            "color": "#f1e48f",
+            "closest_crayola": "#f0e891",
+            "closest_css3": "#f0e68c",
+            "closest_css4": "#f0e68c"
         }
-    ]
+    ],
+    "woe:country_name": "United Kingdom"
 }

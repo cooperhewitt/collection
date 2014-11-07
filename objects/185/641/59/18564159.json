@@ -3,6 +3,7 @@
     "tms:id": "75283",
     "accession_number": "1941-69-216",
     "title": "Sampler, 19th century",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18564159\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": null,
     "year_acquired": "1941",
     "decade": null,
-    "woe:country": "23424975",
+    "woe:country_id": "23424975",
     "medium": "Medium: glass beads, linen foundation\nTechnique: beadwork on plain weave",
     "markings": null,
     "signed": "\"Jane Hall\"",
     "inscribed": "\"Jane Hall\"",
     "provenance": "ex. coll. Mrs. Henry E. Coe (Eva Johnston Coe)",
     "dimensions": "H x W: 13.7 x 12.1 cm (5 3\/8 x 4 3\/4 in.)",
+    "dimensions_raw": {
+        "height": [
+            "13.65",
+            "centimeters"
+        ],
+        "width": [
+            "12.07",
+            "centimeters"
+        ]
+    },
     "creditline": "Bequest of Mrs. Henry E. Coe",
     "description": "Alphabets and four numbers with \"Jane Hall\" in colored beads",
     "justification": null,
-    "type": {
-        "id": "35256439",
-        "name": "Sampler"
-    },
+    "woe:country": "23424975",
+    "type": "Sampler",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/47222_09eeac0e5ee9342c_b.jpg",
                 "width": 946,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/47222_09eeac0e5ee9342c_n.jpg",
-                "width": 296,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "47222"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/47222_09eeac0e5ee9342c_z.jpg",
                 "width": 592,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "47222"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/47222_09eeac0e5ee9342c_n.jpg",
+                "width": 296,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "47222"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/47222_09eeac0e5ee9342c_d.gif",
+                "width": 296,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "47222"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/47222_09eeac0e5ee9342c_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "47222"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/29157_7213e70d73b02f6d_b.jpg",
                 "width": 914,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/29157_7213e70d73b02f6d_n.jpg",
-                "width": 286,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "29157"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/29157_7213e70d73b02f6d_z.jpg",
                 "width": 572,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "29157"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/29157_7213e70d73b02f6d_n.jpg",
+                "width": 286,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "29157"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/29157_7213e70d73b02f6d_d.gif",
+                "width": 286,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "29157"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/29157_7213e70d73b02f6d_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "29157"
             }
         }
     ],
@@ -74,9 +117,21 @@
             "person_id": "18052567",
             "role_id": "35351537",
             "person_name": "Mrs. Henry E. Coe",
+            "person_date": "",
             "role_name": "Bequestor",
+            "role_display_name": "Bequest of",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18052567\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351537\/"
+        },
+        {
+            "person_id": "68737377",
+            "role_id": "35236583",
+            "person_name": "Jane Hall",
+            "person_date": "",
+            "role_name": "Embroiderer",
+            "role_display_name": "Embroidered by",
+            "person_url": "http:\/\/collection.cooperhewitt.org\/people\/68737377\/",
+            "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236583\/"
         }
     ],
     "tombstone": {
@@ -84,24 +139,35 @@
     },
     "colors": [
         {
-            "color": "#826944",
-            "closest_css3": "#a0522d"
+            "color": "#967f55",
+            "closest_crayola": "#8a795d",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#a28b61",
-            "closest_css3": "#808080"
+            "color": "#6f5d40",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         },
         {
-            "color": "#563f2a",
-            "closest_css3": "#556b2f"
+            "color": "#c1ad82",
+            "closest_crayola": "#bab86c",
+            "closest_css3": "#d2b48c",
+            "closest_css4": "#d2b48c"
         },
         {
-            "color": "#c1ad84",
-            "closest_css3": "#d2b48c"
+            "color": "#493729",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#2c688c",
-            "closest_css3": "#483d8b"
+            "color": "#853022",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#8b4513",
+            "closest_css4": "#8b4513"
         }
-    ]
+    ],
+    "woe:country_name": "United Kingdom"
 }

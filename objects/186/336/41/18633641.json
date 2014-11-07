@@ -3,6 +3,7 @@
     "tms:id": "191666",
     "accession_number": "1990-102-1",
     "title": "Radiator, \"Radiaver\", ca. 1937",
+    "title_raw": "Radiaver",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18633641\/",
     "department_id": "35347497",
     "period_id": null,
@@ -13,39 +14,68 @@
     "year_end": 1942,
     "year_acquired": "1990",
     "decade": "1930",
-    "woe:country": "23424819",
+    "woe:country_id": "23424819",
     "medium": "Glass, crome-plated metal",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "1990: acquired by Museum (from Beaut\u00e9 Divine)",
     "dimensions": "H x W x D: 59 x 43 x 14.8 cm (23 1\/4 x 16 15\/16 x 5 13\/16 in.)",
+    "dimensions_raw": {
+        "depth": [
+            "14.80",
+            "centimeters"
+        ],
+        "height": [
+            "59.00",
+            "centimeters"
+        ],
+        "width": [
+            "43.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase from James Ford Fund",
     "description": "Upright, flat rectangular plate glass sheets with flat metallic heating elements sandwiched between; surrounded by tubular chromed metal frame with rings at upper corners and set into long triangular base of thick tempered glass.",
     "justification": null,
-    "type": {
-        "id": "35252565",
-        "name": "radiator"
-    },
+    "woe:country": "23424819",
+    "type": "radiator",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/15509_04d8f3ba4d56af5c_b.jpg",
                 "width": 795,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/15509_04d8f3ba4d56af5c_n.jpg",
-                "width": 249,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "15509"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/15509_04d8f3ba4d56af5c_z.jpg",
                 "width": 497,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "15509"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/15509_04d8f3ba4d56af5c_n.jpg",
+                "width": 249,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "15509"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/15509_04d8f3ba4d56af5c_d.gif",
+                "width": 249,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "15509"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/15509_04d8f3ba4d56af5c_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "15509"
             }
         }
     ],
@@ -54,7 +84,9 @@
             "person_id": "18057843",
             "role_id": "35236657",
             "person_name": "Saint-Gobain Vetrotex International S.A.",
+            "person_date": "",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18057843\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         },
@@ -62,7 +94,9 @@
             "person_id": "18048927",
             "role_id": "35352247",
             "person_name": "James Ford Fund",
+            "person_date": "",
             "role_name": "Fund",
+            "role_display_name": "Fund:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18048927\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352247\/"
         },
@@ -70,7 +104,9 @@
             "person_id": "18059841",
             "role_id": "35352249",
             "person_name": "Beaut\u00e9 Divine",
+            "person_date": "",
             "role_name": "Vendor",
+            "role_display_name": "Purchased from",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18059841\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352249\/"
         },
@@ -78,7 +114,9 @@
             "person_id": "18059249",
             "role_id": "35236655",
             "person_name": "Ren\u00e9 Coulon",
+            "person_date": "1908 \u2013 1997",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18059249\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
@@ -88,12 +126,17 @@
     },
     "colors": [
         {
-            "color": "#383935",
-            "closest_css3": "#2f4f4f"
+            "color": "#74747c",
+            "closest_crayola": "#757575",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#595d52",
-            "closest_css3": "#696969"
+            "color": "#383a36",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         }
-    ]
+    ],
+    "woe:country_name": "France"
 }

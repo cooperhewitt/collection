@@ -3,6 +3,7 @@
     "tms:id": "156217",
     "accession_number": "1976-30-6-a",
     "title": "Textile, 1850\u20131900",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18490677\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": "1900",
     "year_acquired": "1976",
     "decade": null,
-    "woe:country": null,
+    "woe:country_id": null,
     "medium": "Medium: cotton\nTechnique: printed by engraved roller on plain weave",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "Warp x Weft (a): 41 x 60 cm (16 1\/8 x 23 5\/8 in.)\nWarp x Weft (b): 89 x 39 cm (35 1\/16 x 15 3\/8 in.)",
+    "dimensions_raw": {
+        "warp": [
+            "89.00",
+            "centimeters"
+        ],
+        "weft": [
+            "39.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of L'Antiquaire, Inc.",
     "description": "Half dropped curving vine floral stripe on a dark grey background four inch wide alternating with a two inch wide stripe containing symmetrical floral forms. Full repeat length of wider floral stripe.",
     "justification": null,
-    "type": {
-        "id": "35251739",
-        "name": "textile"
-    },
+    "woe:country": null,
+    "type": "textile",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/8095_851a1e8b5aafb145_b.jpg",
                 "width": 688,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/8095_851a1e8b5aafb145_n.jpg",
-                "width": 215,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "8095"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/8095_851a1e8b5aafb145_z.jpg",
                 "width": 430,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "8095"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/8095_851a1e8b5aafb145_n.jpg",
+                "width": 215,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "8095"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/8095_851a1e8b5aafb145_d.gif",
+                "width": 215,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "8095"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/8095_851a1e8b5aafb145_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "8095"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/76829_0a823e72fb71d17b_b.jpg",
                 "width": 1024,
                 "height": 663,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/76829_0a823e72fb71d17b_n.jpg",
-                "width": 320,
-                "height": 207,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "76829"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/76829_0a823e72fb71d17b_z.jpg",
                 "width": 640,
                 "height": 414,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "76829"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/76829_0a823e72fb71d17b_n.jpg",
+                "width": 320,
+                "height": 207,
+                "is_primary": "0",
+                "image_id": "76829"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/76829_0a823e72fb71d17b_d.gif",
+                "width": 320,
+                "height": 207,
+                "is_primary": "0",
+                "image_id": "76829"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/76829_0a823e72fb71d17b_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "76829"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18047497",
             "role_id": "35352245",
             "person_name": "Milton Sonday",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047497\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18049431",
             "role_id": "35351535",
             "person_name": "L'Antiquaire & The Connoisseur Inc.",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049431\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -90,7 +137,9 @@
             "person_id": "18047459",
             "role_id": "35352245",
             "person_name": "Gillian Moss",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047459\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         }
@@ -100,24 +149,34 @@
     },
     "colors": [
         {
-            "color": "#a8030d",
-            "closest_css3": "#8b0000"
+            "color": "#a8050f",
+            "closest_crayola": "#9c2542",
+            "closest_css3": "#8b0000",
+            "closest_css4": "#8b0000"
         },
         {
-            "color": "#f6c16a",
-            "closest_css3": "#f4a460"
+            "color": "#f0c96d",
+            "closest_crayola": "#f8d568",
+            "closest_css3": "#deb887",
+            "closest_css4": "#deb887"
         },
         {
-            "color": "#e98827",
-            "closest_css3": "#daa520"
+            "color": "#f69c2e",
+            "closest_crayola": "#ffa343",
+            "closest_css3": "#daa520",
+            "closest_css4": "#daa520"
         },
         {
-            "color": "#3c281e",
-            "closest_css3": "#2f4f4f"
+            "color": "#d27626",
+            "closest_crayola": "#c46210",
+            "closest_css3": "#d2691e",
+            "closest_css4": "#d2691e"
         },
         {
-            "color": "#c9651f",
-            "closest_css3": "#d2691e"
+            "color": "#35241d",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         }
     ]
 }

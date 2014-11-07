@@ -3,6 +3,7 @@
     "tms:id": "226515",
     "accession_number": "2005-5-2",
     "title": "Soup Spoon, ca. 1934",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18701747\/",
     "department_id": "35347497",
     "period_id": null,
@@ -13,39 +14,68 @@
     "year_end": 1939,
     "year_acquired": "2005",
     "decade": "1920",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Silver-plated metal, glass",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "L x W x D: 19.6 x 4 x 2.5 cm (7 11\/16 x 1 9\/16 x 1 in.)",
+    "dimensions_raw": {
+        "depth": [
+            "2.50",
+            "centimeters"
+        ],
+        "length": [
+            "19.60",
+            "centimeters"
+        ],
+        "width": [
+            "4.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase from General Acquisitions Endowment Fund",
     "description": null,
     "justification": null,
-    "type": {
-        "id": "35294039",
-        "name": "soup spoon"
-    },
+    "woe:country": "23424977",
+    "type": "soup spoon",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/19463_4c7010cf7ce455e1_b.jpg",
                 "width": 634,
                 "height": 706,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/19463_4c7010cf7ce455e1_n.jpg",
-                "width": 287,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "19463"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/19463_4c7010cf7ce455e1_z.jpg",
                 "width": 575,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "19463"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/19463_4c7010cf7ce455e1_n.jpg",
+                "width": 287,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "19463"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/19463_4c7010cf7ce455e1_d.gif",
+                "width": 287,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "19463"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/19463_4c7010cf7ce455e1_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "19463"
             }
         }
     ],
@@ -54,7 +84,9 @@
             "person_id": "18050335",
             "role_id": "35352249",
             "person_name": "Sotheby's",
+            "person_date": "",
             "role_name": "Vendor",
+            "role_display_name": "Purchased from",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18050335\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352249\/"
         },
@@ -62,7 +94,9 @@
             "person_id": "18048535",
             "role_id": "35352247",
             "person_name": "General Acquisitions Endowment",
+            "person_date": "",
             "role_name": "Fund",
+            "role_display_name": "Fund:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18048535\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352247\/"
         },
@@ -70,7 +104,9 @@
             "person_id": "18053975",
             "role_id": "35236799",
             "person_name": "Walter Dorwin Teague",
+            "person_date": "American, 1883 \u2013 1960",
             "role_name": "Design Director",
+            "role_display_name": "Design Director:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18053975\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236799\/"
         },
@@ -78,7 +114,9 @@
             "person_id": "18044789",
             "role_id": "35236657",
             "person_name": "Steuben",
+            "person_date": "",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18044789\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         },
@@ -86,7 +124,9 @@
             "person_id": "18044787",
             "role_id": "35236655",
             "person_name": "Frederick Carder",
+            "person_date": "1864 \u2013 1963",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18044787\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
@@ -96,20 +136,29 @@
     },
     "colors": [
         {
-            "color": "#b2a6ab",
-            "closest_css3": "#a9a9a9"
+            "color": "#544849",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#ded1d1",
-            "closest_css3": "#d3d3d3"
+            "color": "#ddd1d1",
+            "closest_crayola": "#dbd7d2",
+            "closest_css3": "#d3d3d3",
+            "closest_css4": "#d3d3d3"
         },
         {
-            "color": "#544345",
-            "closest_css3": "#2f4f4f"
+            "color": "#b6a9b3",
+            "closest_crayola": "#b0b7c6",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
         },
         {
-            "color": "#8a7e8b",
-            "closest_css3": "#808080"
+            "color": "#96898f",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

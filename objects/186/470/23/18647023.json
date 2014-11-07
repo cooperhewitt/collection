@@ -3,6 +3,7 @@
     "tms:id": "198416",
     "accession_number": "1993-9-1-a,b",
     "title": "Table, \"Tudor Coin Encrusted Table\", 1992",
+    "title_raw": "Tudor Coin Encrusted Table",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18647023\/",
     "department_id": "35347497",
     "period_id": null,
@@ -13,39 +14,68 @@
     "year_end": 1992,
     "year_acquired": "1993",
     "decade": "1990",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Wood, enamel, copper leaf, coins, brass, gold leaf",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "1993: acquired by Museum",
     "dimensions": "H x W x D: 65 x 59.8 x 49.8 (25 9\/16 x 23 9\/16 x 19 5\/8 in.)",
+    "dimensions_raw": {
+        "depth": [
+            "49.80",
+            "centimeters"
+        ],
+        "height": [
+            "65.00",
+            "centimeters"
+        ],
+        "width": [
+            "59.80",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase from Decorative Arts Association Acquisition Fund",
     "description": "Box-shaped, finished with patinated copper leaf and studded with rows of brass nails, washers, and African coins. Black enameled base resting on 4 cylindrical gilded feet. Semi-spherical gilded handle on two sides. Top section lifts off.",
     "justification": null,
-    "type": {
-        "id": "35238865",
-        "name": "table"
-    },
+    "woe:country": "23424977",
+    "type": "table",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/11869_8f94d3726f81b1a9_b.jpg",
                 "width": 985,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/11869_8f94d3726f81b1a9_n.jpg",
-                "width": 308,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "11869"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/11869_8f94d3726f81b1a9_z.jpg",
                 "width": 616,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "11869"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/11869_8f94d3726f81b1a9_n.jpg",
+                "width": 308,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "11869"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/11869_8f94d3726f81b1a9_d.gif",
+                "width": 308,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "11869"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/11869_8f94d3726f81b1a9_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "11869"
             }
         }
     ],
@@ -54,7 +84,9 @@
             "person_id": "18048725",
             "role_id": "35236655",
             "person_name": "Cheryl R. Riley",
+            "person_date": "b. 1952",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18048725\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -62,7 +94,9 @@
             "person_id": "18049365",
             "role_id": "35352247",
             "person_name": "Decorative Arts Association Acquisition Fund",
+            "person_date": "founded 1982, closed September 30, 1998",
             "role_name": "Fund",
+            "role_display_name": "Fund:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049365\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352247\/"
         },
@@ -70,7 +104,9 @@
             "person_id": "18047827",
             "role_id": "35352245",
             "person_name": "Deborah S. Shinn",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047827\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -78,7 +114,9 @@
             "person_id": "18041313",
             "role_id": "35352249",
             "person_name": "RIGHT ANGLE INTERIORS",
+            "person_date": "",
             "role_name": "Vendor",
+            "role_display_name": "Purchased from",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041313\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352249\/"
         },
@@ -86,7 +124,9 @@
             "person_id": "18041313",
             "role_id": "35236681",
             "person_name": "RIGHT ANGLE INTERIORS",
+            "person_date": "",
             "role_name": "Company",
+            "role_display_name": "Company:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041313\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236681\/"
         }
@@ -96,24 +136,35 @@
     },
     "colors": [
         {
-            "color": "#61372b",
-            "closest_css3": "#8b4513"
+            "color": "#8b868f",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#928d96",
-            "closest_css3": "#778899"
+            "color": "#39100a",
+            "closest_crayola": "#000000",
+            "closest_css3": "#000000",
+            "closest_css4": "#000000"
         },
         {
-            "color": "#3a1e18",
-            "closest_css3": "#000000"
+            "color": "#772e19",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#8b4513",
+            "closest_css4": "#8b4513"
         },
         {
-            "color": "#54494f",
-            "closest_css3": "#2f4f4f"
+            "color": "#6e6772",
+            "closest_crayola": "#757575",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#a45432",
-            "closest_css3": "#a0522d"
+            "color": "#b9afbf",
+            "closest_crayola": "#b0b7c6",
+            "closest_css3": "#c0c0c0",
+            "closest_css4": "#c0c0c0"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

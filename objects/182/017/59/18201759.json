@@ -3,6 +3,7 @@
     "tms:id": "23623",
     "accession_number": "1917-4-786",
     "title": "Drawing, \"Study of Cotopaxi, Erupting, Ecuador\", 1853",
+    "title_raw": "Study of Cotopaxi, Erupting, Ecuador",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18201759\/",
     "department_id": "35347493",
     "period_id": "35417175",
@@ -13,39 +14,64 @@
     "year_end": 1853,
     "year_acquired": "1917",
     "decade": null,
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Brush and oil, graphite on paperboard",
     "markings": null,
     "signed": "unsigned, undated",
     "inscribed": null,
     "provenance": "Gift of Louis P. Church",
     "dimensions": "18.9 x 29.7 cm (7 7\/16 x 11 11\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "18.90",
+            "centimeters"
+        ],
+        "width": [
+            "29.70",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Louis P. Church",
     "description": "The cone from which heavy smoke pours rises in the left middle plane.  A ridge stretches from left toward right, in the foreground.  Some clouds are shown above the ridge.  Blue sky with clouds.  Broad bottom margin showing the creamy ground in color. Unfinished study.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424977",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/1908_aecd15e5e149047f_b.jpg",
                 "width": 1024,
                 "height": 648,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/1908_aecd15e5e149047f_n.jpg",
-                "width": 320,
-                "height": 202,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "1908"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/1908_aecd15e5e149047f_z.jpg",
                 "width": 640,
                 "height": 405,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "1908"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/1908_aecd15e5e149047f_n.jpg",
+                "width": 320,
+                "height": 202,
+                "is_primary": "1",
+                "image_id": "1908"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/1908_aecd15e5e149047f_d.gif",
+                "width": 320,
+                "height": 202,
+                "is_primary": "1",
+                "image_id": "1908"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/1908_aecd15e5e149047f_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "1908"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18047439",
             "role_id": "35352245",
             "person_name": "Rudolph Berliner",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047439\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18041941",
             "role_id": "35236565",
             "person_name": "Frederic Edwin Church",
+            "person_date": "American, 1826\u20131900",
             "role_name": "Artist",
+            "role_display_name": "",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041941\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236565\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18051625",
             "role_id": "35351535",
             "person_name": "Louis P. Church",
+            "person_date": "American, 1870\u20131943",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18051625\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -80,20 +112,29 @@
     },
     "colors": [
         {
-            "color": "#b77329",
-            "closest_css3": "#d2691e"
+            "color": "#a56028",
+            "closest_crayola": "#9c7c38",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         },
         {
-            "color": "#95531d",
-            "closest_css3": "#a0522d"
+            "color": "#dc9d3d",
+            "closest_crayola": "#d68a59",
+            "closest_css3": "#cd853f",
+            "closest_css4": "#cd853f"
         },
         {
-            "color": "#9e7f51",
-            "closest_css3": "#cd853f"
+            "color": "#bf792f",
+            "closest_crayola": "#9c7c38",
+            "closest_css3": "#cd853f",
+            "closest_css4": "#cd853f"
         },
         {
             "color": "#deca94",
-            "closest_css3": "#deb887"
+            "closest_crayola": "#e7c697",
+            "closest_css3": "#deb887",
+            "closest_css4": "#deb887"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

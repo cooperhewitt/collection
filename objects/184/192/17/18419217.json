@@ -3,6 +3,7 @@
     "tms:id": "119845",
     "accession_number": "1957-46-17",
     "title": "Drawing, \"Design for a Printed Textile:  Floral Border with Islands on a Lake\", ca. 1801",
+    "title_raw": "Design for a Printed Textile:  Floral Border with Islands on a Lake",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18419217\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1811,
     "year_acquired": "1957",
     "decade": null,
-    "woe:country": "23424957",
+    "woe:country_id": "23424957",
     "medium": "Pen and black ink, brush and watercolor, graphite on blue laid paper",
     "markings": null,
     "signed": null,
     "inscribed": "Pen and black ink, lower left corner: D 337",
     "provenance": null,
     "dimensions": "33.2 x 44.8 cm (13 1\/16 x 17 5\/8 in.)",
+    "dimensions_raw": {
+        "height": [
+            "33.20",
+            "centimeters"
+        ],
+        "width": [
+            "44.80",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase from Friends of the Museum Fund",
     "description": "Flowered border enclosing small islands with buildings and violet trees.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424957",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/26308_fc2254ab29073e87_b.jpg",
                 "width": 1024,
                 "height": 766,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/26308_fc2254ab29073e87_n.jpg",
-                "width": 320,
-                "height": 239,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "26308"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/26308_fc2254ab29073e87_z.jpg",
                 "width": 640,
                 "height": 479,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "26308"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/26308_fc2254ab29073e87_n.jpg",
+                "width": 320,
+                "height": 239,
+                "is_primary": "1",
+                "image_id": "26308"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/26308_fc2254ab29073e87_d.gif",
+                "width": 320,
+                "height": 239,
+                "is_primary": "1",
+                "image_id": "26308"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/26308_fc2254ab29073e87_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "26308"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/5570_0d7d0f047dff12ef_b.jpg",
                 "width": 1024,
                 "height": 715,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/5570_0d7d0f047dff12ef_n.jpg",
-                "width": 320,
-                "height": 223,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "5570"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/5570_0d7d0f047dff12ef_z.jpg",
                 "width": 640,
                 "height": 447,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "5570"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/5570_0d7d0f047dff12ef_n.jpg",
+                "width": 320,
+                "height": 223,
+                "is_primary": "0",
+                "image_id": "5570"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/5570_0d7d0f047dff12ef_d.gif",
+                "width": 320,
+                "height": 223,
+                "is_primary": "0",
+                "image_id": "5570"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/5570_0d7d0f047dff12ef_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "5570"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18539111",
             "role_id": "35352249",
             "person_name": "P.L. Bader",
+            "person_date": "",
             "role_name": "Vendor",
+            "role_display_name": "Purchased from",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18539111\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352249\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18041965",
             "role_id": "35236657",
             "person_name": "Fabrique de Fazy aux Bergues",
+            "person_date": "",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041965\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         },
@@ -90,7 +137,9 @@
             "person_id": "18041963",
             "role_id": "35236655",
             "person_name": "Louis-Albert DuBois",
+            "person_date": "Swiss, 1752\u20131818",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041963\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
@@ -100,24 +149,35 @@
     },
     "colors": [
         {
-            "color": "#493c37",
-            "closest_css3": "#2f4f4f"
+            "color": "#483d38",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#62614c",
-            "closest_css3": "#696969"
+            "color": "#808a6c",
+            "closest_crayola": "#8a795d",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#8a956e",
-            "closest_css3": "#808080"
+            "color": "#7b6e50",
+            "closest_crayola": "#85754e",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#a39256",
-            "closest_css3": "#cd853f"
+            "color": "#595748",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         },
         {
-            "color": "#da96a0",
-            "closest_css3": "#bc8f8f"
+            "color": "#bd7a7f",
+            "closest_crayola": "#cd9575",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         }
-    ]
+    ],
+    "woe:country_name": "Switzerland"
 }

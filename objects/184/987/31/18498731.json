@@ -2,7 +2,8 @@
     "id": "18498731",
     "tms:id": "160266",
     "accession_number": "1979-89-13",
-    "title": "Textile, 1975",
+    "title": "Textile, \"Bo Boo\", 1975",
+    "title_raw": "Bo Boo",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18498731\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1975,
     "year_acquired": "1979",
     "decade": "1970",
-    "woe:country": "23424812",
+    "woe:country_id": "23424812",
     "medium": "Medium: cotton\nTechnique: screen printed on plain weave",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "H x W: 365.8 x 137.2 cm (144 x 54 in.)\nRepeat H: 74.9 cm (29 1\/2 in.)",
+    "dimensions_raw": {
+        "height": [
+            "365.76",
+            "centimeters"
+        ],
+        "width": [
+            "137.16",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Marimekko, Inc.",
     "description": "Length of printed cotton with brightly colored cars and trucks on a white ground.",
     "justification": null,
-    "type": {
-        "id": "35251739",
-        "name": "textile"
-    },
+    "woe:country": "23424812",
+    "type": "textile",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/49194_c8622bc5745ded97_b.jpg",
                 "width": 599,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/49194_c8622bc5745ded97_n.jpg",
-                "width": 187,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "49194"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/49194_c8622bc5745ded97_z.jpg",
                 "width": 374,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "49194"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/49194_c8622bc5745ded97_n.jpg",
+                "width": 187,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "49194"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/49194_c8622bc5745ded97_d.gif",
+                "width": 187,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "49194"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/49194_c8622bc5745ded97_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "49194"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/31208_0b8de2a5e28dc2c8_b.jpg",
                 "width": 654,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/31208_0b8de2a5e28dc2c8_n.jpg",
-                "width": 204,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "31208"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/31208_0b8de2a5e28dc2c8_z.jpg",
                 "width": 409,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "31208"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/31208_0b8de2a5e28dc2c8_n.jpg",
+                "width": 204,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "31208"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/31208_0b8de2a5e28dc2c8_d.gif",
+                "width": 204,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "31208"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/31208_0b8de2a5e28dc2c8_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "31208"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18045663",
             "role_id": "35236657",
             "person_name": "Marimekko Oy",
+            "person_date": "Helsinki, Finland, founded 1951",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18045663\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18048723",
             "role_id": "35351535",
             "person_name": "Marimekko, Inc.",
+            "person_date": "1951 \u2013 1979",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18048723\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -90,34 +137,47 @@
             "person_id": "18046027",
             "role_id": "35236655",
             "person_name": "Katsuji Wakisaka",
+            "person_date": "Japanese, b. 1944",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18046027\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
     ],
     "tombstone": {
-        "epitaph": "Textile, 1975. Medium: cotton\nTechnique: screen printed on plain weave. Gift of Marimekko, Inc.. 1979-89-13."
+        "epitaph": "Textile, \"Bo Boo\", 1975. Medium: cotton\nTechnique: screen printed on plain weave. Gift of Marimekko, Inc.. 1979-89-13."
     },
     "colors": [
         {
-            "color": "#dc2318",
-            "closest_css3": "#dc143c"
+            "color": "#d92d1f",
+            "closest_crayola": "#ff2b2b",
+            "closest_css3": "#dc143c",
+            "closest_css4": "#dc143c"
         },
         {
             "color": "#fce300",
-            "closest_css3": "#ffd700"
+            "closest_crayola": "#fefe22",
+            "closest_css3": "#ffd700",
+            "closest_css4": "#ffd700"
         },
         {
-            "color": "#282046",
-            "closest_css3": "#191970"
+            "color": "#272045",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#191970",
+            "closest_css4": "#191970"
         },
         {
-            "color": "#417b46",
-            "closest_css3": "#2e8b57"
+            "color": "#3e7844",
+            "closest_crayola": "#4a646c",
+            "closest_css3": "#2e8b57",
+            "closest_css4": "#2e8b57"
         },
         {
-            "color": "#d2529f",
-            "closest_css3": "#d87093"
+            "color": "#d652a3",
+            "closest_crayola": "#dd4492",
+            "closest_css3": "#d87093",
+            "closest_css4": "#db7093"
         }
-    ]
+    ],
+    "woe:country_name": "Finland"
 }

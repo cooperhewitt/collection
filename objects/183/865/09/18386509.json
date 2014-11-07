@@ -3,6 +3,7 @@
     "tms:id": "103388",
     "accession_number": "1951-103-53-a,b",
     "title": "Textile, \"Honeysuckle\", designed 1876",
+    "title_raw": "Honeysuckle",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18386509\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": null,
     "year_acquired": "1951",
     "decade": null,
-    "woe:country": "23424975",
+    "woe:country_id": "23424975",
     "medium": "Medium: cotton warp, linen weft\nTechnique: printed on plain weave",
     "markings": null,
     "signed": null,
     "inscribed": "Morris and Company 449 Oxford Street in selvedge",
     "provenance": null,
     "dimensions": "H x W (a): 274.3 x 95.3 cm (108 x 37 1\/2 in.)",
+    "dimensions_raw": {
+        "height": [
+            "274.32",
+            "centimeters"
+        ],
+        "width": [
+            "95.25",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Robert W. Friedel",
     "description": "Large-scale symmetrical pattern of massive poppy-like flowers with curving stems to form ogival framing, in white and blue with deep blue outline on a deep blue ground. Wide plain selvedges. Printed around 1900.",
     "justification": null,
-    "type": {
-        "id": "35251739",
-        "name": "textile"
-    },
+    "woe:country": "23424975",
+    "type": "textile",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/42555_fff2f8df97d2bfa1_b.jpg",
                 "width": 594,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/42555_fff2f8df97d2bfa1_n.jpg",
-                "width": 186,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "42555"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/42555_fff2f8df97d2bfa1_z.jpg",
                 "width": 371,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "42555"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/42555_fff2f8df97d2bfa1_n.jpg",
+                "width": 186,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "42555"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/42555_fff2f8df97d2bfa1_d.gif",
+                "width": 186,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "42555"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/42555_fff2f8df97d2bfa1_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "42555"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/17804_3b81321e8c609c0f_b.jpg",
                 "width": 495,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/17804_3b81321e8c609c0f_n.jpg",
-                "width": 155,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "17804"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/17804_3b81321e8c609c0f_z.jpg",
                 "width": 309,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "17804"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/17804_3b81321e8c609c0f_n.jpg",
+                "width": 155,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "17804"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/17804_3b81321e8c609c0f_d.gif",
+                "width": 155,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "17804"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/17804_3b81321e8c609c0f_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "17804"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18043867",
             "role_id": "35236655",
             "person_name": "William Morris",
+            "person_date": "English, 1834\u20131896",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18043867\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18043865",
             "role_id": "35236657",
             "person_name": "Morris & Co.",
+            "person_date": "Merton Abbey, England, 1874\u20131896",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18043865\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         },
@@ -90,7 +137,9 @@
             "person_id": "18052481",
             "role_id": "35351535",
             "person_name": "Robert W. Friedel",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18052481\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -100,24 +149,29 @@
     },
     "colors": [
         {
-            "color": "#e3d8b9",
-            "closest_css3": "#f5deb3"
+            "color": "#e3d7b7",
+            "closest_crayola": "#efcdb8",
+            "closest_css3": "#f5deb3",
+            "closest_css4": "#f5deb3"
         },
         {
-            "color": "#94979c",
-            "closest_css3": "#a9a9a9"
+            "color": "#aba396",
+            "closest_crayola": "#979aaa",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
         },
         {
-            "color": "#aba295",
-            "closest_css3": "#a9a9a9"
+            "color": "#7b838f",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#708090",
+            "closest_css4": "#708090"
         },
         {
-            "color": "#6f7887",
-            "closest_css3": "#708090"
-        },
-        {
-            "color": "#5a5e6f",
-            "closest_css3": "#696969"
+            "color": "#656977",
+            "closest_crayola": "#757575",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         }
-    ]
+    ],
+    "woe:country_name": "United Kingdom"
 }

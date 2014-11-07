@@ -3,6 +3,7 @@
     "tms:id": "222401",
     "accession_number": "2001-31-5",
     "title": "Chair, \"Landi\", Designed 1939; this example manufactured after 1961",
+    "title_raw": "Landi",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18693711\/",
     "department_id": "35347497",
     "period_id": null,
@@ -13,39 +14,68 @@
     "year_end": 1939,
     "year_acquired": "2001",
     "decade": "1930",
-    "woe:country": "23424957",
+    "woe:country_id": "23424957",
     "medium": "Aluminum, rubber",
     "markings": "On front top center of back: \"MEWA\"; on back of seat support, rear: stamped \"SWITZERLAND\"",
     "signed": null,
     "inscribed": null,
     "provenance": "The Lake St. Louis Historical Society; 2001: acquired by Museum",
     "dimensions": "H x W x D: 76.5 x 51 x 65cm (30 1\/8 x 20 1\/16 x 25 9\/16in.)",
+    "dimensions_raw": {
+        "depth": [
+            "65.00",
+            "centimeters"
+        ],
+        "height": [
+            "76.50",
+            "centimeters"
+        ],
+        "width": [
+            "51.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of The Lake St. Louis Historical Society",
     "description": "One-piece seat and back made of bent aluminum sheet perforated with 60 circular holes; legs and armrests of curved aluminum strips; white rubber feet.",
-    "justification": null,
-    "type": {
-        "id": "35237307",
-        "name": "chair"
-    },
+    "justification": "The Landi chair, designed by Hans Coray, was one of the first highly successful designs for seating furniture using newly available aluminum sheeting. Introduced at the Swiss National Exhibition in Zurich in 1939 as the official seating for the grounds, the chair has been in continual production since \u2014with only a minor design modification in the 1960s. \nThe seat and back are made from a single aluminum sheet, molded into shape and perforated with circular holes; the legs are formed from thin aluminum strips. The Landi was probably inspired by aircraft seating, which used aluminum extensively by the late 1930s. The aluminum made the chair extremely lightweight and weather resistant, allowing it to be portable, stackable, both indoors and out. Coray designed other furniture in the 1950s, but eventually returned to fine arts. The Landi was originally manufactured by P. &amp; W. Blattman Metalwarenfabrik in Switzerland, but since 1970 has been made by the Italian firm Zanotta under the name 2070 Spartana.\nThe chair proposed for acquisition appears to be an early example of Landi production. It is an important example of innovative use of material and would be an excellent addition to the museum\u2019s collection. ",
+    "woe:country": "23424957",
+    "type": "chair",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/23398_7a17109229e70fc1_b.jpg",
                 "width": 1024,
                 "height": 1016,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/23398_7a17109229e70fc1_n.jpg",
-                "width": 320,
-                "height": 318,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "23398"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/23398_7a17109229e70fc1_z.jpg",
                 "width": 640,
                 "height": 635,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "23398"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/23398_7a17109229e70fc1_n.jpg",
+                "width": 320,
+                "height": 318,
+                "is_primary": "1",
+                "image_id": "23398"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/23398_7a17109229e70fc1_d.gif",
+                "width": 320,
+                "height": 318,
+                "is_primary": "1",
+                "image_id": "23398"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/23398_7a17109229e70fc1_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "23398"
             }
         }
     ],
@@ -54,7 +84,9 @@
             "person_id": "18538419",
             "role_id": "35236657",
             "person_name": "P. and W. Blattmann Metallwarenfabrik",
+            "person_date": "",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18538419\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         },
@@ -62,7 +94,9 @@
             "person_id": "18538415",
             "role_id": "35236655",
             "person_name": "Hans Coray",
+            "person_date": "Swiss, 1906 \u2013 1991",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18538415\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -70,7 +104,9 @@
             "person_id": "18052145",
             "role_id": "35351535",
             "person_name": "The Lake St. Louis Historical Society",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18052145\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -81,7 +117,10 @@
     "colors": [
         {
             "color": "#ffffff",
-            "closest_css3": "#ffffff"
+            "closest_crayola": "#ffffff",
+            "closest_css3": "#ffffff",
+            "closest_css4": "#ffffff"
         }
-    ]
+    ],
+    "woe:country_name": "Switzerland"
 }

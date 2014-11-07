@@ -3,6 +3,7 @@
     "tms:id": "154879",
     "accession_number": "1975-19-1",
     "title": "Cushion Cover, ca. 1900",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18488023\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1910,
     "year_acquired": "1975",
     "decade": null,
-    "woe:country": "23424975",
+    "woe:country_id": "23424975",
     "medium": "Medium:  linen\nTechnique: embroidery on plain weave",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "Mrs. Curtice Hitchcock; 1975: acquired by Museum",
     "dimensions": "H x W: 58.4 x 54.9 cm (23 x 21 5\/8 in.)",
+    "dimensions_raw": {
+        "height": [
+            "58.42",
+            "centimeters"
+        ],
+        "width": [
+            "54.93",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Mrs. Curtice Hitchcock",
     "description": "Silk embroidery in pale colors on dark blue linen. A horizontally and vertically symmetrical floral pattern in the Morris style.",
     "justification": null,
-    "type": {
-        "id": "35251291",
-        "name": "cushion cover"
-    },
+    "woe:country": "23424975",
+    "type": "cushion cover",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/42359_396e96f4332d2a5f_b.jpg",
                 "width": 1024,
                 "height": 957,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/42359_396e96f4332d2a5f_n.jpg",
-                "width": 320,
-                "height": 299,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "42359"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/42359_396e96f4332d2a5f_z.jpg",
                 "width": 640,
                 "height": 598,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "42359"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/42359_396e96f4332d2a5f_n.jpg",
+                "width": 320,
+                "height": 299,
+                "is_primary": "1",
+                "image_id": "42359"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/42359_396e96f4332d2a5f_d.gif",
+                "width": 320,
+                "height": 299,
+                "is_primary": "1",
+                "image_id": "42359"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/42359_396e96f4332d2a5f_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "42359"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/76605_c0873b71476af7d0_b.jpg",
                 "width": 834,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/76605_c0873b71476af7d0_n.jpg",
-                "width": 261,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "76605"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/76605_c0873b71476af7d0_z.jpg",
                 "width": 521,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "76605"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/76605_c0873b71476af7d0_n.jpg",
+                "width": 261,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "76605"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/76605_c0873b71476af7d0_d.gif",
+                "width": 261,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "76605"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/76605_c0873b71476af7d0_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "76605"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18059747",
             "role_id": "35351535",
             "person_name": "Mrs. Curtice Hitchcock",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18059747\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18045963",
             "role_id": "35236583",
             "person_name": "May Morris",
+            "person_date": "British, 1862\u20131938",
             "role_name": "Embroiderer",
+            "role_display_name": "Embroidered by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18045963\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236583\/"
         }
@@ -92,24 +139,35 @@
     },
     "colors": [
         {
-            "color": "#222734",
-            "closest_css3": "#2f4f4f"
+            "color": "#22293a",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#b8aa85",
-            "closest_css3": "#d2b48c"
+            "color": "#53504b",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#a4894b",
-            "closest_css3": "#cd853f"
+            "color": "#a08649",
+            "closest_crayola": "#9c7c38",
+            "closest_css3": "#cd853f",
+            "closest_css4": "#cd853f"
         },
         {
-            "color": "#464342",
-            "closest_css3": "#2f4f4f"
+            "color": "#9a947e",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#7f7b6a",
-            "closest_css3": "#808080"
+            "color": "#c3b38c",
+            "closest_crayola": "#deaa88",
+            "closest_css3": "#d2b48c",
+            "closest_css4": "#d2b48c"
         }
-    ]
+    ],
+    "woe:country_name": "United Kingdom"
 }

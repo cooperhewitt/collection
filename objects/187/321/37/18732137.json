@@ -3,6 +3,7 @@
     "tms:id": "242182",
     "accession_number": "2009-18-147",
     "title": "Beaker, \"Aratym\", 2001",
+    "title_raw": "Aratym",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18732137\/",
     "department_id": "35347497",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 2001,
     "year_acquired": "2009",
     "decade": "2000",
-    "woe:country": "23424750",
+    "woe:country_id": "23424750",
     "medium": "Glass",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "2009: acquired by Museum",
     "dimensions": "H x diam.: 14.1 x 7.8 cm (5 9\/16 x 3 1\/16 in.)",
+    "dimensions_raw": {
+        "diameter": [
+            "7.80",
+            "centimeters"
+        ],
+        "height": [
+            "14.10",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase through gift of Dale and Doug Anderson, Anonymous Donor, Arthur Liu, and Prairie Pictures, Inc. and from General Acquisitions Endowment Fund",
     "description": "Mold-blown \"stone\" black-colored glass beaker with pinched waist.",
     "justification": null,
-    "type": {
-        "id": "35237415",
-        "name": "beaker"
-    },
+    "woe:country": "23424750",
+    "type": "beaker",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/32366_b4624e59f96e4ffc_b.jpg",
                 "width": 744,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/32366_b4624e59f96e4ffc_n.jpg",
-                "width": 233,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "32366"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/32366_b4624e59f96e4ffc_z.jpg",
                 "width": 465,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "32366"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/32366_b4624e59f96e4ffc_n.jpg",
+                "width": 233,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "32366"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/32366_b4624e59f96e4ffc_d.gif",
+                "width": 233,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "32366"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/32366_b4624e59f96e4ffc_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "32366"
             }
         }
     ],
@@ -53,8 +79,10 @@
         {
             "person_id": "18061841",
             "role_id": "35236657",
-            "person_name": "J. & L. Lobmeyr GmbH, Vienna, Austria",
+            "person_name": "J. & L. Lobmeyr GmbH",
+            "person_date": "Vienna, Austria, founded ca. 1935",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18061841\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         },
@@ -62,15 +90,19 @@
             "person_id": "18062641",
             "role_id": "35236655",
             "person_name": "Hubert Aratym",
+            "person_date": "",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18062641\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
         {
             "person_id": "18061841",
             "role_id": "51571131",
-            "person_name": "J. & L. Lobmeyr GmbH, Vienna, Austria",
+            "person_name": "J. & L. Lobmeyr GmbH",
+            "person_date": "Vienna, Austria, founded ca. 1935",
             "role_name": "Lender",
+            "role_display_name": "Lent by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18061841\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/51571131\/"
         }
@@ -80,16 +112,17 @@
     },
     "colors": [
         {
-            "color": "#202924",
-            "closest_css3": "#2f4f4f"
-        },
-        {
-            "color": "#484d4a",
-            "closest_css3": "#2f4f4f"
+            "color": "#2b3d30",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
             "color": "#5f6962",
-            "closest_css3": "#696969"
+            "closest_crayola": "#4a646c",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         }
-    ]
+    ],
+    "woe:country_name": "Austria"
 }

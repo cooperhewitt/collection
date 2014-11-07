@@ -3,6 +3,7 @@
     "tms:id": "200740",
     "accession_number": "1995-50-75-a\/i",
     "title": "Fragments, ca. 1775",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18651597\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1785,
     "year_acquired": "1995",
     "decade": null,
-    "woe:country": "23424819",
+    "woe:country_id": "23424819",
     "medium": "Medium: cotton\nTechnique: printed by engraved copper plate on plain weave",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "A. Warp: 40.5 cm (16 in.). Weft: 40 cm (15 3\/4 in.). All edges cut. \nB. Warp: 40 cm (15 3\/4 in.). Weft: 32 cm (12 1\/2 in.). Left selvedge present. \nC. Warp: 17.5 cm (6 3\/4 in.). Weft: 40 cm (15 3\/4 in.). All edges cut. \nD. Warp: 6 cm (2 1\/2 in.). Weft: 17.5 cm (6 3\/4 in.). All edges cut. \nE. Warp: 76 cm (30 in.). Weft: 12 cm (4 3\/4in.). All edges cut \nF. Warp: 75 cm (229 1\/2in.). Weft: 11.5 cm (4 1\/2 in.) All edges cut. \nG. Warp: 29 cm (11 1\/2 in.). Weft: 19.5 cm (7 3\/4 in.). Right selvedge present. \nH. Warp: 39.5 cm (15 1\/2 in.). Weft: 12 cm (4 3\/4 in.). All edges cut. \nI. Warp: 15.5 cm (6 in.). Weft: 13 cm (5 in.). All edges cut.",
+    "dimensions_raw": {
+        "warp": [
+            "17.50",
+            "centimeters"
+        ],
+        "weft": [
+            "40.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Bequest of Elinor Merrell",
     "description": "Nine fragments of a chinoiserie design with people, buildings with bells, rocks and bridges. All of the fragments together do not give a full unit of the pattern. In blue on white.",
     "justification": null,
-    "type": {
-        "id": "35254679",
-        "name": "Fragments"
-    },
+    "woe:country": "23424819",
+    "type": "Fragments",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/12238_38b4938732e107c7_b.jpg",
                 "width": 752,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/12238_38b4938732e107c7_n.jpg",
-                "width": 235,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "12238"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/12238_38b4938732e107c7_z.jpg",
                 "width": 470,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "12238"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/12238_38b4938732e107c7_n.jpg",
+                "width": 235,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "12238"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/12238_38b4938732e107c7_d.gif",
+                "width": 235,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "12238"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/12238_38b4938732e107c7_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "12238"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18049427",
             "role_id": "35351537",
             "person_name": "Elinor Merrell",
+            "person_date": "",
             "role_name": "Bequestor",
+            "role_display_name": "Bequest of",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049427\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351537\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18047459",
             "role_id": "35352245",
             "person_name": "Gillian Moss",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047459\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18045425",
             "role_id": "35236681",
             "person_name": "Oberkampf & Cie.",
+            "person_date": "Jouy-en-Josas, France, 1759 \u2013 1815",
             "role_name": "Company",
+            "role_display_name": "Company:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18045425\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236681\/"
         }
@@ -80,24 +112,35 @@
     },
     "colors": [
         {
-            "color": "#e9c493",
-            "closest_css3": "#deb887"
+            "color": "#e7c8a0",
+            "closest_crayola": "#e7c697",
+            "closest_css3": "#deb887",
+            "closest_css4": "#deb887"
         },
         {
-            "color": "#bfbb98",
-            "closest_css3": "#d2b48c"
+            "color": "#bab59a",
+            "closest_crayola": "#deaa88",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
         },
         {
-            "color": "#9b9c8a",
-            "closest_css3": "#8fbc8f"
+            "color": "#a27856",
+            "closest_crayola": "#a57164",
+            "closest_css3": "#cd853f",
+            "closest_css4": "#cd853f"
         },
         {
-            "color": "#c0926b",
-            "closest_css3": "#bc8f8f"
+            "color": "#faf9dd",
+            "closest_crayola": "#fddde6",
+            "closest_css3": "#fff8dc",
+            "closest_css4": "#fff8dc"
         },
         {
-            "color": "#a17554",
-            "closest_css3": "#cd5c5c"
+            "color": "#7e827a",
+            "closest_crayola": "#757575",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         }
-    ]
+    ],
+    "woe:country_name": "France"
 }

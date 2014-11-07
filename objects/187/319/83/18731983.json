@@ -3,6 +3,7 @@
     "tms:id": "242092",
     "accession_number": "2009-18-57",
     "title": "Champagne Flute, \"Twisted Stem\", 1895",
+    "title_raw": "Twisted Stem",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18731983\/",
     "department_id": "35347497",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1895,
     "year_acquired": "2009",
     "decade": null,
-    "woe:country": "23424750",
+    "woe:country_id": "23424750",
     "medium": "Mouth-blown crystal",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "2009: acquired by Museum",
     "dimensions": "H x diam.: 16.9 x 6.7 cm (6 5\/8 x 2 5\/8 in.)",
+    "dimensions_raw": {
+        "diameter": [
+            "6.70",
+            "centimeters"
+        ],
+        "height": [
+            "16.90",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase through gift of Dale and Doug Anderson, Anonymous Donor, Arthur Liu, and Prairie Pictures, Inc. and from General Acquisitions Endowment Fund",
     "description": "Mouth-blown crystal champagne flute, with a twisted stem and a structured cup with gold rims.",
     "justification": null,
-    "type": {
-        "id": "35305999",
-        "name": "Champagne flute"
-    },
+    "woe:country": "23424750",
+    "type": "Champagne flute",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/33281_427c7d126bf24bd4_b.jpg",
                 "width": 602,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/33281_427c7d126bf24bd4_n.jpg",
-                "width": 188,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "33281"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/33281_427c7d126bf24bd4_z.jpg",
                 "width": 376,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "33281"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/33281_427c7d126bf24bd4_n.jpg",
+                "width": 188,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "33281"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/33281_427c7d126bf24bd4_d.gif",
+                "width": 188,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "33281"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/33281_427c7d126bf24bd4_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "33281"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/33285_d26d7f4073fa84ec_b.jpg",
                 "width": 1024,
                 "height": 549,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/33285_d26d7f4073fa84ec_n.jpg",
-                "width": 320,
-                "height": 172,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "33285"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/33285_d26d7f4073fa84ec_z.jpg",
                 "width": 640,
                 "height": 343,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "33285"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/33285_d26d7f4073fa84ec_n.jpg",
+                "width": 320,
+                "height": 172,
+                "is_primary": "0",
+                "image_id": "33285"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/33285_d26d7f4073fa84ec_d.gif",
+                "width": 320,
+                "height": 172,
+                "is_primary": "0",
+                "image_id": "33285"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/33285_d26d7f4073fa84ec_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "33285"
             }
         }
     ],
@@ -73,8 +116,10 @@
         {
             "person_id": "18061841",
             "role_id": "35236657",
-            "person_name": "J. & L. Lobmeyr GmbH, Vienna, Austria",
+            "person_name": "J. & L. Lobmeyr GmbH",
+            "person_date": "Vienna, Austria, founded ca. 1935",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18061841\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         },
@@ -82,15 +127,19 @@
             "person_id": "18062617",
             "role_id": "35236655",
             "person_name": "Ludwig Lobmeyr",
+            "person_date": "Austrian, 1829 - 1917",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18062617\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
         {
             "person_id": "18061841",
             "role_id": "51571131",
-            "person_name": "J. & L. Lobmeyr GmbH, Vienna, Austria",
+            "person_name": "J. & L. Lobmeyr GmbH",
+            "person_date": "Vienna, Austria, founded ca. 1935",
             "role_name": "Lender",
+            "role_display_name": "Lent by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18061841\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/51571131\/"
         }
@@ -100,8 +149,11 @@
     },
     "colors": [
         {
-            "color": "#7c7569",
-            "closest_css3": "#696969"
+            "color": "#7f786d",
+            "closest_crayola": "#757575",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         }
-    ]
+    ],
+    "woe:country_name": "Austria"
 }

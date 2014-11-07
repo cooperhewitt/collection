@@ -3,6 +3,7 @@
     "tms:id": "185195",
     "accession_number": "1986-36-8",
     "title": "Pitcher, \"Ovio\", 1983",
+    "title_raw": "Ovio",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18620763\/",
     "department_id": "35347497",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1983,
     "year_acquired": "1986",
     "decade": "1980",
-    "woe:country": "23424853",
+    "woe:country_id": "23424853",
     "medium": "Crystal glass, silicone",
     "markings": "Acid-etched factory mark and logo on side near base.",
     "signed": null,
     "inscribed": null,
     "provenance": "Bruno Danese snc; 1986: acquired by Museum",
     "dimensions": "H x diam.: 28.5 x 6.5 cm (11 1\/4 x 2 9\/16 in.)",
+    "dimensions_raw": {
+        "diameter": [
+            "6.50",
+            "centimeters"
+        ],
+        "height": [
+            "28.50",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Bruno Danese snc",
     "description": "Clear blown glass. Flat based tall cylindrical shape; sides curve inward toward lip. Side waisted above base to hold silicone \"bumper\" ring: set of silicone rings in plum, black, and white supplied with set. Small pulled lip at one edge of rim.",
     "justification": null,
-    "type": {
-        "id": "35237237",
-        "name": "Pitcher"
-    },
+    "woe:country": "23424853",
+    "type": "Pitcher",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/18182_999ee7d32c803157_b.jpg",
                 "width": 1024,
                 "height": 659,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/18182_999ee7d32c803157_n.jpg",
-                "width": 320,
-                "height": 206,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "18182"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/18182_999ee7d32c803157_z.jpg",
                 "width": 640,
                 "height": 412,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "18182"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/18182_999ee7d32c803157_n.jpg",
+                "width": 320,
+                "height": 206,
+                "is_primary": "1",
+                "image_id": "18182"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/18182_999ee7d32c803157_d.gif",
+                "width": 320,
+                "height": 206,
+                "is_primary": "1",
+                "image_id": "18182"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/18182_999ee7d32c803157_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "18182"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18056127",
             "role_id": "35351535",
             "person_name": "Bruno Danese snc",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18056127\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18040907",
             "role_id": "35236657",
             "person_name": "Danese Milano",
+            "person_date": "",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18040907\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18043737",
             "role_id": "35236655",
             "person_name": "Achille Castiglioni",
+            "person_date": "Italian, 1918\u20132002",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18043737\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
@@ -80,24 +112,35 @@
     },
     "colors": [
         {
-            "color": "#132122",
-            "closest_css3": "#000000"
-        },
-        {
             "color": "#9d9296",
-            "closest_css3": "#bc8f8f"
+            "closest_crayola": "#95918c",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         },
         {
             "color": "#373e42",
-            "closest_css3": "#2f4f4f"
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#c3b5b7",
-            "closest_css3": "#c0c0c0"
+            "color": "#0e1e1f",
+            "closest_crayola": "#000000",
+            "closest_css3": "#000000",
+            "closest_css4": "#000000"
+        },
+        {
+            "color": "#c2b5b6",
+            "closest_crayola": "#cdc5c2",
+            "closest_css3": "#c0c0c0",
+            "closest_css4": "#c0c0c0"
         },
         {
             "color": "#725359",
-            "closest_css3": "#696969"
+            "closest_crayola": "#6e5160",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         }
-    ]
+    ],
+    "woe:country_name": "Italy"
 }

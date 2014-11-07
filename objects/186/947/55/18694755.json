@@ -3,6 +3,7 @@
     "tms:id": "222932",
     "accession_number": "2001-29-4",
     "title": "Book Cover, \"Light in August by William Faulkner\", 1946",
+    "title_raw": "Light in August by William Faulkner",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18694755\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1946,
     "year_acquired": "2001",
     "decade": "1940",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Photo offset lithograph on white coated paper",
     "markings": null,
     "signed": "Imprinted in white, lower right:  lustig + barrows",
     "inscribed": "Imprinted horizontally, in white against black, lower right quadrant:  light in august; along upper left edge (sideways):  LIGHT IN AUGUST : WILLIAM FAULKNER; horizontally, lower left quadrant:  william faulkner; lower right corner:  lustig + barrows",
     "provenance": "Susan Lustig Peck; 2001: acquired by Museum",
     "dimensions": "21.7 x 17.1 cm (8 9\/16 x 6 3\/4 in. )",
+    "dimensions_raw": {
+        "height": [
+            "21.70",
+            "centimeters"
+        ],
+        "width": [
+            "17.10",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Susan Lustig Peck",
     "description": "A composite photographic image of two black fetish figures left and lower right against randomly placed explosions of white light on a black ground. Imprinted horizontally, in white against black, in lower right quadrant:  light in august; along left edge (sideways):  LIGHT IN AUGUST : WILLIAM FAULKNER; horizontally, lower left quadrant:  william faulkner; lower right corner:  lustig + barrows.",
     "justification": null,
-    "type": {
-        "id": "35249845",
-        "name": "book cover"
-    },
+    "woe:country": "23424977",
+    "type": "book cover",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/39697_476b9b747059a324_b.jpg",
                 "width": 808,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/39697_476b9b747059a324_n.jpg",
-                "width": 252,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "39697"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/39697_476b9b747059a324_z.jpg",
                 "width": 505,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "39697"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/39697_476b9b747059a324_n.jpg",
+                "width": 252,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "39697"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/39697_476b9b747059a324_d.gif",
+                "width": 252,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "39697"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/39697_476b9b747059a324_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "39697"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18538541",
             "role_id": "35351535",
             "person_name": "Susan Lustig Peck",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18538541\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18043331",
             "role_id": "35236763",
             "person_name": "Alvin Lustig",
+            "person_date": "American, 1915\u20131955",
             "role_name": "Graphic Designer",
+            "role_display_name": "Graphic design by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18043331\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236763\/"
         }
@@ -72,20 +102,29 @@
     },
     "colors": [
         {
-            "color": "#e4dcc9",
-            "closest_css3": "#dcdcdc"
+            "color": "#e6decb",
+            "closest_crayola": "#efdecd",
+            "closest_css3": "#dcdcdc",
+            "closest_css4": "#dcdcdc"
         },
         {
-            "color": "#8d8778",
-            "closest_css3": "#808080"
+            "color": "#7e796c",
+            "closest_crayola": "#757575",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#bbb49f",
-            "closest_css3": "#a9a9a9"
+            "color": "#a8a28f",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
         },
         {
-            "color": "#67635a",
-            "closest_css3": "#696969"
+            "color": "#504e49",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

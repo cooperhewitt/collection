@@ -3,6 +3,7 @@
     "tms:id": "44080",
     "accession_number": "1930-26-61",
     "title": "Drawing, \"Preparatory Design for Silk Brocade\", 1710\u201340",
+    "title_raw": "Preparatory Design for Silk Brocade",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18317431\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1750,
     "year_acquired": "1930",
     "decade": null,
-    "woe:country": "23424819",
+    "woe:country_id": "23424819",
     "medium": "Watercolor and gouache over etching on white laid paper",
     "markings": null,
     "signed": null,
     "inscribed": "Inscribed in plate at upper right margin: 8 en 12. A Lyon chez Serancourt graveur rue de flandre pres la Dauanne; on verso in graphite by modern hand: Lot 519 and Huard 8(8); on verso in pen and black ink: Presented by the Misses Hewitt May, l930 No. 3 of 11.\nVerso in graphite:  \"Lot 519 and Huard 8(8)\"; in ink:  \"Presented by the Misses Hewitt  May, 1930 - No 3 of 11\".",
     "provenance": null,
     "dimensions": "44 x 54.9 cm (17 5\/16 x 21 5\/8 in.)\nMat:  55.9 x 71.1 cm (22 x 28 in.)",
+    "dimensions_raw": {
+        "height": [
+            "44.00",
+            "centimeters"
+        ],
+        "width": [
+            "71.10",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Eleanor and Sarah Hewitt",
     "description": "Obliquely directed lattice with flowers against a background of rows of small flower twigs. One large red flower with blue green leaves at left.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424819",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/2615_40a699b2144fb0bc_b.jpg",
                 "width": 1024,
                 "height": 812,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/2615_40a699b2144fb0bc_n.jpg",
-                "width": 320,
-                "height": 254,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "2615"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/2615_40a699b2144fb0bc_z.jpg",
                 "width": 640,
                 "height": 507,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "2615"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/2615_40a699b2144fb0bc_n.jpg",
+                "width": 320,
+                "height": 254,
+                "is_primary": "1",
+                "image_id": "2615"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/2615_40a699b2144fb0bc_d.gif",
+                "width": 320,
+                "height": 254,
+                "is_primary": "1",
+                "image_id": "2615"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/2615_40a699b2144fb0bc_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "2615"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18047443",
             "role_id": "35352245",
             "person_name": "Megan L. Smith",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047443\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18047439",
             "role_id": "35352245",
             "person_name": "Rudolph Berliner",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047439\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18049321",
             "role_id": "35351535",
             "person_name": "Sarah Cooper Hewitt",
+            "person_date": "American, 1859\u20131930",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049321\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -78,7 +110,9 @@
             "person_id": "18049325",
             "role_id": "35351535",
             "person_name": "Eleanor Garnier Hewitt",
+            "person_date": "American, 1864\u20131924",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049325\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -86,7 +120,9 @@
             "person_id": "18042391",
             "role_id": "35236653",
             "person_name": "Claude Serancourt",
+            "person_date": "1677 \u2013 1756",
             "role_name": "Print Maker",
+            "role_display_name": "Print Maker:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18042391\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236653\/"
         }
@@ -96,24 +132,35 @@
     },
     "colors": [
         {
-            "color": "#966053",
-            "closest_css3": "#a0522d"
+            "color": "#772822",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#8b4513",
+            "closest_css4": "#8b4513"
         },
         {
-            "color": "#9a3d37",
-            "closest_css3": "#a0522d"
+            "color": "#aa7369",
+            "closest_crayola": "#a57164",
+            "closest_css3": "#cd5c5c",
+            "closest_css4": "#cd5c5c"
         },
         {
-            "color": "#425d61",
-            "closest_css3": "#2f4f4f"
+            "color": "#8e564d",
+            "closest_crayola": "#a5694f",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         },
         {
-            "color": "#c1a482",
-            "closest_css3": "#bc8f8f"
+            "color": "#435c62",
+            "closest_crayola": "#4a646c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#e1dbb6",
-            "closest_css3": "#f5deb3"
+            "color": "#a08c73",
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         }
-    ]
+    ],
+    "woe:country_name": "France"
 }

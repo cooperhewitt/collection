@@ -3,6 +3,7 @@
     "tms:id": "193145",
     "accession_number": "1991-53-2",
     "title": "Drawing, \"The Ten-Deck House\", 1928",
+    "title_raw": "The Ten-Deck House",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18636589\/",
     "department_id": "35347493",
     "period_id": "35417049",
@@ -13,39 +14,64 @@
     "year_end": 1928,
     "year_acquired": "1991",
     "decade": "1920",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Graphite on white wove paper",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "Max Protetch Gallery, NYC; R. Buckminster Fuller",
     "dimensions": "27.9 x 21.6 cm (11 x 8 1\/2 in.)",
+    "dimensions_raw": {
+        "height": [
+            "27.94",
+            "centimeters"
+        ],
+        "width": [
+            "21.59",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase from Smithsonian Institution Collections Acquisition Program Fund",
     "description": "Multi-leveled tower-like building supported by cables.  Depicted in a dynamic and vigorous swooping, diagonal orienttion from the lower right to the upper left.  Three binder holes along left edge.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424977",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/11575_8056c9b2e3ce2a34_b.jpg",
                 "width": 795,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/11575_8056c9b2e3ce2a34_n.jpg",
-                "width": 248,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "11575"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/11575_8056c9b2e3ce2a34_z.jpg",
                 "width": 497,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "11575"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/11575_8056c9b2e3ce2a34_n.jpg",
+                "width": 248,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "11575"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/11575_8056c9b2e3ce2a34_d.gif",
+                "width": 248,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "11575"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/11575_8056c9b2e3ce2a34_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "11575"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18041329",
             "role_id": "35352249",
             "person_name": "Max Protetch Gallery",
+            "person_date": "",
             "role_name": "Vendor",
+            "role_display_name": "Purchased from",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041329\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352249\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18047513",
             "role_id": "35352245",
             "person_name": "Samantha Finch",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047513\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18047453",
             "role_id": "35352245",
             "person_name": "Elizabeth Horwitz Marcus",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047453\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -78,7 +110,9 @@
             "person_id": "18048417",
             "role_id": "35352245",
             "person_name": "CGC",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18048417\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -86,7 +120,9 @@
             "person_id": "18042337",
             "role_id": "35236663",
             "person_name": "R. Buckminster Fuller",
+            "person_date": "American, 1895 \u2013 1983",
             "role_name": "Architect",
+            "role_display_name": "Architect:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18042337\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236663\/"
         }
@@ -96,12 +132,17 @@
     },
     "colors": [
         {
-            "color": "#a38c82",
-            "closest_css3": "#bc8f8f"
+            "color": "#978076",
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#7a665d",
-            "closest_css3": "#696969"
+            "color": "#bea69c",
+            "closest_crayola": "#deaa88",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

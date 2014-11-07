@@ -3,6 +3,7 @@
     "tms:id": "183182",
     "accession_number": "1985-87-2-a,b",
     "title": "Textile, \"Tulip and Net\", 1888\u201389",
+    "title_raw": "Tulip and Net",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18805763\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1977,
     "year_acquired": "1985",
     "decade": null,
-    "woe:country": "23424975",
+    "woe:country_id": "23424975",
     "medium": "Medium: wool\nTechnique:  Lampas - plain weave foundation (blue warp and weft), plus plain weave pattern (blue warp with light blue weft used throughout plus pale yellow and orange wefts in bands)",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "Warp x Weft: 219 x 92.5 cm (7 ft. 2 1\/4 in. x 36 7\/16 in.)",
+    "dimensions_raw": {
+        "warp": [
+            "219.00",
+            "centimeters"
+        ],
+        "weft": [
+            "92.50",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase from General Acquisitions Endowment Fund",
     "description": "Woven furnishing fabric with vertically symmetrical ogival pattern of flowering plants, in light blue, yellow and orange on a dark blue ground.",
     "justification": null,
-    "type": {
-        "id": "35251739",
-        "name": "textile"
-    },
+    "woe:country": "23424975",
+    "type": "textile",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/10360_b4ec6be997c21b80_b.jpg",
                 "width": 764,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/10360_b4ec6be997c21b80_n.jpg",
-                "width": 239,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "10360"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/10360_b4ec6be997c21b80_z.jpg",
                 "width": 477,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "10360"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/10360_b4ec6be997c21b80_n.jpg",
+                "width": 239,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "10360"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/10360_b4ec6be997c21b80_d.gif",
+                "width": 239,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "10360"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/10360_b4ec6be997c21b80_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "10360"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18055903",
             "role_id": "35352249",
             "person_name": "Breconshire Corporation",
+            "person_date": "",
             "role_name": "Vendor",
+            "role_display_name": "Purchased from",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18055903\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352249\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18043977",
             "role_id": "35236671",
             "person_name": "William Morris & Co.",
+            "person_date": "1875 \u2013 1941",
             "role_name": "Producer",
+            "role_display_name": "Produced by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18043977\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236671\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18045651",
             "role_id": "35236655",
             "person_name": "John Henry Dearle",
+            "person_date": "British, 1860\u20131932",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18045651\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -78,7 +110,9 @@
             "person_id": "18047497",
             "role_id": "35352245",
             "person_name": "Milton Sonday",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047497\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         }
@@ -88,24 +122,35 @@
     },
     "colors": [
         {
-            "color": "#23203c",
-            "closest_css3": "#2f4f4f"
+            "color": "#30436e",
+            "closest_crayola": "#1a4876",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#384d75",
-            "closest_css3": "#483d8b"
+            "color": "#251f3e",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#191970",
+            "closest_css4": "#191970"
         },
         {
-            "color": "#5b7a83",
-            "closest_css3": "#708090"
+            "color": "#668ea2",
+            "closest_crayola": "#6699cc",
+            "closest_css3": "#5f9ea0",
+            "closest_css4": "#5f9ea0"
         },
         {
-            "color": "#8ebfc9",
-            "closest_css3": "#87ceeb"
+            "color": "#546c7f",
+            "closest_crayola": "#4a646c",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#7c96ac",
-            "closest_css3": "#778899"
+            "color": "#80afba",
+            "closest_crayola": "#979aaa",
+            "closest_css3": "#66cdaa",
+            "closest_css4": "#66cdaa"
         }
-    ]
+    ],
+    "woe:country_name": "United Kingdom"
 }

@@ -3,6 +3,7 @@
     "tms:id": "200634",
     "accession_number": "1995-44-1",
     "title": "Alb, ca. 1600",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18651389\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1610,
     "year_acquired": "1995",
     "decade": null,
-    "woe:country": null,
+    "woe:country_id": null,
     "medium": "Medium: linen\nTechnique: embroidered on plain weave with bobbin lace edging",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "H x W x D: 106.7 x 185.4 cm (42 x 73 in.)",
+    "dimensions_raw": {
+        "height": [
+            "106.68",
+            "centimeters"
+        ],
+        "width": [
+            "185.42",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase through gift of Mrs. John Innes Kane and from Smithsonian Institution Collections Acquisition Program Fund",
     "description": "Shirt-like garment of white linen, with a full body gathered into a straight neck band, slit at front neck opening, and long sleeves narrowing to the wrist. Bobbin lace insertions at each seam are further embellished with floral embroidery in pale yellow silk, and bobbin lace trims the collar, sleeves and hem of the garment.",
     "justification": null,
-    "type": {
-        "id": "35289929",
-        "name": "Alb"
-    },
+    "woe:country": null,
+    "type": "Alb",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/12639_926a8cc7911e6bc4_b.jpg",
                 "width": 1024,
                 "height": 700,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/12639_926a8cc7911e6bc4_n.jpg",
-                "width": 320,
-                "height": 219,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "12639"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/12639_926a8cc7911e6bc4_z.jpg",
                 "width": 640,
                 "height": 438,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "12639"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/12639_926a8cc7911e6bc4_n.jpg",
+                "width": 320,
+                "height": 219,
+                "is_primary": "1",
+                "image_id": "12639"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/12639_926a8cc7911e6bc4_d.gif",
+                "width": 320,
+                "height": 219,
+                "is_primary": "1",
+                "image_id": "12639"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/12639_926a8cc7911e6bc4_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "12639"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/79146_1d63ae6bf3a011c2_b.jpg",
                 "width": 1024,
                 "height": 674,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/79146_1d63ae6bf3a011c2_n.jpg",
-                "width": 320,
-                "height": 211,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "79146"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/79146_1d63ae6bf3a011c2_z.jpg",
                 "width": 640,
                 "height": 421,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "79146"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/79146_1d63ae6bf3a011c2_n.jpg",
+                "width": 320,
+                "height": 211,
+                "is_primary": "0",
+                "image_id": "79146"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/79146_1d63ae6bf3a011c2_d.gif",
+                "width": 320,
+                "height": 211,
+                "is_primary": "0",
+                "image_id": "79146"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/79146_1d63ae6bf3a011c2_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "79146"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18047457",
             "role_id": "35352245",
             "person_name": "Barbara Duggan",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047457\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18041197",
             "role_id": "35352249",
             "person_name": "Cora Ginsburg",
+            "person_date": "",
             "role_name": "Vendor",
+            "role_display_name": "Purchased from",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041197\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352249\/"
         }
@@ -92,24 +139,34 @@
     },
     "colors": [
         {
-            "color": "#1e0a10",
-            "closest_css3": "#000000"
+            "color": "#c6b4ac",
+            "closest_crayola": "#cdc5c2",
+            "closest_css3": "#c0c0c0",
+            "closest_css4": "#c0c0c0"
         },
         {
-            "color": "#c5b3ab",
-            "closest_css3": "#c0c0c0"
+            "color": "#1c070d",
+            "closest_crayola": "#000000",
+            "closest_css3": "#000000",
+            "closest_css4": "#000000"
         },
         {
-            "color": "#b09285",
-            "closest_css3": "#bc8f8f"
+            "color": "#b8957d",
+            "closest_crayola": "#cd9575",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         },
         {
-            "color": "#9b745b",
-            "closest_css3": "#808080"
+            "color": "#977967",
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#6e5142",
-            "closest_css3": "#556b2f"
+            "color": "#5f473d",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         }
     ]
 }

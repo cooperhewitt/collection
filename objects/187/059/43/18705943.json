@@ -3,6 +3,7 @@
     "tms:id": "228794",
     "accession_number": "2006-14-4",
     "title": "Textile, \"Writing with Texture\", 1960",
+    "title_raw": "Writing with Texture",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18705943\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1960,
     "year_acquired": "2006",
     "decade": "1960",
-    "woe:country": "23424900",
+    "woe:country_id": "23424900",
     "medium": "Medium: unbleached cotton\nTechnique: plain weave, warps and wefts grouped in center area, reversible, four selvedges",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "2006: acquired by Museum from Anonymous donor",
     "dimensions": "Warp x Weft: 26.5 x 33 cm (10 7\/16 x 13 in.)",
+    "dimensions_raw": {
+        "warp": [
+            "26.50",
+            "centimeters"
+        ],
+        "weft": [
+            "33.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Anonymous Donor",
     "description": "Warp and weft of loosely spun natural cotton. Variations in the weave create a caligraphic effect.",
     "justification": null,
-    "type": {
-        "id": "35251739",
-        "name": "textile"
-    },
+    "woe:country": "23424900",
+    "type": "textile",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/35241_83c54f4208855fa2_b.jpg",
                 "width": 1024,
                 "height": 810,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/35241_83c54f4208855fa2_n.jpg",
-                "width": 320,
-                "height": 253,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "35241"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/35241_83c54f4208855fa2_z.jpg",
                 "width": 640,
                 "height": 506,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "35241"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/35241_83c54f4208855fa2_n.jpg",
+                "width": 320,
+                "height": 253,
+                "is_primary": "1",
+                "image_id": "35241"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/35241_83c54f4208855fa2_d.gif",
+                "width": 320,
+                "height": 253,
+                "is_primary": "1",
+                "image_id": "35241"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/35241_83c54f4208855fa2_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "35241"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/25402_a22c9a57b310350b_b.jpg",
                 "width": 1024,
                 "height": 808,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/25402_a22c9a57b310350b_n.jpg",
-                "width": 320,
-                "height": 252,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "25402"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/25402_a22c9a57b310350b_z.jpg",
                 "width": 640,
                 "height": 505,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "25402"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/25402_a22c9a57b310350b_n.jpg",
+                "width": 320,
+                "height": 252,
+                "is_primary": "0",
+                "image_id": "25402"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/25402_a22c9a57b310350b_d.gif",
+                "width": 320,
+                "height": 252,
+                "is_primary": "0",
+                "image_id": "25402"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/25402_a22c9a57b310350b_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "25402"
             }
         }
     ],
@@ -73,8 +116,10 @@
         {
             "person_id": "18049335",
             "role_id": "35351535",
-            "person_name": "Anonymous",
+            "person_name": "Unknown",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049335\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18058887",
             "role_id": "35236685",
             "person_name": "Sheila Hicks",
+            "person_date": "American, b. 1934",
             "role_name": "Maker",
+            "role_display_name": "Made by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18058887\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236685\/"
         },
@@ -90,9 +137,21 @@
             "person_id": "18058887",
             "role_id": "35236655",
             "person_name": "Sheila Hicks",
+            "person_date": "American, b. 1934",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18058887\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
+        },
+        {
+            "person_id": "68739079",
+            "role_id": "35351535",
+            "person_name": "Anonymous",
+            "person_date": "",
+            "role_name": "Donor",
+            "role_display_name": "Donated by",
+            "person_url": "http:\/\/collection.cooperhewitt.org\/people\/68739079\/",
+            "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
     ],
     "tombstone": {
@@ -100,8 +159,11 @@
     },
     "colors": [
         {
-            "color": "#b39b78",
-            "closest_css3": "#bc8f8f"
+            "color": "#c2ac8a",
+            "closest_crayola": "#deaa88",
+            "closest_css3": "#d2b48c",
+            "closest_css4": "#d2b48c"
         }
-    ]
+    ],
+    "woe:country_name": "Mexico"
 }

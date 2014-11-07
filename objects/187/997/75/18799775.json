@@ -3,6 +3,7 @@
     "tms:id": "180048",
     "accession_number": "1982-25-61",
     "title": "Drawing, \"\"The Magic Fire Scene,\" f\", December 4, 1956",
+    "title_raw": "\"The Magic Fire Scene,\" f",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18799775\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1956,
     "year_acquired": "1982",
     "decade": "1950",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Color pencil, graphite on cream wove paper",
     "markings": null,
     "signed": null,
     "inscribed": "Inscribed in graphite, lower margin: S140-\"Magic Fire-Scene\"-M78-Richard Wagner-Transcribed-By L. Brassin- Revised by W. Scharfenberg-Scale DAW-M1 to M20-4\/4- -John De Cesare (12-4-56)",
     "provenance": "Estate of John De Cesare",
     "dimensions": "48.5 x 61.2cm (19 1\/8 x 24 1\/8in.)",
+    "dimensions_raw": {
+        "height": [
+            "48.50",
+            "centimeters"
+        ],
+        "width": [
+            "61.20",
+            "centimeters"
+        ]
+    },
     "creditline": null,
     "description": "Multicolored drawing of transcription of Wagner's \"The Magic Fire Scene.\"",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424977",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/9666_c42234bc90336499_b.jpg",
                 "width": 1024,
                 "height": 806,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/9666_c42234bc90336499_n.jpg",
-                "width": 320,
-                "height": 252,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "9666"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/9666_c42234bc90336499_z.jpg",
                 "width": 640,
                 "height": 503,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "9666"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/9666_c42234bc90336499_n.jpg",
+                "width": 320,
+                "height": 252,
+                "is_primary": "1",
+                "image_id": "9666"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/9666_c42234bc90336499_d.gif",
+                "width": 320,
+                "height": 252,
+                "is_primary": "1",
+                "image_id": "9666"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/9666_c42234bc90336499_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "9666"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "51676457",
             "role_id": "35352245",
             "person_name": "Karin Zonis",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/51676457\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18537113",
             "role_id": "35351535",
             "person_name": "Estate of John De Cesare",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18537113\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18047513",
             "role_id": "35352245",
             "person_name": "Samantha Finch",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047513\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -78,7 +110,9 @@
             "person_id": "18043543",
             "role_id": "35236655",
             "person_name": "John De Cesare",
+            "person_date": "American, b. Italy,  1890\u20131972",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18043543\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
@@ -88,24 +122,35 @@
     },
     "colors": [
         {
-            "color": "#e2dfc0",
-            "closest_css3": "#f5deb3"
+            "color": "#f0e9c8",
+            "closest_crayola": "#eceabe",
+            "closest_css3": "#ffebcd",
+            "closest_css4": "#ffebcd"
         },
         {
-            "color": "#b6b2a0",
-            "closest_css3": "#a9a9a9"
+            "color": "#d7c3b1",
+            "closest_crayola": "#cdc5c2",
+            "closest_css3": "#c0c0c0",
+            "closest_css4": "#c0c0c0"
         },
         {
-            "color": "#d9a929",
-            "closest_css3": "#daa520"
+            "color": "#a8a398",
+            "closest_crayola": "#979aaa",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
         },
         {
-            "color": "#ecbab5",
-            "closest_css3": "#ffb6c1"
+            "color": "#dba22e",
+            "closest_crayola": "#ffa343",
+            "closest_css3": "#daa520",
+            "closest_css4": "#daa520"
         },
         {
-            "color": "#928870",
-            "closest_css3": "#808080"
+            "color": "#df7454",
+            "closest_crayola": "#ea7e5d",
+            "closest_css3": "#cd5c5c",
+            "closest_css4": "#cd5c5c"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

@@ -3,6 +3,7 @@
     "tms:id": "182600",
     "accession_number": "1985-18-1",
     "title": "Picture, \"\"Last Supper\" after da Vinci\", 1984",
+    "title_raw": "\"Last Supper\" after da Vinci",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18804631\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1984,
     "year_acquired": "1985",
     "decade": "1980",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Technique: Jacquard woven",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "warp: 33.00cm (13\") weft: 20.00cm (7 7\/8\") both sides cut",
+    "dimensions_raw": {
+        "warp": [
+            "33.00",
+            "centimeters"
+        ],
+        "weft": [
+            "20.00",
+            "centimeters"
+        ]
+    },
     "creditline": null,
     "description": "Jacquard woven picture after da Vinci's \"Last Supper\" in black and white.",
     "justification": null,
-    "type": {
-        "id": "35270021",
-        "name": "Picture"
-    },
+    "woe:country": "23424977",
+    "type": "Picture",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/77631_717ffaaff7c8d5d9_b.jpg",
                 "width": 1024,
                 "height": 663,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/77631_717ffaaff7c8d5d9_n.jpg",
-                "width": 320,
-                "height": 207,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "77631"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/77631_717ffaaff7c8d5d9_z.jpg",
                 "width": 640,
                 "height": 414,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "77631"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/77631_717ffaaff7c8d5d9_n.jpg",
+                "width": 320,
+                "height": 207,
+                "is_primary": "1",
+                "image_id": "77631"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/77631_717ffaaff7c8d5d9_d.gif",
+                "width": 320,
+                "height": 207,
+                "is_primary": "1",
+                "image_id": "77631"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/77631_717ffaaff7c8d5d9_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "77631"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18048373",
             "role_id": "35352245",
             "person_name": "YH",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18048373\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18045423",
             "role_id": "35236681",
             "person_name": "ASL Industries",
+            "person_date": "",
             "role_name": "Company",
+            "role_display_name": "Company:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18045423\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236681\/"
         }
@@ -72,5 +102,6 @@
     },
     "colors": [
 
-    ]
+    ],
+    "woe:country_name": "United States"
 }

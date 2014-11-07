@@ -3,6 +3,7 @@
     "tms:id": "192242",
     "accession_number": "1990-5-2",
     "title": "Textile, \"Sara\", 1985",
+    "title_raw": "Sara",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18634791\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,55 @@
     "year_end": 1985,
     "year_acquired": "1990",
     "decade": "1980",
-    "woe:country": "23424853",
+    "woe:country_id": "23424853",
     "medium": "Medium: cotton, viscose\nTechnique: jacquard woven",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "Missoni; 1990: acquired by Museum",
     "dimensions": null,
+    "dimensions_raw": null,
     "creditline": "Gift of Missoni",
     "description": "Vertical multicolor stripes woven to look as if they are painted.",
     "justification": null,
-    "type": {
-        "id": "35251739",
-        "name": "textile"
-    },
+    "woe:country": "23424853",
+    "type": "textile",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/78539_ccaebd4953b5ecba_b.jpg",
                 "width": 663,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/78539_ccaebd4953b5ecba_n.jpg",
-                "width": 207,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "78539"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/78539_ccaebd4953b5ecba_z.jpg",
                 "width": 414,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "78539"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/78539_ccaebd4953b5ecba_n.jpg",
+                "width": 207,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "78539"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/78539_ccaebd4953b5ecba_d.gif",
+                "width": 207,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "78539"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/78539_ccaebd4953b5ecba_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "78539"
             }
         },
         {
@@ -53,19 +70,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/78540_280d47844e1a9954_b.jpg",
                 "width": 1024,
                 "height": 663,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/78540_280d47844e1a9954_n.jpg",
-                "width": 320,
-                "height": 207,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "78540"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/78540_280d47844e1a9954_z.jpg",
                 "width": 640,
                 "height": 414,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "78540"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/78540_280d47844e1a9954_n.jpg",
+                "width": 320,
+                "height": 207,
+                "is_primary": "0",
+                "image_id": "78540"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/78540_280d47844e1a9954_d.gif",
+                "width": 320,
+                "height": 207,
+                "is_primary": "0",
+                "image_id": "78540"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/78540_280d47844e1a9954_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "78540"
             }
         }
     ],
@@ -74,7 +108,9 @@
             "person_id": "51686939",
             "role_id": "35351535",
             "person_name": "Missoni",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/51686939\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -82,7 +118,9 @@
             "person_id": "18048019",
             "role_id": "35352245",
             "person_name": "lm",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18048019\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -90,7 +128,9 @@
             "person_id": "18045779",
             "role_id": "35236685",
             "person_name": "T&J Vestor",
+            "person_date": "",
             "role_name": "Maker",
+            "role_display_name": "Made by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18045779\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236685\/"
         },
@@ -98,7 +138,9 @@
             "person_id": "18045777",
             "role_id": "35236655",
             "person_name": "Rosita Missoni",
+            "person_date": "Italian, b. 1931",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18045777\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -106,7 +148,9 @@
             "person_id": "18045775",
             "role_id": "35236655",
             "person_name": "Ottavio Missoni",
+            "person_date": "",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18045775\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
@@ -116,5 +160,6 @@
     },
     "colors": [
 
-    ]
+    ],
+    "woe:country_name": "Italy"
 }

@@ -3,6 +3,7 @@
     "tms:id": "211956",
     "accession_number": "1997-19-4",
     "title": "Drawing, \"Design for Citibank\/Citicorp Logo\", ca. 1975",
+    "title_raw": "Design for Citibank\/Citicorp Logo",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18673027\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1985,
     "year_acquired": "1997",
     "decade": "1960",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Brush and black ink, black marker, gray marker, graphite on white tracing paper",
     "markings": "At lower right center below central image two small marks of gray marker",
     "signed": null,
     "inscribed": "At right, erased graphite letters \"o,r,e,a\"",
     "provenance": "Dan Friedman; Ken Friedman; 1997: acquired by Museum",
     "dimensions": "28.6 x 47.9 cm (11 1\/4 x 18 7\/8 in. )",
+    "dimensions_raw": {
+        "height": [
+            "28.60",
+            "centimeters"
+        ],
+        "width": [
+            "47.90",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Ken Friedman",
     "description": "Design consists of a solid black oval with a thin white four pointed star at center, positioned slightly to the right of the center of the sheet.  At left, in graphite, four perspectivally drawn boxes, tilted and joined so as to produce a four pointed star at center of design.  Above, in graphite mostly erased, a circle with a four pointed star at center.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424977",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/40282_ada7e9ee2f66207b_b.jpg",
                 "width": 1024,
                 "height": 640,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/40282_ada7e9ee2f66207b_n.jpg",
-                "width": 320,
-                "height": 200,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "40282"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/40282_ada7e9ee2f66207b_z.jpg",
                 "width": 640,
                 "height": 400,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "40282"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/40282_ada7e9ee2f66207b_n.jpg",
+                "width": 320,
+                "height": 200,
+                "is_primary": "1",
+                "image_id": "40282"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/40282_ada7e9ee2f66207b_d.gif",
+                "width": 320,
+                "height": 200,
+                "is_primary": "1",
+                "image_id": "40282"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/40282_ada7e9ee2f66207b_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "40282"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18042327",
             "role_id": "35236703",
             "person_name": "Anspach Grossman Portugal",
+            "person_date": "1969",
             "role_name": "Office of",
+            "role_display_name": "Office of",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18042327\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236703\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18536279",
             "role_id": "35236667",
             "person_name": "Citibank",
+            "person_date": "",
             "role_name": "Client",
+            "role_display_name": "Client:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18536279\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236667\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18041325",
             "role_id": "35236655",
             "person_name": "Dan Friedman",
+            "person_date": "American, 1945\u20131995",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041325\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -78,7 +110,9 @@
             "person_id": "18049807",
             "role_id": "35351535",
             "person_name": "Ken Friedman",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049807\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -88,8 +122,11 @@
     },
     "colors": [
         {
-            "color": "#2b2926",
-            "closest_css3": "#2f4f4f"
+            "color": "#302e29",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

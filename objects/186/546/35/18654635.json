@@ -3,6 +3,7 @@
     "tms:id": "202287",
     "accession_number": "1997-116-2",
     "title": "Textile, \"Kyoto\", 1965",
+    "title_raw": "Kyoto",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18654635\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1965,
     "year_acquired": "1997",
     "decade": "1960",
-    "woe:country": "23424954",
+    "woe:country_id": "23424954",
     "medium": "Medium: cotton\nTechnique: screen printed on supplementary weft pile (velveteen)",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "H x W: 311.8 x 134.6 cm (122 3\/4 x 53 in.)",
+    "dimensions_raw": {
+        "height": [
+            "311.79",
+            "centimeters"
+        ],
+        "width": [
+            "134.62",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Hans Krondahl",
     "description": "Length of printed velveteen with a large-scale geometric design of pink ovals bisected by orange ovals, each bisected horizontally and vertically by red lines; at the intersection, a green square with yellow dots in center. On a red ground.",
     "justification": null,
-    "type": {
-        "id": "35251739",
-        "name": "textile"
-    },
+    "woe:country": "23424954",
+    "type": "textile",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/43061_4241dcb7e905a737_b.jpg",
                 "width": 576,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/43061_4241dcb7e905a737_n.jpg",
-                "width": 180,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "43061"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/43061_4241dcb7e905a737_z.jpg",
                 "width": 360,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "43061"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/43061_4241dcb7e905a737_n.jpg",
+                "width": 180,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "43061"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/43061_4241dcb7e905a737_d.gif",
+                "width": 180,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "43061"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/43061_4241dcb7e905a737_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "43061"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18055153",
             "role_id": "35236673",
             "person_name": "Ljungbergs Textiltryck AB, Floda, Sweden",
+            "person_date": "founded 1949",
             "role_name": "Printer",
+            "role_display_name": "Printed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18055153\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236673\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18046225",
             "role_id": "35351535",
             "person_name": "Hans Krondahl",
+            "person_date": "Swedish, b. 1929",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18046225\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18046225",
             "role_id": "35236655",
             "person_name": "Hans Krondahl",
+            "person_date": "Swedish, b. 1929",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18046225\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
@@ -80,24 +112,35 @@
     },
     "colors": [
         {
-            "color": "#cb301c",
-            "closest_css3": "#b22222"
+            "color": "#9c263f",
+            "closest_crayola": "#9c2542",
+            "closest_css3": "#a52a2a",
+            "closest_css4": "#a52a2a"
         },
         {
-            "color": "#571c22",
-            "closest_css3": "#800000"
+            "color": "#6d1d22",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#800000",
+            "closest_css4": "#800000"
         },
         {
-            "color": "#c0314b",
-            "closest_css3": "#dc143c"
+            "color": "#be2c1c",
+            "closest_crayola": "#9c2542",
+            "closest_css3": "#b22222",
+            "closest_css4": "#b22222"
         },
         {
-            "color": "#90243d",
-            "closest_css3": "#a52a2a"
+            "color": "#927835",
+            "closest_crayola": "#9c7c38",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         },
         {
-            "color": "#5a5c3c",
-            "closest_css3": "#556b2f"
+            "color": "#5f633f",
+            "closest_crayola": "#6e5160",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         }
-    ]
+    ],
+    "woe:country_name": "Sweden"
 }

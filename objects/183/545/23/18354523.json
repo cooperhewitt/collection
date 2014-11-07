@@ -3,6 +3,7 @@
     "tms:id": "60666",
     "accession_number": "1938-82-19-a",
     "title": "Textile Samples, ca. 1919",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18354523\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1924,
     "year_acquired": "1938",
     "decade": "1910",
-    "woe:country": "23424819",
+    "woe:country_id": "23424819",
     "medium": "Medium: silk\nTechnique: printed on chiffon",
     "markings": null,
     "signed": null,
     "inscribed": "Labeled: #4873 Chiffon Imp. Pathau",
     "provenance": null,
     "dimensions": "H x W: 113.3 x 116.8 cm (44 5\/8 x 46 in.)",
+    "dimensions_raw": {
+        "height": [
+            "113.30",
+            "centimeters"
+        ],
+        "width": [
+            "116.84",
+            "centimeters"
+        ]
+    },
     "creditline": "Anonymous bequest in memory of Albert and Rebecca Elsberg",
     "description": "Eleven samples, each with a diffferent color scheme. Large-scale adaptation of the cone motif arranged in a widely spaced staggered repeat.",
     "justification": null,
-    "type": {
-        "id": "35288421",
-        "name": "Textile samples"
-    },
+    "woe:country": "23424819",
+    "type": "Textile samples",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/3384_448d74f28cc25949_b.jpg",
                 "width": 1024,
                 "height": 894,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/3384_448d74f28cc25949_n.jpg",
-                "width": 320,
-                "height": 279,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "3384"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/3384_448d74f28cc25949_z.jpg",
                 "width": 640,
                 "height": 559,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "3384"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/3384_448d74f28cc25949_n.jpg",
+                "width": 320,
+                "height": 279,
+                "is_primary": "1",
+                "image_id": "3384"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/3384_448d74f28cc25949_d.gif",
+                "width": 320,
+                "height": 279,
+                "is_primary": "1",
+                "image_id": "3384"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/3384_448d74f28cc25949_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "3384"
             }
         }
     ],
@@ -54,15 +80,19 @@
             "person_id": "18042417",
             "role_id": "35236655",
             "person_name": "Herman A. Elsberg",
+            "person_date": "American, 1869\u20131938",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18042417\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
         {
             "person_id": "18049335",
             "role_id": "35351537",
-            "person_name": "Anonymous",
+            "person_name": "Unknown",
+            "person_date": "",
             "role_name": "Bequestor",
+            "role_display_name": "Bequest of",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049335\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351537\/"
         }
@@ -72,24 +102,35 @@
     },
     "colors": [
         {
-            "color": "#938d98",
-            "closest_css3": "#778899"
+            "color": "#a5a5b4",
+            "closest_crayola": "#979aaa",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
+        },
+        {
+            "color": "#71727b",
+            "closest_crayola": "#757575",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
             "color": "#8e5c62",
-            "closest_css3": "#696969"
-        },
-        {
-            "color": "#9d827e",
-            "closest_css3": "#808080"
-        },
-        {
-            "color": "#6b707c",
-            "closest_css3": "#696969"
+            "closest_crayola": "#8a795d",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
             "color": "#6c5a60",
-            "closest_css3": "#696969"
+            "closest_crayola": "#6e5160",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
+        },
+        {
+            "color": "#9d827f",
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         }
-    ]
+    ],
+    "woe:country_name": "France"
 }

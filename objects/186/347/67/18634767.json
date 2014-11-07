@@ -3,6 +3,7 @@
     "tms:id": "192230",
     "accession_number": "1990-44-1",
     "title": "Drawing, \"Winged Victory Lamp\", 1988",
+    "title_raw": "Winged Victory Lamp",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18634767\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1988,
     "year_acquired": "1990",
     "decade": "1980",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Black prismacolor on white vellum",
     "markings": null,
     "signed": "Signed in black crayon, lower right: David J. Baird '88",
     "inscribed": "Inscribed in black crayon, lower right: WINGED VICTORY LAMP \/ DESIGNED 1984 \/ PRODUCED 1988",
     "provenance": "David Baird",
     "dimensions": "100.2 x 53.3 cm (39 7\/16 in. x 21 in.), irregular",
+    "dimensions_raw": {
+        "height": [
+            "100.20",
+            "centimeters"
+        ],
+        "width": [
+            "53.30",
+            "centimeters"
+        ]
+    },
     "creditline": null,
     "description": "Two winged lamps attached to the wall by wires.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424977",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/39366_534615ed938a0a26_b.jpg",
                 "width": 545,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/39366_534615ed938a0a26_n.jpg",
-                "width": 170,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "39366"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/39366_534615ed938a0a26_z.jpg",
                 "width": 340,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "39366"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/39366_534615ed938a0a26_n.jpg",
+                "width": 170,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "39366"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/39366_534615ed938a0a26_d.gif",
+                "width": 170,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "39366"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/39366_534615ed938a0a26_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "39366"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18042151",
             "role_id": "35351535",
             "person_name": "David Baird",
+            "person_date": "American, b. 1956",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18042151\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18042151",
             "role_id": "35236655",
             "person_name": "David Baird",
+            "person_date": "American, b. 1956",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18042151\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
@@ -72,12 +102,17 @@
     },
     "colors": [
         {
-            "color": "#b2b1a6",
-            "closest_css3": "#a9a9a9"
+            "color": "#8a8a83",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#8b8b84",
-            "closest_css3": "#808080"
+            "color": "#b1b0a5",
+            "closest_crayola": "#b0b7c6",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

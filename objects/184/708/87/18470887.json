@@ -3,6 +3,7 @@
     "tms:id": "146083",
     "accession_number": "1969-40-147",
     "title": "Brooch, ca. 1890",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18470887\/",
     "department_id": "35347497",
     "period_id": null,
@@ -13,39 +14,68 @@
     "year_end": 1900,
     "year_acquired": "1969",
     "decade": null,
-    "woe:country": "23424975",
+    "woe:country_id": "23424975",
     "medium": "Gold, enamel, diamonds",
     "markings": "\"C G\"",
     "signed": null,
     "inscribed": null,
     "provenance": "1969: acquired by Museum",
     "dimensions": "H x W x D: 4.3 x 2 x 0.5 cm (1 11\/16 x 13\/16 x 3\/16 in.)",
+    "dimensions_raw": {
+        "depth": [
+            "0.50",
+            "centimeters"
+        ],
+        "height": [
+            "4.30",
+            "centimeters"
+        ],
+        "width": [
+            "2.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase through gift of Anonymous Donor, Annie Schermerhorn Kane, and various donors",
     "description": "Gold and enamel brooch with four Old Mine diamonds.",
     "justification": null,
-    "type": {
-        "id": "35251201",
-        "name": "brooch"
-    },
+    "woe:country": "23424975",
+    "type": "brooch",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/42943_1ecc529bc6255cd2_b.jpg",
                 "width": 1024,
                 "height": 855,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/42943_1ecc529bc6255cd2_n.jpg",
-                "width": 320,
-                "height": 267,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "42943"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/42943_1ecc529bc6255cd2_z.jpg",
                 "width": 640,
                 "height": 534,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "42943"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/42943_1ecc529bc6255cd2_n.jpg",
+                "width": 320,
+                "height": 267,
+                "is_primary": "1",
+                "image_id": "42943"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/42943_1ecc529bc6255cd2_d.gif",
+                "width": 320,
+                "height": 267,
+                "is_primary": "1",
+                "image_id": "42943"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/42943_1ecc529bc6255cd2_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "42943"
             }
         },
         {
@@ -53,19 +83,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/25881_79c4368763e36486_b.jpg",
                 "width": 779,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/25881_79c4368763e36486_n.jpg",
-                "width": 243,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "25881"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/25881_79c4368763e36486_z.jpg",
                 "width": 487,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "25881"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/25881_79c4368763e36486_n.jpg",
+                "width": 243,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "25881"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/25881_79c4368763e36486_d.gif",
+                "width": 243,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "25881"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/25881_79c4368763e36486_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "25881"
             }
         }
     ],
@@ -74,7 +121,9 @@
             "person_id": "18538511",
             "role_id": "35236685",
             "person_name": "Carlo Giuliano",
+            "person_date": "1831\u20131895",
             "role_name": "Maker",
+            "role_display_name": "Made by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18538511\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236685\/"
         }
@@ -84,16 +133,29 @@
     },
     "colors": [
         {
-            "color": "#4f4836",
-            "closest_css3": "#556b2f"
+            "color": "#605c4e",
+            "closest_crayola": "#6e5160",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#828178",
-            "closest_css3": "#808080"
+            "color": "#2b2a23",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#272721",
-            "closest_css3": "#2f4f4f"
+            "color": "#828179",
+            "closest_crayola": "#757575",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
+        },
+        {
+            "color": "#a19e92",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
         }
-    ]
+    ],
+    "woe:country_name": "United Kingdom"
 }

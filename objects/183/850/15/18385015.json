@@ -3,6 +3,7 @@
     "tms:id": "102641",
     "accession_number": "1950-66-67",
     "title": "Drawing, \"Rendering of Elevations and Floor Plans for a Four Family Mass-operational House (Type No.6)\", ca. 1921",
+    "title_raw": "Rendering of Elevations and Floor Plans for a Four Family Mass-operational House (Type No.6)",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18385015\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1921,
     "year_acquired": "1950",
     "decade": "1920",
-    "woe:country": null,
+    "woe:country_id": null,
     "medium": "Pen and ink, graphite on tracing paper",
     "markings": null,
     "signed": null,
     "inscribed": "Top in black ink: MAISON A 4 LOGEMENTS\/ 2 LOGEMENTS DU 4 PIECES A\/ 2 \" DE 3 \" B\/ TYPE NO. 6\nCenter in black ink: FACADE PRINCIPALE\nBottom in black ink: PLAN DU REZ DE CHAUSSEE",
     "provenance": "Gift of Madame Hector Guimard",
     "dimensions": "30.8 x 46.9 cm (12 1\/8 x 18 7\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "30.80",
+            "centimeters"
+        ],
+        "width": [
+            "46.90",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Mme. Hector Guimard",
     "description": "Elevation and floor plan for a mass-operational four family house. The top design shows the elevation of the building, and the bottom plan is the floor plan. Design to be build according to constructional plans devised by Guimard for post-World War I housing shortage.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": null,
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/41391_1a4964704bd7c08b_b.jpg",
                 "width": 1024,
                 "height": 677,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/41391_1a4964704bd7c08b_n.jpg",
-                "width": 320,
-                "height": 211,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "41391"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/41391_1a4964704bd7c08b_z.jpg",
                 "width": 640,
                 "height": 423,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "41391"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/41391_1a4964704bd7c08b_n.jpg",
+                "width": 320,
+                "height": 211,
+                "is_primary": "1",
+                "image_id": "41391"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/41391_1a4964704bd7c08b_d.gif",
+                "width": 320,
+                "height": 211,
+                "is_primary": "1",
+                "image_id": "41391"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/41391_1a4964704bd7c08b_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "41391"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18042569",
             "role_id": "35236663",
             "person_name": "Hector Guimard",
+            "person_date": "French, 1867\u20131942, active Paris, France, 1885\u20131929",
             "role_name": "Architect",
+            "role_display_name": "Architect:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18042569\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236663\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18538779",
             "role_id": "35351535",
             "person_name": "Mme. Hector Guimard",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18538779\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -72,20 +102,34 @@
     },
     "colors": [
         {
-            "color": "#766744",
-            "closest_css3": "#696969"
+            "color": "#95804f",
+            "closest_crayola": "#8a795d",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#cfba77",
-            "closest_css3": "#bdb76b"
+            "color": "#736442",
+            "closest_crayola": "#85754e",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         },
         {
-            "color": "#554934",
-            "closest_css3": "#556b2f"
+            "color": "#efe8d3",
+            "closest_crayola": "#efdecd",
+            "closest_css3": "#faebd7",
+            "closest_css4": "#faebd7"
         },
         {
-            "color": "#e5ddc3",
-            "closest_css3": "#f5deb3"
+            "color": "#4e4533",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
+        },
+        {
+            "color": "#d5c288",
+            "closest_crayola": "#e7c697",
+            "closest_css3": "#deb887",
+            "closest_css4": "#deb887"
         }
     ]
 }

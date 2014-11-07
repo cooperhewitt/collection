@@ -2,7 +2,8 @@
     "id": "18410865",
     "tms:id": "115652",
     "accession_number": "1956-77-4",
-    "title": "Print, \"Courturier, chez Doncet, Rue de la Paiz\", 1915",
+    "title": "Print, \"Courturier, Chez Doncet, Rue de la Paiz\", 1915",
+    "title_raw": "Courturier, chez Doncet, Rue de la Paiz",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18410865\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1915,
     "year_acquired": "1956",
     "decade": "1910",
-    "woe:country": "23424819",
+    "woe:country_id": "23424819",
     "medium": "Hand-colored print",
     "markings": null,
     "signed": "Signed in graphite, lower left: AO Guimard",
     "inscribed": null,
     "provenance": null,
     "dimensions": "24.5 x 16 cm (9 5\/8 x 6 5\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "24.50",
+            "centimeters"
+        ],
+        "width": [
+            "16.00",
+            "centimeters"
+        ]
+    },
     "creditline": null,
     "description": "Bearded man in three-quarter profile wearing a striped shirt.",
     "justification": null,
-    "type": {
-        "id": "35236873",
-        "name": "Print"
-    },
+    "woe:country": "23424819",
+    "type": "Print",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/42118_7cce6feb23453d8a_b.jpg",
                 "width": 777,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/42118_7cce6feb23453d8a_n.jpg",
-                "width": 243,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "42118"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/42118_7cce6feb23453d8a_z.jpg",
                 "width": 486,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "42118"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/42118_7cce6feb23453d8a_n.jpg",
+                "width": 243,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "42118"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/42118_7cce6feb23453d8a_d.gif",
+                "width": 243,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "42118"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/42118_7cce6feb23453d8a_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "42118"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "51676457",
             "role_id": "35352245",
             "person_name": "Karin Zonis",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/51676457\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -62,22 +90,29 @@
             "person_id": "51676597",
             "role_id": "35236565",
             "person_name": "Adeline Oppenheim Guimard",
+            "person_date": "",
             "role_name": "Artist",
+            "role_display_name": "",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/51676597\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236565\/"
         }
     ],
     "tombstone": {
-        "epitaph": "Print, \"Courturier, chez Doncet, Rue de la Paiz\", 1915. Hand-colored print. 1956-77-4."
+        "epitaph": "Print, \"Courturier, Chez Doncet, Rue de la Paiz\", 1915. Hand-colored print. 1956-77-4."
     },
     "colors": [
         {
-            "color": "#dcd4c9",
-            "closest_css3": "#d3d3d3"
+            "color": "#dad3c7",
+            "closest_crayola": "#dbd7d2",
+            "closest_css3": "#d3d3d3",
+            "closest_css4": "#d3d3d3"
         },
         {
-            "color": "#7d6f57",
-            "closest_css3": "#696969"
+            "color": "#7e7158",
+            "closest_crayola": "#85754e",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         }
-    ]
+    ],
+    "woe:country_name": "France"
 }

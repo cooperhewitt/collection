@@ -3,6 +3,7 @@
     "tms:id": "242134",
     "accession_number": "2009-18-99",
     "title": "Beer Glass, \"Strnad Muslin glass\", 1916",
+    "title_raw": "Strnad Muslin glass",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18732041\/",
     "department_id": "35347497",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1916,
     "year_acquired": "2009",
     "decade": "1910",
-    "woe:country": "23424750",
+    "woe:country_id": "23424750",
     "medium": "Mouth-blown crystal",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "H x diam.: 16.7 x 8.5 cm (6 9\/16 x 3 3\/8 in.)",
+    "dimensions_raw": {
+        "diameter": [
+            "8.50",
+            "centimeters"
+        ],
+        "height": [
+            "16.70",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase through gift of Dale and Doug Anderson, Anonymous Donor, Arthur Liu, and Prairie Pictures, Inc. and from General Acquisitions Endowment Fund",
     "description": "Thinnest mouth-blown crystal (\"Muslin glass\")",
     "justification": null,
-    "type": {
-        "id": "35293861",
-        "name": "Beer glass"
-    },
+    "woe:country": "23424750",
+    "type": "Beer glass",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/30753_ca85af9f864ef365_b.jpg",
                 "width": 483,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/30753_ca85af9f864ef365_n.jpg",
-                "width": 151,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "30753"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/30753_ca85af9f864ef365_z.jpg",
                 "width": 302,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "30753"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/30753_ca85af9f864ef365_n.jpg",
+                "width": 151,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "30753"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/30753_ca85af9f864ef365_d.gif",
+                "width": 151,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "30753"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/30753_ca85af9f864ef365_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "30753"
             }
         }
     ],
@@ -53,8 +79,10 @@
         {
             "person_id": "18061841",
             "role_id": "35236657",
-            "person_name": "J. & L. Lobmeyr GmbH, Vienna, Austria",
+            "person_name": "J. & L. Lobmeyr GmbH",
+            "person_date": "Vienna, Austria, founded ca. 1935",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18061841\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         },
@@ -62,15 +90,19 @@
             "person_id": "18537357",
             "role_id": "35236655",
             "person_name": "Oskar Strnad",
+            "person_date": "Austrian, 1879 - 1935",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18537357\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
         {
             "person_id": "18061841",
             "role_id": "51571131",
-            "person_name": "J. & L. Lobmeyr GmbH, Vienna, Austria",
+            "person_name": "J. & L. Lobmeyr GmbH",
+            "person_date": "Vienna, Austria, founded ca. 1935",
             "role_name": "Lender",
+            "role_display_name": "Lent by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18061841\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/51571131\/"
         }
@@ -80,8 +112,11 @@
     },
     "colors": [
         {
-            "color": "#8e8f8a",
-            "closest_css3": "#808080"
+            "color": "#363734",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         }
-    ]
+    ],
+    "woe:country_name": "Austria"
 }

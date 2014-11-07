@@ -3,6 +3,7 @@
     "tms:id": "75203",
     "accession_number": "1941-69-139",
     "title": "Sampler, 1751",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18563997\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1751,
     "year_acquired": "1941",
     "decade": null,
-    "woe:country": "23424975",
+    "woe:country_id": "23424975",
     "medium": "Medium: silk embroidery, wool foundation\nTechnique: cross and counted satin stitches on plain weave",
     "markings": null,
     "signed": "\"Elizabeth Gouger her work in the XI year of her age 1751.\"",
     "inscribed": "\"Elizabeth Gouger her work in the XI year of her age 1751.\"",
     "provenance": "ex. coll. Mrs. Henry E. Coe (Eva Johnston Coe)",
     "dimensions": "Warp x Weft: 47 x 33 cm (18 1\/2 x 13 in.)",
+    "dimensions_raw": {
+        "warp": [
+            "47.00",
+            "centimeters"
+        ],
+        "weft": [
+            "33.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Bequest of Mrs. Henry E. Coe",
     "description": "The Lord's Prayer, baskets of flowers with birds, and signature \"Elizabeth Gouger her work in the XI year of her age 1751.\" Floral border.",
     "justification": null,
-    "type": {
-        "id": "35256439",
-        "name": "Sampler"
-    },
+    "woe:country": "23424975",
+    "type": "Sampler",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/47214_6e69aa7111341cfc_b.jpg",
                 "width": 737,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/47214_6e69aa7111341cfc_n.jpg",
-                "width": 230,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "47214"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/47214_6e69aa7111341cfc_z.jpg",
                 "width": 461,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "47214"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/47214_6e69aa7111341cfc_n.jpg",
+                "width": 230,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "47214"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/47214_6e69aa7111341cfc_d.gif",
+                "width": 230,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "47214"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/47214_6e69aa7111341cfc_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "47214"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/29105_62991d04e8d1329e_b.jpg",
                 "width": 715,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/29105_62991d04e8d1329e_n.jpg",
-                "width": 224,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "29105"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/29105_62991d04e8d1329e_z.jpg",
                 "width": 447,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "29105"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/29105_62991d04e8d1329e_n.jpg",
+                "width": 224,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "29105"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/29105_62991d04e8d1329e_d.gif",
+                "width": 224,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "29105"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/29105_62991d04e8d1329e_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "29105"
             }
         }
     ],
@@ -74,9 +117,21 @@
             "person_id": "18052567",
             "role_id": "35351537",
             "person_name": "Mrs. Henry E. Coe",
+            "person_date": "",
             "role_name": "Bequestor",
+            "role_display_name": "Bequest of",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18052567\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351537\/"
+        },
+        {
+            "person_id": "68737399",
+            "role_id": "35236583",
+            "person_name": "Elizabeth Gouger",
+            "person_date": "",
+            "role_name": "Embroiderer",
+            "role_display_name": "Embroidered by",
+            "person_url": "http:\/\/collection.cooperhewitt.org\/people\/68737399\/",
+            "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236583\/"
         }
     ],
     "tombstone": {
@@ -84,24 +139,35 @@
     },
     "colors": [
         {
-            "color": "#9f906a",
-            "closest_css3": "#808080"
+            "color": "#d2c59d",
+            "closest_crayola": "#e7c697",
+            "closest_css3": "#d2b48c",
+            "closest_css4": "#d2b48c"
         },
         {
-            "color": "#6a705e",
-            "closest_css3": "#696969"
+            "color": "#ae996f",
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#bdb76b",
+            "closest_css4": "#bdb76b"
         },
         {
-            "color": "#4e5349",
-            "closest_css3": "#2f4f4f"
+            "color": "#927954",
+            "closest_crayola": "#8a795d",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#813633",
-            "closest_css3": "#8b4513"
+            "color": "#6c6b58",
+            "closest_crayola": "#6e5160",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#986251",
-            "closest_css3": "#a0522d"
+            "color": "#833734",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#8b4513",
+            "closest_css4": "#8b4513"
         }
-    ]
+    ],
+    "woe:country_name": "United Kingdom"
 }

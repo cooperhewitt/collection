@@ -3,6 +3,7 @@
     "tms:id": "21767",
     "accession_number": "1917-17-5",
     "title": "Photograph, \"Evening\", 19th century",
+    "title_raw": "Evening",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18189723\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": null,
     "year_acquired": "1917",
     "decade": null,
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Charcoal, white chalk over photograph printed on cream machine laid paper",
     "markings": null,
     "signed": "Lower right, in graphite and ink: \"Moran 1865\"",
     "inscribed": null,
     "provenance": "Gift of Thomas Moran",
     "dimensions": "Sheet: 25.8 x 35.5 cm (10 3\/16 x 14 in.)",
+    "dimensions_raw": {
+        "height": [
+            "25.80",
+            "centimeters"
+        ],
+        "width": [
+            "35.50",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Thomas Moran",
     "description": "Trees, shrubs, other vegetation, and small cliffs surround a body of water.",
     "justification": null,
-    "type": {
-        "id": "35247381",
-        "name": "photograph"
-    },
+    "woe:country": "23424977",
+    "type": "photograph",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/19912_f09302d541634408_b.jpg",
                 "width": 1024,
                 "height": 773,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/19912_f09302d541634408_n.jpg",
-                "width": 320,
-                "height": 242,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "19912"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/19912_f09302d541634408_z.jpg",
                 "width": 640,
                 "height": 483,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "19912"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/19912_f09302d541634408_n.jpg",
+                "width": 320,
+                "height": 242,
+                "is_primary": "1",
+                "image_id": "19912"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/19912_f09302d541634408_d.gif",
+                "width": 320,
+                "height": 242,
+                "is_primary": "1",
+                "image_id": "19912"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/19912_f09302d541634408_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "19912"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/17431_a195e666ac7a3077_b.jpg",
                 "width": 1024,
                 "height": 743,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/17431_a195e666ac7a3077_n.jpg",
-                "width": 320,
-                "height": 232,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "17431"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/17431_a195e666ac7a3077_z.jpg",
                 "width": 640,
                 "height": 465,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "17431"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/17431_a195e666ac7a3077_n.jpg",
+                "width": 320,
+                "height": 232,
+                "is_primary": "0",
+                "image_id": "17431"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/17431_a195e666ac7a3077_d.gif",
+                "width": 320,
+                "height": 232,
+                "is_primary": "0",
+                "image_id": "17431"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/17431_a195e666ac7a3077_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "17431"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18042237",
             "role_id": "35351535",
             "person_name": "Thomas Moran",
+            "person_date": "American, b. Britain, 1837\u20131926",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18042237\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18042237",
             "role_id": "35236565",
             "person_name": "Thomas Moran",
+            "person_date": "American, b. Britain, 1837\u20131926",
             "role_name": "Artist",
+            "role_display_name": "",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18042237\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236565\/"
         }
@@ -92,24 +139,29 @@
     },
     "colors": [
         {
-            "color": "#d0bd94",
-            "closest_css3": "#d2b48c"
+            "color": "#cfbc93",
+            "closest_crayola": "#deaa88",
+            "closest_css3": "#d2b48c",
+            "closest_css4": "#d2b48c"
         },
         {
-            "color": "#6e5e4c",
-            "closest_css3": "#696969"
+            "color": "#5a4f44",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         },
         {
-            "color": "#9b8b70",
-            "closest_css3": "#808080"
+            "color": "#97866a",
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#494038",
-            "closest_css3": "#2f4f4f"
-        },
-        {
-            "color": "#e8e4d1",
-            "closest_css3": "#dcdcdc"
+            "color": "#7c6b54",
+            "closest_crayola": "#85754e",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

@@ -3,6 +3,7 @@
     "tms:id": "210640",
     "accession_number": "1998-19-136",
     "title": "Drawing, \"China Display on Shelf, Wallpaper Design\", 1950\u201370",
+    "title_raw": "China Display on Shelf, Wallpaper Design",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18670445\/",
     "department_id": "35347493",
     "period_id": "35435429",
@@ -13,39 +14,64 @@
     "year_end": 1970,
     "year_acquired": "1998",
     "decade": "1950",
-    "woe:country": null,
+    "woe:country_id": null,
     "medium": "Brush and blue and gray gouache, graphite on heavy cream paper with white printed ground",
     "markings": null,
     "signed": null,
     "inscribed": "Inscribed on verso in red crayon, lower right:  Tommi Parzinger\/220 East 57th St.\/N.Y.C.\/Design # 123",
     "provenance": null,
     "dimensions": "51.5 x 65.7 cm (20 1\/4 x 25 7\/8 in. )",
+    "dimensions_raw": {
+        "height": [
+            "51.50",
+            "centimeters"
+        ],
+        "width": [
+            "65.70",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Donald Cameron",
     "description": "Possibly for a kitchen or dining room, a shelf displaying china is located above a diagonal-shaped pattern with - \/ + motif at each center. Design is rendered in shades of blue and gray against a cream background.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": null,
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/43468_7ddce3bfc6d8a544_b.jpg",
                 "width": 1024,
                 "height": 809,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/43468_7ddce3bfc6d8a544_n.jpg",
-                "width": 320,
-                "height": 253,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "43468"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/43468_7ddce3bfc6d8a544_z.jpg",
                 "width": 640,
                 "height": 505,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "43468"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/43468_7ddce3bfc6d8a544_n.jpg",
+                "width": 320,
+                "height": 253,
+                "is_primary": "1",
+                "image_id": "43468"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/43468_7ddce3bfc6d8a544_d.gif",
+                "width": 320,
+                "height": 253,
+                "is_primary": "1",
+                "image_id": "43468"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/43468_7ddce3bfc6d8a544_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "43468"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18041077",
             "role_id": "35351535",
             "person_name": "Donald Cameron",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041077\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18049811",
             "role_id": "35236655",
             "person_name": "Tommi Parzinger",
+            "person_date": "American, born Germany, 1903 - 1981",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049811\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
@@ -72,8 +102,16 @@
     },
     "colors": [
         {
-            "color": "#d0c2a7",
-            "closest_css3": "#c0c0c0"
+            "color": "#d0c2a6",
+            "closest_crayola": "#e7c697",
+            "closest_css3": "#d2b48c",
+            "closest_css4": "#d2b48c"
+        },
+        {
+            "color": "#bbc9d8",
+            "closest_crayola": "#c5d0e6",
+            "closest_css3": "#b0c4de",
+            "closest_css4": "#b0c4de"
         }
     ]
 }

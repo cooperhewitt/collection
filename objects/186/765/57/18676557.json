@@ -3,6 +3,7 @@
     "tms:id": "213727",
     "accession_number": "1999-50-1-1",
     "title": "Booklet Cover Sheet, 1916",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18676557\/",
     "department_id": "35347493",
     "period_id": "35417251",
@@ -13,39 +14,64 @@
     "year_end": 1916,
     "year_acquired": "1999",
     "decade": "1910",
-    "woe:country": null,
+    "woe:country_id": null,
     "medium": "Color woodcut on lavender wove paper paper",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "Cover sheet: 28.0 x 43.8 cm (11 x 17 1\/4 in. )\nInner sheet: 28.0 x 44.1 cm (11 x 17 3\/8 in.)",
+    "dimensions_raw": {
+        "height": [
+            "28.00",
+            "centimeters"
+        ],
+        "width": [
+            "43.80",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase from Drawings and Prints Council Fund and through gift of Margery and Edgar Masinter and Merrill C. Berman",
     "description": "Dismantled catalogue of clothes from Mrs. Eucken's embroidery studio.",
     "justification": null,
-    "type": {
-        "id": "35298245",
-        "name": "Booklet cover sheet"
-    },
+    "woe:country": null,
+    "type": "Booklet cover sheet",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/14696_29e387190d04e8b6_b.jpg",
                 "width": 812,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/14696_29e387190d04e8b6_n.jpg",
-                "width": 254,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "14696"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/14696_29e387190d04e8b6_z.jpg",
                 "width": 508,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "14696"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/14696_29e387190d04e8b6_n.jpg",
+                "width": 254,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "14696"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/14696_29e387190d04e8b6_d.gif",
+                "width": 254,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "14696"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/14696_29e387190d04e8b6_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "14696"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/14695_ea9517aed57803ea_b.jpg",
                 "width": 800,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/14695_ea9517aed57803ea_n.jpg",
-                "width": 250,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "14695"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/14695_ea9517aed57803ea_z.jpg",
                 "width": 500,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "14695"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/14695_ea9517aed57803ea_n.jpg",
+                "width": 250,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "14695"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/14695_ea9517aed57803ea_d.gif",
+                "width": 250,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "14695"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/14695_ea9517aed57803ea_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "14695"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18058841",
             "role_id": "35352249",
             "person_name": "August Laube",
+            "person_date": "",
             "role_name": "Vendor",
+            "role_display_name": "Purchased from",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18058841\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352249\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18051815",
             "role_id": "35236565",
             "person_name": "Ernst Ludwig Kirchner",
+            "person_date": "German, 1880 \u2013 1938",
             "role_name": "Artist",
+            "role_display_name": "",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18051815\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236565\/"
         }
@@ -92,24 +139,34 @@
     },
     "colors": [
         {
-            "color": "#c7a9af",
-            "closest_css3": "#c0c0c0"
+            "color": "#1e111b",
+            "closest_crayola": "#000000",
+            "closest_css3": "#000000",
+            "closest_css4": "#000000"
         },
         {
-            "color": "#251a1e",
-            "closest_css3": "#000000"
+            "color": "#d5c5c3",
+            "closest_crayola": "#cdc5c2",
+            "closest_css3": "#d3d3d3",
+            "closest_css4": "#d3d3d3"
         },
         {
-            "color": "#a18689",
-            "closest_css3": "#bc8f8f"
+            "color": "#1e306b",
+            "closest_crayola": "#1a4876",
+            "closest_css3": "#191970",
+            "closest_css4": "#191970"
         },
         {
-            "color": "#203369",
-            "closest_css3": "#191970"
+            "color": "#522123",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#800000",
+            "closest_css4": "#800000"
         },
         {
-            "color": "#d8c9c7",
-            "closest_css3": "#d3d3d3"
+            "color": "#78636a",
+            "closest_crayola": "#757575",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         }
     ]
 }

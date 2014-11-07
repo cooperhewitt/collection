@@ -3,6 +3,7 @@
     "tms:id": "141891",
     "accession_number": "1968-111-174",
     "title": "Border, 1900\u201325",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18462573\/",
     "department_id": "35347503",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1925,
     "year_acquired": "1968",
     "decade": null,
-    "woe:country": "23424819",
+    "woe:country_id": "23424819",
     "medium": "Block-printed",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "48 x 6 cm (18 7\/8 x 2 3\/8 in.)",
+    "dimensions_raw": {
+        "height": [
+            "48.00",
+            "centimeters"
+        ],
+        "width": [
+            "6.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Harvey Smith",
     "description": "Central band of pink and yellow roses with other flowers of lavender and burgundy. The background below the floral band is printed brown while the background above is printed pastel green.",
     "justification": null,
-    "type": {
-        "id": "35237285",
-        "name": "Border"
-    },
+    "woe:country": "23424819",
+    "type": "Border",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/82119_8a983c405baa1d82_b.jpg",
                 "width": 1024,
                 "height": 160,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/82119_8a983c405baa1d82_n.jpg",
-                "width": 320,
-                "height": 50,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "82119"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/82119_8a983c405baa1d82_z.jpg",
                 "width": 640,
                 "height": 100,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "82119"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/82119_8a983c405baa1d82_n.jpg",
+                "width": 320,
+                "height": 50,
+                "is_primary": "1",
+                "image_id": "82119"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/82119_8a983c405baa1d82_d.gif",
+                "width": 320,
+                "height": 50,
+                "is_primary": "1",
+                "image_id": "82119"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/82119_8a983c405baa1d82_sq.jpg",
+                "width": 300,
+                "height": 160,
+                "is_primary": "1",
+                "image_id": "82119"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/6588_114f9aaf8a0cfff5_b.jpg",
                 "width": 1024,
                 "height": 148,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/6588_114f9aaf8a0cfff5_n.jpg",
-                "width": 320,
-                "height": 46,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "6588"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/6588_114f9aaf8a0cfff5_z.jpg",
                 "width": 640,
                 "height": 93,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "6588"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/6588_114f9aaf8a0cfff5_n.jpg",
+                "width": 320,
+                "height": 46,
+                "is_primary": "0",
+                "image_id": "6588"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/6588_114f9aaf8a0cfff5_d.gif",
+                "width": 320,
+                "height": 46,
+                "is_primary": "0",
+                "image_id": "6588"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/6588_114f9aaf8a0cfff5_sq.jpg",
+                "width": 300,
+                "height": 148,
+                "is_primary": "0",
+                "image_id": "6588"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18049985",
             "role_id": "35351535",
             "person_name": "Harvey Smith",
+            "person_date": "1906\u20131994",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049985\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18048007",
             "role_id": "35352245",
             "person_name": "Catherine Lynn Frangiamore",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18048007\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         }
@@ -92,24 +139,35 @@
     },
     "colors": [
         {
-            "color": "#8e7140",
-            "closest_css3": "#a0522d"
+            "color": "#8e713f",
+            "closest_crayola": "#85754e",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         },
         {
-            "color": "#b6b7a3",
-            "closest_css3": "#a9a9a9"
+            "color": "#b3af96",
+            "closest_crayola": "#979aaa",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
         },
         {
-            "color": "#514b30",
-            "closest_css3": "#556b2f"
+            "color": "#524c30",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         },
         {
-            "color": "#79593b",
-            "closest_css3": "#556b2f"
+            "color": "#795a3b",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         },
         {
-            "color": "#98965a",
-            "closest_css3": "#808080"
+            "color": "#98945b",
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         }
-    ]
+    ],
+    "woe:country_name": "France"
 }

@@ -3,6 +3,7 @@
     "tms:id": "40083",
     "accession_number": "1924-27-6",
     "title": "Letter Case, 17th century",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18305223\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": null,
     "year_acquired": "1924",
     "decade": null,
-    "woe:country": null,
+    "woe:country_id": null,
     "medium": "Medium: paper, silk, gold-wrapped silk, gold wire, foil, and spangles on silk foundation\nTechnique: embroidered on paper faced with silk plain weave in surface satin and couching stitches with  attached coils of gold wire and foil, flat strips of gold foi",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "H x W: 18 x 13.5 cm (7 1\/16 x 5 5\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "18.00",
+            "centimeters"
+        ],
+        "width": [
+            "13.50",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of the Marquis Val Verde de la Sierra",
     "description": "Letter case with embroidery in colored silks and metallic thread in design of flowers and a coat of arms.",
     "justification": null,
-    "type": {
-        "id": "35282769",
-        "name": "Letter case"
-    },
+    "woe:country": null,
+    "type": "Letter case",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/42222_6772aead62e092fb_b.jpg",
                 "width": 1024,
                 "height": 800,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/42222_6772aead62e092fb_n.jpg",
-                "width": 320,
-                "height": 250,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "42222"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/42222_6772aead62e092fb_z.jpg",
                 "width": 640,
                 "height": 500,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "42222"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/42222_6772aead62e092fb_n.jpg",
+                "width": 320,
+                "height": 250,
+                "is_primary": "1",
+                "image_id": "42222"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/42222_6772aead62e092fb_d.gif",
+                "width": 320,
+                "height": 250,
+                "is_primary": "1",
+                "image_id": "42222"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/42222_6772aead62e092fb_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "42222"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/42223_72d07b4b2e47abb5_b.jpg",
                 "width": 1024,
                 "height": 818,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/42223_72d07b4b2e47abb5_n.jpg",
-                "width": 320,
-                "height": 256,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "42223"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/42223_72d07b4b2e47abb5_z.jpg",
                 "width": 640,
                 "height": 511,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "42223"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/42223_72d07b4b2e47abb5_n.jpg",
+                "width": 320,
+                "height": 256,
+                "is_primary": "0",
+                "image_id": "42223"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/42223_72d07b4b2e47abb5_d.gif",
+                "width": 320,
+                "height": 256,
+                "is_primary": "0",
+                "image_id": "42223"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/42223_72d07b4b2e47abb5_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "42223"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18051717",
             "role_id": "35351535",
             "person_name": "Marquis Val Verde de la Sierra",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18051717\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18055143",
             "role_id": "35352245",
             "person_name": "Susan J. Brown",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18055143\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         }
@@ -92,24 +139,34 @@
     },
     "colors": [
         {
-            "color": "#c9b389",
-            "closest_css3": "#d2b48c"
+            "color": "#705735",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         },
         {
-            "color": "#5f4930",
-            "closest_css3": "#556b2f"
+            "color": "#cab48a",
+            "closest_crayola": "#deaa88",
+            "closest_css3": "#d2b48c",
+            "closest_css4": "#d2b48c"
         },
         {
-            "color": "#a18867",
-            "closest_css3": "#808080"
+            "color": "#a08a64",
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#856e50",
-            "closest_css3": "#696969"
+            "color": "#3d3224",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#975e41",
-            "closest_css3": "#a0522d"
+            "color": "#d9d1c3",
+            "closest_crayola": "#dbd7d2",
+            "closest_css3": "#d3d3d3",
+            "closest_css4": "#d3d3d3"
         }
     ]
 }

@@ -3,6 +3,7 @@
     "tms:id": "23308",
     "accession_number": "1917-4-585",
     "title": "Drawing, \"Study of a Zoomorphic Rock, Petra\", 1868",
+    "title_raw": "Study of a Zoomorphic Rock, Petra",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18199705\/",
     "department_id": "35347493",
     "period_id": "35417175",
@@ -13,39 +14,64 @@
     "year_end": 1868,
     "year_acquired": "1917",
     "decade": null,
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Graphite, oil on paperboard",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "Height: 30.6 cm (12 in.) \nWidth: 50.7 cm (19 15\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "30.60",
+            "centimeters"
+        ],
+        "width": [
+            "50.70",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Louis P. Church",
     "description": "A strangely colored rock in the right foreground looks like a standing quadruped. Two caves are shown at its base. It is flanked at left by the head of another animal. A hill ridge is shown in the left rear. Cloudy sky.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424977",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/1879_704d520cf2ee9bcc_b.jpg",
                 "width": 1024,
                 "height": 614,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/1879_704d520cf2ee9bcc_n.jpg",
-                "width": 320,
-                "height": 192,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "1879"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/1879_704d520cf2ee9bcc_z.jpg",
                 "width": 640,
                 "height": 384,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "1879"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/1879_704d520cf2ee9bcc_n.jpg",
+                "width": 320,
+                "height": 192,
+                "is_primary": "1",
+                "image_id": "1879"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/1879_704d520cf2ee9bcc_d.gif",
+                "width": 320,
+                "height": 192,
+                "is_primary": "1",
+                "image_id": "1879"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/1879_704d520cf2ee9bcc_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "1879"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/16474_4a6f769e208bc4ad_b.jpg",
                 "width": 1024,
                 "height": 606,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/16474_4a6f769e208bc4ad_n.jpg",
-                "width": 320,
-                "height": 189,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "16474"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/16474_4a6f769e208bc4ad_z.jpg",
                 "width": 640,
                 "height": 379,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "16474"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/16474_4a6f769e208bc4ad_n.jpg",
+                "width": 320,
+                "height": 189,
+                "is_primary": "0",
+                "image_id": "16474"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/16474_4a6f769e208bc4ad_d.gif",
+                "width": 320,
+                "height": 189,
+                "is_primary": "0",
+                "image_id": "16474"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/16474_4a6f769e208bc4ad_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "16474"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18047439",
             "role_id": "35352245",
             "person_name": "Rudolph Berliner",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047439\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18041941",
             "role_id": "35236565",
             "person_name": "Frederic Edwin Church",
+            "person_date": "American, 1826\u20131900",
             "role_name": "Artist",
+            "role_display_name": "",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041941\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236565\/"
         },
@@ -90,7 +137,9 @@
             "person_id": "18051625",
             "role_id": "35351535",
             "person_name": "Louis P. Church",
+            "person_date": "American, 1870\u20131943",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18051625\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -100,24 +149,35 @@
     },
     "colors": [
         {
-            "color": "#452a2f",
-            "closest_css3": "#2f4f4f"
+            "color": "#613638",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         },
         {
-            "color": "#7b5556",
-            "closest_css3": "#696969"
+            "color": "#7b5553",
+            "closest_crayola": "#6e5160",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
+        },
+        {
+            "color": "#32262d",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
             "color": "#8a7073",
-            "closest_css3": "#808080"
+            "closest_crayola": "#757575",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#6a3135",
-            "closest_css3": "#8b4513"
-        },
-        {
-            "color": "#282228",
-            "closest_css3": "#2f4f4f"
+            "color": "#a18a82",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

@@ -3,6 +3,7 @@
     "tms:id": "105421",
     "accession_number": "1952-136-2",
     "title": "Textile, \"Quetzalcoatl\"",
+    "title_raw": "Quetzalcoatl",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18390553\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": null,
     "year_acquired": "1952",
     "decade": null,
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Medium: unbleached linen\nTechnique: silk screen",
     "markings": "Marked: Quetzalcoatl by Teresa Kilham for Morley Fletcher",
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "H x W: 94 x 129.5cm (37 x 51in.)",
+    "dimensions_raw": {
+        "height": [
+            "94.00",
+            "centimeters"
+        ],
+        "width": [
+            "129.50",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of J. Morley-Fletcher",
     "description": "Medium-scale detached stylized motives from Central American manuscripts, birds, heads, fans, etc. in black, oranage, natural, in red outlines on unbleached linen ground.  Narrow plain cloth selvages with double white cotton warps.  Wide unpatterned area at each selvage inscribed with name, artist, firm.",
     "justification": null,
-    "type": {
-        "id": "35251739",
-        "name": "textile"
-    },
+    "woe:country": "23424977",
+    "type": "textile",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/72747_90d14d47defa6608_b.jpg",
                 "width": 1024,
                 "height": 663,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/72747_90d14d47defa6608_n.jpg",
-                "width": 320,
-                "height": 207,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "72747"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/72747_90d14d47defa6608_z.jpg",
                 "width": 640,
                 "height": 414,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "72747"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/72747_90d14d47defa6608_n.jpg",
+                "width": 320,
+                "height": 207,
+                "is_primary": "1",
+                "image_id": "72747"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/72747_90d14d47defa6608_d.gif",
+                "width": 320,
+                "height": 207,
+                "is_primary": "1",
+                "image_id": "72747"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/72747_90d14d47defa6608_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "72747"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18052983",
             "role_id": "35351535",
             "person_name": "J. Morley-Fletcher",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18052983\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18054509",
             "role_id": "35236671",
             "person_name": "Morley Fletcher Ltd., New York, NY",
+            "person_date": "",
             "role_name": "Producer",
+            "role_display_name": "Produced by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18054509\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236671\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18046827",
             "role_id": "35236655",
             "person_name": "Teresa Kilham",
+            "person_date": "",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18046827\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
@@ -80,24 +112,35 @@
     },
     "colors": [
         {
-            "color": "#e1d5cc",
-            "closest_css3": "#d3d3d3"
+            "color": "#d4c3b9",
+            "closest_crayola": "#cdc5c2",
+            "closest_css3": "#c0c0c0",
+            "closest_css4": "#c0c0c0"
         },
         {
-            "color": "#a7978a",
-            "closest_css3": "#bc8f8f"
+            "color": "#c26943",
+            "closest_crayola": "#b4674d",
+            "closest_css3": "#cd5c5c",
+            "closest_css4": "#cd5c5c"
         },
         {
-            "color": "#292429",
-            "closest_css3": "#2f4f4f"
+            "color": "#a9988c",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         },
         {
-            "color": "#ac3822",
-            "closest_css3": "#a52a2a"
+            "color": "#4d312f",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#cd7953",
-            "closest_css3": "#cd853f"
+            "color": "#ad3c24",
+            "closest_crayola": "#9c2542",
+            "closest_css3": "#a52a2a",
+            "closest_css4": "#a52a2a"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

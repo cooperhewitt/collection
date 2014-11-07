@@ -3,6 +3,7 @@
     "tms:id": "201990",
     "accession_number": "1996-74-35",
     "title": "Book Cover, \"Book Cover: As Much As I\"",
+    "title_raw": "Book Cover: As Much As I",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18654059\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": null,
     "year_acquired": "1996",
     "decade": null,
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Offset color lithograph on paper",
     "markings": null,
     "signed": null,
     "inscribed": "Imprinted in white on black, spine: Random House",
     "provenance": "Steve Heller",
     "dimensions": "20.5 x 3.6 cm (8 1\/16 x 1 7\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "20.48",
+            "centimeters"
+        ],
+        "width": [
+            "3.63",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Steven Heller",
     "description": "Cover design depicts a cutout collage of images including a dancer with a blue dress and pink parasol; a young girl wearing a hat with flowers; a globe with yellow roses; and a black and white photograph of a woman wearing a hat with flowers. Text above, in black: As Much As I Know; in red: SUSAN THAMES; under the young girl at center right, in black: STORIES. Spine features a diamond checkered pattern in blue and orange. Center text in white on black: As Much As I Know SUSAN THAMES.",
     "justification": null,
-    "type": {
-        "id": "35249845",
-        "name": "book cover"
-    },
+    "woe:country": "23424977",
+    "type": "book cover",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/13569_f5424f925cd3e807_b.jpg",
                 "width": 896,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/13569_f5424f925cd3e807_n.jpg",
-                "width": 280,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "13569"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/13569_f5424f925cd3e807_z.jpg",
                 "width": 560,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "13569"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/13569_f5424f925cd3e807_n.jpg",
+                "width": 280,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "13569"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/13569_f5424f925cd3e807_d.gif",
+                "width": 280,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "13569"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/13569_f5424f925cd3e807_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "13569"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "51676457",
             "role_id": "35352245",
             "person_name": "Karin Zonis",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/51676457\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -62,15 +90,19 @@
             "person_id": "18047453",
             "role_id": "35352245",
             "person_name": "Elizabeth Horwitz Marcus",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047453\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
         {
             "person_id": "18041397",
             "role_id": "35351535",
-            "person_name": "Mr. Steve Heller",
+            "person_name": "Steven Heller",
+            "person_date": "American, b. 1950",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041397\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -78,7 +110,9 @@
             "person_id": "18048335",
             "role_id": "35352245",
             "person_name": "AU",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18048335\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -86,9 +120,21 @@
             "person_id": "18043649",
             "role_id": "35236655",
             "person_name": "Barbara de Wilde",
+            "person_date": "1962",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18043649\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
+        },
+        {
+            "person_id": "68739407",
+            "role_id": "35236689",
+            "person_name": "Susan Thames",
+            "person_date": "",
+            "role_name": "Author",
+            "role_display_name": "Written by",
+            "person_url": "http:\/\/collection.cooperhewitt.org\/people\/68739407\/",
+            "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236689\/"
         }
     ],
     "tombstone": {
@@ -96,24 +142,35 @@
     },
     "colors": [
         {
-            "color": "#e9bea3",
-            "closest_css3": "#deb887"
+            "color": "#f2ca94",
+            "closest_crayola": "#edd19c",
+            "closest_css3": "#f0e68c",
+            "closest_css4": "#f0e68c"
         },
         {
-            "color": "#2e2e4d",
-            "closest_css3": "#2f4f4f"
+            "color": "#2e2e4a",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#f8d6a1",
-            "closest_css3": "#ffdead"
+            "color": "#eca87f",
+            "closest_crayola": "#deaa88",
+            "closest_css3": "#e9967a",
+            "closest_css4": "#e9967a"
         },
         {
-            "color": "#c6682e",
-            "closest_css3": "#d2691e"
+            "color": "#c6682d",
+            "closest_crayola": "#c46210",
+            "closest_css3": "#d2691e",
+            "closest_css4": "#d2691e"
         },
         {
-            "color": "#963b42",
-            "closest_css3": "#a0522d"
+            "color": "#ab4246",
+            "closest_crayola": "#bf4f51",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

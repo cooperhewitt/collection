@@ -3,6 +3,7 @@
     "tms:id": "26237",
     "accession_number": "1921-6-138-1",
     "title": "Drawing, \"Design for a Chair\", 1790",
+    "title_raw": "Design for a Chair",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18218689\/",
     "department_id": "35347493",
     "period_id": "35417203",
@@ -13,39 +14,64 @@
     "year_end": 1790,
     "year_acquired": "1921",
     "decade": null,
-    "woe:country": "23424819",
+    "woe:country_id": "23424819",
     "medium": "Brush and watercolor, grey wash, pen and black ink on white laid paper",
     "markings": null,
     "signed": null,
     "inscribed": "Inscribed in black ink, lower right: N [encircled]; in Lugt supplement, 1953 b, \"N\" (encircled) probably originates from the time of the French Revolution. Usually in black ink on verso but in this case mark appears on recto.",
     "provenance": "Jean L\u00e9on Decloux; 1921: acquired by Museum",
     "dimensions": "13.7 x 11.3 cm (5 3\/8 x 4 7\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "13.70",
+            "centimeters"
+        ],
+        "width": [
+            "35.60",
+            "centimeters"
+        ]
+    },
     "creditline": "Purchased for the Museum by the Advisory Council",
     "description": "Side chair, elongated seat upholstered in purple, bordered with leaf motif on pink and white stripe.  Fan-shaped back, rectangular panel with central rosette upholstered back rest.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424819",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/59543_5236e050cee753e7_b.jpg",
                 "width": 845,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/59543_5236e050cee753e7_n.jpg",
-                "width": 264,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "59543"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/59543_5236e050cee753e7_z.jpg",
                 "width": 528,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "59543"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/59543_5236e050cee753e7_n.jpg",
+                "width": 264,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "59543"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/59543_5236e050cee753e7_d.gif",
+                "width": 264,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "59543"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/59543_5236e050cee753e7_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "59543"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18062141",
             "role_id": "35236633",
             "person_name": "Pierre-Antoine Leboux de La M\u00e9sang\u00e8re",
+            "person_date": "",
             "role_name": "Possibly",
+            "role_display_name": "Possibly by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18062141\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236633\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18049621",
             "role_id": "35351535",
             "person_name": "Advisory Council",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049621\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18047443",
             "role_id": "35352245",
             "person_name": "Megan L. Smith",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047443\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -78,7 +110,9 @@
             "person_id": "18047439",
             "role_id": "35352245",
             "person_name": "Rudolph Berliner",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047439\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -86,7 +120,9 @@
             "person_id": "18047813",
             "role_id": "35236715",
             "person_name": "Jean D\u00e9mosth\u00e8ne Dugourc",
+            "person_date": "French, 1749\u20131825",
             "role_name": "Workshop of",
+            "role_display_name": "Workshop of",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047813\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236715\/"
         }
@@ -96,24 +132,35 @@
     },
     "colors": [
         {
-            "color": "#c1c6bb",
-            "closest_css3": "#c0c0c0"
+            "color": "#ded2ba",
+            "closest_crayola": "#efcdb8",
+            "closest_css3": "#f5deb3",
+            "closest_css4": "#f5deb3"
         },
         {
-            "color": "#e0d2b2",
-            "closest_css3": "#f5deb3"
+            "color": "#5f5b51",
+            "closest_crayola": "#6e5160",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#545048",
-            "closest_css3": "#556b2f"
+            "color": "#827967",
+            "closest_crayola": "#8a795d",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#a79b8b",
-            "closest_css3": "#bc8f8f"
+            "color": "#ae9a84",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         },
         {
-            "color": "#807765",
-            "closest_css3": "#696969"
+            "color": "#c9dabe",
+            "closest_crayola": "#cdc5c2",
+            "closest_css3": "#d3d3d3",
+            "closest_css4": "#d3d3d3"
         }
-    ]
+    ],
+    "woe:country_name": "France"
 }

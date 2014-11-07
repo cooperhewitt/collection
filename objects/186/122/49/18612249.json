@@ -3,6 +3,7 @@
     "tms:id": "99440",
     "accession_number": "1948-80-1",
     "title": "Vase, ca. 1920\u201325",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18612249\/",
     "department_id": "35347497",
     "period_id": null,
@@ -13,39 +14,68 @@
     "year_end": 1930,
     "year_acquired": "1948",
     "decade": "1910",
-    "woe:country": null,
+    "woe:country_id": null,
     "medium": "Mouth-blown crystal",
     "markings": "Incised on base: \"Lobmeyr\/Czechoslovakia\" (Lobmeyr mark)",
     "signed": null,
     "inscribed": null,
     "provenance": "A. J. Van Dugteren; 1948: acquired by Museum",
     "dimensions": "H x W x D: 9.7 x 11.5 x 7 cm (3 13\/16 x 4 1\/2 x 2 3\/4 in.)",
+    "dimensions_raw": {
+        "depth": [
+            "7.00",
+            "centimeters"
+        ],
+        "height": [
+            "9.70",
+            "centimeters"
+        ],
+        "width": [
+            "11.50",
+            "centimeters"
+        ]
+    },
     "creditline": null,
     "description": "Flaring lobed body with everted lip and short, oval straight-sided foot with concave polished bottom; surface rough-cut and polished.",
     "justification": null,
-    "type": {
-        "id": "35237225",
-        "name": "Vase"
-    },
+    "woe:country": null,
+    "type": "Vase",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/33284_c5a54f0115803eb3_b.jpg",
                 "width": 1024,
                 "height": 940,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/33284_c5a54f0115803eb3_n.jpg",
-                "width": 320,
-                "height": 294,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "33284"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/33284_c5a54f0115803eb3_z.jpg",
                 "width": 640,
                 "height": 588,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "33284"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/33284_c5a54f0115803eb3_n.jpg",
+                "width": 320,
+                "height": 294,
+                "is_primary": "1",
+                "image_id": "33284"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/33284_c5a54f0115803eb3_d.gif",
+                "width": 320,
+                "height": 294,
+                "is_primary": "1",
+                "image_id": "33284"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/33284_c5a54f0115803eb3_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "33284"
             }
         }
     ],
@@ -53,10 +83,22 @@
         {
             "person_id": "18061841",
             "role_id": "35236657",
-            "person_name": "J. & L. Lobmeyr GmbH, Vienna, Austria",
+            "person_name": "J. & L. Lobmeyr GmbH",
+            "person_date": "Vienna, Austria, founded ca. 1935",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18061841\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
+        },
+        {
+            "person_id": "68738371",
+            "role_id": "35236655",
+            "person_name": "Marianne Rath",
+            "person_date": "Austrian, 1904\u20131985",
+            "role_name": "Designer",
+            "role_display_name": "Designed by",
+            "person_url": "http:\/\/collection.cooperhewitt.org\/people\/68738371\/",
+            "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
     ],
     "tombstone": {
@@ -65,7 +107,9 @@
     "colors": [
         {
             "color": "#ffffff",
-            "closest_css3": "#ffffff"
+            "closest_crayola": "#ffffff",
+            "closest_css3": "#ffffff",
+            "closest_css4": "#ffffff"
         }
     ]
 }

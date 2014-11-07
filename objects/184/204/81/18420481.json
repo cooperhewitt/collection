@@ -3,6 +3,7 @@
     "tms:id": "120480",
     "accession_number": "1958-115-9",
     "title": "Sidewall, \"Salud\", 1950\u201358",
+    "title_raw": "Salud",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18420481\/",
     "department_id": "35347503",
     "period_id": null,
@@ -13,39 +14,101 @@
     "year_end": 1958,
     "year_acquired": "1958",
     "decade": "1950",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Screen-printed",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "57 x 76 cm (22 7\/16 x 29 15\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "57.00",
+            "centimeters"
+        ],
+        "width": [
+            "76.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Jessup, Inc.",
     "description": "Fragment of a pattern of wine and liquor labels in brilliant colors on green ground. On margin: \"Schumacher Hand Print\". On reverse is printed manufacturer's name and identification of paper.",
     "justification": null,
-    "type": {
-        "id": "35256475",
-        "name": "Sidewall"
-    },
+    "woe:country": "23424977",
+    "type": "Sidewall",
     "images": [
+        {
+            "b": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/89286_561863025c61576f_b.jpg",
+                "width": 1024,
+                "height": 778,
+                "is_primary": "1",
+                "image_id": "89286"
+            },
+            "z": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/89286_561863025c61576f_z.jpg",
+                "width": 640,
+                "height": 487,
+                "is_primary": "1",
+                "image_id": "89286"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/89286_561863025c61576f_n.jpg",
+                "width": 320,
+                "height": 243,
+                "is_primary": "1",
+                "image_id": "89286"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/89286_561863025c61576f_d.gif",
+                "width": 320,
+                "height": 243,
+                "is_primary": "1",
+                "image_id": "89286"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/89286_561863025c61576f_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "89286"
+            }
+        },
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/5619_5249790bf9ae158d_b.jpg",
                 "width": 1024,
                 "height": 762,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/5619_5249790bf9ae158d_n.jpg",
-                "width": 320,
-                "height": 238,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "5619"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/5619_5249790bf9ae158d_z.jpg",
                 "width": 640,
                 "height": 476,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "5619"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/5619_5249790bf9ae158d_n.jpg",
+                "width": 320,
+                "height": 238,
+                "is_primary": "0",
+                "image_id": "5619"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/5619_5249790bf9ae158d_d.gif",
+                "width": 320,
+                "height": 238,
+                "is_primary": "0",
+                "image_id": "5619"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/5619_5249790bf9ae158d_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "5619"
             }
         }
     ],
@@ -54,7 +117,9 @@
             "person_id": "18538197",
             "role_id": "35351535",
             "person_name": "Jessup, Inc.",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18538197\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -62,7 +127,9 @@
             "person_id": "18048087",
             "role_id": "35352245",
             "person_name": "cv",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18048087\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -70,7 +137,9 @@
             "person_id": "18046337",
             "role_id": "35236657",
             "person_name": "F. Schumacher & Co.",
+            "person_date": "New York, New York, USA, founded 1889",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18046337\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         }
@@ -80,24 +149,35 @@
     },
     "colors": [
         {
-            "color": "#92874f",
-            "closest_css3": "#808080"
+            "color": "#91874c",
+            "closest_crayola": "#85754e",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#ede7bb",
-            "closest_css3": "#f5deb3"
+            "color": "#7d6039",
+            "closest_crayola": "#85754e",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         },
         {
-            "color": "#83653d",
-            "closest_css3": "#a0522d"
+            "color": "#ece5b8",
+            "closest_crayola": "#eceabe",
+            "closest_css3": "#f5deb3",
+            "closest_css4": "#f5deb3"
         },
         {
-            "color": "#ccaf6e",
-            "closest_css3": "#bdb76b"
+            "color": "#ded8ca",
+            "closest_crayola": "#dbd7d2",
+            "closest_css3": "#d3d3d3",
+            "closest_css4": "#d3d3d3"
         },
         {
-            "color": "#c74931",
-            "closest_css3": "#d2691e"
+            "color": "#ceb475",
+            "closest_crayola": "#bab86c",
+            "closest_css3": "#bdb76b",
+            "closest_css4": "#bdb76b"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

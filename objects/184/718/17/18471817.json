@@ -3,6 +3,7 @@
     "tms:id": "146571",
     "accession_number": "1970-28-11",
     "title": "Sampler, 1668",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18471817\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1668,
     "year_acquired": "1970",
     "decade": null,
-    "woe:country": "23424975",
+    "woe:country_id": "23424975",
     "medium": "Medium: linen and silk\nTechnique: embroidered",
     "markings": null,
     "signed": "Signed SUSAN EVE 1668.",
     "inscribed": null,
     "provenance": null,
     "dimensions": "H x W: 44 x 20.5 cm (17 5\/16 x 8 1\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "44.00",
+            "centimeters"
+        ],
+        "width": [
+            "20.50",
+            "centimeters"
+        ]
+    },
     "creditline": "Bequest of Emily Coe Stowell from the Coe Collection",
     "description": "Floral vines in bands.  Alphabet in two bands at bottom.  Signed SUSAN EVE 1668.",
     "justification": null,
-    "type": {
-        "id": "35256439",
-        "name": "Sampler"
-    },
+    "woe:country": "23424975",
+    "type": "Sampler",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/67455_77e0dd362765e062_b.jpg",
                 "width": 516,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/67455_77e0dd362765e062_n.jpg",
-                "width": 161,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "67455"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/67455_77e0dd362765e062_z.jpg",
                 "width": 323,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "67455"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/67455_77e0dd362765e062_n.jpg",
+                "width": 161,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "67455"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/67455_77e0dd362765e062_d.gif",
+                "width": 161,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "67455"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/67455_77e0dd362765e062_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "67455"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/29279_011dae56684e8987_b.jpg",
                 "width": 528,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/29279_011dae56684e8987_n.jpg",
-                "width": 165,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "29279"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/29279_011dae56684e8987_z.jpg",
                 "width": 330,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "29279"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/29279_011dae56684e8987_n.jpg",
+                "width": 165,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "29279"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/29279_011dae56684e8987_d.gif",
+                "width": 165,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "29279"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/29279_011dae56684e8987_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "29279"
             }
         }
     ],
@@ -74,9 +117,21 @@
             "person_id": "18054661",
             "role_id": "35351537",
             "person_name": "Emily Coe Stowell",
+            "person_date": "",
             "role_name": "Bequestor",
+            "role_display_name": "Bequest of",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18054661\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351537\/"
+        },
+        {
+            "person_id": "68737497",
+            "role_id": "35236583",
+            "person_name": "Susan Eve",
+            "person_date": "",
+            "role_name": "Embroiderer",
+            "role_display_name": "Embroidered by",
+            "person_url": "http:\/\/collection.cooperhewitt.org\/people\/68737497\/",
+            "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236583\/"
         }
     ],
     "tombstone": {
@@ -84,24 +139,35 @@
     },
     "colors": [
         {
-            "color": "#b0986c",
-            "closest_css3": "#bdb76b"
+            "color": "#c5ae80",
+            "closest_crayola": "#bab86c",
+            "closest_css3": "#d2b48c",
+            "closest_css4": "#d2b48c"
         },
         {
-            "color": "#d1bc92",
-            "closest_css3": "#d2b48c"
+            "color": "#9f895e",
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#514c28",
-            "closest_css3": "#556b2f"
+            "color": "#4e4a26",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         },
         {
-            "color": "#7a6b42",
-            "closest_css3": "#556b2f"
+            "color": "#71633a",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         },
         {
-            "color": "#9a724e",
-            "closest_css3": "#a0522d"
+            "color": "#773d31",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#8b4513",
+            "closest_css4": "#8b4513"
         }
-    ]
+    ],
+    "woe:country_name": "United Kingdom"
 }

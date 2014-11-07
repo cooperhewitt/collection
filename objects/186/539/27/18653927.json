@@ -3,6 +3,7 @@
     "tms:id": "201924",
     "accession_number": "1996-57-2",
     "title": "Drawing, \"Wallpaper Design:  Reconciliation of Venus and Psyche\", 1815",
+    "title_raw": "Wallpaper Design:  Reconciliation of Venus and Psyche",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18653927\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1815,
     "year_acquired": "1996",
     "decade": null,
-    "woe:country": "23424819",
+    "woe:country_id": "23424819",
     "medium": "Graphite, black, white chalk, brush and black ink on brown coated paper mounted to paperboard",
     "markings": null,
     "signed": "Signed in black chalk, lower right of sheet:  Blondel fecit, 1815",
     "inscribed": "Inscribed in white, lower margin: RECONCILIATION DE V\u00c9NUS ET DE PSYCH\u00c9.",
     "provenance": "1980: Sale Paris, Prout\u00e9, lot 71; 2 December 1987: Sale Paris Druout, lot 19; Didier Aaron, NYC; 1996: acquired by Museum",
     "dimensions": "39.8 x 35.2 cm (15 11\/16 x 13 7\/8 in.)",
+    "dimensions_raw": {
+        "height": [
+            "56.00",
+            "centimeters"
+        ],
+        "width": [
+            "48.10",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase through gift of Mr. and Mrs. Christian H. Aall and from Smithsonian Institution Collections Acquisition Program Fund",
     "description": "Venus and Psyche embracing at center of composition. Cupid leaning on Venus' throne looks on at right foreground.  Three unidentified maidens in right background.  Neoclassical architectural setting includes pavilion with Ionic columns and arcade with Doric columns.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424819",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/13562_637af4e9baba4c52_b.jpg",
                 "width": 868,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/13562_637af4e9baba4c52_n.jpg",
-                "width": 271,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "13562"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/13562_637af4e9baba4c52_z.jpg",
                 "width": 542,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "13562"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/13562_637af4e9baba4c52_n.jpg",
+                "width": 271,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "13562"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/13562_637af4e9baba4c52_d.gif",
+                "width": 271,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "13562"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/13562_637af4e9baba4c52_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "13562"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "51676689",
             "role_id": "51571025",
             "person_name": "Mr. Christian Aall",
+            "person_date": "",
             "role_name": "Funder",
+            "role_display_name": "Purchased with funds from:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/51676689\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/51571025\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18040915",
             "role_id": "51571025",
             "person_name": "Mrs. Christian H. Aall",
+            "person_date": "",
             "role_name": "Funder",
+            "role_display_name": "Purchased with funds from:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18040915\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/51571025\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18041283",
             "role_id": "35352249",
             "person_name": "Didier Aaron",
+            "person_date": "",
             "role_name": "Vendor",
+            "role_display_name": "Purchased from",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041283\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352249\/"
         },
@@ -78,7 +110,9 @@
             "person_id": "18049449",
             "role_id": "35236657",
             "person_name": "Joseph Dufour et Cie.",
+            "person_date": "French, 1752\u20131827",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049449\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         },
@@ -86,7 +120,9 @@
             "person_id": "18049199",
             "role_id": "35236565",
             "person_name": "Merry-Joseph Blondel",
+            "person_date": "French, 1781\u20131853; active Paris, France 1802\u20131851",
             "role_name": "Artist",
+            "role_display_name": "",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049199\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236565\/"
         }
@@ -96,24 +132,35 @@
     },
     "colors": [
         {
-            "color": "#8a6765",
-            "closest_css3": "#696969"
+            "color": "#866666",
+            "closest_crayola": "#8a795d",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#a48684",
-            "closest_css3": "#bc8f8f"
+            "color": "#a88a89",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         },
         {
-            "color": "#d9c9ca",
-            "closest_css3": "#d3d3d3"
+            "color": "#dacacd",
+            "closest_crayola": "#dbd7d2",
+            "closest_css3": "#d3d3d3",
+            "closest_css4": "#d3d3d3"
         },
         {
-            "color": "#634b4f",
-            "closest_css3": "#696969"
+            "color": "#634d52",
+            "closest_crayola": "#6e5160",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#cfa47d",
-            "closest_css3": "#d2b48c"
+            "color": "#cfa483",
+            "closest_crayola": "#deaa88",
+            "closest_css3": "#d2b48c",
+            "closest_css4": "#d2b48c"
         }
-    ]
+    ],
+    "woe:country_name": "France"
 }

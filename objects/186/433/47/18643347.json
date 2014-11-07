@@ -3,6 +3,7 @@
     "tms:id": "196540",
     "accession_number": "1993-121-4",
     "title": "Sample, ca. 1948",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18643347\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1953,
     "year_acquired": "1993",
     "decade": "1940",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Medium: \nTechnique: plain weave with discontinuous supplementary weft patterning (brocade)",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "Eric and Sylvia Elsesser; 1993: acquired by Museum",
     "dimensions": "Warp x Weft: 25.5 x 85 cm (10 1\/16 x 33 7\/16 in.)",
+    "dimensions_raw": {
+        "warp": [
+            "25.50",
+            "centimeters"
+        ],
+        "weft": [
+            "85.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Mr. Eric and Mrs. Sylvia Elsesser, The Trude Guermonprez Archives",
     "description": "Handwoven sample with off-white warp and off-white and metallic gold weft. The Hebrew letter shin is brocaded on the left in shades of yellow and the right in shades of grey with metallic silver.",
     "justification": null,
-    "type": {
-        "id": "35268079",
-        "name": "Sample"
-    },
+    "woe:country": "23424977",
+    "type": "Sample",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/31091_5c0fff9776174c4d_b.jpg",
                 "width": 1024,
                 "height": 347,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/31091_5c0fff9776174c4d_n.jpg",
-                "width": 320,
-                "height": 108,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "31091"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/31091_5c0fff9776174c4d_z.jpg",
                 "width": 640,
                 "height": 217,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "31091"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/31091_5c0fff9776174c4d_n.jpg",
+                "width": 320,
+                "height": 108,
+                "is_primary": "1",
+                "image_id": "31091"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/31091_5c0fff9776174c4d_d.gif",
+                "width": 320,
+                "height": 108,
+                "is_primary": "1",
+                "image_id": "31091"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/31091_5c0fff9776174c4d_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "31091"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18041457",
             "role_id": "35351535",
             "person_name": "Eric and Sylvia Elsesser",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041457\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18047457",
             "role_id": "35352245",
             "person_name": "Barbara Duggan",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047457\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18046169",
             "role_id": "35236655",
             "person_name": "Trude Guermonprez",
+            "person_date": "American, b. Germany, 1910\u20131976",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18046169\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
@@ -80,24 +112,35 @@
     },
     "colors": [
         {
-            "color": "#707a89",
-            "closest_css3": "#708090"
+            "color": "#6a7684",
+            "closest_crayola": "#757575",
+            "closest_css3": "#708090",
+            "closest_css4": "#708090"
         },
         {
-            "color": "#b8b6a3",
-            "closest_css3": "#a9a9a9"
+            "color": "#d5c4ac",
+            "closest_crayola": "#cdc5c2",
+            "closest_css3": "#c0c0c0",
+            "closest_css4": "#c0c0c0"
         },
         {
-            "color": "#a8aab1",
-            "closest_css3": "#a9a9a9"
+            "color": "#837a74",
+            "closest_crayola": "#757575",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#54606a",
-            "closest_css3": "#696969"
+            "color": "#aa9588",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         },
         {
-            "color": "#dab889",
-            "closest_css3": "#deb887"
+            "color": "#faf2d1",
+            "closest_crayola": "#efdecd",
+            "closest_css3": "#ffefd5",
+            "closest_css4": "#ffefd5"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

@@ -3,6 +3,7 @@
     "tms:id": "68250",
     "accession_number": "1938-88-7286",
     "title": "Drawing, \"Christ in Glory with Angels\", ca. 1630",
+    "title_raw": "Christ in Glory with Angels",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18550777\/",
     "department_id": "35347493",
     "period_id": "35417113",
@@ -13,39 +14,64 @@
     "year_end": 1640,
     "year_acquired": "1938",
     "decade": null,
-    "woe:country": "23424853",
+    "woe:country_id": "23424853",
     "medium": "Brush and gray, white and light blue gouache on brown laid paper",
     "markings": null,
     "signed": null,
     "inscribed": "Verso: \"g.180\" and \"zucoleri\"",
     "provenance": "Giovanni Piancastelli",
     "dimensions": "23.7 x 19.2 cm (9 5\/16 x 7 9\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "23.70",
+            "centimeters"
+        ],
+        "width": [
+            "19.20",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase through gift of various donors and from Eleanor G. Hewitt Fund",
     "description": "Crowd of angels surrounds the cross while floating amidst the clouds.  The cross, which is located on the right side of the composition, is being carried through the sky by two angels.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424853",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/34886_e3f13f48598e6db9_b.jpg",
                 "width": 859,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/34886_e3f13f48598e6db9_n.jpg",
-                "width": 268,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "34886"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/34886_e3f13f48598e6db9_z.jpg",
                 "width": 537,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "34886"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/34886_e3f13f48598e6db9_n.jpg",
+                "width": 268,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "34886"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/34886_e3f13f48598e6db9_d.gif",
+                "width": 268,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "34886"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/34886_e3f13f48598e6db9_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "34886"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/16935_8a9e78e5dd59a250_b.jpg",
                 "width": 827,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/16935_8a9e78e5dd59a250_n.jpg",
-                "width": 258,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "16935"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/16935_8a9e78e5dd59a250_z.jpg",
                 "width": 517,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "16935"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/16935_8a9e78e5dd59a250_n.jpg",
+                "width": 258,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "16935"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/16935_8a9e78e5dd59a250_d.gif",
+                "width": 258,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "16935"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/16935_8a9e78e5dd59a250_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "16935"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18055751",
             "role_id": "35352245",
             "person_name": "Amanda Sarroff",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18055751\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18055877",
             "role_id": "35236565",
             "person_name": "Belisario Corenzio",
+            "person_date": "Italian, active 1590\u20131646",
             "role_name": "Artist",
+            "role_display_name": "",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18055877\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236565\/"
         }
@@ -92,12 +139,23 @@
     },
     "colors": [
         {
-            "color": "#756c60",
-            "closest_css3": "#696969"
+            "color": "#8d7d6b",
+            "closest_crayola": "#8a795d",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#998770",
-            "closest_css3": "#808080"
+            "color": "#6c645a",
+            "closest_crayola": "#6e5160",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
+        },
+        {
+            "color": "#ccc8bc",
+            "closest_crayola": "#cdc5c2",
+            "closest_css3": "#c0c0c0",
+            "closest_css4": "#c0c0c0"
         }
-    ]
+    ],
+    "woe:country_name": "Italy"
 }

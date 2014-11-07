@@ -3,6 +3,7 @@
     "tms:id": "155643",
     "accession_number": "1976-100-32",
     "title": "Sampler, 1788",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18489539\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1788,
     "year_acquired": "1976",
     "decade": null,
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Medium: silk embroidery on linen foundation\nTechnique: embroidered in eye, counted cross, herringbone and overcasting stitches on plain weave foundation",
     "markings": null,
     "signed": null,
     "inscribed": "Charlotte Spier 1788 Aged 9",
     "provenance": "Ex. coll. Fraser-Martin. Purchased from Miss Annie Grant, 1924",
     "dimensions": "H x W: 52.7 x 20.3 cm (20 3\/4 x 8 in.)",
+    "dimensions_raw": {
+        "height": [
+            "52.71",
+            "centimeters"
+        ],
+        "width": [
+            "20.32",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Anonymous Donor from the Fraser\/Martin Collection",
     "description": "Long vertically rectangular sampler with a verse, three alphabets, two sets of numerals and two floral bands arranged in rows. The verse reads: \nEach beautious Flower that grows \nGods Wisdom Plainly shows  \nSigned Charlotte Spier 1788 Aged 9",
     "justification": null,
-    "type": {
-        "id": "35256439",
-        "name": "Sampler"
-    },
+    "woe:country": "23424977",
+    "type": "Sampler",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/47243_e992d533116bb6b3_b.jpg",
                 "width": 429,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/47243_e992d533116bb6b3_n.jpg",
-                "width": 134,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "47243"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/47243_e992d533116bb6b3_z.jpg",
                 "width": 268,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "47243"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/47243_e992d533116bb6b3_n.jpg",
+                "width": 134,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "47243"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/47243_e992d533116bb6b3_d.gif",
+                "width": 134,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "47243"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/47243_e992d533116bb6b3_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "47243"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/30146_dce1680232221635_b.jpg",
                 "width": 429,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/30146_dce1680232221635_n.jpg",
-                "width": 134,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "30146"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/30146_dce1680232221635_z.jpg",
                 "width": 268,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "30146"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/30146_dce1680232221635_n.jpg",
+                "width": 134,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "30146"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/30146_dce1680232221635_d.gif",
+                "width": 134,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "30146"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/30146_dce1680232221635_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "30146"
             }
         }
     ],
@@ -73,10 +116,22 @@
         {
             "person_id": "18049335",
             "role_id": "35351535",
-            "person_name": "Anonymous",
+            "person_name": "Unknown",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049335\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
+        },
+        {
+            "person_id": "68737457",
+            "role_id": "35236583",
+            "person_name": "Charlotte Spier",
+            "person_date": "American",
+            "role_name": "Embroiderer",
+            "role_display_name": "Embroidered by",
+            "person_url": "http:\/\/collection.cooperhewitt.org\/people\/68737457\/",
+            "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236583\/"
         }
     ],
     "tombstone": {
@@ -84,20 +139,23 @@
     },
     "colors": [
         {
-            "color": "#937d57",
-            "closest_css3": "#808080"
+            "color": "#9e7b50",
+            "closest_crayola": "#a5694f",
+            "closest_css3": "#cd853f",
+            "closest_css4": "#cd853f"
         },
         {
-            "color": "#d5c5a4",
-            "closest_css3": "#d2b48c"
+            "color": "#825a34",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         },
         {
-            "color": "#8c653c",
-            "closest_css3": "#a0522d"
-        },
-        {
-            "color": "#694b2c",
-            "closest_css3": "#556b2f"
+            "color": "#dbd2c4",
+            "closest_crayola": "#dbd7d2",
+            "closest_css3": "#d3d3d3",
+            "closest_css4": "#d3d3d3"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

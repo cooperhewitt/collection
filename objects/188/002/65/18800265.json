@@ -3,6 +3,7 @@
     "tms:id": "180295",
     "accession_number": "1983-1-12",
     "title": "Drawing, \"Living Room Davenport, Henry J. Allen Residence, Wichita, Kansas\", 1917",
+    "title_raw": "Living Room Davenport, Henry J. Allen Residence, Wichita, Kansas",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18800265\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1917,
     "year_acquired": "1983",
     "decade": "1910",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Graphite, color pencil on cream tracing paper",
     "markings": null,
     "signed": null,
     "inscribed": "Inscribed in graphite, lower right: LIVING ROOM ... DAVENPORT\/ 6\"2\" WIDTH BETWEEN ARMS\/ 14\" WIDTH OF ARM\/ 24 1\/2\" HEIGHT OF ARM FROM FLOOR\/ 17\" SEAT H[E]IGHT\/ 18\" HEIGHT OF BACK ON SLANT\/ SCALE 1 1\/2\" - 1' 0\" (all underlined); in ruled borders, lower right: L.R. FURNITURE FOR MR H.J. ALLEN\/ NIEDECKEN -WALBRIDGE CO.\/ INTERIOR-ARCHITECTS SCALE 1 1\/2\" = 1' 0\" (all underlined); center: NOTE: SCARF FOR ARM TO BE\/ OF A SEPARATE KIND OF\/ MATERIAL\/ WOOD PANEL (all underlined); upper left: 18 1\/2 wide (all underlined); lower left: 4 divisions in back\/ + in seat\/ G. N. Dec. 29 '17 #8\/ 1 of these\/ OK (all underlined)",
     "provenance": "Mr. and Mrs. Robert L. Jacobson",
     "dimensions": "26.2 x 54.7 cm (10 5\/16 x 21 9\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "26.20",
+            "centimeters"
+        ],
+        "width": [
+            "54.70",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase from Smithsonian Regents Collections Acquisition and Friends of Drawings and Prints Funds",
     "description": "Front and side elevation of a davenport. Front elevation on left, side elevation on right, inscribed underneath.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424977",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/42507_ee9d0cde62723741_b.jpg",
                 "width": 1024,
                 "height": 500,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/42507_ee9d0cde62723741_n.jpg",
-                "width": 320,
-                "height": 156,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "42507"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/42507_ee9d0cde62723741_z.jpg",
                 "width": 640,
                 "height": 313,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "42507"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/42507_ee9d0cde62723741_n.jpg",
+                "width": 320,
+                "height": 156,
+                "is_primary": "1",
+                "image_id": "42507"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/42507_ee9d0cde62723741_d.gif",
+                "width": 320,
+                "height": 156,
+                "is_primary": "1",
+                "image_id": "42507"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/42507_ee9d0cde62723741_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "42507"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18041629",
             "role_id": "35352249",
             "person_name": "Kelmscott Gallery",
+            "person_date": "",
             "role_name": "Vendor",
+            "role_display_name": "Purchased from",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041629\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352249\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "51676457",
             "role_id": "35352245",
             "person_name": "Karin Zonis",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/51676457\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18042051",
             "role_id": "35236667",
             "person_name": "Henry J. Allen",
+            "person_date": "",
             "role_name": "Client",
+            "role_display_name": "Client:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18042051\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236667\/"
         },
@@ -78,7 +110,9 @@
             "person_id": "18043485",
             "role_id": "35236655",
             "person_name": "George Mann Niedecken",
+            "person_date": "1878\u20131945",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18043485\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -86,9 +120,21 @@
             "person_id": "18042049",
             "role_id": "35236663",
             "person_name": "Frank Lloyd Wright",
+            "person_date": "American, 1867\u20131959",
             "role_name": "Architect",
+            "role_display_name": "Architect:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18042049\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236663\/"
+        },
+        {
+            "person_id": "68738747",
+            "role_id": "35236667",
+            "person_name": "Elsie J. Nuzman (Mrs. Henry J.) Allen",
+            "person_date": "",
+            "role_name": "Client",
+            "role_display_name": "Client:",
+            "person_url": "http:\/\/collection.cooperhewitt.org\/people\/68738747\/",
+            "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236667\/"
         }
     ],
     "tombstone": {
@@ -96,8 +142,11 @@
     },
     "colors": [
         {
-            "color": "#c5bb9d",
-            "closest_css3": "#d2b48c"
+            "color": "#c9bfa2",
+            "closest_crayola": "#e7c697",
+            "closest_css3": "#d2b48c",
+            "closest_css4": "#d2b48c"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

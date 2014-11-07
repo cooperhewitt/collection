@@ -3,6 +3,7 @@
     "tms:id": "242166",
     "accession_number": "2009-18-131-a,b",
     "title": "Decanter With Stopper, \"No. 279\", 2007",
+    "title_raw": "No. 279",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18732105\/",
     "department_id": "35347497",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 2007,
     "year_acquired": "2009",
     "decade": "2000",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Mouth-blown crystal, engraving",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "2009: acquired by Museum",
     "dimensions": "H x diam.: 32.8 x 12.8 cm (12 15\/16 x 5 1\/16 in.)",
+    "dimensions_raw": {
+        "diameter": [
+            "12.80",
+            "centimeters"
+        ],
+        "height": [
+            "32.80",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase through gift of Dale and Doug Anderson, Anonymous Donor, Arthur Liu, and Prairie Pictures, Inc. and from General Acquisitions Endowment Fund",
     "description": "Mouth-blown crystal decanter with stopper with engraved butterfly.",
     "justification": null,
-    "type": {
-        "id": "35298293",
-        "name": "Decanter with stopper"
-    },
+    "woe:country": "23424977",
+    "type": "Decanter with stopper",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/33242_a2589c1c838a2944_b.jpg",
                 "width": 670,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/33242_a2589c1c838a2944_n.jpg",
-                "width": 209,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "33242"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/33242_a2589c1c838a2944_z.jpg",
                 "width": 419,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "33242"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/33242_a2589c1c838a2944_n.jpg",
+                "width": 209,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "33242"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/33242_a2589c1c838a2944_d.gif",
+                "width": 209,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "33242"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/33242_a2589c1c838a2944_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "33242"
             }
         }
     ],
@@ -54,15 +80,19 @@
             "person_id": "18063195",
             "role_id": "35236657",
             "person_name": "Boehmische Manufaktur",
+            "person_date": "",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18063195\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         },
         {
             "person_id": "18061841",
             "role_id": "35236657",
-            "person_name": "J. & L. Lobmeyr GmbH, Vienna, Austria",
+            "person_name": "J. & L. Lobmeyr GmbH",
+            "person_date": "Vienna, Austria, founded ca. 1935",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18061841\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         },
@@ -70,15 +100,19 @@
             "person_id": "18060905",
             "role_id": "35236655",
             "person_name": "Ted Muehling",
+            "person_date": "American, b. 1953",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18060905\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
         {
             "person_id": "18061841",
             "role_id": "51571131",
-            "person_name": "J. & L. Lobmeyr GmbH, Vienna, Austria",
+            "person_name": "J. & L. Lobmeyr GmbH",
+            "person_date": "Vienna, Austria, founded ca. 1935",
             "role_name": "Lender",
+            "role_display_name": "Lent by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18061841\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/51571131\/"
         }
@@ -89,7 +123,10 @@
     "colors": [
         {
             "color": "#cecece",
-            "closest_css3": "#d3d3d3"
+            "closest_crayola": "#cdc5c2",
+            "closest_css3": "#d3d3d3",
+            "closest_css4": "#d3d3d3"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

@@ -3,6 +3,7 @@
     "tms:id": "156223",
     "accession_number": "1976-32-5",
     "title": "Sarong, 20th century",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18490689\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1976,
     "year_acquired": "1976",
     "decade": "1900",
-    "woe:country": "23424960",
+    "woe:country_id": "23424960",
     "medium": "Medium: cotton\nTechnique: plain weave; mordant printing and painting, resist printing for reds and black; yellow possibly applied by brush; blue process unknown",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "H x W: 309 x 99 cm (121 5\/8 x 39 in.)",
+    "dimensions_raw": {
+        "height": [
+            "309.00",
+            "centimeters"
+        ],
+        "width": [
+            "99.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Jacques Mohr",
     "description": "Field is a small scale overall diamond lattice enclosing a torso of a temple figure on a blue background; side borders are floral patterns; end borders four pendant bands on  red, rose and blue.",
     "justification": null,
-    "type": {
-        "id": "35287761",
-        "name": "Sarong"
-    },
+    "woe:country": "23424960",
+    "type": "Sarong",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/18730_c239480d2d1fdadc_b.jpg",
                 "width": 674,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/18730_c239480d2d1fdadc_n.jpg",
-                "width": 211,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "18730"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/18730_c239480d2d1fdadc_z.jpg",
                 "width": 421,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "18730"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/18730_c239480d2d1fdadc_n.jpg",
+                "width": 211,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "18730"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/18730_c239480d2d1fdadc_d.gif",
+                "width": 211,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "18730"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/18730_c239480d2d1fdadc_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "18730"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/18731_d0b121ed9093b84d_b.jpg",
                 "width": 701,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/18731_d0b121ed9093b84d_n.jpg",
-                "width": 219,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "18731"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/18731_d0b121ed9093b84d_z.jpg",
                 "width": 438,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "18731"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/18731_d0b121ed9093b84d_n.jpg",
+                "width": 219,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "18731"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/18731_d0b121ed9093b84d_d.gif",
+                "width": 219,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "18731"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/18731_d0b121ed9093b84d_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "18731"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18047497",
             "role_id": "35352245",
             "person_name": "Milton Sonday",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047497\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18057151",
             "role_id": "35351535",
             "person_name": "Jacques Mohr",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18057151\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -92,24 +139,35 @@
     },
     "colors": [
         {
-            "color": "#5b424c",
-            "closest_css3": "#2f4f4f"
+            "color": "#424f5b",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#7c353a",
-            "closest_css3": "#8b4513"
+            "color": "#5d464b",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#8b5d5d",
-            "closest_css3": "#696969"
+            "color": "#ab5b58",
+            "closest_crayola": "#bc5d58",
+            "closest_css3": "#cd5c5c",
+            "closest_css4": "#cd5c5c"
         },
         {
-            "color": "#c6eaf7",
-            "closest_css3": "#afeeee"
+            "color": "#a37f6e",
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#182535",
-            "closest_css3": "#2f4f4f"
+            "color": "#7e4547",
+            "closest_crayola": "#6e5160",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         }
-    ]
+    ],
+    "woe:country_name": "Thailand"
 }

@@ -3,6 +3,7 @@
     "tms:id": "210088",
     "accession_number": "1999-42-17",
     "title": "Pitcher, ca. 1875\u201385",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18669345\/",
     "department_id": "35347497",
     "period_id": null,
@@ -13,39 +14,68 @@
     "year_end": null,
     "year_acquired": "1999",
     "decade": null,
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "glass",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "H x W x D: 27.4 x 16 x 14.3cm (10 13\/16 x 6 5\/16 x 5 5\/8in.)",
+    "dimensions_raw": {
+        "depth": [
+            "14.30",
+            "centimeters"
+        ],
+        "height": [
+            "27.40",
+            "centimeters"
+        ],
+        "width": [
+            "16.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of the Brooklyn Museum of Art, Paul F. Walter Collection",
     "description": "Of clear \"ice\" or \"overshot\" glass, the rough-surfaced ovoid body tapering to slender neck flaring to mouth pinched to form wide spout;  handle formed of  spiral-textured rod looped around neck, twisted and attached to body below oval opening of indented well (for ice or other cooling agent?).",
     "justification": null,
-    "type": {
-        "id": "35237237",
-        "name": "Pitcher"
-    },
+    "woe:country": "23424977",
+    "type": "Pitcher",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/14052_ed3d3a33e6576d80_b.jpg",
                 "width": 764,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/14052_ed3d3a33e6576d80_n.jpg",
-                "width": 239,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "14052"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/14052_ed3d3a33e6576d80_z.jpg",
                 "width": 477,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "14052"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/14052_ed3d3a33e6576d80_n.jpg",
+                "width": 239,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "14052"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/14052_ed3d3a33e6576d80_d.gif",
+                "width": 239,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "14052"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/14052_ed3d3a33e6576d80_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "14052"
             }
         }
     ],
@@ -54,7 +84,9 @@
             "person_id": "18047567",
             "role_id": "35351535",
             "person_name": "Brooklyn Museum",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047567\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -62,7 +94,9 @@
             "person_id": "18050545",
             "role_id": "35236657",
             "person_name": "Boston and Sandwich Glass Company",
+            "person_date": "active 1824 \u2013 1888",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18050545\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         }
@@ -72,12 +106,17 @@
     },
     "colors": [
         {
-            "color": "#978e8c",
-            "closest_css3": "#808080"
+            "color": "#aba096",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
         },
         {
-            "color": "#a7a89f",
-            "closest_css3": "#a9a9a9"
+            "color": "#8d837f",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

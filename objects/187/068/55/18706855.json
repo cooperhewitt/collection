@@ -3,6 +3,7 @@
     "tms:id": "229263",
     "accession_number": "1960-1-15-c",
     "title": "Panel, \"Figure of Africa\", late 17th\u2013early 18th century",
+    "title_raw": "Figure of Africa",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18706855\/",
     "department_id": "35347497",
     "period_id": null,
@@ -13,39 +14,68 @@
     "year_end": null,
     "year_acquired": "1960",
     "decade": null,
-    "woe:country": null,
+    "woe:country_id": null,
     "medium": "Fruit woods",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "James Hazen Hyde; 1960: acquired by Museum",
     "dimensions": "H x W x D: 47.6 x 32.3 x 3.3 cm (18 3\/4 x 12 11\/16 x 1 5\/16 in.)",
+    "dimensions_raw": {
+        "depth": [
+            "3.30",
+            "centimeters"
+        ],
+        "length": [
+            "47.60",
+            "centimeters"
+        ],
+        "width": [
+            "32.30",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of the Estate of James Hazen Hyde",
     "description": "Panel in gadrooned frame. Nude female figure, holding tambourine and feather parasol, seated in chariot with crocodile arm rests, drawn by two lions; in foreground, scaly quadruped; in background, two elephants, camel, lion and ostrich. At top right, labeled \"Africa\".",
     "justification": null,
-    "type": {
-        "id": "35237229",
-        "name": "Panel"
-    },
+    "woe:country": null,
+    "type": "Panel",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/43302_95dcbd5438793a5e_b.jpg",
                 "width": 731,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/43302_95dcbd5438793a5e_n.jpg",
-                "width": 228,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "43302"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/43302_95dcbd5438793a5e_z.jpg",
                 "width": 457,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "43302"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/43302_95dcbd5438793a5e_n.jpg",
+                "width": 228,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "43302"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/43302_95dcbd5438793a5e_d.gif",
+                "width": 228,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "43302"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/43302_95dcbd5438793a5e_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "43302"
             }
         },
         {
@@ -53,19 +83,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/19545_96109d0c857f796b_b.jpg",
                 "width": 730,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/19545_96109d0c857f796b_n.jpg",
-                "width": 228,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "19545"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/19545_96109d0c857f796b_z.jpg",
                 "width": 456,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "19545"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/19545_96109d0c857f796b_n.jpg",
+                "width": 228,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "19545"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/19545_96109d0c857f796b_d.gif",
+                "width": 228,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "19545"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/19545_96109d0c857f796b_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "19545"
             }
         }
     ],
@@ -74,7 +121,9 @@
             "person_id": "18057983",
             "role_id": "35236677",
             "person_name": "Marten de Vos",
+            "person_date": "1532\u20131603",
             "role_name": "After",
+            "role_display_name": "After",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18057983\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236677\/"
         },
@@ -82,9 +131,21 @@
             "person_id": "18049369",
             "role_id": "35351535",
             "person_name": "Estate of James Hazen Hyde",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049369\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
+        },
+        {
+            "person_id": "68736271",
+            "role_id": "35236677",
+            "person_name": "Julius Goltzius",
+            "person_date": "",
+            "role_name": "After",
+            "role_display_name": "After",
+            "person_url": "http:\/\/collection.cooperhewitt.org\/people\/68736271\/",
+            "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236677\/"
         }
     ],
     "tombstone": {
@@ -92,24 +153,34 @@
     },
     "colors": [
         {
-            "color": "#5d3c1d",
-            "closest_css3": "#8b4513"
+            "color": "#502a10",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#8b4513",
+            "closest_css4": "#8b4513"
         },
         {
-            "color": "#241306",
-            "closest_css3": "#000000"
+            "color": "#833e0b",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#8b4513",
+            "closest_css4": "#8b4513"
         },
         {
-            "color": "#843e0b",
-            "closest_css3": "#8b4513"
+            "color": "#231508",
+            "closest_crayola": "#000000",
+            "closest_css3": "#000000",
+            "closest_css4": "#000000"
         },
         {
-            "color": "#7c5943",
-            "closest_css3": "#a0522d"
+            "color": "#53463b",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         },
         {
             "color": "#c8bbac",
-            "closest_css3": "#c0c0c0"
+            "closest_crayola": "#cdc5c2",
+            "closest_css3": "#c0c0c0",
+            "closest_css4": "#c0c0c0"
         }
     ]
 }

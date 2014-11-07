@@ -3,6 +3,7 @@
     "tms:id": "61972",
     "accession_number": "1938-88-168",
     "title": "Drawing, \"Set Design showing Fantasy of Rome with the Castel Sant 'Angelo, the Ponte Elio and the Centaurs Aristens and Pappias\", ca. 1740",
+    "title_raw": "Set Design showing Fantasy of Rome with the Castel Sant 'Angelo, the Ponte Elio and the Centaurs Aristens and Pappias",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18357091\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1750,
     "year_acquired": "1938",
     "decade": null,
-    "woe:country": "23424853",
+    "woe:country_id": "23424853",
     "medium": "Pen and brown ink, brush and brown, gray watercolor on white laid paper",
     "markings": null,
     "signed": null,
     "inscribed": "Inscribed in graphite on verso: P 19 \/ upper",
     "provenance": "Giovanni Piancastelli, Rome; Mr. and Mrs. Edward D. Brandegee, Brookline, MA; 1938: acquired by Museum",
     "dimensions": "32 x 48.2cm (12 5\/8 x 19in.)\nMat: 55.9 x 71.1 cm (22 x 28 in.)",
+    "dimensions_raw": {
+        "height": [
+            "55.90",
+            "centimeters"
+        ],
+        "width": [
+            "71.10",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase through gift of various donors and from Eleanor G. Hewitt Fund",
     "description": "Palaces with porticoes and colonnades at left. Statues of two centaurs placed on plinths flank a low stair. At center, a tall obelisk stands with Castel Sant'Angelo behind and the Ponte Elio in the distance. Another palace, decorated with statues and a flower filled vase is at right.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424853",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/19619_5cfddd359ef5cd0b_b.jpg",
                 "width": 1024,
                 "height": 698,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/19619_5cfddd359ef5cd0b_n.jpg",
-                "width": 320,
-                "height": 218,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "19619"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/19619_5cfddd359ef5cd0b_z.jpg",
                 "width": 640,
                 "height": 436,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "19619"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/19619_5cfddd359ef5cd0b_n.jpg",
+                "width": 320,
+                "height": 218,
+                "is_primary": "1",
+                "image_id": "19619"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/19619_5cfddd359ef5cd0b_d.gif",
+                "width": 320,
+                "height": 218,
+                "is_primary": "1",
+                "image_id": "19619"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/19619_5cfddd359ef5cd0b_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "19619"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18049797",
             "role_id": "35352249",
             "person_name": "Mrs. Edward D. Brandegee",
+            "person_date": "American, 1871\u20131956",
             "role_name": "Vendor",
+            "role_display_name": "Purchased from",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049797\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352249\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18057171",
             "role_id": "35236565",
             "person_name": "Unknown",
+            "person_date": "Italian",
             "role_name": "Artist",
+            "role_display_name": "",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18057171\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236565\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18047443",
             "role_id": "35352245",
             "person_name": "Megan L. Smith",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047443\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -78,7 +110,9 @@
             "person_id": "18047883",
             "role_id": "35352245",
             "person_name": "Dr. Haus Huth",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047883\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         }
@@ -88,16 +122,29 @@
     },
     "colors": [
         {
-            "color": "#c7b299",
-            "closest_css3": "#d2b48c"
+            "color": "#d6c6b0",
+            "closest_crayola": "#cdc5c2",
+            "closest_css3": "#c0c0c0",
+            "closest_css4": "#c0c0c0"
         },
         {
-            "color": "#887864",
-            "closest_css3": "#808080"
+            "color": "#a1927c",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         },
         {
-            "color": "#564a3f",
-            "closest_css3": "#556b2f"
+            "color": "#776a59",
+            "closest_crayola": "#85754e",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
+        },
+        {
+            "color": "#574b40",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         }
-    ]
+    ],
+    "woe:country_name": "Italy"
 }

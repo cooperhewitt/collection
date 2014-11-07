@@ -3,6 +3,7 @@
     "tms:id": "18517",
     "accession_number": "1911-28-461",
     "title": "Drawing, \"Design for a Monument Commemorating Systematization of Weights and Measures in France\", 1795\u20131800",
+    "title_raw": "Design for a Monument Commemorating Systematization of Weights and Measures in France",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18172131\/",
     "department_id": "35347493",
     "period_id": "35417089",
@@ -13,39 +14,64 @@
     "year_end": "1800",
     "year_acquired": "1911",
     "decade": null,
-    "woe:country": "23424819",
+    "woe:country_id": "23424819",
     "medium": "Pen and black ink, brush and gray, red and blue wash on paper, joined at center",
     "markings": null,
     "signed": null,
     "inscribed": "Inscribed in pen and black ink, on the flag: \"LIBERTE\"; on pedestal at left: \"POIDS\"; at right: \"MESURES\"; at lower center: \"LA LIBERTE\/SORT DU SEIN DE L'ESCLAVAGE\"",
     "provenance": "Collection of Leon Decloux",
     "dimensions": "21.6 x 47.6cm (8 1\/2 x 18 3\/4in.)",
+    "dimensions_raw": {
+        "height": [
+            "21.60",
+            "centimeters"
+        ],
+        "width": [
+            "47.60",
+            "centimeters"
+        ]
+    },
     "creditline": "Purchased for the Museum by the Advisory Council",
     "description": "A series of monuments lined side by side.  At the center, Liberty and a tricolor with the inscription \"LIBERTE\" are on top of a pedestal in the shape of a prison tower; laterally are statues representing weights and measurements and columns with attributes referring to science.  A snake, topped by an \"X\" is wound around the left column under a lozenge, representing Night: the top of the column is surrounded by a railing and carries a burning-glass; a thermometer and a weather-cock, \"S\" and \"N\" are at the right; the sculptures are shown against the parapet bordering a terrace; behind it rise two cranes, and parts of structures with loggias in Romanesque style.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424819",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/1585_c1c51b8f05b564e3_b.jpg",
                 "width": 1024,
                 "height": 471,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/1585_c1c51b8f05b564e3_n.jpg",
-                "width": 320,
-                "height": 147,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "1585"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/1585_c1c51b8f05b564e3_z.jpg",
                 "width": 640,
                 "height": 294,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "1585"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/1585_c1c51b8f05b564e3_n.jpg",
+                "width": 320,
+                "height": 147,
+                "is_primary": "1",
+                "image_id": "1585"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/1585_c1c51b8f05b564e3_d.gif",
+                "width": 320,
+                "height": 147,
+                "is_primary": "1",
+                "image_id": "1585"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/1585_c1c51b8f05b564e3_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "1585"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18049621",
             "role_id": "35351535",
             "person_name": "Advisory Council",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049621\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18047439",
             "role_id": "35352245",
             "person_name": "Rudolph Berliner",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047439\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18047443",
             "role_id": "35352245",
             "person_name": "Megan L. Smith",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047443\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -78,7 +110,9 @@
             "person_id": "18042899",
             "role_id": "35236687",
             "person_name": "Jean-Jacques Lequeu",
+            "person_date": "French, 1757 \u2013 1825",
             "role_name": "Attributions",
+            "role_display_name": "Attributions:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18042899\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236687\/"
         }
@@ -88,16 +122,23 @@
     },
     "colors": [
         {
-            "color": "#cea997",
-            "closest_css3": "#d2b48c"
+            "color": "#d1aa97",
+            "closest_crayola": "#deaa88",
+            "closest_css3": "#d2b48c",
+            "closest_css4": "#d2b48c"
         },
         {
-            "color": "#a17e70",
-            "closest_css3": "#808080"
+            "color": "#9d8377",
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#72594d",
-            "closest_css3": "#696969"
+            "color": "#7f665b",
+            "closest_crayola": "#85754e",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         }
-    ]
+    ],
+    "woe:country_name": "France"
 }

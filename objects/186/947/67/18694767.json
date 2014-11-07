@@ -3,6 +3,7 @@
     "tms:id": "222938",
     "accession_number": "2001-29-10",
     "title": "Book Cover, \"Creative Intuition in Art and Poetry by Jacques Maritain\", 1955",
+    "title_raw": "Creative Intuition in Art and Poetry by Jacques Maritain",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18694767\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1955,
     "year_acquired": "2001",
     "decade": "1950",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Lithograph on thin matted paper",
     "markings": null,
     "signed": "Signature printed vertically, lower right: lustig.",
     "inscribed": "Printed in black ink, front cover upper right: The A.W. Mellon Lectures in the Fine Arts\/by JACQUES MARITAIN; left center: in art; lower right: Published by the Noonday Press\/M8 $1.95. Printed in green ink, front cover left: creative\/poetry. Printed in white ink, front cover left: intuition\/and; lower left: MERIDIAN BOOKS.\n\nPrinted vertically in white ink, side cover: creative intuition\/MERIDIAN BOOKS; printed horizontally in white ink, side cover, bottom: M8. Printed vertically in green ink, side cover: in art and poetry. Printed vertically in black ink, side cover: JACQUES MARITAIN.\n\nPrinted in white ink, back cover upper left: intuition\/and; printed in green ink, back cover left: creative\/poetry. Printed in black ink, back cover: in art\/The A.W. Mellon Lectures in the Fine Arts\/by JACQUES MARITAIN\/In this volume Jacques Maritain proposes to make\/both the distinction and the indissoluble rela-\/tionship between art and poetry. He insists on the\/part played by the intellect in both art and poetry,\/and especially on the fact that poetry has its source\/in the intuitve activity of the internet.\/In the process of illuminating his argument, Pro-\/fessor Maritain discusses the poetry of Eliot and\/Thomas, the painting of Roualt and Picasso, the\/music of Bach and Mozart, the philosophy of Plato,\/Aristotle, and St. Thomas Aquainus.\/\"(Jacques Maritain) is the most powerful force in\/contemporary French philosophy.\" TS ELIOT\/All Meridian Books are Smyth-Sewn for Durability.",
     "provenance": "Susan Lustig Peck; 2001: acquired by Museum",
     "dimensions": "18.1 x 24.1 cm (7 1\/8 x 9 1\/2 in. )",
+    "dimensions_raw": {
+        "height": [
+            "18.10",
+            "centimeters"
+        ],
+        "width": [
+            "24.10",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Susan Lustig Peck",
     "description": "Pink background with title printed in green, white, and black ink.",
     "justification": null,
-    "type": {
-        "id": "35249845",
-        "name": "book cover"
-    },
+    "woe:country": "23424977",
+    "type": "book cover",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/39725_034a4d0814f17756_b.jpg",
                 "width": 1024,
                 "height": 769,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/39725_034a4d0814f17756_n.jpg",
-                "width": 320,
-                "height": 240,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "39725"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/39725_034a4d0814f17756_z.jpg",
                 "width": 640,
                 "height": 481,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "39725"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/39725_034a4d0814f17756_n.jpg",
+                "width": 320,
+                "height": 240,
+                "is_primary": "1",
+                "image_id": "39725"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/39725_034a4d0814f17756_d.gif",
+                "width": 320,
+                "height": 240,
+                "is_primary": "1",
+                "image_id": "39725"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/39725_034a4d0814f17756_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "39725"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18538541",
             "role_id": "35351535",
             "person_name": "Susan Lustig Peck",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18538541\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18043331",
             "role_id": "35236763",
             "person_name": "Alvin Lustig",
+            "person_date": "American, 1915\u20131955",
             "role_name": "Graphic Designer",
+            "role_display_name": "Graphic design by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18043331\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236763\/"
         }
@@ -72,24 +102,35 @@
     },
     "colors": [
         {
-            "color": "#985567",
-            "closest_css3": "#696969"
+            "color": "#7f4857",
+            "closest_crayola": "#6e5160",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#b79077",
-            "closest_css3": "#bc8f8f"
+            "color": "#a55f74",
+            "closest_crayola": "#a57164",
+            "closest_css3": "#cd5c5c",
+            "closest_css4": "#cd5c5c"
         },
         {
-            "color": "#613841",
-            "closest_css3": "#556b2f"
+            "color": "#b69076",
+            "closest_crayola": "#cd9575",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         },
         {
-            "color": "#eddbdc",
-            "closest_css3": "#dcdcdc"
+            "color": "#edd9db",
+            "closest_crayola": "#efdecd",
+            "closest_css3": "#dcdcdc",
+            "closest_css4": "#dcdcdc"
         },
         {
-            "color": "#cf8d8c",
-            "closest_css3": "#bc8f8f"
+            "color": "#4b3138",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

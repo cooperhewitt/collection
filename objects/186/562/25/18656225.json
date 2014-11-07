@@ -3,6 +3,7 @@
     "tms:id": "203158",
     "accession_number": "1996-74-137",
     "title": "Book Cover, \"The American Replacement of Nature\"",
+    "title_raw": "The American Replacement of Nature",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18656225\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": null,
     "year_acquired": "1996",
     "decade": null,
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Offset lithograph on paper",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "Steve Heller",
     "dimensions": "25.2 x 31.1 cm (9 15\/16 x 12 1\/4 in.)",
+    "dimensions_raw": {
+        "height": [
+            "25.20",
+            "centimeters"
+        ],
+        "width": [
+            "31.10",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Steven Heller",
     "description": "Depicts part of the face of a smiling woman in upper right corner with blue eyes, short brown hair, and red lipstick, on a purple background with a large white flower in lower left corner. Text above, in black on white rectangle at top: The American Replacement of Nature: William Irwin Thompson. In black on gray strip below white area: The Everyday Acts and Outrageous Evolution of Economic Life.",
     "justification": null,
-    "type": {
-        "id": "35249845",
-        "name": "book cover"
-    },
+    "woe:country": "23424977",
+    "type": "book cover",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/13579_765dbab0b775b561_b.jpg",
                 "width": 1024,
                 "height": 828,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/13579_765dbab0b775b561_n.jpg",
-                "width": 320,
-                "height": 259,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "13579"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/13579_765dbab0b775b561_z.jpg",
                 "width": 640,
                 "height": 518,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "13579"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/13579_765dbab0b775b561_n.jpg",
+                "width": 320,
+                "height": 259,
+                "is_primary": "1",
+                "image_id": "13579"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/13579_765dbab0b775b561_d.gif",
+                "width": 320,
+                "height": 259,
+                "is_primary": "1",
+                "image_id": "13579"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/13579_765dbab0b775b561_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "13579"
             }
         }
     ],
@@ -54,15 +80,19 @@
             "person_id": "51676741",
             "role_id": "35236689",
             "person_name": "William Irwin Thompson",
+            "person_date": "",
             "role_name": "Author",
+            "role_display_name": "Written by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/51676741\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236689\/"
         },
         {
             "person_id": "18041397",
             "role_id": "35351535",
-            "person_name": "Mr. Steve Heller",
+            "person_name": "Steven Heller",
+            "person_date": "American, b. 1950",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041397\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18043673",
             "role_id": "35236677",
             "person_name": "Chip Kidd",
+            "person_date": "born 1964",
             "role_name": "After",
+            "role_display_name": "After",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18043673\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236677\/"
         }
@@ -80,24 +112,35 @@
     },
     "colors": [
         {
-            "color": "#c2907f",
-            "closest_css3": "#bc8f8f"
+            "color": "#cc936f",
+            "closest_crayola": "#cd9575",
+            "closest_css3": "#e9967a",
+            "closest_css4": "#e9967a"
         },
         {
-            "color": "#dca372",
-            "closest_css3": "#e9967a"
+            "color": "#cea59e",
+            "closest_crayola": "#deaa88",
+            "closest_css3": "#d2b48c",
+            "closest_css4": "#d2b48c"
         },
         {
-            "color": "#633876",
-            "closest_css3": "#483d8b"
+            "color": "#633560",
+            "closest_crayola": "#6e5160",
+            "closest_css3": "#483d8b",
+            "closest_css4": "#483d8b"
         },
         {
-            "color": "#af0231",
-            "closest_css3": "#b22222"
+            "color": "#c8b19a",
+            "closest_crayola": "#deaa88",
+            "closest_css3": "#d2b48c",
+            "closest_css4": "#d2b48c"
         },
         {
-            "color": "#ae6442",
-            "closest_css3": "#a0522d"
+            "color": "#ab0431",
+            "closest_crayola": "#9c2542",
+            "closest_css3": "#b22222",
+            "closest_css4": "#b22222"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

@@ -2,7 +2,8 @@
     "id": "18482157",
     "tms:id": "151935",
     "accession_number": "1973-67-6",
-    "title": "Sample, \"Collection: Irish Awakening\", 1969",
+    "title": "Sample, \"Galway\", 1969",
+    "title_raw": "Collection: Irish Awakening",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18482157\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1969,
     "year_acquired": "1973",
     "decade": "1960",
-    "woe:country": "23424803",
+    "woe:country_id": "23424803",
     "medium": "Medium: wool\nTechnique: plain weave",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "Warp x Weft: 65.4 x 61 cm (25 3\/4 x 24 in.)",
+    "dimensions_raw": {
+        "warp": [
+            "65.41",
+            "centimeters"
+        ],
+        "weft": [
+            "60.96",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Jack Lenor Larsen, Inc.",
     "description": "A gray-toned quare grid enclosing tan squares. pattern achieved by color alternations of A & B warps and wefts in plain weave (commonly called Log Cabin) and a change of one color. The pattern effect is heightened by the increased thickness of alternate wefts.",
     "justification": null,
-    "type": {
-        "id": "35268079",
-        "name": "Sample"
-    },
+    "woe:country": "23424803",
+    "type": "Sample",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/43785_98fceace00518881_b.jpg",
                 "width": 953,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/43785_98fceace00518881_n.jpg",
-                "width": 298,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "43785"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/43785_98fceace00518881_z.jpg",
                 "width": 596,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "43785"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/43785_98fceace00518881_n.jpg",
+                "width": 298,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "43785"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/43785_98fceace00518881_d.gif",
+                "width": 298,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "43785"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/43785_98fceace00518881_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "43785"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/31730_106fab6cba7360c1_b.jpg",
                 "width": 682,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/31730_106fab6cba7360c1_n.jpg",
-                "width": 213,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "31730"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/31730_106fab6cba7360c1_z.jpg",
                 "width": 426,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "31730"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/31730_106fab6cba7360c1_n.jpg",
+                "width": 213,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "31730"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/31730_106fab6cba7360c1_d.gif",
+                "width": 213,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "31730"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/31730_106fab6cba7360c1_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "31730"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18045519",
             "role_id": "35351535",
             "person_name": "Jack Lenor Larsen Inc. (New York, NY)",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18045519\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18045519",
             "role_id": "35236671",
             "person_name": "Jack Lenor Larsen Inc. (New York, NY)",
+            "person_date": "",
             "role_name": "Producer",
+            "role_display_name": "Produced by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18045519\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236671\/"
         },
@@ -90,34 +137,47 @@
             "person_id": "18040903",
             "role_id": "35236655",
             "person_name": "Jack Lenor Larsen",
+            "person_date": "American, b. 1927",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18040903\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
     ],
     "tombstone": {
-        "epitaph": "Sample, \"Collection: Irish Awakening\", 1969. Medium: wool\nTechnique: plain weave. Gift of Jack Lenor Larsen, Inc.. 1973-67-6."
+        "epitaph": "Sample, \"Galway\", 1969. Medium: wool\nTechnique: plain weave. Gift of Jack Lenor Larsen, Inc.. 1973-67-6."
     },
     "colors": [
         {
-            "color": "#2b2620",
-            "closest_css3": "#2f4f4f"
+            "color": "#2c2b26",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#685740",
-            "closest_css3": "#556b2f"
+            "color": "#695842",
+            "closest_crayola": "#6e5160",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         },
         {
-            "color": "#66645e",
-            "closest_css3": "#696969"
+            "color": "#4f4d49",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#a8a59d",
-            "closest_css3": "#a9a9a9"
+            "color": "#77756f",
+            "closest_crayola": "#757575",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#898278",
-            "closest_css3": "#808080"
+            "color": "#c0bdb5",
+            "closest_crayola": "#cdc5c2",
+            "closest_css3": "#c0c0c0",
+            "closest_css4": "#c0c0c0"
         }
-    ]
+    ],
+    "woe:country_name": "Ireland"
 }

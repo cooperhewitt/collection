@@ -3,6 +3,7 @@
     "tms:id": "183243",
     "accession_number": "1985-96-10",
     "title": "Goblet, \"\"Arkipelgo\"\"",
+    "title_raw": "\"Arkipelgo\"",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18805885\/",
     "department_id": "35347497",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": null,
     "year_acquired": "1985",
     "decade": null,
-    "woe:country": null,
+    "woe:country_id": null,
     "medium": "Glass",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "H x diam.: 17 x 7.4 cm (6 11\/16 x 2 15\/16 in.)",
+    "dimensions_raw": {
+        "diameter": [
+            "7.40",
+            "centimeters"
+        ],
+        "height": [
+            "17.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Ahlstrom-Iittala, Inc.",
     "description": "Clear glass with inverted tapered stem with horizontal ridged design.   Goblet",
     "justification": null,
-    "type": {
-        "id": "35250731",
-        "name": "goblet"
-    },
+    "woe:country": null,
+    "type": "goblet",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/40179_688b291cec67f192_b.jpg",
-                "width": 737,
-                "height": 418,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/40179_688b291cec67f192_n.jpg",
-                "width": 320,
-                "height": 181,
-                "is_primary": "1"
+                "width": null,
+                "height": null,
+                "is_primary": "1",
+                "image_id": "40179"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/40179_688b291cec67f192_z.jpg",
                 "width": 640,
                 "height": 363,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "40179"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/40179_688b291cec67f192_n.jpg",
+                "width": 320,
+                "height": 181,
+                "is_primary": "1",
+                "image_id": "40179"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/40179_688b291cec67f192_d.gif",
+                "width": 320,
+                "height": 181,
+                "is_primary": "1",
+                "image_id": "40179"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/40179_688b291cec67f192_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "40179"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/8276_b1e21beba2f547cc_b.jpg",
                 "width": 1024,
                 "height": 1007,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/8276_b1e21beba2f547cc_n.jpg",
-                "width": 320,
-                "height": 315,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "8276"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/8276_b1e21beba2f547cc_z.jpg",
                 "width": 640,
                 "height": 629,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "8276"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/8276_b1e21beba2f547cc_n.jpg",
+                "width": 320,
+                "height": 315,
+                "is_primary": "0",
+                "image_id": "8276"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/8276_b1e21beba2f547cc_d.gif",
+                "width": 320,
+                "height": 315,
+                "is_primary": "0",
+                "image_id": "8276"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/8276_b1e21beba2f547cc_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "8276"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18044543",
             "role_id": "35236655",
             "person_name": "Timo Sarpaneva",
+            "person_date": "Finnish, 1926\u20132006",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18044543\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18058955",
             "role_id": "35351535",
             "person_name": "Ahlstrom-Iittala, Inc.",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18058955\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -92,12 +139,16 @@
     },
     "colors": [
         {
-            "color": "#a0a9af",
-            "closest_css3": "#a9a9a9"
+            "color": "#6f777e",
+            "closest_crayola": "#757575",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#676d71",
-            "closest_css3": "#696969"
+            "color": "#aab3b9",
+            "closest_crayola": "#b0b7c6",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
         }
     ]
 }

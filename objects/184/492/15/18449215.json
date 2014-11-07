@@ -3,6 +3,7 @@
     "tms:id": "135123",
     "accession_number": "1963-39-95",
     "title": "Poster, \"New Chronicle--Schools Exhibition, Dorland Hall\", ca. 1937",
+    "title_raw": "New Chronicle--Schools Exhibition, Dorland Hall",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18449215\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1942,
     "year_acquired": "1963",
     "decade": "1930",
-    "woe:country": "23424975",
+    "woe:country_id": "23424975",
     "medium": "Offset lithograph on paper, lined",
     "markings": "Stamp in purple ink, upper left: MADE IN ENGLAND",
     "signed": "Signed in black ink, center right, under column: E McKnight Kauffer",
     "inscribed": null,
     "provenance": "Mrs. Edward McKnight Kauffer; 1963: acquired by Museum",
     "dimensions": "75.4 x 50.3 cm (29 11\/16 x 19 13\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "75.40",
+            "centimeters"
+        ],
+        "width": [
+            "50.30",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Mrs. E. McKnight Kauffer",
     "description": "On a sky blue ground, a silhouetted black ionic column. Below, a photo of a boy inside a square. In white and black text, above: NEWS CHRONICLE. Below: DORLAND HALL \/ REGENT STREET \/ DECEMBER 20TH TO JANUARY 12TH 1938.",
     "justification": null,
-    "type": {
-        "id": "35238163",
-        "name": "poster"
-    },
+    "woe:country": "23424975",
+    "type": "poster",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/64939_fc36f22f301c14fd_b.jpg",
                 "width": 679,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/64939_fc36f22f301c14fd_n.jpg",
-                "width": 212,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "64939"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/64939_fc36f22f301c14fd_z.jpg",
                 "width": 424,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "64939"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/64939_fc36f22f301c14fd_n.jpg",
+                "width": 212,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "64939"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/64939_fc36f22f301c14fd_d.gif",
+                "width": 212,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "64939"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/64939_fc36f22f301c14fd_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "64939"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18041923",
             "role_id": "35236655",
             "person_name": "Edward McKnight Kauffer",
+            "person_date": "American, active England, 1890\u20131954",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041923\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18061849",
             "role_id": "35351535",
             "person_name": "Mrs. Edward McKnight Kauffer",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18061849\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -72,12 +102,23 @@
     },
     "colors": [
         {
-            "color": "#393431",
-            "closest_css3": "#2f4f4f"
+            "color": "#3b3633",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#e9dfc5",
-            "closest_css3": "#f5deb3"
+            "color": "#f2e9d3",
+            "closest_crayola": "#efdecd",
+            "closest_css3": "#faebd7",
+            "closest_css4": "#faebd7"
+        },
+        {
+            "color": "#9cbfc4",
+            "closest_crayola": "#b0b7c6",
+            "closest_css3": "#b0c4de",
+            "closest_css4": "#b0c4de"
         }
-    ]
+    ],
+    "woe:country_name": "United Kingdom"
 }

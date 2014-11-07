@@ -3,6 +3,7 @@
     "tms:id": "189601",
     "accession_number": "1988-62-1296",
     "title": "Drawing, \"Textile Design:  Alpenkoenig [King of the Alps]\", designed 1916\u201318",
+    "title_raw": "Textile Design:  Alpenkoenig [King of the Alps]",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18629521\/",
     "department_id": "35347493",
     "period_id": "35417049",
@@ -13,39 +14,64 @@
     "year_end": 1918,
     "year_acquired": "1988",
     "decade": "1910",
-    "woe:country": null,
+    "woe:country_id": null,
     "medium": "Brush and gouache, graphite on paper",
     "markings": null,
     "signed": null,
     "inscribed": "Inscribed in pen and black ink on mount, lower right beneath 1988-62-1300: Dessin \"Alpen K\u00f6nig\"; inscribed in pen and black ink on mount, below 1988-62-344: Dessin \"Anilin\"; inscribed in blue crayon on mount, upper right corner: 84; stamped in red on mount, lower right corner: WIENER\/WERK\/ST\u00c4TTE.",
     "provenance": "Wolfgang Ruf\/Galerie Ruf, Rastatt, Germany",
     "dimensions": "H x W: 6.4 x 20.6cm (2 1\/2 x 8 1\/8in.)",
+    "dimensions_raw": {
+        "height": [
+            "6.40",
+            "centimeters"
+        ],
+        "width": [
+            "20.60",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase from Smithsonian Collections Acquisition and Decorative Arts Association Acquisition Funds",
     "description": "Stylized interlacing sawgs with branches growing from curled sections in plum and green on cream background.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": null,
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/27151_3316dce8a69d790a_b.jpg",
                 "width": 1024,
                 "height": 713,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/27151_3316dce8a69d790a_n.jpg",
-                "width": 320,
-                "height": 223,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "27151"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/27151_3316dce8a69d790a_z.jpg",
                 "width": 640,
                 "height": 446,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "27151"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/27151_3316dce8a69d790a_n.jpg",
+                "width": 320,
+                "height": 223,
+                "is_primary": "1",
+                "image_id": "27151"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/27151_3316dce8a69d790a_d.gif",
+                "width": 320,
+                "height": 223,
+                "is_primary": "1",
+                "image_id": "27151"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/27151_3316dce8a69d790a_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "27151"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18049365",
             "role_id": "35352247",
             "person_name": "Decorative Arts Association Acquisition Fund",
+            "person_date": "founded 1982, closed September 30, 1998",
             "role_name": "Fund",
+            "role_display_name": "Fund:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049365\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352247\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18538455",
             "role_id": "35352249",
             "person_name": "Wolfgang Ruf",
+            "person_date": "",
             "role_name": "Vendor",
+            "role_display_name": "Purchased from",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18538455\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352249\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18048101",
             "role_id": "35236675",
             "person_name": "Wiener Werkst\u00e4tte",
+            "person_date": "Vienna, Austria, 1903\u20131932",
             "role_name": "For",
+            "role_display_name": "Made for",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18048101\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236675\/"
         },
@@ -78,7 +110,9 @@
             "person_id": "18537851",
             "role_id": "35236655",
             "person_name": "Gertrude Weinberger",
+            "person_date": "b. 1897",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18537851\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
@@ -88,24 +122,34 @@
     },
     "colors": [
         {
-            "color": "#c0bcaa",
-            "closest_css3": "#c0c0c0"
+            "color": "#dddbcc",
+            "closest_crayola": "#dbd7d2",
+            "closest_css3": "#d3d3d3",
+            "closest_css4": "#d3d3d3"
         },
         {
-            "color": "#dde2f8",
-            "closest_css3": "#e6e6fa"
+            "color": "#dce1f7",
+            "closest_crayola": "#c5d0e6",
+            "closest_css3": "#e6e6fa",
+            "closest_css4": "#e6e6fa"
         },
         {
-            "color": "#acb37b",
-            "closest_css3": "#bdb76b"
+            "color": "#a6ad7a",
+            "closest_crayola": "#bab86c",
+            "closest_css3": "#bdb76b",
+            "closest_css4": "#bdb76b"
         },
         {
-            "color": "#304080",
-            "closest_css3": "#483d8b"
+            "color": "#beb1a2",
+            "closest_crayola": "#b0b7c6",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
         },
         {
-            "color": "#5f4439",
-            "closest_css3": "#556b2f"
+            "color": "#c0ad3e",
+            "closest_crayola": "#bab86c",
+            "closest_css3": "#daa520",
+            "closest_css4": "#daa520"
         }
     ]
 }

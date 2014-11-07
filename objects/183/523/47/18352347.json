@@ -3,6 +3,7 @@
     "tms:id": "59582",
     "accession_number": "1938-58-53",
     "title": "Photograph, \"Winter Niagara Falls, General View from the American Side\", 1856",
+    "title_raw": "Winter Niagara Falls, General View from the American Side",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18352347\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1856,
     "year_acquired": "1938",
     "decade": null,
-    "woe:country": null,
+    "woe:country_id": null,
     "medium": "Glass stereoscopic transparency, black tape, brush and white and gold paint",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "8.3 x 17.5 cm (3 1\/4 x 6 7\/8 in.)",
+    "dimensions_raw": {
+        "height": [
+            "8.26",
+            "centimeters"
+        ],
+        "width": [
+            "17.46",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Norvin Hewitt Green",
     "description": "Davidson, G. et al. \"Frederic Church Winslow Homer and Thomas Moran: Tourism and the American Landscape.\" New York, Bulfinch Press, Smithsonian Institution, 2006. Figure 27, p. 98.",
     "justification": null,
-    "type": {
-        "id": "35247381",
-        "name": "photograph"
-    },
+    "woe:country": null,
+    "type": "photograph",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/19640_b52d253f4b5c7788_b.jpg",
                 "width": 1024,
                 "height": 526,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/19640_b52d253f4b5c7788_n.jpg",
-                "width": 320,
-                "height": 164,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "19640"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/19640_b52d253f4b5c7788_z.jpg",
                 "width": 640,
                 "height": 329,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "19640"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/19640_b52d253f4b5c7788_n.jpg",
+                "width": 320,
+                "height": 164,
+                "is_primary": "1",
+                "image_id": "19640"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/19640_b52d253f4b5c7788_d.gif",
+                "width": 320,
+                "height": 164,
+                "is_primary": "1",
+                "image_id": "19640"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/19640_b52d253f4b5c7788_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "19640"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18056845",
             "role_id": "35351535",
             "person_name": "Norvin Hewitt Green",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18056845\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18058265",
             "role_id": "35236565",
             "person_name": "Frederic and William Langenheim",
+            "person_date": "",
             "role_name": "Artist",
+            "role_display_name": "",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18058265\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236565\/"
         }
@@ -72,24 +102,28 @@
     },
     "colors": [
         {
-            "color": "#2f2b29",
-            "closest_css3": "#2f4f4f"
-        },
-        {
             "color": "#c9dbd4",
-            "closest_css3": "#d3d3d3"
+            "closest_crayola": "#dbd7d2",
+            "closest_css3": "#d3d3d3",
+            "closest_css4": "#d3d3d3"
         },
         {
-            "color": "#5f5646",
-            "closest_css3": "#556b2f"
+            "color": "#605647",
+            "closest_crayola": "#6e5160",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         },
         {
-            "color": "#b6baa3",
-            "closest_css3": "#a9a9a9"
+            "color": "#b5b9a2",
+            "closest_crayola": "#b0b7c6",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
         },
         {
-            "color": "#877f60",
-            "closest_css3": "#808080"
+            "color": "#888365",
+            "closest_crayola": "#8a795d",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         }
     ]
 }

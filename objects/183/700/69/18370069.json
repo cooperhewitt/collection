@@ -3,6 +3,7 @@
     "tms:id": "77100",
     "accession_number": "1942-50-95",
     "title": "Drawing, \"Study for \"Roman Girl\", Head of a Woman\", 1841",
+    "title_raw": "Study for \"Roman Girl\", Head of a Woman",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18370069\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1841,
     "year_acquired": "1942",
     "decade": null,
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Graphite and black crayon on cream-colored wove paper",
     "markings": "Marks: Crowned Heart with Fleur-de-lis above Crossed Palm Branches",
     "signed": null,
     "inscribed": "In graphite, lower right margin: Roman girl (like Sophie)",
     "provenance": "Erskine Hewitt",
     "dimensions": "34.2 x 30.9 cm (13 7\/16 x 12 3\/16 in.)\nMat:  35.6 x 45.7 cm (14 x 18 in.)",
+    "dimensions_raw": {
+        "height": [
+            "35.60",
+            "centimeters"
+        ],
+        "width": [
+            "45.70",
+            "centimeters"
+        ]
+    },
     "creditline": "Bequest of Erskine Hewitt",
     "description": "Left bust profile from behind a female who is looking down.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424977",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/34077_f1331431f9fb9fd8_b.jpg",
                 "width": 825,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/34077_f1331431f9fb9fd8_n.jpg",
-                "width": 258,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "34077"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/34077_f1331431f9fb9fd8_z.jpg",
                 "width": 516,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "34077"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/34077_f1331431f9fb9fd8_n.jpg",
+                "width": 258,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "34077"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/34077_f1331431f9fb9fd8_d.gif",
+                "width": 258,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "34077"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/34077_f1331431f9fb9fd8_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "34077"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18050021",
             "role_id": "35351537",
             "person_name": "Erskine Hewitt",
+            "person_date": "American, 1871\u20131938",
             "role_name": "Bequestor",
+            "role_display_name": "Bequest of",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18050021\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351537\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18047481",
             "role_id": "35352245",
             "person_name": "Eleonore Kissel",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047481\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18042209",
             "role_id": "35236679",
             "person_name": "Sophie Huntington",
+            "person_date": "",
             "role_name": "Sitter",
+            "role_display_name": "Sitter:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18042209\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236679\/"
         },
@@ -78,7 +110,9 @@
             "person_id": "18041943",
             "role_id": "35236565",
             "person_name": "Daniel Huntington",
+            "person_date": "1816\u20131906",
             "role_name": "Artist",
+            "role_display_name": "",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041943\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236565\/"
         }
@@ -88,12 +122,11 @@
     },
     "colors": [
         {
-            "color": "#a88f4e",
-            "closest_css3": "#cd853f"
-        },
-        {
-            "color": "#866c35",
-            "closest_css3": "#a0522d"
+            "color": "#a18347",
+            "closest_crayola": "#9c7c38",
+            "closest_css3": "#cd853f",
+            "closest_css4": "#cd853f"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

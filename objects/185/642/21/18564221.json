@@ -3,6 +3,7 @@
     "tms:id": "75313",
     "accession_number": "1941-69-243",
     "title": "Sampler, 1789",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18564221\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1789,
     "year_acquired": "1941",
     "decade": null,
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Medium: silk embroidery on linen foundation\nTechnique: embroidered in cross stitch on plain weave foundation",
     "markings": null,
     "signed": null,
     "inscribed": "Abigail Adams her work New York\n1789",
     "provenance": "ex. coll. Mrs. Henry E. Coe (Eva Johnston Coe)",
     "dimensions": "H x W: 31 x 42cm (12 3\/16 x 16 9\/16in.)",
+    "dimensions_raw": {
+        "height": [
+            "31.00",
+            "centimeters"
+        ],
+        "width": [
+            "42.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Bequest of Mrs. Henry E. Coe",
     "description": "The field has scattered motifs including house, a peacock, urns of flowers, birds, and Adam and Eve with the Tree of Knowledge. Surrounded on three sides with a geometric border and on all four with a strawberry vine border. With the date 1789 at the top and the inscription Abigail Adams her work New York at the bottom.",
     "justification": null,
-    "type": {
-        "id": "35256439",
-        "name": "Sampler"
-    },
+    "woe:country": "23424977",
+    "type": "Sampler",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/27853_c8b427301d548c9e_b.jpg",
                 "width": 1024,
                 "height": 761,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/27853_c8b427301d548c9e_n.jpg",
-                "width": 320,
-                "height": 238,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "27853"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/27853_c8b427301d548c9e_z.jpg",
                 "width": 640,
                 "height": 476,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "27853"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/27853_c8b427301d548c9e_n.jpg",
+                "width": 320,
+                "height": 238,
+                "is_primary": "1",
+                "image_id": "27853"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/27853_c8b427301d548c9e_d.gif",
+                "width": 320,
+                "height": 238,
+                "is_primary": "1",
+                "image_id": "27853"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/27853_c8b427301d548c9e_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "27853"
             }
         }
     ],
@@ -54,9 +80,21 @@
             "person_id": "18052567",
             "role_id": "35351537",
             "person_name": "Mrs. Henry E. Coe",
+            "person_date": "",
             "role_name": "Bequestor",
+            "role_display_name": "Bequest of",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18052567\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351537\/"
+        },
+        {
+            "person_id": "68738115",
+            "role_id": "35236583",
+            "person_name": "Abigail Adams",
+            "person_date": "American",
+            "role_name": "Embroiderer",
+            "role_display_name": "Embroidered by",
+            "person_url": "http:\/\/collection.cooperhewitt.org\/people\/68738115\/",
+            "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236583\/"
         }
     ],
     "tombstone": {
@@ -64,24 +102,35 @@
     },
     "colors": [
         {
-            "color": "#e3d7b5",
-            "closest_css3": "#f5deb3"
+            "color": "#6e4b34",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         },
         {
-            "color": "#bda5a1",
-            "closest_css3": "#a9a9a9"
+            "color": "#af8d75",
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         },
         {
-            "color": "#c19570",
-            "closest_css3": "#bc8f8f"
+            "color": "#b79996",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         },
         {
-            "color": "#976d52",
-            "closest_css3": "#a0522d"
+            "color": "#ccbebb",
+            "closest_crayola": "#cdc5c2",
+            "closest_css3": "#c0c0c0",
+            "closest_css4": "#c0c0c0"
         },
         {
-            "color": "#23150f",
-            "closest_css3": "#000000"
+            "color": "#996953",
+            "closest_crayola": "#a5694f",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

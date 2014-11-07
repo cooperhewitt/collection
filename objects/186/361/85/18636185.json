@@ -3,6 +3,7 @@
     "tms:id": "192940",
     "accession_number": "1991-18-6",
     "title": "Sample, 1973",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18636185\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1973,
     "year_acquired": "1991",
     "decade": "1970",
-    "woe:country": "23424975",
+    "woe:country_id": "23424975",
     "medium": "Medium: synthetic\nTechnique: roller printed on 4&1 satin foundation",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "1991: acquired by Museum",
     "dimensions": "H x W: 24 x 15 cm (9 7\/16 x 5 7\/8 in.)",
+    "dimensions_raw": {
+        "height": [
+            "24.00",
+            "centimeters"
+        ],
+        "width": [
+            "15.00",
+            "centimeters"
+        ]
+    },
     "creditline": null,
     "description": "Brightly colored playing cards on black background.",
     "justification": null,
-    "type": {
-        "id": "35268079",
-        "name": "Sample"
-    },
+    "woe:country": "23424975",
+    "type": "Sample",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/82001_f06f4b688f794faf_b.jpg",
                 "width": 679,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/82001_f06f4b688f794faf_n.jpg",
-                "width": 212,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "82001"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/82001_f06f4b688f794faf_z.jpg",
                 "width": 425,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "82001"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/82001_f06f4b688f794faf_n.jpg",
+                "width": 212,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "82001"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/82001_f06f4b688f794faf_d.gif",
+                "width": 212,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "82001"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/82001_f06f4b688f794faf_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "82001"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/78746_184f11bea8c7bbb1_b.jpg",
                 "width": 663,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/78746_184f11bea8c7bbb1_n.jpg",
-                "width": 207,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "78746"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/78746_184f11bea8c7bbb1_z.jpg",
                 "width": 414,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "78746"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/78746_184f11bea8c7bbb1_n.jpg",
+                "width": 207,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "78746"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/78746_184f11bea8c7bbb1_d.gif",
+                "width": 207,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "78746"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/78746_184f11bea8c7bbb1_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "78746"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18047459",
             "role_id": "35352245",
             "person_name": "Gillian Moss",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047459\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18045979",
             "role_id": "35236681",
             "person_name": "Miss Mouse",
+            "person_date": "",
             "role_name": "Company",
+            "role_display_name": "Company:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18045979\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236681\/"
         },
@@ -90,7 +137,9 @@
             "person_id": "18045977",
             "role_id": "35236655",
             "person_name": "Charlotte Barnes",
+            "person_date": "",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18045977\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
@@ -100,5 +149,6 @@
     },
     "colors": [
 
-    ]
+    ],
+    "woe:country_name": "United Kingdom"
 }

@@ -3,6 +3,7 @@
     "tms:id": "255515",
     "accession_number": "2010-21-125",
     "title": "Poster, \"Textilkunst 1950-1990\", ca. 1991",
+    "title_raw": "Textilkunst 1950-1990",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18758459\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1992,
     "year_acquired": "2010",
     "decade": "1990",
-    "woe:country": "23424957",
+    "woe:country_id": "23424957",
     "medium": "Offset lithograph on wove paper",
     "markings": null,
     "signed": null,
     "inscribed": "Printed in white ink, lower left: Gestaltung Paul Bruhwiler \/ Druck: Karl Schwegler AG",
     "provenance": "Sara and Marc Benda (acquired new and directly from designer, Paul Br\u00fchwiler); 2010: acquired by Museum",
     "dimensions": "127.9 x 90.5 cm (50 3\/8 x 35 5\/8 in.)",
+    "dimensions_raw": {
+        "height": [
+            "127.90",
+            "centimeters"
+        ],
+        "width": [
+            "90.50",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Sara and Marc Benda",
     "description": "On a black ground, three circles of close-ups of textile fibers, one in blue, one in red, and one in yellow. Text in white: TEXTILKUNST 1960-1990 \/ MUSEUM BELLERIVE ZURICH \/ 2. OKTOBER 1991-5. JANUAR 1992 \/ Hoschgasse 3, Tram 2\/4 \/ Dienstag-Sonntag 10-17 Uhr \/ Mittwoch  10-21 Uhr \/ Europa  Amerika  Japan.",
     "justification": null,
-    "type": {
-        "id": "35238163",
-        "name": "poster"
-    },
+    "woe:country": "23424957",
+    "type": "poster",
     "images": [
         {
             "b": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/45575_248b1fade94edeb4_b.jpg",
-                "width": 725,
+                "url": "http:\/\/images.collection.cooperhewitt.org\/45575_516b81de352b656b_b.jpg",
+                "width": 721,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/45575_248b1fade94edeb4_n.jpg",
-                "width": 226,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "45575"
             },
             "z": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/45575_248b1fade94edeb4_z.jpg",
-                "width": 453,
+                "url": "http:\/\/images.collection.cooperhewitt.org\/45575_516b81de352b656b_z.jpg",
+                "width": 450,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "45575"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/45575_516b81de352b656b_n.jpg",
+                "width": 225,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "45575"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/45575_516b81de352b656b_d.gif",
+                "width": 225,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "45575"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/45575_516b81de352b656b_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "45575"
             }
         }
     ],
@@ -54,9 +80,31 @@
             "person_id": "51865055",
             "role_id": "35236673",
             "person_name": "Karl Schwegler",
+            "person_date": "",
             "role_name": "Printer",
+            "role_display_name": "Printed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/51865055\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236673\/"
+        },
+        {
+            "person_id": "68738785",
+            "role_id": "35236667",
+            "person_name": "Museum Bellerive, Z\u00fcrich",
+            "person_date": "",
+            "role_name": "Client",
+            "role_display_name": "Client:",
+            "person_url": "http:\/\/collection.cooperhewitt.org\/people\/68738785\/",
+            "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236667\/"
+        },
+        {
+            "person_id": "68738393",
+            "role_id": "35236655",
+            "person_name": "Paul Br\u00fchwiler",
+            "person_date": "Swiss, b. 1939",
+            "role_name": "Designer",
+            "role_display_name": "Designed by",
+            "person_url": "http:\/\/collection.cooperhewitt.org\/people\/68738393\/",
+            "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
     ],
     "tombstone": {
@@ -64,20 +112,35 @@
     },
     "colors": [
         {
-            "color": "#394a6c",
-            "closest_css3": "#2f4f4f"
+            "color": "#2e4671",
+            "closest_crayola": "#1a4876",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#6f2d2a",
-            "closest_css3": "#8b4513"
+            "color": "#7b2d2a",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#8b4513",
+            "closest_css4": "#8b4513"
         },
         {
-            "color": "#cfa566",
-            "closest_css3": "#bdb76b"
+            "color": "#512c2b",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#b2794a",
-            "closest_css3": "#cd853f"
+            "color": "#cea568",
+            "closest_crayola": "#cd9575",
+            "closest_css3": "#bdb76b",
+            "closest_css4": "#bdb76b"
+        },
+        {
+            "color": "#b77d47",
+            "closest_crayola": "#b4674d",
+            "closest_css3": "#cd853f",
+            "closest_css4": "#cd853f"
         }
-    ]
+    ],
+    "woe:country_name": "Switzerland"
 }

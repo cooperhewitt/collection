@@ -3,6 +3,7 @@
     "tms:id": "227138",
     "accession_number": "2005-8-35-a\/d",
     "title": "Textile, \"Miramar\", 1910\u201315",
+    "title_raw": "Miramar",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18702739\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1915,
     "year_acquired": "2005",
     "decade": "1910",
-    "woe:country": null,
+    "woe:country_id": null,
     "medium": "Medium: silk \nTechnique: block printed on plain weave",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "H x W (a): 9.2 x 14.6 cm (3 5\/8 x 5 3\/4 in.)\nH x W (b): 8.9 x 14.6 cm (3 1\/2 x 5 3\/4 in.)\nH x W (c): 14 x 18.7 cm (5 1\/2 x 7 3\/8 in.)\nH x W (d): 27.9 x 16.8 cm (11 in. x 6 5\/8 in.)",
+    "dimensions_raw": {
+        "height": [
+            "14.00",
+            "centimeters"
+        ],
+        "width": [
+            "18.70",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase from General Acquisitions Endowment Fund",
     "description": "Geometric pattern with bands of diamonds alternating with bands of zia-zag lines; (a) gray and white; (b) black and yellow; (c) black and gray; (d) black and white.",
     "justification": null,
-    "type": {
-        "id": "35251739",
-        "name": "textile"
-    },
+    "woe:country": null,
+    "type": "textile",
     "images": [
         {
             "b": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/53628_d24b452c4e47b996_b.jpg",
-                "width": 666,
+                "url": "http:\/\/images.collection.cooperhewitt.org\/53628_3155b4cf37e9ff49_b.jpg",
+                "width": 1024,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/53628_d24b452c4e47b996_n.jpg",
-                "width": 208,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "53628"
             },
             "z": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/53628_d24b452c4e47b996_z.jpg",
-                "width": 416,
+                "url": "http:\/\/images.collection.cooperhewitt.org\/53628_3155b4cf37e9ff49_z.jpg",
+                "width": 640,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "53628"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/53628_3155b4cf37e9ff49_n.jpg",
+                "width": 320,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "53628"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/53628_3155b4cf37e9ff49_d.gif",
+                "width": 320,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "53628"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/53628_3155b4cf37e9ff49_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "53628"
             }
         },
         {
@@ -53,79 +79,147 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/20623_c7af233ce38a0b95_b.jpg",
                 "width": 672,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/20623_c7af233ce38a0b95_n.jpg",
-                "width": 210,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "20623"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/20623_c7af233ce38a0b95_z.jpg",
                 "width": 420,
                 "height": 640,
-                "is_primary": "0"
-            }
-        },
-        {
-            "b": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/53629_473cafc211342c1e_b.jpg",
-                "width": 623,
-                "height": 1024,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "20623"
             },
             "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/53629_473cafc211342c1e_n.jpg",
-                "width": 195,
+                "url": "http:\/\/images.collection.cooperhewitt.org\/20623_c7af233ce38a0b95_n.jpg",
+                "width": 210,
                 "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "20623"
             },
-            "z": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/53629_473cafc211342c1e_z.jpg",
-                "width": 389,
-                "height": 640,
-                "is_primary": "0"
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/20623_c7af233ce38a0b95_d.gif",
+                "width": 210,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "20623"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/20623_c7af233ce38a0b95_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "20623"
             }
         },
         {
             "b": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/53631_9362293cad2c553d_b.jpg",
+                "url": "http:\/\/images.collection.cooperhewitt.org\/53629_40584faedfeb7c78_b.jpg",
+                "width": 1024,
+                "height": 1024,
+                "is_primary": "0",
+                "image_id": "53629"
+            },
+            "z": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/53629_40584faedfeb7c78_z.jpg",
+                "width": 640,
+                "height": 640,
+                "is_primary": "0",
+                "image_id": "53629"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/53629_40584faedfeb7c78_n.jpg",
+                "width": 320,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "53629"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/53629_40584faedfeb7c78_d.gif",
+                "width": 320,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "53629"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/53629_40584faedfeb7c78_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "53629"
+            }
+        },
+        {
+            "b": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/53631_d167efb2f016e008_b.jpg",
                 "width": 1024,
                 "height": 623,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/53631_9362293cad2c553d_n.jpg",
-                "width": 320,
-                "height": 195,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "53631"
             },
             "z": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/53631_9362293cad2c553d_z.jpg",
+                "url": "http:\/\/images.collection.cooperhewitt.org\/53631_d167efb2f016e008_z.jpg",
                 "width": 640,
-                "height": 390,
-                "is_primary": "0"
+                "height": 389,
+                "is_primary": "0",
+                "image_id": "53631"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/53631_d167efb2f016e008_n.jpg",
+                "width": 320,
+                "height": 195,
+                "is_primary": "0",
+                "image_id": "53631"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/53631_d167efb2f016e008_d.gif",
+                "width": 320,
+                "height": 195,
+                "is_primary": "0",
+                "image_id": "53631"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/53631_d167efb2f016e008_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "53631"
             }
         },
         {
             "b": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/53630_9be4c1416401cccd_b.jpg",
-                "width": 742,
+                "url": "http:\/\/images.collection.cooperhewitt.org\/53630_0d49e0aa6100e812_b.jpg",
+                "width": 754,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/53630_9be4c1416401cccd_n.jpg",
-                "width": 232,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "53630"
             },
             "z": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/53630_9be4c1416401cccd_z.jpg",
-                "width": 463,
+                "url": "http:\/\/images.collection.cooperhewitt.org\/53630_0d49e0aa6100e812_z.jpg",
+                "width": 471,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "53630"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/53630_0d49e0aa6100e812_n.jpg",
+                "width": 236,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "53630"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/53630_0d49e0aa6100e812_d.gif",
+                "width": 236,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "53630"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/53630_0d49e0aa6100e812_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "53630"
             }
         }
     ],
@@ -134,7 +228,9 @@
             "person_id": "18046353",
             "role_id": "35236655",
             "person_name": "Josef Hoffmann",
+            "person_date": "Austrian, b. Moravia, present-day Czech Republic, 1891\u20131955",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18046353\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -142,7 +238,9 @@
             "person_id": "18057215",
             "role_id": "35352249",
             "person_name": "Estate of Vance Gordon",
+            "person_date": "",
             "role_name": "Vendor",
+            "role_display_name": "Purchased from",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18057215\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352249\/"
         },
@@ -150,7 +248,9 @@
             "person_id": "18048101",
             "role_id": "35236675",
             "person_name": "Wiener Werkst\u00e4tte",
+            "person_date": "Vienna, Austria, 1903\u20131932",
             "role_name": "For",
+            "role_display_name": "Made for",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18048101\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236675\/"
         },
@@ -158,7 +258,9 @@
             "person_id": "18048535",
             "role_id": "35352247",
             "person_name": "General Acquisitions Endowment",
+            "person_date": "",
             "role_name": "Fund",
+            "role_display_name": "Fund:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18048535\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352247\/"
         }
@@ -168,16 +270,22 @@
     },
     "colors": [
         {
-            "color": "#dcd3c1",
-            "closest_css3": "#d3d3d3"
+            "color": "#d3cec4",
+            "closest_crayola": "#cdc5c2",
+            "closest_css3": "#d3d3d3",
+            "closest_css4": "#d3d3d3"
         },
         {
-            "color": "#aca8a2",
-            "closest_css3": "#a9a9a9"
+            "color": "#6a6661",
+            "closest_crayola": "#6e5160",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#58544d",
-            "closest_css3": "#556b2f"
+            "color": "#a9a49c",
+            "closest_crayola": "#979aaa",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
         }
     ]
 }

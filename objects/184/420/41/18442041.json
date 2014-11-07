@@ -3,6 +3,7 @@
     "tms:id": "131492",
     "accession_number": "1962-149-11-f",
     "title": "Trade Card, \"Jaques' Extracts showing Bridal Veil Falls, Yosemite Valley, California\", ca. 1880",
+    "title_raw": "Jaques' Extracts showing Bridal Veil Falls, Yosemite Valley, California",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18442041\/",
     "department_id": "35347493",
     "period_id": "35417409",
@@ -13,39 +14,64 @@
     "year_end": 1890,
     "year_acquired": "1962",
     "decade": null,
-    "woe:country": null,
+    "woe:country_id": null,
     "medium": "Lithograph on heavy white wove paper",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "Overall: 12.1 x 7.6 cm (4 3\/4 x 3 in.)",
+    "dimensions_raw": {
+        "height": [
+            "12.07",
+            "centimeters"
+        ],
+        "width": [
+            "7.62",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Carol MacDonald",
     "description": "Card with sepia toned lithographic image of Bridal Veil Falls, Yosemite, viewed from below, printed on the recto. Across the lower right corner in an elaborate font are the words \"Jaques' Extracts\".\nThe verso provides text relating to the purveyor of groceries, provisions and general baking goods.",
     "justification": null,
-    "type": {
-        "id": "35285099",
-        "name": "Trade card"
-    },
+    "woe:country": null,
+    "type": "Trade card",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/19987_a8d93d0505f27fc8_b.jpg",
                 "width": 687,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/19987_a8d93d0505f27fc8_n.jpg",
-                "width": 215,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "19987"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/19987_a8d93d0505f27fc8_z.jpg",
                 "width": 429,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "19987"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/19987_a8d93d0505f27fc8_n.jpg",
+                "width": 215,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "19987"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/19987_a8d93d0505f27fc8_d.gif",
+                "width": 215,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "19987"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/19987_a8d93d0505f27fc8_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "19987"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/19986_a24b5f8b0b444ba2_b.jpg",
                 "width": 1024,
                 "height": 738,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/19986_a24b5f8b0b444ba2_n.jpg",
-                "width": 320,
-                "height": 231,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "19986"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/19986_a24b5f8b0b444ba2_z.jpg",
                 "width": 640,
                 "height": 461,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "19986"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/19986_a24b5f8b0b444ba2_n.jpg",
+                "width": 320,
+                "height": 231,
+                "is_primary": "0",
+                "image_id": "19986"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/19986_a24b5f8b0b444ba2_d.gif",
+                "width": 320,
+                "height": 231,
+                "is_primary": "0",
+                "image_id": "19986"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/19986_a24b5f8b0b444ba2_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "19986"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18058527",
             "role_id": "35236657",
             "person_name": "Jaques Atwood & Co., Chicago, Illinois",
+            "person_date": "",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18058527\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18056299",
             "role_id": "35351535",
             "person_name": "Carol MacDonald",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18056299\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -92,24 +139,34 @@
     },
     "colors": [
         {
-            "color": "#514534",
-            "closest_css3": "#556b2f"
+            "color": "#4e4230",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         },
         {
-            "color": "#2a2013",
-            "closest_css3": "#000000"
+            "color": "#2b2318",
+            "closest_crayola": "#000000",
+            "closest_css3": "#000000",
+            "closest_css4": "#000000"
         },
         {
-            "color": "#d0c8b6",
-            "closest_css3": "#c0c0c0"
+            "color": "#cfc7b5",
+            "closest_crayola": "#cdc5c2",
+            "closest_css3": "#c0c0c0",
+            "closest_css4": "#c0c0c0"
         },
         {
-            "color": "#827561",
-            "closest_css3": "#696969"
+            "color": "#726653",
+            "closest_crayola": "#85754e",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#a49883",
-            "closest_css3": "#bc8f8f"
+            "color": "#a89e89",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         }
     ]
 }

@@ -3,6 +3,7 @@
     "tms:id": "189877",
     "accession_number": "1988-62-2",
     "title": "Drawing, \"Rivasee: Blue with Green Gold\", 1918\u201318",
+    "title_raw": "Rivasee: Blue with Green Gold",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18630073\/",
     "department_id": "35347493",
     "period_id": "35417049",
@@ -13,39 +14,64 @@
     "year_end": 1918,
     "year_acquired": "1988",
     "decade": "1910",
-    "woe:country": "23424750",
+    "woe:country_id": "23424750",
     "medium": "Brush and gouache on illustration board",
     "markings": "Stamp in red ink, lower right: WIENER \/ WERKE \/ ST\u00c4TTE; inscribed in blue crayon, upper right: 45",
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "7.5 x 21.6 cm (2 15\/16 x 8 1\/2 in.)",
+    "dimensions_raw": {
+        "height": [
+            "7.50",
+            "centimeters"
+        ],
+        "width": [
+            "21.60",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase from Smithsonian Collections Acquisition and Decorative Arts Association Acquisition Funds",
     "description": "Partial view of thin green branches with aqua leaves and yellow berries in threes on dark blue ground.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424750",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/27115_1b10c5941c677bd1_b.jpg",
                 "width": 1024,
                 "height": 719,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/27115_1b10c5941c677bd1_n.jpg",
-                "width": 320,
-                "height": 225,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "27115"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/27115_1b10c5941c677bd1_z.jpg",
                 "width": 640,
                 "height": 450,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "27115"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/27115_1b10c5941c677bd1_n.jpg",
+                "width": 320,
+                "height": 225,
+                "is_primary": "1",
+                "image_id": "27115"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/27115_1b10c5941c677bd1_d.gif",
+                "width": 320,
+                "height": 225,
+                "is_primary": "1",
+                "image_id": "27115"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/27115_1b10c5941c677bd1_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "27115"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "51676457",
             "role_id": "35352245",
             "person_name": "Karin Zonis",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/51676457\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18049365",
             "role_id": "35352247",
             "person_name": "Decorative Arts Association Acquisition Fund",
+            "person_date": "founded 1982, closed September 30, 1998",
             "role_name": "Fund",
+            "role_display_name": "Fund:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049365\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352247\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18538455",
             "role_id": "35352249",
             "person_name": "Wolfgang Ruf",
+            "person_date": "",
             "role_name": "Vendor",
+            "role_display_name": "Purchased from",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18538455\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352249\/"
         },
@@ -78,7 +110,9 @@
             "person_id": "18048101",
             "role_id": "35236675",
             "person_name": "Wiener Werkst\u00e4tte",
+            "person_date": "Vienna, Austria, 1903\u20131932",
             "role_name": "For",
+            "role_display_name": "Made for",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18048101\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236675\/"
         },
@@ -86,7 +120,9 @@
             "person_id": "18538919",
             "role_id": "35236655",
             "person_name": "Artur Berger",
+            "person_date": "",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18538919\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
@@ -96,24 +132,35 @@
     },
     "colors": [
         {
-            "color": "#1d1e2c",
-            "closest_css3": "#000000"
+            "color": "#1b1d29",
+            "closest_crayola": "#000000",
+            "closest_css3": "#000000",
+            "closest_css4": "#000000"
         },
         {
-            "color": "#cbc8b3",
-            "closest_css3": "#c0c0c0"
+            "color": "#cbc8b5",
+            "closest_crayola": "#cdc5c2",
+            "closest_css3": "#c0c0c0",
+            "closest_css4": "#c0c0c0"
         },
         {
-            "color": "#271d16",
-            "closest_css3": "#000000"
+            "color": "#2a1f1d",
+            "closest_crayola": "#000000",
+            "closest_css3": "#000000",
+            "closest_css4": "#000000"
         },
         {
-            "color": "#d2bc40",
-            "closest_css3": "#daa520"
+            "color": "#cbb43d",
+            "closest_crayola": "#bab86c",
+            "closest_css3": "#daa520",
+            "closest_css4": "#daa520"
         },
         {
-            "color": "#484439",
-            "closest_css3": "#2f4f4f"
+            "color": "#7c2010",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#800000",
+            "closest_css4": "#800000"
         }
-    ]
+    ],
+    "woe:country_name": "Austria"
 }

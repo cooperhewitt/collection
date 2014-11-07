@@ -3,6 +3,7 @@
     "tms:id": "25228",
     "accession_number": "1920-36-312",
     "title": "Drawing, \"Design for Embroidery for a Man's Waistcoat, for the Fabrique de St. Ruf\", ca. 1785",
+    "title_raw": "Design for Embroidery for a Man's Waistcoat, for the Fabrique de St. Ruf",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18212207\/",
     "department_id": "35347493",
     "period_id": "35417089",
@@ -13,39 +14,64 @@
     "year_end": 1795,
     "year_acquired": "1920",
     "decade": null,
-    "woe:country": "23424819",
+    "woe:country_id": "23424819",
     "medium": "Brush and gouache, graphite on paper",
     "markings": "Watermark:  C A",
     "signed": null,
     "inscribed": "Written top center:  P 816; bottom:  verdoge\/Le Blanc des plumes en argent\/Le jaune en fil\u00e9 d'or\/Le verd anglois d'or vorte (?), les plumes sans (crossed out) \u00eatre rebord\u00e9",
     "provenance": null,
     "dimensions": "21.3 x 30.5 cm (8 3\/8 x 12 in. )",
+    "dimensions_raw": {
+        "height": [
+            "21.30",
+            "centimeters"
+        ],
+        "width": [
+            "30.50",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Eleanor and Sarah Hewitt",
     "description": "Left bottom corner with obliquely rising bottom edge.  Peacock feathers and leaf scrolls alternate along the outer edges.  Obliquely disposed strips with flowers in the field.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424819",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/1924_6d934f37ccf27789_b.jpg",
                 "width": 1024,
                 "height": 711,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/1924_6d934f37ccf27789_n.jpg",
-                "width": 320,
-                "height": 222,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "1924"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/1924_6d934f37ccf27789_z.jpg",
                 "width": 640,
                 "height": 444,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "1924"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/1924_6d934f37ccf27789_n.jpg",
+                "width": 320,
+                "height": 222,
+                "is_primary": "1",
+                "image_id": "1924"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/1924_6d934f37ccf27789_d.gif",
+                "width": 320,
+                "height": 222,
+                "is_primary": "1",
+                "image_id": "1924"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/1924_6d934f37ccf27789_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "1924"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18047625",
             "role_id": "35352245",
             "person_name": "E. Maurice Bloch",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047625\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18047439",
             "role_id": "35352245",
             "person_name": "Rudolph Berliner",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047439\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18049321",
             "role_id": "35351535",
             "person_name": "Sarah Cooper Hewitt",
+            "person_date": "American, 1859\u20131930",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049321\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -78,7 +110,9 @@
             "person_id": "18049325",
             "role_id": "35351535",
             "person_name": "Eleanor Garnier Hewitt",
+            "person_date": "American, 1864\u20131924",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049325\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -88,24 +122,23 @@
     },
     "colors": [
         {
-            "color": "#9e9377",
-            "closest_css3": "#808080"
+            "color": "#948466",
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#775952",
-            "closest_css3": "#696969"
+            "color": "#725553",
+            "closest_crayola": "#6e5160",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#9a6c4e",
-            "closest_css3": "#a0522d"
-        },
-        {
-            "color": "#695d43",
-            "closest_css3": "#556b2f"
-        },
-        {
-            "color": "#4f3322",
-            "closest_css3": "#556b2f"
+            "color": "#886a50",
+            "closest_crayola": "#85754e",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         }
-    ]
+    ],
+    "woe:country_name": "France"
 }

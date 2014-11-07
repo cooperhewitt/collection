@@ -3,6 +3,7 @@
     "tms:id": "189133",
     "accession_number": "1988-4-47",
     "title": "Print, \"Title Page, Nouvelles Chemin\u00e9e faittes en plusieur en droits (New Designs for Fireplaces)\", ca. 1700",
+    "title_raw": "Title Page, Nouvelles Chemin\u00e9e faittes en plusieur en droits (New Designs for Fireplaces)",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18628587\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1710,
     "year_acquired": "1988",
     "decade": null,
-    "woe:country": "23424909",
+    "woe:country_id": "23424909",
     "medium": "Etching and engraving on white laid paper",
     "markings": null,
     "signed": "Signed in plate, lower left: invent\u00e9 et grave par D. Marot \/ auec preuillege des Etats generaux des Province Vnies",
     "inscribed": "Inscribed in plate, in cartouche: Nouvelles \/ Chemin\u00e9e faittes \/ en plusieur en droits. \/ _de la Hollande et autres \/ Provinces du Dessein de \/ D. Marot Architecte des. \/ -appartements de sa Majest\u00e9 \/ Britanique grav\u00e9 par \/ L'Hauteur auec preuillege des \/ Etats generaux: des \/ Province Vnie",
     "provenance": null,
     "dimensions": "Sheet: 35 x 23.5 cm (13 3\/4 x 9 1\/4 in.)\nPlatemark: 25.5 x 20.6 cm (10 1\/16 x 8 1\/8 in.)",
+    "dimensions_raw": {
+        "height": [
+            "25.50",
+            "centimeters"
+        ],
+        "width": [
+            "20.60",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase from General Acquisitions Endowment Fund",
     "description": "A fireplace decorated with lions flanking an escutcheon with a crowned roundel. Two urns and a bust of a Roman emperor sit on the mantelpiece. Above, oval-shaped cartouche with title and a Doric entablature. Scale below.",
     "justification": null,
-    "type": {
-        "id": "35236873",
-        "name": "Print"
-    },
+    "woe:country": "23424909",
+    "type": "Print",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/45793_e4f59da8bcae8071_b.jpg",
                 "width": 701,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/45793_e4f59da8bcae8071_n.jpg",
-                "width": 219,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "45793"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/45793_e4f59da8bcae8071_z.jpg",
                 "width": 438,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "45793"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/45793_e4f59da8bcae8071_n.jpg",
+                "width": 219,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "45793"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/45793_e4f59da8bcae8071_d.gif",
+                "width": 219,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "45793"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/45793_e4f59da8bcae8071_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "45793"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "51676457",
             "role_id": "35352245",
             "person_name": "Karin Zonis",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/51676457\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18042233",
             "role_id": "35236655",
             "person_name": "Daniel Marot",
+            "person_date": "French, 1661\u20131752; active in Netherlands and England",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18042233\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18041265",
             "role_id": "35352249",
             "person_name": "Ms. Priscilla Juvelis",
+            "person_date": "",
             "role_name": "Vendor",
+            "role_display_name": "Purchased from",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041265\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352249\/"
         },
@@ -78,7 +110,9 @@
             "person_id": "18048535",
             "role_id": "35352247",
             "person_name": "General Acquisitions Endowment",
+            "person_date": "",
             "role_name": "Fund",
+            "role_display_name": "Fund:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18048535\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352247\/"
         }
@@ -88,24 +122,35 @@
     },
     "colors": [
         {
-            "color": "#d8d1c3",
-            "closest_css3": "#d3d3d3"
+            "color": "#ebdfc8",
+            "closest_crayola": "#efdecd",
+            "closest_css3": "#ffe4c4",
+            "closest_css4": "#ffe4c4"
         },
         {
-            "color": "#a89e8e",
-            "closest_css3": "#bc8f8f"
+            "color": "#aea595",
+            "closest_crayola": "#979aaa",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
         },
         {
-            "color": "#807565",
-            "closest_css3": "#696969"
+            "color": "#898071",
+            "closest_crayola": "#8a795d",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#413c34",
-            "closest_css3": "#2f4f4f"
+            "color": "#6e6659",
+            "closest_crayola": "#6e5160",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#645b4e",
-            "closest_css3": "#696969"
+            "color": "#464039",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         }
-    ]
+    ],
+    "woe:country_name": "Netherlands"
 }

@@ -3,6 +3,7 @@
     "tms:id": "186454",
     "accession_number": "1987-91-3",
     "title": "Folding Telephone, 1965",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18623235\/",
     "department_id": "35347497",
     "period_id": null,
@@ -13,39 +14,68 @@
     "year_end": 1965,
     "year_acquired": "1987",
     "decade": "1960",
-    "woe:country": "23424853",
+    "woe:country_id": "23424853",
     "medium": "ABS plastic, rubber",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "1987: acquired by Museum",
     "dimensions": "H x W x D (closed): 6.6 x 15.5 x 7.5 cm (2 5\/8 x 6 1\/8 x 2 15\/16 in.)\nH x W x D (open): 22 x 14.5 x 7.5 cm (8 11\/16 x 5 11\/16 x 2 15\/16 in.)",
+    "dimensions_raw": {
+        "depth": [
+            "7.50",
+            "centimeters"
+        ],
+        "height": [
+            "22.00",
+            "centimeters"
+        ],
+        "width": [
+            "14.50",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Becker Inc.",
     "description": "Red folding \"clamshell\" type telephone opens to reveal black keypad below pierced earpiece in hand set; speaker in base, below hinge; curled black cord attached to back of base.",
     "justification": null,
-    "type": {
-        "id": "51680775",
-        "name": "Folding telephone"
-    },
+    "woe:country": "23424853",
+    "type": "Folding telephone",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/16148_347b15dbb9e5466c_b.jpg",
                 "width": 980,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/16148_347b15dbb9e5466c_n.jpg",
-                "width": 306,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "16148"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/16148_347b15dbb9e5466c_z.jpg",
                 "width": 612,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "16148"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/16148_347b15dbb9e5466c_n.jpg",
+                "width": 306,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "16148"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/16148_347b15dbb9e5466c_d.gif",
+                "width": 306,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "16148"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/16148_347b15dbb9e5466c_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "16148"
             }
         }
     ],
@@ -54,7 +84,9 @@
             "person_id": "18044991",
             "role_id": "35236655",
             "person_name": "Richard Sapper",
+            "person_date": "German, b. 1932",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18044991\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -62,7 +94,9 @@
             "person_id": "18053733",
             "role_id": "35236657",
             "person_name": "Italtel",
+            "person_date": "founded 1921",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18053733\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         },
@@ -70,7 +104,9 @@
             "person_id": "18044997",
             "role_id": "35236659",
             "person_name": "Becker Inc.",
+            "person_date": "founded 1972",
             "role_name": "Distributor",
+            "role_display_name": "Distributed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18044997\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236659\/"
         },
@@ -78,7 +114,9 @@
             "person_id": "18044993",
             "role_id": "35236655",
             "person_name": "Marco Zanuso",
+            "person_date": "Italian, 1916 \u2013 2001",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18044993\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -86,7 +124,9 @@
             "person_id": "18044997",
             "role_id": "35351535",
             "person_name": "Becker Inc.",
+            "person_date": "founded 1972",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18044997\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -97,23 +137,34 @@
     "colors": [
         {
             "color": "#9c2e2e",
-            "closest_css3": "#a52a2a"
+            "closest_crayola": "#9c2542",
+            "closest_css3": "#a52a2a",
+            "closest_css4": "#a52a2a"
         },
         {
             "color": "#e9d8d9",
-            "closest_css3": "#dcdcdc"
+            "closest_crayola": "#efdecd",
+            "closest_css3": "#dcdcdc",
+            "closest_css4": "#dcdcdc"
         },
         {
-            "color": "#b9aab7",
-            "closest_css3": "#a9a9a9"
+            "color": "#bf4a50",
+            "closest_crayola": "#bf4f51",
+            "closest_css3": "#cd5c5c",
+            "closest_css4": "#cd5c5c"
         },
         {
-            "color": "#392726",
-            "closest_css3": "#2f4f4f"
+            "color": "#3b2727",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#ce535b",
-            "closest_css3": "#cd5c5c"
+            "color": "#c7afb9",
+            "closest_crayola": "#cdc5c2",
+            "closest_css3": "#c0c0c0",
+            "closest_css4": "#c0c0c0"
         }
-    ]
+    ],
+    "woe:country_name": "Italy"
 }

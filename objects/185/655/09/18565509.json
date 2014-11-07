@@ -3,6 +3,7 @@
     "tms:id": "76046",
     "accession_number": "1942-34-3-a",
     "title": "Fan, late 19th century",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18565509\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": null,
     "year_acquired": "1942",
     "decade": null,
-    "woe:country": "23424819",
+    "woe:country_id": "23424819",
     "medium": "Medium: gauze leaf, painted with gouache. Sticks:  wood, gilded",
     "markings": null,
     "signed": "Signed:  \"Touchelay\"",
     "inscribed": null,
     "provenance": null,
     "dimensions": "H x W (open): 38.1 x 70.5 cm (15 x 27 3\/4 in.)",
+    "dimensions_raw": {
+        "height": [
+            "38.10",
+            "centimeters"
+        ],
+        "width": [
+            "70.49",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Mrs. Robert B. Noyes",
     "description": "Leaf: black gauze. Obverse: painted sprig of white and Tea roses. Reverse: plain.  Sticks: plain wood gilded a rust color. Guards: with same finish as sticks; decorated with bumps imitating bamboo.",
     "justification": null,
-    "type": {
-        "id": "35252007",
-        "name": "fan"
-    },
+    "woe:country": "23424819",
+    "type": "fan",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/48218_468ffe783fba634f_b.jpg",
                 "width": 1024,
                 "height": 595,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/48218_468ffe783fba634f_n.jpg",
-                "width": 320,
-                "height": 186,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "48218"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/48218_468ffe783fba634f_z.jpg",
                 "width": 640,
                 "height": 372,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "48218"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/48218_468ffe783fba634f_n.jpg",
+                "width": 320,
+                "height": 186,
+                "is_primary": "1",
+                "image_id": "48218"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/48218_468ffe783fba634f_d.gif",
+                "width": 320,
+                "height": 186,
+                "is_primary": "1",
+                "image_id": "48218"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/48218_468ffe783fba634f_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "48218"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/4130_d735ec1a62b0101b_b.jpg",
                 "width": 1024,
                 "height": 611,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/4130_d735ec1a62b0101b_n.jpg",
-                "width": 320,
-                "height": 191,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "4130"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/4130_d735ec1a62b0101b_z.jpg",
                 "width": 640,
                 "height": 382,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "4130"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/4130_d735ec1a62b0101b_n.jpg",
+                "width": 320,
+                "height": 191,
+                "is_primary": "0",
+                "image_id": "4130"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/4130_d735ec1a62b0101b_d.gif",
+                "width": 320,
+                "height": 191,
+                "is_primary": "0",
+                "image_id": "4130"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/4130_d735ec1a62b0101b_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "4130"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18538087",
             "role_id": "35352245",
             "person_name": "Alvena V. Seckar",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18538087\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18052011",
             "role_id": "35351535",
             "person_name": "Mrs. Robert B. Noyes",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18052011\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -92,24 +139,35 @@
     },
     "colors": [
         {
+            "color": "#818087",
+            "closest_crayola": "#757575",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
+        },
+        {
             "color": "#6c4323",
-            "closest_css3": "#8b4513"
+            "closest_crayola": "#714b23",
+            "closest_css3": "#8b4513",
+            "closest_css4": "#8b4513"
         },
         {
-            "color": "#58585d",
-            "closest_css3": "#696969"
+            "color": "#925b30",
+            "closest_crayola": "#9c7c38",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         },
         {
-            "color": "#945b31",
-            "closest_css3": "#a0522d"
+            "color": "#56443a",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         },
         {
-            "color": "#554339",
-            "closest_css3": "#556b2f"
-        },
-        {
-            "color": "#b17649",
-            "closest_css3": "#cd853f"
+            "color": "#b17549",
+            "closest_crayola": "#b4674d",
+            "closest_css3": "#cd853f",
+            "closest_css4": "#cd853f"
         }
-    ]
+    ],
+    "woe:country_name": "France"
 }

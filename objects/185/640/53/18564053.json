@@ -3,6 +3,7 @@
     "tms:id": "75230",
     "accession_number": "1941-69-168",
     "title": "Sampler, 19th century",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18564053\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": null,
     "year_acquired": "1941",
     "decade": null,
-    "woe:country": "23424900",
+    "woe:country_id": "23424900",
     "medium": "Medium: silk embroidery on linen foundation\nTechnique: satin, stem and couching stitches on plain weave",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "ex. coll. Mrs. Henry E. Coe (Eva Johnston Coe)",
     "dimensions": "H x W: 37 x 51 cm (14 9\/16 x 20 1\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "37.00",
+            "centimeters"
+        ],
+        "width": [
+            "51.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Bequest of Mrs. Henry E. Coe",
     "description": "Detached motifs including floral borders, flowering sprays, trees, animals, birds and a house. Maker's name unreadable.",
     "justification": null,
-    "type": {
-        "id": "35256439",
-        "name": "Sampler"
-    },
+    "woe:country": "23424900",
+    "type": "Sampler",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/41526_25cb52cb09bbd789_b.jpg",
                 "width": 1024,
                 "height": 753,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/41526_25cb52cb09bbd789_n.jpg",
-                "width": 320,
-                "height": 235,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "41526"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/41526_25cb52cb09bbd789_z.jpg",
                 "width": 640,
                 "height": 471,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "41526"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/41526_25cb52cb09bbd789_n.jpg",
+                "width": 320,
+                "height": 235,
+                "is_primary": "1",
+                "image_id": "41526"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/41526_25cb52cb09bbd789_d.gif",
+                "width": 320,
+                "height": 235,
+                "is_primary": "1",
+                "image_id": "41526"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/41526_25cb52cb09bbd789_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "41526"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/28522_0e29a79508bc8d0c_b.jpg",
                 "width": 1024,
                 "height": 749,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/28522_0e29a79508bc8d0c_n.jpg",
-                "width": 320,
-                "height": 234,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "28522"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/28522_0e29a79508bc8d0c_z.jpg",
                 "width": 640,
                 "height": 468,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "28522"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/28522_0e29a79508bc8d0c_n.jpg",
+                "width": 320,
+                "height": 234,
+                "is_primary": "0",
+                "image_id": "28522"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/28522_0e29a79508bc8d0c_d.gif",
+                "width": 320,
+                "height": 234,
+                "is_primary": "0",
+                "image_id": "28522"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/28522_0e29a79508bc8d0c_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "28522"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18052567",
             "role_id": "35351537",
             "person_name": "Mrs. Henry E. Coe",
+            "person_date": "",
             "role_name": "Bequestor",
+            "role_display_name": "Bequest of",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18052567\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351537\/"
         }
@@ -84,24 +129,35 @@
     },
     "colors": [
         {
-            "color": "#a69673",
-            "closest_css3": "#bc8f8f"
+            "color": "#a89875",
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         },
         {
-            "color": "#737a6a",
-            "closest_css3": "#696969"
+            "color": "#5e6459",
+            "closest_crayola": "#6e5160",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#856c48",
-            "closest_css3": "#696969"
+            "color": "#896f4a",
+            "closest_crayola": "#85754e",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#505144",
-            "closest_css3": "#556b2f"
+            "color": "#858c7f",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#775035",
-            "closest_css3": "#8b4513"
+            "color": "#7b5237",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         }
-    ]
+    ],
+    "woe:country_name": "Mexico"
 }

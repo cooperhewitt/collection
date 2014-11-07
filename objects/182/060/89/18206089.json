@@ -3,6 +3,7 @@
     "tms:id": "24286",
     "accession_number": "1919-24-1",
     "title": "Cup, 4th century",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18206089\/",
     "department_id": "35347497",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": null,
     "year_acquired": "1919",
     "decade": null,
-    "woe:country": "23424802",
+    "woe:country_id": "23424802",
     "medium": "Olive yellow-green glass",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "H x diam.: 7.1 x 9 cm (2 13\/16 x 3 9\/16 in.)",
+    "dimensions_raw": {
+        "diameter": [
+            "9.00",
+            "centimeters"
+        ],
+        "height": [
+            "7.10",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Rodman Wanamaker",
     "description": "Inverted bell shape, shallow, with upright lip.  On high stem and ireegularly circular foot incised with straight, branching lines.",
     "justification": null,
-    "type": {
-        "id": "35249795",
-        "name": "cup"
-    },
+    "woe:country": "23424802",
+    "type": "cup",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/31314_ce30a602b4de9eb1_b.jpg",
                 "width": 1024,
                 "height": 708,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/31314_ce30a602b4de9eb1_n.jpg",
-                "width": 320,
-                "height": 221,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "31314"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/31314_ce30a602b4de9eb1_z.jpg",
                 "width": 640,
                 "height": 443,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "31314"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/31314_ce30a602b4de9eb1_n.jpg",
+                "width": 320,
+                "height": 221,
+                "is_primary": "1",
+                "image_id": "31314"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/31314_ce30a602b4de9eb1_d.gif",
+                "width": 320,
+                "height": 221,
+                "is_primary": "1",
+                "image_id": "31314"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/31314_ce30a602b4de9eb1_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "31314"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/25500_b33f35fae204ba58_b.jpg",
                 "width": 1024,
                 "height": 945,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/25500_b33f35fae204ba58_n.jpg",
-                "width": 320,
-                "height": 295,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "25500"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/25500_b33f35fae204ba58_z.jpg",
                 "width": 640,
                 "height": 591,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "25500"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/25500_b33f35fae204ba58_n.jpg",
+                "width": 320,
+                "height": 295,
+                "is_primary": "0",
+                "image_id": "25500"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/25500_b33f35fae204ba58_d.gif",
+                "width": 320,
+                "height": 295,
+                "is_primary": "0",
+                "image_id": "25500"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/25500_b33f35fae204ba58_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "25500"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18051645",
             "role_id": "35351535",
             "person_name": "Rodman Wanamaker",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18051645\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -84,12 +129,29 @@
     },
     "colors": [
         {
-            "color": "#74746d",
-            "closest_css3": "#696969"
+            "color": "#c0bfb6",
+            "closest_crayola": "#cdc5c2",
+            "closest_css3": "#c0c0c0",
+            "closest_css4": "#c0c0c0"
         },
         {
-            "color": "#44433d",
-            "closest_css3": "#2f4f4f"
+            "color": "#4c4c45",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
+        },
+        {
+            "color": "#6e6e66",
+            "closest_crayola": "#757575",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
+        },
+        {
+            "color": "#2d2c25",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         }
-    ]
+    ],
+    "woe:country_name": "Egypt"
 }

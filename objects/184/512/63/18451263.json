@@ -3,6 +3,7 @@
     "tms:id": "136152",
     "accession_number": "1964-12-3",
     "title": "Title Page, \"Illustrative of Trumbull's Autobiography\", ca. 1841",
+    "title_raw": "Illustrative of Trumbull's Autobiography",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18451263\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1851,
     "year_acquired": "1964",
     "decade": null,
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Pen and black ink on paper",
     "markings": null,
     "signed": null,
     "inscribed": "Inscribed in brown ink: 1841, \/ Illustrative\/ of \/ Trumbull's\/ Autobiography\/ 5 3\/4 by 9 1\/4\/ Preserve in a portfolio for binding,\/ and the addition of other prints",
     "provenance": "Mrs. E. Sanderson Cushman",
     "dimensions": "30.8 x 22.1 cm (12 1\/8 x 8 11\/16 in.), irregular",
+    "dimensions_raw": {
+        "height": [
+            "30.80",
+            "centimeters"
+        ],
+        "width": [
+            "22.10",
+            "centimeters"
+        ]
+    },
     "creditline": null,
     "description": "Script style handwriting within a vertical rectangle on the page.",
     "justification": null,
-    "type": {
-        "id": "35251359",
-        "name": "title page"
-    },
+    "woe:country": "23424977",
+    "type": "title page",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/42203_01c62464b6dd6b35_b.jpg",
                 "width": 738,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/42203_01c62464b6dd6b35_n.jpg",
-                "width": 231,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "42203"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/42203_01c62464b6dd6b35_z.jpg",
                 "width": 461,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "42203"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/42203_01c62464b6dd6b35_n.jpg",
+                "width": 231,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "42203"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/42203_01c62464b6dd6b35_d.gif",
+                "width": 231,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "42203"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/42203_01c62464b6dd6b35_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "42203"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "51676457",
             "role_id": "35352245",
             "person_name": "Karin Zonis",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/51676457\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18536971",
             "role_id": "35351535",
             "person_name": "Mrs. E. Sanderson Cushman",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18536971\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -72,8 +102,11 @@
     },
     "colors": [
         {
-            "color": "#a58e6d",
-            "closest_css3": "#bc8f8f"
+            "color": "#a89272",
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

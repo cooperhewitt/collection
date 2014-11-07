@@ -3,6 +3,7 @@
     "tms:id": "11543",
     "accession_number": "1902-1-372",
     "title": "Fragment, 17th century",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18130799\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": null,
     "year_acquired": "1902",
     "decade": null,
-    "woe:country": "23424950",
+    "woe:country_id": "23424950",
     "medium": "Medium: linen, wool\nTechnique: float patterned plain weave",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "ex-collection: Francisco Miquel y Bad\u00eda",
     "dimensions": "H x W: 53.8 x 46.2 cm (21 3\/16 x 18 3\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "53.80",
+            "centimeters"
+        ],
+        "width": [
+            "46.20",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of John Pierpont Morgan",
     "description": "Fragment made of threee pieces of fabric sewn together, The design of all is a small-scale diaper.",
     "justification": null,
-    "type": {
-        "id": "35254623",
-        "name": "Fragment"
-    },
+    "woe:country": "23424950",
+    "type": "Fragment",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/38827_29563a50fc4aa6a9_b.jpg",
                 "width": 1024,
                 "height": 695,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/38827_29563a50fc4aa6a9_n.jpg",
-                "width": 320,
-                "height": 217,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "38827"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/38827_29563a50fc4aa6a9_z.jpg",
                 "width": 640,
                 "height": 434,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "38827"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/38827_29563a50fc4aa6a9_n.jpg",
+                "width": 320,
+                "height": 217,
+                "is_primary": "1",
+                "image_id": "38827"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/38827_29563a50fc4aa6a9_d.gif",
+                "width": 320,
+                "height": 217,
+                "is_primary": "1",
+                "image_id": "38827"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/38827_29563a50fc4aa6a9_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "38827"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/68082_37fe8e43f47c2eb0_b.jpg",
                 "width": 1024,
                 "height": 663,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/68082_37fe8e43f47c2eb0_n.jpg",
-                "width": 320,
-                "height": 207,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "68082"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/68082_37fe8e43f47c2eb0_z.jpg",
                 "width": 640,
                 "height": 414,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "68082"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/68082_37fe8e43f47c2eb0_n.jpg",
+                "width": 320,
+                "height": 207,
+                "is_primary": "0",
+                "image_id": "68082"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/68082_37fe8e43f47c2eb0_d.gif",
+                "width": 320,
+                "height": 207,
+                "is_primary": "0",
+                "image_id": "68082"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/68082_37fe8e43f47c2eb0_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "68082"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18049445",
             "role_id": "35351535",
             "person_name": "John Pierpont Morgan",
+            "person_date": "American, 1837\u20131913",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049445\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -84,24 +129,35 @@
     },
     "colors": [
         {
-            "color": "#163330",
-            "closest_css3": "#2f4f4f"
+            "color": "#1a3c37",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#2f3328",
-            "closest_css3": "#2f4f4f"
+            "color": "#413f3a",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#2b211a",
-            "closest_css3": "#000000"
+            "color": "#996e5e",
+            "closest_crayola": "#a57164",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#ab7a6b",
-            "closest_css3": "#bc8f8f"
+            "color": "#bc8f81",
+            "closest_crayola": "#cd9575",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         },
         {
-            "color": "#e29383",
-            "closest_css3": "#e9967a"
+            "color": "#68493b",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         }
-    ]
+    ],
+    "woe:country_name": "Spain"
 }

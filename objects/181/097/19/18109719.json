@@ -3,6 +3,7 @@
     "tms:id": "8029",
     "accession_number": "1901-39-1515",
     "title": "Drawing",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18109719\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,101 @@
     "year_end": null,
     "year_acquired": "1901",
     "decade": null,
-    "woe:country": "23424853",
+    "woe:country_id": "23424853",
     "medium": "Pen and black ink, brush and gray wash on paper",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "Giovanni Piancastelli; 1901: acquired by Museum",
     "dimensions": "12.5 x 15 cm (4 15\/16 x 5 7\/8 in.)",
+    "dimensions_raw": {
+        "height": [
+            "12.50",
+            "centimeters"
+        ],
+        "width": [
+            "15.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase through gift of various donors",
     "description": "Architectural element consisting of an ornamental capital with vegetal motif on a pedestal.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424853",
+    "type": "Drawing",
     "images": [
+        {
+            "b": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/91516_1fdd17b6482ec836_b.jpg",
+                "width": 1024,
+                "height": 839,
+                "is_primary": "1",
+                "image_id": "91516"
+            },
+            "z": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/91516_1fdd17b6482ec836_z.jpg",
+                "width": 640,
+                "height": 524,
+                "is_primary": "1",
+                "image_id": "91516"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/91516_1fdd17b6482ec836_n.jpg",
+                "width": 320,
+                "height": 262,
+                "is_primary": "1",
+                "image_id": "91516"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/91516_1fdd17b6482ec836_d.gif",
+                "width": 320,
+                "height": 262,
+                "is_primary": "1",
+                "image_id": "91516"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/91516_1fdd17b6482ec836_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "91516"
+            }
+        },
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/252_1b37c1c43b98f3b1_b.jpg",
                 "width": 1024,
                 "height": 829,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/252_1b37c1c43b98f3b1_n.jpg",
-                "width": 320,
-                "height": 259,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "252"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/252_1b37c1c43b98f3b1_z.jpg",
                 "width": 640,
                 "height": 518,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "252"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/252_1b37c1c43b98f3b1_n.jpg",
+                "width": 320,
+                "height": 259,
+                "is_primary": "0",
+                "image_id": "252"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/252_1b37c1c43b98f3b1_d.gif",
+                "width": 320,
+                "height": 259,
+                "is_primary": "0",
+                "image_id": "252"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/252_1b37c1c43b98f3b1_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "252"
             }
         }
     ],
@@ -54,7 +117,9 @@
             "person_id": "18042677",
             "role_id": "35236633",
             "person_name": "Filippo Marchionni",
+            "person_date": "Italian, 1732\u20131805",
             "role_name": "Possibly",
+            "role_display_name": "Possibly by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18042677\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236633\/"
         },
@@ -62,7 +127,9 @@
             "person_id": "18042631",
             "role_id": "35236633",
             "person_name": "Carlo Marchionni",
+            "person_date": "Italian, 1702\u20131786; active 1728\u20131778",
             "role_name": "Possibly",
+            "role_display_name": "Possibly by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18042631\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236633\/"
         }
@@ -72,16 +139,23 @@
     },
     "colors": [
         {
-            "color": "#968e7d",
-            "closest_css3": "#808080"
+            "color": "#a09480",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         },
         {
-            "color": "#726c5f",
-            "closest_css3": "#696969"
+            "color": "#736c60",
+            "closest_crayola": "#757575",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#46413b",
-            "closest_css3": "#2f4f4f"
+            "color": "#565047",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         }
-    ]
+    ],
+    "woe:country_name": "Italy"
 }

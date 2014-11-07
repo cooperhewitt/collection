@@ -3,6 +3,7 @@
     "tms:id": "155440",
     "accession_number": "1976-1-104",
     "title": "Panel, 1621",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18489137\/",
     "department_id": "35347497",
     "period_id": null,
@@ -13,39 +14,68 @@
     "year_end": 1621,
     "year_acquired": "1976",
     "decade": null,
-    "woe:country": "23424957",
+    "woe:country_id": "23424957",
     "medium": "Glass, stain, metal, enamel",
     "markings": null,
     "signed": null,
     "inscribed": "\"Clauss Kuntzli ? 1621\"",
     "provenance": "The C. Helme and Alice B. Strater Collection; 1976: acquired by Museum",
     "dimensions": "H x W x D: 34.3 x 24 x 1.5 cm (13 1\/2 x 9 7\/16 x 9\/16 in.)",
+    "dimensions_raw": {
+        "depth": [
+            "1.50",
+            "centimeters"
+        ],
+        "height": [
+            "34.30",
+            "centimeters"
+        ],
+        "width": [
+            "24.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of the C. Helme and Alice B. Strater Collection",
     "description": "Rectangular stained glass panel depicting a well-dressed couple; with one hand, man pulls a cord with tassel, and woman holds a gold goblet. Possible wedding portrait. Above couple, an oval crest showing two black bears flanking a yellow pine tree, between two scenes. On left: men dining and drinking (celebrating), on right: standing musicians. Below, left, a gold shield crest featuring a black symbol of a cross, star and crescent conjoined. To the right, an inscription: \u201cClausskunklibzi\u201d [?]",
     "justification": null,
-    "type": {
-        "id": "35237229",
-        "name": "Panel"
-    },
+    "woe:country": "23424957",
+    "type": "Panel",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/8131_97f126b3b07616b2_b.jpg",
                 "width": 707,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/8131_97f126b3b07616b2_n.jpg",
-                "width": 221,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "8131"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/8131_97f126b3b07616b2_z.jpg",
                 "width": 442,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "8131"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/8131_97f126b3b07616b2_n.jpg",
+                "width": 221,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "8131"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/8131_97f126b3b07616b2_d.gif",
+                "width": 221,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "8131"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/8131_97f126b3b07616b2_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "8131"
             }
         }
     ],
@@ -54,7 +84,9 @@
             "person_id": "18538283",
             "role_id": "35351535",
             "person_name": "Margaret S. Robinson",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18538283\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -62,7 +94,9 @@
             "person_id": "18538281",
             "role_id": "35351535",
             "person_name": "John B. Strater",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18538281\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -70,7 +104,9 @@
             "person_id": "18538279",
             "role_id": "35351535",
             "person_name": "C. Helme Strater Jr.",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18538279\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -78,7 +114,9 @@
             "person_id": "18044287",
             "role_id": "35236667",
             "person_name": "Clauss Kuntzli",
+            "person_date": "",
             "role_name": "Client",
+            "role_display_name": "Client:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18044287\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236667\/"
         }
@@ -88,24 +126,35 @@
     },
     "colors": [
         {
-            "color": "#3d2d35",
-            "closest_css3": "#2f4f4f"
+            "color": "#35282d",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#3c2114",
-            "closest_css3": "#000000"
+            "color": "#351f13",
+            "closest_crayola": "#000000",
+            "closest_css3": "#000000",
+            "closest_css4": "#000000"
         },
         {
-            "color": "#f4b91f",
-            "closest_css3": "#daa520"
+            "color": "#823d1e",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#8b4513",
+            "closest_css4": "#8b4513"
         },
         {
-            "color": "#cd731e",
-            "closest_css3": "#d2691e"
+            "color": "#b60517",
+            "closest_crayola": "#9c2542",
+            "closest_css3": "#b22222",
+            "closest_css4": "#b22222"
         },
         {
-            "color": "#bc0418",
-            "closest_css3": "#b22222"
+            "color": "#f2b822",
+            "closest_crayola": "#ffae42",
+            "closest_css3": "#daa520",
+            "closest_css4": "#daa520"
         }
-    ]
+    ],
+    "woe:country_name": "Switzerland"
 }

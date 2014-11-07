@@ -3,6 +3,7 @@
     "tms:id": "193011",
     "accession_number": "1991-30-17",
     "title": "Iced Tea Glass, \"Imperial Pinch\", 1950s",
+    "title_raw": "Imperial Pinch",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18636327\/",
     "department_id": "35347497",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1959,
     "year_acquired": "1991",
     "decade": "1950",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Glass",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "Paul F. Walter; 1991: acquired by Museum",
     "dimensions": "H x diam.: 12 x 8.7 cm (4 3\/4 x 3 7\/16 in.)",
+    "dimensions_raw": {
+        "diameter": [
+            "8.70",
+            "centimeters"
+        ],
+        "height": [
+            "12.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Paul F. Walter",
     "description": "Transparent olive green glass with vertical impressions.",
     "justification": null,
-    "type": {
-        "id": "35294429",
-        "name": "Iced tea glass"
-    },
+    "woe:country": "23424977",
+    "type": "Iced tea glass",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/45515_0d7e45ca100cea00_b.jpg",
                 "width": 813,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/45515_0d7e45ca100cea00_n.jpg",
-                "width": 254,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "45515"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/45515_0d7e45ca100cea00_z.jpg",
                 "width": 508,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "45515"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/45515_0d7e45ca100cea00_n.jpg",
+                "width": 254,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "45515"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/45515_0d7e45ca100cea00_d.gif",
+                "width": 254,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "45515"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/45515_0d7e45ca100cea00_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "45515"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/11533_115fcf8987f47ae9_b.jpg",
                 "width": 793,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/11533_115fcf8987f47ae9_n.jpg",
-                "width": 248,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "11533"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/11533_115fcf8987f47ae9_z.jpg",
                 "width": 495,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "11533"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/11533_115fcf8987f47ae9_n.jpg",
+                "width": 248,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "11533"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/11533_115fcf8987f47ae9_d.gif",
+                "width": 248,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "11533"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/11533_115fcf8987f47ae9_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "11533"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18041007",
             "role_id": "35351535",
             "person_name": "Paul F. Walter",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041007\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18043357",
             "role_id": "35236655",
             "person_name": "Russel Wright",
+            "person_date": "American, 1904\u20131976",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18043357\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
@@ -92,24 +139,35 @@
     },
     "colors": [
         {
-            "color": "#c4b064",
-            "closest_css3": "#bdb76b"
-        },
-        {
             "color": "#f1e194",
-            "closest_css3": "#f0e68c"
+            "closest_crayola": "#f0e891",
+            "closest_css3": "#f0e68c",
+            "closest_css4": "#f0e68c"
         },
         {
-            "color": "#2e2d2b",
-            "closest_css3": "#2f4f4f"
+            "color": "#c4b064",
+            "closest_crayola": "#bab86c",
+            "closest_css3": "#bdb76b",
+            "closest_css4": "#bdb76b"
         },
         {
-            "color": "#947834",
-            "closest_css3": "#a0522d"
+            "color": "#937835",
+            "closest_crayola": "#9c7c38",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         },
         {
-            "color": "#e2dabd",
-            "closest_css3": "#f5deb3"
+            "color": "#2d2c2a",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
+        },
+        {
+            "color": "#5f4c29",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

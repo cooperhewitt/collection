@@ -3,6 +3,7 @@
     "tms:id": "110989",
     "accession_number": "1954-88-1",
     "title": "Drawing, \"Design for wallpaper: Views of Paris\", 1946",
+    "title_raw": "Design for wallpaper: Views of Paris",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18401621\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1946,
     "year_acquired": "1954",
     "decade": "1940",
-    "woe:country": "23424819",
+    "woe:country_id": "23424819",
     "medium": "Graphite, pen and black ink on white Strathmore paper",
     "markings": null,
     "signed": "Signed in black ink, lower right: Steinberg \/ 46",
     "inscribed": null,
     "provenance": "1954: acquired by Museum",
     "dimensions": "58.5 x 46.5 cm (23 1\/16 x 18 5\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "58.50",
+            "centimeters"
+        ],
+        "width": [
+            "46.50",
+            "centimeters"
+        ]
+    },
     "creditline": null,
     "description": "A linear design, illustrating various recognizable monuments of Paris, but drawn in a lively fashion, without attempt at scale or accuracy of perspective. Included are: Place de la Concorde, Louvre, Notre Dame; below: Pantheon, Eiffel Tower, Sacre-Coeur.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424819",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/63838_fb49a2192f53539e_b.jpg",
                 "width": 814,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/63838_fb49a2192f53539e_n.jpg",
-                "width": 254,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "63838"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/63838_fb49a2192f53539e_z.jpg",
                 "width": 509,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "63838"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/63838_fb49a2192f53539e_n.jpg",
+                "width": 254,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "63838"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/63838_fb49a2192f53539e_d.gif",
+                "width": 254,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "63838"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/63838_fb49a2192f53539e_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "63838"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18042821",
             "role_id": "35236565",
             "person_name": "Saul Steinberg",
+            "person_date": "American, b. Romania, 1914\u20131999",
             "role_name": "Artist",
+            "role_display_name": "",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18042821\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236565\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18049985",
             "role_id": "35351535",
             "person_name": "Harvey Smith",
+            "person_date": "1906\u20131994",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049985\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -72,16 +102,17 @@
     },
     "colors": [
         {
-            "color": "#d5d0be",
-            "closest_css3": "#d3d3d3"
+            "color": "#979081",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#a09786",
-            "closest_css3": "#bc8f8f"
-        },
-        {
-            "color": "#796f60",
-            "closest_css3": "#696969"
+            "color": "#bab4a4",
+            "closest_crayola": "#b0b7c6",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
         }
-    ]
+    ],
+    "woe:country_name": "France"
 }

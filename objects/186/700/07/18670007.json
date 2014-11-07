@@ -3,6 +3,7 @@
     "tms:id": "210420",
     "accession_number": "1995-50-287",
     "title": "Textile, \"Hommage de l'Amerique a la France (America paying homage to France)\", ca. 1783",
+    "title_raw": "Hommage de l'Amerique a la France (America paying homage to France)",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18670007\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,68 @@
     "year_end": 1793,
     "year_acquired": "1995",
     "decade": null,
-    "woe:country": "23424819",
+    "woe:country_id": "23424819",
     "medium": "Medium: cotton\nTechnique: printed by engraved plate on plain weave foundation",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "Warp: 85 cm (33 1\/2 in.). Weft: (left selvage) 98 cm (38 1\/2 in.).\nWidth of plate: 94.5 cm (37 1\/4 in.).",
+    "dimensions_raw": {
+        "warp": [
+            "85.00",
+            "centimeters"
+        ],
+        "weft": [
+            "98.00",
+            "centimeters"
+        ],
+        "width": [
+            "94.50",
+            "centimeters"
+        ]
+    },
     "creditline": "Bequest of Elinor Merrell",
     "description": "American Indians before the (uncrowned) figure of France. In blue on white.",
     "justification": null,
-    "type": {
-        "id": "35251739",
-        "name": "textile"
-    },
+    "woe:country": "23424819",
+    "type": "textile",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/12680_148082c4d5ebaa3b_b.jpg",
                 "width": 1024,
                 "height": 890,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/12680_148082c4d5ebaa3b_n.jpg",
-                "width": 320,
-                "height": 278,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "12680"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/12680_148082c4d5ebaa3b_z.jpg",
                 "width": 640,
                 "height": 557,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "12680"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/12680_148082c4d5ebaa3b_n.jpg",
+                "width": 320,
+                "height": 278,
+                "is_primary": "1",
+                "image_id": "12680"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/12680_148082c4d5ebaa3b_d.gif",
+                "width": 320,
+                "height": 278,
+                "is_primary": "1",
+                "image_id": "12680"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/12680_148082c4d5ebaa3b_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "12680"
             }
         },
         {
@@ -53,19 +83,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/79295_6cd75455e8fa036d_b.jpg",
                 "width": 923,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/79295_6cd75455e8fa036d_n.jpg",
-                "width": 288,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "79295"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/79295_6cd75455e8fa036d_z.jpg",
                 "width": 577,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "79295"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/79295_6cd75455e8fa036d_n.jpg",
+                "width": 288,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "79295"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/79295_6cd75455e8fa036d_d.gif",
+                "width": 288,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "79295"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/79295_6cd75455e8fa036d_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "79295"
             }
         }
     ],
@@ -74,7 +121,9 @@
             "person_id": "18045425",
             "role_id": "35236657",
             "person_name": "Oberkampf & Cie.",
+            "person_date": "Jouy-en-Josas, France, 1759 \u2013 1815",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18045425\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         },
@@ -82,7 +131,9 @@
             "person_id": "18049427",
             "role_id": "35351537",
             "person_name": "Elinor Merrell",
+            "person_date": "",
             "role_name": "Bequestor",
+            "role_display_name": "Bequest of",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049427\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351537\/"
         }
@@ -92,20 +143,23 @@
     },
     "colors": [
         {
-            "color": "#b38c87",
-            "closest_css3": "#bc8f8f"
+            "color": "#726163",
+            "closest_crayola": "#6e5160",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#946c5d",
-            "closest_css3": "#696969"
+            "color": "#bb9690",
+            "closest_crayola": "#cd9575",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         },
         {
-            "color": "#726160",
-            "closest_css3": "#696969"
-        },
-        {
-            "color": "#3e3a41",
-            "closest_css3": "#2f4f4f"
+            "color": "#3d3a41",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         }
-    ]
+    ],
+    "woe:country_name": "France"
 }

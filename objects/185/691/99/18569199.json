@@ -3,6 +3,7 @@
     "tms:id": "78300",
     "accession_number": "1943-43-23-a",
     "title": "Textile, \"Mathilde et Malek Adhel\", ca. 1820",
+    "title_raw": "Mathilde et Malek Adhel",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18569199\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1830,
     "year_acquired": "1943",
     "decade": null,
-    "woe:country": "23424819",
+    "woe:country_id": "23424819",
     "medium": "Medium: cotton\nTechnique: printed on plain weave",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "Warp x Weft: 221.7 x 162 cm (7 ft. 3 5\/16 in. x 5 ft. 3 3\/4 in.)",
+    "dimensions_raw": {
+        "warp": [
+            "221.70",
+            "centimeters"
+        ],
+        "weft": [
+            "162.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of W. and J. Sloane",
     "description": "Four vignettes depicting scenes from the second Crusade story of \"Mathilde et Malek Adhel.\" Printed in red on white ground.",
     "justification": null,
-    "type": {
-        "id": "35251739",
-        "name": "textile"
-    },
+    "woe:country": "23424819",
+    "type": "textile",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/15888_4ba2134931175003_b.jpg",
                 "width": 655,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/15888_4ba2134931175003_n.jpg",
-                "width": 205,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "15888"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/15888_4ba2134931175003_z.jpg",
                 "width": 410,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "15888"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/15888_4ba2134931175003_n.jpg",
+                "width": 205,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "15888"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/15888_4ba2134931175003_d.gif",
+                "width": 205,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "15888"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/15888_4ba2134931175003_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "15888"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18045593",
             "role_id": "35236657",
             "person_name": "Favre Petitpierre",
+            "person_date": "French, 1802 \u2013 1818",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18045593\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18042255",
             "role_id": "35351535",
             "person_name": "W. and J. Sloane",
+            "person_date": "1843\u20131985",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18042255\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -72,24 +102,35 @@
     },
     "colors": [
         {
-            "color": "#a0636f",
-            "closest_css3": "#808080"
+            "color": "#a18697",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         },
         {
-            "color": "#af8d9c",
-            "closest_css3": "#bc8f8f"
+            "color": "#846470",
+            "closest_crayola": "#757575",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#7f4a55",
-            "closest_css3": "#696969"
+            "color": "#83404a",
+            "closest_crayola": "#6e5160",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         },
         {
-            "color": "#8b7983",
-            "closest_css3": "#808080"
+            "color": "#ac717e",
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         },
         {
-            "color": "#c5becc",
-            "closest_css3": "#c0c0c0"
+            "color": "#b4bccb",
+            "closest_crayola": "#b0b7c6",
+            "closest_css3": "#c0c0c0",
+            "closest_css4": "#c0c0c0"
         }
-    ]
+    ],
+    "woe:country_name": "France"
 }

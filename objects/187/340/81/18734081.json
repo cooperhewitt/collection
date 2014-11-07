@@ -3,6 +3,7 @@
     "tms:id": "243188",
     "accession_number": "1993-31-165-14",
     "title": "Book Cover, \"Bookjacket by Alvin Lustig for \"Nightwood\" by Djuna Barnes, New Directions Books\", 1947",
+    "title_raw": "Bookjacket by Alvin Lustig for \"Nightwood\" by Djuna Barnes, New Directions Books",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18734081\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1947,
     "year_acquired": "1993",
     "decade": "1940",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Lithography in purple and black ink on white shiny wove paper",
     "markings": null,
     "signed": "Signed in printed black ink, front cover lower left: lustig.",
     "inscribed": "Printed vertically in white ink, spine: NIGHTWOOD. Printed vertically in black ink, DJUNA BARNES; printed horizontally in black ink, spine lower margin within white square: NC 11. \n\nPrinted in white ink, front cover center right: NIGHTWOOD; front cover lower right: djuna barnes.",
     "provenance": null,
     "dimensions": "H x W: 19 x 16.2 cm (7 1\/2 x 6 3\/8 in.)",
+    "dimensions_raw": {
+        "height": [
+            "19.00",
+            "centimeters"
+        ],
+        "width": [
+            "16.20",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Tamar Cohen and Dave Slatoff",
     "description": "The cover has a purple background with one large solid white abstract shape and smaller black designs layered over the purple background. Two black lines intersect over the white shape, forming an X. The title and author are written on the cover. \n\nDesign on dark purple ground. Features spine and front cover. One left side, spine contains in vertical sans-serif caps, book title in white and book author in black. Below, publisher logo: white square containing thin sans-serif \"NC\" alongside two vertical black bars forming \"11.\" On right, front cover contains long white amorphous shape running height of page on left. Shape has long hole on right side. Superimposed over shape are a black vertical \"scribble\" and a thin \"X\" shape with arms that extend to upper right and left corners of page and intersect two more round \"scribble\" forms. At right center, title \"NIGHTWOOD\" is written in white sans-serif caps. Author's name is written in white sans-serif lowercase within round \"scribble\" design in lower right corner. Along left side of cover is vertical signature in white: \"lustig.\"\n\nA white border of unprinted paper runs along left side of design. Contains rectangular sprocket or binding holes.",
     "justification": null,
-    "type": {
-        "id": "35249845",
-        "name": "book cover"
-    },
+    "woe:country": "23424977",
+    "type": "book cover",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/39851_7fb5e827cf97064c_b.jpg",
                 "width": 887,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/39851_7fb5e827cf97064c_n.jpg",
-                "width": 277,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "39851"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/39851_7fb5e827cf97064c_z.jpg",
                 "width": 555,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "39851"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/39851_7fb5e827cf97064c_n.jpg",
+                "width": 277,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "39851"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/39851_7fb5e827cf97064c_d.gif",
+                "width": 277,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "39851"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/39851_7fb5e827cf97064c_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "39851"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18043331",
             "role_id": "35236655",
             "person_name": "Alvin Lustig",
+            "person_date": "American, 1915\u20131955",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18043331\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18051943",
             "role_id": "35351535",
             "person_name": "Private collection",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18051943\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18536655",
             "role_id": "35351535",
             "person_name": "Dave Slatoff",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18536655\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -80,16 +112,23 @@
     },
     "colors": [
         {
-            "color": "#ece5ce",
-            "closest_css3": "#faebd7"
+            "color": "#ece5cd",
+            "closest_crayola": "#efdecd",
+            "closest_css3": "#faebd7",
+            "closest_css4": "#faebd7"
         },
         {
-            "color": "#90616c",
-            "closest_css3": "#696969"
+            "color": "#321727",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#000000",
+            "closest_css4": "#000000"
         },
         {
-            "color": "#c2ada3",
-            "closest_css3": "#a9a9a9"
+            "color": "#9a747a",
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

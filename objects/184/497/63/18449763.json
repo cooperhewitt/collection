@@ -3,6 +3,7 @@
     "tms:id": "135399",
     "accession_number": "1963-8-4",
     "title": "Textile, \"Woodcut\", 1963",
+    "title_raw": "Woodcut",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18449763\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1963,
     "year_acquired": "1963",
     "decade": "1960",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Medium: cotton\nTechnique: screen printed on plain weave",
     "markings": "Marked: Jackson Ellis Co. NY\nMarked: Woodcut by Grace Ohanian",
     "signed": null,
     "inscribed": null,
     "provenance": "Jackson Ellis; 1963: acquired by Museum",
     "dimensions": "H x W: 122 x 116cm (48 1\/16 x 45 11\/16in.)",
+    "dimensions_raw": {
+        "height": [
+            "122.00",
+            "centimeters"
+        ],
+        "width": [
+            "116.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Jackson Ellis",
     "description": "Cotton of deep cream color, screen printed in white floral design in perpendicular arrangement.",
     "justification": null,
-    "type": {
-        "id": "35251739",
-        "name": "textile"
-    },
+    "woe:country": "23424977",
+    "type": "textile",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/74654_091cab5c0b8aa142_b.jpg",
                 "width": 764,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/74654_091cab5c0b8aa142_n.jpg",
-                "width": 239,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "74654"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/74654_091cab5c0b8aa142_z.jpg",
                 "width": 478,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "74654"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/74654_091cab5c0b8aa142_n.jpg",
+                "width": 239,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "74654"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/74654_091cab5c0b8aa142_d.gif",
+                "width": 239,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "74654"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/74654_091cab5c0b8aa142_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "74654"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18047107",
             "role_id": "35236671",
             "person_name": "Jackson Ellis Co.",
+            "person_date": "",
             "role_name": "Producer",
+            "role_display_name": "Produced by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047107\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236671\/"
         },
@@ -62,9 +90,21 @@
             "person_id": "18047105",
             "role_id": "35236655",
             "person_name": "Grace Ohanian",
+            "person_date": "",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047105\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
+        },
+        {
+            "person_id": "68736583",
+            "role_id": "35351535",
+            "person_name": "Mr. Jackson Ellis",
+            "person_date": "",
+            "role_name": "Donor",
+            "role_display_name": "Donated by",
+            "person_url": "http:\/\/collection.cooperhewitt.org\/people\/68736583\/",
+            "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
     ],
     "tombstone": {
@@ -72,24 +112,35 @@
     },
     "colors": [
         {
-            "color": "#bcac9a",
-            "closest_css3": "#a9a9a9"
+            "color": "#a89787",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         },
         {
-            "color": "#d0cdbc",
-            "closest_css3": "#c0c0c0"
+            "color": "#b7b6ab",
+            "closest_crayola": "#b0b7c6",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
         },
         {
-            "color": "#94857b",
-            "closest_css3": "#808080"
+            "color": "#836f68",
+            "closest_crayola": "#8a795d",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#816a62",
-            "closest_css3": "#696969"
+            "color": "#3a2727",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#24141a",
-            "closest_css3": "#000000"
+            "color": "#dde6d6",
+            "closest_crayola": "#dbd7d2",
+            "closest_css3": "#dcdcdc",
+            "closest_css4": "#dcdcdc"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

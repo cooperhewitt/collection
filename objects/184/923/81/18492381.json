@@ -3,6 +3,7 @@
     "tms:id": "157074",
     "accession_number": "1977-28-15-a\/f",
     "title": "Sidewall, \"Sunflower\", 1972",
+    "title_raw": "Sunflower",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18492381\/",
     "department_id": "35347503",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1972,
     "year_acquired": "1977",
     "decade": "1970",
-    "woe:country": "23424975",
+    "woe:country_id": "23424975",
     "medium": "Block-printed on paper",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "84.5 x 55.5 cm (33 1\/4 x 21 7\/8 in.)\nOverall: 548.6 x 55.9 cm (18 ft. x 22 in.)",
+    "dimensions_raw": {
+        "height": [
+            "84.50",
+            "centimeters"
+        ],
+        "width": [
+            "55.50",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Clifford Murvine, Reed Wallpaper Company",
     "description": "Central motif of a sunflower from a side view alternating with a top view.  Mix of other flowers and buds, also bunches of grapes. Printed in purple on blue ground.",
     "justification": null,
-    "type": {
-        "id": "35256475",
-        "name": "Sidewall"
-    },
+    "woe:country": "23424975",
+    "type": "Sidewall",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/55637_b7210d9aa7a75f03_b.jpg",
                 "width": 623,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/55637_b7210d9aa7a75f03_n.jpg",
-                "width": 195,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "55637"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/55637_b7210d9aa7a75f03_z.jpg",
                 "width": 390,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "55637"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/55637_b7210d9aa7a75f03_n.jpg",
+                "width": 195,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "55637"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/55637_b7210d9aa7a75f03_d.gif",
+                "width": 195,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "55637"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/55637_b7210d9aa7a75f03_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "55637"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/21607_99287f3b647fafe3_b.jpg",
                 "width": 682,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/21607_99287f3b647fafe3_n.jpg",
-                "width": 213,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "21607"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/21607_99287f3b647fafe3_z.jpg",
                 "width": 426,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "21607"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/21607_99287f3b647fafe3_n.jpg",
+                "width": 213,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "21607"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/21607_99287f3b647fafe3_d.gif",
+                "width": 213,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "21607"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/21607_99287f3b647fafe3_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "21607"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18045653",
             "role_id": "35236655",
             "person_name": "Morris & Company, Decorators Ltd.",
+            "person_date": "1875 \u2013 1941",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18045653\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18539129",
             "role_id": "35351535",
             "person_name": "Clifford Murvine",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18539129\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -90,7 +137,9 @@
             "person_id": "18047849",
             "role_id": "35352245",
             "person_name": "Kate Milkin",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047849\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         }
@@ -100,24 +149,35 @@
     },
     "colors": [
         {
-            "color": "#4b7aa4",
-            "closest_css3": "#4682b4"
+            "color": "#4978a1",
+            "closest_crayola": "#2e5894",
+            "closest_css3": "#4682b4",
+            "closest_css4": "#4682b4"
         },
         {
-            "color": "#5f324c",
-            "closest_css3": "#2f4f4f"
+            "color": "#622c44",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#526086",
-            "closest_css3": "#483d8b"
+            "color": "#53587c",
+            "closest_crayola": "#4a646c",
+            "closest_css3": "#483d8b",
+            "closest_css4": "#483d8b"
         },
         {
-            "color": "#57496b",
-            "closest_css3": "#696969"
+            "color": "#564463",
+            "closest_crayola": "#58427c",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#93b4ce",
-            "closest_css3": "#b0c4de"
+            "color": "#99b8d0",
+            "closest_crayola": "#a2add0",
+            "closest_css3": "#b0c4de",
+            "closest_css4": "#b0c4de"
         }
-    ]
+    ],
+    "woe:country_name": "United Kingdom"
 }

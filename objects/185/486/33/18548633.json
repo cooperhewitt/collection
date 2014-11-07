@@ -3,6 +3,7 @@
     "tms:id": "67389",
     "accession_number": "1938-88-6523",
     "title": "Drawing, \"Apotheosis of a Saint\", ca. 1750",
+    "title_raw": "Apotheosis of a Saint",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18548633\/",
     "department_id": "35347493",
     "period_id": "35417089",
@@ -13,39 +14,64 @@
     "year_end": 1760,
     "year_acquired": "1938",
     "decade": null,
-    "woe:country": "23424853",
+    "woe:country_id": "23424853",
     "medium": "Pen and brown ink, brush and wash,  black chalk on cream laid paper",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "Giovanni Piancastelli; Mr. and Mrs. Edward D. Brandegee",
     "dimensions": "32.6 x 42.7 cm (12 13\/16 x 16 13\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "32.60",
+            "centimeters"
+        ],
+        "width": [
+            "42.70",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase through gift of various donors and from Eleanor G. Hewitt Fund",
     "description": "Saint born to heaven by a swirling group of cherubim and angels.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424853",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/35118_80a52c8d2d16975e_b.jpg",
                 "width": 1024,
                 "height": 796,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/35118_80a52c8d2d16975e_n.jpg",
-                "width": 320,
-                "height": 249,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "35118"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/35118_80a52c8d2d16975e_z.jpg",
                 "width": 640,
                 "height": 497,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "35118"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/35118_80a52c8d2d16975e_n.jpg",
+                "width": 320,
+                "height": 249,
+                "is_primary": "1",
+                "image_id": "35118"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/35118_80a52c8d2d16975e_d.gif",
+                "width": 320,
+                "height": 249,
+                "is_primary": "1",
+                "image_id": "35118"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/35118_80a52c8d2d16975e_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "35118"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/16904_ebf035048aa1dc6d_b.jpg",
                 "width": 1024,
                 "height": 776,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/16904_ebf035048aa1dc6d_n.jpg",
-                "width": 320,
-                "height": 243,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "16904"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/16904_ebf035048aa1dc6d_z.jpg",
                 "width": 640,
                 "height": 485,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "16904"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/16904_ebf035048aa1dc6d_n.jpg",
+                "width": 320,
+                "height": 243,
+                "is_primary": "0",
+                "image_id": "16904"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/16904_ebf035048aa1dc6d_d.gif",
+                "width": 320,
+                "height": 243,
+                "is_primary": "0",
+                "image_id": "16904"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/16904_ebf035048aa1dc6d_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "16904"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18055751",
             "role_id": "35352245",
             "person_name": "Amanda Sarroff",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18055751\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18055881",
             "role_id": "35236565",
             "person_name": "Corrado Giaquinto",
+            "person_date": "1703\u20131765",
             "role_name": "Artist",
+            "role_display_name": "",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18055881\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236565\/"
         }
@@ -92,16 +139,23 @@
     },
     "colors": [
         {
-            "color": "#c6ad92",
-            "closest_css3": "#d2b48c"
+            "color": "#cbaf92",
+            "closest_crayola": "#deaa88",
+            "closest_css3": "#d2b48c",
+            "closest_css4": "#d2b48c"
         },
         {
-            "color": "#9e7f68",
-            "closest_css3": "#808080"
+            "color": "#9d7f69",
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#6f5447",
-            "closest_css3": "#696969"
+            "color": "#7c6151",
+            "closest_crayola": "#85754e",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         }
-    ]
+    ],
+    "woe:country_name": "Italy"
 }

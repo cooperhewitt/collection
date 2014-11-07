@@ -3,6 +3,7 @@
     "tms:id": "208643",
     "accession_number": "1995-50-117",
     "title": "Textile, \"Memnon\", ca. 1780",
+    "title_raw": "Memnon",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18666527\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,68 @@
     "year_end": 1790,
     "year_acquired": "1995",
     "decade": null,
-    "woe:country": "23424819",
+    "woe:country_id": "23424819",
     "medium": "Medium: cotton\nTechnique: printed by engraved copper plate on plain weave",
     "markings": null,
     "signed": null,
     "inscribed": "Printed on an open book at the right side, \" MEMNON \/TRAG..\/ DE\/ VO..\"",
     "provenance": null,
     "dimensions": "Warp x Weft (both selvedges present): 254 x 96 cm (8 ft. 4 in. x 37 13\/16 in.)\nRepeat H: 99.7 cm (39 1\/4 in.)",
+    "dimensions_raw": {
+        "height": [
+            "99.70",
+            "centimeters"
+        ],
+        "warp": [
+            "254.00",
+            "centimeters"
+        ],
+        "weft": [
+            "96.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Bequest of Elinor Merrell",
     "description": "Length containing four scenes within foliate cartouches all filled with figures which illustrate a work by Voltaire called \"Memnon\".",
     "justification": null,
-    "type": {
-        "id": "35251739",
-        "name": "textile"
-    },
+    "woe:country": "23424819",
+    "type": "textile",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/12256_7b6338b8f5681d74_b.jpg",
                 "width": 683,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/12256_7b6338b8f5681d74_n.jpg",
-                "width": 213,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "12256"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/12256_7b6338b8f5681d74_z.jpg",
                 "width": 427,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "12256"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/12256_7b6338b8f5681d74_n.jpg",
+                "width": 213,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "12256"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/12256_7b6338b8f5681d74_d.gif",
+                "width": 213,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "12256"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/12256_7b6338b8f5681d74_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "12256"
             }
         }
     ],
@@ -54,7 +84,9 @@
             "person_id": "18049427",
             "role_id": "35351537",
             "person_name": "Elinor Merrell",
+            "person_date": "",
             "role_name": "Bequestor",
+            "role_display_name": "Bequest of",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049427\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351537\/"
         },
@@ -62,7 +94,9 @@
             "person_id": "18046247",
             "role_id": "35236657",
             "person_name": "Dubern & Cie.",
+            "person_date": "",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18046247\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         }
@@ -72,24 +106,35 @@
     },
     "colors": [
         {
-            "color": "#dfbc9b",
-            "closest_css3": "#deb887"
+            "color": "#dabe9c",
+            "closest_crayola": "#e7c697",
+            "closest_css3": "#d2b48c",
+            "closest_css4": "#d2b48c"
         },
         {
-            "color": "#cc9577",
-            "closest_css3": "#e9967a"
+            "color": "#cb876c",
+            "closest_crayola": "#cd9575",
+            "closest_css3": "#e9967a",
+            "closest_css4": "#e9967a"
         },
         {
-            "color": "#b4654d",
-            "closest_css3": "#cd5c5c"
+            "color": "#ae5c44",
+            "closest_crayola": "#b4674d",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         },
         {
-            "color": "#fbefd1",
-            "closest_css3": "#ffefd5"
+            "color": "#793f23",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#8b4513",
+            "closest_css4": "#8b4513"
         },
         {
-            "color": "#720c04",
-            "closest_css3": "#800000"
+            "color": "#560d05",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#800000",
+            "closest_css4": "#800000"
         }
-    ]
+    ],
+    "woe:country_name": "France"
 }

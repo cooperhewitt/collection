@@ -3,6 +3,7 @@
     "tms:id": "108582",
     "accession_number": "1953-179-87-6",
     "title": "Sketchbook Folio, \"Dramatic View of Ocean with Cloudy Sky and Possible Lighthouse\", 1885\u20131902",
+    "title_raw": "Dramatic View of Ocean with Cloudy Sky and Possible Lighthouse",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18396837\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1902,
     "year_acquired": "1953",
     "decade": null,
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Graphite on cream wove paper",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "Anna Richards Brewster, Scarsdale, NY, 1905-1952; William T. Brewster,",
     "dimensions": "13 x 10.7 cm (5 1\/8 x 4 3\/16 in.)\nSheet: 19 x 12.5 cm (7 1\/2 x 4 15\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "19.00",
+            "centimeters"
+        ],
+        "width": [
+            "12.50",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of the National Academy of Design from the Mrs. William T. Brewster Bequest",
     "description": "Rough sketch of choppy ocean. Landmass at right on horizon with possible lighthouse at tip. In sky at right, sun breaking through the clouds.",
     "justification": null,
-    "type": {
-        "id": "35256733",
-        "name": "Sketchbook folio"
-    },
+    "woe:country": "23424977",
+    "type": "Sketchbook folio",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/35757_65913184b3da94c2_b.jpg",
                 "width": 1024,
                 "height": 688,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/35757_65913184b3da94c2_n.jpg",
-                "width": 320,
-                "height": 215,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "35757"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/35757_65913184b3da94c2_z.jpg",
                 "width": 640,
                 "height": 430,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "35757"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/35757_65913184b3da94c2_n.jpg",
+                "width": 320,
+                "height": 215,
+                "is_primary": "1",
+                "image_id": "35757"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/35757_65913184b3da94c2_d.gif",
+                "width": 320,
+                "height": 215,
+                "is_primary": "1",
+                "image_id": "35757"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/35757_65913184b3da94c2_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "35757"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18047465",
             "role_id": "35351535",
             "person_name": "National Academy of Design",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047465\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18042285",
             "role_id": "35236565",
             "person_name": "William Trost Richards",
+            "person_date": "American, 1833\u20131905",
             "role_name": "Artist",
+            "role_display_name": "",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18042285\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236565\/"
         }
@@ -72,20 +102,23 @@
     },
     "colors": [
         {
-            "color": "#d8c9af",
-            "closest_css3": "#c0c0c0"
+            "color": "#b2a69b",
+            "closest_crayola": "#979aaa",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
         },
         {
-            "color": "#ada093",
-            "closest_css3": "#bc8f8f"
+            "color": "#89807a",
+            "closest_crayola": "#757575",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#887f7a",
-            "closest_css3": "#808080"
-        },
-        {
-            "color": "#655f5e",
-            "closest_css3": "#696969"
+            "color": "#67615f",
+            "closest_crayola": "#6e5160",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

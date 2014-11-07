@@ -3,6 +3,7 @@
     "tms:id": "193037",
     "accession_number": "1991-30-40",
     "title": "Salt Or Pepper Shaker, \"American Modern\", 1945\u201355",
+    "title_raw": "American Modern",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18636379\/",
     "department_id": "35347497",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1955,
     "year_acquired": "1991",
     "decade": "1940",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Ceramic",
     "markings": "none",
     "signed": null,
     "inscribed": null,
     "provenance": "Paul F. Walter; 1991: acquired by Museum",
     "dimensions": "H x diam.: 5 x 5.3 cm (1 15\/16 x 2 1\/16 in.)",
+    "dimensions_raw": {
+        "diameter": [
+            "5.30",
+            "centimeters"
+        ],
+        "height": [
+            "5.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Paul F. Walter",
     "description": "Cantaloupe-colored ceramic piece pierced at the top with indentations on the sides.",
     "justification": null,
-    "type": {
-        "id": "51680831",
-        "name": "Salt or pepper shaker"
-    },
+    "woe:country": "23424977",
+    "type": "Salt or pepper shaker",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/43305_4f5a1feee6fd4a3d_b.jpg",
                 "width": 1024,
                 "height": 648,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/43305_4f5a1feee6fd4a3d_n.jpg",
-                "width": 320,
-                "height": 202,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "43305"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/43305_4f5a1feee6fd4a3d_z.jpg",
                 "width": 640,
                 "height": 405,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "43305"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/43305_4f5a1feee6fd4a3d_n.jpg",
+                "width": 320,
+                "height": 202,
+                "is_primary": "1",
+                "image_id": "43305"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/43305_4f5a1feee6fd4a3d_d.gif",
+                "width": 320,
+                "height": 202,
+                "is_primary": "1",
+                "image_id": "43305"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/43305_4f5a1feee6fd4a3d_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "43305"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/11553_fb9e5124e85f6a79_b.jpg",
                 "width": 1024,
                 "height": 629,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/11553_fb9e5124e85f6a79_n.jpg",
-                "width": 320,
-                "height": 197,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "11553"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/11553_fb9e5124e85f6a79_z.jpg",
                 "width": 640,
                 "height": 393,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "11553"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/11553_fb9e5124e85f6a79_n.jpg",
+                "width": 320,
+                "height": 197,
+                "is_primary": "0",
+                "image_id": "11553"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/11553_fb9e5124e85f6a79_d.gif",
+                "width": 320,
+                "height": 197,
+                "is_primary": "0",
+                "image_id": "11553"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/11553_fb9e5124e85f6a79_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "11553"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18041007",
             "role_id": "35351535",
             "person_name": "Paul F. Walter",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041007\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18043357",
             "role_id": "35236655",
             "person_name": "Russel Wright",
+            "person_date": "American, 1904\u20131976",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18043357\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
@@ -92,16 +139,23 @@
     },
     "colors": [
         {
-            "color": "#d0a492",
-            "closest_css3": "#d2b48c"
+            "color": "#c89b89",
+            "closest_crayola": "#cd9575",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         },
         {
-            "color": "#9f7565",
-            "closest_css3": "#808080"
+            "color": "#a07666",
+            "closest_crayola": "#a57164",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#766763",
-            "closest_css3": "#696969"
+            "color": "#786863",
+            "closest_crayola": "#757575",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

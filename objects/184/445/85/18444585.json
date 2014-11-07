@@ -3,6 +3,7 @@
     "tms:id": "132778",
     "accession_number": "1962-50-215",
     "title": "Border, late 16th\u2013early 17th century",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18444585\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": null,
     "year_acquired": "1962",
     "decade": null,
-    "woe:country": "23424853",
+    "woe:country_id": "23424853",
     "medium": "Medium: linen\nTechnique: grid of laid cords with needle lace (reticella style), edge of punto in aria",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "ex-collection: Frances Morris",
     "dimensions": "H x W: 39.3 x 18.3 cm (15 1\/2 x 7 3\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "39.30",
+            "centimeters"
+        ],
+        "width": [
+            "18.30",
+            "centimeters"
+        ]
+    },
     "creditline": "Bequest of Richard Cranch Greenleaf in memory of his mother, Adeline Emma Greenleaf",
     "description": "Wide border of squares bordered at both sides by narrow strips and edged at one side by large, rounded pendants. Modes: portes, brides.",
     "justification": null,
-    "type": {
-        "id": "35237285",
-        "name": "Border"
-    },
+    "woe:country": "23424853",
+    "type": "Border",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/44988_796b8a4b497f0885_b.jpg",
                 "width": 1024,
                 "height": 501,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/44988_796b8a4b497f0885_n.jpg",
-                "width": 320,
-                "height": 156,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "44988"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/44988_796b8a4b497f0885_z.jpg",
                 "width": 640,
                 "height": 313,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "44988"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/44988_796b8a4b497f0885_n.jpg",
+                "width": 320,
+                "height": 156,
+                "is_primary": "1",
+                "image_id": "44988"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/44988_796b8a4b497f0885_d.gif",
+                "width": 320,
+                "height": 156,
+                "is_primary": "1",
+                "image_id": "44988"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/44988_796b8a4b497f0885_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "44988"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/32097_dbea1d944c53e293_b.jpg",
                 "width": 1024,
                 "height": 523,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/32097_dbea1d944c53e293_n.jpg",
-                "width": 320,
-                "height": 164,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "32097"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/32097_dbea1d944c53e293_z.jpg",
                 "width": 640,
                 "height": 327,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "32097"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/32097_dbea1d944c53e293_n.jpg",
+                "width": 320,
+                "height": 164,
+                "is_primary": "0",
+                "image_id": "32097"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/32097_dbea1d944c53e293_d.gif",
+                "width": 320,
+                "height": 164,
+                "is_primary": "0",
+                "image_id": "32097"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/32097_dbea1d944c53e293_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "32097"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18049377",
             "role_id": "35351537",
             "person_name": "Richard Cranch Greenleaf",
+            "person_date": "",
             "role_name": "Bequestor",
+            "role_display_name": "Bequest of",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049377\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351537\/"
         }
@@ -84,24 +129,35 @@
     },
     "colors": [
         {
-            "color": "#e5dac0",
-            "closest_css3": "#f5deb3"
+            "color": "#eee4c9",
+            "closest_crayola": "#efdecd",
+            "closest_css3": "#ffe4c4",
+            "closest_css4": "#ffe4c4"
         },
         {
-            "color": "#b7ab92",
-            "closest_css3": "#a9a9a9"
+            "color": "#443c30",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#605443",
-            "closest_css3": "#556b2f"
+            "color": "#a99e87",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         },
         {
-            "color": "#3b3024",
-            "closest_css3": "#2f4f4f"
+            "color": "#887d69",
+            "closest_crayola": "#8a795d",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#8b7d68",
-            "closest_css3": "#808080"
+            "color": "#695f4f",
+            "closest_crayola": "#6e5160",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         }
-    ]
+    ],
+    "woe:country_name": "Italy"
 }

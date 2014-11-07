@@ -3,6 +3,7 @@
     "tms:id": "211961",
     "accession_number": "1997-19-9",
     "title": "Drawing, \"Design for Citibank\/Citicorp Stationery\", ca. 1975",
+    "title_raw": "Design for Citibank\/Citicorp Stationery",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18673037\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1975,
     "year_acquired": "1997",
     "decade": "1970",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Graphite, color pencil on paper",
     "markings": null,
     "signed": null,
     "inscribed": "Inscribed in graphite, throughout page: CITIBANK.",
     "provenance": "Dan Friedman; Ken Friedman; 1997: acquired by Museum",
     "dimensions": "H x W: 35.5 x 43.1 cm (14 in. x 16 15\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "35.50",
+            "centimeters"
+        ],
+        "width": [
+            "43.10",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Ken Friedman",
     "description": "Sketch depicting 16 designs of various pieces of Citibank stationery. Contains designs for 8 pieces of letterhead, 4 envelopes, 3 business cards, and 1 bank statement. 12 sketches are rendered in graphite, remaining 4 in graphite with blue and orange color pencil. Each design contains slight variations in placement of logo and other information.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424977",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/40287_d8a2545beca893bc_b.jpg",
                 "width": 1024,
                 "height": 849,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/40287_d8a2545beca893bc_n.jpg",
-                "width": 320,
-                "height": 265,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "40287"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/40287_d8a2545beca893bc_z.jpg",
                 "width": 640,
                 "height": 531,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "40287"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/40287_d8a2545beca893bc_n.jpg",
+                "width": 320,
+                "height": 265,
+                "is_primary": "1",
+                "image_id": "40287"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/40287_d8a2545beca893bc_d.gif",
+                "width": 320,
+                "height": 265,
+                "is_primary": "1",
+                "image_id": "40287"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/40287_d8a2545beca893bc_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "40287"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18049807",
             "role_id": "35351535",
             "person_name": "Ken Friedman",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049807\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18041325",
             "role_id": "35236655",
             "person_name": "Dan Friedman",
+            "person_date": "American, 1945\u20131995",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041325\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
@@ -72,8 +102,11 @@
     },
     "colors": [
         {
-            "color": "#8f9198",
-            "closest_css3": "#778899"
+            "color": "#acacad",
+            "closest_crayola": "#b0b7c6",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

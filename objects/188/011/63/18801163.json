@@ -3,6 +3,7 @@
     "tms:id": "180748",
     "accession_number": "1983-88-5",
     "title": "Vase, 1910\u201320",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18801163\/",
     "department_id": "35347497",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1920,
     "year_acquired": "1983",
     "decade": "1910",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Earthenware, bronze",
     "markings": "Impressed on bottom, partial circle mark:  WELLER",
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "H x Diam: 42.9 x 26.7 cm (16 7\/8 x 10 1\/2 in.)",
+    "dimensions_raw": {
+        "diameter": [
+            "26.70",
+            "centimeters"
+        ],
+        "height": [
+            "42.90",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Marcia and William Goodman",
     "description": "Buff clay body, cast.  Amphora form with flaring rim.  High relief decoration of grape clusters and leaves on each side below vine-formed handles.  Electro-deposit of bronze covers surface and foot rim portion of bottom.  Green patination, slightly streaked.",
     "justification": null,
-    "type": {
-        "id": "35237225",
-        "name": "Vase"
-    },
+    "woe:country": "23424977",
+    "type": "Vase",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/10294_087b60ad38742efb_b.jpg",
                 "width": 662,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/10294_087b60ad38742efb_n.jpg",
-                "width": 207,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "10294"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/10294_087b60ad38742efb_z.jpg",
                 "width": 413,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "10294"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/10294_087b60ad38742efb_n.jpg",
+                "width": 207,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "10294"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/10294_087b60ad38742efb_d.gif",
+                "width": 207,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "10294"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/10294_087b60ad38742efb_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "10294"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18538807",
             "role_id": "35352245",
             "person_name": "Vance Koehler",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18538807\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18538741",
             "role_id": "35351535",
             "person_name": "William Goodman",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18538741\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18538739",
             "role_id": "35351535",
             "person_name": "Marcia Goodman",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18538739\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -78,7 +110,9 @@
             "person_id": "18536721",
             "role_id": "35236711",
             "person_name": "Charles Walter Clewell",
+            "person_date": "1876 \u2013 1965",
             "role_name": "Attributed to",
+            "role_display_name": "Attributed to",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18536721\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236711\/"
         },
@@ -86,7 +120,9 @@
             "person_id": "18043973",
             "role_id": "35236657",
             "person_name": "Weller Pottery",
+            "person_date": "",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18043973\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         }
@@ -96,24 +132,35 @@
     },
     "colors": [
         {
-            "color": "#f3ca6f",
-            "closest_css3": "#deb887"
+            "color": "#e2bb6c",
+            "closest_crayola": "#faa76c",
+            "closest_css3": "#deb887",
+            "closest_css4": "#deb887"
         },
         {
-            "color": "#55310e",
-            "closest_css3": "#8b4513"
+            "color": "#694a30",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         },
         {
-            "color": "#815d27",
-            "closest_css3": "#8b4513"
+            "color": "#a27a30",
+            "closest_crayola": "#9c7c38",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         },
         {
-            "color": "#a07934",
-            "closest_css3": "#a0522d"
+            "color": "#815e26",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#8b4513",
+            "closest_css4": "#8b4513"
         },
         {
-            "color": "#864821",
-            "closest_css3": "#8b4513"
+            "color": "#452711",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#800000",
+            "closest_css4": "#800000"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

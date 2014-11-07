@@ -3,6 +3,7 @@
     "tms:id": "6081",
     "accession_number": "1896-3-4",
     "title": "Print, \"Bacchanal\", ca. 1500",
+    "title_raw": "Bacchanal",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18098925\/",
     "department_id": "35347493",
     "period_id": "35417073",
@@ -13,39 +14,64 @@
     "year_end": 1510,
     "year_acquired": "1896",
     "decade": null,
-    "woe:country": "23424853",
+    "woe:country_id": "23424853",
     "medium": "Engraving, possible addition of brown ink on off-white laid paper",
     "markings": null,
     "signed": null,
     "inscribed": "inscribed in pen and brown ink, verso: P. Hicob[---]; in graphite, verso: Andreas Mantegna italien maler kupfersticher\/ geboren 1431\/ gest. 1506; in graphite, center, verso: bacchanal a la [---]; in graphite, at bottom, verso: geb. 1431 No. 144\/ XIII p. 240 N. 19",
     "provenance": "Wiesb ck (Lugt 2576); George Campbell Cooper",
     "dimensions": "Overall: 30 x 44.2cm (11 13\/16 x 17 3\/8in.)\nMat: 40.6 x 55.9 cm (16 x 22 in.)",
+    "dimensions_raw": {
+        "height": [
+            "30.00",
+            "centimeters"
+        ],
+        "width": [
+            "55.90",
+            "centimeters"
+        ]
+    },
     "creditline": "Bequest of George Campbell Cooper",
     "description": "Beneath an apple tree intertwined with grape wines, six men, one satyr, and four putti indulge in wine from a large barrel used prior for crushing grapes. From left to right, the following happens: a distracted putto looks away; a man sitting atop the shoulders of another man passes on a laurel wreath to the third, who takes it in one hand, while holding a Horn of Plenty with the other; a satyr in the background drinks from a jug; a man leaning on the barrel sings in the ear of another swooning over the barrel's edge; two putty are asleep below the barrel, while a third tries to climb inside it; two men, one sitting on the edge of the barrel, sounds the horn while holding a cup, and a second man drinks from a bowl while wetting his toe in the spring of wine flowing out of the barrel, pulling the horn out of the first man's mouth. The whole scene is horizontally arranged in a shallow space, between indoors and outdoors - likely a courtyard.",
     "justification": null,
-    "type": {
-        "id": "35236873",
-        "name": "Print"
-    },
+    "woe:country": "23424853",
+    "type": "Print",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/30835_0e5bb42ce87afd30_b.jpg",
                 "width": 1024,
                 "height": 768,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/30835_0e5bb42ce87afd30_n.jpg",
-                "width": 320,
-                "height": 240,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "30835"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/30835_0e5bb42ce87afd30_z.jpg",
                 "width": 640,
                 "height": 480,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "30835"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/30835_0e5bb42ce87afd30_n.jpg",
+                "width": 320,
+                "height": 240,
+                "is_primary": "1",
+                "image_id": "30835"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/30835_0e5bb42ce87afd30_d.gif",
+                "width": 320,
+                "height": 240,
+                "is_primary": "1",
+                "image_id": "30835"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/30835_0e5bb42ce87afd30_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "30835"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18049767",
             "role_id": "35351537",
             "person_name": "George Campbell Cooper",
+            "person_date": "",
             "role_name": "Bequestor",
+            "role_display_name": "Bequest of",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049767\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351537\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18047445",
             "role_id": "35352245",
             "person_name": "ED",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047445\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18047443",
             "role_id": "35352245",
             "person_name": "Megan L. Smith",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047443\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -78,7 +110,9 @@
             "person_id": "18042645",
             "role_id": "35236565",
             "person_name": "Andrea Mantegna",
+            "person_date": "1431 \u2013 1506",
             "role_name": "Artist",
+            "role_display_name": "",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18042645\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236565\/"
         }
@@ -88,24 +122,35 @@
     },
     "colors": [
         {
-            "color": "#a19c96",
-            "closest_css3": "#a9a9a9"
+            "color": "#7e7771",
+            "closest_crayola": "#757575",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#777279",
-            "closest_css3": "#808080"
+            "color": "#58554b",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         },
         {
-            "color": "#4f4b41",
-            "closest_css3": "#2f4f4f"
+            "color": "#554f55",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#818177",
-            "closest_css3": "#808080"
+            "color": "#3c3630",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#5c545c",
-            "closest_css3": "#696969"
+            "color": "#938a91",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         }
-    ]
+    ],
+    "woe:country_name": "Italy"
 }

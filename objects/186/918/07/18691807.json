@@ -2,7 +2,8 @@
     "id": "18691807",
     "tms:id": "221431",
     "accession_number": "2006-2-37",
-    "title": "Button, \"\"Crated Fruit\"\", 1947",
+    "title": "Button, \"Crated Fruit\", 1947",
+    "title_raw": "\"Crated Fruit\"",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18691807\/",
     "department_id": "35347497",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1947,
     "year_acquired": "2006",
     "decade": "1940",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Celluloid",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "Marion Weeber Welsh; 2006: acquired by Museum",
     "dimensions": "H x W: 25.3 x 20.8 cm (9 15\/16 x 8 3\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "25.30",
+            "centimeters"
+        ],
+        "width": [
+            "20.80",
+            "centimeters"
+        ]
+    },
     "creditline": "Bequest of Marion Weeber Welsh",
     "description": "9 buttons on a board depicting a two-dimensional fruit crate reminiscent of wood on a green ground. In an oval above is text in black: \u201cLa Mode\u201d; in box is title: \u201cCrated \/ Fruit \/ DESIGNED BY \/ Marion Weeber.\u201d Each button is in the shape of an open crate filled with various fruits, such as bananas, peaches, pears, and grapes. Trademark symbol of artist on left in shape of palette that reads: \u201cREGISTERED DESIGN \/ Marion Weeber \/ AMERICAN ARTIST\u201d.",
     "justification": null,
-    "type": {
-        "id": "35237135",
-        "name": "button"
-    },
+    "woe:country": "23424977",
+    "type": "button",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/26367_1f93cb9462a608e0_b.jpg",
                 "width": 856,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/26367_1f93cb9462a608e0_n.jpg",
-                "width": 268,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "26367"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/26367_1f93cb9462a608e0_z.jpg",
                 "width": 535,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "26367"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/26367_1f93cb9462a608e0_n.jpg",
+                "width": 268,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "26367"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/26367_1f93cb9462a608e0_d.gif",
+                "width": 268,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "26367"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/26367_1f93cb9462a608e0_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "26367"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/24601_cbb8cdd3e15dcb4b_b.jpg",
                 "width": 811,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/24601_cbb8cdd3e15dcb4b_n.jpg",
-                "width": 253,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "24601"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/24601_cbb8cdd3e15dcb4b_z.jpg",
                 "width": 507,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "24601"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/24601_cbb8cdd3e15dcb4b_n.jpg",
+                "width": 253,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "24601"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/24601_cbb8cdd3e15dcb4b_d.gif",
+                "width": 253,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "24601"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/24601_cbb8cdd3e15dcb4b_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "24601"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18060729",
             "role_id": "35236657",
             "person_name": "B. Blumenthal & Co.",
+            "person_date": "",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18060729\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18536241",
             "role_id": "35236655",
             "person_name": "Marion Weeber Welsh",
+            "person_date": "1905\u20132000",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18536241\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -90,7 +137,9 @@
             "person_id": "18536243",
             "role_id": "35352255",
             "person_name": "Mary Ann O'Toole",
+            "person_date": "",
             "role_name": "Executor",
+            "role_display_name": "Executed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18536243\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352255\/"
         },
@@ -98,34 +147,47 @@
             "person_id": "18536241",
             "role_id": "35351537",
             "person_name": "Marion Weeber Welsh",
+            "person_date": "1905\u20132000",
             "role_name": "Bequestor",
+            "role_display_name": "Bequest of",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18536241\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351537\/"
         }
     ],
     "tombstone": {
-        "epitaph": "Button, \"\"Crated Fruit\"\", 1947. Celluloid. Bequest of Marion Weeber Welsh. 2006-2-37."
+        "epitaph": "Button, \"Crated Fruit\", 1947. Celluloid. Bequest of Marion Weeber Welsh. 2006-2-37."
     },
     "colors": [
         {
-            "color": "#384c3f",
-            "closest_css3": "#2f4f4f"
-        },
-        {
             "color": "#c19d6f",
-            "closest_css3": "#bdb76b"
+            "closest_crayola": "#cd9575",
+            "closest_css3": "#bdb76b",
+            "closest_css4": "#bdb76b"
         },
         {
-            "color": "#97754e",
-            "closest_css3": "#a0522d"
+            "color": "#3f5546",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#634b32",
-            "closest_css3": "#556b2f"
+            "color": "#22352a",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#beb5a4",
-            "closest_css3": "#a9a9a9"
+            "color": "#94734c",
+            "closest_crayola": "#85754e",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
+        },
+        {
+            "color": "#5c3f27",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

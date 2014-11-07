@@ -3,6 +3,7 @@
     "tms:id": "68016",
     "accession_number": "1938-88-7075",
     "title": "Drawing, \"Study for a Painted Wall Decoration:  Two Putti beside a Vase with Flowers\", ca. 1720",
+    "title_raw": "Study for a Painted Wall Decoration:  Two Putti beside a Vase with Flowers",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18550171\/",
     "department_id": "35347493",
     "period_id": "35417113",
@@ -13,39 +14,64 @@
     "year_end": 1730,
     "year_acquired": "1938",
     "decade": null,
-    "woe:country": "23424853",
+    "woe:country_id": "23424853",
     "medium": "Pen and wash with brown ink and black chalk, on off-white paper, lined",
     "markings": null,
     "signed": "Signed and dated in lower right corner.",
     "inscribed": null,
     "provenance": "Giovanni Piancastelli",
     "dimensions": "23.7 x 18.7 cm (9 5\/16 x 7 3\/8 in.)",
+    "dimensions_raw": {
+        "height": [
+            "23.70",
+            "centimeters"
+        ],
+        "width": [
+            "18.70",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase through gift of various donors and from Eleanor G. Hewitt Fund",
     "description": "The rose stands upon a pedestal behind the top of a triangular moulding. The left putto kneels, the right one sits. They carry a rope which swings from the vase.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424853",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/35134_f97e04894adc5105_b.jpg",
                 "width": 788,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/35134_f97e04894adc5105_n.jpg",
-                "width": 246,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "35134"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/35134_f97e04894adc5105_z.jpg",
                 "width": 493,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "35134"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/35134_f97e04894adc5105_n.jpg",
+                "width": 246,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "35134"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/35134_f97e04894adc5105_d.gif",
+                "width": 246,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "35134"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/35134_f97e04894adc5105_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "35134"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/16933_1de01f320dbcd44e_b.jpg",
                 "width": 783,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/16933_1de01f320dbcd44e_n.jpg",
-                "width": 245,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "16933"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/16933_1de01f320dbcd44e_z.jpg",
                 "width": 489,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "16933"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/16933_1de01f320dbcd44e_n.jpg",
+                "width": 245,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "16933"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/16933_1de01f320dbcd44e_d.gif",
+                "width": 245,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "16933"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/16933_1de01f320dbcd44e_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "16933"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18055879",
             "role_id": "35236565",
             "person_name": "Antonio di Dominici",
+            "person_date": "ca. 1730\u2013after 1800",
             "role_name": "Artist",
+            "role_display_name": "",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18055879\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236565\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18055751",
             "role_id": "35352245",
             "person_name": "Amanda Sarroff",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18055751\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         }
@@ -92,16 +139,23 @@
     },
     "colors": [
         {
-            "color": "#beaa8f",
-            "closest_css3": "#d2b48c"
+            "color": "#c4b197",
+            "closest_crayola": "#deaa88",
+            "closest_css3": "#d2b48c",
+            "closest_css4": "#d2b48c"
         },
         {
-            "color": "#9c8367",
-            "closest_css3": "#808080"
+            "color": "#a28b70",
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#78624e",
-            "closest_css3": "#696969"
+            "color": "#7f6852",
+            "closest_crayola": "#85754e",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         }
-    ]
+    ],
+    "woe:country_name": "Italy"
 }

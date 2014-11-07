@@ -3,6 +3,7 @@
     "tms:id": "189306",
     "accession_number": "1988-62-103",
     "title": "Drawing, \"Mittagstee: Black with Maroon and Green\", 1910\u201319",
+    "title_raw": "Mittagstee: Black with Maroon and Green",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18628931\/",
     "department_id": "35347493",
     "period_id": "35417049",
@@ -13,39 +14,64 @@
     "year_end": 1919,
     "year_acquired": "1988",
     "decade": "1910",
-    "woe:country": "23424750",
+    "woe:country_id": "23424750",
     "medium": "Brush and gouache on cream illustration board",
     "markings": "Stamp in red ink, lower right: WIENER \/ WERKE \/ ST\u00c4TTE; inscribed in blue crayon, upper right: 43",
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "7.5 x 21.4 cm (2 15\/16 x 8 7\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "32.50",
+            "centimeters"
+        ],
+        "width": [
+            "46.20",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase from Smithsonian Collections Acquisition and Decorative Arts Association Acquisition Funds",
     "description": "Three flowers with red stems; one in red and purple, another in teal and blue, and another in light orange, all outlined in gray, on a black background with a partial diamond pattern.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424750",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/27119_8f1aa70071809fbd_b.jpg",
                 "width": 1024,
                 "height": 709,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/27119_8f1aa70071809fbd_n.jpg",
-                "width": 320,
-                "height": 222,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "27119"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/27119_8f1aa70071809fbd_z.jpg",
                 "width": 640,
                 "height": 443,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "27119"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/27119_8f1aa70071809fbd_n.jpg",
+                "width": 320,
+                "height": 222,
+                "is_primary": "1",
+                "image_id": "27119"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/27119_8f1aa70071809fbd_d.gif",
+                "width": 320,
+                "height": 222,
+                "is_primary": "1",
+                "image_id": "27119"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/27119_8f1aa70071809fbd_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "27119"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "51676457",
             "role_id": "35352245",
             "person_name": "Karin Zonis",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/51676457\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18049365",
             "role_id": "35352247",
             "person_name": "Decorative Arts Association Acquisition Fund",
+            "person_date": "founded 1982, closed September 30, 1998",
             "role_name": "Fund",
+            "role_display_name": "Fund:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049365\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352247\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18538455",
             "role_id": "35352249",
             "person_name": "Wolfgang Ruf",
+            "person_date": "",
             "role_name": "Vendor",
+            "role_display_name": "Purchased from",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18538455\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352249\/"
         },
@@ -78,7 +110,9 @@
             "person_id": "18048101",
             "role_id": "35236675",
             "person_name": "Wiener Werkst\u00e4tte",
+            "person_date": "Vienna, Austria, 1903\u20131932",
             "role_name": "For",
+            "role_display_name": "Made for",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18048101\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236675\/"
         },
@@ -86,7 +120,9 @@
             "person_id": "18050231",
             "role_id": "35236655",
             "person_name": "Mathilde Flogl",
+            "person_date": "German, 1891\u20131950",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18050231\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
@@ -96,24 +132,35 @@
     },
     "colors": [
         {
-            "color": "#cac8a4",
-            "closest_css3": "#c0c0c0"
+            "color": "#cbc9a7",
+            "closest_crayola": "#cdc5c2",
+            "closest_css3": "#c0c0c0",
+            "closest_css4": "#c0c0c0"
         },
         {
-            "color": "#392c1a",
-            "closest_css3": "#2f4f4f"
+            "color": "#362e1b",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#582b1c",
-            "closest_css3": "#8b4513"
+            "color": "#59291a",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#8b4513",
+            "closest_css4": "#8b4513"
         },
         {
-            "color": "#4b69a0",
-            "closest_css3": "#4682b4"
+            "color": "#49679a",
+            "closest_crayola": "#2e5894",
+            "closest_css3": "#4682b4",
+            "closest_css4": "#4682b4"
         },
         {
-            "color": "#c23e27",
-            "closest_css3": "#b22222"
+            "color": "#bf3928",
+            "closest_crayola": "#cd4a4c",
+            "closest_css3": "#b22222",
+            "closest_css4": "#b22222"
         }
-    ]
+    ],
+    "woe:country_name": "Austria"
 }

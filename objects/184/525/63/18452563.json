@@ -3,6 +3,7 @@
     "tms:id": "136810",
     "accession_number": "1965-33-24",
     "title": "Embroidered Picture, 18th century",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18452563\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": null,
     "year_acquired": "1965",
     "decade": null,
-    "woe:country": null,
+    "woe:country_id": null,
     "medium": "Medium: silk on silk\nTechnique: stem stich and laid work embroidery, couching",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "H x W: 20.5 x 16 cm (8 1\/16 x 6 5\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "20.50",
+            "centimeters"
+        ],
+        "width": [
+            "16.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Albright-Knox Art Gallery",
     "description": "Small pictorial embroidery. Figure of a man dressed in robes, seated at a table examining scrolls; crucifix on table. Building with rougn arched doors; part of landscape beyond; sky painted blue on foundation silk. Pig under table indicates St. Anthony of Egypt. Colors in shades of light brown, grey, green and blue.",
     "justification": null,
-    "type": {
-        "id": "35259407",
-        "name": "Embroidered picture"
-    },
+    "woe:country": null,
+    "type": "Embroidered picture",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/65433_788985401d22d560_b.jpg",
                 "width": 798,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/65433_788985401d22d560_n.jpg",
-                "width": 249,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "65433"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/65433_788985401d22d560_z.jpg",
                 "width": 499,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "65433"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/65433_788985401d22d560_n.jpg",
+                "width": 249,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "65433"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/65433_788985401d22d560_d.gif",
+                "width": 249,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "65433"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/65433_788985401d22d560_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "65433"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/74828_dec83cdcb3307aab_b.jpg",
                 "width": 663,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/74828_dec83cdcb3307aab_n.jpg",
-                "width": 207,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "74828"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/74828_dec83cdcb3307aab_z.jpg",
                 "width": 414,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "74828"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/74828_dec83cdcb3307aab_n.jpg",
+                "width": 207,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "74828"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/74828_dec83cdcb3307aab_d.gif",
+                "width": 207,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "74828"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/74828_dec83cdcb3307aab_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "74828"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18043387",
             "role_id": "35351535",
             "person_name": "Albright-Knox Art Gallery",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18043387\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -84,24 +129,34 @@
     },
     "colors": [
         {
-            "color": "#c0ac7d",
-            "closest_css3": "#bdb76b"
+            "color": "#a08654",
+            "closest_crayola": "#a57164",
+            "closest_css3": "#cd853f",
+            "closest_css4": "#cd853f"
         },
         {
-            "color": "#a68a58",
-            "closest_css3": "#cd853f"
+            "color": "#e8e1cb",
+            "closest_crayola": "#efdecd",
+            "closest_css3": "#dcdcdc",
+            "closest_css4": "#dcdcdc"
         },
         {
-            "color": "#ded5c0",
-            "closest_css3": "#d3d3d3"
+            "color": "#bfac7f",
+            "closest_crayola": "#bab86c",
+            "closest_css3": "#bdb76b",
+            "closest_css4": "#bdb76b"
         },
         {
-            "color": "#7b6847",
-            "closest_css3": "#696969"
+            "color": "#7e6b4a",
+            "closest_crayola": "#85754e",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#a3ac92",
-            "closest_css3": "#a9a9a9"
+            "color": "#a4ac8f",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#8fbc8f",
+            "closest_css4": "#8fbc8f"
         }
     ]
 }

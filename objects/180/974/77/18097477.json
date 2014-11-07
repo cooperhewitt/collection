@@ -3,6 +3,7 @@
     "tms:id": "5867",
     "accession_number": "1896-3-206",
     "title": "Print, \"S.Marcvs [Saint Mark]\", 1650",
+    "title_raw": "S.Marcvs [Saint Mark]",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18097477\/",
     "department_id": "35347493",
     "period_id": "35417081",
@@ -13,39 +14,64 @@
     "year_end": 1650,
     "year_acquired": "1896",
     "decade": null,
-    "woe:country": "23424909",
+    "woe:country_id": "23424909",
     "medium": "Engraving on off-white laid paper",
     "markings": "Collector's mark: verso, 'P. Mariette 1670\" [Lugt 1790]\nVerso: The Cooper Union Museum stamp [Lugt 457e]",
     "signed": "Signed in margin in plate lower left:  Corn. Vischer Inveniebat; lower right:  Corn. Vischer Sculpebat\/et Excudebat Harlem 1650.",
     "inscribed": "Inscribed, lower left: \"Corn. Vischer inveniebat\", lower right: \"Corn. Vischer Sculpebat\/et Execudebat Harlem 1650; on verso across bottom of sheet in graphite, various numerical notations.",
     "provenance": "George Campbell Cooper\nP. Mariette",
     "dimensions": "Sheet: 25.4 x 19.8 cm (10 x 7 13\/16 in.)\nImage: 22.9 x 18.8 cm (9 x 7 3\/8 in.)",
+    "dimensions_raw": {
+        "height": [
+            "22.90",
+            "centimeters"
+        ],
+        "width": [
+            "18.80",
+            "centimeters"
+        ]
+    },
     "creditline": "Bequest of George Campbell Cooper",
     "description": "St. Mark is presented seated at a table on which his pen, ink pot, book and papers are placed. He holds his hand to his chest and looks toward the right. He is accompanied by his attribute, the lion who appears at left, just behind the Saint's shoulder.",
     "justification": null,
-    "type": {
-        "id": "35236873",
-        "name": "Print"
-    },
+    "woe:country": "23424909",
+    "type": "Print",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/21824_6a603a3afcd543d1_b.jpg",
                 "width": 791,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/21824_6a603a3afcd543d1_n.jpg",
-                "width": 247,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "21824"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/21824_6a603a3afcd543d1_z.jpg",
                 "width": 495,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "21824"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/21824_6a603a3afcd543d1_n.jpg",
+                "width": 247,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "21824"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/21824_6a603a3afcd543d1_d.gif",
+                "width": 247,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "21824"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/21824_6a603a3afcd543d1_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "21824"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18042813",
             "role_id": "35236565",
             "person_name": "Cornelis Visscher",
+            "person_date": "Netherlandish, 1619 or 1629 \u2013 1662",
             "role_name": "Artist",
+            "role_display_name": "",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18042813\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236565\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18049767",
             "role_id": "35351537",
             "person_name": "George Campbell Cooper",
+            "person_date": "",
             "role_name": "Bequestor",
+            "role_display_name": "Bequest of",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049767\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351537\/"
         }
@@ -72,20 +102,35 @@
     },
     "colors": [
         {
-            "color": "#2b2a27",
-            "closest_css3": "#2f4f4f"
+            "color": "#bdb5a1",
+            "closest_crayola": "#b0b7c6",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
         },
         {
-            "color": "#575248",
-            "closest_css3": "#556b2f"
+            "color": "#302e2b",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#786f63",
-            "closest_css3": "#696969"
+            "color": "#908979",
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#ada492",
-            "closest_css3": "#a9a9a9"
+            "color": "#736d60",
+            "closest_crayola": "#757575",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
+        },
+        {
+            "color": "#544f47",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         }
-    ]
+    ],
+    "woe:country_name": "Netherlands"
 }

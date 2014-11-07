@@ -3,6 +3,7 @@
     "tms:id": "23741",
     "accession_number": "1917-4-878",
     "title": "Drawing, \"Botanical Studies with Flying Parrots, Boquia, Colombia\", July 1853",
+    "title_raw": "Botanical Studies with Flying Parrots, Boquia, Colombia",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18202559\/",
     "department_id": "35347493",
     "period_id": "35417175",
@@ -13,39 +14,64 @@
     "year_end": null,
     "year_acquired": "1917",
     "decade": null,
-    "woe:country": "23424787",
+    "woe:country_id": "23424787",
     "medium": "Graphite on tan-colored paper",
     "markings": "Watermark:  [JOH] ANNOT\nRecto:  Stamped in ink, at lower left: Lugt 457c\nVerso:  Stamped in ink, at lower center: Lugt 457d",
     "signed": null,
     "inscribed": "Inscribed in graphite, at upper center:  Parrots; again, at center left:  2 - dead leaves of a \/ Brownish straw color \/ 3 Large bunches \/ of brilliant \/ scarlet berries \/ Coroso; again, at left center:  This tree \/ grows in many \/ beautiful forms \/ often resembling \/ the Elm, with a \/ multiplicity of \/ branches which \/ are more ir-regular \/ than the Elm I - \/ Branches at top \/ vandyke brown; again, at center right:  Dark green main \/ rib of leaf light green \/ - bush -; again, at lower left:  2 whitish grey green very \/ distinct from the mass of \/ green  - in clustered \/ masses; again, at lower center:  2 dead \/ About 15 ft \/ high leaves very \/ large; again, at lower right:  The same \/ Under side \/ of leaf very strongly \/ ribbed in - relief;  and again, at bottom right:  Boquia N. Granada \/ July - I 53",
     "provenance": null,
     "dimensions": "Sheet: 31.8 x 46.7 cm (12 1\/2 x 18 3\/8 in.)",
+    "dimensions_raw": {
+        "height": [
+            "31.80",
+            "centimeters"
+        ],
+        "width": [
+            "46.70",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Louis P. Church",
     "description": "Horizontal sheet  with tree flying parrots at the top, followed by two rows with each  containing three botanical sketches.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424787",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/27283_80ded4481ecdfe06_b.jpg",
                 "width": 1024,
                 "height": 801,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/27283_80ded4481ecdfe06_n.jpg",
-                "width": 320,
-                "height": 250,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "27283"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/27283_80ded4481ecdfe06_z.jpg",
                 "width": 640,
                 "height": 500,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "27283"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/27283_80ded4481ecdfe06_n.jpg",
+                "width": 320,
+                "height": 250,
+                "is_primary": "1",
+                "image_id": "27283"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/27283_80ded4481ecdfe06_d.gif",
+                "width": 320,
+                "height": 250,
+                "is_primary": "1",
+                "image_id": "27283"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/27283_80ded4481ecdfe06_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "27283"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18061203",
             "role_id": "35352245",
             "person_name": "Lillian Hill Clagett",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18061203\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18052081",
             "role_id": "35352245",
             "person_name": "Dr. Rudolph Berliner - do not use",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18052081\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18041941",
             "role_id": "35236565",
             "person_name": "Frederic Edwin Church",
+            "person_date": "American, 1826\u20131900",
             "role_name": "Artist",
+            "role_display_name": "",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041941\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236565\/"
         },
@@ -78,7 +110,9 @@
             "person_id": "18051625",
             "role_id": "35351535",
             "person_name": "Louis P. Church",
+            "person_date": "American, 1870\u20131943",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18051625\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -88,8 +122,11 @@
     },
     "colors": [
         {
-            "color": "#b3a188",
-            "closest_css3": "#bc8f8f"
+            "color": "#b5a38a",
+            "closest_crayola": "#cd9575",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         }
-    ]
+    ],
+    "woe:country_name": "Colombia"
 }

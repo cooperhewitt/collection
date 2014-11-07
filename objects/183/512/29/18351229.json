@@ -3,6 +3,7 @@
     "tms:id": "59139",
     "accession_number": "1938-57-890",
     "title": "Drawing, \"Portrait of Sarah Cooper Hewitt in French Costume\", 1899",
+    "title_raw": "Portrait of Sarah Cooper Hewitt in French Costume",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18351229\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1899,
     "year_acquired": "1938",
     "decade": null,
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Pastel on paper mounted on linen",
     "markings": null,
     "signed": "At right next to image: Carroll Beckwith",
     "inscribed": "At right in pastel: \u00e0 Mlle Hewitt \/ Souvenir \/ du 5 Avril 99 \/ Carroll Beckwith.",
     "provenance": "Erskin Hewitt; 1938: bequested to Museum",
     "dimensions": "(oval): 24 1\/2 x 19 in. (62.2 x 48.3 cm)",
+    "dimensions_raw": {
+        "height": [
+            "62.20",
+            "centimeters"
+        ],
+        "width": [
+            "48.30",
+            "centimeters"
+        ]
+    },
     "creditline": "Bequest of Erskine Hewitt",
     "description": "Three quarter protrait of a woman wearing a black hat, facing left. She is dressed in a blue coat, yellow skirt and white jabot. On her right arm she supports a brass hunting horn.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424977",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/84996_1d77944826648a7f_b.jpg",
                 "width": 798,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/84996_1d77944826648a7f_n.jpg",
-                "width": 249,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "84996"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/84996_1d77944826648a7f_z.jpg",
                 "width": 499,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "84996"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/84996_1d77944826648a7f_n.jpg",
+                "width": 249,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "84996"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/84996_1d77944826648a7f_d.gif",
+                "width": 249,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "84996"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/84996_1d77944826648a7f_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "84996"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/23844_a53f1a5b3b962de0_b.jpg",
                 "width": 815,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/23844_a53f1a5b3b962de0_n.jpg",
-                "width": 255,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "23844"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/23844_a53f1a5b3b962de0_z.jpg",
                 "width": 509,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "23844"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/23844_a53f1a5b3b962de0_n.jpg",
+                "width": 255,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "23844"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/23844_a53f1a5b3b962de0_d.gif",
+                "width": 255,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "23844"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/23844_a53f1a5b3b962de0_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "23844"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18050021",
             "role_id": "35351537",
             "person_name": "Erskine Hewitt",
+            "person_date": "American, 1871\u20131938",
             "role_name": "Bequestor",
+            "role_display_name": "Bequest of",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18050021\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351537\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18050447",
             "role_id": "35236565",
             "person_name": "J. Carroll Beckwith",
+            "person_date": "American, 1852\u20131917",
             "role_name": "Artist",
+            "role_display_name": "",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18050447\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236565\/"
         }
@@ -92,24 +139,35 @@
     },
     "colors": [
         {
-            "color": "#bdb5b0",
-            "closest_css3": "#c0c0c0"
+            "color": "#beb5ae",
+            "closest_crayola": "#b0b7c6",
+            "closest_css3": "#c0c0c0",
+            "closest_css4": "#c0c0c0"
         },
         {
-            "color": "#746f64",
-            "closest_css3": "#696969"
+            "color": "#8a8077",
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#b4a086",
-            "closest_css3": "#bc8f8f"
+            "color": "#86a5a8",
+            "closest_crayola": "#979aaa",
+            "closest_css3": "#8fbc8f",
+            "closest_css4": "#8fbc8f"
         },
         {
-            "color": "#9eb6b9",
-            "closest_css3": "#a9a9a9"
+            "color": "#696359",
+            "closest_crayola": "#6e5160",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#c9aa65",
-            "closest_css3": "#bdb76b"
+            "color": "#d9c685",
+            "closest_crayola": "#e7c697",
+            "closest_css3": "#deb887",
+            "closest_css4": "#deb887"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

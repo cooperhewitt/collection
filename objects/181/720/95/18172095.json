@@ -3,6 +3,7 @@
     "tms:id": "18499",
     "accession_number": "1911-28-446",
     "title": "Drawing, \"Section of the Wings and Elevation of a Wall on the Court, Palazzo Farnese, Rome\", ca. 1750",
+    "title_raw": "Section of the Wings and Elevation of a Wall on the Court, Palazzo Farnese, Rome",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18172095\/",
     "department_id": "35347493",
     "period_id": "35417089",
@@ -13,39 +14,64 @@
     "year_end": 1760,
     "year_acquired": "1911",
     "decade": null,
-    "woe:country": "23424819",
+    "woe:country_id": "23424819",
     "medium": "Pen and brown ink, brush and gray, red wash, over black chalk on paper, lined",
     "markings": null,
     "signed": null,
     "inscribed": "Indication of scale in \"pouces\" and \"pieds\" in pen and brown ink, notations of measurements throughout",
     "provenance": "Leon Decloux; 1911: acquired by Museum",
     "dimensions": "24.6 x 53 cm (9 11\/16 x 20 7\/8 in.)\nMat: 55.6 x 71.1 cm (21 7\/8 in. x 28 in.)",
+    "dimensions_raw": {
+        "height": [
+            "24.60",
+            "centimeters"
+        ],
+        "width": [
+            "53.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Purchased for the Museum by the Advisory Council",
     "description": "Section of a large, three-story building.  Section through the middle line of the court, the vestibule being at the left.  The elevation of the southeastern side of the court and section of the main and the rear wings are shown.  Measurements are inscribed.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424819",
+    "type": "Drawing",
     "images": [
         {
             "b": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/88508_12b03b6789ec553a_b.jpg",
+                "url": "http:\/\/images.collection.cooperhewitt.org\/88508_085f3c9233bc59ac_b.jpg",
                 "width": 1024,
-                "height": 475,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/88508_12b03b6789ec553a_n.jpg",
-                "width": 320,
-                "height": 148,
-                "is_primary": "1"
+                "height": 469,
+                "is_primary": "1",
+                "image_id": "88508"
             },
             "z": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/88508_12b03b6789ec553a_z.jpg",
+                "url": "http:\/\/images.collection.cooperhewitt.org\/88508_085f3c9233bc59ac_z.jpg",
                 "width": 640,
-                "height": 297,
-                "is_primary": "1"
+                "height": 293,
+                "is_primary": "1",
+                "image_id": "88508"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/88508_085f3c9233bc59ac_n.jpg",
+                "width": 320,
+                "height": 147,
+                "is_primary": "1",
+                "image_id": "88508"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/88508_085f3c9233bc59ac_d.gif",
+                "width": 320,
+                "height": 147,
+                "is_primary": "1",
+                "image_id": "88508"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/88508_085f3c9233bc59ac_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "88508"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/18990_ff120e1c21d8e92e_b.jpg",
                 "width": 1024,
                 "height": 527,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/18990_ff120e1c21d8e92e_n.jpg",
-                "width": 320,
-                "height": 165,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "18990"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/18990_ff120e1c21d8e92e_z.jpg",
                 "width": 640,
                 "height": 329,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "18990"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/18990_ff120e1c21d8e92e_n.jpg",
+                "width": 320,
+                "height": 165,
+                "is_primary": "0",
+                "image_id": "18990"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/18990_ff120e1c21d8e92e_d.gif",
+                "width": 320,
+                "height": 165,
+                "is_primary": "0",
+                "image_id": "18990"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/18990_ff120e1c21d8e92e_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "18990"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18049621",
             "role_id": "35351535",
             "person_name": "Advisory Council",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049621\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18042681",
             "role_id": "35236663",
             "person_name": "Unknown",
+            "person_date": "",
             "role_name": "Architect",
+            "role_display_name": "Architect:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18042681\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236663\/"
         }
@@ -92,16 +139,23 @@
     },
     "colors": [
         {
-            "color": "#9c896f",
-            "closest_css3": "#808080"
+            "color": "#c7b597",
+            "closest_crayola": "#deaa88",
+            "closest_css3": "#d2b48c",
+            "closest_css4": "#d2b48c"
         },
         {
-            "color": "#c1af92",
-            "closest_css3": "#d2b48c"
+            "color": "#968e81",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#685d4f",
-            "closest_css3": "#696969"
+            "color": "#796e5e",
+            "closest_crayola": "#8a795d",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         }
-    ]
+    ],
+    "woe:country_name": "France"
 }

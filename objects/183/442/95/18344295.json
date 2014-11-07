@@ -3,6 +3,7 @@
     "tms:id": "55994",
     "accession_number": "1937-27-1",
     "title": "Scarf, 1936",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18344295\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1936,
     "year_acquired": "1937",
     "decade": "1930",
-    "woe:country": "23424975",
+    "woe:country_id": "23424975",
     "medium": "Medium: silk\nTechnique: printed",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "L x W: 26.8 x 27 cm (10 9\/16 x 10 5\/8 in.)",
+    "dimensions_raw": {
+        "length": [
+            "26.80",
+            "centimeters"
+        ],
+        "width": [
+            "27.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Edith Wetmore",
     "description": "Scarf printed in anticipation of the Coronation of King Edward VIII of England.  Central medallion, framed with laurel wreath and four crowns, with a portrait of the monarch. In each corner four flags with the words \"Coronation 1937\". White ground printed in brilliant polychrome.",
     "justification": null,
-    "type": {
-        "id": "35251935",
-        "name": "scarf"
-    },
+    "woe:country": "23424975",
+    "type": "scarf",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/3218_0104509e25e8e621_b.jpg",
                 "width": 984,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/3218_0104509e25e8e621_n.jpg",
-                "width": 307,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "3218"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/3218_0104509e25e8e621_z.jpg",
                 "width": 615,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "3218"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/3218_0104509e25e8e621_n.jpg",
+                "width": 307,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "3218"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/3218_0104509e25e8e621_d.gif",
+                "width": 307,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "3218"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/3218_0104509e25e8e621_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "3218"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18061855",
             "role_id": "35236679",
             "person_name": "Edward VIII, King of England",
+            "person_date": "",
             "role_name": "Sitter",
+            "role_display_name": "Sitter:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18061855\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236679\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18537605",
             "role_id": "35352245",
             "person_name": "Jean Reed",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18537605\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18049921",
             "role_id": "35351535",
             "person_name": "Edith Wetmore",
+            "person_date": "American, b. Switzerland, 1870\u20131966",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049921\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -80,24 +112,35 @@
     },
     "colors": [
         {
-            "color": "#9d2644",
-            "closest_css3": "#a52a2a"
+            "color": "#e2d8cc",
+            "closest_crayola": "#dbd7d2",
+            "closest_css3": "#d3d3d3",
+            "closest_css4": "#d3d3d3"
         },
         {
-            "color": "#e7b34d",
-            "closest_css3": "#f4a460"
+            "color": "#87273b",
+            "closest_crayola": "#9c2542",
+            "closest_css3": "#a52a2a",
+            "closest_css4": "#a52a2a"
+        },
+        {
+            "color": "#d7a23e",
+            "closest_crayola": "#d68a59",
+            "closest_css3": "#daa520",
+            "closest_css4": "#daa520"
         },
         {
             "color": "#515288",
-            "closest_css3": "#483d8b"
+            "closest_crayola": "#58427c",
+            "closest_css3": "#483d8b",
+            "closest_css4": "#483d8b"
         },
         {
-            "color": "#d6c6c6",
-            "closest_css3": "#d3d3d3"
-        },
-        {
-            "color": "#e5ddcd",
-            "closest_css3": "#dcdcdc"
+            "color": "#bb7b50",
+            "closest_crayola": "#b4674d",
+            "closest_css3": "#cd853f",
+            "closest_css4": "#cd853f"
         }
-    ]
+    ],
+    "woe:country_name": "United Kingdom"
 }

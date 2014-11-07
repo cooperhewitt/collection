@@ -3,6 +3,7 @@
     "tms:id": "102793",
     "accession_number": "1950-78-9",
     "title": "Sidewall, \"Encyclopedia\", 1949\u201350",
+    "title_raw": "Encyclopedia",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18385319\/",
     "department_id": "35347503",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1950,
     "year_acquired": "1950",
     "decade": "1940",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Screen printed on paper",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "Overall: 114.9 x 56 cm (45 1\/4 x 22 1\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "114.90",
+            "centimeters"
+        ],
+        "width": [
+            "56.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Donald D. MacMillan",
     "description": "Closely spaced objects rendered in red outline and loosely filled in with gray shading on oyster white ground. The subjects are arranged alphabetically and roughly resemble encyclopedia or dictionary line illustrations.",
     "justification": null,
-    "type": {
-        "id": "35256475",
-        "name": "Sidewall"
-    },
+    "woe:country": "23424977",
+    "type": "Sidewall",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/28124_a2f908713df7a1ac_b.jpg",
                 "width": 518,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/28124_a2f908713df7a1ac_n.jpg",
-                "width": 162,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "28124"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/28124_a2f908713df7a1ac_z.jpg",
                 "width": 324,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "28124"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/28124_a2f908713df7a1ac_n.jpg",
+                "width": 162,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "28124"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/28124_a2f908713df7a1ac_d.gif",
+                "width": 162,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "28124"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/28124_a2f908713df7a1ac_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "28124"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "51679447",
             "role_id": "35351535",
             "person_name": "Donald D. MacMillan",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/51679447\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18047883",
             "role_id": "35352245",
             "person_name": "Dr. Haus Huth",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047883\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18046785",
             "role_id": "35236655",
             "person_name": "Edgar Miller",
+            "person_date": "American, 1899\u20131993",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18046785\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -78,7 +110,9 @@
             "person_id": "18046783",
             "role_id": "35236657",
             "person_name": "Bassett & Vollum, Inc.",
+            "person_date": "",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18046783\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         }
@@ -88,16 +122,29 @@
     },
     "colors": [
         {
-            "color": "#98433f",
-            "closest_css3": "#a0522d"
+            "color": "#a36a62",
+            "closest_crayola": "#a57164",
+            "closest_css3": "#cd5c5c",
+            "closest_css4": "#cd5c5c"
         },
         {
-            "color": "#b77e76",
-            "closest_css3": "#bc8f8f"
+            "color": "#be8f86",
+            "closest_crayola": "#cd9575",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         },
         {
-            "color": "#cab0a3",
-            "closest_css3": "#d2b48c"
+            "color": "#caaea2",
+            "closest_crayola": "#deaa88",
+            "closest_css3": "#d2b48c",
+            "closest_css4": "#d2b48c"
+        },
+        {
+            "color": "#98403d",
+            "closest_crayola": "#9c2542",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

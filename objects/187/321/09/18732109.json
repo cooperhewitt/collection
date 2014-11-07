@@ -3,6 +3,7 @@
     "tms:id": "242168",
     "accession_number": "2009-18-133",
     "title": "Balloon, Amethyst, \"No. 279\", 2007",
+    "title_raw": "No. 279",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18732109\/",
     "department_id": "35347497",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 2007,
     "year_acquired": "2009",
     "decade": "2000",
-    "woe:country": "23424750",
+    "woe:country_id": "23424750",
     "medium": "Mouth-blown crystal",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "H x diam.: 9 x 8.5 cm (3 9\/16 x 3 3\/8 in.)",
+    "dimensions_raw": {
+        "diameter": [
+            "8.50",
+            "centimeters"
+        ],
+        "height": [
+            "9.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase through gift of Dale and Doug Anderson, Anonymous Donor, Arthur Liu, and Prairie Pictures, Inc. and from General Acquisitions Endowment Fund",
     "description": "Mouth-blown crystal, amethyst color",
     "justification": null,
-    "type": {
-        "id": "35306077",
-        "name": "Balloon, amethyst"
-    },
+    "woe:country": "23424750",
+    "type": "Balloon, amethyst",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/30821_f121f56ab321d59b_b.jpg",
                 "width": 613,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/30821_f121f56ab321d59b_n.jpg",
-                "width": 192,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "30821"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/30821_f121f56ab321d59b_z.jpg",
                 "width": 383,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "30821"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/30821_f121f56ab321d59b_n.jpg",
+                "width": 192,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "30821"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/30821_f121f56ab321d59b_d.gif",
+                "width": 192,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "30821"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/30821_f121f56ab321d59b_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "30821"
             }
         }
     ],
@@ -54,15 +80,19 @@
             "person_id": "18063195",
             "role_id": "35236657",
             "person_name": "Boehmische Manufaktur",
+            "person_date": "",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18063195\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         },
         {
             "person_id": "18061841",
             "role_id": "35236657",
-            "person_name": "J. & L. Lobmeyr GmbH, Vienna, Austria",
+            "person_name": "J. & L. Lobmeyr GmbH",
+            "person_date": "Vienna, Austria, founded ca. 1935",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18061841\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         },
@@ -70,15 +100,19 @@
             "person_id": "18060905",
             "role_id": "35236655",
             "person_name": "Ted Muehling",
+            "person_date": "American, b. 1953",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18060905\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
         {
             "person_id": "18061841",
             "role_id": "51571131",
-            "person_name": "J. & L. Lobmeyr GmbH, Vienna, Austria",
+            "person_name": "J. & L. Lobmeyr GmbH",
+            "person_date": "Vienna, Austria, founded ca. 1935",
             "role_name": "Lender",
+            "role_display_name": "Lent by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18061841\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/51571131\/"
         }
@@ -88,12 +122,17 @@
     },
     "colors": [
         {
-            "color": "#696c70",
-            "closest_css3": "#696969"
+            "color": "#595b61",
+            "closest_crayola": "#4a646c",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#35383f",
-            "closest_css3": "#2f4f4f"
+            "color": "#36383f",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         }
-    ]
+    ],
+    "woe:country_name": "Austria"
 }

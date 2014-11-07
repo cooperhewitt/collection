@@ -3,6 +3,7 @@
     "tms:id": "232410",
     "accession_number": "2007-52-1-a,b",
     "title": "Panel, \"P.Kasuri No. 46\", 2007",
+    "title_raw": "P.Kasuri No. 46",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18713055\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 2007,
     "year_acquired": "2007",
     "decade": "2000",
-    "woe:country": "23424856",
+    "woe:country_id": "23424856",
     "medium": "Medium: choma\nTechnique: warp-faced plain weave with tie dye and splashed warps",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "Warp x Weft: 61 x 48.9 cm (24 x 19 1\/4 in.)",
+    "dimensions_raw": {
+        "warp": [
+            "60.96",
+            "centimeters"
+        ],
+        "weft": [
+            "48.90",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Sheila Hicks and browngrotta arts",
     "description": "Panel in shades of orange and yellow with random splashes of green moving diagonally across the face of the textile. Warp fringe on both ends with vertical ribs at regular intervals.",
-    "justification": "Jun Tomita is a Japanese textile artist who has worked with the traditional dyeing technique of kasuri for over two decades, while adding his own rich and contemporary interpretation.&amp;nbsp; Kasuri, the Japanese word for ikat (which is derived from the Malay-Indonesian word mengikat, meaning &quot;to tie or to bind&quot;), has been popular in Japan since the 17th century. The technique was established much earlier, but was used only in very special circumstances on clothing worn mainly by the aristocracy.&amp;nbsp; In this piece, Tomita employs a warp kasuri where only the warp threads have been bound and dyed. After these steps, he splashes dye on the warp threads and then begins the weaving process. As Tomita weaves, a blurring occurs at the junction of different colors, creating subtleties of colors within colors and a pattern that permanently captures the creative process",
-    "type": {
-        "id": "35237229",
-        "name": "Panel"
-    },
+    "justification": "Jun Tomita is a Japanese textile artist who has worked with the traditional dyeing technique of kasuri since the 1980s, adding his own rich and contemporary interpretation. Kasuri, the Japanese word for ikat (which is derived from the Malay-Indonesian word mengikat, meaning \u201cto tie or to bind\u201d), has been popular in Japan since the 17th century. The technique was established much earlier, but was used only in very special circumstances for clothing worn mainly by the aristocracy. \nIn this piece, Tomita employs a warp kasuri, in which only the warp threads have been bound and dyed. After these steps, he splashes dye on the warp threads and then begins the weaving process. As Tomita weaves, a blurring occurs at the junction of different colors, creating subtle gradations of color within color and a pattern that permanently captures the creative process\nTomita\u2019s work is currently prioritized for acquisition due to his expertise in and contemporary interpretation of the kasuri technique, which adds depth to this area of the collection.",
+    "woe:country": "23424856",
+    "type": "Panel",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/29744_697f514243714ebe_b.jpg",
                 "width": 1024,
                 "height": 823,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/29744_697f514243714ebe_n.jpg",
-                "width": 320,
-                "height": 257,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "29744"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/29744_697f514243714ebe_z.jpg",
                 "width": 640,
                 "height": 514,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "29744"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/29744_697f514243714ebe_n.jpg",
+                "width": 320,
+                "height": 257,
+                "is_primary": "1",
+                "image_id": "29744"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/29744_697f514243714ebe_d.gif",
+                "width": 320,
+                "height": 257,
+                "is_primary": "1",
+                "image_id": "29744"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/29744_697f514243714ebe_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "29744"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18061649",
             "role_id": "35351535",
             "person_name": "browngrotta arts",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18061649\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18058887",
             "role_id": "35351535",
             "person_name": "Sheila Hicks",
+            "person_date": "American, b. 1934",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18058887\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18061367",
             "role_id": "35236565",
             "person_name": "Jun Tomita",
+            "person_date": "Japanese, b. 1951",
             "role_name": "Artist",
+            "role_display_name": "",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18061367\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236565\/"
         }
@@ -80,16 +112,29 @@
     },
     "colors": [
         {
-            "color": "#89611b",
-            "closest_css3": "#8b4513"
+            "color": "#aa691c",
+            "closest_crayola": "#c46210",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         },
         {
-            "color": "#cd9425",
-            "closest_css3": "#daa520"
+            "color": "#c5861d",
+            "closest_crayola": "#c46210",
+            "closest_css3": "#b8860b",
+            "closest_css4": "#b8860b"
         },
         {
-            "color": "#dfd7ca",
-            "closest_css3": "#d3d3d3"
+            "color": "#85651d",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#8b4513",
+            "closest_css4": "#8b4513"
+        },
+        {
+            "color": "#ddd5c6",
+            "closest_crayola": "#dbd7d2",
+            "closest_css3": "#d3d3d3",
+            "closest_css4": "#d3d3d3"
         }
-    ]
+    ],
+    "woe:country_name": "Japan"
 }

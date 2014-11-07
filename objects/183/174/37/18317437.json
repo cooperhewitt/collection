@@ -3,6 +3,7 @@
     "tms:id": "44083",
     "accession_number": "1930-26-64",
     "title": "Drawing, \"Preparatory Design for Si\"",
+    "title_raw": "Preparatory Design for Si",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18317437\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": null,
     "year_acquired": "1930",
     "decade": null,
-    "woe:country": "23424819",
+    "woe:country_id": "23424819",
     "medium": "Watercolor, gouache, over etching, Thick white laid paper",
     "markings": null,
     "signed": null,
     "inscribed": "Inscribed in plate at lower margin: 8en 12. Alyon chez Serancourt Graveur rue de flandre pres La Douanne. Inscribed in pen and black ink at verso: Presented by Misses Hewitt, May- 1930. No 5 0f 11",
     "provenance": null,
     "dimensions": "43.8 x 55.7 cm (17 1\/4 x 21 15\/16 in.)\nImage(cm): 42.3x53.3\nMat:  55.9 x 71.1 cm (22 x 28 in.)",
+    "dimensions_raw": {
+        "height": [
+            "43.80",
+            "centimeters"
+        ],
+        "width": [
+            "71.10",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Eleanor and Sarah Hewitt",
     "description": null,
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424819",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/2945_582e60083991768e_b.jpg",
                 "width": 1024,
                 "height": 758,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/2945_582e60083991768e_n.jpg",
-                "width": 320,
-                "height": 237,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "2945"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/2945_582e60083991768e_z.jpg",
                 "width": 640,
                 "height": 474,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "2945"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/2945_582e60083991768e_n.jpg",
+                "width": 320,
+                "height": 237,
+                "is_primary": "1",
+                "image_id": "2945"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/2945_582e60083991768e_d.gif",
+                "width": 320,
+                "height": 237,
+                "is_primary": "1",
+                "image_id": "2945"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/2945_582e60083991768e_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "2945"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18047443",
             "role_id": "35352245",
             "person_name": "Megan L. Smith",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047443\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18049321",
             "role_id": "35351535",
             "person_name": "Sarah Cooper Hewitt",
+            "person_date": "American, 1859\u20131930",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049321\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18049325",
             "role_id": "35351535",
             "person_name": "Eleanor Garnier Hewitt",
+            "person_date": "American, 1864\u20131924",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049325\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -78,7 +110,9 @@
             "person_id": "18047439",
             "role_id": "35352245",
             "person_name": "Rudolph Berliner",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047439\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -86,7 +120,9 @@
             "person_id": "18047487",
             "role_id": "35352245",
             "person_name": "KH",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047487\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -94,7 +130,9 @@
             "person_id": "18042391",
             "role_id": "35236673",
             "person_name": "Claude Serancourt",
+            "person_date": "1677 \u2013 1756",
             "role_name": "Printer",
+            "role_display_name": "Printed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18042391\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236673\/"
         }
@@ -104,24 +142,35 @@
     },
     "colors": [
         {
-            "color": "#9d6f43",
-            "closest_css3": "#a0522d"
+            "color": "#9f7044",
+            "closest_crayola": "#a5694f",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         },
         {
-            "color": "#d6925e",
-            "closest_css3": "#e9967a"
+            "color": "#ba9360",
+            "closest_crayola": "#cd9575",
+            "closest_css3": "#bdb76b",
+            "closest_css4": "#bdb76b"
         },
         {
-            "color": "#b7a79f",
-            "closest_css3": "#a9a9a9"
+            "color": "#7f3430",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#8b4513",
+            "closest_css4": "#8b4513"
         },
         {
-            "color": "#6c2f2c",
-            "closest_css3": "#8b4513"
+            "color": "#545d73",
+            "closest_crayola": "#4a646c",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#3a4148",
-            "closest_css3": "#2f4f4f"
+            "color": "#aca698",
+            "closest_crayola": "#979aaa",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
         }
-    ]
+    ],
+    "woe:country_name": "France"
 }

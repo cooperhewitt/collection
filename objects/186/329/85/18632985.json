@@ -3,6 +3,7 @@
     "tms:id": "191335",
     "accession_number": "1989-41-205",
     "title": "Figure, \"Bust of Maxim Gorky\", 1950\u201360",
+    "title_raw": "Bust of Maxim Gorky",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18632985\/",
     "department_id": "35347497",
     "period_id": null,
@@ -13,39 +14,60 @@
     "year_end": 1960,
     "year_acquired": "1989",
     "decade": "1950",
-    "woe:country": null,
+    "woe:country_id": null,
     "medium": "Porcelain (bisque)",
     "markings": "underside: Lomonosov \"LFZ\" mark stamped in blue",
     "signed": null,
     "inscribed": null,
     "provenance": "The Henry and Ludmilla Shapiro Collection",
     "dimensions": "21 cm (8 1\/4 in.)",
+    "dimensions_raw": {
+        "height": [
+            "21.00",
+            "centimeters"
+        ]
+    },
     "creditline": "The Henry and Ludmilla Shapiro Collection; Partial gift and partial purchase through the Decorative Arts Association Acquisition and Smithsonian Collections Acquisition Program Funds",
     "description": "Bust-length portrait of man with mustache, head turned slightly to his right",
     "justification": null,
-    "type": {
-        "id": "35237189",
-        "name": "Figure"
-    },
+    "woe:country": null,
+    "type": "Figure",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/11063_a83a32ba10742e1a_b.jpg",
                 "width": 725,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/11063_a83a32ba10742e1a_n.jpg",
-                "width": 227,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "11063"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/11063_a83a32ba10742e1a_z.jpg",
                 "width": 453,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "11063"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/11063_a83a32ba10742e1a_n.jpg",
+                "width": 227,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "11063"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/11063_a83a32ba10742e1a_d.gif",
+                "width": 227,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "11063"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/11063_a83a32ba10742e1a_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "11063"
             }
         }
     ],
@@ -54,7 +76,9 @@
             "person_id": "18047827",
             "role_id": "35352245",
             "person_name": "Deborah S. Shinn",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047827\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -62,7 +86,9 @@
             "person_id": "18045091",
             "role_id": "35236657",
             "person_name": "Lomonosov Porcelain Factory",
+            "person_date": "Leningrad, USSR, founded 1744 as the Imperial Porcelain Manufactory, St. Petersburg, Russia",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18045091\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         }
@@ -72,20 +98,22 @@
     },
     "colors": [
         {
-            "color": "#404149",
-            "closest_css3": "#2f4f4f"
+            "color": "#3b3d44",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#7d798a",
-            "closest_css3": "#808080"
+            "color": "#706f7e",
+            "closest_crayola": "#757575",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
             "color": "#a8a6b2",
-            "closest_css3": "#a9a9a9"
-        },
-        {
-            "color": "#605e6d",
-            "closest_css3": "#696969"
+            "closest_crayola": "#979aaa",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
         }
     ]
 }

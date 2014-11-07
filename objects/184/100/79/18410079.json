@@ -3,6 +3,7 @@
     "tms:id": "115234",
     "accession_number": "1956-42-98",
     "title": "Sidewall, ca. 1905",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18410079\/",
     "department_id": "35347503",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1910,
     "year_acquired": "1956",
     "decade": null,
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Machine-printed",
     "markings": null,
     "signed": null,
     "inscribed": "Printed in right selvedge: \"5882 D E E The Robert Graves Co.\"",
     "provenance": null,
     "dimensions": "104 x 55.5 cm (40 15\/16 x 21 7\/8 in.)",
+    "dimensions_raw": {
+        "height": [
+            "104.00",
+            "centimeters"
+        ],
+        "width": [
+            "55.50",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Mary M. Kenway from the estate of Sarah B. Russell",
     "description": "On silvery white ground large yellow roses on pale gray trellis. Straight repeat, drop match. Printed in right selvedge: \"5882 D E E The Robert Graves Co.\"",
     "justification": null,
-    "type": {
-        "id": "35256475",
-        "name": "Sidewall"
-    },
+    "woe:country": "23424977",
+    "type": "Sidewall",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/62010_bb6298b44a1b8b1f_b.jpg",
                 "width": 568,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/62010_bb6298b44a1b8b1f_n.jpg",
-                "width": 177,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "62010"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/62010_bb6298b44a1b8b1f_z.jpg",
                 "width": 355,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "62010"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/62010_bb6298b44a1b8b1f_n.jpg",
+                "width": 177,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "62010"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/62010_bb6298b44a1b8b1f_d.gif",
+                "width": 177,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "62010"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/62010_bb6298b44a1b8b1f_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "62010"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/27865_26fb209d4cfb1986_b.jpg",
                 "width": 697,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/27865_26fb209d4cfb1986_n.jpg",
-                "width": 218,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "27865"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/27865_26fb209d4cfb1986_z.jpg",
                 "width": 436,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "27865"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/27865_26fb209d4cfb1986_n.jpg",
+                "width": 218,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "27865"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/27865_26fb209d4cfb1986_d.gif",
+                "width": 218,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "27865"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/27865_26fb209d4cfb1986_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "27865"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18049983",
             "role_id": "35351535",
             "person_name": "Mary  M. Kenway",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049983\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18048035",
             "role_id": "35352245",
             "person_name": "Hedy Backlin-Landman",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18048035\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -90,7 +137,9 @@
             "person_id": "18043897",
             "role_id": "35236657",
             "person_name": "Robert Graves Co.",
+            "person_date": "",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18043897\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         }
@@ -100,24 +149,35 @@
     },
     "colors": [
         {
-            "color": "#dfd8c9",
-            "closest_css3": "#d3d3d3"
+            "color": "#dcc983",
+            "closest_crayola": "#e7c697",
+            "closest_css3": "#deb887",
+            "closest_css4": "#deb887"
         },
         {
-            "color": "#d4b96e",
-            "closest_css3": "#bdb76b"
+            "color": "#aaa568",
+            "closest_crayola": "#bab86c",
+            "closest_css3": "#bdb76b",
+            "closest_css4": "#bdb76b"
         },
         {
-            "color": "#9c9a5a",
-            "closest_css3": "#bdb76b"
+            "color": "#be9852",
+            "closest_crayola": "#d68a59",
+            "closest_css3": "#cd853f",
+            "closest_css4": "#cd853f"
         },
         {
-            "color": "#7e7c46",
-            "closest_css3": "#6b8e23"
+            "color": "#767442",
+            "closest_crayola": "#85754e",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         },
         {
-            "color": "#b59151",
-            "closest_css3": "#cd853f"
+            "color": "#9e7444",
+            "closest_crayola": "#9c7c38",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

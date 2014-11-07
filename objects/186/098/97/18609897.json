@@ -3,6 +3,7 @@
     "tms:id": "98473",
     "accession_number": "1948-40-190",
     "title": "Document, \"Letter from John Nash to\", 1818",
+    "title_raw": "Letter from John Nash to",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18609897\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1818,
     "year_acquired": "1948",
     "decade": null,
-    "woe:country": "23424975",
+    "woe:country_id": "23424975",
     "medium": "Pen and brown ink on off-white laid paper",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "1948: acquired by Museum (from Mrs. K. Gregory)",
     "dimensions": "17.4 x 11.4 cm (6 7\/8 x 4 1\/2 in.)\nMat:  35.6 x 45.7 cm (14 x 18 in.)",
+    "dimensions_raw": {
+        "height": [
+            "17.40",
+            "centimeters"
+        ],
+        "width": [
+            "45.70",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase through gift of Mrs. John Innes Kane",
     "description": "Letter; several lines of text. Transcription of the letter: Sir\/ I am directed to inspect the\/ designs you are painting for\/Brighton. Iwill thank you\/ to bring all the drawings here\/ at 9 tomorrow morning\/ particularly of the Chimney\/ pieces & such as relates to the\/ architectural or constructive\/ parts of the Room and I \/will thank you to be exactly at\/ 9 as I am engaged at 10.\/ I [?]\/ yours [?] [?]\/ John Nash In lower left: [name of city?]\/ May 19 1818; near bottom center: To Crace Esq.",
     "justification": null,
-    "type": {
-        "id": "35248757",
-        "name": "document"
-    },
+    "woe:country": "23424975",
+    "type": "document",
     "images": [
         {
             "b": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/63105_82ce8d723f6b98c3_b.jpg",
-                "width": 672,
+                "url": "http:\/\/images.collection.cooperhewitt.org\/63105_f5d66e04e392732b_b.jpg",
+                "width": 663,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/63105_82ce8d723f6b98c3_n.jpg",
-                "width": 210,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "63105"
             },
             "z": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/63105_82ce8d723f6b98c3_z.jpg",
-                "width": 420,
+                "url": "http:\/\/images.collection.cooperhewitt.org\/63105_f5d66e04e392732b_z.jpg",
+                "width": 414,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "63105"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/63105_f5d66e04e392732b_n.jpg",
+                "width": 207,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "63105"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/63105_f5d66e04e392732b_d.gif",
+                "width": 207,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "63105"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/63105_f5d66e04e392732b_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "63105"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18539479",
             "role_id": "35352249",
             "person_name": "Mrs. K. Gregory",
+            "person_date": "",
             "role_name": "Vendor",
+            "role_display_name": "Purchased from",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18539479\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352249\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18047453",
             "role_id": "35352245",
             "person_name": "Elizabeth Horwitz Marcus",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047453\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18047443",
             "role_id": "35352245",
             "person_name": "Megan L. Smith",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047443\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -78,7 +110,9 @@
             "person_id": "18042131",
             "role_id": "35236663",
             "person_name": "John Nash",
+            "person_date": "1752 \u2013 1835",
             "role_name": "Architect",
+            "role_display_name": "Architect:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18042131\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236663\/"
         }
@@ -88,12 +122,23 @@
     },
     "colors": [
         {
-            "color": "#ab906b",
-            "closest_css3": "#bc8f8f"
+            "color": "#d6ccb7",
+            "closest_crayola": "#cdc5c2",
+            "closest_css3": "#c0c0c0",
+            "closest_css4": "#c0c0c0"
         },
         {
-            "color": "#907350",
-            "closest_css3": "#696969"
+            "color": "#ab916f",
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
+        },
+        {
+            "color": "#917452",
+            "closest_crayola": "#85754e",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         }
-    ]
+    ],
+    "woe:country_name": "United Kingdom"
 }

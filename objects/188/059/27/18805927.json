@@ -3,6 +3,7 @@
     "tms:id": "183264",
     "accession_number": "1985-98-1",
     "title": "Sofa, \"ES 108\", 1985",
+    "title_raw": "ES 108",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18805927\/",
     "department_id": "35347497",
     "period_id": null,
@@ -13,39 +14,68 @@
     "year_end": 1985,
     "year_acquired": "1985",
     "decade": "1980",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Aluminum, walnut, leather, epoxy, urethane foam, polyster fiber",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "1985: acquired by Museum",
     "dimensions": "H x W x D: 82.5 x 204.5 x 76.5cm (32 1\/2 x 80 1\/2 x 30 1\/8in.)",
+    "dimensions_raw": {
+        "depth": [
+            "76.50",
+            "centimeters"
+        ],
+        "height": [
+            "82.50",
+            "centimeters"
+        ],
+        "width": [
+            "204.50",
+            "centimeters"
+        ]
+    },
     "creditline": null,
     "description": "Cast aluminum frame with four legs, with open strut support system. Frame coated with epoxy paint. Base of walnut with webbed support. Struts continue from legs up back of sofa to support two shaped walnut horizontal elements. Seat and back upholstered in leather with rectangular paneled cusions. Two rectangular horizontal arms with similar cushions.\n\nFragment in box DA1183",
     "justification": null,
-    "type": {
-        "id": "35237955",
-        "name": "sofa"
-    },
+    "woe:country": "23424977",
+    "type": "sofa",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/44075_8c11d40e340db168_b.jpg",
                 "width": 1024,
                 "height": 588,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/44075_8c11d40e340db168_n.jpg",
-                "width": 320,
-                "height": 184,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "44075"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/44075_8c11d40e340db168_z.jpg",
                 "width": 640,
                 "height": 367,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "44075"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/44075_8c11d40e340db168_n.jpg",
+                "width": 320,
+                "height": 184,
+                "is_primary": "1",
+                "image_id": "44075"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/44075_8c11d40e340db168_d.gif",
+                "width": 320,
+                "height": 184,
+                "is_primary": "1",
+                "image_id": "44075"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/44075_8c11d40e340db168_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "44075"
             }
         }
     ],
@@ -54,7 +84,9 @@
             "person_id": "18049013",
             "role_id": "35236657",
             "person_name": "Herman Miller Furniture Company",
+            "person_date": "Zeeland, Michigan, USA, 1923\u20131960",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049013\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         },
@@ -62,7 +94,9 @@
             "person_id": "18044269",
             "role_id": "35236655",
             "person_name": "Charles Eames",
+            "person_date": "(American, 1907\u20131978)",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18044269\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
@@ -73,7 +107,10 @@
     "colors": [
         {
             "color": "#674028",
-            "closest_css3": "#8b4513"
+            "closest_crayola": "#714b23",
+            "closest_css3": "#8b4513",
+            "closest_css4": "#8b4513"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

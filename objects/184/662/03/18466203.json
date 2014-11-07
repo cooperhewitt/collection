@@ -2,7 +2,8 @@
     "id": "18466203",
     "tms:id": "143726",
     "accession_number": "1968-47-1-a",
-    "title": "Sample, \"P 191 501\", 1967",
+    "title": "Sample, \"Labyrinth\", 1967",
+    "title_raw": "P 191 501",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18466203\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1967,
     "year_acquired": "1968",
     "decade": "1960",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Medium: nylon, polyester\nTechnique: handprinted Caprolan textured stretch nylon bonded to polyester foam",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "H x W: 61 x 59.7 cm (24 x 23 1\/2 in.)",
+    "dimensions_raw": {
+        "height": [
+            "61.00",
+            "centimeters"
+        ],
+        "width": [
+            "59.69",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Jack Lenor Larsen",
     "description": "Designs in black and reds resembling coral or a plant root system.",
     "justification": null,
-    "type": {
-        "id": "35268079",
-        "name": "Sample"
-    },
+    "woe:country": "23424977",
+    "type": "Sample",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/63278_cf29aec4fc454cc6_b.jpg",
                 "width": 910,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/63278_cf29aec4fc454cc6_n.jpg",
-                "width": 284,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "63278"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/63278_cf29aec4fc454cc6_z.jpg",
                 "width": 568,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "63278"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/63278_cf29aec4fc454cc6_n.jpg",
+                "width": 284,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "63278"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/63278_cf29aec4fc454cc6_d.gif",
+                "width": 284,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "63278"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/63278_cf29aec4fc454cc6_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "63278"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/27603_d48b866e2bb08bea_b.jpg",
                 "width": 997,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/27603_d48b866e2bb08bea_n.jpg",
-                "width": 312,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "27603"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/27603_d48b866e2bb08bea_z.jpg",
                 "width": 623,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "27603"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/27603_d48b866e2bb08bea_n.jpg",
+                "width": 312,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "27603"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/27603_d48b866e2bb08bea_d.gif",
+                "width": 312,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "27603"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/27603_d48b866e2bb08bea_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "27603"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18045519",
             "role_id": "35236671",
             "person_name": "Jack Lenor Larsen Inc. (New York, NY)",
+            "person_date": "",
             "role_name": "Producer",
+            "role_display_name": "Produced by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18045519\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236671\/"
         },
@@ -82,34 +127,47 @@
             "person_id": "18040903",
             "role_id": "35351535",
             "person_name": "Jack Lenor Larsen",
+            "person_date": "American, b. 1927",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18040903\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
     ],
     "tombstone": {
-        "epitaph": "Sample, \"P 191 501\", 1967. Medium: nylon, polyester\nTechnique: handprinted Caprolan textured stretch nylon bonded to polyester foam. Gift of Jack Lenor Larsen. 1968-47-1-a."
+        "epitaph": "Sample, \"Labyrinth\", 1967. Medium: nylon, polyester\nTechnique: handprinted Caprolan textured stretch nylon bonded to polyester foam. Gift of Jack Lenor Larsen. 1968-47-1-a."
     },
     "colors": [
         {
-            "color": "#820517",
-            "closest_css3": "#800000"
+            "color": "#840614",
+            "closest_crayola": "#9c2542",
+            "closest_css3": "#800000",
+            "closest_css4": "#800000"
         },
         {
-            "color": "#910148",
-            "closest_css3": "#a52a2a"
+            "color": "#850442",
+            "closest_crayola": "#9c2542",
+            "closest_css3": "#a52a2a",
+            "closest_css4": "#a52a2a"
         },
         {
-            "color": "#340b16",
-            "closest_css3": "#000000"
+            "color": "#491615",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#800000",
+            "closest_css4": "#800000"
         },
         {
-            "color": "#231311",
-            "closest_css3": "#000000"
+            "color": "#260f0f",
+            "closest_crayola": "#000000",
+            "closest_css3": "#000000",
+            "closest_css4": "#000000"
         },
         {
-            "color": "#a88385",
-            "closest_css3": "#bc8f8f"
+            "color": "#beadb0",
+            "closest_crayola": "#b0b7c6",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

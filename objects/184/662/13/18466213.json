@@ -2,7 +2,8 @@
     "id": "18466213",
     "tms:id": "143731",
     "accession_number": "1968-47-3",
-    "title": "Sample, \"Collection: Andean\", 1966",
+    "title": "Sample, \"Inca Gold\", 1966",
+    "title_raw": "Collection: Andean",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18466213\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1966,
     "year_acquired": "1968",
     "decade": "1960",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Medium: 65% wool, 35% metallic\nTechnique: plain woven",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "Warp x Weft: 64.8 x 59.7 cm (25 1\/2 x 23 1\/2 in.)",
+    "dimensions_raw": {
+        "warp": [
+            "64.77",
+            "centimeters"
+        ],
+        "weft": [
+            "59.69",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Jack Lenor Larsen",
     "description": "Sample of casement cloth woven of dark orange wool and gold metallic thread.",
     "justification": null,
-    "type": {
-        "id": "35268079",
-        "name": "Sample"
-    },
+    "woe:country": "23424977",
+    "type": "Sample",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/43779_220134f8688d9c04_b.jpg",
                 "width": 957,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/43779_220134f8688d9c04_n.jpg",
-                "width": 299,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "43779"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/43779_220134f8688d9c04_z.jpg",
                 "width": 598,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "43779"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/43779_220134f8688d9c04_n.jpg",
+                "width": 299,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "43779"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/43779_220134f8688d9c04_d.gif",
+                "width": 299,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "43779"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/43779_220134f8688d9c04_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "43779"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/27598_7cc476fe4ac9fc92_b.jpg",
                 "width": 1024,
                 "height": 711,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/27598_7cc476fe4ac9fc92_n.jpg",
-                "width": 320,
-                "height": 222,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "27598"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/27598_7cc476fe4ac9fc92_z.jpg",
                 "width": 640,
                 "height": 444,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "27598"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/27598_7cc476fe4ac9fc92_n.jpg",
+                "width": 320,
+                "height": 222,
+                "is_primary": "0",
+                "image_id": "27598"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/27598_7cc476fe4ac9fc92_d.gif",
+                "width": 320,
+                "height": 222,
+                "is_primary": "0",
+                "image_id": "27598"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/27598_7cc476fe4ac9fc92_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "27598"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18045519",
             "role_id": "35236671",
             "person_name": "Jack Lenor Larsen Inc. (New York, NY)",
+            "person_date": "",
             "role_name": "Producer",
+            "role_display_name": "Produced by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18045519\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236671\/"
         },
@@ -82,30 +127,35 @@
             "person_id": "18040903",
             "role_id": "35351535",
             "person_name": "Jack Lenor Larsen",
+            "person_date": "American, b. 1927",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18040903\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
     ],
     "tombstone": {
-        "epitaph": "Sample, \"Collection: Andean\", 1966. Medium: 65% wool, 35% metallic\nTechnique: plain woven. Gift of Jack Lenor Larsen. 1968-47-3."
+        "epitaph": "Sample, \"Inca Gold\", 1966. Medium: 65% wool, 35% metallic\nTechnique: plain woven. Gift of Jack Lenor Larsen. 1968-47-3."
     },
     "colors": [
         {
-            "color": "#bd7b30",
-            "closest_css3": "#cd853f"
+            "color": "#b16c24",
+            "closest_crayola": "#c46210",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         },
         {
-            "color": "#c8a26c",
-            "closest_css3": "#bdb76b"
+            "color": "#c9a16d",
+            "closest_crayola": "#cd9575",
+            "closest_css3": "#bdb76b",
+            "closest_css4": "#bdb76b"
         },
         {
-            "color": "#e0c7a9",
-            "closest_css3": "#f5deb3"
-        },
-        {
-            "color": "#ac5e14",
-            "closest_css3": "#a0522d"
+            "color": "#e3ccb1",
+            "closest_crayola": "#efcdb8",
+            "closest_css3": "#f5deb3",
+            "closest_css4": "#f5deb3"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

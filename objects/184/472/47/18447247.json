@@ -3,6 +3,7 @@
     "tms:id": "134139",
     "accession_number": "1963-39-127",
     "title": "Poster, \"Aloha Hawaii, Fly Pan American\", 1953",
+    "title_raw": "Aloha Hawaii, Fly Pan American",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18447247\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1953,
     "year_acquired": "1963",
     "decade": "1950",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Offset lithograph on paper, lined",
     "markings": null,
     "signed": "Signed in yellow ink, lower right, under image: E. McKnight Kauffer",
     "inscribed": "Printed in black ink, lower left: Copyright 1953 PAN AMERICAN WORLD AIRWAYS INC.; lower right: Litho. In U. S. A.",
     "provenance": "Mrs. Edward McKnight Kauffer; 1963: acquired by Museum",
     "dimensions": "107 x 76.2 cm (42 1\/8 in. x 30 in.)",
+    "dimensions_raw": {
+        "height": [
+            "107.00",
+            "centimeters"
+        ],
+        "width": [
+            "76.20",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Mrs. E. McKnight Kauffer",
     "description": "Face of a woman with white flower in black hair, among large leaves. Above: aloha HAWAII; below: FLY PAN AMERICAN \/ WORLD\u2019S MOST EXPERIENCED AIRLINE.",
     "justification": null,
-    "type": {
-        "id": "35238163",
-        "name": "poster"
-    },
+    "woe:country": "23424977",
+    "type": "poster",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/65112_32a9e4572700a548_b.jpg",
                 "width": 692,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/65112_32a9e4572700a548_n.jpg",
-                "width": 216,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "65112"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/65112_32a9e4572700a548_z.jpg",
                 "width": 432,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "65112"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/65112_32a9e4572700a548_n.jpg",
+                "width": 216,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "65112"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/65112_32a9e4572700a548_d.gif",
+                "width": 216,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "65112"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/65112_32a9e4572700a548_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "65112"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18061849",
             "role_id": "35351535",
             "person_name": "Mrs. Edward McKnight Kauffer",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18061849\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18041923",
             "role_id": "35236655",
             "person_name": "Edward McKnight Kauffer",
+            "person_date": "American, active England, 1890\u20131954",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041923\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
@@ -73,23 +103,34 @@
     "colors": [
         {
             "color": "#d5e037",
-            "closest_css3": "#adff2f"
+            "closest_crayola": "#ceff1d",
+            "closest_css3": "#adff2f",
+            "closest_css4": "#adff2f"
         },
         {
-            "color": "#3e632b",
-            "closest_css3": "#556b2f"
+            "color": "#486d2f",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
+        },
+        {
+            "color": "#edcca1",
+            "closest_crayola": "#edd19c",
+            "closest_css3": "#f5deb3",
+            "closest_css4": "#f5deb3"
         },
         {
             "color": "#24263a",
-            "closest_css3": "#2f4f4f"
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#eecda3",
-            "closest_css3": "#f5deb3"
-        },
-        {
-            "color": "#dc4621",
-            "closest_css3": "#d2691e"
+            "color": "#dc4520",
+            "closest_crayola": "#c46210",
+            "closest_css3": "#d2691e",
+            "closest_css4": "#d2691e"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

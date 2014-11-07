@@ -3,6 +3,7 @@
     "tms:id": "157435",
     "accession_number": "1977-57-2",
     "title": "Verriere, 1772",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18493093\/",
     "department_id": "35347497",
     "period_id": null,
@@ -13,39 +14,68 @@
     "year_end": 1772,
     "year_acquired": "1977",
     "decade": null,
-    "woe:country": "23424819",
+    "woe:country_id": "23424819",
     "medium": "Soft-paste porcelain",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "1977: acquired by Museum (from Estate of Charles E. Sampson)",
     "dimensions": "H x W x D: 30.4 x 30.4 x 13.3 cm (11 15\/16 x 11 15\/16 x 5 1\/4 in.)",
+    "dimensions_raw": {
+        "depth": [
+            "13.30",
+            "centimeters"
+        ],
+        "height": [
+            "30.40",
+            "centimeters"
+        ],
+        "width": [
+            "30.40",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase from Charles E. Sampson Memorial Fund",
     "description": null,
     "justification": null,
-    "type": {
-        "id": "35263461",
-        "name": "verriere"
-    },
+    "woe:country": "23424819",
+    "type": "verriere",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/25147_2d4a6246c9467c54_b.jpg",
                 "width": 1024,
                 "height": 741,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/25147_2d4a6246c9467c54_n.jpg",
-                "width": 320,
-                "height": 232,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "25147"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/25147_2d4a6246c9467c54_z.jpg",
                 "width": 640,
                 "height": 463,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "25147"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/25147_2d4a6246c9467c54_n.jpg",
+                "width": 320,
+                "height": 232,
+                "is_primary": "1",
+                "image_id": "25147"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/25147_2d4a6246c9467c54_d.gif",
+                "width": 320,
+                "height": 232,
+                "is_primary": "1",
+                "image_id": "25147"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/25147_2d4a6246c9467c54_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "25147"
             }
         }
     ],
@@ -54,7 +84,9 @@
             "person_id": "51676789",
             "role_id": "35352249",
             "person_name": "Estate of Charles E. Sampson",
+            "person_date": "",
             "role_name": "Vendor",
+            "role_display_name": "Purchased from",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/51676789\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352249\/"
         },
@@ -62,7 +94,9 @@
             "person_id": "18043925",
             "role_id": "35236657",
             "person_name": "S\u00e8vres Porcelain Manufactory",
+            "person_date": "S\u00e8vres France, founded 1738",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18043925\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         }
@@ -72,20 +106,23 @@
     },
     "colors": [
         {
-            "color": "#5f6167",
-            "closest_css3": "#696969"
+            "color": "#5a515a",
+            "closest_crayola": "#6e5160",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#3c3e58",
-            "closest_css3": "#2f4f4f"
-        },
-        {
-            "color": "#684949",
-            "closest_css3": "#696969"
+            "color": "#4a3647",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
             "color": "#8f7a70",
-            "closest_css3": "#808080"
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         }
-    ]
+    ],
+    "woe:country_name": "France"
 }

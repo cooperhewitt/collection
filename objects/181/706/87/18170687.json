@@ -3,6 +3,7 @@
     "tms:id": "18228",
     "accession_number": "1911-28-238",
     "title": "Drawing, \"Design for Architectural Motif\", ca. 1710",
+    "title_raw": "Design for Architectural Motif",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18170687\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1720,
     "year_acquired": "1911",
     "decade": null,
-    "woe:country": "23424819",
+    "woe:country_id": "23424819",
     "medium": "Red chalk, pen and brown ink on paper, lined",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "L\u00e9on Decloux (acquired after 1906); 1911: acquired by Museum",
     "dimensions": "17.5 x 26.9 cm (6 7\/8 x 10 9\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "17.50",
+            "centimeters"
+        ],
+        "width": [
+            "26.90",
+            "centimeters"
+        ]
+    },
     "creditline": "Purchased for the Museum by the Advisory Council",
     "description": "Within a semi-circular architectural niche an eagle, wings outspread, rests on a socle, before which is suspended a wreath.  Smoke rises in the background; an arch above, and volute brackets at either side.  Ink framing lines.  On verso, written: \"Babel.\"",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424819",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/39821_259039e47c3601cd_b.jpg",
                 "width": 1024,
                 "height": 680,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/39821_259039e47c3601cd_n.jpg",
-                "width": 320,
-                "height": 212,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "39821"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/39821_259039e47c3601cd_z.jpg",
                 "width": 640,
                 "height": 425,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "39821"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/39821_259039e47c3601cd_n.jpg",
+                "width": 320,
+                "height": 212,
+                "is_primary": "1",
+                "image_id": "39821"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/39821_259039e47c3601cd_d.gif",
+                "width": 320,
+                "height": 212,
+                "is_primary": "1",
+                "image_id": "39821"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/39821_259039e47c3601cd_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "39821"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/23057_e0efcd823f3ca932_b.jpg",
                 "width": 1024,
                 "height": 702,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/23057_e0efcd823f3ca932_n.jpg",
-                "width": 320,
-                "height": 219,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "23057"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/23057_e0efcd823f3ca932_z.jpg",
                 "width": 640,
                 "height": 439,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "23057"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/23057_e0efcd823f3ca932_n.jpg",
+                "width": 320,
+                "height": 219,
+                "is_primary": "0",
+                "image_id": "23057"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/23057_e0efcd823f3ca932_d.gif",
+                "width": 320,
+                "height": 219,
+                "is_primary": "0",
+                "image_id": "23057"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/23057_e0efcd823f3ca932_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "23057"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18049621",
             "role_id": "35351535",
             "person_name": "Advisory Council",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049621\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18043501",
             "role_id": "35236711",
             "person_name": "Gilles-Marie Oppenord",
+            "person_date": "French, 1672\u20131742",
             "role_name": "Attributed to",
+            "role_display_name": "Attributed to",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18043501\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236711\/"
         }
@@ -92,20 +139,23 @@
     },
     "colors": [
         {
-            "color": "#c99269",
-            "closest_css3": "#e9967a"
+            "color": "#d3a87f",
+            "closest_crayola": "#deaa88",
+            "closest_css3": "#d2b48c",
+            "closest_css4": "#d2b48c"
         },
         {
-            "color": "#a66142",
-            "closest_css3": "#a0522d"
+            "color": "#ba7652",
+            "closest_crayola": "#b4674d",
+            "closest_css3": "#cd853f",
+            "closest_css4": "#cd853f"
         },
         {
-            "color": "#ebe4ca",
-            "closest_css3": "#ffe4c4"
-        },
-        {
-            "color": "#6e4938",
-            "closest_css3": "#556b2f"
+            "color": "#76503d",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         }
-    ]
+    ],
+    "woe:country_name": "France"
 }

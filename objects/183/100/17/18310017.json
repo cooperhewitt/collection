@@ -3,6 +3,7 @@
     "tms:id": "41109",
     "accession_number": "1925-2-342",
     "title": "Miser's Purse, 19th century",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18310017\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": null,
     "year_acquired": "1925",
     "decade": null,
-    "woe:country": "23424819",
+    "woe:country_id": "23424819",
     "medium": "Medium: silk, steel beads\nTechnique: fishermen's knotted net technique",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "H x W: 5 x 32.5 cm (1 15\/16 x 12 13\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "5.00",
+            "centimeters"
+        ],
+        "width": [
+            "32.50",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Eleanor and Sarah Hewitt",
     "description": "Miser's purse of netted black and yellow silk and finished at the ends with steel beads.",
     "justification": "Miser\u2019s purses are oblong pouches primarily used to carry coins. They usually have center slit openings with pairs of sliding rings to secure coins in the purses\u2019 ends but sometimes clasp closures are used. The purses probably evolved from the sixteenth-century practice of storing coins in the toe of a stocking. They were called short or long purses based on their lengths, which were gender specific until the mid-nineteenth century, or sometimes gentlemen\u2019s purses. The name miser\u2019s purse seems to have originated at the turn of the twentieth century, near the end of their popularity. \n\nMiser\u2019s purses were usually silk with glass or metal beads, and could be netted, knitted or crocheted. While many of the designs were purely ornamental, some were intended to make the purses more functional, for example by making the two ends different colors or shapes, or using gold beads at one end and silver at the other, to help its user distinguish between gold and silver coins. They were typically carried by men in a coat or trouser pocket, and by women in a skirt pocket or reticule. ",
-    "type": {
-        "id": "35269513",
-        "name": "Miser's purse"
-    },
+    "woe:country": "23424819",
+    "type": "Miser's purse",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/36173_d4a72c594f4b9939_b.jpg",
                 "width": 1024,
                 "height": 556,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/36173_d4a72c594f4b9939_n.jpg",
-                "width": 320,
-                "height": 174,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "36173"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/36173_d4a72c594f4b9939_z.jpg",
                 "width": 640,
                 "height": 348,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "36173"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/36173_d4a72c594f4b9939_n.jpg",
+                "width": 320,
+                "height": 174,
+                "is_primary": "1",
+                "image_id": "36173"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/36173_d4a72c594f4b9939_d.gif",
+                "width": 320,
+                "height": 174,
+                "is_primary": "1",
+                "image_id": "36173"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/36173_d4a72c594f4b9939_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "36173"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18055143",
             "role_id": "35352245",
             "person_name": "Susan J. Brown",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18055143\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18049325",
             "role_id": "35351535",
             "person_name": "Eleanor Garnier Hewitt",
+            "person_date": "American, 1864\u20131924",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049325\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18049321",
             "role_id": "35351535",
             "person_name": "Sarah Cooper Hewitt",
+            "person_date": "American, 1859\u20131930",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049321\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -80,24 +112,35 @@
     },
     "colors": [
         {
-            "color": "#d1d7e4",
-            "closest_css3": "#dcdcdc"
+            "color": "#d2d7e4",
+            "closest_crayola": "#c5d0e6",
+            "closest_css3": "#dcdcdc",
+            "closest_css4": "#dcdcdc"
         },
         {
-            "color": "#886120",
-            "closest_css3": "#8b4513"
+            "color": "#7b561b",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#8b4513",
+            "closest_css4": "#8b4513"
         },
         {
-            "color": "#b97d26",
-            "closest_css3": "#b8860b"
+            "color": "#bb8d31",
+            "closest_crayola": "#9c7c38",
+            "closest_css3": "#cd853f",
+            "closest_css4": "#cd853f"
         },
         {
-            "color": "#2c2413",
-            "closest_css3": "#000000"
+            "color": "#2e2b18",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#e0a842",
-            "closest_css3": "#daa520"
+            "color": "#503713",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         }
-    ]
+    ],
+    "woe:country_name": "France"
 }

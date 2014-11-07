@@ -3,6 +3,7 @@
     "tms:id": "200122",
     "accession_number": "1995-163-17",
     "title": "Sidewall, \"Zed\", 1992",
+    "title_raw": "Zed",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18650389\/",
     "department_id": "35347503",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1992,
     "year_acquired": "1995",
     "decade": "1990",
-    "woe:country": "23424829",
+    "woe:country_id": "23424829",
     "medium": "Vinyl and blown glass beads",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "H x W: 1005 x 53.5 cm (395 11\/16 x 21 1\/16 in. )",
+    "dimensions_raw": {
+        "height": [
+            "1005.00",
+            "centimeters"
+        ],
+        "width": [
+            "53.50",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Gebr. Rasch GmbH & Co.",
     "description": "White, textured surface having the appearance of rough plaster. Has evenly spaced flat circular areas for the placement of blue glass beads, running diagonally up the sidewall.",
     "justification": null,
-    "type": {
-        "id": "35256475",
-        "name": "Sidewall"
-    },
+    "woe:country": "23424829",
+    "type": "Sidewall",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/12775_8a2460b61d35fb44_b.jpg",
                 "width": 680,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/12775_8a2460b61d35fb44_n.jpg",
-                "width": 213,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "12775"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/12775_8a2460b61d35fb44_z.jpg",
                 "width": 425,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "12775"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/12775_8a2460b61d35fb44_n.jpg",
+                "width": 213,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "12775"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/12775_8a2460b61d35fb44_d.gif",
+                "width": 213,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "12775"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/12775_8a2460b61d35fb44_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "12775"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/12774_04a4edb86f5b23bc_b.jpg",
                 "width": 627,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/12774_04a4edb86f5b23bc_n.jpg",
-                "width": 196,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "12774"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/12774_04a4edb86f5b23bc_z.jpg",
                 "width": 392,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "12774"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/12774_04a4edb86f5b23bc_n.jpg",
+                "width": 196,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "12774"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/12774_04a4edb86f5b23bc_d.gif",
+                "width": 196,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "12774"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/12774_04a4edb86f5b23bc_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "12774"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18046473",
             "role_id": "35236657",
             "person_name": "Rasch & Company",
+            "person_date": "1896",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18046473\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18044219",
             "role_id": "35236655",
             "person_name": "Borek Sipek (Czech, b. 1949)",
+            "person_date": "",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18044219\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -90,7 +137,9 @@
             "person_id": "18049019",
             "role_id": "35236657",
             "person_name": "Gebr. Rasch GmbH & Co.",
+            "person_date": "",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049019\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         }
@@ -100,24 +149,35 @@
     },
     "colors": [
         {
-            "color": "#bbb07a",
-            "closest_css3": "#bdb76b"
+            "color": "#9e99a3",
+            "closest_crayola": "#979aaa",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
         },
         {
-            "color": "#ede0a8",
-            "closest_css3": "#eee8aa"
+            "color": "#80737b",
+            "closest_crayola": "#757575",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#9f8e5b",
-            "closest_css3": "#808080"
+            "color": "#0e0690",
+            "closest_crayola": "#1a4876",
+            "closest_css3": "#00008b",
+            "closest_css4": "#00008b"
         },
         {
-            "color": "#7f6a3a",
-            "closest_css3": "#a0522d"
+            "color": "#5f5770",
+            "closest_crayola": "#6e5160",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#070245",
-            "closest_css3": "#191970"
+            "color": "#383572",
+            "closest_crayola": "#1a4876",
+            "closest_css3": "#483d8b",
+            "closest_css4": "#483d8b"
         }
-    ]
+    ],
+    "woe:country_name": "Germany"
 }

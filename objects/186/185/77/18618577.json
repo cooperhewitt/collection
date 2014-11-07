@@ -3,6 +3,7 @@
     "tms:id": "181670",
     "accession_number": "1984-84-8",
     "title": "Jug, \"Shape No. 512 was designed by Taylor in 1889.\", 1891",
+    "title_raw": "Shape No. 512 was designed by Taylor in 1889.",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18618577\/",
     "department_id": "35347497",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1891,
     "year_acquired": "1984",
     "decade": null,
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Glazed earthenware",
     "markings": "Impressed: RP cipher with five flames \/ 512 \/ S; incised artist's monogram MAD \/ L [slash mark is part of monogram].",
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "H x diam.: 19.6 x 15 cm (7 11\/16 x 5 7\/8 in.)",
+    "dimensions_raw": {
+        "diameter": [
+            "15.00",
+            "centimeters"
+        ],
+        "height": [
+            "19.60",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Marcia and William Goodman",
     "description": null,
     "justification": null,
-    "type": {
-        "id": "35237591",
-        "name": "jug"
-    },
+    "woe:country": "23424977",
+    "type": "jug",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/25594_e3687ec43ab70a33_b.jpg",
                 "width": 1024,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/25594_e3687ec43ab70a33_n.jpg",
-                "width": 320,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "25594"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/25594_e3687ec43ab70a33_z.jpg",
                 "width": 640,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "25594"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/25594_e3687ec43ab70a33_n.jpg",
+                "width": 320,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "25594"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/25594_e3687ec43ab70a33_d.gif",
+                "width": 320,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "25594"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/25594_e3687ec43ab70a33_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "25594"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18538741",
             "role_id": "35351535",
             "person_name": "William Goodman",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18538741\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18538739",
             "role_id": "35351535",
             "person_name": "Marcia Goodman",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18538739\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18537563",
             "role_id": "35236655",
             "person_name": "William Watts Taylor",
+            "person_date": "",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18537563\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -78,7 +110,9 @@
             "person_id": "18043903",
             "role_id": "35236657",
             "person_name": "Rookwood Pottery",
+            "person_date": "Cincinnati, Ohio, USA, founded 1880",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18043903\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         },
@@ -86,7 +120,9 @@
             "person_id": "18054247",
             "role_id": "35236565",
             "person_name": "Matthew Andrew Daly",
+            "person_date": "American, 1860 \u2013 1937",
             "role_name": "Artist",
+            "role_display_name": "",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18054247\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236565\/"
         }
@@ -96,24 +132,35 @@
     },
     "colors": [
         {
-            "color": "#38372a",
-            "closest_css3": "#2f4f4f"
+            "color": "#3a3730",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#675933",
-            "closest_css3": "#556b2f"
+            "color": "#595237",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         },
         {
-            "color": "#523e31",
-            "closest_css3": "#556b2f"
+            "color": "#574131",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         },
         {
-            "color": "#bcbeb1",
-            "closest_css3": "#c0c0c0"
+            "color": "#c1c3b4",
+            "closest_crayola": "#cdc5c2",
+            "closest_css3": "#c0c0c0",
+            "closest_css4": "#c0c0c0"
         },
         {
-            "color": "#977414",
-            "closest_css3": "#808000"
+            "color": "#866c20",
+            "closest_crayola": "#9c7c38",
+            "closest_css3": "#808000",
+            "closest_css4": "#808000"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

@@ -3,6 +3,7 @@
     "tms:id": "145282",
     "accession_number": "1969-18-4-1\/202",
     "title": "Sample Book, \"Louis Bowen, Inc.\", 1967",
+    "title_raw": "Louis Bowen, Inc.",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18469293\/",
     "department_id": "35347503",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1967,
     "year_acquired": "1969",
     "decade": "1960",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Screen printed",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "52 x 36 cm (20 1\/2 x 14 3\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "52.00",
+            "centimeters"
+        ],
+        "width": [
+            "36.00",
+            "centimeters"
+        ]
+    },
     "creditline": null,
     "description": null,
     "justification": null,
-    "type": {
-        "id": "35247403",
-        "name": "sample book"
-    },
+    "woe:country": "23424977",
+    "type": "sample book",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/7603_615dd4dac5bdbd45_b.jpg",
                 "width": 698,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/7603_615dd4dac5bdbd45_n.jpg",
-                "width": 218,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "7603"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/7603_615dd4dac5bdbd45_z.jpg",
                 "width": 436,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "7603"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/7603_615dd4dac5bdbd45_n.jpg",
+                "width": 218,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "7603"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/7603_615dd4dac5bdbd45_d.gif",
+                "width": 218,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "7603"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/7603_615dd4dac5bdbd45_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "7603"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/7604_8ee4878037b4fc0c_b.jpg",
                 "width": 694,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/7604_8ee4878037b4fc0c_n.jpg",
-                "width": 217,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "7604"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/7604_8ee4878037b4fc0c_z.jpg",
                 "width": 434,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "7604"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/7604_8ee4878037b4fc0c_n.jpg",
+                "width": 217,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "7604"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/7604_8ee4878037b4fc0c_d.gif",
+                "width": 217,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "7604"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/7604_8ee4878037b4fc0c_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "7604"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18048007",
             "role_id": "35352245",
             "person_name": "Catherine Lynn Frangiamore",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18048007\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18046469",
             "role_id": "35236657",
             "person_name": "Louis W. Bowen, Inc.",
+            "person_date": "",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18046469\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         }
@@ -92,24 +139,35 @@
     },
     "colors": [
         {
-            "color": "#533f0c",
-            "closest_css3": "#556b2f"
+            "color": "#57440e",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         },
         {
-            "color": "#a48971",
-            "closest_css3": "#bc8f8f"
+            "color": "#a56a40",
+            "closest_crayola": "#a5694f",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         },
         {
-            "color": "#8c5127",
-            "closest_css3": "#a0522d"
+            "color": "#b59c87",
+            "closest_crayola": "#cd9575",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         },
         {
-            "color": "#7f6e57",
-            "closest_css3": "#696969"
+            "color": "#7f6f56",
+            "closest_crayola": "#85754e",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#b8794c",
-            "closest_css3": "#cd853f"
+            "color": "#7a4c28",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#8b4513",
+            "closest_css4": "#8b4513"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

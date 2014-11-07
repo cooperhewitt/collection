@@ -3,6 +3,7 @@
     "tms:id": "242921",
     "accession_number": "2009-18-163",
     "title": "Shot Tumbler, \"Nr. 279\", 2007",
+    "title_raw": "Nr. 279",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18733555\/",
     "department_id": "35347497",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 2007,
     "year_acquired": "2009",
     "decade": "2000",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Glass, paint",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "2009: acquired by Museum",
     "dimensions": "H x diam.: 5.5 x 5 cm (2 3\/16 x 1 15\/16 in.)",
+    "dimensions_raw": {
+        "diameter": [
+            "5.00",
+            "centimeters"
+        ],
+        "height": [
+            "5.50",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase through gift of Dale and Doug Anderson, Anonymous Donor, Arthur Liu, and Prairie Pictures, Inc. and from General Acquisitions Endowment Fund",
     "description": "Crystal shot tumbler with concave sides and painted fly.",
     "justification": null,
-    "type": {
-        "id": "51681097",
-        "name": "Shot tumbler"
-    },
+    "woe:country": "23424977",
+    "type": "Shot tumbler",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/32372_8f747e40132dca4f_b.jpg",
                 "width": 952,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/32372_8f747e40132dca4f_n.jpg",
-                "width": 298,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "32372"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/32372_8f747e40132dca4f_z.jpg",
                 "width": 595,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "32372"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/32372_8f747e40132dca4f_n.jpg",
+                "width": 298,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "32372"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/32372_8f747e40132dca4f_d.gif",
+                "width": 298,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "32372"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/32372_8f747e40132dca4f_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "32372"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18062691",
             "role_id": "51571131",
             "person_name": "Harald, Peter and Stefan Rath",
+            "person_date": "",
             "role_name": "Lender",
+            "role_display_name": "Lent by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18062691\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/51571131\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18060905",
             "role_id": "35236655",
             "person_name": "Ted Muehling",
+            "person_date": "American, b. 1953",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18060905\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
@@ -72,8 +102,11 @@
     },
     "colors": [
         {
-            "color": "#c4c1be",
-            "closest_css3": "#c0c0c0"
+            "color": "#c4c0bd",
+            "closest_crayola": "#cdc5c2",
+            "closest_css3": "#c0c0c0",
+            "closest_css4": "#c0c0c0"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

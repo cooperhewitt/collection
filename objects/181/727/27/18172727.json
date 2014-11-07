@@ -2,7 +2,8 @@
     "id": "18172727",
     "tms:id": "18613",
     "accession_number": "1911-28-71",
-    "title": "Drawing, \"Study: Elevation of Salon Wall, Prince of Hesse Palace\", ca. 1790",
+    "title": "Drawing, \"Design for Elevation of Salon Wall, Prince of Hesse Palace\", ca. 1790",
+    "title_raw": "Study: Elevation of Salon Wall, Prince of Hesse Palace",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18172727\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1800,
     "year_acquired": "1911",
     "decade": null,
-    "woe:country": "23424819",
+    "woe:country_id": "23424819",
     "medium": "Pen and black ink, brush and watercolor, gold paint on paper",
     "markings": null,
     "signed": null,
     "inscribed": "Verso: inscribed in ink, upper left: Dessin par mon pere\/Salon du prince de Hesse\/avant 92",
     "provenance": "Collection Destailleur, catalog number 152; Collection of L\u00e9on Decloux",
     "dimensions": "22.3 x 29.9 cm (8 3\/4 x 11 3\/4 in.)",
+    "dimensions_raw": {
+        "height": [
+            "22.30",
+            "centimeters"
+        ],
+        "width": [
+            "29.90",
+            "centimeters"
+        ]
+    },
     "creditline": "Purchased for the Museum by the Advisory Council",
     "description": "Sofa stands under an empty oblong frame and two pilaster strips and is flanked by wainscotted dados before the center of the wall.  A decorative panel with a fountain is at left.  Another with Ceres in clouds, at right.  Ink lines along edges.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424819",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/1514_acd67ca1493d4b8c_b.jpg",
                 "width": 1024,
                 "height": 754,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/1514_acd67ca1493d4b8c_n.jpg",
-                "width": 320,
-                "height": 236,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "1514"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/1514_acd67ca1493d4b8c_z.jpg",
                 "width": 640,
                 "height": 471,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "1514"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/1514_acd67ca1493d4b8c_n.jpg",
+                "width": 320,
+                "height": 236,
+                "is_primary": "1",
+                "image_id": "1514"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/1514_acd67ca1493d4b8c_d.gif",
+                "width": 320,
+                "height": 236,
+                "is_primary": "1",
+                "image_id": "1514"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/1514_acd67ca1493d4b8c_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "1514"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "51676457",
             "role_id": "35352245",
             "person_name": "Karin Zonis",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/51676457\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18056471",
             "role_id": "35236655",
             "person_name": "Etienne Dubois",
+            "person_date": "",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18056471\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -70,34 +100,47 @@
             "person_id": "18049621",
             "role_id": "35351535",
             "person_name": "Advisory Council",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049621\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
     ],
     "tombstone": {
-        "epitaph": "Drawing, \"Study: Elevation of Salon Wall, Prince of Hesse Palace\", ca. 1790. Pen and black ink, brush and watercolor, gold paint on paper. Purchased for the Museum by the Advisory Council. 1911-28-71."
+        "epitaph": "Drawing, \"Design for Elevation of Salon Wall, Prince of Hesse Palace\", ca. 1790. Pen and black ink, brush and watercolor, gold paint on paper. Purchased for the Museum by the Advisory Council. 1911-28-71."
     },
     "colors": [
         {
-            "color": "#cdb594",
-            "closest_css3": "#d2b48c"
+            "color": "#c9886a",
+            "closest_crayola": "#cd9575",
+            "closest_css3": "#e9967a",
+            "closest_css4": "#e9967a"
         },
         {
-            "color": "#c98970",
-            "closest_css3": "#bc8f8f"
+            "color": "#d5c2a5",
+            "closest_crayola": "#e7c697",
+            "closest_css3": "#d2b48c",
+            "closest_css4": "#d2b48c"
         },
         {
-            "color": "#8b6c5e",
-            "closest_css3": "#696969"
+            "color": "#ad8b4a",
+            "closest_crayola": "#9c7c38",
+            "closest_css3": "#cd853f",
+            "closest_css4": "#cd853f"
         },
         {
-            "color": "#ae8a48",
-            "closest_css3": "#cd853f"
+            "color": "#967664",
+            "closest_crayola": "#8a795d",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#6e482a",
-            "closest_css3": "#8b4513"
+            "color": "#735745",
+            "closest_crayola": "#6e5160",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         }
-    ]
+    ],
+    "woe:country_name": "France"
 }

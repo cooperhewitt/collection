@@ -3,6 +3,7 @@
     "tms:id": "96950",
     "accession_number": "1947-72-2",
     "title": "Sidewall, \"The Hawes\", 1946",
+    "title_raw": "The Hawes",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18606849\/",
     "department_id": "35347503",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1946,
     "year_acquired": "1947",
     "decade": "1940",
-    "woe:country": "23424975",
+    "woe:country_id": "23424975",
     "medium": "Block-printed on paper",
     "markings": null,
     "signed": null,
     "inscribed": "Printed in right selvedge: \"The Hawes\" and \"Reg.d. No. 616647\".",
     "provenance": null,
     "dimensions": "114 x 57 cm (44 7\/8 x 22 7\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "114.00",
+            "centimeters"
+        ],
+        "width": [
+            "57.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Rose J. Dirksen",
     "description": "Chinese rococo paper. Twisted, gold, symmetric framework encloses two landscape scenes. One contains a scene of a Chinese man rowing a small bark, behind is a figure crossing a curved bridge with a temple-like building in the background; the alternating scene contains a Chinese building on stilts approached by a board walk. Printed in gold and brown on a white ground.",
     "justification": null,
-    "type": {
-        "id": "35256475",
-        "name": "Sidewall"
-    },
+    "woe:country": "23424975",
+    "type": "Sidewall",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/25286_b2d815b65b2ecbb5_b.jpg",
                 "width": 529,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/25286_b2d815b65b2ecbb5_n.jpg",
-                "width": 165,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "25286"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/25286_b2d815b65b2ecbb5_z.jpg",
                 "width": 330,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "25286"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/25286_b2d815b65b2ecbb5_n.jpg",
+                "width": 165,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "25286"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/25286_b2d815b65b2ecbb5_d.gif",
+                "width": 165,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "25286"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/25286_b2d815b65b2ecbb5_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "25286"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18046701",
             "role_id": "35236655",
             "person_name": "Henry Butler",
+            "person_date": "",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18046701\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -62,9 +90,21 @@
             "person_id": "34624609",
             "role_id": "35352245",
             "person_name": "hoh",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/34624609\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
+        },
+        {
+            "person_id": "68736361",
+            "role_id": "35351535",
+            "person_name": "Rose J. Dirksen",
+            "person_date": "",
+            "role_name": "Donor",
+            "role_display_name": "Donated by",
+            "person_url": "http:\/\/collection.cooperhewitt.org\/people\/68736361\/",
+            "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
     ],
     "tombstone": {
@@ -72,24 +112,35 @@
     },
     "colors": [
         {
-            "color": "#846d47",
-            "closest_css3": "#696969"
+            "color": "#78623f",
+            "closest_crayola": "#85754e",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         },
         {
-            "color": "#f8e7ae",
-            "closest_css3": "#ffe4b5"
+            "color": "#433727",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#413527",
-            "closest_css3": "#2f4f4f"
+            "color": "#f7e6b1",
+            "closest_crayola": "#fae7b5",
+            "closest_css3": "#f5deb3",
+            "closest_css4": "#f5deb3"
         },
         {
-            "color": "#675336",
-            "closest_css3": "#556b2f"
+            "color": "#cbc5b7",
+            "closest_crayola": "#cdc5c2",
+            "closest_css3": "#c0c0c0",
+            "closest_css4": "#c0c0c0"
         },
         {
-            "color": "#aea796",
-            "closest_css3": "#a9a9a9"
+            "color": "#bfab7b",
+            "closest_crayola": "#bab86c",
+            "closest_css3": "#bdb76b",
+            "closest_css4": "#bdb76b"
         }
-    ]
+    ],
+    "woe:country_name": "United Kingdom"
 }

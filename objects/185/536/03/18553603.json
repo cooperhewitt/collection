@@ -3,6 +3,7 @@
     "tms:id": "69475",
     "accession_number": "1938-88-8409",
     "title": "Print, \"Jan Uytenbogaert, Preacher\", 1635",
+    "title_raw": "Jan Uytenbogaert, Preacher",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18553603\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1635,
     "year_acquired": "1938",
     "decade": null,
-    "woe:country": "23424909",
+    "woe:country_id": "23424909",
     "medium": "Etching on cream laid paper",
     "markings": null,
     "signed": null,
     "inscribed": "Inscribed in ink, lower center, Latin inscription; lower right: J. Grolius [?]",
     "provenance": "Giovanni Piancastelli",
     "dimensions": "22.6 x 17.8 cm (8 7\/8 in. x 7 in.)",
+    "dimensions_raw": {
+        "height": [
+            "22.60",
+            "centimeters"
+        ],
+        "width": [
+            "17.80",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase through gift of various donors and from Eleanor G. Hewitt Fund",
     "description": "Set in an oval enframement (cut octagonally within platemark), the preacher of the sect of Arminian Remonstrants, is seated in his study, facing one-quarter to the right. Below, a Latin inscription.",
     "justification": null,
-    "type": {
-        "id": "35236873",
-        "name": "Print"
-    },
+    "woe:country": "23424909",
+    "type": "Print",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/45151_6f47d941246c4119_b.jpg",
                 "width": 806,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/45151_6f47d941246c4119_n.jpg",
-                "width": 252,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "45151"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/45151_6f47d941246c4119_z.jpg",
                 "width": 504,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "45151"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/45151_6f47d941246c4119_n.jpg",
+                "width": 252,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "45151"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/45151_6f47d941246c4119_d.gif",
+                "width": 252,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "45151"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/45151_6f47d941246c4119_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "45151"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "51676457",
             "role_id": "35352245",
             "person_name": "Karin Zonis",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/51676457\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -62,9 +90,21 @@
             "person_id": "18043087",
             "role_id": "35236565",
             "person_name": "Rembrandt Harmensz van Rijn",
+            "person_date": "Dutch, 1606\u20131669",
             "role_name": "Artist",
+            "role_display_name": "",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18043087\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236565\/"
+        },
+        {
+            "person_id": "68738509",
+            "role_id": "35352249",
+            "person_name": "Edward Brandegee",
+            "person_date": "",
+            "role_name": "Vendor",
+            "role_display_name": "Purchased from",
+            "person_url": "http:\/\/collection.cooperhewitt.org\/people\/68738509\/",
+            "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352249\/"
         }
     ],
     "tombstone": {
@@ -72,24 +112,35 @@
     },
     "colors": [
         {
-            "color": "#4e4937",
-            "closest_css3": "#556b2f"
+            "color": "#6b6149",
+            "closest_crayola": "#6e5160",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#bdac86",
-            "closest_css3": "#d2b48c"
+            "color": "#423e31",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#786c51",
-            "closest_css3": "#696969"
+            "color": "#e2d3ae",
+            "closest_crayola": "#efcdb8",
+            "closest_css3": "#f5deb3",
+            "closest_css4": "#f5deb3"
         },
         {
-            "color": "#e3d5b3",
-            "closest_css3": "#f5deb3"
+            "color": "#a99774",
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         },
         {
-            "color": "#9d8b69",
-            "closest_css3": "#808080"
+            "color": "#887a5c",
+            "closest_crayola": "#8a795d",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         }
-    ]
+    ],
+    "woe:country_name": "Netherlands"
 }

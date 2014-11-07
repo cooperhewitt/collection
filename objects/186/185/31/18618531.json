@@ -3,6 +3,7 @@
     "tms:id": "181647",
     "accession_number": "1984-84-37",
     "title": "Vase, 1884\u201388",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18618531\/",
     "department_id": "35347497",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1972,
     "year_acquired": "1984",
     "decade": null,
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Earthenware, oxblood",
     "markings": "Impressed on bottom: C K A W\nPainted in black brush on bottom: DP 83 G",
     "signed": null,
     "inscribed": "Graphite notations: 300 and other indeciperable writing.",
     "provenance": "Marcia and William Goodman (Jordan-Volpe Gallery, New York); 1984: acquired by Museum",
     "dimensions": "H x diam.: 18.4 x 9.9 cm (7 1\/4 x 3 7\/8 in.)",
+    "dimensions_raw": {
+        "diameter": [
+            "9.90",
+            "centimeters"
+        ],
+        "height": [
+            "18.40",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Marcia and William Goodman",
     "description": "Gray-white stoneware body, thrown. Bulbous body with tapering neck; with slightly bulging area below rim; flat foot. Covered with a deep red or scarlet glaze with slight golden luster effect. Black striations through glaze. Very dark red at rim bulge. Dimpled surface allover. Interior glazed. Bottom not glazed. Glaze very thick at base.",
     "justification": null,
-    "type": {
-        "id": "35237225",
-        "name": "Vase"
-    },
+    "woe:country": "23424977",
+    "type": "Vase",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/10315_63eea475fb6400b6_b.jpg",
                 "width": 566,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/10315_63eea475fb6400b6_n.jpg",
-                "width": 177,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "10315"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/10315_63eea475fb6400b6_z.jpg",
                 "width": 354,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "10315"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/10315_63eea475fb6400b6_n.jpg",
+                "width": 177,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "10315"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/10315_63eea475fb6400b6_d.gif",
+                "width": 177,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "10315"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/10315_63eea475fb6400b6_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "10315"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18538807",
             "role_id": "35352245",
             "person_name": "Vance Koehler",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18538807\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18043745",
             "role_id": "35236657",
             "person_name": "Dedham Pottery",
+            "person_date": "",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18043745\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18538741",
             "role_id": "35351535",
             "person_name": "William Goodman",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18538741\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -78,7 +110,9 @@
             "person_id": "18538739",
             "role_id": "35351535",
             "person_name": "Marcia Goodman",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18538739\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -86,7 +120,9 @@
             "person_id": "18538577",
             "role_id": "35236685",
             "person_name": "Hugh Cornwall Robertson",
+            "person_date": "1845 \u2013 1908",
             "role_name": "Maker",
+            "role_display_name": "Made by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18538577\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236685\/"
         }
@@ -96,24 +132,35 @@
     },
     "colors": [
         {
-            "color": "#631519",
-            "closest_css3": "#800000"
+            "color": "#670b11",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#800000",
+            "closest_css4": "#800000"
         },
         {
-            "color": "#883830",
-            "closest_css3": "#8b4513"
+            "color": "#5c391e",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#8b4513",
+            "closest_css4": "#8b4513"
         },
         {
-            "color": "#653f22",
-            "closest_css3": "#8b4513"
+            "color": "#952e2a",
+            "closest_crayola": "#9c2542",
+            "closest_css3": "#a52a2a",
+            "closest_css4": "#a52a2a"
         },
         {
-            "color": "#966447",
-            "closest_css3": "#a0522d"
+            "color": "#9c5e47",
+            "closest_crayola": "#a5694f",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         },
         {
-            "color": "#d7b88c",
-            "closest_css3": "#d2b48c"
+            "color": "#a07757",
+            "closest_crayola": "#a57164",
+            "closest_css3": "#cd5c5c",
+            "closest_css4": "#cd5c5c"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

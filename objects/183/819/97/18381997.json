@@ -3,6 +3,7 @@
     "tms:id": "101121",
     "accession_number": "1949-29-30",
     "title": "Print, \"St. Elizabeth\", before 1500",
+    "title_raw": "St. Elizabeth",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18381997\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": null,
     "year_acquired": "1949",
     "decade": null,
-    "woe:country": "23424829",
+    "woe:country_id": "23424829",
     "medium": "Engraving on white paper",
     "markings": null,
     "signed": "Signed in plate, lower center: I. M.",
     "inscribed": null,
     "provenance": "1949: acquired by Museum",
     "dimensions": "16 x 11 cm (6 5\/16 x 4 5\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "16.00",
+            "centimeters"
+        ],
+        "width": [
+            "11.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Leo Wallerstein",
     "description": "St. Elizabeth covering a cripple with a mantle. She wears a crown, carries a crown and a third one is on the ground beside her.",
     "justification": null,
-    "type": {
-        "id": "35236873",
-        "name": "Print"
-    },
+    "woe:country": "23424829",
+    "type": "Print",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/65310_b337e67852587611_b.jpg",
                 "width": 710,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/65310_b337e67852587611_n.jpg",
-                "width": 222,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "65310"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/65310_b337e67852587611_z.jpg",
                 "width": 444,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "65310"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/65310_b337e67852587611_n.jpg",
+                "width": 222,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "65310"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/65310_b337e67852587611_d.gif",
+                "width": 222,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "65310"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/65310_b337e67852587611_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "65310"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18052753",
             "role_id": "35351535",
             "person_name": "Leo Wallerstein",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18052753\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18042571",
             "role_id": "35236565",
             "person_name": "Israhel van Meckenem",
+            "person_date": "German, ca. 1440 - 1503",
             "role_name": "Artist",
+            "role_display_name": "",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18042571\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236565\/"
         }
@@ -72,20 +102,23 @@
     },
     "colors": [
         {
-            "color": "#958a72",
-            "closest_css3": "#808080"
+            "color": "#a89d83",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         },
         {
-            "color": "#b5aa8f",
-            "closest_css3": "#bc8f8f"
+            "color": "#726a58",
+            "closest_crayola": "#85754e",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#766d59",
-            "closest_css3": "#696969"
-        },
-        {
-            "color": "#514c42",
-            "closest_css3": "#2f4f4f"
+            "color": "#544e44",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         }
-    ]
+    ],
+    "woe:country_name": "Germany"
 }

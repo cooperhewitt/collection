@@ -3,6 +3,7 @@
     "tms:id": "189096",
     "accession_number": "1988-4-13",
     "title": "Print, \"Les parterres du Jardin de Monsieur Rendrop \u00e0 Watervliet (The Garden Beds of Monsieur Rendrop in Watervliet), in Nouveaux Livre de Parterres contenant 24 penss\u00e9z diferantes (New Book Containing 24 Different Variations for Garden Beds)\", ca. 1700",
+    "title_raw": "Les parterres du Jardin de Monsieur Rendrop \u00e0 Watervliet (The Garden Beds of Monsieur Rendrop in Watervliet), in Nouveaux Livre de Parterres contenant 24 penss\u00e9z diferantes (New Book Containing 24 Different Variations for Garden Beds)",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18628513\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1710,
     "year_acquired": "1988",
     "decade": null,
-    "woe:country": "23424909",
+    "woe:country_id": "23424909",
     "medium": "Etching and engraving on white laid paper",
     "markings": null,
     "signed": "Signed in plate, lower left: D. Marot fec:",
     "inscribed": "Inscribed in plate, lower margin: Les parterres du Jardin de Monsieur Rendrop \u00e0 Watervliet, du desein du Sr. Marot. \/ avec Privilege: 7",
     "provenance": null,
     "dimensions": "Sheet: 35 x 23.5 cm (13 3\/4 x 9 1\/4 in.)\nPlatemark: 29.6 x 20 cm (11 5\/8 x 7 7\/8 in.)",
+    "dimensions_raw": {
+        "height": [
+            "35.00",
+            "centimeters"
+        ],
+        "width": [
+            "23.50",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase from General Acquisitions Endowment Fund",
     "description": "Landscape architecture design for garden.",
     "justification": null,
-    "type": {
-        "id": "35236873",
-        "name": "Print"
-    },
+    "woe:country": "23424909",
+    "type": "Print",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/45757_c182a96dd94cdf76_b.jpg",
                 "width": 687,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/45757_c182a96dd94cdf76_n.jpg",
-                "width": 215,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "45757"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/45757_c182a96dd94cdf76_z.jpg",
                 "width": 429,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "45757"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/45757_c182a96dd94cdf76_n.jpg",
+                "width": 215,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "45757"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/45757_c182a96dd94cdf76_d.gif",
+                "width": 215,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "45757"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/45757_c182a96dd94cdf76_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "45757"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "51676457",
             "role_id": "35352245",
             "person_name": "Karin Zonis",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/51676457\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18042233",
             "role_id": "35236655",
             "person_name": "Daniel Marot",
+            "person_date": "French, 1661\u20131752; active in Netherlands and England",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18042233\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18041265",
             "role_id": "35352249",
             "person_name": "Ms. Priscilla Juvelis",
+            "person_date": "",
             "role_name": "Vendor",
+            "role_display_name": "Purchased from",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041265\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352249\/"
         },
@@ -78,7 +110,9 @@
             "person_id": "18048535",
             "role_id": "35352247",
             "person_name": "General Acquisitions Endowment",
+            "person_date": "",
             "role_name": "Fund",
+            "role_display_name": "Fund:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18048535\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352247\/"
         }
@@ -88,20 +122,29 @@
     },
     "colors": [
         {
-            "color": "#7f7565",
-            "closest_css3": "#696969"
+            "color": "#dad0be",
+            "closest_crayola": "#cdc5c2",
+            "closest_css3": "#d3d3d3",
+            "closest_css4": "#d3d3d3"
         },
         {
-            "color": "#bbb2a0",
-            "closest_css3": "#a9a9a9"
+            "color": "#9c9282",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#36312b",
-            "closest_css3": "#2f4f4f"
+            "color": "#6a6154",
+            "closest_crayola": "#6e5160",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#61594d",
-            "closest_css3": "#696969"
+            "color": "#474139",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         }
-    ]
+    ],
+    "woe:country_name": "Netherlands"
 }

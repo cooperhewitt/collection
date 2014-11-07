@@ -3,6 +3,7 @@
     "tms:id": "158365",
     "accession_number": "1978-146-28",
     "title": "Matchsafe, \"\"Scribner's Magazine\"\", 1891",
+    "title_raw": "\"Scribner's Magazine\"",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18494949\/",
     "department_id": "35347497",
     "period_id": null,
@@ -13,39 +14,68 @@
     "year_end": 1891,
     "year_acquired": "1978",
     "decade": null,
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Silver, enamel",
     "markings": "Lion passant, an anchor, upper case gothic \"G\", STERLING, the number 2867 impressed in a rectangle, and a date mark lion's head (1891) are all stamped on underside of lid. Inside, stamped on the bottom is the number 208.",
     "signed": null,
     "inscribed": "Inscribed on back: W.W. Hallock",
     "provenance": "Collection of Carol B. Brener and Stephen W. Brener",
     "dimensions": "5.3 x 3.8 x .9 cm (2 1\/16 x 1 1\/2 x 3\/8 in. )",
+    "dimensions_raw": {
+        "depth": [
+            "0.90",
+            "centimeters"
+        ],
+        "height": [
+            "5.30",
+            "centimeters"
+        ],
+        "width": [
+            "3.80",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Stephen W. Brener and Carol B. Brener",
     "description": "Rectangular, with beige and black enameled front resembling the cover of a January issue of Scribner's Magazine. The right long side has incised, vertical lines intended to resemble pages. Reverse is undecorated except for the inscription \"W.W. Hallock.\" Lid hinged on left. Striker of incised hatch marks on bottom. \n\nSterling 2867",
     "justification": null,
-    "type": {
-        "id": "35287419",
-        "name": "Matchsafe"
-    },
+    "woe:country": "23424977",
+    "type": "Matchsafe",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/8138_173efea6bbc5be52_b.jpg",
                 "width": 921,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/8138_173efea6bbc5be52_n.jpg",
-                "width": 288,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "8138"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/8138_173efea6bbc5be52_z.jpg",
                 "width": 576,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "8138"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/8138_173efea6bbc5be52_n.jpg",
+                "width": 288,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "8138"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/8138_173efea6bbc5be52_d.gif",
+                "width": 288,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "8138"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/8138_173efea6bbc5be52_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "8138"
             }
         },
         {
@@ -53,19 +83,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/8139_7bd88ad45af6786f_b.jpg",
                 "width": 1024,
                 "height": 799,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/8139_7bd88ad45af6786f_n.jpg",
-                "width": 320,
-                "height": 250,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "8139"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/8139_7bd88ad45af6786f_z.jpg",
                 "width": 640,
                 "height": 499,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "8139"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/8139_7bd88ad45af6786f_n.jpg",
+                "width": 320,
+                "height": 250,
+                "is_primary": "0",
+                "image_id": "8139"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/8139_7bd88ad45af6786f_d.gif",
+                "width": 320,
+                "height": 250,
+                "is_primary": "0",
+                "image_id": "8139"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/8139_7bd88ad45af6786f_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "8139"
             }
         }
     ],
@@ -74,7 +121,9 @@
             "person_id": "18043789",
             "role_id": "35236657",
             "person_name": "Gorham Manufacturing Company",
+            "person_date": "Providence, Rhode Island, USA, founded 1818",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18043789\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         },
@@ -82,7 +131,9 @@
             "person_id": "18539171",
             "role_id": "35351535",
             "person_name": "Stephen W. Brener",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18539171\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -90,7 +141,9 @@
             "person_id": "18539175",
             "role_id": "35351535",
             "person_name": "Carol B. Brener",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18539175\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -100,24 +153,35 @@
     },
     "colors": [
         {
-            "color": "#c57719",
-            "closest_css3": "#d2691e"
+            "color": "#c87d1e",
+            "closest_crayola": "#c46210",
+            "closest_css3": "#d2691e",
+            "closest_css4": "#d2691e"
         },
         {
-            "color": "#d2c6ce",
-            "closest_css3": "#d8bfd8"
+            "color": "#cfc2c9",
+            "closest_crayola": "#cdc5c2",
+            "closest_css3": "#c0c0c0",
+            "closest_css4": "#c0c0c0"
         },
         {
-            "color": "#5c200c",
-            "closest_css3": "#800000"
+            "color": "#773613",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#8b4513",
+            "closest_css4": "#8b4513"
         },
         {
-            "color": "#a05a20",
-            "closest_css3": "#a0522d"
+            "color": "#ab6524",
+            "closest_crayola": "#c46210",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         },
         {
-            "color": "#7a390c",
-            "closest_css3": "#8b4513"
+            "color": "#b89183",
+            "closest_crayola": "#cd9575",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

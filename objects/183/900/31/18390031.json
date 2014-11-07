@@ -3,6 +3,7 @@
     "tms:id": "105160",
     "accession_number": "1952-102-2",
     "title": "Textile, 1923",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18390031\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1923,
     "year_acquired": "1952",
     "decade": "1920",
-    "woe:country": "23424977",
-    "medium": "Medium: silk\nTechnique: hand block printed",
+    "woe:country_id": "23424977",
+    "medium": "Medium: silk\nTechnique: hand block printed\nLabel: hand block printed silk",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "H x W: 46 x 43 cm (18 1\/8 x 16 15\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "46.00",
+            "centimeters"
+        ],
+        "width": [
+            "43.00",
+            "centimeters"
+        ]
+    },
     "creditline": null,
     "description": "Cream-colored square with a block printed design in black showing an Eastern-style sailing canoe with two naked men, one spearing a fish. Fish leap in stylized waves around the boat. Corners outside circle have designs of fish. At the bottom of the circle: \"Biddle 1923.\"",
     "justification": null,
-    "type": {
-        "id": "35251739",
-        "name": "textile"
-    },
+    "woe:country": "23424977",
+    "type": "textile",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/64015_f7046c72ff3a57b9_b.jpg",
                 "width": 956,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/64015_f7046c72ff3a57b9_n.jpg",
-                "width": 299,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "64015"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/64015_f7046c72ff3a57b9_z.jpg",
                 "width": 598,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "64015"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/64015_f7046c72ff3a57b9_n.jpg",
+                "width": 299,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "64015"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/64015_f7046c72ff3a57b9_d.gif",
+                "width": 299,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "64015"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/64015_f7046c72ff3a57b9_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "64015"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/72690_ec6e8ef402437d9d_b.jpg",
                 "width": 1024,
                 "height": 697,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/72690_ec6e8ef402437d9d_n.jpg",
-                "width": 320,
-                "height": 218,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "72690"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/72690_ec6e8ef402437d9d_z.jpg",
                 "width": 640,
                 "height": 435,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "72690"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/72690_ec6e8ef402437d9d_n.jpg",
+                "width": 320,
+                "height": 218,
+                "is_primary": "0",
+                "image_id": "72690"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/72690_ec6e8ef402437d9d_d.gif",
+                "width": 320,
+                "height": 218,
+                "is_primary": "0",
+                "image_id": "72690"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/72690_ec6e8ef402437d9d_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "72690"
             }
         }
     ],
@@ -74,26 +117,35 @@
             "person_id": "51685383",
             "role_id": "35236565",
             "person_name": "George Biddle",
+            "person_date": "American, 1885\u20131973",
             "role_name": "Artist",
+            "role_display_name": "",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/51685383\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236565\/"
         }
     ],
     "tombstone": {
-        "epitaph": "Textile, 1923. Medium: silk\nTechnique: hand block printed. 1952-102-2."
+        "epitaph": "Textile, 1923. Medium: silk\nTechnique: hand block printed\nLabel: hand block printed silk. 1952-102-2."
     },
     "colors": [
         {
-            "color": "#5e584e",
-            "closest_css3": "#696969"
+            "color": "#60594e",
+            "closest_crayola": "#6e5160",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#8a7c65",
-            "closest_css3": "#808080"
+            "color": "#80725c",
+            "closest_crayola": "#8a795d",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#b3a283",
-            "closest_css3": "#bc8f8f"
+            "color": "#b2a384",
+            "closest_crayola": "#bab86c",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

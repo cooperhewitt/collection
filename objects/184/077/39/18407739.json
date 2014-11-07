@@ -3,6 +3,7 @@
     "tms:id": "114060",
     "accession_number": "1956-177-2",
     "title": "Sidewall, \"Views of Paris\", 1946",
+    "title_raw": "Views of Paris",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18407739\/",
     "department_id": "35347503",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1946,
     "year_acquired": "1956",
     "decade": "1940",
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Screen printed",
     "markings": null,
     "signed": null,
     "inscribed": "In selvage: Hand printed by Piazza Prints. New York City. Views of Paris bySteinberg 46.",
     "provenance": null,
     "dimensions": "148.5 x 76 cm (58 7\/16 x 29 15\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "148.50",
+            "centimeters"
+        ],
+        "width": [
+            "76.00",
+            "centimeters"
+        ]
+    },
     "creditline": null,
     "description": "On a white ground a stylized line drawing in black of buildings, squares and monuments of Paris including the Pantheon, Place de Victoires, Place dela Concorde, the Louvre, Sacre Coeur, Notre Dame, Place Vendome and the Eiffel Tower.",
     "justification": null,
-    "type": {
-        "id": "35256475",
-        "name": "Sidewall"
-    },
+    "woe:country": "23424977",
+    "type": "Sidewall",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/47105_dfaa567ef56f7669_b.jpg",
                 "width": 535,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/47105_dfaa567ef56f7669_n.jpg",
-                "width": 167,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "47105"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/47105_dfaa567ef56f7669_z.jpg",
                 "width": 334,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "47105"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/47105_dfaa567ef56f7669_n.jpg",
+                "width": 167,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "47105"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/47105_dfaa567ef56f7669_d.gif",
+                "width": 167,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "47105"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/47105_dfaa567ef56f7669_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "47105"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/29880_4d266ab24b02aa17_b.jpg",
                 "width": 692,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/29880_4d266ab24b02aa17_n.jpg",
-                "width": 216,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "29880"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/29880_4d266ab24b02aa17_z.jpg",
                 "width": 432,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "29880"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/29880_4d266ab24b02aa17_n.jpg",
+                "width": 216,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "29880"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/29880_4d266ab24b02aa17_d.gif",
+                "width": 216,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "29880"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/29880_4d266ab24b02aa17_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "29880"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18047537",
             "role_id": "35352245",
             "person_name": "dj",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047537\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18046419",
             "role_id": "35236657",
             "person_name": "Piazza Prints Inc.",
+            "person_date": "New York, NY, founded 1946",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18046419\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         },
@@ -90,7 +137,9 @@
             "person_id": "18042821",
             "role_id": "35236655",
             "person_name": "Saul Steinberg",
+            "person_date": "American, b. Romania, 1914\u20131999",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18042821\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
@@ -100,16 +149,17 @@
     },
     "colors": [
         {
-            "color": "#a2988d",
-            "closest_css3": "#bc8f8f"
+            "color": "#c4bcb3",
+            "closest_crayola": "#cdc5c2",
+            "closest_css3": "#c0c0c0",
+            "closest_css4": "#c0c0c0"
         },
         {
-            "color": "#cbc3ba",
-            "closest_css3": "#c0c0c0"
-        },
-        {
-            "color": "#73685f",
-            "closest_css3": "#696969"
+            "color": "#877d74",
+            "closest_crayola": "#757575",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

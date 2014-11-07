@@ -3,6 +3,7 @@
     "tms:id": "29821",
     "accession_number": "1921-6-285-38",
     "title": "Print, \"Designs for Two Commodes\", 1745",
+    "title_raw": "Designs for Two Commodes",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18242071\/",
     "department_id": "35347493",
     "period_id": "35417101",
@@ -13,39 +14,64 @@
     "year_end": 1745,
     "year_acquired": "1921",
     "decade": null,
-    "woe:country": "23424819",
+    "woe:country_id": "23424819",
     "medium": "Etching and engraving on off-white laid paper",
     "markings": null,
     "signed": null,
     "inscribed": "On plate, upper right: F; upper center, in the image: Deux diferents desseins de Comodes.; lower center, in the image: Plan de la Tablette de marbre, qui fait\/la Couronement de la Comode Sy dessus.; center, in the image: Plan de la Tablette de marbre, qui fait\/la Couronement de la Comode Sy dessus.; lower left: Invent\u00e9 par F. de Cuvilli\u00e9s; lower center: C.P.S.C.M.; lower right: grav\u00e9 par C.A. de Lespilliez\/6",
     "provenance": "Jean L\u00e9on Decloux (Decloux 80 and 81); 1921: acquired by Museum",
     "dimensions": "Platemark: 36.1 x 23.9 cm (14 3\/16 x 9 7\/16 in.)\nSheet: 44 x 28.6 cm (17 5\/16 x 11 1\/4 in.)",
+    "dimensions_raw": {
+        "height": [
+            "44.00",
+            "centimeters"
+        ],
+        "width": [
+            "28.60",
+            "centimeters"
+        ]
+    },
     "creditline": "Purchased for the Museum by the Advisory Council",
     "description": "Design of elevation and plan of two commodes, decorated with foliage.",
     "justification": null,
-    "type": {
-        "id": "35236873",
-        "name": "Print"
-    },
+    "woe:country": "23424819",
+    "type": "Print",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/25348_1fc787712d5ec2ec_b.jpg",
                 "width": 680,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/25348_1fc787712d5ec2ec_n.jpg",
-                "width": 213,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "25348"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/25348_1fc787712d5ec2ec_z.jpg",
                 "width": 425,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "25348"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/25348_1fc787712d5ec2ec_n.jpg",
+                "width": 213,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "25348"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/25348_1fc787712d5ec2ec_d.gif",
+                "width": 213,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "25348"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/25348_1fc787712d5ec2ec_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "25348"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18049621",
             "role_id": "35351535",
             "person_name": "Advisory Council",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049621\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18060051",
             "role_id": "35236743",
             "person_name": "Karl Albert von Lespilliez",
+            "person_date": "1723\u20131796",
             "role_name": "Engraver",
+            "role_display_name": "Engraved by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18060051\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236743\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18060153",
             "role_id": "35236661",
             "person_name": "Poilly Family",
+            "person_date": "French",
             "role_name": "Publisher",
+            "role_display_name": "Published by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18060153\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236661\/"
         },
@@ -78,7 +110,9 @@
             "person_id": "18042165",
             "role_id": "35236655",
             "person_name": "Jean-Fran\u00e7ois Cuvilli\u00e9s",
+            "person_date": "Flemish, active Germany, 1695\u20131768",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18042165\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
@@ -88,24 +122,35 @@
     },
     "colors": [
         {
-            "color": "#d1cdbf",
-            "closest_css3": "#d3d3d3"
+            "color": "#a39e90",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
         },
         {
-            "color": "#ada79a",
-            "closest_css3": "#a9a9a9"
+            "color": "#dcd6ca",
+            "closest_crayola": "#dbd7d2",
+            "closest_css3": "#d3d3d3",
+            "closest_css4": "#d3d3d3"
         },
         {
-            "color": "#827b6e",
-            "closest_css3": "#808080"
+            "color": "#857e71",
+            "closest_crayola": "#757575",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#3b372f",
-            "closest_css3": "#2f4f4f"
+            "color": "#423d36",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#5c584c",
-            "closest_css3": "#556b2f"
+            "color": "#655f53",
+            "closest_crayola": "#6e5160",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         }
-    ]
+    ],
+    "woe:country_name": "France"
 }

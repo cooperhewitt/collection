@@ -3,6 +3,7 @@
     "tms:id": "153419",
     "accession_number": "1974-91-2-a\/c",
     "title": "Chest, 16th\u201317th century",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18485105\/",
     "department_id": "35347497",
     "period_id": null,
@@ -13,39 +14,68 @@
     "year_end": null,
     "year_acquired": "1974",
     "decade": null,
-    "woe:country": "23424829",
+    "woe:country_id": "23424829",
     "medium": "Wood, metal",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "Mr. and Mrs. Hugh J. Grant; 1974: acquired by Museum",
     "dimensions": "H x W x D: 79.3 x 188.2 x 68.2 cm (31 1\/4 in. x 6 ft. 2 1\/8 in. x 26 7\/8 in.)",
+    "dimensions_raw": {
+        "depth": [
+            "68.20",
+            "centimeters"
+        ],
+        "height": [
+            "79.30",
+            "centimeters"
+        ],
+        "width": [
+            "188.20",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Mr. and Mrs. Hugh J. Grant",
     "description": "Marquetry chest and lock",
     "justification": null,
-    "type": {
-        "id": "35263423",
-        "name": "Chest"
-    },
+    "woe:country": "23424829",
+    "type": "Chest",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/54000_dd391680d94518de_b.jpg",
                 "width": 1024,
                 "height": 627,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/54000_dd391680d94518de_n.jpg",
-                "width": 320,
-                "height": 196,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "54000"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/54000_dd391680d94518de_z.jpg",
                 "width": 640,
                 "height": 392,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "54000"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/54000_dd391680d94518de_n.jpg",
+                "width": 320,
+                "height": 196,
+                "is_primary": "1",
+                "image_id": "54000"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/54000_dd391680d94518de_d.gif",
+                "width": 320,
+                "height": 196,
+                "is_primary": "1",
+                "image_id": "54000"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/54000_dd391680d94518de_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "54000"
             }
         },
         {
@@ -53,19 +83,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/53999_3db682a68793fdc8_b.jpg",
                 "width": 1024,
                 "height": 547,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/53999_3db682a68793fdc8_n.jpg",
-                "width": 320,
-                "height": 171,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "53999"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/53999_3db682a68793fdc8_z.jpg",
                 "width": 640,
                 "height": 342,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "53999"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/53999_3db682a68793fdc8_n.jpg",
+                "width": 320,
+                "height": 171,
+                "is_primary": "0",
+                "image_id": "53999"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/53999_3db682a68793fdc8_d.gif",
+                "width": 320,
+                "height": 171,
+                "is_primary": "0",
+                "image_id": "53999"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/53999_3db682a68793fdc8_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "53999"
             }
         }
     ],
@@ -74,7 +121,9 @@
             "person_id": "18059477",
             "role_id": "35351535",
             "person_name": "Mr. and Mrs. Hugh J. Grant",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18059477\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -84,24 +133,35 @@
     },
     "colors": [
         {
-            "color": "#584336",
-            "closest_css3": "#556b2f"
+            "color": "#73452b",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#8b4513",
+            "closest_css4": "#8b4513"
         },
         {
-            "color": "#7e5033",
-            "closest_css3": "#a0522d"
+            "color": "#422e24",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#352c27",
-            "closest_css3": "#2f4f4f"
+            "color": "#594c43",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         },
         {
-            "color": "#777470",
-            "closest_css3": "#696969"
+            "color": "#a16435",
+            "closest_crayola": "#9c7c38",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         },
         {
-            "color": "#a56635",
-            "closest_css3": "#a0522d"
+            "color": "#786f6b",
+            "closest_crayola": "#757575",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         }
-    ]
+    ],
+    "woe:country_name": "Germany"
 }

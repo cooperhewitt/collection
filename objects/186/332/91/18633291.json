@@ -3,6 +3,7 @@
     "tms:id": "191488",
     "accession_number": "1989-5-2",
     "title": "Dinner Plate, \"\"Canton\" service\", ca. 1898",
+    "title_raw": "\"Canton\" service",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18633291\/",
     "department_id": "35347497",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1908,
     "year_acquired": "1989",
     "decade": null,
-    "woe:country": "23424819",
+    "woe:country_id": "23424819",
     "medium": "Porcelain",
     "markings": "Printed on underside in underglaze green: \"l'Art Nouveau Paris.\"",
     "signed": null,
     "inscribed": null,
     "provenance": "10 December 1988: Judge Ben and Barbara Wiles, Peter Wiles, Sr. [1] (from Christie's, New York); 1989: acquired by Museum\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n[1] Son-in-law, daughter, and grandson of Gustav Stickley",
     "dimensions": "H x diam.: 2.2 x 24.4 cm (7\/8 x 9 5\/8 in.)",
+    "dimensions_raw": {
+        "diameter": [
+            "24.40",
+            "centimeters"
+        ],
+        "height": [
+            "2.20",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase from General Acquisition Endowment",
     "description": "Molded plate is circular with broad rim. Rim punctuated by 4 indentations and a knot-like device creating a scalloped profile, alternating with four \"v\" shaped devices. This motif is picked out in soft underglaze green. Center of plate molded with stylized tendril-like motif, and encircled by continuous scroll band, all molded in relief.",
     "justification": null,
-    "type": {
-        "id": "35248179",
-        "name": "dinner plate"
-    },
+    "woe:country": "23424819",
+    "type": "dinner plate",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/10595_2dd6e5973e29b51f_b.jpg",
                 "width": 1010,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/10595_2dd6e5973e29b51f_n.jpg",
-                "width": 316,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "10595"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/10595_2dd6e5973e29b51f_z.jpg",
                 "width": 631,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "10595"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/10595_2dd6e5973e29b51f_n.jpg",
+                "width": 316,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "10595"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/10595_2dd6e5973e29b51f_d.gif",
+                "width": 316,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "10595"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/10595_2dd6e5973e29b51f_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "10595"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18048535",
             "role_id": "35352247",
             "person_name": "General Acquisitions Endowment",
+            "person_date": "",
             "role_name": "Fund",
+            "role_display_name": "Fund:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18048535\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352247\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18041599",
             "role_id": "35352249",
             "person_name": "Christie's",
+            "person_date": "",
             "role_name": "Vendor",
+            "role_display_name": "Purchased from",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041599\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352249\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18045429",
             "role_id": "35236691",
             "person_name": "Gustav Stickley",
+            "person_date": "1858 \u2013 1942",
             "role_name": "Collector",
+            "role_display_name": "Collected by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18045429\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236691\/"
         },
@@ -78,7 +110,9 @@
             "person_id": "18044703",
             "role_id": "35236657",
             "person_name": "Gerard, Dufraisseix, and Abbot, Limoges",
+            "person_date": "founded 1900",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18044703\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         },
@@ -86,7 +120,9 @@
             "person_id": "18044691",
             "role_id": "35236659",
             "person_name": "L'Art Nouveau",
+            "person_date": "Paris, France, founded 1895",
             "role_name": "Distributor",
+            "role_display_name": "Distributed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18044691\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236659\/"
         },
@@ -94,7 +130,9 @@
             "person_id": "18044215",
             "role_id": "35236655",
             "person_name": "Edward Colonna",
+            "person_date": "German, 1862\u20131948",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18044215\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -102,7 +140,9 @@
             "person_id": "18044689",
             "role_id": "35236675",
             "person_name": "Samuel Bing",
+            "person_date": "1838\u20131905",
             "role_name": "For",
+            "role_display_name": "Made for",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18044689\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236675\/"
         }
@@ -112,20 +152,29 @@
     },
     "colors": [
         {
-            "color": "#d0cac1",
-            "closest_css3": "#c0c0c0"
+            "color": "#d7d1c9",
+            "closest_crayola": "#dbd7d2",
+            "closest_css3": "#d3d3d3",
+            "closest_css4": "#d3d3d3"
         },
         {
-            "color": "#616276",
-            "closest_css3": "#696969"
+            "color": "#6c6c80",
+            "closest_crayola": "#757575",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#43424a",
-            "closest_css3": "#2f4f4f"
+            "color": "#3f3c43",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#a09b8b",
-            "closest_css3": "#bc8f8f"
+            "color": "#a09c8c",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         }
-    ]
+    ],
+    "woe:country_name": "France"
 }

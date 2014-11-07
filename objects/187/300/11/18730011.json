@@ -3,6 +3,7 @@
     "tms:id": "241009",
     "accession_number": "2008-21-6",
     "title": "Woven Portrait, \"Her Majesty Queen Alexandra\", 1901",
+    "title_raw": "Her Majesty Queen Alexandra",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18730011\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1901,
     "year_acquired": "2008",
     "decade": "1900",
-    "woe:country": "23424975",
+    "woe:country_id": "23424975",
     "medium": "Medium: silk\nTechnique: jacquard woven",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "Frame H x W: 20 x 15.6 cm (7 7\/8 x 6 1\/8 in.)",
+    "dimensions_raw": {
+        "height": [
+            "20.00",
+            "centimeters"
+        ],
+        "width": [
+            "15.56",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Paul F. Walter",
     "description": "Woven portrait of Queen Alexandra.",
     "justification": null,
-    "type": {
-        "id": "35288057",
-        "name": "Woven portrait"
-    },
+    "woe:country": "23424975",
+    "type": "Woven portrait",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/30093_0472424ac33c3a14_b.jpg",
                 "width": 813,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/30093_0472424ac33c3a14_n.jpg",
-                "width": 254,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "30093"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/30093_0472424ac33c3a14_z.jpg",
                 "width": 508,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "30093"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/30093_0472424ac33c3a14_n.jpg",
+                "width": 254,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "30093"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/30093_0472424ac33c3a14_d.gif",
+                "width": 254,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "30093"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/30093_0472424ac33c3a14_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "30093"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18062287",
             "role_id": "35236657",
             "person_name": "W.H. Grant & Company",
+            "person_date": "",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18062287\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18041007",
             "role_id": "35351535",
             "person_name": "Paul F. Walter",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041007\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -72,24 +102,35 @@
     },
     "colors": [
         {
-            "color": "#b6b197",
-            "closest_css3": "#a9a9a9"
+            "color": "#b6af96",
+            "closest_crayola": "#979aaa",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
         },
         {
-            "color": "#85633f",
-            "closest_css3": "#a0522d"
+            "color": "#9d8b74",
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#ebd2b9",
-            "closest_css3": "#f5deb3"
+            "color": "#664323",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#8b4513",
+            "closest_css4": "#8b4513"
         },
         {
-            "color": "#b99578",
-            "closest_css3": "#bc8f8f"
+            "color": "#806c54",
+            "closest_crayola": "#85754e",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#998f74",
-            "closest_css3": "#808080"
+            "color": "#d3b59b",
+            "closest_crayola": "#deaa88",
+            "closest_css3": "#d2b48c",
+            "closest_css4": "#d2b48c"
         }
-    ]
+    ],
+    "woe:country_name": "United Kingdom"
 }

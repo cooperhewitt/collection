@@ -3,6 +3,7 @@
     "tms:id": "181074",
     "accession_number": "1984-124-23-8",
     "title": "Album Page, \"\"Chaises de fantaisie,\" no. 8, in Le Garde-Meuble (The Storehouse)\", 1839\u201385",
+    "title_raw": "\"Chaises de fantaisie,\" no. 8, in Le Garde-Meuble (The Storehouse)",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18801815\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1924,
     "year_acquired": "1984",
     "decade": null,
-    "woe:country": "23424819",
+    "woe:country_id": "23424819",
     "medium": "Hand-colored lithograph on cream laid paper",
     "markings": null,
     "signed": "Signed in plate, lower left: D. Guilmard Del.; lower right: E. Olhon Lith.",
     "inscribed": "Inscribed in plate, upper center: LE GARDE MEUBLE \/ Ancien et Moderne.; upper left: 2e. Livraison; upper right: No. 8.; lower center: Chaises de fantaisie.; lower center margin: Publi\u00e9 par D. Guilmard, r, du Faubourg St. Denis, 56, Paris.; lower right margin: Lith: Coulon & Cie. r. richer, 7.",
     "provenance": null,
     "dimensions": "25.9 x 34 cm (10 3\/16 x 13 3\/8 in.)",
+    "dimensions_raw": {
+        "height": [
+            "25.90",
+            "centimeters"
+        ],
+        "width": [
+            "34.00",
+            "centimeters"
+        ]
+    },
     "creditline": null,
     "description": "Design for two chairs. Left, red upholstery and rounded wooden frame; right, yellow upholstery and curved and curled wooden frame.",
     "justification": null,
-    "type": {
-        "id": "35267349",
-        "name": "Album page"
-    },
+    "woe:country": "23424819",
+    "type": "Album page",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/25006_4d2e4917e5181564_b.jpg",
                 "width": 1024,
                 "height": 902,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/25006_4d2e4917e5181564_n.jpg",
-                "width": 320,
-                "height": 282,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "25006"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/25006_4d2e4917e5181564_z.jpg",
                 "width": 640,
                 "height": 564,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "25006"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/25006_4d2e4917e5181564_n.jpg",
+                "width": 320,
+                "height": 282,
+                "is_primary": "1",
+                "image_id": "25006"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/25006_4d2e4917e5181564_d.gif",
+                "width": 320,
+                "height": 282,
+                "is_primary": "1",
+                "image_id": "25006"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/25006_4d2e4917e5181564_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "25006"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "260845",
             "role_id": "35236661",
             "person_name": "D\u00e9sir\u00e9 Guilmard",
+            "person_date": "French, 1810\u20131885",
             "role_name": "Publisher",
+            "role_display_name": "Published by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/260845\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236661\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "51676649",
             "role_id": "35236617",
             "person_name": "Coulon & Cie.",
+            "person_date": "",
             "role_name": "Lithographer",
+            "role_display_name": "Lithographer:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/51676649\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236617\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "35474799",
             "role_id": "35236617",
             "person_name": "E. Olhon",
+            "person_date": "French",
             "role_name": "Lithographer",
+            "role_display_name": "Lithographer:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/35474799\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236617\/"
         },
@@ -78,7 +110,9 @@
             "person_id": "260845",
             "role_id": "35236655",
             "person_name": "D\u00e9sir\u00e9 Guilmard",
+            "person_date": "French, 1810\u20131885",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/260845\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
@@ -88,20 +122,29 @@
     },
     "colors": [
         {
-            "color": "#b6917e",
-            "closest_css3": "#bc8f8f"
+            "color": "#b6927e",
+            "closest_crayola": "#cd9575",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         },
         {
-            "color": "#362e2b",
-            "closest_css3": "#2f4f4f"
+            "color": "#6c5b50",
+            "closest_crayola": "#6e5160",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#8b645a",
-            "closest_css3": "#696969"
+            "color": "#8d675c",
+            "closest_crayola": "#8a795d",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#68574c",
-            "closest_css3": "#696969"
+            "color": "#372e2b",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         }
-    ]
+    ],
+    "woe:country_name": "France"
 }

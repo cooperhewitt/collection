@@ -3,6 +3,7 @@
     "tms:id": "79016",
     "accession_number": "1943-51-99",
     "title": "Album Page, \"Sketches of Boat, Fountain, and Building Fa\u00e7ade\", August 20\u201321, 1887",
+    "title_raw": "Sketches of Boat, Fountain, and Building Fa\u00e7ade",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18570633\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": null,
     "year_acquired": "1943",
     "decade": null,
-    "woe:country": "23424909",
+    "woe:country_id": "23424909",
     "medium": "Graphite on cream paperboard tipped into binding with fabric",
     "markings": null,
     "signed": null,
     "inscribed": "Recto, in graphite, from top left:\nstern \/ Katwijk \/ Aug 20, 1887; at right: . . . at \/ Leiden; at center: side view of fountain  in Leiden \/ other side just the same. \/ Dolphins spout from nose \/ and mouth. \/ The center panel front view \/ is an imitation of stalactites \/ Two cupid dolphins support \/ the basin which is not a \/ shell but is formed by the prows of boats\/ at bottom center: Fountain at \/ Leiden \/ Aug 21st 1887; at lower left: [arrow pointed upward] for dogs.",
     "provenance": null,
     "dimensions": "31.4 x 23.7 cm (12 3\/8 x 9 5\/16 in.), irregular",
+    "dimensions_raw": {
+        "height": [
+            "31.40",
+            "centimeters"
+        ],
+        "width": [
+            "23.70",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Mrs. William Greenough",
     "description": "Vertical sheet with multiple sketches.  At top left, a wood-hulled sailboat is seen in shallow water, viewed from stern.  At lower left a running fountain is seen from the left.  The fountain consists of a central pedestal which is decorated on the visible side by a dolphin with prominent scales spouting water from its nose and mouth, while its tail is raised vertically to support a smaller bowl above which fills with water from the spout above and dribbles over the rim into the large basin below.  The basin has a small, bowl-like projection at the corner, possibly providing water for animals.  The final sketch at right is the fa\u00e7ade of a late Renaissance building with only its left side visible.  The fa\u00e7ade consists of a large arched central pediment thrust up in the center and supported by a continuous engaged column.  A pendentive-like element sweeps down from the pediment to unite with the lower wing of the fa\u00e7ade which is topped by a ball finial.  At bottom right, Roman numerals have been sketched: C D D C L X X I X, which are present on a date plaque on the building's fa\u00e7ade.",
     "justification": null,
-    "type": {
-        "id": "35267349",
-        "name": "Album page"
-    },
+    "woe:country": "23424909",
+    "type": "Album page",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/37532_7d77143d3e23b17d_b.jpg",
                 "width": 1024,
                 "height": 1019,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/37532_7d77143d3e23b17d_n.jpg",
-                "width": 320,
-                "height": 318,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "37532"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/37532_7d77143d3e23b17d_z.jpg",
                 "width": 640,
                 "height": 637,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "37532"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/37532_7d77143d3e23b17d_n.jpg",
+                "width": 320,
+                "height": 318,
+                "is_primary": "1",
+                "image_id": "37532"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/37532_7d77143d3e23b17d_d.gif",
+                "width": 320,
+                "height": 318,
+                "is_primary": "1",
+                "image_id": "37532"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/37532_7d77143d3e23b17d_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "37532"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18051917",
             "role_id": "35351535",
             "person_name": "Mrs. William Greenough",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18051917\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18042021",
             "role_id": "35236565",
             "person_name": "Whitney Warren Jr.",
+            "person_date": "American, 1864\u20131943",
             "role_name": "Artist",
+            "role_display_name": "",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18042021\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236565\/"
         }
@@ -72,16 +102,17 @@
     },
     "colors": [
         {
-            "color": "#d5c199",
-            "closest_css3": "#d2b48c"
-        },
-        {
-            "color": "#a89475",
-            "closest_css3": "#bc8f8f"
+            "color": "#bea87f",
+            "closest_crayola": "#bab86c",
+            "closest_css3": "#bdb76b",
+            "closest_css4": "#bdb76b"
         },
         {
             "color": "#837156",
-            "closest_css3": "#696969"
+            "closest_crayola": "#85754e",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         }
-    ]
+    ],
+    "woe:country_name": "Netherlands"
 }

@@ -3,6 +3,7 @@
     "tms:id": "98500",
     "accession_number": "1948-40-31-a",
     "title": "Drawing, \"Standards and Wall Decoration, Banqueting Room, Royal Pavilion, Brighton\", 1817",
+    "title_raw": "Standards and Wall Decoration, Banqueting Room, Royal Pavilion, Brighton",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18609961\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1817,
     "year_acquired": "1948",
     "decade": null,
-    "woe:country": "23424975",
+    "woe:country_id": "23424975",
     "medium": "Graphite on white wove paper",
     "markings": "Cooper Union Museum stamp on verso",
     "signed": null,
     "inscribed": null,
     "provenance": "1948: acquired by Museum (from Mrs. K. Gregory)",
     "dimensions": "Mat: 35.6 x 45.7 cm (14 x 18 in.)\n32.2 x 26.8 cm (12 11\/16 x 10 9\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "35.56",
+            "centimeters"
+        ],
+        "width": [
+            "45.72",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase through gift of Mrs. John Innes Kane",
     "description": "Canopy-like decorations of Indian design with wide compartments flanked by two narrow ones, each surmounted by domes. The narrow sections have columns with leafy shafts, the space between filled with geometric flower motifs. Hanging light figures in center.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424975",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/63095_3b429a88926975d5_b.jpg",
                 "width": 852,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/63095_3b429a88926975d5_n.jpg",
-                "width": 266,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "63095"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/63095_3b429a88926975d5_z.jpg",
                 "width": 532,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "63095"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/63095_3b429a88926975d5_n.jpg",
+                "width": 266,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "63095"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/63095_3b429a88926975d5_d.gif",
+                "width": 266,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "63095"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/63095_3b429a88926975d5_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "63095"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18042069",
             "role_id": "35236655",
             "person_name": "Frederick Crace",
+            "person_date": "English, 1779\u20131859",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18042069\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18539479",
             "role_id": "35352249",
             "person_name": "Mrs. K. Gregory",
+            "person_date": "",
             "role_name": "Vendor",
+            "role_display_name": "Purchased from",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18539479\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352249\/"
         }
@@ -72,8 +102,11 @@
     },
     "colors": [
         {
-            "color": "#dad3bf",
-            "closest_css3": "#d3d3d3"
+            "color": "#dcd5c2",
+            "closest_crayola": "#dbd7d2",
+            "closest_css3": "#d3d3d3",
+            "closest_css4": "#d3d3d3"
         }
-    ]
+    ],
+    "woe:country_name": "United Kingdom"
 }

@@ -3,6 +3,7 @@
     "tms:id": "78769",
     "accession_number": "1943-51-334",
     "title": "Drawing, \"Plan, J.P Morgan Library Museum, New York\", ca. 1900",
+    "title_raw": "Plan, J.P Morgan Library Museum, New York",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18570139\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1905,
     "year_acquired": "1943",
     "decade": null,
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Graphite, pen and black ink, brush and blue and yellow watercolor, red and green crayon, on tracing paper mounted on white laid paper",
     "markings": null,
     "signed": null,
     "inscribed": "Below image, in ink:  Sketch plan for library Museum\nLower left: For J. P. Morgan Esq.\nLower right: Scale",
     "provenance": null,
     "dimensions": "Sheet: 32.5 x 43.1 cm (12 13\/16 x 16 15\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "32.50",
+            "centimeters"
+        ],
+        "width": [
+            "43.10",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Mrs. William Greenough",
     "description": "Floor plan of the Library Museum at top flanked by exedrae and gardens; vestibule, center, flanked by studies and gardens; entrance and steps at bottom; scale, lower right.  Edges pasted to a backing sheet of paper.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424977",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/20026_2adc57b1ef23807a_b.jpg",
                 "width": 1024,
                 "height": 811,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/20026_2adc57b1ef23807a_n.jpg",
-                "width": 320,
-                "height": 254,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "20026"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/20026_2adc57b1ef23807a_z.jpg",
                 "width": 640,
                 "height": 507,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "20026"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/20026_2adc57b1ef23807a_n.jpg",
+                "width": 320,
+                "height": 254,
+                "is_primary": "1",
+                "image_id": "20026"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/20026_2adc57b1ef23807a_d.gif",
+                "width": 320,
+                "height": 254,
+                "is_primary": "1",
+                "image_id": "20026"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/20026_2adc57b1ef23807a_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "20026"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18051917",
             "role_id": "35351535",
             "person_name": "Mrs. William Greenough",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18051917\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18042021",
             "role_id": "35236663",
             "person_name": "Whitney Warren Jr.",
+            "person_date": "American, 1864\u20131943",
             "role_name": "Architect",
+            "role_display_name": "Architect:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18042021\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236663\/"
         }
@@ -72,16 +102,11 @@
     },
     "colors": [
         {
-            "color": "#b1aa9f",
-            "closest_css3": "#a9a9a9"
-        },
-        {
-            "color": "#9399a0",
-            "closest_css3": "#a9a9a9"
-        },
-        {
-            "color": "#5b5955",
-            "closest_css3": "#696969"
+            "color": "#939aa0",
+            "closest_crayola": "#979aaa",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

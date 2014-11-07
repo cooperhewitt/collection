@@ -3,6 +3,7 @@
     "tms:id": "194622",
     "accession_number": "1992-163-1",
     "title": "Goblet, \"\"Prism\" pattern\", mid-19th century",
+    "title_raw": "\"Prism\" pattern",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18639517\/",
     "department_id": "35347497",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": null,
     "year_acquired": "1992",
     "decade": null,
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Pressed glass",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "Mrs. Granville Price; 1992: acquired by Museum",
     "dimensions": "Overall: 16 x 8.4 cm diameter (6 5\/16 x 3 5\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "16.00",
+            "centimeters"
+        ],
+        "width": [
+            "8.40",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Mrs. Granville Price",
     "description": "Series of vertical ridges on goblet.",
     "justification": null,
-    "type": {
-        "id": "35250731",
-        "name": "goblet"
-    },
+    "woe:country": "23424977",
+    "type": "goblet",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/19201_5b62aebf1a3ecf1b_b.jpg",
                 "width": 1024,
                 "height": 441,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/19201_5b62aebf1a3ecf1b_n.jpg",
-                "width": 320,
-                "height": 138,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "19201"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/19201_5b62aebf1a3ecf1b_z.jpg",
                 "width": 640,
                 "height": 276,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "19201"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/19201_5b62aebf1a3ecf1b_n.jpg",
+                "width": 320,
+                "height": 138,
+                "is_primary": "1",
+                "image_id": "19201"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/19201_5b62aebf1a3ecf1b_d.gif",
+                "width": 320,
+                "height": 138,
+                "is_primary": "1",
+                "image_id": "19201"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/19201_5b62aebf1a3ecf1b_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "19201"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18041237",
             "role_id": "35351535",
             "person_name": "Mrs. Granville Price",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041237\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18047827",
             "role_id": "35352245",
             "person_name": "Deborah S. Shinn",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047827\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         }
@@ -72,20 +102,17 @@
     },
     "colors": [
         {
-            "color": "#474954",
-            "closest_css3": "#2f4f4f"
-        },
-        {
-            "color": "#87848f",
-            "closest_css3": "#808080"
-        },
-        {
-            "color": "#696870",
-            "closest_css3": "#696969"
+            "color": "#5d5d66",
+            "closest_crayola": "#4a646c",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
             "color": "#23252f",
-            "closest_css3": "#2f4f4f"
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

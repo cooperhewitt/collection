@@ -3,6 +3,7 @@
     "tms:id": "55969",
     "accession_number": "1937-22-17",
     "title": "Pring, \"Paper Doll Costume in White Fur with Pink Bow\", 1876\u201380",
+    "title_raw": "Paper Doll Costume in White Fur with Pink Bow",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18344245\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1956,
     "year_acquired": "1937",
     "decade": null,
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Lithograph, brush and watercolor on cream heavy wove paper",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "Grace Lincoln Temple",
     "dimensions": "H x W: 7.5 x 6 cm (2 15\/16 x 2 3\/8 in.), irregular",
+    "dimensions_raw": {
+        "height": [
+            "7.50",
+            "centimeters"
+        ],
+        "width": [
+            "6.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Grace Lincoln Temple",
     "description": "White fur lined coat with fur lining and pink bow at collar. A glimmer of her emerald and gold full skirt peek out from under her coat.  Her white gloved hands hold a fan and a handkerchief.  Both the front and back of this outfit represented.",
     "justification": null,
-    "type": {
-        "id": "35459871",
-        "name": "Pring"
-    },
+    "woe:country": "23424977",
+    "type": "Pring",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/3213_c427ebf386644627_b.jpg",
                 "width": 737,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/3213_c427ebf386644627_n.jpg",
-                "width": 230,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "3213"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/3213_c427ebf386644627_z.jpg",
                 "width": 460,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "3213"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/3213_c427ebf386644627_n.jpg",
+                "width": 230,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "3213"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/3213_c427ebf386644627_d.gif",
+                "width": 230,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "3213"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/3213_c427ebf386644627_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "3213"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/3212_21de6e5c357dc456_b.jpg",
                 "width": 750,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/3212_21de6e5c357dc456_n.jpg",
-                "width": 234,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "3212"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/3212_21de6e5c357dc456_z.jpg",
                 "width": 468,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "3212"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/3212_21de6e5c357dc456_n.jpg",
+                "width": 234,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "3212"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/3212_21de6e5c357dc456_d.gif",
+                "width": 234,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "3212"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/3212_21de6e5c357dc456_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "3212"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "51676457",
             "role_id": "35352245",
             "person_name": "Karin Zonis",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/51676457\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18046661",
             "role_id": "35351535",
             "person_name": "Grace Lincoln Temple",
+            "person_date": "1865\u20131953",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18046661\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -92,24 +139,35 @@
     },
     "colors": [
         {
-            "color": "#372216",
-            "closest_css3": "#000000"
+            "color": "#291f1f",
+            "closest_crayola": "#000000",
+            "closest_css3": "#000000",
+            "closest_css4": "#000000"
         },
         {
-            "color": "#e8d4c4",
-            "closest_css3": "#f5deb3"
+            "color": "#ccbaa5",
+            "closest_crayola": "#cdc5c2",
+            "closest_css3": "#d2b48c",
+            "closest_css4": "#d2b48c"
         },
         {
-            "color": "#cba582",
-            "closest_css3": "#d2b48c"
+            "color": "#8a5b32",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         },
         {
-            "color": "#a4936e",
-            "closest_css3": "#bc8f8f"
+            "color": "#d8ab76",
+            "closest_crayola": "#deaa88",
+            "closest_css3": "#deb887",
+            "closest_css4": "#deb887"
         },
         {
-            "color": "#7b5f3c",
-            "closest_css3": "#556b2f"
+            "color": "#55442e",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

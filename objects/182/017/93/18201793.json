@@ -3,6 +3,7 @@
     "tms:id": "23628",
     "accession_number": "1917-4-790",
     "title": "Drawing, \"Ecuador, mountain (possibly Chimborazo)\", 1853",
+    "title_raw": "Ecuador, mountain (possibly Chimborazo)",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18201793\/",
     "department_id": "35347493",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1853,
     "year_acquired": "1917",
     "decade": null,
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Brush and oil, pencil on paper.",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "Gift of Louis P. Church",
     "dimensions": "23.8 x 43.6 cm (9 3\/8 x 17 3\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "23.80",
+            "centimeters"
+        ],
+        "width": [
+            "43.60",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Louis P. Church",
     "description": "A valley stretches obliquely from the left foreground to the right background.  Some parts of its bank in the foreground are cultivated.  High summits rise in the left middle plane and in the right background.  Bottom margin showing the cream colored ground.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424977",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/17220_0c94cef03a4bba73_b.jpg",
                 "width": 1024,
                 "height": 614,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/17220_0c94cef03a4bba73_n.jpg",
-                "width": 320,
-                "height": 192,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "17220"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/17220_0c94cef03a4bba73_z.jpg",
                 "width": 640,
                 "height": 384,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "17220"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/17220_0c94cef03a4bba73_n.jpg",
+                "width": 320,
+                "height": 192,
+                "is_primary": "1",
+                "image_id": "17220"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/17220_0c94cef03a4bba73_d.gif",
+                "width": 320,
+                "height": 192,
+                "is_primary": "1",
+                "image_id": "17220"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/17220_0c94cef03a4bba73_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "17220"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18041941",
             "role_id": "35236565",
             "person_name": "Frederic Edwin Church",
+            "person_date": "American, 1826\u20131900",
             "role_name": "Artist",
+            "role_display_name": "",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041941\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236565\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18051625",
             "role_id": "35351535",
             "person_name": "Louis P. Church",
+            "person_date": "American, 1870\u20131943",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18051625\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -72,24 +102,35 @@
     },
     "colors": [
         {
-            "color": "#c3aa9a",
-            "closest_css3": "#d2b48c"
+            "color": "#cbb4ab",
+            "closest_crayola": "#cdc5c2",
+            "closest_css3": "#c0c0c0",
+            "closest_css4": "#c0c0c0"
         },
         {
-            "color": "#87706c",
-            "closest_css3": "#808080"
+            "color": "#6b523b",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         },
         {
-            "color": "#4b3d35",
-            "closest_css3": "#2f4f4f"
+            "color": "#9a8381",
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#886d4e",
-            "closest_css3": "#696969"
+            "color": "#b69580",
+            "closest_crayola": "#cd9575",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         },
         {
-            "color": "#f9e9fc",
-            "closest_css3": "#fff0f5"
+            "color": "#fbe7fc",
+            "closest_crayola": "#fddde6",
+            "closest_css3": "#fff0f5",
+            "closest_css4": "#fff0f5"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }

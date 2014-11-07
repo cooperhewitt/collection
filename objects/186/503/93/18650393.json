@@ -3,6 +3,7 @@
     "tms:id": "200124",
     "accession_number": "1995-163-19",
     "title": "Sidewall, \"Mention\", 1992",
+    "title_raw": "Mention",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18650393\/",
     "department_id": "35347503",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1992,
     "year_acquired": "1995",
     "decade": "1990",
-    "woe:country": "23424829",
+    "woe:country_id": "23424829",
     "medium": "Screen printed",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "1005 x 53.5 cm (395 11\/16 x 21 1\/16 in. )",
+    "dimensions_raw": {
+        "height": [
+            "1005.00",
+            "centimeters"
+        ],
+        "width": [
+            "53.50",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Gebr. Rasch GmbH & Co.",
     "description": "All-over pattern of closely spaced orange patches printed on a yellow ground.",
     "justification": null,
-    "type": {
-        "id": "35256475",
-        "name": "Sidewall"
-    },
+    "woe:country": "23424829",
+    "type": "Sidewall",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/42745_2813739d87329f83_b.jpg",
                 "width": 467,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/42745_2813739d87329f83_n.jpg",
-                "width": 146,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "42745"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/42745_2813739d87329f83_z.jpg",
                 "width": 292,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "42745"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/42745_2813739d87329f83_n.jpg",
+                "width": 146,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "42745"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/42745_2813739d87329f83_d.gif",
+                "width": 146,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "42745"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/42745_2813739d87329f83_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "42745"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18046473",
             "role_id": "35236657",
             "person_name": "Rasch & Company",
+            "person_date": "1896",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18046473\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18047289",
             "role_id": "35236655",
             "person_name": "George J. Sowden",
+            "person_date": "",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047289\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18049019",
             "role_id": "35236657",
             "person_name": "Gebr. Rasch GmbH & Co.",
+            "person_date": "",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049019\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         }
@@ -80,16 +112,23 @@
     },
     "colors": [
         {
-            "color": "#f7d141",
-            "closest_css3": "#f4a460"
+            "color": "#f6d041",
+            "closest_crayola": "#ffcf48",
+            "closest_css3": "#f4a460",
+            "closest_css4": "#f4a460"
         },
         {
             "color": "#f9f087",
-            "closest_css3": "#f0e68c"
+            "closest_crayola": "#fce883",
+            "closest_css3": "#f0e68c",
+            "closest_css4": "#f0e68c"
         },
         {
-            "color": "#f9f7ce",
-            "closest_css3": "#fafad2"
+            "color": "#f7f6d9",
+            "closest_crayola": "#efdecd",
+            "closest_css3": "#f5f5dc",
+            "closest_css4": "#f5f5dc"
         }
-    ]
+    ],
+    "woe:country_name": "Germany"
 }

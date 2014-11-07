@@ -3,6 +3,7 @@
     "tms:id": "191650",
     "accession_number": "1989-98-2-a,b",
     "title": "Belt Buckle, 1904\u201308",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18633611\/",
     "department_id": "35347497",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1908,
     "year_acquired": "1989",
     "decade": "1900",
-    "woe:country": "23424796",
+    "woe:country_id": "23424796",
     "medium": "Silver, agate, amber",
     "markings": "Stamped on back of silver frame: \"826 S GJ [monogram] G.J.\"",
     "signed": null,
     "inscribed": null,
     "provenance": "1989: acquired by Museum (from George Jensen Antiques)",
     "dimensions": "Overall: 6.5 x 13 cm (2 9\/16 x 5 1\/8 in.)",
+    "dimensions_raw": {
+        "height": [
+            "6.50",
+            "centimeters"
+        ],
+        "width": [
+            "13.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase from Decorative Arts Association Acquisition Fund",
     "description": "Large oval green agate center, surrounded by 12 smaller agates and 8 amber cabochons, all set in silver frame with leaf-like embossed designs. Safety clasp on reverse.",
     "justification": null,
-    "type": {
-        "id": "35249673",
-        "name": "belt buckle"
-    },
+    "woe:country": "23424796",
+    "type": "belt buckle",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/11095_b2cca97d39a884c8_b.jpg",
                 "width": 1024,
                 "height": 571,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/11095_b2cca97d39a884c8_n.jpg",
-                "width": 320,
-                "height": 179,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "11095"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/11095_b2cca97d39a884c8_z.jpg",
                 "width": 640,
                 "height": 357,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "11095"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/11095_b2cca97d39a884c8_n.jpg",
+                "width": 320,
+                "height": 179,
+                "is_primary": "1",
+                "image_id": "11095"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/11095_b2cca97d39a884c8_d.gif",
+                "width": 320,
+                "height": 179,
+                "is_primary": "1",
+                "image_id": "11095"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/11095_b2cca97d39a884c8_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "11095"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/10701_2a6d3f32a010e91d_b.jpg",
                 "width": 1024,
                 "height": 1005,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/10701_2a6d3f32a010e91d_n.jpg",
-                "width": 320,
-                "height": 314,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "10701"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/10701_2a6d3f32a010e91d_z.jpg",
                 "width": 640,
                 "height": 628,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "10701"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/10701_2a6d3f32a010e91d_n.jpg",
+                "width": 320,
+                "height": 314,
+                "is_primary": "0",
+                "image_id": "10701"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/10701_2a6d3f32a010e91d_d.gif",
+                "width": 320,
+                "height": 314,
+                "is_primary": "0",
+                "image_id": "10701"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/10701_2a6d3f32a010e91d_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "10701"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18057735",
             "role_id": "35352249",
             "person_name": "George Jensen Antiques",
+            "person_date": "",
             "role_name": "Vendor",
+            "role_display_name": "Purchased from",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18057735\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352249\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18043787",
             "role_id": "35236657",
             "person_name": "Georg Jensen S\u00f8lvsmedie",
+            "person_date": "founded 1904",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18043787\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         },
@@ -90,7 +137,9 @@
             "person_id": "18049365",
             "role_id": "35352247",
             "person_name": "Decorative Arts Association Acquisition Fund",
+            "person_date": "founded 1982, closed September 30, 1998",
             "role_name": "Fund",
+            "role_display_name": "Fund:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049365\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352247\/"
         },
@@ -98,7 +147,9 @@
             "person_id": "18046227",
             "role_id": "35236655",
             "person_name": "Arthur Georg Jensen",
+            "person_date": "Danish, 1866\u20131935",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18046227\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         }
@@ -108,24 +159,35 @@
     },
     "colors": [
         {
-            "color": "#b2bfcf",
-            "closest_css3": "#b0c4de"
+            "color": "#b6c3d3",
+            "closest_crayola": "#b0b7c6",
+            "closest_css3": "#b0c4de",
+            "closest_css4": "#b0c4de"
         },
         {
-            "color": "#737a8a",
-            "closest_css3": "#708090"
+            "color": "#61636a",
+            "closest_crayola": "#4a646c",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#382e27",
-            "closest_css3": "#2f4f4f"
+            "color": "#382c25",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#d6cec8",
-            "closest_css3": "#d3d3d3"
+            "color": "#979eaf",
+            "closest_crayola": "#979aaa",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
         },
         {
-            "color": "#955836",
-            "closest_css3": "#a0522d"
+            "color": "#544c46",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         }
-    ]
+    ],
+    "woe:country_name": "Denmark"
 }

@@ -3,6 +3,7 @@
     "tms:id": "47288",
     "accession_number": "1931-6-143",
     "title": "Fan, late 19th\u2013early 20th century",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18325341\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1925,
     "year_acquired": "1931",
     "decade": null,
-    "woe:country": null,
+    "woe:country_id": null,
     "medium": "Medium: embroidered gauze, ivory",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "H x W: 35 x 64 cm (13 3\/4 x 25 3\/16 in.)",
+    "dimensions_raw": {
+        "height": [
+            "35.00",
+            "centimeters"
+        ],
+        "width": [
+            "64.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Bequest of Sarah Cooper Hewitt",
     "description": "Mount has white gauze with Algerian-style embroidery. Sticks are plain ivory.",
     "justification": null,
-    "type": {
-        "id": "35252007",
-        "name": "fan"
-    },
+    "woe:country": null,
+    "type": "fan",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/69497_8ac82775c49c2656_b.jpg",
                 "width": 1024,
                 "height": 663,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/69497_8ac82775c49c2656_n.jpg",
-                "width": 320,
-                "height": 207,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "69497"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/69497_8ac82775c49c2656_z.jpg",
                 "width": 640,
                 "height": 414,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "69497"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/69497_8ac82775c49c2656_n.jpg",
+                "width": 320,
+                "height": 207,
+                "is_primary": "1",
+                "image_id": "69497"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/69497_8ac82775c49c2656_d.gif",
+                "width": 320,
+                "height": 207,
+                "is_primary": "1",
+                "image_id": "69497"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/69497_8ac82775c49c2656_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "69497"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18049321",
             "role_id": "35351537",
             "person_name": "Sarah Cooper Hewitt",
+            "person_date": "American, 1859\u20131930",
             "role_name": "Bequestor",
+            "role_display_name": "Bequest of",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049321\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351537\/"
         }
@@ -64,24 +92,34 @@
     },
     "colors": [
         {
-            "color": "#171a29",
-            "closest_css3": "#000000"
-        },
-        {
             "color": "#a9b4af",
-            "closest_css3": "#a9a9a9"
+            "closest_crayola": "#b0b7c6",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
         },
         {
-            "color": "#ecf5da",
-            "closest_css3": "#f5f5dc"
+            "color": "#ecf5db",
+            "closest_crayola": "#efdecd",
+            "closest_css3": "#f5f5dc",
+            "closest_css4": "#f5f5dc"
         },
         {
-            "color": "#858e8a",
-            "closest_css3": "#808080"
+            "color": "#838d89",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#bb8469",
-            "closest_css3": "#bc8f8f"
+            "color": "#454d54",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
+        },
+        {
+            "color": "#171a29",
+            "closest_crayola": "#000000",
+            "closest_css3": "#000000",
+            "closest_css4": "#000000"
         }
     ]
 }

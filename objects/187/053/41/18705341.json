@@ -3,6 +3,7 @@
     "tms:id": "228476",
     "accession_number": "2006-13-3",
     "title": "Textile, \"Olympic Bravery\", 1979",
+    "title_raw": "Olympic Bravery",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18705341\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1979,
     "year_acquired": "2006",
     "decade": "1970",
-    "woe:country": "23424819",
+    "woe:country_id": "23424819",
     "medium": "Medium: synthetic metallic fiber, wool\nTechnique: plain weave with discontinuous wefts (slit tapestry, reversible, four selvedges)",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "2006: acquired by Museum (from Sheila Hicks)",
     "dimensions": "Warp x Weft: 23 x 15 cm (9 1\/16 x 5 7\/8 in.)",
+    "dimensions_raw": {
+        "warp": [
+            "23.00",
+            "centimeters"
+        ],
+        "weft": [
+            "15.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Museum purchase from General Acquisitions Endowment Fund",
     "description": "A composition of tabs of varying widths and irregular rectangles of color in black, maroon, red, and metallic silver.",
     "justification": null,
-    "type": {
-        "id": "35251739",
-        "name": "textile"
-    },
+    "woe:country": "23424819",
+    "type": "textile",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/35235_bcfb893e11cb5654_b.jpg",
                 "width": 769,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/35235_bcfb893e11cb5654_n.jpg",
-                "width": 240,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "35235"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/35235_bcfb893e11cb5654_z.jpg",
                 "width": 481,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "35235"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/35235_bcfb893e11cb5654_n.jpg",
+                "width": 240,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "35235"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/35235_bcfb893e11cb5654_d.gif",
+                "width": 240,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "35235"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/35235_bcfb893e11cb5654_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "35235"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/25390_e41c374191957c23_b.jpg",
                 "width": 667,
                 "height": 1024,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/25390_e41c374191957c23_n.jpg",
-                "width": 209,
-                "height": 320,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "25390"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/25390_e41c374191957c23_z.jpg",
                 "width": 417,
                 "height": 640,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "25390"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/25390_e41c374191957c23_n.jpg",
+                "width": 209,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "25390"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/25390_e41c374191957c23_d.gif",
+                "width": 209,
+                "height": 320,
+                "is_primary": "0",
+                "image_id": "25390"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/25390_e41c374191957c23_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "25390"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18048535",
             "role_id": "35352247",
             "person_name": "General Acquisitions Endowment",
+            "person_date": "",
             "role_name": "Fund",
+            "role_display_name": "Fund:",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18048535\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352247\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18058887",
             "role_id": "35352249",
             "person_name": "Sheila Hicks",
+            "person_date": "American, b. 1934",
             "role_name": "Vendor",
+            "role_display_name": "Purchased from",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18058887\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352249\/"
         },
@@ -90,7 +137,9 @@
             "person_id": "18058887",
             "role_id": "35236685",
             "person_name": "Sheila Hicks",
+            "person_date": "American, b. 1934",
             "role_name": "Maker",
+            "role_display_name": "Made by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18058887\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236685\/"
         }
@@ -100,24 +149,35 @@
     },
     "colors": [
         {
-            "color": "#722529",
-            "closest_css3": "#8b4513"
+            "color": "#752529",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#8b4513",
+            "closest_css4": "#8b4513"
         },
         {
-            "color": "#282a2b",
-            "closest_css3": "#2f4f4f"
+            "color": "#45403d",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         },
         {
-            "color": "#896541",
-            "closest_css3": "#a0522d"
+            "color": "#7c8781",
+            "closest_crayola": "#757575",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#755a65",
-            "closest_css3": "#696969"
+            "color": "#a28d6c",
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#799493",
-            "closest_css3": "#778899"
+            "color": "#a19293",
+            "closest_crayola": "#95918c",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         }
-    ]
+    ],
+    "woe:country_name": "France"
 }

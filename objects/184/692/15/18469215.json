@@ -3,6 +3,7 @@
     "tms:id": "145243",
     "accession_number": "1969-170-4",
     "title": "Cap, 800\u20131100",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18469215\/",
     "department_id": "35347501",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": null,
     "year_acquired": "1969",
     "decade": null,
-    "woe:country": "23424919",
+    "woe:country_id": "23424919",
     "medium": "Medium: wool\nTechnique: tapestry woven, single interlock; OUTSIDE FABRIC: tapestry: interlocked; INSIDE FABRIC: single-weft double cloth (warp-faced plain weave).",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "H x W: 10.5 x 48 cm (4 1\/8 x 18 7\/8 in.)",
+    "dimensions_raw": {
+        "height": [
+            "10.50",
+            "centimeters"
+        ],
+        "width": [
+            "48.00",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Clara Waldeck",
     "description": "Two fabrics sewn together (one on the outside, one on the inside - each a loomed width) to form a circular band. The fabric on the outside is tapestry-woven band with four panels, each showing a full-face standing figure wearing a headdress on a red, green or black background. The drawing is in the Tiahuanaco style but lacks the expected precision. The fabric on the inside is a heavy single weft double-cloth patterned by brown and ivory panels of checkerboard.",
     "justification": null,
-    "type": {
-        "id": "35259883",
-        "name": "Cap"
-    },
+    "woe:country": "23424919",
+    "type": "Cap",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/81406_7aeb5b7291050fc2_b.jpg",
                 "width": 1024,
                 "height": 562,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/81406_7aeb5b7291050fc2_n.jpg",
-                "width": 320,
-                "height": 176,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "81406"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/81406_7aeb5b7291050fc2_z.jpg",
                 "width": 640,
                 "height": 351,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "81406"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/81406_7aeb5b7291050fc2_n.jpg",
+                "width": 320,
+                "height": 176,
+                "is_primary": "1",
+                "image_id": "81406"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/81406_7aeb5b7291050fc2_d.gif",
+                "width": 320,
+                "height": 176,
+                "is_primary": "1",
+                "image_id": "81406"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/81406_7aeb5b7291050fc2_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "81406"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/81407_61548f18d1f9f2c0_b.jpg",
                 "width": 1024,
                 "height": 584,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/81407_61548f18d1f9f2c0_n.jpg",
-                "width": 320,
-                "height": 183,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "81407"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/81407_61548f18d1f9f2c0_z.jpg",
                 "width": 640,
                 "height": 365,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "81407"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/81407_61548f18d1f9f2c0_n.jpg",
+                "width": 320,
+                "height": 183,
+                "is_primary": "0",
+                "image_id": "81407"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/81407_61548f18d1f9f2c0_d.gif",
+                "width": 320,
+                "height": 183,
+                "is_primary": "0",
+                "image_id": "81407"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/81407_61548f18d1f9f2c0_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "81407"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18049425",
             "role_id": "35351535",
             "person_name": "Clara Waldeck",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049425\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -84,24 +129,35 @@
     },
     "colors": [
         {
-            "color": "#641f1c",
-            "closest_css3": "#800000"
+            "color": "#5c1b1a",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#800000",
+            "closest_css4": "#800000"
         },
         {
-            "color": "#371713",
-            "closest_css3": "#000000"
+            "color": "#835b31",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
         },
         {
-            "color": "#845c31",
-            "closest_css3": "#a0522d"
+            "color": "#2b221e",
+            "closest_crayola": "#000000",
+            "closest_css3": "#000000",
+            "closest_css4": "#000000"
         },
         {
-            "color": "#2e2622",
-            "closest_css3": "#2f4f4f"
+            "color": "#5c3b22",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         },
         {
-            "color": "#5c3a22",
-            "closest_css3": "#8b4513"
+            "color": "#a48354",
+            "closest_crayola": "#a57164",
+            "closest_css3": "#cd853f",
+            "closest_css4": "#cd853f"
         }
-    ]
+    ],
+    "woe:country_name": "Peru"
 }

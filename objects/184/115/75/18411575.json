@@ -3,6 +3,7 @@
     "tms:id": "116009",
     "accession_number": "1957-116-9",
     "title": "Sidewall, ca. 1956",
+    "title_raw": null,
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18411575\/",
     "department_id": "35347503",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1961,
     "year_acquired": "1957",
     "decade": "1950",
-    "woe:country": "23424829",
+    "woe:country_id": "23424829",
     "medium": "Machine-printed on paper",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "Marburger Tapetenfabrik; 1957: acquired by Museum",
     "dimensions": "108 x 56.5 cm (42 1\/2 x 22 1\/4 in.)",
+    "dimensions_raw": {
+        "height": [
+            "108.00",
+            "centimeters"
+        ],
+        "width": [
+            "56.50",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Marburger Tapetenfabrik",
     "description": "Irregular vertical stripes of various widths, yellow, green, purple, black, eggshell and red, interrupted by scattered small figures and overprinted with white relief dots. Straight repeat, drop match. On left margin: \"Marburg Tapete Made in Western Germany\", on right: \"Entwurf Elsbeth Kupferoth 145\".",
     "justification": null,
-    "type": {
-        "id": "35256475",
-        "name": "Sidewall"
-    },
+    "woe:country": "23424829",
+    "type": "Sidewall",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/42604_91de9716af6812d2_b.jpg",
                 "width": 541,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/42604_91de9716af6812d2_n.jpg",
-                "width": 169,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "42604"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/42604_91de9716af6812d2_z.jpg",
                 "width": 338,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "42604"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/42604_91de9716af6812d2_n.jpg",
+                "width": 169,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "42604"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/42604_91de9716af6812d2_d.gif",
+                "width": 169,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "42604"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/42604_91de9716af6812d2_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "42604"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "18047087",
             "role_id": "35351535",
             "person_name": "Marburger Tapetenfabrik",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047087\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18048035",
             "role_id": "35352245",
             "person_name": "Hedy Backlin-Landman",
+            "person_date": "",
             "role_name": "Cataloguer",
+            "role_display_name": "Catalogued by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18048035\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35352245\/"
         },
@@ -70,7 +100,9 @@
             "person_id": "18047183",
             "role_id": "35236655",
             "person_name": "Elsbeth Kupferoth",
+            "person_date": "b. 1920",
             "role_name": "Designer",
+            "role_display_name": "Designed by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047183\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236655\/"
         },
@@ -78,7 +110,9 @@
             "person_id": "18047087",
             "role_id": "35236685",
             "person_name": "Marburger Tapetenfabrik",
+            "person_date": "",
             "role_name": "Maker",
+            "role_display_name": "Made by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18047087\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236685\/"
         }
@@ -88,24 +122,35 @@
     },
     "colors": [
         {
-            "color": "#8b8ac4",
-            "closest_css3": "#9370d8"
+            "color": "#acaad0",
+            "closest_crayola": "#a2add0",
+            "closest_css3": "#b0c4de",
+            "closest_css4": "#b0c4de"
         },
         {
-            "color": "#6f6b68",
-            "closest_css3": "#696969"
+            "color": "#777471",
+            "closest_crayola": "#757575",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#c2bfca",
-            "closest_css3": "#c0c0c0"
+            "color": "#bfd18a",
+            "closest_crayola": "#c5e384",
+            "closest_css3": "#d2b48c",
+            "closest_css4": "#d2b48c"
         },
         {
-            "color": "#db7048",
-            "closest_css3": "#cd853f"
+            "color": "#ddd4cc",
+            "closest_crayola": "#dbd7d2",
+            "closest_css3": "#d3d3d3",
+            "closest_css4": "#d3d3d3"
         },
         {
-            "color": "#8a8aa0",
-            "closest_css3": "#778899"
+            "color": "#f5ea84",
+            "closest_crayola": "#fce883",
+            "closest_css3": "#f0e68c",
+            "closest_css4": "#f0e68c"
         }
-    ]
+    ],
+    "woe:country_name": "Germany"
 }

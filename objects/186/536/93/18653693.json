@@ -3,6 +3,7 @@
     "tms:id": "201806",
     "accession_number": "1996-45-5",
     "title": "Vase, \"lavender, crocus\", ca. 1905",
+    "title_raw": "lavender, crocus",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18653693\/",
     "department_id": "35347497",
     "period_id": null,
@@ -13,39 +14,64 @@
     "year_end": 1910,
     "year_acquired": "1996",
     "decade": null,
-    "woe:country": "23424819",
+    "woe:country_id": "23424819",
     "medium": "Glass",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": "1996: acquired by Museum",
     "dimensions": "H x diam.: 30.4 x 11.6 cm (11 15\/16 x 4 9\/16 in.)",
+    "dimensions_raw": {
+        "diameter": [
+            "11.60",
+            "centimeters"
+        ],
+        "height": [
+            "30.40",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of the Estate of Max Kobre",
     "description": "Tall vase with bulbous base and inverted mouth, depicting dark to light gradation; red and blue crocus on lilac background.",
     "justification": null,
-    "type": {
-        "id": "35237225",
-        "name": "Vase"
-    },
+    "woe:country": "23424819",
+    "type": "Vase",
     "images": [
         {
             "b": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/44248_77ededa2cbaf300c_b.jpg",
-                "width": 638,
+                "url": "http:\/\/images.collection.cooperhewitt.org\/44248_19364387656719a8_b.jpg",
+                "width": 1024,
                 "height": 1024,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/44248_77ededa2cbaf300c_n.jpg",
-                "width": 199,
-                "height": 320,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "44248"
             },
             "z": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/44248_77ededa2cbaf300c_z.jpg",
-                "width": 399,
+                "url": "http:\/\/images.collection.cooperhewitt.org\/44248_19364387656719a8_z.jpg",
+                "width": 640,
                 "height": 640,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "44248"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/44248_19364387656719a8_n.jpg",
+                "width": 320,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "44248"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/44248_19364387656719a8_d.gif",
+                "width": 320,
+                "height": 320,
+                "is_primary": "1",
+                "image_id": "44248"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/44248_19364387656719a8_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "44248"
             }
         }
     ],
@@ -54,7 +80,9 @@
             "person_id": "51679139",
             "role_id": "35351535",
             "person_name": "Estate of Max Kobre",
+            "person_date": "",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/51679139\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         },
@@ -62,7 +90,9 @@
             "person_id": "18049179",
             "role_id": "35236657",
             "person_name": "Daum",
+            "person_date": "founded 1878, Nancy, France",
             "role_name": "Manufacturer",
+            "role_display_name": "Manufactured by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18049179\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236657\/"
         }
@@ -73,23 +103,34 @@
     "colors": [
         {
             "color": "#b9a2a1",
-            "closest_css3": "#a9a9a9"
+            "closest_crayola": "#979aaa",
+            "closest_css3": "#a9a9a9",
+            "closest_css4": "#a9a9a9"
         },
         {
-            "color": "#3b3a41",
-            "closest_css3": "#2f4f4f"
-        },
-        {
-            "color": "#8b7e81",
-            "closest_css3": "#808080"
-        },
-        {
-            "color": "#d3bf95",
-            "closest_css3": "#d2b48c"
+            "color": "#bc9f84",
+            "closest_crayola": "#cd9575",
+            "closest_css3": "#bc8f8f",
+            "closest_css4": "#bc8f8f"
         },
         {
             "color": "#934830",
-            "closest_css3": "#a0522d"
+            "closest_crayola": "#714b23",
+            "closest_css3": "#a0522d",
+            "closest_css4": "#a0522d"
+        },
+        {
+            "color": "#d3bf96",
+            "closest_crayola": "#e7c697",
+            "closest_css3": "#d2b48c",
+            "closest_css4": "#d2b48c"
+        },
+        {
+            "color": "#9e8076",
+            "closest_crayola": "#9f8170",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         }
-    ]
+    ],
+    "woe:country_name": "France"
 }

@@ -3,6 +3,7 @@
     "tms:id": "23302",
     "accession_number": "1917-4-581",
     "title": "Drawing, \"Interior of the Temple of Bacchus, Baalbek, Syria\", May 1868",
+    "title_raw": "Interior of the Temple of Bacchus, Baalbek, Syria",
     "url": "http:\/\/collection.cooperhewitt.org\/objects\/18199663\/",
     "department_id": "35347493",
     "period_id": "35417175",
@@ -13,39 +14,64 @@
     "year_end": null,
     "year_acquired": "1917",
     "decade": null,
-    "woe:country": "23424977",
+    "woe:country_id": "23424977",
     "medium": "Brush and oil paint, graphite on cardboard",
     "markings": null,
     "signed": null,
     "inscribed": null,
     "provenance": null,
     "dimensions": "Sheet: 25.4 x 28.6 cm (10 x 11 1\/4 in.)\nMat: 40.6 x 55.9 cm (16 x 22 in.)",
+    "dimensions_raw": {
+        "height": [
+            "25.40",
+            "centimeters"
+        ],
+        "width": [
+            "28.60",
+            "centimeters"
+        ]
+    },
     "creditline": "Gift of Louis P. Church",
     "description": "The lower parts of two bays and the separating columns of one long side are shown.  Parts of the entablature and a capital lie in the foreground.  The brownish grounding color is shown laterally and at the bottom.  In the upper left corner: figures and a small plan.",
     "justification": null,
-    "type": {
-        "id": "35237093",
-        "name": "Drawing"
-    },
+    "woe:country": "23424977",
+    "type": "Drawing",
     "images": [
         {
             "b": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/20318_3ce0b2d6666aeba5_b.jpg",
                 "width": 1024,
                 "height": 658,
-                "is_primary": "1"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/20318_3ce0b2d6666aeba5_n.jpg",
-                "width": 320,
-                "height": 206,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "20318"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/20318_3ce0b2d6666aeba5_z.jpg",
                 "width": 640,
                 "height": 411,
-                "is_primary": "1"
+                "is_primary": "1",
+                "image_id": "20318"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/20318_3ce0b2d6666aeba5_n.jpg",
+                "width": 320,
+                "height": 206,
+                "is_primary": "1",
+                "image_id": "20318"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/20318_3ce0b2d6666aeba5_d.gif",
+                "width": 320,
+                "height": 206,
+                "is_primary": "1",
+                "image_id": "20318"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/20318_3ce0b2d6666aeba5_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "1",
+                "image_id": "20318"
             }
         },
         {
@@ -53,19 +79,36 @@
                 "url": "http:\/\/images.collection.cooperhewitt.org\/16159_723b891f556ba5da_b.jpg",
                 "width": 1024,
                 "height": 655,
-                "is_primary": "0"
-            },
-            "n": {
-                "url": "http:\/\/images.collection.cooperhewitt.org\/16159_723b891f556ba5da_n.jpg",
-                "width": 320,
-                "height": 205,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "16159"
             },
             "z": {
                 "url": "http:\/\/images.collection.cooperhewitt.org\/16159_723b891f556ba5da_z.jpg",
                 "width": 640,
                 "height": 409,
-                "is_primary": "0"
+                "is_primary": "0",
+                "image_id": "16159"
+            },
+            "n": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/16159_723b891f556ba5da_n.jpg",
+                "width": 320,
+                "height": 205,
+                "is_primary": "0",
+                "image_id": "16159"
+            },
+            "d": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/16159_723b891f556ba5da_d.gif",
+                "width": 320,
+                "height": 205,
+                "is_primary": "0",
+                "image_id": "16159"
+            },
+            "sq": {
+                "url": "http:\/\/images.collection.cooperhewitt.org\/16159_723b891f556ba5da_sq.jpg",
+                "width": 300,
+                "height": 300,
+                "is_primary": "0",
+                "image_id": "16159"
             }
         }
     ],
@@ -74,7 +117,9 @@
             "person_id": "18041941",
             "role_id": "35236565",
             "person_name": "Frederic Edwin Church",
+            "person_date": "American, 1826\u20131900",
             "role_name": "Artist",
+            "role_display_name": "",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18041941\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35236565\/"
         },
@@ -82,7 +127,9 @@
             "person_id": "18051625",
             "role_id": "35351535",
             "person_name": "Louis P. Church",
+            "person_date": "American, 1870\u20131943",
             "role_name": "Donor",
+            "role_display_name": "Donated by",
             "person_url": "http:\/\/collection.cooperhewitt.org\/people\/18051625\/",
             "role_url": "http:\/\/collection.cooperhewitt.org\/roles\/35351535\/"
         }
@@ -92,24 +139,35 @@
     },
     "colors": [
         {
-            "color": "#806c51",
-            "closest_css3": "#696969"
+            "color": "#b4a078",
+            "closest_crayola": "#cd9575",
+            "closest_css3": "#bdb76b",
+            "closest_css4": "#bdb76b"
         },
         {
-            "color": "#9e8a68",
-            "closest_css3": "#808080"
+            "color": "#9a7e59",
+            "closest_crayola": "#8a795d",
+            "closest_css3": "#808080",
+            "closest_css4": "#808080"
         },
         {
-            "color": "#c5b697",
-            "closest_css3": "#d2b48c"
+            "color": "#7e6347",
+            "closest_crayola": "#85754e",
+            "closest_css3": "#696969",
+            "closest_css4": "#696969"
         },
         {
-            "color": "#535533",
-            "closest_css3": "#556b2f"
+            "color": "#5e5f3b",
+            "closest_crayola": "#714b23",
+            "closest_css3": "#556b2f",
+            "closest_css4": "#556b2f"
         },
         {
-            "color": "#5d4b39",
-            "closest_css3": "#556b2f"
+            "color": "#44412b",
+            "closest_crayola": "#414a4c",
+            "closest_css3": "#2f4f4f",
+            "closest_css4": "#2f4f4f"
         }
-    ]
+    ],
+    "woe:country_name": "United States"
 }
