@@ -3,6 +3,12 @@ _This file was generated programmatically using the `meta/people-glossary.json` 
 biography
 ==
 
+biography_50_characters
+==
+
+biography_75_words
+==
+
 concordances
 ==
 

@@ -102,6 +102,9 @@ exhibitions.title
 exhibitions.url
 ==
 
+gallery_text
+==
+
 id
 ==
 
@@ -204,6 +207,9 @@ inscribed
 justification
 ==
 
+label_text
+==
+
 markings
 ==
 
@@ -211,6 +217,9 @@ media_id
 ==
 
 medium
+==
+
+on_display
 ==
 
 participants

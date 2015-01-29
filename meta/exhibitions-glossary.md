@@ -18,6 +18,12 @@ department_id
 id
 ==
 
+is_active
+==
+
+text
+==
+
 title
 ==
 
@@ -28,6 +34,9 @@ videos
 ==
 
 videos.description
+==
+
+videos.dimensions
 ==
 
 videos.formats
@@ -51,10 +60,25 @@ videos.formats.mp4.720_subtitled
 videos.id
 ==
 
+videos.image_fingerprints
+==
+
+videos.secret
+==
+
+videos.secret_o
+==
+
+videos.sq_offset
+==
+
 videos.srt
 ==
 
 videos.title
+==
+
+videos.video_fingerprint
 ==
 
 videos.youtube_url
