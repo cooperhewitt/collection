@@ -1,7 +1,7 @@
 prune:
 	git gc --aggressive --prune
 
-build:	csv glossary pubdate
+build:	prune csv glossary pubdate prune
 
 csv:
 	bin/generate-csv-exhibitions.py

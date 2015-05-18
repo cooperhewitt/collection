@@ -204,6 +204,9 @@ images.z.width
 inscribed
 ==
 
+is_loan_object
+==
+
 justification
 ==
 
