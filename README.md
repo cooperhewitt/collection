@@ -1,7 +1,7 @@
 Collection
 ==========
 
-**Cooper-Hewitt, National Design Museum** Cooper-Hewitt is committed to making its collection data available for public access. To date we have made public approximately 75% of the documented [collection](http://collection.cooperhewitt.org) available online. Whilst we have a web interface for searching the collection, we are now also making the dataset available for free public download. By being able to see 'everything' at once, new connections and understandings may be able to be made. For more information please see our [website](http://collection.cooperhewitt.org/developers).
+Cooper Hewitt, Smithsonian Design Museum is committed to making its collection data available for public access. To date we have made public approximately 75% of the documented [collection](http://collection.cooperhewitt.org) available online. Whilst we have a web interface for searching the collection, we are now also making the dataset available for free public download. By being able to see 'everything' at once, new connections and understandings may be able to be made. For more information please see our [website](http://collection.cooperhewitt.org/developers).
 
 Instructions
 ============
@@ -11,11 +11,11 @@ Usage Guidelines
 ================
 Are there any restrictions?
 
-In order to reduce any uncertainty about the 'legitimate uses' of this dataset, Cooper-Hewitt has licensed this release under a Creative Commons Zero (CC0) license. This license is the most permissive available and allows for all types of reuse. It is explained in full in the accompanying license file.
+In order to reduce any uncertainty about the 'legitimate uses' of this dataset, Cooper Hewitt has licensed this release under a Creative Commons Zero (CC0) license. This license is the most permissive available and allows for all types of reuse. It is explained in full in the accompanying license file.
 
 Following the lead of Europeana, we have also released some guidelines for use which suggest that users:
 
-* Give attribution to Smithsonian Cooper-Hewitt, National Design Museum.
+* Give attribution to Cooper Hewitt, Smithsonian Design Museum.
 * Contribute back any modifications or improvements.
 * Do not mislead others or misrepresent the Metadata or its sources.
 * Be responsible.
@@ -29,7 +29,7 @@ Collections items as JSON files
 ============
 
 This departments, exhibitions, objects, people, periods, roles and types folders
-contain Cooper-Hewitt collection data exported as individual
+contain Cooper Hewitt collection data exported as individual
 [JSON](http://www.json.org/) files.
 
 File names and parent directory structures are generated using the unique ID of
