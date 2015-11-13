@@ -57,6 +57,11 @@ There is a good thread about the problem and some potential solutions over here:
 
 http://thread.gmane.org/gmane.comp.version-control.git/189776
 
+See Anything Wrong?
+=========
+
+If you notice a factual error in the data, please [let us know using this form](https://cooperhewitt.zendesk.com/hc/en-us/requests/new). Be sure to include the item's ID or accession number in your description of the error. As this repository represents a downstream export of our collections database, we cannot accept pull requests regarding factual errors. 
+
 Licensing
 =========
 
