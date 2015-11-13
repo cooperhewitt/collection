@@ -86,7 +86,9 @@ if __name__ == '__main__':
 
             if not writer_objects:
                 keys = data.keys()
-                keys.append('primary_image')
+
+                keys.extend(['primary_image','is_active','woe:country_name'])
+
                 keys.sort()
                 writer_objects = csv.DictWriter(fh_objects, fieldnames=keys)
                 writer_objects.writeheader()
